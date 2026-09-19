@@ -1,9 +1,14 @@
 # English_game
 
-English_Game/
+
+English_Game
+│
 ├── index.html
-├── css/
-├── js/
+├── css
+│   └── style.css
+└── js
+    ├── app.js
+    └── words.js
 ├── images/
 │   ├── apple.png
 │   ├── abandon.png
