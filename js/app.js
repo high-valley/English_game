@@ -46,5 +46,10 @@ function showPage(page){
   document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x.dataset.p===page));
   ({home,study,gacha,cards,review})[page]();
 }
-document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>showPage(b.dataset.p));
+document.querySelectorAll("nav button").forEach(b=>{
+  b.addEventListener("click",()=>{
+    showPage(b.dataset.p);
+  });
+});
+
 showPage("home");
