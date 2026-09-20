@@ -264,3 +264,46 @@ img.scene{object-fit:cover}
 .cd3-frame{object-fit:fill}
 .cd3-in.imgf{background:none;border-radius:0;overflow:visible;box-shadow:none}
 .cd3-in.imgf .cd3-frame{filter:drop-shadow(0 0 3cqw color-mix(in srgb,var(--rc) 55%,transparent)) drop-shadow(0 2cqw 4cqw #000a)}
+
+/* ===== ホーム画面（リッチ版） ===== */
+.hm-hero.orn{height:290px}
+.hm-hero .hm-emb{position:absolute;left:50%;top:20px;transform:translateX(-50%);width:124px;height:124px;display:grid;place-items:center;z-index:2}
+.hm-hero .hm-emb .emb{position:static;transform:none;width:84px;height:84px;filter:drop-shadow(0 0 14px #f3cf6aaa)}
+.hm-emb:before,.hm-emb:after{content:"";position:absolute;border-radius:50%;pointer-events:none}
+.hm-emb:before{inset:0;border:1.5px dashed #f1d27a99;animation:spin 30s linear infinite}
+.hm-emb:after{inset:-12px;border:1px solid #f1d27a44;box-shadow:0 0 30px #f1d27a55,inset 0 0 24px #f1d27a33;animation:hmPulse 3.4s ease-in-out infinite}
+@keyframes hmPulse{50%{transform:scale(1.06);opacity:.6}}
+.hm-rays{position:absolute;left:50%;top:26%;width:460px;height:460px;margin:-230px 0 0 -230px;z-index:1;pointer-events:none;mix-blend-mode:screen;background:repeating-conic-gradient(#ffe9a02e 0 5deg,transparent 5deg 18deg);-webkit-mask:radial-gradient(circle,#000 8%,transparent 66%);mask:radial-gradient(circle,#000 8%,transparent 66%);animation:spin 80s linear infinite}
+.spk{position:absolute;z-index:2;width:6px;height:6px;background:#fff6c8;clip-path:polygon(50% 0,62% 38%,100% 50%,62% 62%,50% 100%,38% 62%,0 50%,38% 38%);animation:twinkle 2.8s ease-in-out infinite;opacity:0}
+@keyframes twinkle{0%,100%{opacity:0;transform:scale(.4)}50%{opacity:1;transform:scale(1.6)}}
+.hm-cap{padding-top:60px}
+.hm-cap .hm-title{font-size:34px;background:linear-gradient(100deg,#f1d27a 30%,#fff8d0 46%,#f1d27a 62%);background-size:220% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 3px 10px #000);animation:shine 5s ease-in-out infinite}
+@keyframes shine{0%,40%{background-position:120% 0}100%{background-position:-80% 0}}
+.hm-lv{gap:12px;padding:8px 14px 8px 8px;border-radius:99px}
+.hm-rank{flex:none;width:52px;height:52px;border-radius:50%;display:grid;place-items:center;align-content:center;border:2px solid #f1d27a;background:radial-gradient(circle,#3a3163,#12163a);box-shadow:0 0 14px #f1d27a44}
+.hm-rank span{font:700 9px Georgia,serif;color:#c9a24a;letter-spacing:1px;line-height:1}.hm-rank b{font:900 22px/1 Georgia,serif;color:#ffe08a}
+.hm-lvbody{flex:1;min-width:0}
+.hm-lvt{display:flex;justify-content:space-between;font-size:12px;color:#c9cde0;margin-bottom:5px}
+.hm-bar{height:10px;background:#1a2148;border:1px solid #6b5a2c}
+.hm-bar i{position:relative;background:linear-gradient(90deg,#9b7730,#f2d47a)}
+.hm-bar i:after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 30%,#fff9 50%,transparent 70%);background-size:200% 100%;animation:shimmer 2.6s linear infinite}
+@keyframes shimmer{from{background-position:200% 0}to{background-position:-100% 0}}
+.hm-stats div{padding:10px 4px 9px;position:relative}
+.hm-stats .ic{width:32px;height:32px;font-size:17px;border-radius:50%;margin-bottom:3px}
+.hm-stats b{font:900 20px Georgia,serif;background:linear-gradient(#fff6c8,#e5b84a);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hm-stats small{display:inline;font:600 11px system-ui;-webkit-text-fill-color:#8a91aa}
+.hm-btn{position:relative;overflow:hidden}
+.hm-main{padding:18px 12px;border-color:#f1d27a;background:linear-gradient(90deg,#4a3a9a,#2c2270 55%,#1d1856);box-shadow:inset 0 0 20px #0005,0 0 22px #6a4fd055,0 8px 18px #000a}
+.hm-main .ic{width:50px;height:50px;font-size:27px}
+.hm-main>span{font-size:22px}
+.hm-main:after{content:"";position:absolute;top:0;bottom:0;left:-60%;width:40%;background:linear-gradient(100deg,transparent,#fff3,transparent);transform:skewX(-20deg);animation:sweep 4.5s ease-in-out infinite}
+@keyframes sweep{0%,55%{left:-60%}100%{left:130%}}
+.hm-go{font:normal 900 28px/1 Georgia,serif;color:#f1d27a;margin-right:6px}
+.hm-badge{position:absolute;top:-1px;right:-1px;padding:3px 10px 3px 12px;border-radius:0 12px 0 12px;background:#141a3a;border-left:1.5px solid #b8902f;border-bottom:1.5px solid #b8902f;color:#f1d27a;font:800 11px system-ui;font-style:normal}
+.hm-badge.on{background:linear-gradient(#ffe788,#c78c22);color:#211606;animation:hmPulse 1.6s ease-in-out infinite}
+.hm-row .hm-btn{padding:14px 8px 12px}
+@media(prefers-reduced-motion:reduce){.hm-rays,.hm-emb:before,.hm-emb:after,.spk,.hm-cap .hm-title,.hm-bar i:after,.hm-main:after,.hm-badge.on{animation:none}}
+.hm-row .hm-btn,.hm-btn:not(.hm-main){padding-top:22px}
+.hm-badge{font-size:10.5px}
+.hm-cap .hm-title{background-image:linear-gradient(100deg,#f1d27a 25%,#fff8d0 45%,#f1d27a 65%);background-repeat:repeat-x}
+.hm-cap .hm-title,.sp-title{text-shadow:none}
