@@ -215,3 +215,48 @@ nav button.on{border:2px solid #f1d27a;background:linear-gradient(#3a3163,#1a1d3
 .fitwrap>img,.cf-art .fitwrap>img,.mc-art .fitwrap>img{position:relative;display:block;width:100%;height:100%;object-fit:contain;border-radius:0;filter:none}
 .quiz .fitwrap{height:150px;border-radius:12px;margin-bottom:6px}
 .fitwrap>img.fitbg,.cf-art .fitwrap>img.fitbg,.mc-art .fitwrap>img.fitbg{position:absolute;left:-14px;top:-14px;width:calc(100% + 28px);height:calc(100% + 28px);object-fit:cover;filter:blur(14px) brightness(.85)}
+
+/* ===== 新カード（参考画像のレイアウト）===== */
+.cd3{container-type:inline-size;width:100%}
+.cd3-in{position:relative;aspect-ratio:3/4;border-radius:5.4cqw;overflow:hidden;background:radial-gradient(1px 1px at 12% 30%,#fff8,transparent),radial-gradient(1px 1px at 80% 55%,#fff6,transparent),radial-gradient(1px 1px at 40% 92%,#fff6,transparent),radial-gradient(circle at 50% 35%,#1f2d6a,#0b1030 72%);box-shadow:0 0 6cqw color-mix(in srgb,var(--rc) 45%,transparent),0 3cqw 8cqw #000a}
+.cd3-in>*{position:absolute}
+.cd3-frame{inset:0;width:100%;height:100%;pointer-events:none;z-index:3}
+.cd3-art{overflow:hidden;border-radius:2cqw;z-index:1;background:#101a40}
+.cd3-art>*{width:100%;height:100%}
+.cd3-art .cart{display:block}
+.cd3-art .art{background:none;height:100%;display:grid;place-items:center;font-size:24cqw}
+.scn{position:relative}.scn .cart{position:absolute;inset:0}
+.scn-pad{position:absolute;left:50%;top:66%;width:34%;height:9%;transform:translateX(-50%);border-radius:50%;background:radial-gradient(#fff6c0aa,transparent 70%)}
+.scn-ic{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-size:23cqw;line-height:1;filter:drop-shadow(0 0 3cqw #ffe9a0) drop-shadow(0 1cqw 1cqw #0008)}
+.cd3-star,.cd3-word,.cd3-plate,.cd3-info,.cd3-lv,.cd3-rar{z-index:4;display:flex;align-items:center;justify-content:center;text-align:center}
+.cd3-star{flex-direction:column;gap:.6cqw;padding-top:1cqw;color:#f4d477}
+.cd3-star span{font-size:3.6cqw;line-height:1;letter-spacing:-.2cqw;text-shadow:0 0 2cqw #f1d27a}
+.cd3-star em{font:normal 800 3.5cqw Georgia,serif;letter-spacing:.3cqw;color:var(--rc);filter:brightness(1.5)}
+.cd3-word{gap:1.6cqw;font:800 4cqw Georgia,serif;letter-spacing:.4cqw;color:#f4e4b0}.cd3-word svg{width:5.4cqw;height:5.4cqw}
+.cd3-plate{gap:2cqw;color:#0e1430}
+.cd3-plate span{font:900 10.4cqw/1 Georgia,"Times New Roman",serif;text-shadow:0 .3cqw 0 #fff8}
+.cd3-plate button{background:none;border:0;font-size:5cqw;padding:0;cursor:pointer;filter:sepia(.4)}
+.cd3-info{flex-direction:column;justify-content:center;gap:1.2cqw;padding:0 3cqw;color:#f4efe0}
+.cd3-pill{padding:.6cqw 4.5cqw;border:.4cqw solid #c9a24a;border-radius:99px;font:600 3.4cqw system-ui;color:#f1d27a;background:#0d1436}
+.cd3-ja{font:800 5.6cqw/1.2 system-ui;color:#fff;text-shadow:0 0 2cqw #3aa0ff55}
+.cd3-div{width:86%;height:.5cqw;margin:.6cqw 0;background:linear-gradient(90deg,transparent,#c9a24a 20%,#c9a24a 80%,transparent);position:relative}
+.cd3-div:after{content:"";position:absolute;left:50%;top:50%;width:1.8cqw;height:1.8cqw;background:#3aa0ff;border:.3cqw solid #fff3bf;transform:translate(-50%,-50%) rotate(45deg)}
+.cd3-ex{font:500 3.9cqw/1.4 Georgia,serif;color:#f4efe0}.cd3-ex b{color:#fff;font-weight:900;text-shadow:0 0 1.5cqw #f1d27a88}
+.cd3-tr{font:500 3.1cqw/1.4 system-ui;color:#c9cde0}
+.cd3-lv{justify-content:flex-start;gap:2.6cqw;padding:0 4.5cqw;font:600 4.6cqw Georgia,serif;color:#f4e4b0}
+.cd3-lv i{flex:1;height:2.6cqw;border-radius:99px;background:#1a2148;border:.4cqw solid #6b5a2c;overflow:hidden}
+.cd3-lv u{display:block;height:100%;background:linear-gradient(90deg,#9b7730,#f2d47a)}
+.cd3-lv span{font-size:3.4cqw;color:#c9cde0}
+.cd3-rar{flex-direction:column;gap:.4cqw;color:#f4e4b0;font:800 3.6cqw Georgia,serif}.cd3-rar svg{width:6cqw;height:6cqw;filter:drop-shadow(0 0 1.5cqw #f1d27a)}
+.rv{width:min(86vw,340px)}.rv-panel,.gx .gold-btn{width:min(86vw,340px)}
+.rv-new{bottom:22%;right:-12px}
+.sd-card{max-width:320px}
+
+.cd3-star em{font-size:2.9cqw;letter-spacing:0}
+.cd3-info{gap:.8cqw;padding:2cqw 3cqw 0}
+.cd3-pill{padding:.3cqw 4cqw;font-size:3.2cqw}
+.cd3-ja{font-size:5.2cqw}
+.cd3-ex{font-size:3.6cqw;line-height:1.35}.cd3-tr{font-size:2.9cqw;line-height:1.35}
+.cd3-div{margin:.2cqw 0}
+.cd3-info{padding-top:1cqw}.cd3-info.long .cd3-ex{font-size:3.3cqw}.cd3-info.long .cd3-tr{font-size:2.7cqw}.cd3-info.long{gap:.4cqw}
+.rv-new{top:33%;bottom:auto;right:4%;transform:rotate(8deg);z-index:9}
