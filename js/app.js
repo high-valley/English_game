@@ -41,12 +41,14 @@ function shuffleOpts(correct){const o=[correct];while(o.length<4){const x=WORDS[
 /* ホーム */
 function home(){
   const owned=WORDS.filter(w=>S.owned[w.id]).length,mastered=Object.values(S.mastery).filter(x=>x>=5).length,L=lvInfo();
-  $("#main").innerHTML=`<section class="hm"><div class="hm-hero orn">${bgScene("home_bg")}${EMB}<div class="hm-cap"><div class="hm-title">WORD QUEST</div><div class="hm-sub">英語を集め、覚える。</div></div></div>
-  <div class="hm-lv"><b>Lv.${L.lv}</b><div class="hm-bar"><i style="width:${L.cur/L.need*100}%"></i></div><span>${L.cur}/${L.need}</span></div>
-  <div class="hm-stats"><div><b>🪙 ${S.coins}</b>コイン</div><div><b>🃏 ${owned}/${WORDS.length}</b>コレクション</div><div><b>🧠 ${mastered}</b>マスター</div></div>
-  <button class="hm-btn" onclick="showPage('study')"><i class="ic">📖</i><span>勉強<small>学んでコインを獲得</small></span></button>
-  <div class="hm-row"><button class="hm-btn" onclick="showPage('gacha')"><i class="ic">🎰</i><span>ガチャ<small>カードを引く</small></span></button><button class="hm-btn" onclick="showPage('cards')"><i class="ic">🃏</i><span>カード<small>図鑑を見る</small></span></button></div>
-  <button class="hm-btn" onclick="showPage('review')"><i class="ic">🧠</i><span>復習<small>集めたカードを覚える</small></span></button></section>`;save()}
+  const pulls=Math.floor(S.coins/100),pend=WORDS.filter(w=>S.owned[w.id]&&(S.mastery[w.id]||0)<5).length;
+  const spk=[[10,22],[24,64],[38,14],[62,18],[78,58],[90,26],[52,70],[16,82]].map(([x,y],k)=>`<i class="spk" style="left:${x}%;top:${y}%;animation-delay:${k*.45}s"></i>`).join("");
+  $("#main").innerHTML=`<section class="hm"><div class="hm-hero orn">${bgScene("home_bg")}<i class="hm-rays"></i>${spk}<div class="hm-emb">${EMB}</div><div class="hm-cap"><div class="hm-title">WORD QUEST</div><div class="hm-sub">英語を集め、覚える。</div></div></div>
+  <div class="hm-lv"><div class="hm-rank"><span>LV</span><b>${L.lv}</b></div><div class="hm-lvbody"><div class="hm-lvt"><span>冒険者ランク</span><span>${L.cur} / ${L.need} XP</span></div><div class="hm-bar"><i style="width:${Math.max(3,L.cur/L.need*100)}%"></i></div></div></div>
+  <div class="hm-stats"><div><i class="ic">🪙</i><b>${S.coins}</b>コイン</div><div><i class="ic">🃏</i><b>${owned}<small>/${WORDS.length}</small></b>コレクション</div><div><i class="ic">🧠</i><b>${mastered}</b>マスター</div></div>
+  <button class="hm-btn hm-main" onclick="showPage('study')"><i class="ic">📖</i><span>勉強<small>正解するたび +25コイン</small></span><em class="hm-go">›</em></button>
+  <div class="hm-row"><button class="hm-btn" onclick="showPage('gacha')"><i class="ic">🎰</i><span>ガチャ<small>カードを引く</small></span>${pulls?`<em class="hm-badge on">引ける！×${pulls}</em>`:`<em class="hm-badge">あと${100-S.coins}🪙</em>`}</button><button class="hm-btn" onclick="showPage('cards')"><i class="ic">🃏</i><span>カード<small>図鑑を見る</small></span><em class="hm-badge">${owned}/${WORDS.length}</em></button></div>
+  <button class="hm-btn" onclick="showPage('review')"><i class="ic">🧠</i><span>復習<small>集めたカードを覚える</small></span>${pend?`<em class="hm-badge">${pend}枚</em>`:""}<em class="hm-go">›</em></button></section>`;save()}
 
 /* 勉強 */
 let studyWord;

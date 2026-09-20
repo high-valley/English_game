@@ -54,7 +54,7 @@ function heroScene(){
   <path d="M120 178h160l-24 40-30 30-26-22-26 22-30-30z" fill="#1d1848"/><ellipse cx="200" cy="178" rx="80" ry="8" fill="#2f5a4a"/>
   <g fill="#181240"><rect x="160" y="140" width="80" height="38"/><rect x="190" y="84" width="20" height="60"/><path d="M186 86l14-34 14 34z"/><rect x="164" y="112" width="16" height="34"/><path d="M160 114l12-26 12 26z"/><rect x="220" y="112" width="16" height="34"/><path d="M216 114l12-26 12 26z"/><rect x="146" y="150" width="12" height="28"/><path d="M143 152l9-18 9 18z"/><rect x="242" y="150" width="12" height="28"/><path d="M239 152l9-18 9 18z"/></g>
   <g fill="#ffd66a"><rect x="197" y="104" width="6" height="10" rx="3"/><rect x="169" y="128" width="6" height="8" rx="3"/><rect x="225" y="128" width="6" height="8" rx="3"/><rect x="190" y="156" width="20" height="22" rx="10"/></g>
-  <g fill="#fff" opacity=".85"><ellipse cx="70" cy="240" rx="80" ry="16"/><ellipse cx="200" cy="252" rx="100" ry="16"/><ellipse cx="340" cy="238" rx="80" ry="16"/></g></svg>`}
+  <g fill="none" stroke="#2a1d55" stroke-width="1.6" stroke-linecap="round"><path d="M92 62q5-7 10 0q5-7 10 0M120 48q4-6 8 0q4-6 8 0M300 66q4-6 8 0q4-6 8 0"/></g><g fill="#ffe9a0" opacity=".35"><path d="M200 84L120 0h30zM200 84L250 0h34z"/></g><g fill="#fff" opacity=".85"><ellipse cx="70" cy="240" rx="80" ry="16"/><ellipse cx="200" cy="252" rx="100" ry="16"/><ellipse cx="340" cy="238" rx="80" ry="16"/></g></svg>`}
 
 /* ===== 新カードデザイン：金の飾り枠（viewBox 300x400。中身はHTMLを重ねる） ===== */
 const CARD_FRAME=(()=>{
