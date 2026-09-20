@@ -2,11 +2,11 @@
 
 ## 画像の比率について
 - **プロンプトの文章だけでは比率は保証されません。** 比率は画像生成AIの「サイズ／アスペクト比」設定で決まります。
-  - Midjourney：末尾に `--ar 4:3`
-  - ChatGPT / Gemini など：設定に比率の選択があればそこで 4:3（横長）を選ぶ。無ければ文章で頼み、出てきた画像のサイズを確認する
-  - 目安のサイズ：1600x1200（4:3）
-- ゲーム側のカード画像枠は **4:3（横長）** です。
-- 4:3 以外の画像でも、**切り抜かず全体を表示**します（余白は、ぼかした同じ画像で埋めます）。ただし4:3が最もきれいです。
+  - Midjourney：末尾に `--ar 3:2`
+  - ChatGPT / Gemini など：設定に比率の選択があればそこで 3:2（横長）を選ぶ。無ければ文章で頼み、出てきた画像のサイズを確認する
+  - 目安のサイズ：1800x1200（3:2）
+- ゲーム側のカード画像枠は **3:2（横長）** です。
+- 3:2 以外の画像でも、**切り抜かず全体を表示**します（余白は、ぼかした同じ画像で埋めます）。ただし3:2が最もきれいです。
 - 被写体は**画面の中央**に置くよう頼んでください（共通スタイルに入れてあります）。
 - 枠や文字はゲーム側で付けるので、画像には入れません。
 
@@ -16,7 +16,7 @@
 例: `const CARD_IMG={apple:"assets/apple_art.png", cat:"assets/cards/cat.png"};`
 
 ## 共通スタイル（各プロンプトの末尾に付ける）
-fantasy trading card game illustration, ornate golden glow, rich saturated colors, dramatic magical lighting, sparkles and floating particles, deep navy and gold palette, subject centered with generous margin, 4:3 landscape composition, highly detailed, painterly, no text, no letters, no border, no frame
+fantasy trading card game illustration, ornate golden glow, rich saturated colors, dramatic magical lighting, sparkles and floating particles, deep navy and gold palette, subject centered with generous margin, 3:2 landscape composition, highly detailed, painterly, no text, no letters, no border, no frame
 
 ## 単語ごとの場面（英文に沿った絵）
 | 単語 | カードの英文 | プロンプト（共通スタイルを追加） |
