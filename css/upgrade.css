@@ -262,3 +262,5 @@ nav button.on{border:2px solid #f1d27a;background:linear-gradient(#3a3163,#1a1d3
 .rv-new{top:33%;bottom:auto;right:4%;transform:rotate(8deg);z-index:9}
 img.scene{object-fit:cover}
 .cd3-frame{object-fit:fill}
+.cd3-in.imgf{background:none;border-radius:0;overflow:visible;box-shadow:none}
+.cd3-in.imgf .cd3-frame{filter:drop-shadow(0 0 3cqw color-mix(in srgb,var(--rc) 55%,transparent)) drop-shadow(0 2cqw 4cqw #000a)}
