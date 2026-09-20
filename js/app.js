@@ -38,26 +38,52 @@ let studyWord;
 function study(){
   studyWord=WORDS[Math.floor(Math.random()*Math.min(55,WORDS.length))];const a=shuffleOpts(studyWord.ja);
   $("#main").innerHTML=`<div class="hero"><h1>📖 勉強</h1><div class="muted">正解すると +25コイン</div></div><div class="stat"><div><b>${S.coins}</b>コイン</div><div><b>${Object.keys(S.owned).length}</b>種類</div><div><b>${WORDS.length}</b>単語</div></div><div class="quiz"><div class="muted">この英単語の意味は？</div><div class="q">${studyWord.en}</div><div class="answers">${a.map(x=>`<button onclick="studyAns('${encodeURIComponent(x)}')">${x}</button>`).join("")}</div><div id="res" class="result"></div></div>`;save()}
-function studyAns(v){const ok=decodeURIComponent(v)===studyWord.ja;$("#res").innerHTML=ok?"🎉 正解！ +25コイン":"❌ 正解は「"+studyWord.ja+"」";if(ok){S.coins+=10000;S.xp+=2}save();setTimeout(study,850)}
+function studyAns(v){const ok=decodeURIComponent(v)===studyWord.ja;$("#res").innerHTML=ok?"🎉 正解！ +25コイン":"❌ 正解は「"+studyWord.ja+"」";if(ok){S.coins+=25;S.xp+=2}save();setTimeout(study,850)}
 
 /* ガチャ */
+let GM="one",GN=10;
+const maxN=()=>Math.max(1,Math.min(100,Math.floor(S.coins/100)));
 function gacha(){
+  GN=Math.min(GN,maxN());
+  const multi=GM==="multi",n=multi?GN:1;
   $("#main").innerHTML=`<section class="gp orn"><div class="gp-title"><i class="ic">🎰</i>ガチャ</div><div class="gp-sub">勉強してコインを貯めてカードを引こう</div>
-  <div class="gp-pack" onclick="pull()"><img src="assets/pack.svg" alt="WORD QUEST パック"></div>
-  <div class="gp-price">1回 🪙 100コイン</div>
+  <div class="gm-tabs"><button class="${multi?"":"on"}" onclick="setGM('one')">1回</button><button class="${multi?"on":""}" onclick="setGM('multi')">まとめて</button></div>
+  <div class="gp-pack" onclick="pullBtn()"><img src="assets/pack.svg" alt="WORD QUEST パック"></div>
+  ${multi?`<div class="gm-box"><div class="gm-step"><button onclick="gnSet(GN-10)">−10</button><button onclick="gnSet(GN-1)">−</button><input id="gn" type="number" inputmode="numeric" min="1" max="${maxN()}" value="${GN}" oninput="gnSet(this.value,1)"><button onclick="gnSet(GN+1)">＋</button><button onclick="gnSet(GN+10)">＋10</button></div>
+  <div class="gm-quick"><button onclick="gnSet(10)">10回</button><button onclick="gnSet(50)">50回</button><button onclick="gnSet(999)">最大 ${maxN()}回</button></div></div>`:""}
+  <div class="gp-price" id="gp-price"></div>
   <div class="rates orn"><div class="rates-h">レアリティ排出率</div><div class="rates-row">${RATES.map(([r,p])=>`<div class="r-${r}"><i class="gem"></i>${r}<b>${p}%</b></div>`).join("")}</div></div>
-  <button class="gold-btn" onclick="pull()">🎁 1回引く</button></section>`;save()}
+  <button class="gold-btn" id="gp-btn" onclick="pullBtn()"></button></section>`;gnLabel();save()}
+function gnLabel(){const n=GM==="multi"?GN:1;$("#gp-price").innerHTML=n===1?"1回 🪙 100コイン":`${n}回 🪙 ${n*100}コイン<small>　所持 🪙 ${S.coins}</small>`;$("#gp-btn").textContent=`🎁 ${n}回引く`}
+function setGM(m){GM=m;gacha()}
+function gnSet(v,typing){GN=Math.max(1,Math.min(maxN(),parseInt(v)||1));const i=$("#gn");if(i&&!typing)i.value=GN;gnLabel()}
+function pullBtn(){GM==="multi"&&GN>1?pullMulti(GN):pull()}
 function shards(){let h="";for(let i=0;i<16;i++)h+=`<i class="shard" style="--a:${i*22.5}deg;--d:${120+Math.random()*90}px"></i>`;return h}
-function pull(){
-  if($(".gx"))return;
-  if(S.coins<100){toast("コインが足りません。まず勉強しよう！");return}
-  S.coins-=100;const w=draw(),before=S.owned[w.id]||0;S.owned[w.id]=before+1;S.xp+=5;save(); // 演出中に閉じてもカードは失われない
+function packAnim(done){
   const g=document.createElement("div");g.className="gx";
   g.innerHTML=`<div class="gx-stage"><div class="gx-glow"></div><img class="gx-pack" src="assets/pack.svg" alt=""></div>`;
   document.body.appendChild(g);const st=g.firstChild;
   setTimeout(()=>st.classList.add("charge"),700);
   setTimeout(()=>{st.classList.remove("charge");st.classList.add("open");st.insertAdjacentHTML("beforeend",shards())},1600);
-  setTimeout(()=>{st.className="gx-stage";st.innerHTML=`<div class="gx-glow big"></div><img class="gx-back" src="assets/card_back.svg" alt=""><div class="gx-tap">« TAP TO OPEN »</div>`;st.onclick=()=>reveal(g,st,w,before)},2300)}
+  setTimeout(()=>done(g,st),2300)}
+function pull(){
+  if($(".gx"))return;
+  if(S.coins<100){toast("コインが足りません。まず勉強しよう！");return}
+  S.coins-=100;const w=draw(),before=S.owned[w.id]||0;S.owned[w.id]=before+1;S.xp+=5;save(); // 演出中に閉じてもカードは失われない
+  packAnim((g,st)=>{st.className="gx-stage";st.innerHTML=`<div class="gx-glow big"></div><img class="gx-back" src="assets/card_back.svg" alt=""><div class="gx-tap">« TAP TO OPEN »</div>`;st.onclick=()=>reveal(g,st,w,before)})}
+function pullMulti(n){
+  if($(".gx"))return;
+  if(S.coins<100*n){toast(`コインが足りません（必要 ${100*n}）`);return}
+  S.coins-=100*n;const res=[];
+  for(let i=0;i<n;i++){const w=draw(),before=S.owned[w.id]||0;S.owned[w.id]=before+1;res.push({w,isNew:before===0})}
+  S.xp+=5*n;save();res.sort((a,b)=>b.w.stars-a.w.stars);
+  packAnim(g=>showResults(g,res,n))}
+function showResults(g,res,n){
+  const cnt={};res.forEach(r=>cnt[r.w.rarity]=(cnt[r.w.rarity]||0)+1);const nw=res.filter(r=>r.isNew).length;
+  g.innerHTML=`<div class="gr"><div class="gr-title">✨ ${n}回ガチャ結果 ✨</div>
+  <div class="gr-sum">${RATES.map(([r])=>cnt[r]?`<span class="r-${r}"><i class="gem"></i>${cnt[r]}</span>`:"").join("")}<b>NEW ${nw}</b></div>
+  <div class="gr-grid">${res.map(r=>`<button class="mc r-${r.w.rarity}" onclick="cardDetail(${r.w.id})"><div class="mc-art">${artHtml(r.w,"mc-img")}</div><div>${r.w.en}</div><div class="mc-st">${"★".repeat(r.w.stars)}</div>${r.isNew?'<em class="gr-new">NEW</em>':""}</button>`).join("")}</div>
+  <div class="gr-note">タップでカードを拡大</div><button class="gold-btn" onclick="closeGx()">OK</button></div>`}
 function reveal(g,st,w,before){
   st.onclick=null;st.classList.add("flip");
   setTimeout(()=>{g.innerHTML=`<div class="rv r-${w.rarity}">${cardFace(w)}<div class="rv-new">${before===0?"NEW!":"GET!"}</div></div>
