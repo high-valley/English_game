@@ -32,3 +32,14 @@ symmetrical, highly detailed, front view
 - 枠の処理は、公開URL（GitHub Pages など）で動きます。パソコン内の `file://` で開いた場合は、セキュリティ制限で枠画像が使われません。
 - 画像を差し替えたら、ブラウザを再読み込み（キャッシュ更新）してください。
 - `_layout_*.png` は不要になったら削除して構いません。
+
+## home_bg（ホーム上部の絵）のプロンプト例
+- 比率は横長 16:9（例 1600x900）。上下左右は少し切れることがあります。
+- 中央上部（エンブレムが重なる）と下部（タイトル文字が重なる）は、細かい描き込みを避けてもらうと文字が読みやすくなります。
+```
+epic fantasy landscape, a majestic floating castle city on a sky island at golden sunset,
+glowing clouds, distant floating islands, warm orange and purple sky, god rays,
+painterly, highly detailed, wide 16:9 composition,
+the upper center and the bottom center kept relatively calm and uncluttered,
+no text, no letters, no characters, no UI
+```
