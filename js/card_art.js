@@ -2,7 +2,7 @@
    ・CARD_IMG … 生成した画像を使う単語（assets/cards/○○.png を置いて追記）
    ・CARD_EXTRA … その単語を使った一文（s:英文 t:和訳）
    ・ART_SVG … コードで描いたイラスト（画像が無い単語に使われる） */
-const CARD_IMG={apple:"assets/apple_art.png",abandon:"assets/cards/abandon.jpg"};
+const CARD_IMG={apple:"assets/cards/apple.png",abandon:"assets/cards/abandon.jpg"};
 const CARD_EXTRA={
   apple:{s:"The knight ate a red apple and regained his strength.",t:"騎士は赤いりんごを食べ、力を取り戻した。"},
   cat:{s:"The cat guarded the castle gate all night.",t:"猫は一晩中、城門を守り抜いた。"},
