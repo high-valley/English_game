@@ -260,3 +260,5 @@ nav button.on{border:2px solid #f1d27a;background:linear-gradient(#3a3163,#1a1d3
 .cd3-div{margin:.2cqw 0}
 .cd3-info{padding-top:1cqw}.cd3-info.long .cd3-ex{font-size:3.3cqw}.cd3-info.long .cd3-tr{font-size:2.7cqw}.cd3-info.long{gap:.4cqw}
 .rv-new{top:33%;bottom:auto;right:4%;transform:rotate(8deg);z-index:9}
+img.scene{object-fit:cover}
+.cd3-frame{object-fit:fill}
