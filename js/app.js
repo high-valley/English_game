@@ -23,15 +23,15 @@ function hl(s,en){return s.replace(new RegExp("\\b("+en+"\\w*)","i"),"<b>$1</b>"
 function speak(t){try{const u=new SpeechSynthesisUtterance(t);u.lang="en-US";speechSynthesis.cancel();speechSynthesis.speak(u)}catch(e){}}
 function cardArt(w){return CARD_IMG[w.en]||ART_SVG[w.en]?artHtml(w):`<div class="scn">${sceneSvg(w.rarity)}<i class="scn-pad"></i><div class="scn-ic">${icon(w)}</div></div>`}
 function cardFace(w){
-  const x=CARD_EXTRA[w.en],n=S.owned[w.id]||0,m=S.mastery[w.id]||0,ex=x?x.s:w.ex,tr=x?x.t:w.tr;
+  const x=CARD_EXTRA[w.en],n=S.owned[w.id]||0,m=S.mastery[w.id]||0,ex=x?x.s:w.ex,tr=x?x.t:w.tr,F=uiFrame(w.rarity),L={...LAYOUT,...(F&&F.art?{art:F.art}:{}),...(F&&F.info?{info:F.info}:{}),...LAYOUT_OVERRIDE};
   return `<div class="cd3 r-${w.rarity}"><div class="cd3-in">
-  <div class="cd3-art" style="${P(24,22,252,168)}">${cardArt(w)}</div>${CARD_FRAME}
-  <div class="cd3-star" style="${P(12,12,64,64)}"><span>${"★".repeat(w.stars)}</span><em>${w.rarity==="LEGENDARY"?"LEGEND":w.rarity==="UNCOMMON"?"UNCOMMON":w.rarity}</em></div>
-  <div class="cd3-word" style="${P(204,18,78,28)}"><svg viewBox="0 0 24 24"><path d="M2 5c4-1.5 7-1 10 1v14c-3-2-6-2.5-10-1zM22 5c-4-1.5-7-1-10 1v14c3-2 6-2.5 10-1z" fill="#f4e4b0"/></svg>WORD</div>
-  <div class="cd3-plate" style="${P(40,182,220,36)}"><span>${w.en}</span><button onclick="event.stopPropagation();speak('${w.en}')" aria-label="発音">🔊</button></div>
-  <div class="cd3-info${ex.length>46?" long":""}" style="${P(28,231,244,104)}"><div class="cd3-pill">${w.pos}</div><div class="cd3-ja">${w.ja}</div><div class="cd3-div"></div><div class="cd3-ex">${hl(ex,w.en)}</div><div class="cd3-tr">${tr}</div></div>
-  <div class="cd3-lv" style="${P(28,348,160,34)}"><b>Lv.${Math.max(1,n)}</b><i><u style="width:${m*20}%"></u></i><span>${m}/5</span></div>
-  <div class="cd3-rar" style="${P(198,344,86,48)}"><svg viewBox="0 0 24 24"><path d="M12 1l2.6 8.4L23 12l-8.4 2.6L12 23l-2.6-8.4L1 12l8.4-2.6z" fill="#f1d27a"/></svg><span>×${n}</span></div>
+  <div class="cd3-art" style="${P(...L.art)}">${cardArt(w)}</div>${F?`<img class="cd3-frame" src="${F.url}" alt="">`:CARD_FRAME}
+  <div class="cd3-star" style="${P(...L.star)}"><span>${"★".repeat(w.stars)}</span><em>${w.rarity==="LEGENDARY"?"LEGEND":w.rarity==="UNCOMMON"?"UNCOMMON":w.rarity}</em></div>
+  <div class="cd3-word" style="${P(...L.word)}"><svg viewBox="0 0 24 24"><path d="M2 5c4-1.5 7-1 10 1v14c-3-2-6-2.5-10-1zM22 5c-4-1.5-7-1-10 1v14c3-2 6-2.5 10-1z" fill="#f4e4b0"/></svg>WORD</div>
+  <div class="cd3-plate" style="${P(...L.plate)}"><span>${w.en}</span><button onclick="event.stopPropagation();speak('${w.en}')" aria-label="発音">🔊</button></div>
+  <div class="cd3-info${ex.length>46?" long":""}" style="${P(...L.info)}"><div class="cd3-pill">${w.pos}</div><div class="cd3-ja">${w.ja}</div><div class="cd3-div"></div><div class="cd3-ex">${hl(ex,w.en)}</div><div class="cd3-tr">${tr}</div></div>
+  <div class="cd3-lv" style="${P(...L.lv)}"><b>Lv.${Math.max(1,n)}</b><i><u style="width:${m*20}%"></u></i><span>${m}/5</span></div>
+  <div class="cd3-rar" style="${P(...L.rar)}"><svg viewBox="0 0 24 24"><path d="M12 1l2.6 8.4L23 12l-8.4 2.6L12 23l-2.6-8.4L1 12l8.4-2.6z" fill="#f1d27a"/></svg><span>×${n}</span></div>
   </div></div>`}
 
 function lvInfo(){let xp=S.xp,lv=1,need=10;while(xp>=need){xp-=need;lv++;need=10+(lv-1)*5}return{lv,cur:xp,need}}
@@ -41,7 +41,7 @@ function shuffleOpts(correct){const o=[correct];while(o.length<4){const x=WORDS[
 /* ホーム */
 function home(){
   const owned=WORDS.filter(w=>S.owned[w.id]).length,mastered=Object.values(S.mastery).filter(x=>x>=5).length,L=lvInfo();
-  $("#main").innerHTML=`<section class="hm"><div class="hm-hero orn">${heroScene()}${EMB}<div class="hm-cap"><div class="hm-title">WORD QUEST</div><div class="hm-sub">英語を集め、覚える。</div></div></div>
+  $("#main").innerHTML=`<section class="hm"><div class="hm-hero orn">${bgScene("home_bg")}${EMB}<div class="hm-cap"><div class="hm-title">WORD QUEST</div><div class="hm-sub">英語を集め、覚える。</div></div></div>
   <div class="hm-lv"><b>Lv.${L.lv}</b><div class="hm-bar"><i style="width:${L.cur/L.need*100}%"></i></div><span>${L.cur}/${L.need}</span></div>
   <div class="hm-stats"><div><b>🪙 ${S.coins}</b>コイン</div><div><b>🃏 ${owned}/${WORDS.length}</b>コレクション</div><div><b>🧠 ${mastered}</b>マスター</div></div>
   <button class="hm-btn" onclick="showPage('study')"><i class="ic">📖</i><span>勉強<small>学んでコインを獲得</small></span></button>
@@ -61,7 +61,7 @@ const maxN=()=>Math.max(1,Math.min(100,Math.floor(S.coins/100)));
 function gacha(){
   GN=Math.min(GN,maxN());
   const multi=GM==="multi",n=multi?GN:1;
-  $("#main").innerHTML=`<section class="gp orn"><div class="gp-title"><i class="ic">🎰</i>ガチャ</div><div class="gp-sub">勉強してコインを貯めてカードを引こう</div>
+  $("#main").innerHTML=`<section class="gp orn"${UI.gacha_bg?` style="--pb:linear-gradient(#0a0e2288,#0a0e22cc),url('${UI.gacha_bg}') center/cover"`:""}><div class="gp-title"><i class="ic">🎰</i>ガチャ</div><div class="gp-sub">勉強してコインを貯めてカードを引こう</div>
   <div class="gm-tabs"><button class="${multi?"":"on"}" onclick="setGM('one')">1回</button><button class="${multi?"on":""}" onclick="setGM('multi')">まとめて</button></div>
   <div class="gp-pack" onclick="pullBtn()"><img src="assets/pack.svg" alt="WORD QUEST パック"></div>
   ${multi?`<div class="gm-box"><div class="gm-step"><button onclick="gnSet(GN-10)">−10</button><button onclick="gnSet(GN-1)">−</button><input id="gn" type="number" inputmode="numeric" min="1" max="${maxN()}" value="${GN}" oninput="gnSet(this.value,1)"><button onclick="gnSet(GN+1)">＋</button><button onclick="gnSet(GN+10)">＋10</button></div>
@@ -75,7 +75,7 @@ function gnSet(v,typing){GN=Math.max(1,Math.min(maxN(),parseInt(v)||1));const i=
 function pullBtn(){GM==="multi"&&GN>1?pullMulti(GN):pull()}
 function shards(){let h="";for(let i=0;i<16;i++)h+=`<i class="shard" style="--a:${i*22.5}deg;--d:${120+Math.random()*90}px"></i>`;return h}
 function packAnim(done){
-  const g=document.createElement("div");g.className="gx";
+  const g=document.createElement("div");g.className="gx";if(UI.gacha_bg)g.style.background=`linear-gradient(#0a0e2266,#04050ccc),url('${UI.gacha_bg}') center/cover`;
   g.innerHTML=`<div class="gx-stage"><div class="gx-glow"></div><img class="gx-pack" src="assets/pack.svg" alt=""></div>`;
   document.body.appendChild(g);const st=g.firstChild;
   setTimeout(()=>st.classList.add("charge"),700);
@@ -138,12 +138,15 @@ function reviewAns(v,id){
   $("#res").innerHTML=ok?"🧠 正解！ 熟練度アップ":"❌ 正解は「"+w.ja+"」";save();setTimeout(review,850)}
 
 /* 画面切り替え・起動 */
-function showPage(p){document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x.dataset.p===p));({home,study,gacha,cards,review})[p]();window.scrollTo(0,0)}
+let CUR="home";
+function applyUI(){const ap=$(".app");if(UI.app_bg&&ap)ap.style.background=`linear-gradient(#0d1230cc,#060812ee),url('${UI.app_bg}') center top/cover fixed`;const sp=$(".sp .scene");if(sp&&UI.splash_bg)sp.outerHTML=bgScene("splash_bg")}
+function showPage(p){CUR=p;document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x.dataset.p===p));({home,study,gacha,cards,review})[p]();window.scrollTo(0,0)}
 document.querySelectorAll("nav button").forEach(b=>{const [i,t]=NAV[b.dataset.p];b.innerHTML=`<i>${i}</i>${t}`;b.addEventListener("click",()=>showPage(b.dataset.p))});
 showPage("home");
+uiInit().then(n=>{if(!n)return;applyUI();if(!$(".gx")&&!$(".sheet"))showPage(CUR)});
 (function splash(){
   try{if(sessionStorage.wqSplash)return;sessionStorage.wqSplash=1}catch(e){}
   const s=document.createElement("div");s.className="sp";
-  s.innerHTML=`${heroScene()}${EMB}<div class="sp-title">WORD QUEST</div><div class="sp-tag">もっと知る。もっと強くなる。</div><div class="sp-hint">TAP TO START</div>`;
+  s.innerHTML=`${bgScene("splash_bg")}${EMB}<div class="sp-title">WORD QUEST</div><div class="sp-tag">もっと知る。もっと強くなる。</div><div class="sp-hint">TAP TO START</div>`;
   const close=()=>{s.classList.add("out");setTimeout(()=>s.remove(),700)};
   s.onclick=close;document.body.appendChild(s);setTimeout(close,2600)})();
