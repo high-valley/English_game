@@ -8,14 +8,21 @@ const UI={},UI_FRAME={};
 const UI_SLOTS=["card_frame","card_frame_common","card_frame_uncommon","card_frame_rare","card_frame_epic","card_frame_legendary","home_bg","splash_bg","gacha_bg","app_bg"];
 // カード内の各パーツ位置 [x,y,幅,高さ]（300x400 の座標）。枠画像に合わせて微調整したい時は LAYOUT_OVERRIDE に書く
 const LAYOUT={art:[24,22,252,168],star:[12,12,64,64],word:[204,18,78,28],plate:[40,182,220,36],info:[28,231,244,104],lv:[28,348,160,34],rar:[198,344,86,48]};
+// 枠画像を使う時だけ適用するパーツ位置（今の card_frame.png に合わせた値）
+const LAYOUT_IMG={star:[16,13,67,67],word:[214,19,60,24],plate:[58,188,184,33],rar:[204,344,80,44]};
 const LAYOUT_OVERRIDE={};   // 例: {plate:[40,184,220,34],info:[30,230,240,108]}
 function uiFrame(r){return UI_FRAME["card_frame_"+String(r).toLowerCase()]||UI_FRAME.card_frame||null}
 function uiProbe(slot){return new Promise(res=>{let i=0;const ex=["webp","png"],next=()=>{if(i>=ex.length)return res(null);const u=`assets/ui/${slot}.${ex[i++]}`,im=new Image();im.onload=()=>res(u);im.onerror=next;im.src=u};next()})}
 function uiKeyFrame(url){return new Promise(res=>{const im=new Image();im.onerror=()=>res(null);im.onload=()=>{try{
   const W=Math.min(900,im.naturalWidth),H=Math.round(W*im.naturalHeight/im.naturalWidth),c=document.createElement("canvas");c.width=W;c.height=H;
   const x=c.getContext("2d");x.drawImage(im,0,0,W,H);const d=x.getImageData(0,0,W,H),p=d.data;
-  for(let i=0;i<p.length;i+=4){const r=p[i],g=p[i+1],b=p[i+2],m=Math.min(r,b)-g;   // マゼンタ → 透明
-    if(m>120&&r>140&&b>140)p[i+3]=0;else if(m>70&&r>110&&b>110){p[i+3]*=(120-m)/50;p[i]=p[i+2]=g+(Math.max(r,b)-g)*.25}}
+  for(let i=0;i<p.length;i+=4){const r=p[i],g=p[i+1],b=p[i+2],e=Math.min(r,b)-g;   // マゼンタ（と、その混ざりかけ）→ 透明
+    if(e>40&&Math.abs(r-b)<.4*Math.max(r,b)){const t=Math.min(1,(e-40)/70);p[i+3]*=1-t;const k=e*.85;p[i]=Math.max(0,r-k);p[i+2]=Math.max(0,b-k)}}
+  const pk=i=>{const r=p[i],g=p[i+1],b=p[i+2];return r>100&&g<.72*r&&b>.38*r&&b<1.35*r};   // 透明部分に接するピンク色の縁を、内側へ削る
+  for(let it=0;it<24;it++){const kill=[];
+    for(let y=1;y<H-1;y++)for(let xx=1;xx<W-1;xx++){const i=(y*W+xx)*4;if(p[i+3]<40||!pk(i))continue;
+      if(p[i-1]<200||p[i+7]<200||p[i-W*4+3]<200||p[i+W*4+3]<200)kill.push(i)}
+    if(!kill.length)break;for(const i of kill)p[i+3]=0}
   x.putImageData(d,0,0);
   const s=4,gw=Math.ceil(W/s),gh=Math.ceil(H/s),mk=new Uint8Array(gw*gh),comps=[];   // 透明部分のかたまりを探す
   for(let j=0;j<gh;j++)for(let i=0;i<gw;i++)mk[j*gw+i]=p[((j*s)*W+i*s)*4+3]<40?1:0;
