@@ -18,7 +18,22 @@ function artHtml(w,cls="card-art-image"){
   if(ART_SVG[w.en])return ART_SVG[w.en];
   return `<div class="art">${icon(w)}</div>`}
 function cardImgFail(el,id){const w=WORDS.find(x=>x.id===id),wr=el.closest(".fitwrap")||el;if(!el.dataset.t){el.dataset.t=1;const u="assets/"+w.en+".svg";wr.querySelectorAll("img").forEach(i=>i.src=u);return}const d=document.createElement("div");d.className="art";d.textContent=icon(w);wr.replaceWith(d)}
-function cardFace(w){const x=CARD_EXTRA[w.en];return `<div class="cf r-${w.rarity}"><div class="cf-badge">${w.rarity}<span>${stars(w.stars)}</span></div><div class="cf-frame orn"><div class="cf-art">${artHtml(w)}</div><div class="cf-plate"><div class="cf-en">${w.en}</div><div class="cf-ja">${w.ja}</div><div class="cf-pos">${w.pos}</div><div class="cf-ex">${w.ex}<br><span>${w.tr}</span></div></div>${x?`<div class="cf-flavor">“${x.s}”<span>${x.t}</span></div>`:""}</div></div>`}
+const P=(x,y,w,h)=>`left:${x/3}%;top:${y/4}%;width:${w/3}%;height:${h/4}%`;
+function hl(s,en){return s.replace(new RegExp("\\b("+en+"\\w*)","i"),"<b>$1</b>")}
+function speak(t){try{const u=new SpeechSynthesisUtterance(t);u.lang="en-US";speechSynthesis.cancel();speechSynthesis.speak(u)}catch(e){}}
+function cardArt(w){return CARD_IMG[w.en]||ART_SVG[w.en]?artHtml(w):`<div class="scn">${sceneSvg(w.rarity)}<i class="scn-pad"></i><div class="scn-ic">${icon(w)}</div></div>`}
+function cardFace(w){
+  const x=CARD_EXTRA[w.en],n=S.owned[w.id]||0,m=S.mastery[w.id]||0,ex=x?x.s:w.ex,tr=x?x.t:w.tr;
+  return `<div class="cd3 r-${w.rarity}"><div class="cd3-in">
+  <div class="cd3-art" style="${P(24,22,252,168)}">${cardArt(w)}</div>${CARD_FRAME}
+  <div class="cd3-star" style="${P(12,12,64,64)}"><span>${"★".repeat(w.stars)}</span><em>${w.rarity==="LEGENDARY"?"LEGEND":w.rarity==="UNCOMMON"?"UNCOMMON":w.rarity}</em></div>
+  <div class="cd3-word" style="${P(204,18,78,28)}"><svg viewBox="0 0 24 24"><path d="M2 5c4-1.5 7-1 10 1v14c-3-2-6-2.5-10-1zM22 5c-4-1.5-7-1-10 1v14c3-2 6-2.5 10-1z" fill="#f4e4b0"/></svg>WORD</div>
+  <div class="cd3-plate" style="${P(40,182,220,36)}"><span>${w.en}</span><button onclick="event.stopPropagation();speak('${w.en}')" aria-label="発音">🔊</button></div>
+  <div class="cd3-info${ex.length>46?" long":""}" style="${P(28,231,244,104)}"><div class="cd3-pill">${w.pos}</div><div class="cd3-ja">${w.ja}</div><div class="cd3-div"></div><div class="cd3-ex">${hl(ex,w.en)}</div><div class="cd3-tr">${tr}</div></div>
+  <div class="cd3-lv" style="${P(28,348,160,34)}"><b>Lv.${Math.max(1,n)}</b><i><u style="width:${m*20}%"></u></i><span>${m}/5</span></div>
+  <div class="cd3-rar" style="${P(198,344,86,48)}"><svg viewBox="0 0 24 24"><path d="M12 1l2.6 8.4L23 12l-8.4 2.6L12 23l-2.6-8.4L1 12l8.4-2.6z" fill="#f1d27a"/></svg><span>×${n}</span></div>
+  </div></div>`}
+
 function lvInfo(){let xp=S.xp,lv=1,need=10;while(xp>=need){xp-=need;lv++;need=10+(lv-1)*5}return{lv,cur:xp,need}}
 function toast(t){const e=document.createElement("div");e.className="toast";e.textContent=t;document.body.appendChild(e);setTimeout(()=>e.remove(),1800)}
 function shuffleOpts(correct){const o=[correct];while(o.length<4){const x=WORDS[Math.floor(Math.random()*WORDS.length)].ja;if(!o.includes(x))o.push(x)}return o.sort(()=>Math.random()-.5)}

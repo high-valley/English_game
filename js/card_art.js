@@ -2,7 +2,7 @@
    ・CARD_IMG … 生成した画像を使う単語（assets/cards/○○.png を置いて追記）
    ・CARD_EXTRA … その単語を使った一文（s:英文 t:和訳）
    ・ART_SVG … コードで描いたイラスト（画像が無い単語に使われる） */
-const CARD_IMG={apple:"assets/apple_art.png"};
+const CARD_IMG={apple:"assets/apple_art.png",abandon:"assets/cards/abandon.jpg"};
 const CARD_EXTRA={
   apple:{s:"The knight ate a red apple and regained his strength.",t:"騎士は赤いりんごを食べ、力を取り戻した。"},
   cat:{s:"The cat guarded the castle gate all night.",t:"猫は一晩中、城門を守り抜いた。"},
@@ -55,3 +55,37 @@ function heroScene(){
   <g fill="#181240"><rect x="160" y="140" width="80" height="38"/><rect x="190" y="84" width="20" height="60"/><path d="M186 86l14-34 14 34z"/><rect x="164" y="112" width="16" height="34"/><path d="M160 114l12-26 12 26z"/><rect x="220" y="112" width="16" height="34"/><path d="M216 114l12-26 12 26z"/><rect x="146" y="150" width="12" height="28"/><path d="M143 152l9-18 9 18z"/><rect x="242" y="150" width="12" height="28"/><path d="M239 152l9-18 9 18z"/></g>
   <g fill="#ffd66a"><rect x="197" y="104" width="6" height="10" rx="3"/><rect x="169" y="128" width="6" height="8" rx="3"/><rect x="225" y="128" width="6" height="8" rx="3"/><rect x="190" y="156" width="20" height="22" rx="10"/></g>
   <g fill="#fff" opacity=".85"><ellipse cx="70" cy="240" rx="80" ry="16"/><ellipse cx="200" cy="252" rx="100" ry="16"/><ellipse cx="340" cy="238" rx="80" ry="16"/></g></svg>`}
+
+/* ===== 新カードデザイン：金の飾り枠（viewBox 300x400。中身はHTMLを重ねる） ===== */
+const CARD_FRAME=(()=>{
+  const G='url(#gd)',curl='<path d="M6 60C6 34 18 20 40 18c12-1 18 6 14 13-3 6-12 6-14 0" fill="none" stroke="'+G+'" stroke-width="2.4" stroke-linecap="round"/><path d="M6 60c0 10 4 16 10 20M20 30c-3-8 2-14 10-14M40 18c8-6 18-6 26-2" fill="none" stroke="'+G+'" stroke-width="1.6" stroke-linecap="round"/><path d="M14 44q-8-4-9-13 9 1 9 13zM30 24q2-9 10-11 0 9-10 11zM58 15q7-5 15-2-5 7-15 2z" fill="'+G+'"/><circle cx="10" cy="10" r="3.2" fill="#3aa0ff" stroke="#fff3bf" stroke-width=".8"/>';
+  const cn=['','translate(300 0) scale(-1 1)','translate(0 400) scale(1 -1)','translate(300 400) scale(-1 -1)'].map(t=>`<g transform="${t}">${curl}</g>`).join('');
+  let vine='';
+  [[13,1],[287,-1]].forEach(([x,d])=>{let p=`M${x} 74`;for(let i=0;i<5;i++)p+=`C${x+d*9} ${88+i*24} ${x-d*9} ${100+i*24} ${x} ${110+i*24}`;
+    vine+=`<path d="${p}" fill="none" stroke="${G}" stroke-width="1.6" stroke-linecap="round"/>`;
+    for(let i=0;i<5;i++)vine+=`<path d="M${x} ${92+i*24}q${d*9} -3 ${d*11} -11q-${d*10} 1 -${d*11} 11z" fill="${G}" opacity=".9"/>`});
+  return `<svg class="cd3-frame" viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg"><defs>
+  <linearGradient id="gd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff2b0"/><stop offset=".45" stop-color="#e5b84a"/><stop offset="1" stop-color="#8f6716"/></linearGradient>
+  <linearGradient id="pc" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbf3da"/><stop offset="1" stop-color="#dfcd9f"/></linearGradient></defs>
+  <rect x="3" y="3" width="294" height="394" rx="16" fill="none" stroke="${G}" stroke-width="4.5"/><rect x="9" y="9" width="282" height="382" rx="12" fill="none" stroke="#f1d27a" stroke-opacity=".55" stroke-width="1"/>
+  ${vine}${cn}
+  <rect x="22" y="226" width="256" height="114" rx="14" fill="#0b1029" stroke="${G}" stroke-width="2.2"/><rect x="26.5" y="230.5" width="247" height="105" rx="10" fill="none" stroke="#f1d27a" stroke-opacity=".4" stroke-width=".8"/>
+  <path d="M150 224l6 5-6 5-6-5z" fill="#3aa0ff" stroke="#fff3bf" stroke-width=".8"/>
+  <rect x="22" y="346" width="172" height="38" rx="19" fill="#0b1029" stroke="${G}" stroke-width="2"/>
+  <path d="M218 344h46l20 24-20 24h-46l-20-24z" fill="#0b1029" stroke="${G}" stroke-width="2.2"/>
+  <rect x="24" y="22" width="252" height="168" rx="6" fill="none" stroke="${G}" stroke-width="3"/><rect x="27" y="25" width="246" height="162" rx="4" fill="none" stroke="#fff3bf" stroke-opacity=".35" stroke-width=".8"/>
+  <path d="M14 200q4-20 26-20h220q22 0 26 20-4 20-26 20H40q-22 0-26-20z" fill="url(#pc)" stroke="${G}" stroke-width="2.6"/><path d="M22 200q4-14 20-14h216q16 0 20 14-4 14-20 14H42q-16 0-20-14z" fill="none" stroke="#b58a2a" stroke-opacity=".5" stroke-width=".8"/>
+  <path d="M150 174l7 6-7 6-7-6z" fill="#3aa0ff" stroke="#fff3bf" stroke-width=".9"/><path d="M12 200l6-5 6 5-6 5zM276 200l6-5 6 5-6 5z" fill="#3aa0ff" stroke="#fff3bf" stroke-width=".8"/>
+  <path d="M31.6 12H56.4L76 31.6V56.4L56.4 76H31.6L12 56.4V31.6Z" fill="#0b1029" stroke="${G}" stroke-width="2.6"/><path d="M33 17H55L71 33V55L55 71H33L17 55V33Z" fill="none" stroke="#f1d27a" stroke-opacity=".45" stroke-width=".8"/>
+  <rect x="204" y="18" width="78" height="28" rx="14" fill="#0b1029" stroke="${G}" stroke-width="2.2"/>
+  <circle cx="150" cy="17" r="15" fill="#0b1029" stroke="${G}" stroke-width="2.6"/><path d="M150 4l3.4 10L164 17l-10.6 3L150 30l-3.4-10L136 17l10.6-3z" fill="${G}"/><circle cx="150" cy="17" r="2.2" fill="#0b1029"/>
+  </svg>`})();
+const SCN_PAL={COMMON:["#3d5fa8","#8fb4e8","#ffd9a0"],UNCOMMON:["#1f6b6b","#6fd0b0","#ffe9a0"],RARE:["#2a4fbf","#7db8ff","#ffe0a0"],EPIC:["#4b2a9a","#c07be8","#ffc0a0"],LEGENDARY:["#8a1f2a","#ff8a5a","#ffe08a"]};
+function sceneSvg(r){const [a,b,c]=SCN_PAL[r]||SCN_PAL.COMMON;
+  return `<svg class="cart" viewBox="0 0 300 200" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sk${r}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${a}"/><stop offset=".6" stop-color="${b}"/><stop offset="1" stop-color="${c}"/></linearGradient><radialGradient id="sn${r}" cx=".7" cy=".66" r=".5"><stop offset="0" stop-color="#fff8d0" stop-opacity=".95"/><stop offset="1" stop-color="#fff8d0" stop-opacity="0"/></radialGradient><linearGradient id="wt${r}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${c}"/><stop offset="1" stop-color="${a}"/></linearGradient></defs>
+  <rect width="300" height="200" fill="url(#sk${r})"/><rect width="300" height="200" fill="url(#sn${r})"/>
+  <g fill="#fff" opacity=".4"><ellipse cx="70" cy="38" rx="52" ry="9"/><ellipse cx="112" cy="47" rx="40" ry="7"/><ellipse cx="236" cy="28" rx="46" ry="8"/><ellipse cx="180" cy="60" rx="34" ry="6"/></g>
+  <path d="M0 132l40-20 40 16 50-24 60 26 50-20 60 18v72H0z" fill="#3a4d8a" opacity=".5"/>
+  <g fill="#241d55" opacity=".9"><rect x="204" y="112" width="70" height="26"/><rect x="214" y="86" width="10" height="30"/><path d="M212 88l7-24 7 24z"/><rect x="234" y="98" width="14" height="20"/><path d="M232 100l9-18 9 18z"/><rect x="256" y="104" width="10" height="14"/><path d="M254 106l7-14 7 14z"/></g>
+  <rect y="136" width="300" height="64" fill="url(#wt${r})"/><path d="M196 138h60l-16 62h-30z" fill="#fff4c0" opacity=".3"/>
+  <path d="M0 200v-46q40-12 72 8 30 14 50 38z" fill="#1c2a30"/><path d="M0 154q40-12 72 8 6 3 12 8-40-14-84-4z" fill="#3f6b48"/></svg>`}
