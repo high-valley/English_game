@@ -14,10 +14,10 @@ function rarity(){let x=Math.random()*100,s=0;for(const [r,w] of RATES){s+=w;if(
 function draw(){let r=rarity(),p=WORDS.filter(w=>w.rarity===r);return p.length?p[Math.floor(Math.random()*p.length)]:WORDS[Math.floor(Math.random()*WORDS.length)]}
 function icon(w){return ICONS[w.id-1]||"✨"}
 function artHtml(w,cls="card-art-image"){
-  if(CARD_IMG[w.en])return `<img class="${cls}" src="${CARD_IMG[w.en]}" alt="${w.en}" onerror="cardImgFail(this,${w.id})">`;
+  if(CARD_IMG[w.en])return `<div class="fitwrap"><img class="fitbg" src="${CARD_IMG[w.en]}" alt=""><img class="${cls}" src="${CARD_IMG[w.en]}" alt="${w.en}" onerror="cardImgFail(this,${w.id})"></div>`;
   if(ART_SVG[w.en])return ART_SVG[w.en];
   return `<div class="art">${icon(w)}</div>`}
-function cardImgFail(el,id){const w=WORDS.find(x=>x.id===id);if(!el.dataset.t){el.dataset.t=1;el.src="assets/"+w.en+".svg";return}const d=document.createElement("div");d.className="art";d.textContent=icon(w);el.replaceWith(d)}
+function cardImgFail(el,id){const w=WORDS.find(x=>x.id===id),wr=el.closest(".fitwrap")||el;if(!el.dataset.t){el.dataset.t=1;const u="assets/"+w.en+".svg";wr.querySelectorAll("img").forEach(i=>i.src=u);return}const d=document.createElement("div");d.className="art";d.textContent=icon(w);wr.replaceWith(d)}
 function cardFace(w){const x=CARD_EXTRA[w.en];return `<div class="cf r-${w.rarity}"><div class="cf-badge">${w.rarity}<span>${stars(w.stars)}</span></div><div class="cf-frame orn"><div class="cf-art">${artHtml(w)}</div><div class="cf-plate"><div class="cf-en">${w.en}</div><div class="cf-ja">${w.ja}</div><div class="cf-pos">${w.pos}</div><div class="cf-ex">${w.ex}<br><span>${w.tr}</span></div></div>${x?`<div class="cf-flavor">“${x.s}”<span>${x.t}</span></div>`:""}</div></div>`}
 function lvInfo(){let xp=S.xp,lv=1,need=10;while(xp>=need){xp-=need;lv++;need=10+(lv-1)*5}return{lv,cur:xp,need}}
 function toast(t){const e=document.createElement("div");e.className="toast";e.textContent=t;document.body.appendChild(e);setTimeout(()=>e.remove(),1800)}
@@ -38,7 +38,7 @@ let studyWord;
 function study(){
   studyWord=WORDS[Math.floor(Math.random()*Math.min(55,WORDS.length))];const a=shuffleOpts(studyWord.ja);
   $("#main").innerHTML=`<div class="hero"><h1>📖 勉強</h1><div class="muted">正解すると +25コイン</div></div><div class="stat"><div><b>${S.coins}</b>コイン</div><div><b>${Object.keys(S.owned).length}</b>種類</div><div><b>${WORDS.length}</b>単語</div></div><div class="quiz"><div class="muted">この英単語の意味は？</div><div class="q">${studyWord.en}</div><div class="answers">${a.map(x=>`<button onclick="studyAns('${encodeURIComponent(x)}')">${x}</button>`).join("")}</div><div id="res" class="result"></div></div>`;save()}
-function studyAns(v){const ok=decodeURIComponent(v)===studyWord.ja;$("#res").innerHTML=ok?"🎉 正解！ +25コイン":"❌ 正解は「"+studyWord.ja+"」";if(ok){S.coins+=100000;S.xp+=2}save();setTimeout(study,850)}
+function studyAns(v){const ok=decodeURIComponent(v)===studyWord.ja;$("#res").innerHTML=ok?"🎉 正解！ +25コイン":"❌ 正解は「"+studyWord.ja+"」";if(ok){S.coins+=25;S.xp+=2}save();setTimeout(study,850)}
 
 /* ガチャ */
 let GM="one",GN=10;

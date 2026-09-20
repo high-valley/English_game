@@ -19,7 +19,7 @@ const CARD_EXTRA={
 };
 const _sp='<g fill="#fff"><circle cx="24" cy="26" r="1.4" opacity=".9"/><circle cx="172" cy="22" r="1.8" opacity=".8"/><circle cx="150" cy="58" r="1" opacity=".7"/><circle cx="38" cy="82" r="1.2" opacity=".6"/><circle cx="184" cy="112" r="1.3" opacity=".7"/><circle cx="14" cy="130" r="1" opacity=".6"/></g><path d="M60 40l2 6 6 2-6 2-2 6-2-6-6-2 6-2zM160 90l1.5 4 4 1.5-4 1.5-1.5 4-1.5-4-4-1.5 4-1.5z" fill="#ffe9a0"/>';
 const _bg=(id,a,b)=>`<defs><radialGradient id="${id}" cx="50%" cy="48%" r="75%"><stop offset="0" stop-color="${a}"/><stop offset="1" stop-color="${b}"/></radialGradient></defs><rect width="200" height="180" fill="url(#${id})"/>${_sp}`;
-const _svg=b=>`<svg class="cart" viewBox="0 0 200 180" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">${b}</svg>`;
+const _svg=b=>`<svg class="cart" viewBox="0 6 200 150" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">${b}</svg>`;
 const ART_SVG={
   cat:_svg(_bg("bgCat","#4b3a9a","#0a0d24")+`<circle cx="100" cy="76" r="52" fill="#ffeeb0" opacity=".22"/><circle cx="100" cy="76" r="36" fill="#fff3c4"/>
   <g fill="#0b0a1c"><path d="M78 142C74 114 88 98 100 98s26 16 22 44z"/><circle cx="100" cy="90" r="15"/><path d="M87 80l2-18 9 12zM113 80l-2-18-9 12z"/><path d="M122 140c26 0 32-26 20-34" stroke="#0b0a1c" stroke-width="7" fill="none" stroke-linecap="round"/></g>
