@@ -113,3 +113,80 @@ button.mc{cursor:pointer;box-shadow:0 0 10px color-mix(in srgb,var(--rc) 45%,tra
 .sp-tag{color:#e9dcc0;letter-spacing:2px;margin-top:10px;font-size:14px}
 .sp-hint{position:absolute;bottom:40px;color:#f7d76e;font-size:12px;letter-spacing:2px;animation:tapBlink 1.2s ease-in-out infinite}
 @media(prefers-reduced-motion:reduce){.gp-pack:after,.gp-pack img,.gx-glow{animation:none}}
+
+/* ===== 豪華デザイン（追加） ===== */
+body{background:radial-gradient(circle at 50% 0,#1a1440 0,#070914 60%)}
+.app{background:radial-gradient(1px 1px at 20px 30px,#fff9,transparent),radial-gradient(1px 1px at 90px 80px,#fff7,transparent),radial-gradient(1.5px 1.5px at 150px 20px,#ffe9a9aa,transparent),radial-gradient(1px 1px at 60px 120px,#fff6,transparent),linear-gradient(#0d1230,#060812);background-size:180px 140px,180px 140px,180px 140px,180px 140px,auto}
+header{border-bottom:2px solid #6b5a2c;box-shadow:0 4px 18px #0008}
+.logo{background:linear-gradient(#fff6c8,#e5b84a);-webkit-background-clip:text;background-clip:text;color:transparent;font-size:21px}
+.coins{border:2px solid #b8902f;box-shadow:inset 0 0 10px #b8902f44}
+nav{margin:10px 12px 4px;padding:6px;gap:5px;border:2px solid #6b5a2c;border-radius:14px;background:linear-gradient(#131a38,#0a0e22);box-shadow:inset 0 0 14px #000a}
+nav button{background:#0c1128;border-color:#242b4a}
+nav button.on{border:2px solid #f1d27a;background:linear-gradient(#3a3163,#1a1d3d);box-shadow:0 0 14px #f1d27a55,inset 0 0 8px #f1d27a33}
+
+/* 金の飾り枠 */
+.orn{position:relative;--pb:linear-gradient(#141a36,#0a0e22);border:2px solid #9c7b32;box-shadow:inset 0 0 0 1px #000a,inset 0 0 34px #000a,0 10px 30px #000a;
+ background:linear-gradient(#f1d27a,#f1d27a) left 5px top 5px/22px 2px no-repeat,linear-gradient(#f1d27a,#f1d27a) left 5px top 5px/2px 22px no-repeat,linear-gradient(#f1d27a,#f1d27a) right 5px top 5px/22px 2px no-repeat,linear-gradient(#f1d27a,#f1d27a) right 5px top 5px/2px 22px no-repeat,linear-gradient(#f1d27a,#f1d27a) left 5px bottom 5px/22px 2px no-repeat,linear-gradient(#f1d27a,#f1d27a) left 5px bottom 5px/2px 22px no-repeat,linear-gradient(#f1d27a,#f1d27a) right 5px bottom 5px/22px 2px no-repeat,linear-gradient(#f1d27a,#f1d27a) right 5px bottom 5px/2px 22px no-repeat,var(--pb)}
+.gp.orn{--pb:radial-gradient(circle at 50% 28%,#26306a,#0d1226 68%);border-radius:18px;padding:22px 18px}
+.gp-title{text-shadow:0 0 18px #f1d27a88}
+.gp-title .ic{width:44px;height:44px;font-size:26px}
+.gp-pack:before{border:2px solid #c9a24a99;box-shadow:0 0 30px #c9a24a44,inset 0 0 30px #c9a24a33}
+.gp-pack img{width:170px}
+.rates.orn{--pb:#0a0f22;border-radius:12px;padding:12px 6px}
+.ic{display:inline-grid;place-items:center;width:42px;height:42px;border:2px solid #b8902f;border-radius:10px;background:linear-gradient(#242a55,#0d1128);font-size:22px;font-style:normal;flex:none;box-shadow:inset 0 0 10px #f1d27a22}
+
+/* カード表面 */
+.cf{position:relative;padding-top:14px}
+.cf-badge{position:absolute;top:0;left:50%;transform:translateX(-50%);z-index:5;min-width:130px;padding:5px 18px 3px;text-align:center;border:2px solid #f1d27a;border-radius:6px;background:linear-gradient(#232a55,#0d1128);color:#ffe17a;font:900 13px Georgia,serif;letter-spacing:3px;clip-path:polygon(0 0,100% 0,96% 50%,100% 100%,0 100%,4% 50%)}
+.cf-badge span{display:block;font-size:12px;letter-spacing:2px;color:var(--rc);text-shadow:0 0 8px var(--rc)}
+.cf-frame.orn{--pb:linear-gradient(#1a2148,#0a0e22);border-radius:16px;padding:22px 11px 11px;display:flex;flex-direction:column;gap:7px}
+.cf-art{height:190px;border-radius:9px;overflow:hidden;border:2px solid #d7ad4e;background:radial-gradient(circle,#ffe9a0,#c9973a 50%,#3a2a12);display:grid;place-items:center;box-shadow:inset 0 0 26px #000a}
+.cf-art .art{background:none;height:auto;font-size:96px}
+.cf-art .card-art-image,.cf-art .cart{width:100%;height:100%;object-fit:cover;filter:none;border-radius:0;display:block}
+.cf-plate{padding:8px 10px 9px;text-align:center;border-radius:9px;border:1px solid #c9a24a;background:linear-gradient(#f8f0d8,#e4d6b0);color:#1a1408}
+.cf-en{font:900 30px/1.1 Georgia,serif}.cf-ja{font-weight:800;font-size:15px}.cf-pos{font-size:11px;color:#5b5038}
+.cf-ex{margin-top:5px;font-size:12px;font-weight:700}.cf-ex span{font-weight:500;color:#6b6250}
+.cf-flavor{padding:8px 10px;text-align:center;border-radius:9px;border:1px solid #6b5a2c;background:linear-gradient(#0c1024,#161a3a);color:#f4d477;font:italic 700 13px/1.5 Georgia,serif}
+.cf-flavor span{display:block;margin-top:2px;font:500 11px system-ui;color:#b9b5a0}
+.rv{width:min(84vw,310px)}.rv-panel{width:min(84vw,310px)}.gx .gold-btn{width:min(84vw,310px)}
+.rv-new{bottom:120px;right:-12px;z-index:6}
+.sd-card{max-width:310px;margin:0 auto 12px}
+.sheet-in{max-height:92vh;overflow:auto}
+
+/* ホーム */
+.hm-hero.orn{position:relative;height:255px;padding:0;overflow:hidden;border-radius:18px;background:#0b0e22}
+.scene{position:absolute;inset:0;width:100%;height:100%;display:block}
+.hm-hero .emb{position:absolute;left:50%;top:16px;transform:translateX(-50%);width:96px;height:96px;z-index:2}
+.hm-cap{position:absolute;left:0;right:0;bottom:0;padding:34px 0 12px;text-align:center;z-index:2;background:linear-gradient(transparent,#0b0e22cc 70%)}
+.hm-cap .hm-title{margin:0;font-size:32px}
+.hm-lv{border:2px solid #6b5a2c;background:linear-gradient(#131a38,#0a0e22)}
+.hm-stats div{border:2px solid #4a4128;background:linear-gradient(#141a36,#0a0e22)}
+.hm-btn{display:flex;align-items:center;gap:12px;border:2px solid #b8902f;background:linear-gradient(90deg,#3a2f80,#241c5c 60%,#1a1548);box-shadow:inset 0 0 18px #0006,0 6px 16px #0008;text-align:center}
+.hm-btn>span{flex:1;font-size:18px;font-weight:900;color:#f4e4b0}
+.hm-btn small{color:#b9b5d0}
+.hm-row .hm-btn{background:linear-gradient(90deg,#20306a,#111a3f);padding:12px 8px}
+.hm-row .hm-btn>span{font-size:15px}.hm-row .ic{width:36px;height:36px;font-size:19px}
+.hm-btn:active{transform:translateY(2px)}
+
+/* 図鑑 */
+.cd.orn{--pb:linear-gradient(#111834,#080b1a);border-radius:16px;padding:18px 14px}
+.cd-h .ic{font-size:24px}
+.mc{border-width:2px;box-shadow:inset 0 0 12px #000a}
+.mc .cart{border-radius:5px}
+.mc-art .cart,.mc-art .mc-img{width:100%;height:100%;object-fit:cover}
+.quiz .cart{max-height:150px;border-radius:12px;margin-bottom:6px}
+
+/* スプラッシュ */
+.sp{background:#0b0e22}
+.sp .scene{position:absolute;inset:0}
+.sp>*:not(.scene){position:relative;z-index:2}
+.sp .emb{filter:drop-shadow(0 0 22px #f3cf6a99)}
+.sp-title{font-size:50px;background:linear-gradient(#fff6c8,#e5b84a);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 4px 12px #000)}
+.sp-tag{text-shadow:0 2px 10px #000;font-weight:700}
+.sp-hint{position:absolute;bottom:40px;z-index:2}
+.gx{overflow-y:auto;justify-content:safe center}
+@media(max-height:720px){.cf-art{height:140px}.cf-flavor{font-size:12px}}
+.cf-art{height:auto;aspect-ratio:200/165}
+@media(max-height:720px){.cf-art{aspect-ratio:auto;height:150px}}
+.hm-hero .emb{width:78px;height:78px;top:10px}
+.cd-h>div{font-size:14px}.cd-h small{display:block;font-size:12px;line-height:1.4}
