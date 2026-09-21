@@ -460,3 +460,5 @@ img.scene{animation:sceneIn .6s ease-out both}
 .gp2-stage .gx-circle{opacity:.65;transform:none;transition:none}
 .gx-stage.leak .gx-glow{opacity:.5}
 .gx:not([data-lv="0"]):not([data-lv="1"]) .gx-stage.leak .gx-glow{opacity:.85}
+.cd3-info.xlong .cd3-ex{font-size:2.95cqw;line-height:1.3}.cd3-info.xlong .cd3-tr{font-size:2.5cqw}.cd3-info.xlong{gap:.2cqw}
+.cd3-info.long .cd3-div,.cd3-info.xlong .cd3-div{margin:.4cqw 0 1cqw}
