@@ -144,7 +144,7 @@ function reviewAns(v,id){markStudied();
 
 /* 画面切り替え・起動 */
 let CUR="home";
-function applyUI(){buildNav();const ci=$(".coins .ci");if(ci)ci.innerHTML=ico("icon_coin","🪙");const gi=$("#gear");if(gi&&UI_ICO.icon_gear)gi.innerHTML=ico("icon_gear","⚙");const ap=$(".app");if(UI.app_bg&&ap)ap.style.background=`linear-gradient(#0d1230cc,#060812ee),url('${UI.app_bg}') center top/cover fixed`;const sp=$(".sp .scene");if(sp&&(UI.splash_bg||UI.home_bg))sp.outerHTML=bgScene("splash_bg")}
+function applyUI(){buildNav();const ci=$(".coins .ci");if(ci)ci.innerHTML=ico("icon_coin","🪙");const gi=$("#gear");if(gi&&UI_ICO.icon_gear)gi.innerHTML=ico("icon_gear","⚙");const ap=$(".app");if(UI.app_bg&&ap)ap.style.background=`linear-gradient(#0d1230cc,#060812ee),url('${UI.app_bg}') center top/cover fixed`;const sp=$(".sp");if(sp){const o=sp.querySelector(".scene");if(o)o.remove();sp.insertAdjacentHTML("afterbegin",bgScene("splash_bg"))}}
 function setBg(on){let b=$("#bg");if(!b){b=document.createElement("div");b.id="bg";$(".app").prepend(b)}b.innerHTML=on?bgScene("home_bg"):""}
 function buildNav(){document.querySelectorAll("nav button").forEach(b=>{const p=b.dataset.p,[e,t]=NAV[p];b.innerHTML=`<i>${ico("nav_"+p,e)}</i>${t}`})}
 function openSettings(){const d=document.createElement("div");d.className="sheet";d.onclick=e=>{if(e.target===d)d.remove()};
@@ -153,7 +153,9 @@ function showPage(p){CUR=p;document.body.classList.toggle("is-home",p==="home");
 buildNav();document.querySelectorAll("nav button").forEach(b=>b.addEventListener("click",()=>showPage(b.dataset.p)));
 const gear=$("#gear");if(gear)gear.onclick=openSettings;
 showPage("home");
-const uiRefresh=()=>{applyUI();if(!$(".gx")&&!$(".sheet"))showPage(CUR)};
+document.body.classList.add("ui-wait");
+const uiRefresh=()=>{document.body.classList.remove("ui-wait");applyUI();if(!$(".gx")&&!$(".sheet"))showPage(CUR)};
+setTimeout(()=>{if(!UI_READY){UI_READY=true;uiRefresh()}},2200);
 uiInit(uiRefresh).then(()=>{if(Object.keys(UI_FRAME).length)uiRefresh()});
 (function splash(){
   try{if(sessionStorage.wqSplash)return;sessionStorage.wqSplash=1}catch(e){}

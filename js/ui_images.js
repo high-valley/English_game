@@ -5,6 +5,7 @@
      home_bg / splash_bg / gacha_bg / app_bg … 各画面の背景
    カード枠は「絵の窓」を純マゼンタ(#FF00FF)で塗っておくと、自動で透明にして窓の位置も検出します。 */
 const UI={},UI_FRAME={};
+let UI_READY=false;   // 画像の有無が分かるまでは、仮の背景を出さない（ちらつき防止）
 const UI_SLOTS=["card_frame","card_frame_common","card_frame_uncommon","card_frame_rare","card_frame_epic","card_frame_legendary","home_bg","splash_bg","gacha_bg","app_bg"];
 // カード内の各パーツ位置 [x,y,幅,高さ]（300x400 の座標）。枠画像に合わせて微調整したい時は LAYOUT_OVERRIDE に書く
 const LAYOUT={art:[24,22,252,168],star:[12,12,64,64],word:[204,18,78,28],plate:[40,182,220,36],info:[28,231,244,104],lv:[28,348,160,34],rar:[198,344,86,48]};
@@ -74,10 +75,10 @@ async function uiInit(cb){   // 背景・アイコンを先に反映（cb）し�
   const found=(await Promise.all(UI_SLOTS.map(async s=>[s,await uiProbe(s)]))).filter(f=>f[1]);
   (await Promise.all(UI_ICONS.map(async n=>[n,await uiProbeIcon(n)]))).forEach(([n,x])=>{if(x)UI_ICO[n]=x});
   found.forEach(([s,x])=>{if(!s.startsWith("card_frame"))UI[s]=x});
-  if(cb)cb();
+  UI_READY=true;if(cb)cb();
   for(const [s,x] of found)if(s.startsWith("card_frame")){const r=await uiKeyFrame(x);if(r)UI_FRAME[s]=r}
 }
-const bgScene=slot=>{const x=UI[slot]||(slot==="splash_bg"?UI.home_bg:null);return x?`<img class="scene" src="${x}" alt="">`:nightScene()};   // splash_bg が無ければ home_bg を使う
+const bgScene=slot=>{if(!UI_READY)return "";const x=UI[slot]||(slot==="splash_bg"?UI.home_bg:null);return x?`<img class="scene" src="${x}" alt="">`:nightScene()};   // splash_bg が無ければ home_bg を使う
 // アイコン画像（assets/ui/icons/名前.png）。無ければ絵文字
 const UI_ICONS=["icon_study","icon_cards","icon_review","icon_gacha","icon_coin","icon_gear","stat_words","stat_ok","stat_streak","nav_home","nav_study","nav_gacha","nav_cards","nav_review"];
 const UI_ICO={};
