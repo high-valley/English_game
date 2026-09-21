@@ -1,17 +1,16 @@
-const RATES=[["COMMON",35],["UNCOMMON",30],["RARE",20],["EPIC",10],["LEGENDARY",5]];
-const RN={COMMON:"COMMON",UNCOMMON:"UNCOMMON",RARE:"RARE",EPIC:"EPIC",LEGENDARY:"LEGENDARY"};
 const EMB=`<svg class="emb" viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" fill="#141a35" stroke="#d9b45a" stroke-width="3"/><circle cx="50" cy="50" r="36" fill="none" stroke="#d9b45a" stroke-opacity=".35"/><path d="M50 8L58 42L92 50L58 58L50 92L42 58L8 50L42 42Z" fill="#f3cf6a" stroke="#fff3bf"/></svg>`;
-const NAV={home:["🏠","ホーム"],study:["📖","勉強"],gacha:["🎰","ガチャ"],cards:["🃏","カード"],review:["🧠","復習"]};
+const NAV={home:["🏠","ホーム"],study:["📖","勉強"],gacha:["🎰","ガチャ"],cards:["🃏","カード"]};
 
 // 保存データ（従来と同じキー。xp は追加項目）
 let S=JSON.parse(localStorage.wordQuestDemo||"null")||{coins:100,owned:{},mastery:{}};
 // 単語データを入れ替えた（v2）ので、テスト版のカードと熟練度をリセットする。コインと連続学習は引き継ぐ
-if(S.v!==2)S={coins:S.coins==null?100:S.coins,owned:{},mastery:{},xp:0,streak:S.streak||0,last:S.last||"",v:2};
-S.xp=S.xp||0;S.streak=S.streak||0;S.last=S.last||"";
+if(S.v!==2)S={coins:S.coins==null?100:S.coins,owned:{},mastery:{},streak:S.streak||0,last:S.last||"",v:2};
+S.streak=S.streak||0;S.last=S.last||"";S.unlockedLevel=S.unlockedLevel||1;S.studyLevel=S.studyLevel||1;delete S.xp;
+syncLevels();   // 熟練度から、解放済みのレベルを合わせる
 const $=q=>document.querySelector(q);
 function save(){localStorage.wordQuestDemo=JSON.stringify(S);const e=$("#coins");if(e)e.textContent=S.coins}
 function stars(n){return "★".repeat(n)+"☆".repeat(5-n)}
-function rarity(){let x=Math.random()*100,s=0;for(const [r,w] of RATES){s+=w;if(x<s)return r}return "COMMON"}
+function rarity(){const R=GACHA_RATES[S.unlockedLevel]||GACHA_RATES[1];let x=Math.random()*100,s=0;for(const k of LEVELS){s+=R[k];if(x<s)return k}return "COMMON"}
 function draw(){let r=rarity(),p=WORDS.filter(w=>w.rarity===r);return p.length?p[Math.floor(Math.random()*p.length)]:WORDS[Math.floor(Math.random()*WORDS.length)]}
 // 単語データにある単語だけを数える（データから消した単語のセーブが残っていても影響しない）
 const ownedCount=()=>WORDS.filter(w=>S.owned[w.id]).length;
@@ -40,30 +39,22 @@ function cardFace(w){
 const ymd=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
 function markStudied(){const t=new Date(),y=new Date(t.getTime()-864e5),T=ymd(t);if(S.last===T)return;S.streak=S.last===ymd(y)?(S.streak||0)+1:1;S.last=T}
 function streakNow(){const t=new Date(),y=new Date(t.getTime()-864e5);return S.last===ymd(t)||S.last===ymd(y)?S.streak||0:0}
-function lvInfo(){let xp=S.xp,lv=1,need=10;while(xp>=need){xp-=need;lv++;need=10+(lv-1)*5}return{lv,cur:xp,need}}
 function toast(t){const e=document.createElement("div");e.className="toast";e.textContent=t;document.body.appendChild(e);setTimeout(()=>e.remove(),1800)}
 function shuffleOpts(correct,rar){const P=rar?WORDS.filter(w=>w.rarity===rar):WORDS,o=[correct];while(o.length<4){const x=P[Math.floor(Math.random()*P.length)].ja;if(!o.includes(x))o.push(x)}return o.sort(()=>Math.random()-.5)}
 
 /* ホーム */
 function home(){
-  const owned=WORDS.filter(w=>S.owned[w.id]).length,mastered=WORDS.filter(w=>(S.mastery[w.id]||0)>=5).length,L=lvInfo(),pulls=Math.floor(S.coins/100);
+  const owned=ownedCount(),mastered=WORDS.filter(w=>wordMastery(w.id)>=MASTERY_MAX).length,U=S.unlockedLevel,pct=levelPercent(U),pulls=Math.floor(S.coins/GACHA_COST);
+  const chips=LEVELS.map((r,i)=>{const n=i+1,cls=n<U||(n===U&&pct>=100)?"ok":n===U?"on":"lock";return `<span class="${cls}">${cls==="lock"?"🔒":"Lv."+n}</span>`}).join("");
   $("#main").innerHTML=`<section class="hm2"><div class="hm2-logo">${UI.logo_title?`<img class="hm2-logoimg" src="${UI.logo_title}" alt="WORD GRIMOIRE">`:`${EMB}<div class="hm2-word"><span>WORD</span><span>GRIMOIRE</span></div>`}</div>
   <div class="hm2-tag">言葉を集めて、<br>世界を広げよう</div>
   <div class="hm2-grid"><div class="hm2-left">
-    <div class="hm2-panel orn"><div class="hm2-ct"><span>コレクション Lv.${L.lv}</span><b>${owned}/${WORDS.length}</b></div><div class="hm2-cbar"><i style="width:${owned/WORDS.length*100}%"></i></div>
-      <div class="hm2-stats"><div>${ico("stat_words","📚")}<span>総単語数</span><b>${WORDS.length}</b></div><div>${ico("stat_ok","✅")}<span>覚えた</span><b>${mastered}</b></div><div>${ico("stat_streak","🔥")}<span>連続学習</span><b>${streakNow()}日</b></div></div></div>
-    <div class="hm2-btns"><button class="hm2-b orn" onclick="showPage('study')">${ico("icon_study","📖","big")}<span>勉強</span></button><button class="hm2-b orn" onclick="showPage('cards')">${ico("icon_cards","🃏","big")}<span>カード</span></button><button class="hm2-b orn" onclick="showPage('review')">${ico("icon_review","🧠","big")}<span>復習</span></button></div>
+    <div class="hm2-panel orn"><div class="hm2-ct"><span>学習レベル Lv.${U}</span><b>${pct}%</b></div><div class="hm2-cbar"><i style="width:${pct}%"></i></div><div class="hm2-lv">${chips}</div>
+      <div class="hm2-stats"><div>${ico("stat_words","📚")}<span>コレクション</span><b>${owned}/${WORDS.length}</b></div><div>${ico("stat_ok","✅")}<span>覚えた</span><b>${mastered}</b></div><div>${ico("stat_streak","🔥")}<span>連続学習</span><b>${streakNow()}日</b></div></div></div>
+    <div class="hm2-btns"><button class="hm2-b orn" onclick="showPage('study')">${ico("icon_study","📖","big")}<span>勉強</span></button><button class="hm2-b orn" onclick="showPage('cards')">${ico("icon_cards","🃏","big")}<span>カード</span></button></div>
   </div>
-  <button class="hm2-gacha orn" onclick="showPage('gacha')">${pulls?`<em class="hm2-new">引ける！×${pulls}</em>`:""}<div class="hm2-pack">${ico("icon_gacha","🎁","pack")}</div><div class="hm2-plate">ガチャ</div><div class="hm2-price">1回 ${ico("icon_coin","🪙","c")} 100コイン</div></button></div></section>`;save()}
+  <button class="hm2-gacha orn" onclick="showPage('gacha')">${pulls?`<em class="hm2-new">引ける！×${pulls}</em>`:""}<div class="hm2-pack">${ico("icon_gacha","🎁","pack")}</div><div class="hm2-plate">ガチャ</div><div class="hm2-price">1回 ${ico("icon_coin","🪙","c")} ${GACHA_COST}コイン</div></button></div></section>`;save()}
 
-/* 勉強 */
-let studyWord;
-function study(){
-  const pool=WORDS.filter(w=>w.rarity==="COMMON");studyWord=pool[Math.floor(Math.random()*pool.length)];const a=shuffleOpts(studyWord.ja,studyWord.rarity);
-  $("#main").innerHTML=`<div class="hero"><h1>📖 勉強</h1><div class="muted">正解すると +25コイン</div></div><div class="stat"><div><b>${S.coins}</b>コイン</div><div><b>${ownedCount()}</b>種類</div><div><b>${WORDS.length}</b>単語</div></div><div class="quiz"><div class="muted">この英単語の意味は？</div><div class="q">${studyWord.en}</div><div class="answers">${a.map(x=>`<button onclick="studyAns('${encodeURIComponent(x)}')">${x}</button>`).join("")}</div><div id="res" class="result"></div></div>`;save()}
-function studyAns(v){markStudied();const ok=decodeURIComponent(v)===studyWord.ja;$("#res").innerHTML=ok?"🎉 正解！ +25コイン":"❌ 正解は「"+studyWord.ja+"」";if(ok){S.coins+=25;S.xp+=2}save();setTimeout(study,850)}
-
-/* ガチャ */
 /* カード図鑑 */
 const FIL=[["ALL","すべて"],["COMMON","コモン"],["UNCOMMON","アンコモン"],["RARE","レア"],["EPIC","エピック"],["LEGENDARY","レジェンド"]],PER=12;
 let CF={r:"ALL",p:0};
@@ -84,18 +75,6 @@ function cardDetail(id){
   <div class="rv-panel" style="width:100%;animation:none"><div><span>コレクション Lv.${n}</span><b>×${n}</b></div><div><span>復習熟練度</span><b>${m}/5</b></div></div></div>`;
   document.body.appendChild(d)}
 
-/* 復習 */
-function review(){
-  const a=WORDS.filter(w=>S.owned[w.id]);
-  if(!a.length){$("#main").innerHTML='<div class="hero"><h1>🧠 復習</h1><div class="muted">ガチャでカードを獲得すると復習できます</div></div>';return}
-  const w=a[Math.floor(Math.random()*a.length)],o=shuffleOpts(w.ja,w.rarity);
-  $("#main").innerHTML=`<div class="hero"><h1>🧠 復習</h1><div class="muted">覚えていたら熟練度アップ</div></div><div class="quiz center">${artHtml(w,"mc-img")}<div class="q">${w.en}</div><div class="answers">${o.map(x=>`<button onclick="reviewAns('${encodeURIComponent(x)}',${w.id})">${x}</button>`).join("")}</div><div id="res" class="result"></div></div>`}
-function reviewAns(v,id){
-  markStudied();
-  const w=WORDS.find(x=>x.id===id),ok=decodeURIComponent(v)===w.ja;
-  if(ok){S.mastery[id]=Math.min(5,(S.mastery[id]||0)+1);S.xp+=3}
-  $("#res").innerHTML=ok?"🧠 正解！ 熟練度アップ":"❌ 正解は「"+w.ja+"」";save();setTimeout(review,850)}
-
 /* 画面切り替え・起動 */
 let CUR="home";
 function applyUI(){buildNav();const ci=$(".coins .ci");if(ci)ci.innerHTML=ico("icon_coin","🪙");const gi=$("#gear");if(gi&&UI_ICO.icon_gear)gi.innerHTML=ico("icon_gear","⚙");const ap=$(".app");if(UI.app_bg&&ap)ap.style.background=`linear-gradient(#0d1230cc,#060812ee),url('${UI.app_bg}') center top/cover fixed`;const sp=$(".sp");if(sp)sp.innerHTML=splashInner()}
@@ -103,7 +82,7 @@ function setBg(p){let b=$("#bg");if(!b){b=document.createElement("div");b.id="bg
 function buildNav(){document.querySelectorAll("nav button").forEach(b=>{const p=b.dataset.p,[e,t]=NAV[p];b.innerHTML=`<i>${ico("nav_"+p,e)}</i>${t}`})}
 function openSettings(){const d=document.createElement("div");d.className="sheet";d.onclick=e=>{if(e.target===d)d.remove()};
   d.innerHTML=`<div class="sheet-in"><h3 style="margin:0 0 12px;color:#f4d477;font-family:Georgia,serif">設定</h3><div class="sd-ex">コイン ${S.coins}　／　カード ${ownedCount()}種類　／　連続学習 ${streakNow()}日</div><button class="gold-btn" style="margin-bottom:10px" onclick="this.closest('.sheet').remove()">閉じる</button><button class="hm2-reset" onclick="if(confirm('セーブデータをすべて消します。よろしいですか？')){localStorage.removeItem('wordQuestDemo');location.reload()}">セーブデータをリセット</button></div>`;document.body.appendChild(d)}
-function showPage(p){CUR=p;document.body.classList.toggle("is-home",p==="home");document.body.classList.toggle("is-gacha",p==="gacha");setBg(p);document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x.dataset.p===p));({home,study,gacha,cards,review})[p]();window.scrollTo(0,0)}
+function showPage(p){clearTimeout(STNEXT);CUR=p;document.body.classList.toggle("is-home",p==="home");document.body.classList.toggle("is-gacha",p==="gacha");setBg(p);document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x.dataset.p===p));({home,study,gacha,cards})[p]();window.scrollTo(0,0)}
 buildNav();document.querySelectorAll("nav button").forEach(b=>b.addEventListener("click",()=>showPage(b.dataset.p)));
 const gear=$("#gear");if(gear)gear.onclick=openSettings;
 showPage("home");

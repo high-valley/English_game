@@ -2,8 +2,8 @@
    使う画像（assets/ui/ に置くと自動で使われる。無ければ従来の表示）:
      gacha_bg … ガチャ画面と演出の背景 / gacha_pack … パック / card_back … カード裏面 / magic_circle … 魔法陣 */
 let GM="one",GN=10;
-const maxN=()=>Math.max(1,Math.min(100,Math.floor(S.coins/100)));
-const RORD=["COMMON","UNCOMMON","RARE","EPIC","LEGENDARY"];
+const maxN=()=>Math.max(1,Math.min(100,Math.floor(S.coins/GACHA_COST)));
+const RORD=LEVELS;
 const RCOL={COMMON:"#9fb4dc",UNCOMMON:"#3ecf7a",RARE:"#3aa0ff",EPIC:"#b26bff",LEGENDARY:"#ffb43a"};
 const packSrc=()=>UI.gacha_pack||"assets/pack.svg",backSrc=()=>UI.card_back||"assets/card_back.svg";
 function circleSvg(){
@@ -20,9 +20,9 @@ function gacha(){
   <div class="gp2-panel orn"><div class="gm-tabs"><button class="${multi?"":"on"}" onclick="setGM('one')">1回</button><button class="${multi?"on":""}" onclick="setGM('multi')">まとめて</button></div>
   ${multi?`<div class="gm-box"><div class="gm-step"><button onclick="gnSet(GN-10)">−10</button><button onclick="gnSet(GN-1)">−</button><input id="gn" type="number" inputmode="numeric" min="1" max="${maxN()}" value="${GN}" oninput="gnSet(this.value,1)"><button onclick="gnSet(GN+1)">＋</button><button onclick="gnSet(GN+10)">＋10</button></div><div class="gm-quick"><button onclick="gnSet(10)">10回</button><button onclick="gnSet(50)">50回</button><button onclick="gnSet(999)">最大 ${maxN()}回</button></div></div>`:""}
   <div class="gp-price" id="gp-price"></div>
-  <div class="rates-row">${RATES.map(([r,p])=>`<div class="r-${r}"><i class="gem"></i>${r}<b>${p}%</b></div>`).join("")}</div></div>
+  <div class="gp2-rc">現在 Lv.${S.unlockedLevel} の排出率（勉強でレベルを上げると更新）</div><div class="rates-row">${currentRates().map(([r,p])=>`<div class="r-${r}${p?"":" z"}"><i class="gem"></i>${r}<b>${p}%</b></div>`).join("")}</div></div>
   <button class="gold-btn" id="gp-btn" onclick="pullBtn()"></button></section>`;gnLabel();save()}
-function gnLabel(){const n=GM==="multi"?GN:1;$("#gp-price").innerHTML=n===1?"1回 🪙 100コイン":`${n}回 🪙 ${n*100}コイン<small>　所持 🪙 ${S.coins}</small>`;$("#gp-btn").textContent=`🎁 ${n}回引く`}
+function gnLabel(){const n=GM==="multi"?GN:1;$("#gp-price").innerHTML=n===1?`1回 🪙 ${GACHA_COST}コイン`:`${n}回 🪙 ${n*GACHA_COST}コイン<small>　所持 🪙 ${S.coins}</small>`;$("#gp-btn").textContent=`🎁 ${n}回引く`}
 function setGM(m){GM=m;gacha()}
 function gnSet(v,typing){GN=Math.max(1,Math.min(maxN(),parseInt(v)||1));const i=$("#gn");if(i&&!typing)i.value=GN;gnLabel()}
 function pullBtn(){GM==="multi"&&GN>1?pullMulti(GN):pull()}
@@ -50,20 +50,20 @@ function packAnim(rar,done){
   g.querySelector(".gx-skip").onclick=e=>{e.stopPropagation();T.forEach(clearTimeout);st.classList.add("skipped","open");end()}}
 function pull(){
   if($(".gx"))return;
-  if(S.coins<100){toast("コインが足りません。まず勉強しよう！");return}
-  S.coins-=100;const w=draw(),before=S.owned[w.id]||0;S.owned[w.id]=before+1;S.xp+=5;save(); // 演出中に閉じてもカードは失われない
+  if(S.coins<GACHA_COST){toast("コインが足りません。まず勉強しよう！");return}
+  S.coins-=GACHA_COST;const w=draw(),before=S.owned[w.id]||0;S.owned[w.id]=before+1;save(); // 演出中に閉じてもカードは失われない
   packAnim(w.rarity,(g,st)=>{st.insertAdjacentHTML("beforeend",`<div class="gx-tap">« TAP TO OPEN »</div>`);st.onclick=()=>reveal(g,st,w,before)})}
 function pullMulti(n){
   if($(".gx"))return;
-  if(S.coins<100*n){toast(`コインが足りません（必要 ${100*n}）`);return}
-  S.coins-=100*n;const res=[];
+  if(S.coins<GACHA_COST*n){toast(`コインが足りません（必要 ${GACHA_COST*n}）`);return}
+  S.coins-=GACHA_COST*n;const res=[];
   for(let i=0;i<n;i++){const w=draw(),before=S.owned[w.id]||0;S.owned[w.id]=before+1;res.push({w,isNew:before===0})}
-  S.xp+=5*n;save();res.sort((a,b)=>b.w.stars-a.w.stars);
+  save();res.sort((a,b)=>b.w.stars-a.w.stars);
   packAnim(res[0].w.rarity,g=>setTimeout(()=>showResults(g,res,n),700))}
 function showResults(g,res,n){
   const cnt={};res.forEach(r=>cnt[r.w.rarity]=(cnt[r.w.rarity]||0)+1);const nw=res.filter(r=>r.isNew).length;
   g.innerHTML=`<div class="gr"><div class="gr-title">✨ ${n}回ガチャ結果 ✨</div>
-  <div class="gr-sum">${RATES.map(([r])=>cnt[r]?`<span class="r-${r}"><i class="gem"></i>${cnt[r]}</span>`:"").join("")}<b>NEW ${nw}</b></div>
+  <div class="gr-sum">${LEVELS.map(r=>cnt[r]?`<span class="r-${r}"><i class="gem"></i>${cnt[r]}</span>`:"").join("")}<b>NEW ${nw}</b></div>
   <div class="gr-grid">${res.map(r=>`<button class="mc r-${r.w.rarity}" onclick="cardDetail(${r.w.id})"><div class="mc-art">${artHtml(r.w,"mc-img")}</div><div>${r.w.en}</div><div class="mc-st">${"★".repeat(r.w.stars)}</div>${r.isNew?'<em class="gr-new">NEW</em>':""}</button>`).join("")}</div>
   <div class="gr-note">タップでカードを拡大</div><button class="gold-btn" onclick="closeGx()">OK</button></div>`}
 function reveal(g,st,w,before){
