@@ -2,26 +2,8 @@
    ・CARD_IMG … 生成した画像を使う単語（assets/cards/○○.png を置いて追記）
    ・CARD_EXTRA … その単語を使った一文（s:英文 t:和訳）
    ・ART_SVG … コードで描いたイラスト（画像が無い単語に使われる） */
-const CARD_IMG={
-  cat:"assets/cards/cat.webp",
-  apple:"assets/cards/apple.webp",
-  book:"assets/cards/book.webp",
-  water:"assets/cards/water.webp"
-};
-const CARD_EXTRA={
-  apple:{s:"The knight ate a red apple and regained his strength.",t:"騎士は赤いりんごを食べ、力を取り戻した。"},
-  cat:{s:"The cat guarded the castle gate all night.",t:"猫は一晩中、城門を守り抜いた。"},
-  book:{s:"The wizard opened an ancient book of light.",t:"魔法使いは、光の古書を開いた。"},
-  water:{s:"Water from the sacred spring healed the hero.",t:"聖なる泉の水が、勇者を癒やした。"},
-  night:{s:"The castle glowed with magic all night.",t:"城は夜通し、魔法の光を放っていた。"},
-  strong:{s:"Only the strong can pull the sword from the stone.",t:"強き者だけが、石から剣を抜ける。"},
-  dog:{s:"The loyal dog led the knight through the dark forest.",t:"忠実な犬が、騎士を暗い森の外へ導いた。"},
-  win:{s:"Only the brave can win the final battle.",t:"勇者だけが、最後の戦いに勝てる。"},
-  world:{s:"The dragon soared over the whole world.",t:"ドラゴンは、世界の果てまで舞い上がった。"},
-  future:{s:"The oracle saw the future in a crystal.",t:"神託者は、水晶の中に未来を見た。"},
-  abandon:{s:"The hero would never abandon his comrades.",t:"勇者は仲間を決して見捨てない。"},
-  meaning:{s:"Every ancient rune holds a hidden meaning.",t:"古代のルーンには、すべて隠された意味がある。"}
-};
+const CARD_IMG={cat:"assets/cards/cat.webp",apple:"assets/cards/apple.webp"};
+const CARD_EXTRA={};   // 廃止：カードの例文は words.js の ex（カードゲーム風の一文）を使う
 const _sp='<g fill="#fff"><circle cx="24" cy="26" r="1.4" opacity=".9"/><circle cx="172" cy="22" r="1.8" opacity=".8"/><circle cx="150" cy="58" r="1" opacity=".7"/><circle cx="38" cy="82" r="1.2" opacity=".6"/><circle cx="184" cy="112" r="1.3" opacity=".7"/><circle cx="14" cy="130" r="1" opacity=".6"/></g><path d="M60 40l2 6 6 2-6 2-2 6-2-6-6-2 6-2zM160 90l1.5 4 4 1.5-4 1.5-1.5 4-1.5-4-4-1.5 4-1.5z" fill="#ffe9a0"/>';
 const _bg=(id,a,b)=>`<defs><radialGradient id="${id}" cx="50%" cy="48%" r="75%"><stop offset="0" stop-color="${a}"/><stop offset="1" stop-color="${b}"/></radialGradient></defs><rect width="200" height="180" fill="url(#${id})"/>${_sp}`;
 const _svg=b=>`<svg class="cart" viewBox="0 6 200 150" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">${b}</svg>`;
