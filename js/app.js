@@ -44,7 +44,7 @@ function shuffleOpts(correct){const o=[correct];while(o.length<4){const x=WORDS[
 /* ホーム */
 function home(){
   const owned=WORDS.filter(w=>S.owned[w.id]).length,mastered=Object.values(S.mastery).filter(x=>x>=5).length,L=lvInfo(),pulls=Math.floor(S.coins/100);
-  $("#main").innerHTML=`<section class="hm2"><div class="hm2-logo">${EMB}<div class="hm2-word"><span>WORD</span><span>QUEST</span></div></div>
+  $("#main").innerHTML=`<section class="hm2"><div class="hm2-logo">${UI.logo_title?`<img class="hm2-logoimg" src="${UI.logo_title}" alt="WORD GRIMOIRE">`:`${EMB}<div class="hm2-word"><span>WORD</span><span>GRIMOIRE</span></div>`}</div>
   <div class="hm2-tag">言葉を集めて、<br>世界を広げよう</div>
   <div class="hm2-grid"><div class="hm2-left">
     <div class="hm2-panel orn"><div class="hm2-ct"><span>コレクション Lv.${L.lv}</span><b>${owned}/${WORDS.length}</b></div><div class="hm2-cbar"><i style="width:${owned/WORDS.length*100}%"></i></div>
@@ -68,7 +68,7 @@ function gacha(){
   const multi=GM==="multi",n=multi?GN:1;
   $("#main").innerHTML=`<section class="gp orn"${UI.gacha_bg?` style="--pb:linear-gradient(#0a0e2288,#0a0e22cc),url('${UI.gacha_bg}') center/cover"`:""}><div class="gp-title"><i class="ic">🎰</i>ガチャ</div><div class="gp-sub">勉強してコインを貯めてカードを引こう</div>
   <div class="gm-tabs"><button class="${multi?"":"on"}" onclick="setGM('one')">1回</button><button class="${multi?"on":""}" onclick="setGM('multi')">まとめて</button></div>
-  <div class="gp-pack" onclick="pullBtn()"><img src="assets/pack.svg" alt="WORD QUEST パック"></div>
+  <div class="gp-pack" onclick="pullBtn()"><img src="assets/pack.svg" alt="パック"></div>
   ${multi?`<div class="gm-box"><div class="gm-step"><button onclick="gnSet(GN-10)">−10</button><button onclick="gnSet(GN-1)">−</button><input id="gn" type="number" inputmode="numeric" min="1" max="${maxN()}" value="${GN}" oninput="gnSet(this.value,1)"><button onclick="gnSet(GN+1)">＋</button><button onclick="gnSet(GN+10)">＋10</button></div>
   <div class="gm-quick"><button onclick="gnSet(10)">10回</button><button onclick="gnSet(50)">50回</button><button onclick="gnSet(999)">最大 ${maxN()}回</button></div></div>`:""}
   <div class="gp-price" id="gp-price"></div>
@@ -144,7 +144,7 @@ function reviewAns(v,id){markStudied();
 
 /* 画面切り替え・起動 */
 let CUR="home";
-function applyUI(){buildNav();const ci=$(".coins .ci");if(ci)ci.innerHTML=ico("icon_coin","🪙");const gi=$("#gear");if(gi&&UI_ICO.icon_gear)gi.innerHTML=ico("icon_gear","⚙");const ap=$(".app");if(UI.app_bg&&ap)ap.style.background=`linear-gradient(#0d1230cc,#060812ee),url('${UI.app_bg}') center top/cover fixed`;const sp=$(".sp");if(sp){const o=sp.querySelector(".scene");if(o)o.remove();sp.insertAdjacentHTML("afterbegin",bgScene("splash_bg"))}}
+function applyUI(){buildNav();const ci=$(".coins .ci");if(ci)ci.innerHTML=ico("icon_coin","🪙");const gi=$("#gear");if(gi&&UI_ICO.icon_gear)gi.innerHTML=ico("icon_gear","⚙");const ap=$(".app");if(UI.app_bg&&ap)ap.style.background=`linear-gradient(#0d1230cc,#060812ee),url('${UI.app_bg}') center top/cover fixed`;const sp=$(".sp");if(sp)sp.innerHTML=splashInner()}
 function setBg(on){let b=$("#bg");if(!b){b=document.createElement("div");b.id="bg";$(".app").prepend(b)}b.innerHTML=on?bgScene("home_bg"):""}
 function buildNav(){document.querySelectorAll("nav button").forEach(b=>{const p=b.dataset.p,[e,t]=NAV[p];b.innerHTML=`<i>${ico("nav_"+p,e)}</i>${t}`})}
 function openSettings(){const d=document.createElement("div");d.className="sheet";d.onclick=e=>{if(e.target===d)d.remove()};
@@ -157,9 +157,10 @@ document.body.classList.add("ui-wait");
 const uiRefresh=()=>{document.body.classList.remove("ui-wait");applyUI();if(!$(".gx")&&!$(".sheet"))showPage(CUR)};
 setTimeout(()=>{if(!UI_READY){UI_READY=true;uiRefresh()}},2200);
 uiInit(uiRefresh).then(()=>{if(Object.keys(UI_FRAME).length)uiRefresh()});
+function splashInner(){const r=UI_READY;return `${bgScene("splash_bg")}${r?(UI.logo_emblem?`<img class="sp-emb" src="${UI.logo_emblem}" alt="">`:EMB):""}${r?(UI.logo_title?`<img class="sp-tt" src="${UI.logo_title}" alt="WORD GRIMOIRE">`:`<div class="sp-title">WORD GRIMOIRE</div>`):""}<div class="sp-tag">もっと知る。もっと強くなる。</div><div class="sp-hint">TAP TO START</div>`}
 (function splash(){
   try{if(sessionStorage.wqSplash)return;sessionStorage.wqSplash=1}catch(e){}
   const s=document.createElement("div");s.className="sp";
-  s.innerHTML=`${bgScene("splash_bg")}${EMB}<div class="sp-title">WORD QUEST</div><div class="sp-tag">もっと知る。もっと強くなる。</div><div class="sp-hint">TAP TO START</div>`;
+  s.innerHTML=splashInner();
   const close=()=>{s.classList.add("out");setTimeout(()=>s.remove(),700)};
   s.onclick=close;document.body.appendChild(s);setTimeout(close,2600)})();
