@@ -4,14 +4,18 @@
 
 ## 使い方
 1. 各プロンプトを、画像生成AIに入れる（3:2の横長。目安 1800x1200）
-2. できた画像を `assets/cards/単語.webp` で保存する（例：`assets/cards/bird.webp`、1200x800 前後、200〜400KB）
+2. できた画像を `assets/cards/単語.webp` で保存する（例：`assets/cards/bird.webp`、1200x800 前後、100〜400KB）
 3. `js/card_art.js` の `CARD_IMG_NAMES` に、単語の名前を追加する（例：`"apple","cat","bird"`）
 
 プロンプトは、カードの例文（`words.js` の `ex`）から作っています。例文の場面が、そのまま絵になります。レアリティが低いほど簡素に、高いほど豪華になります。画像を作らない単語は、背景付きの絵文字が表示されます。
 
 ## 優先順位のおすすめ
 - 画像が目立つのは、ガチャで出る高レアと、図鑑で見るカードです
-- COMMON は数が多いので、まず数語だけ作り、絵柄を確認してから増やすのがおすすめです
+- COMMON・UNCOMMON は数が多いので、まず数語だけ作り、絵柄を確認してから増やすのがおすすめです
+
+## 作成済みの画像
+- apple（COMMON。青空の下で、りんごをかじる騎士）
+- cat
 
 
 ## Lv.1 COMMON（100語）
@@ -519,7 +523,7 @@ simple fantasy illustration, one clear subject, calm simple background, minimal 
 ```
 
 
-## Lv.2 UNCOMMON（20語）
+## Lv.2 UNCOMMON（100語）
 
 共通のスタイル：fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject
 
@@ -621,6 +625,406 @@ fantasy illustration with a small magical touch, gentle glow, slightly richer de
 **40. forget**（忘れる）
 ```
 fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Do not forget your lantern. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**181. garden**（庭）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Glowing flowers bloom in the secret garden. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**182. kitchen**（台所）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The witch cooks a magic soup in the kitchen. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**183. market**（市場）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The village market is full of strange fruit. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**184. village**（村）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A small village hides deep in the forest. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**185. forest**（森）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Tiny lights dance in the dark forest. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**186. island**（島）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A floating island appears above the clouds. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**187. desert**（砂漠）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The travelers cross the hot desert at night. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**188. cave**（洞くつ）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A blue light shines inside the cave. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**189. tower**（塔）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The wizard lives in the tallest tower. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**190. gate**（門）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The stone gate opens with a soft sound. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**191. ship**（船）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A silver ship sails through the night sky. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**192. station**（駅）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The old station is quiet at midnight. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**193. hospital**（病院）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The healer works at the hospital on the hill. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**194. library**（図書館）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Ancient books sleep in the silent library. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**195. ticket**（切符）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: She shows her ticket to the guard. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**196. map**（地図）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The old map shows a hidden island. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**197. letter**（手紙）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A magic letter arrives at the window. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**198. story**（物語）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Grandma tells a story about a dragon. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**199. dream**（夢）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The boy has a dream about flying. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**200. question**（質問）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The sphinx asks a difficult question. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**201. answer**（答え）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Only the brave hero knows the answer. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**202. number**（数）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Choose a number between one and ten. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**203. color**（色）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The dragon changes color in the sun. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**204. weather**（天気）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The weather is good for a journey. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**205. summer**（夏）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Fireflies fill the air in summer. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**206. winter**（冬）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Snow falls softly in winter. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**207. holiday**（休日）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The whole town celebrates the holiday. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**208. bicycle**（自転車）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The boy rides a bicycle to school. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**209. brother**（兄弟）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: My brother is a brave knight. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**210. sister**（姉妹）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Her sister makes a magic potion. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**211. mother**（母）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: His mother sings by the fire. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**212. father**（父）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The father teaches his son to swim. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**213. umbrella**（傘）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: She opens an umbrella in the rain. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**214. mirror**（鏡）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The mirror shows a strange world. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**215. candle**（ろうそく）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A single candle lights the dark room. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**216. ring**（指輪）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The hero wears a ring of silver. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**217. crown**（王冠）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The prince puts on the golden crown. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**218. shield**（盾）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The knight lifts his shield high. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**219. wait**（待つ）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Please wait here until the moon rises. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**220. ask**（尋ねる）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The traveler asks the way to the castle. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**221. bring**（持ってくる）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Bring a lantern to the dark cave. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**222. carry**（運ぶ）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The strong horse can carry two heavy bags. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**223. catch**（つかまえる）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The cat tries to catch a glowing fish. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**224. choose**（選ぶ）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: You must choose one path today. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**225. climb**（登る）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: We climb the tall tower together. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**226. cook**（料理する）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: He cooks a fresh fish over the fire. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**227. cross**（渡る）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The children cross the bridge carefully. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**228. dance**（踊る）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The fairies dance under the moon. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**229. draw**（描く）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: She draws a dragon on the wall. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**230. enjoy**（楽しむ）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: We enjoy a warm meal at the inn. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**231. explain**（説明する）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The teacher explains the magic rules. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**232. find**（見つける）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The boy finds a shining stone. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**233. follow**（ついていく）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Follow the light to the hidden door. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**234. join**（加わる）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Many heroes join the guild every year. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**235. leave**（去る）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The knight must leave the village at dawn. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**236. meet**（会う）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: We meet at the old bridge at noon. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**237. protect**（守る）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The dragon protects the sleeping village. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**238. save**（救う）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The hero jumps in to save the child. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**239. search**（探す）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: They search the forest for the lost key. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**240. send**（送る）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The wizard sends a message by bird. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**241. share**（分け合う）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The friends share bread and warm tea. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**242. show**（見せる）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The guide shows us the secret path. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**243. teach**（教える）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The old knight teaches young soldiers. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**244. visit**（訪れる）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Many travelers visit the ancient temple. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**245. careful**（注意深い）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Be careful on the icy bridge. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**246. dangerous**（危険な）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The dark forest is very dangerous. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**247. quiet**（静かな）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The night is calm and quiet. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**248. brave**（勇敢な）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The brave girl enters the cave. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**249. clever**（賢い）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A clever fox solves the puzzle. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**250. empty**（空の）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The old castle is empty now. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**251. famous**（有名な）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The famous bard sings in the town. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**252. heavy**（重い）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The knight carries a heavy sword. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**253. tired**（疲れた）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The tired traveler falls asleep quickly. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**254. safe**（安全な）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The village is safe from the storm. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**255. ready**（準備ができた）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The team is ready for the journey. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**256. special**（特別な）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: This is a special day for the kingdom. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**257. always**（いつも）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The owl always watches the forest. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**258. never**（決して〜ない）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The old wizard never lies. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**259. suddenly**（突然）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Suddenly, the sky turns bright red. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**260. finally**（ついに）
+```
+fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Finally, the hero reaches the tower. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
 ```
 
 

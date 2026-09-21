@@ -12,8 +12,8 @@
 
 ## 次のタスク（決定済み）
 - **単語を、各レアリティ100語に増やす**（進行中）
-  - COMMON：完了（100語）
-  - 次：UNCOMMON の80語 → RARE → EPIC → LEGENDARY（ID は 181 から）
+  - COMMON・UNCOMMON：完了（各100語）
+  - 次：RARE の80語 → EPIC → LEGENDARY（ID は 261 から）
 - レア度別のカード枠、図鑑の整理、小カードの新デザイン
 - カード画像の作成（`card_image_prompts.md`）
 
@@ -28,6 +28,7 @@
 - アイコンをAIで作り直す場合は `assets/ui/icons/sheet_main.png` / `sheet_small.png`
 
 ## 完了済み
+- UNCOMMON の単語を100語に増やした（ID 181〜260）
 - COMMON の単語を100語に増やした（ID 101〜180）
 - 勉強をレベル制に（Lv.1〜5、進捗率、レベル切り替え、クリアでレベルアップ演出）、復習と旧XPランクを削除、タブを4つに
 - ガチャ排出率をレベルに連動（設定は `config.js` に集約）、ホームに学習レベルと進捗を表示

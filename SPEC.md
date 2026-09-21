@@ -85,7 +85,7 @@
 
 ---
 
-## 6. 単語データ（`js/words.js`、現在180語）
+## 6. 単語データ（`js/words.js`、現在260語）
 形式：`{ id, en, ja, pronunciation, pos, rarity, stars, ic, ex, tr }`
 - `ex`：カードゲーム風の一文（英文）、`tr`：その日本語訳
 - `ic`：絵の代わりに使う絵文字
@@ -119,6 +119,8 @@
 
 - **Lv.1 の追加80語（ID 101〜180）**：bird fish horse tree flower river mountain sea star rain wind snow fire bread milk egg rice tea cake door window table chair bed room town road bridge castle king queen boy girl man woman baby teacher doctor sword key box bag hat night morning hand see walk run jump swim fly sit open close read write sing play help make buy give love live work listen speak small new old hot cold fast strong good red blue white black
 - 選んだ基準：CEFR A1〜A2、英検5〜4級の身近な単語（名詞・動詞・形容詞）。ゲームの世界に合う単語（城、剣、王など）も入れた
+- **Lv.2 の追加80語（ID 181〜260）**：garden kitchen market village forest island desert cave tower gate ship station hospital library ticket map letter story dream question answer number color weather summer winter holiday bicycle brother sister mother father umbrella mirror candle ring crown shield wait ask bring carry catch choose climb cook cross dance draw enjoy explain find follow join leave meet protect save search send share show teach visit careful dangerous quiet brave clever empty famous heavy tired safe ready special always never suddenly finally
+- 選んだ基準（Lv.2）：CEFR A2〜B1、英検3級（中学卒業）の日常の単語。名詞38・動詞26・形容詞12・副詞4。例文には、小さな魔法の要素を入れた
 
 - 例文の難しさと絵の豪華さは、レアリティに合わせる（COMMON は簡素、LEGENDARY は壮大）
 
@@ -243,7 +245,7 @@ English_game/
 | 6 | ホームに学習レベルと進捗、ロック表示 | 完了 |
 | 7 | レア度別の枠、図鑑の整理、小カードの新デザイン | 未 |
 | 8 | レベルごとのコイン増（`LEVEL_COIN`） | 将来 |
-| 9 | 単語を増やす（各100語）：COMMON 完了（100語）、UNCOMMON〜LEGENDARY は各20語 → 100語へ | 進行中 |
+| 9 | 単語を増やす（各100語）：COMMON・UNCOMMON 完了（各100語）、RARE〜LEGENDARY は各20語 → 100語へ | 進行中 |
 
 
 ---
