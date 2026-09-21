@@ -380,3 +380,83 @@ img.scene{animation:sceneIn .6s ease-out both}
 .sp>.sp-emb{width:46%;max-width:240px;height:auto;filter:drop-shadow(0 0 26px #3a5aff88)}
 .sp>.sp-tt{width:88%;max-width:460px;height:auto;margin-top:-3%}
 .sp-title{font-size:38px}
+
+/* ===== ガチャ画面 v2 ===== */
+.is-home #bg,.is-gacha #bg{display:block}
+.is-gacha #bg:after{background:linear-gradient(180deg,#050818cc,#050818ee)}
+.is-gacha header{background:transparent;border-bottom:0;box-shadow:none}
+.is-gacha nav{background:rgba(6,10,32,.72);backdrop-filter:blur(6px)}
+.is-gacha main{padding-top:0}
+.gp2{display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center}
+.gp2-head h2{margin:0;font:900 30px Georgia,"Hiragino Mincho ProN",serif;letter-spacing:6px;background:linear-gradient(#fff6c8,#e5b84a 60%,#9a6c1a);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 2px 8px #000)}
+.gp2-head p{margin:4px 0 0;font-size:13px;color:#c8d0ec;text-shadow:0 1px 6px #000}
+.gp2-stage{position:relative;width:min(80vw,320px);height:min(80vw,320px);display:grid;place-items:center;cursor:pointer;margin-top:2px}
+.gp2-stage>*{grid-area:1/1}
+.gp2-stage .gx-circle{width:100%;height:100%}
+.gp2-glow{width:70%;height:70%;border-radius:50%;background:radial-gradient(circle,#7f8fff88,#4a5cff22 55%,transparent 72%);filter:blur(6px)}
+.gp2-pack{position:relative;z-index:2;height:74%;width:auto;max-width:66%;object-fit:contain;filter:drop-shadow(0 0 20px #6a7dffcc);animation:packFloat 3.4s ease-in-out infinite}
+.gp2-panel.orn{--pb:rgba(5,9,30,.82);width:100%;border-radius:16px;padding:14px 12px 10px;backdrop-filter:blur(3px)}
+.gp2-panel .gm-tabs{margin:0 auto 10px}
+.gp2-panel .rates-row{margin-top:2px}
+.gp2 .gold-btn{max-width:420px}
+.mcirc{display:block;width:100%;height:100%;color:#f1d27a;filter:drop-shadow(0 0 6px currentColor);animation:spin 46s linear infinite;object-fit:contain}
+
+/* ===== 開封演出 v2 ===== */
+.gx{opacity:0;transition:opacity .35s}.gx.dark{opacity:1}
+.gx-skip{position:absolute;top:calc(env(safe-area-inset-top,0px) + 14px);right:14px;z-index:12;padding:6px 14px;border:1px solid #c9a24a99;border-radius:99px;background:#0a0e22cc;color:#f1d27a;font:800 12px system-ui;letter-spacing:1px}
+.gx-stage>*{grid-area:1/1}
+.gx-stage{width:min(92vw,380px);height:min(62vh,440px)}
+.gx-circle{width:min(88vw,360px);height:min(88vw,360px);opacity:0;transform:scale(.4);transition:opacity .8s,transform .9s cubic-bezier(.2,1.2,.4,1);--c:var(--rc)}
+.gx-circle .mcirc{color:var(--rc)}
+.gx-stage.circle .gx-circle{opacity:.9;transform:scale(1)}
+.gx-stage.open .gx-circle{opacity:.25;transition:opacity .6s}
+.gx-glow{width:260px;height:260px;border-radius:50%;background:radial-gradient(circle,color-mix(in srgb,var(--rc) 60%,#fff8) 0,color-mix(in srgb,var(--rc) 25%,transparent) 42%,transparent 70%);opacity:.35;animation:burstPulse 1.6s ease-in-out infinite}
+.gx-stage.leak .gx-glow{opacity:.8}.gx-stage.open .gx-glow{opacity:1;width:380px;height:380px}
+.gx-rays{width:150%;aspect-ratio:1;justify-self:center;opacity:0;background:repeating-conic-gradient(color-mix(in srgb,var(--rc) 60%,transparent) 0 4deg,transparent 4deg 14deg);-webkit-mask:radial-gradient(circle,#000 6%,transparent 62%);mask:radial-gradient(circle,#000 6%,transparent 62%);animation:spin 24s linear infinite;transition:opacity .6s;pointer-events:none}
+.gx-stage.leak .gx-rays{opacity:.35}.gx-stage.open .gx-rays{opacity:.9}
+.gx-pk{position:relative;z-index:3;width:190px;visibility:hidden;filter:drop-shadow(0 0 18px color-mix(in srgb,var(--rc) 55%,#e7b94f))}
+.gx-pk.drop,.gx-pk.shake1,.gx-pk.shake2{visibility:visible}
+.gx-pk.drop{animation:pkDrop .9s cubic-bezier(.2,1.2,.4,1) both}
+.gx-pk.shake1{animation:pkShake1 .55s ease-in-out infinite}
+.gx-pk.shake2{animation:pkShake2 .28s ease-in-out infinite}
+.pk-body{display:block;width:100%;height:auto;clip-path:polygon(0 21%,10% 18%,20% 22%,30% 18%,40% 22%,50% 18%,60% 22%,70% 18%,80% 22%,90% 18%,100% 21%,100% 100%,0 100%)}
+.pk-top{position:absolute;inset:0;width:100%;height:100%;clip-path:polygon(0 0,100% 0,100% 21%,90% 18%,80% 22%,70% 18%,60% 22%,50% 18%,40% 22%,30% 18%,20% 22%,10% 18%,0 21%)}
+.pk-seam{position:absolute;left:-10%;right:-10%;top:19.2%;height:2.6%;border-radius:99px;background:linear-gradient(90deg,transparent,var(--rc) 18%,#fff 50%,var(--rc) 82%,transparent);box-shadow:0 0 var(--gl) var(--rc),0 0 calc(var(--gl)*2) var(--rc);opacity:0;transform:scaleX(.2);transition:opacity .4s,transform .5s}
+.gx-stage.leak .pk-seam{opacity:1;transform:scaleX(1);animation:seamPulse .3s ease-in-out infinite alternate}
+.gx-stage.open .pk-top{animation:topFly .85s cubic-bezier(.3,0,.7,1) forwards}
+.gx-stage.open .pk-body{animation:bodyOut .8s .12s ease-in forwards}
+.gx-stage.open .pk-seam{opacity:0;transition:none}
+.gx-cb{position:relative;z-index:4;width:190px;max-height:290px;object-fit:contain;opacity:0;filter:drop-shadow(0 0 22px var(--rc))}
+.gx-stage.open .gx-cb{animation:cbRise 1s .25s cubic-bezier(.2,1.2,.4,1) forwards}
+.gx-stage.skipped .gx-cb{animation:none;opacity:1;transform:translateY(-4%)}
+.gx-stage.skipped .gx-pk,.gx-stage.skipped .gx-circle{display:none}
+.gx-stage.flip .gx-cb{animation:cardFlip .45s ease-in forwards}
+.gx-stage.flip .gx-tap{display:none}
+.gx-tap{grid-area:1/1;align-self:end;justify-self:center;z-index:6;color:#f7d76e;font-weight:900;letter-spacing:2px;text-shadow:0 0 12px #000;animation:tapBlink 1.1s ease-in-out infinite}
+.gx-flash{position:fixed;inset:0;z-index:9;pointer-events:none;opacity:0;background:radial-gradient(circle,#fff 0,color-mix(in srgb,var(--rc,#fff) 70%,#fff) 35%,transparent 75%)}
+.gx-stage.open~.gx-flash{opacity:0}
+.gx.dark .gx-flash{transition:none}
+.gx-flash.on{animation:flash .7s ease-out}
+.gx-spark{position:absolute;bottom:-4px;width:var(--sz);height:var(--sz);border-radius:50%;background:#fff6c8;box-shadow:0 0 8px #ffd76a;opacity:0;animation:sparkUp var(--dr) var(--dl) ease-out infinite;pointer-events:none;z-index:8}
+.gx[data-lv="4"].shaking .gx-stage{animation:screenShake .5s 2}
+.gx-banner{font:900 22px Georgia,serif;letter-spacing:5px;color:var(--rc);text-shadow:0 0 14px var(--rc),0 2px 4px #000;animation:bannerPop .7s cubic-bezier(.2,1.5,.4,1) both;z-index:5}
+.rv-rays{position:absolute;z-index:-1;left:50%;top:50%;width:190%;aspect-ratio:1;transform:translate(-50%,-50%);background:repeating-conic-gradient(color-mix(in srgb,var(--rc) 50%,transparent) 0 4deg,transparent 4deg 14deg);-webkit-mask:radial-gradient(circle,#000 8%,transparent 60%);mask:radial-gradient(circle,#000 8%,transparent 60%);animation:spinC 30s linear infinite;pointer-events:none}
+.rv[data-lv="2"] .rv-rays{opacity:.45}
+@keyframes spinC{to{transform:translate(-50%,-50%) rotate(360deg)}}
+@keyframes pkDrop{0%{opacity:0;transform:translateY(-55vh) scale(.6) rotate(-14deg)}70%{opacity:1;transform:translateY(3%) scale(1.02) rotate(2deg)}100%{opacity:1;transform:none}}
+@keyframes pkShake1{0%,100%{transform:translateX(0) rotate(0)}25%{transform:translateX(-3px) rotate(-1.5deg)}75%{transform:translateX(3px) rotate(1.5deg)}}
+@keyframes pkShake2{0%,100%{transform:translateX(0) rotate(0) scale(1.02)}25%{transform:translateX(-7px) rotate(-4deg) scale(1.05)}75%{transform:translateX(7px) rotate(4deg) scale(1.05)}}
+@keyframes seamPulse{from{filter:brightness(1)}to{filter:brightness(1.6)}}
+@keyframes topFly{0%{transform:none;opacity:1}100%{transform:translate(45%,-170%) rotate(38deg);opacity:0}}
+@keyframes bodyOut{0%{transform:none;opacity:1}100%{transform:translateY(40%) scale(.85);opacity:0}}
+@keyframes cbRise{0%{opacity:0;transform:translateY(30%) scale(.5)}100%{opacity:1;transform:translateY(-4%) scale(1)}}
+@keyframes flash{0%{opacity:0}18%{opacity:.95}100%{opacity:0}}
+.gx-stage.open{animation:none}
+.gx-stage.open::before{content:"";grid-area:1/1;position:fixed;inset:0;background:radial-gradient(circle,#fff,color-mix(in srgb,var(--rc) 60%,#fff) 40%,transparent 75%);opacity:0;animation:flash .8s ease-out;pointer-events:none;z-index:9}
+@keyframes sparkUp{0%{opacity:0;transform:translateY(0)}20%{opacity:1}100%{opacity:0;transform:translateY(-70vh)}}
+@keyframes screenShake{0%,100%{transform:translate(0)}20%{transform:translate(-6px,4px)}40%{transform:translate(6px,-4px)}60%{transform:translate(-4px,-3px)}80%{transform:translate(4px,3px)}}
+@keyframes bannerPop{0%{opacity:0;transform:scale(.3)}100%{opacity:1;transform:scale(1)}}
+@media(prefers-reduced-motion:reduce){.gp2-pack,.mcirc,.gx-rays,.rv-rays,.gx-spark{animation:none}}
+.gp2-stage .gx-circle{opacity:.65;transform:none;transition:none}
+.gx-stage.leak .gx-glow{opacity:.5}
+.gx:not([data-lv="0"]):not([data-lv="1"]) .gx-stage.leak .gx-glow{opacity:.85}
