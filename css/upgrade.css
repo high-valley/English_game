@@ -462,3 +462,48 @@ img.scene{animation:sceneIn .6s ease-out both}
 .gx:not([data-lv="0"]):not([data-lv="1"]) .gx-stage.leak .gx-glow{opacity:.85}
 .cd3-info.xlong .cd3-ex{font-size:2.95cqw;line-height:1.3}.cd3-info.xlong .cd3-tr{font-size:2.5cqw}.cd3-info.xlong{gap:.2cqw}
 .cd3-info.long .cd3-div,.cd3-info.xlong .cd3-div{margin:.4cqw 0 1cqw}
+
+/* ===== 4タブ・ホームのレベル表示 ===== */
+nav{grid-template-columns:repeat(4,1fr)}
+.hm2-btns{grid-template-columns:repeat(2,1fr)}
+.hm2-lv{display:flex;gap:1.2cqw;margin:0 0 2cqw}
+.hm2-lv span{flex:1;text-align:center;font:700 max(9.5px,2.6cqw) Georgia,serif;padding:.8cqw 0;border:1px solid #33395a;border-radius:99px;color:#7f88a8;background:#0a1030}
+.hm2-lv .ok{border-color:#8a6d2c;color:#f1d27a}
+.hm2-lv .on{border-color:#f1d27a;color:#fff;background:linear-gradient(#3a3163,#1a1d3d);box-shadow:0 0 8px #f1d27a55}
+.rates-row .z{opacity:.35}
+.gp2-rc{font-size:11.5px;color:#9aa1b8;margin:2px 0 8px}
+
+/* ===== 勉強（レベル制） ===== */
+.st2{display:flex;flex-direction:column;gap:12px}
+.st2-tabs{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
+.st2-tabs button{padding:9px 0;border-radius:10px;border:1px solid #33395a;background:#10162b;color:#c9cde0;font:800 12px Georgia,serif}
+.st2-tabs .on{border:2px solid #f1d27a;background:linear-gradient(#3a3163,#1a1d3d);color:#ffe08a;box-shadow:0 0 10px #f1d27a44}
+.st2-tabs .lock{opacity:.45}
+.st2-prog.orn{--pb:rgba(5,9,30,.85);border-radius:14px;padding:14px 16px}
+.st2-pt{display:flex;justify-content:space-between;align-items:baseline;font:900 17px Georgia,serif;color:#f4d477}
+.st2-bar{height:10px;border-radius:99px;background:#1a2148;border:1px solid #6b5a2c;overflow:hidden;margin:8px 0 6px}
+.st2-bar i{display:block;height:100%;background:linear-gradient(90deg,#9b7730,#f2d47a);transition:width .5s}
+.st2-prog small{color:#9aa1b8;font-size:12px}
+.st2-card.orn{--pb:linear-gradient(#141a36,#0a0e22);border-radius:16px;padding:20px 14px 16px;text-align:center}
+.st2-hint{color:#9aa1b8;font-size:13px}
+.st2-q{font:900 44px Georgia,serif;color:#fff;margin:6px 0 2px;text-shadow:0 0 18px #4a7bff66}
+.st2-ipa{color:#c9a24a;font-size:15px}.st2-ipa button{background:none;border:0;font-size:18px;padding:0 4px}
+.st2-m{margin:4px 0 14px;font-size:12px;color:#9aa1b8;letter-spacing:2px}
+.st2-ans{display:grid;gap:10px}
+.st2-ans button{padding:15px;border-radius:12px;border:1px solid #363d58;background:#1a2032;color:#fff;font-weight:800;font-size:17px}
+.st2-ans button:disabled{opacity:1}
+.st2-ans button.ok{background:linear-gradient(#1f6b46,#12432c);border-color:#3ecf7a}
+.st2-ans button.ng{background:linear-gradient(#7a2b3a,#4a1520);border-color:#ff7a8a}
+.st2-res{min-height:64px;margin-top:12px;color:#f4efe0}
+.st2-res b{color:#ffe08a}.st2-res small{display:block;margin-top:5px;color:#9aa1b8;font-size:12px;line-height:1.5}
+
+/* ===== レベルアップ ===== */
+.lvup{position:fixed;inset:0;z-index:60;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;overflow:hidden;background:radial-gradient(circle at 50% 40%,#2a2350,#0b0e22 60%,#04050c);animation:panelIn .4s both}
+.lvup-rays{position:absolute;left:50%;top:36%;width:170vmax;aspect-ratio:1;transform:translate(-50%,-50%);background:repeating-conic-gradient(#f1d27a44 0 4deg,transparent 4deg 14deg);-webkit-mask:radial-gradient(circle,#000 3%,transparent 36%);mask:radial-gradient(circle,#000 3%,transparent 36%);animation:spinC 40s linear infinite;pointer-events:none}
+.lvup-in{position:relative;width:min(90vw,380px);display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center}
+.lvup-t{font:900 22px Georgia,serif;letter-spacing:6px;color:#f4d477;text-shadow:0 0 16px #f1d27a;animation:bannerPop .7s cubic-bezier(.2,1.5,.4,1) both}
+.lvup-n{font:900 64px Georgia,serif;background:linear-gradient(#fff6c8,#e5b84a 60%,#9a6c1a);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 4px 12px #000);animation:bannerPop .8s .1s cubic-bezier(.2,1.5,.4,1) both}
+.lvup-s{color:#e8eeff;font-size:14px}
+.lvup .rates-row{width:100%;padding:10px 4px;border:1px solid #6b5a2c;border-radius:12px;background:#0a0f22cc;margin:4px 0 6px}
+.lvup .gold-btn{max-width:340px}
+.lvup-sub{padding:12px;width:100%;max-width:340px;border-radius:12px;border:1px solid #6b5a2c;background:#10162b;color:#f1d27a;font-weight:800}
