@@ -72,7 +72,7 @@ function cardDetail(id){
   const w=WORDS.find(x=>x.id===id),n=S.owned[id]||0,m=S.mastery[id]||0,d=document.createElement("div");
   d.className="sheet";d.onclick=e=>{if(e.target===d)d.remove()};
   d.innerHTML=`<div class="sheet-in r-${w.rarity}"><div class="sd-card">${cardFace(w)}</div>
-  <div class="rv-panel" style="width:100%;animation:none"><div><span>コレクション Lv.${n}</span><b>×${n}</b></div><div><span>復習熟練度</span><b>${m}/5</b></div></div></div>`;
+  <div class="rv-panel" style="width:100%;animation:none"><div><span>コレクション Lv.${n}</span><b>×${n}</b></div><div><span>熟練度</span><b>${m}/5</b></div></div></div>`;
   document.body.appendChild(d)}
 
 /* 画面切り替え・起動 */
