@@ -6,7 +6,7 @@
    カード枠は「絵の窓」を純マゼンタ(#FF00FF)で塗っておくと、自動で透明にして窓の位置も検出します。 */
 const UI={},UI_FRAME={};
 let UI_READY=false;   // 画像の有無が分かるまでは、仮の背景を出さない（ちらつき防止）
-const UI_SLOTS=["card_frame","card_frame_common","card_frame_uncommon","card_frame_rare","card_frame_epic","card_frame_legendary","home_bg","splash_bg","gacha_bg","app_bg","logo_title","logo_emblem"];
+const UI_SLOTS=["card_frame","card_frame_common","card_frame_uncommon","card_frame_rare","card_frame_epic","card_frame_legendary","home_bg","splash_bg","gacha_bg","app_bg","logo_title","logo_emblem","gacha_pack","card_back","magic_circle"];
 // カード内の各パーツ位置 [x,y,幅,高さ]（300x400 の座標）。枠画像に合わせて微調整したい時は LAYOUT_OVERRIDE に書く
 const LAYOUT={art:[24,22,252,168],star:[12,12,64,64],word:[204,18,78,28],plate:[40,182,220,36],info:[28,231,244,104],lv:[28,348,160,34],rar:[198,344,86,48]};
 // 枠画像を使う時だけ適用するパーツ位置（今の card_frame.png に合わせた値）

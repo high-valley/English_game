@@ -61,56 +61,6 @@ function study(){
 function studyAns(v){markStudied();const ok=decodeURIComponent(v)===studyWord.ja;$("#res").innerHTML=ok?"🎉 正解！ +25コイン":"❌ 正解は「"+studyWord.ja+"」";if(ok){S.coins+=25;S.xp+=2}save();setTimeout(study,850)}
 
 /* ガチャ */
-let GM="one",GN=10;
-const maxN=()=>Math.max(1,Math.min(100,Math.floor(S.coins/100)));
-function gacha(){
-  GN=Math.min(GN,maxN());
-  const multi=GM==="multi",n=multi?GN:1;
-  $("#main").innerHTML=`<section class="gp orn"${UI.gacha_bg?` style="--pb:linear-gradient(#0a0e2288,#0a0e22cc),url('${UI.gacha_bg}') center/cover"`:""}><div class="gp-title"><i class="ic">🎰</i>ガチャ</div><div class="gp-sub">勉強してコインを貯めてカードを引こう</div>
-  <div class="gm-tabs"><button class="${multi?"":"on"}" onclick="setGM('one')">1回</button><button class="${multi?"on":""}" onclick="setGM('multi')">まとめて</button></div>
-  <div class="gp-pack" onclick="pullBtn()"><img src="assets/pack.svg" alt="パック"></div>
-  ${multi?`<div class="gm-box"><div class="gm-step"><button onclick="gnSet(GN-10)">−10</button><button onclick="gnSet(GN-1)">−</button><input id="gn" type="number" inputmode="numeric" min="1" max="${maxN()}" value="${GN}" oninput="gnSet(this.value,1)"><button onclick="gnSet(GN+1)">＋</button><button onclick="gnSet(GN+10)">＋10</button></div>
-  <div class="gm-quick"><button onclick="gnSet(10)">10回</button><button onclick="gnSet(50)">50回</button><button onclick="gnSet(999)">最大 ${maxN()}回</button></div></div>`:""}
-  <div class="gp-price" id="gp-price"></div>
-  <div class="rates orn"><div class="rates-h">レアリティ排出率</div><div class="rates-row">${RATES.map(([r,p])=>`<div class="r-${r}"><i class="gem"></i>${r}<b>${p}%</b></div>`).join("")}</div></div>
-  <button class="gold-btn" id="gp-btn" onclick="pullBtn()"></button></section>`;gnLabel();save()}
-function gnLabel(){const n=GM==="multi"?GN:1;$("#gp-price").innerHTML=n===1?"1回 🪙 100コイン":`${n}回 🪙 ${n*100}コイン<small>　所持 🪙 ${S.coins}</small>`;$("#gp-btn").textContent=`🎁 ${n}回引く`}
-function setGM(m){GM=m;gacha()}
-function gnSet(v,typing){GN=Math.max(1,Math.min(maxN(),parseInt(v)||1));const i=$("#gn");if(i&&!typing)i.value=GN;gnLabel()}
-function pullBtn(){GM==="multi"&&GN>1?pullMulti(GN):pull()}
-function shards(){let h="";for(let i=0;i<16;i++)h+=`<i class="shard" style="--a:${i*22.5}deg;--d:${120+Math.random()*90}px"></i>`;return h}
-function packAnim(done){
-  const g=document.createElement("div");g.className="gx";if(UI.gacha_bg)g.style.background=`linear-gradient(#0a0e2266,#04050ccc),url('${UI.gacha_bg}') center/cover`;
-  g.innerHTML=`<div class="gx-stage"><div class="gx-glow"></div><img class="gx-pack" src="assets/pack.svg" alt=""></div>`;
-  document.body.appendChild(g);const st=g.firstChild;
-  setTimeout(()=>st.classList.add("charge"),700);
-  setTimeout(()=>{st.classList.remove("charge");st.classList.add("open");st.insertAdjacentHTML("beforeend",shards())},1600);
-  setTimeout(()=>done(g,st),2300)}
-function pull(){
-  if($(".gx"))return;
-  if(S.coins<100){toast("コインが足りません。まず勉強しよう！");return}
-  S.coins-=100;const w=draw(),before=S.owned[w.id]||0;S.owned[w.id]=before+1;S.xp+=5;save(); // 演出中に閉じてもカードは失われない
-  packAnim((g,st)=>{st.className="gx-stage";st.innerHTML=`<div class="gx-glow big"></div><img class="gx-back" src="assets/card_back.svg" alt=""><div class="gx-tap">« TAP TO OPEN »</div>`;st.onclick=()=>reveal(g,st,w,before)})}
-function pullMulti(n){
-  if($(".gx"))return;
-  if(S.coins<100*n){toast(`コインが足りません（必要 ${100*n}）`);return}
-  S.coins-=100*n;const res=[];
-  for(let i=0;i<n;i++){const w=draw(),before=S.owned[w.id]||0;S.owned[w.id]=before+1;res.push({w,isNew:before===0})}
-  S.xp+=5*n;save();res.sort((a,b)=>b.w.stars-a.w.stars);
-  packAnim(g=>showResults(g,res,n))}
-function showResults(g,res,n){
-  const cnt={};res.forEach(r=>cnt[r.w.rarity]=(cnt[r.w.rarity]||0)+1);const nw=res.filter(r=>r.isNew).length;
-  g.innerHTML=`<div class="gr"><div class="gr-title">✨ ${n}回ガチャ結果 ✨</div>
-  <div class="gr-sum">${RATES.map(([r])=>cnt[r]?`<span class="r-${r}"><i class="gem"></i>${cnt[r]}</span>`:"").join("")}<b>NEW ${nw}</b></div>
-  <div class="gr-grid">${res.map(r=>`<button class="mc r-${r.w.rarity}" onclick="cardDetail(${r.w.id})"><div class="mc-art">${artHtml(r.w,"mc-img")}</div><div>${r.w.en}</div><div class="mc-st">${"★".repeat(r.w.stars)}</div>${r.isNew?'<em class="gr-new">NEW</em>':""}</button>`).join("")}</div>
-  <div class="gr-note">タップでカードを拡大</div><button class="gold-btn" onclick="closeGx()">OK</button></div>`}
-function reveal(g,st,w,before){
-  st.onclick=null;st.classList.add("flip");
-  setTimeout(()=>{g.innerHTML=`<div class="rv r-${w.rarity}">${cardFace(w)}<div class="rv-new">${before===0?"NEW!":"GET!"}</div></div>
-  <div class="rv-panel"><div><span>コレクション Lv.${S.owned[w.id]}</span><b>×${S.owned[w.id]}</b></div><div><span>復習熟練度</span><b>${S.mastery[w.id]||0}/5</b></div></div>
-  <button class="gold-btn" onclick="closeGx()">OK</button>`},450)}
-function closeGx(){const g=$(".gx");if(g)g.remove();gacha()}
-
 /* カード図鑑 */
 const FIL=[["ALL","すべて"],["COMMON","コモン"],["UNCOMMON","アンコモン"],["RARE","レア"],["EPIC","エピック"],["LEGENDARY","レジェンド"]],PER=12;
 let CF={r:"ALL",p:0};
@@ -118,7 +68,7 @@ function mini(w){return S.owned[w.id]?`<button class="mc r-${w.rarity}" onclick=
 function cards(){
   const found=WORDS.filter(w=>S.owned[w.id]).length,list=WORDS.filter(w=>CF.r==="ALL"||w.rarity===CF.r),pages=Math.max(1,Math.ceil(list.length/PER));
   CF.p=Math.min(CF.p,pages-1);
-  $("#main").innerHTML=`<section class="cd"><div class="cd-h">🃏<div><h2>カード図鑑</h2><small>${found}/${WORDS.length}種類を発見</small></div></div>
+  $("#main").innerHTML=`<section class="cd orn"><div class="cd-h">🃏<div><h2>カード図鑑</h2><small>${found}/${WORDS.length}種類を発見</small></div></div>
   <div class="cd-f">${FIL.map(([k,t])=>`<button class="${CF.r===k?"on":""}" onclick="cardFilter('${k}')">${t}</button>`).join("")}</div>
   <div class="cd-g">${list.slice(CF.p*PER,CF.p*PER+PER).map(mini).join("")}</div>
   <div class="cd-p"><button onclick="cardPage(-1)" ${CF.p?"":"disabled"}>‹</button><span>${CF.p+1}/${pages}</span><button onclick="cardPage(1)" ${CF.p<pages-1?"":"disabled"}>›</button></div></section>`}
@@ -137,7 +87,8 @@ function review(){
   if(!a.length){$("#main").innerHTML='<div class="hero"><h1>🧠 復習</h1><div class="muted">ガチャでカードを獲得すると復習できます</div></div>';return}
   const w=a[Math.floor(Math.random()*a.length)],o=shuffleOpts(w.ja);
   $("#main").innerHTML=`<div class="hero"><h1>🧠 復習</h1><div class="muted">覚えていたら熟練度アップ</div></div><div class="quiz center">${artHtml(w,"mc-img")}<div class="q">${w.en}</div><div class="answers">${o.map(x=>`<button onclick="reviewAns('${encodeURIComponent(x)}',${w.id})">${x}</button>`).join("")}</div><div id="res" class="result"></div></div>`}
-function reviewAns(v,id){markStudied();
+function reviewAns(v,id){
+  markStudied();
   const w=WORDS.find(x=>x.id===id),ok=decodeURIComponent(v)===w.ja;
   if(ok){S.mastery[id]=Math.min(5,(S.mastery[id]||0)+1);S.xp+=3}
   $("#res").innerHTML=ok?"🧠 正解！ 熟練度アップ":"❌ 正解は「"+w.ja+"」";save();setTimeout(review,850)}
@@ -145,11 +96,11 @@ function reviewAns(v,id){markStudied();
 /* 画面切り替え・起動 */
 let CUR="home";
 function applyUI(){buildNav();const ci=$(".coins .ci");if(ci)ci.innerHTML=ico("icon_coin","🪙");const gi=$("#gear");if(gi&&UI_ICO.icon_gear)gi.innerHTML=ico("icon_gear","⚙");const ap=$(".app");if(UI.app_bg&&ap)ap.style.background=`linear-gradient(#0d1230cc,#060812ee),url('${UI.app_bg}') center top/cover fixed`;const sp=$(".sp");if(sp)sp.innerHTML=splashInner()}
-function setBg(on){let b=$("#bg");if(!b){b=document.createElement("div");b.id="bg";$(".app").prepend(b)}b.innerHTML=on?bgScene("home_bg"):""}
+function setBg(p){let b=$("#bg");if(!b){b=document.createElement("div");b.id="bg";$(".app").prepend(b)}const s=p==="home"?"home_bg":p==="gacha"?(UI.gacha_bg?"gacha_bg":"home_bg"):"";b.innerHTML=s?bgScene(s):""}
 function buildNav(){document.querySelectorAll("nav button").forEach(b=>{const p=b.dataset.p,[e,t]=NAV[p];b.innerHTML=`<i>${ico("nav_"+p,e)}</i>${t}`})}
 function openSettings(){const d=document.createElement("div");d.className="sheet";d.onclick=e=>{if(e.target===d)d.remove()};
   d.innerHTML=`<div class="sheet-in"><h3 style="margin:0 0 12px;color:#f4d477;font-family:Georgia,serif">設定</h3><div class="sd-ex">コイン ${S.coins}　／　カード ${Object.keys(S.owned).length}種類　／　連続学習 ${streakNow()}日</div><button class="gold-btn" style="margin-bottom:10px" onclick="this.closest('.sheet').remove()">閉じる</button><button class="hm2-reset" onclick="if(confirm('セーブデータをすべて消します。よろしいですか？')){localStorage.removeItem('wordQuestDemo');location.reload()}">セーブデータをリセット</button></div>`;document.body.appendChild(d)}
-function showPage(p){CUR=p;document.body.classList.toggle("is-home",p==="home");setBg(p==="home");document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x.dataset.p===p));({home,study,gacha,cards,review})[p]();window.scrollTo(0,0)}
+function showPage(p){CUR=p;document.body.classList.toggle("is-home",p==="home");document.body.classList.toggle("is-gacha",p==="gacha");setBg(p);document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x.dataset.p===p));({home,study,gacha,cards,review})[p]();window.scrollTo(0,0)}
 buildNav();document.querySelectorAll("nav button").forEach(b=>b.addEventListener("click",()=>showPage(b.dataset.p)));
 const gear=$("#gear");if(gear)gear.onclick=openSettings;
 showPage("home");
