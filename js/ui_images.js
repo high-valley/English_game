@@ -70,15 +70,16 @@ async function uiSheet(url,names,cols){try{const im=await uiImg(url);if(!im)retu
     cv.getContext("2d").drawImage(k.c,sx,sy,w,h,(side-w)/2,(side-h)/2,w,h);out[names[n]]=await uiBlob(cv)}
   return out}catch(e){console.warn("アイコンシートを処理できませんでした",e);return{}}}
 const UI_SHEETS=[["icons/sheet_main",["icon_study","icon_cards","icon_review","icon_gacha","icon_coin","icon_gear"],3],["icons/sheet_small",["stat_words","stat_ok","stat_streak","nav_home","nav_study","nav_gacha","nav_cards","nav_review"],4]];
-async function uiInit(){
+async function uiInit(cb){   // 背景・アイコンを先に反映（cb）し、そのあと枠画像を処理する
   const found=(await Promise.all(UI_SLOTS.map(async s=>[s,await uiProbe(s)]))).filter(f=>f[1]);
-  for(const [s,u] of found){if(s.startsWith("card_frame")){const r=await uiKeyFrame(u);if(r)UI_FRAME[s]=r}else UI[s]=u}
-  for(const [s,names,cols] of UI_SHEETS){const u=await uiProbe(s);if(!u)continue;const m=await uiSheet(u,names,cols);for(const n in m){UI_ICO[n]=m[n];found.push([n,m[n]])}}   // アイコンシート（あれば）
-  (await Promise.all(UI_ICONS.map(async n=>[n,await uiProbe("icons/"+n)]))).forEach(([n,x])=>{if(x)UI_ICO[n]=x});   // 個別ファイル（シートより優先）
-  await Promise.all(Object.keys(UI_ICO).map(async n=>{if(UI_ICO[n].startsWith("blob:"))return;const r=await uiIcon(UI_ICO[n]);if(r)UI_ICO[n]=r;if(!found.some(f=>f[0]===n))found.push([n,UI_ICO[n]])}));
-  return found.length}
-const bgScene=slot=>UI[slot]?`<img class="scene" src="${UI[slot]}" alt="">`:nightScene();
+  (await Promise.all(UI_ICONS.map(async n=>[n,await uiProbeIcon(n)]))).forEach(([n,x])=>{if(x)UI_ICO[n]=x});
+  found.forEach(([s,x])=>{if(!s.startsWith("card_frame"))UI[s]=x});
+  if(cb)cb();
+  for(const [s,x] of found)if(s.startsWith("card_frame")){const r=await uiKeyFrame(x);if(r)UI_FRAME[s]=r}
+}
+const bgScene=slot=>{const x=UI[slot]||(slot==="splash_bg"?UI.home_bg:null);return x?`<img class="scene" src="${x}" alt="">`:nightScene()};   // splash_bg が無ければ home_bg を使う
 // アイコン画像（assets/ui/icons/名前.png）。無ければ絵文字
 const UI_ICONS=["icon_study","icon_cards","icon_review","icon_gacha","icon_coin","icon_gear","stat_words","stat_ok","stat_streak","nav_home","nav_study","nav_gacha","nav_cards","nav_review"];
 const UI_ICO={};
+function uiProbeIcon(n){return new Promise(res=>{const u=`assets/ui/icons/${n}.png`,im=new Image();im.onload=()=>res(u);im.onerror=()=>res(null);im.src=u})}
 const ico=(slot,emoji,cls="")=>UI_ICO[slot]?`<img class="ico ${cls}" src="${UI_ICO[slot]}" alt="">`:`<span class="ico-e ${cls}">${emoji}</span>`;

@@ -17,7 +17,7 @@ function artHtml(w,cls="card-art-image"){
   if(CARD_IMG[w.en])return `<div class="fitwrap"><img class="fitbg" src="${CARD_IMG[w.en]}" alt=""><img class="${cls}" src="${CARD_IMG[w.en]}" alt="${w.en}" onerror="cardImgFail(this,${w.id})"></div>`;
   if(ART_SVG[w.en])return ART_SVG[w.en];
   return `<div class="art">${icon(w)}</div>`}
-function cardImgFail(el,id){const w=WORDS.find(x=>x.id===id),wr=el.closest(".fitwrap")||el;if(!el.dataset.t){el.dataset.t=1;const u="assets/"+w.en+".svg";wr.querySelectorAll("img").forEach(i=>i.src=u);return}const d=document.createElement("div");d.className="art";d.textContent=icon(w);wr.replaceWith(d)}
+function cardImgFail(el,id){const w=WORDS.find(x=>x.id===id),wr=el.closest(".fitwrap")||el;if(!el.dataset.t){el.dataset.t=1;const u="assets/"+w.en+".svg";wr.querySelectorAll("img").forEach(i=>i.src=u);return}if(ART_SVG[w.en]){wr.outerHTML=ART_SVG[w.en];return}const d=document.createElement("div");d.className="art";d.textContent=icon(w);wr.replaceWith(d)}
 const P=(x,y,w,h)=>`left:${x/3}%;top:${y/4}%;width:${w/3}%;height:${h/4}%`;
 function hl(s,en){return s.replace(new RegExp("\\b("+en+"\\w*)","i"),"<b>$1</b>")}
 function speak(t){try{const u=new SpeechSynthesisUtterance(t);u.lang="en-US";speechSynthesis.cancel();speechSynthesis.speak(u)}catch(e){}}
@@ -144,7 +144,7 @@ function reviewAns(v,id){markStudied();
 
 /* 画面切り替え・起動 */
 let CUR="home";
-function applyUI(){buildNav();const ci=$(".coins .ci");if(ci)ci.innerHTML=ico("icon_coin","🪙");const gi=$("#gear");if(gi&&UI_ICO.icon_gear)gi.innerHTML=ico("icon_gear","⚙");const ap=$(".app");if(UI.app_bg&&ap)ap.style.background=`linear-gradient(#0d1230cc,#060812ee),url('${UI.app_bg}') center top/cover fixed`;const sp=$(".sp .scene");if(sp&&UI.splash_bg)sp.outerHTML=bgScene("splash_bg")}
+function applyUI(){buildNav();const ci=$(".coins .ci");if(ci)ci.innerHTML=ico("icon_coin","🪙");const gi=$("#gear");if(gi&&UI_ICO.icon_gear)gi.innerHTML=ico("icon_gear","⚙");const ap=$(".app");if(UI.app_bg&&ap)ap.style.background=`linear-gradient(#0d1230cc,#060812ee),url('${UI.app_bg}') center top/cover fixed`;const sp=$(".sp .scene");if(sp&&(UI.splash_bg||UI.home_bg))sp.outerHTML=bgScene("splash_bg")}
 function setBg(on){let b=$("#bg");if(!b){b=document.createElement("div");b.id="bg";$(".app").prepend(b)}b.innerHTML=on?bgScene("home_bg"):""}
 function buildNav(){document.querySelectorAll("nav button").forEach(b=>{const p=b.dataset.p,[e,t]=NAV[p];b.innerHTML=`<i>${ico("nav_"+p,e)}</i>${t}`})}
 function openSettings(){const d=document.createElement("div");d.className="sheet";d.onclick=e=>{if(e.target===d)d.remove()};
@@ -153,7 +153,8 @@ function showPage(p){CUR=p;document.body.classList.toggle("is-home",p==="home");
 buildNav();document.querySelectorAll("nav button").forEach(b=>b.addEventListener("click",()=>showPage(b.dataset.p)));
 const gear=$("#gear");if(gear)gear.onclick=openSettings;
 showPage("home");
-uiInit().then(n=>{if(!n)return;applyUI();if(!$(".gx")&&!$(".sheet"))showPage(CUR)});
+const uiRefresh=()=>{applyUI();if(!$(".gx")&&!$(".sheet"))showPage(CUR)};
+uiInit(uiRefresh).then(()=>{if(Object.keys(UI_FRAME).length)uiRefresh()});
 (function splash(){
   try{if(sessionStorage.wqSplash)return;sessionStorage.wqSplash=1}catch(e){}
   const s=document.createElement("div");s.className="sp";
