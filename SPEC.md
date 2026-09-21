@@ -85,7 +85,7 @@
 
 ---
 
-## 6. 単語データ（`js/words.js`、現在100語）
+## 6. 単語データ（`js/words.js`、現在180語）
 形式：`{ id, en, ja, pronunciation, pos, rarity, stars, ic, ex, tr }`
 - `ex`：カードゲーム風の一文（英文）、`tr`：その日本語訳
 - `ic`：絵の代わりに使う絵文字
@@ -105,10 +105,10 @@
 ### 単語を追加する手順
 1. `words.js` の「次のID」を使って、同じ形式で追加する（同じレアリティのまとまりの最後に）
 2. 「次のID」の数字を更新する
-3. 画像を作る場合は、`assets/cards/単語.webp` と `card_art.js` の `CARD_IMG` に追加する
+3. 画像を作る場合は、`assets/cards/単語.webp` を置き、`card_art.js` の `CARD_IMG_NAMES` に名前を追加する
 4. 既存のカードや熟練度には、影響しない
 
-### 現在の100語
+### 現在の単語
 | レベル | 単語 |
 |---|---|
 | Lv.1 | apple book cat dog house school water food friend family sun moon car go come eat drink sleep happy big |
@@ -116,6 +116,9 @@
 | Lv.3 | improve consider suggest require develop increase reduce environment relationship opportunity responsibility effective available achieve compare describe influence purpose popular challenge |
 | Lv.4 | implement facilitate significant potential perspective alternative consequence accurate efficient strategy evaluate analyze establish maintain enhance criteria priority comprehensive demonstrate assumption |
 | Lv.5 | leverage mitigate acquisition stakeholder compliance revenue disruption sustainable negotiation collaboration proactively substantial constraint incentive scalable benchmark liability contingency deliverable streamline |
+
+- **Lv.1 の追加80語（ID 101〜180）**：bird fish horse tree flower river mountain sea star rain wind snow fire bread milk egg rice tea cake door window table chair bed room town road bridge castle king queen boy girl man woman baby teacher doctor sword key box bag hat night morning hand see walk run jump swim fly sit open close read write sing play help make buy give love live work listen speak small new old hot cold fast strong good red blue white black
+- 選んだ基準：CEFR A1〜A2、英検5〜4級の身近な単語（名詞・動詞・形容詞）。ゲームの世界に合う単語（城、剣、王など）も入れた
 
 - 例文の難しさと絵の豪華さは、レアリティに合わせる（COMMON は簡素、LEGENDARY は壮大）
 
@@ -240,7 +243,7 @@ English_game/
 | 6 | ホームに学習レベルと進捗、ロック表示 | 完了 |
 | 7 | レア度別の枠、図鑑の整理、小カードの新デザイン | 未 |
 | 8 | レベルごとのコイン増（`LEVEL_COIN`） | 将来 |
-| 9 | 単語を増やす（各20語 → 100語）、画像の追加 | 次（決定済み：各100語） |
+| 9 | 単語を増やす（各100語）：COMMON 完了（100語）、UNCOMMON〜LEGENDARY は各20語 → 100語へ | 進行中 |
 
 
 ---

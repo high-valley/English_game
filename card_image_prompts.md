@@ -1,14 +1,20 @@
-# カード画像のプロンプト（100語）
+# カード画像のプロンプト
 
-※番号は単語のID（通し番号）です。単語を増やすと、101番から続きます。
+※番号は単語のID（通し番号）です。
 
-使い方：各プロンプトを画像生成AIに入れ、できた画像を `assets/cards/単語.webp`（3:2、例 1200x800）で保存します。
-`js/card_art.js` の `CARD_IMG` に `単語:"assets/cards/単語.webp"` を1行足すと、その単語のカードに使われます。
+## 使い方
+1. 各プロンプトを、画像生成AIに入れる（3:2の横長。目安 1800x1200）
+2. できた画像を `assets/cards/単語.webp` で保存する（例：`assets/cards/bird.webp`、1200x800 前後、200〜400KB）
+3. `js/card_art.js` の `CARD_IMG_NAMES` に、単語の名前を追加する（例：`"apple","cat","bird"`）
 
-プロンプトは、カードの例文（`words.js` の `ex`）から作っています。例文の場面が、そのまま絵になります。レアリティが低いほど簡素に、高いほど豪華になります。
+プロンプトは、カードの例文（`words.js` の `ex`）から作っています。例文の場面が、そのまま絵になります。レアリティが低いほど簡素に、高いほど豪華になります。画像を作らない単語は、背景付きの絵文字が表示されます。
+
+## 優先順位のおすすめ
+- 画像が目立つのは、ガチャで出る高レアと、図鑑で見るカードです
+- COMMON は数が多いので、まず数語だけ作り、絵柄を確認してから増やすのがおすすめです
 
 
-## Lv.1 COMMON
+## Lv.1 COMMON（100語）
 
 共通のスタイル：simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration
 
@@ -112,8 +118,408 @@ simple fantasy illustration, one clear subject, calm simple background, minimal 
 simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: A big bird flies above the town. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
 ```
 
+**101. bird**（鳥）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: A bird sings on the castle wall. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
 
-## Lv.2 UNCOMMON
+**102. fish**（魚）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The fish swims in the clear lake. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**103. horse**（馬）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The knight rides a white horse. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**104. tree**（木）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: A tall tree stands by the river. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**105. flower**（花）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: She picks a flower in the garden. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**106. river**（川）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The river runs through the forest. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**107. mountain**（山）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The dragon sleeps on the mountain. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**108. sea**（海）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The ship sails across the sea. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**109. star**（星）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: A star shines above the tower. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**110. rain**（雨）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The rain falls on the old town. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**111. wind**（風）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: A cold wind blows from the north. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**112. snow**（雪）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: Snow covers the mountain path. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**113. fire**（火）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The wizard lights a small fire. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**114. bread**（パン）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The baker makes fresh bread. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**115. milk**（牛乳）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The cat drinks warm milk. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**116. egg**（卵）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The dragon guards a golden egg. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**117. rice**（米）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The farmer grows rice in the field. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**118. tea**（お茶）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The old man drinks hot tea. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**119. cake**（ケーキ）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: We eat cake at the party. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**120. door**（ドア）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The knight opens the heavy door. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**121. window**（窓）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: A light shines in the window. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**122. table**（テーブル）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The map lies on the table. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**123. chair**（椅子）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: A king sits on a golden chair. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**124. bed**（ベッド）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The child goes to bed early. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**125. room**（部屋）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The room is warm and quiet. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**126. town**（町）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: A small town lies by the lake. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**127. road**（道）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The road goes to the castle. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**128. bridge**（橋）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: A stone bridge crosses the river. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**129. castle**（城）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The castle stands on a hill. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**130. king**（王）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The king speaks to the people. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**131. queen**（女王）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The queen wears a silver crown. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**132. boy**（少年）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The boy finds a magic key. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**133. girl**（少女）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The girl feeds a baby dragon. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**134. man**（男の人）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: An old man walks on the road. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**135. woman**（女の人）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: A woman sells fruit at the market. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**136. baby**（赤ちゃん）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The baby sleeps in a small bed. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**137. teacher**（先生）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The teacher shows a map to the class. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**138. doctor**（医者）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The doctor helps the hurt knight. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**139. sword**（剣）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The hero holds a bright sword. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**140. key**（鍵）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: A gold key opens the gate. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**141. box**（箱）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: A small box lies in the cave. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**142. bag**（かばん）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The traveler carries a heavy bag. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**143. hat**（帽子）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The wizard wears a tall hat. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**144. night**（夜）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The stars shine bright at night. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**145. morning**（朝）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: We wake up early in the morning. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**146. hand**（手）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: She holds a lantern in her hand. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**147. see**（見る）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: I can see the castle from here. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**148. walk**（歩く）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: We walk along the river. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**149. run**（走る）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The fox runs into the forest. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**150. jump**（跳ぶ）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The boy jumps over the stream. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**151. swim**（泳ぐ）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The children swim in the lake. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**152. fly**（飛ぶ）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: A dragon can fly above the clouds. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**153. sit**（座る）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: Please sit by the fire. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**154. open**（開ける）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: Open the door and come in. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**155. close**（閉める）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: Close the gate at night. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**156. read**（読む）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: I read a book every night. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**157. write**（書く）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: She writes a letter to the king. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**158. sing**（歌う）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The bard sings a happy song. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**159. play**（遊ぶ）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The children play in the garden. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**160. help**（助ける）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: Please help me find my key. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**161. make**（作る）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: Let's make a small boat. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**162. buy**（買う）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: I want to buy a new sword. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**163. give**（与える）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The king gives a gold ring to the hero. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**164. love**（愛する）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The knight loves his home. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**165. live**（住む）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: Elves live in the old forest. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**166. work**（働く）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The dwarves work in the mine. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**167. listen**（聞く）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: Listen to the sound of the sea. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**168. speak**（話す）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The wise owl can speak. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**169. small**（小さい）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: A small fox hides in the grass. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**170. new**（新しい）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The knight has a new shield. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**171. old**（古い）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The old tower is very tall. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**172. hot**（熱い）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The soup is too hot. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**173. cold**（冷たい）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The lake is cold in winter. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**174. fast**（速い）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The horse is very fast. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**175. strong**（強い）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The strong knight lifts a big stone. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**176. good**（良い）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: This is a good day for a trip. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**177. red**（赤い）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: A red dragon flies over the town. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**178. blue**（青い）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The blue lake shines in the sun. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**179. white**（白い）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The snow is white and soft. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**180. black**（黒い）
+```
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: A black crow sits on the roof. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+
+## Lv.2 UNCOMMON（20語）
 
 共通のスタイル：fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject
 
@@ -218,7 +624,7 @@ fantasy illustration with a small magical touch, gentle glow, slightly richer de
 ```
 
 
-## Lv.3 RARE
+## Lv.3 RARE（20語）
 
 共通のスタイル：rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene
 
@@ -323,7 +729,7 @@ rich fantasy illustration, dramatic lighting, golden accents, floating light par
 ```
 
 
-## Lv.4 EPIC
+## Lv.4 EPIC（20語）
 
 共通のスタイル：very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition
 
@@ -428,7 +834,7 @@ very luxurious epic fantasy illustration, strong magical effects, dramatic light
 ```
 
 
-## Lv.5 LEGENDARY
+## Lv.5 LEGENDARY（20語）
 
 共通のスタイル：masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic
 
