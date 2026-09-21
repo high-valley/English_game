@@ -1,4 +1,4 @@
-/* WORD QUEST upgrade — style.css の後に読み込む */
+/* WORD GRIMOIRE upgrade — style.css の後に読み込む */
 .r-COMMON{--rc:#9fb4dc}.r-UNCOMMON{--rc:#3ecf7a}.r-RARE{--rc:#3aa0ff}.r-EPIC{--rc:#b26bff}.r-LEGENDARY{--rc:#ff5a4d}
 body{background:#05070f}
 .app{max-width:520px;background:linear-gradient(#0b1023,#060812);box-shadow:0 0 60px #000a}
@@ -372,3 +372,11 @@ main,#bg,nav{transition:opacity .4s}
 .ui-wait main,.ui-wait #bg,.ui-wait nav{opacity:0}
 img.scene{animation:sceneIn .6s ease-out both}
 @keyframes sceneIn{from{opacity:0}to{opacity:1}}
+
+/* ロゴ画像（assets/ui/logo_title / logo_emblem） */
+.logo{font-size:18px;letter-spacing:.3px}
+.hm2-word{font-size:8.6cqw}
+.hm2-logoimg{display:block;width:72cqw;max-width:100%;height:auto;margin:-2cqw 0 0 -4cqw;filter:drop-shadow(0 .6cqw 2cqw #000a)}
+.sp>.sp-emb{width:46%;max-width:240px;height:auto;filter:drop-shadow(0 0 26px #3a5aff88)}
+.sp>.sp-tt{width:88%;max-width:460px;height:auto;margin-top:-3%}
+.sp-title{font-size:38px}
