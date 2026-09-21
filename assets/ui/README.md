@@ -33,13 +33,53 @@ symmetrical, highly detailed, front view
 - 画像を差し替えたら、ブラウザを再読み込み（キャッシュ更新）してください。
 - `_layout_*.png` は不要になったら削除して構いません。
 
-## home_bg（ホーム上部の絵）のプロンプト例
-- 比率は横長 16:9（例 1600x900）。上下左右は少し切れることがあります。
-- 中央上部（エンブレムが重なる）と下部（タイトル文字が重なる）は、細かい描き込みを避けてもらうと文字が読みやすくなります。
+## home_bg（ホーム画面の全画面背景）
+- ホームの背景一面に使います。**縦長 9:16（例 1080x1920）** がおすすめです（端は少し切れます）。
+- 下半分にはパネルやボタンが重なるので、下側は暗めで細かい描き込みを控えめにしてもらうと見やすくなります。
+- 左上にロゴ、中央左にキャッチコピーが重なるので、その辺りも空けておきます。
+- `splash_bg`（起動画面）も同じ絵で構いません。
 ```
-epic fantasy landscape, a majestic floating castle city on a sky island at golden sunset,
-glowing clouds, distant floating islands, warm orange and purple sky, god rays,
-painterly, highly detailed, wide 16:9 composition,
-the upper center and the bottom center kept relatively calm and uncluttered,
+epic fantasy night landscape, a grand gothic castle city on a cliff with a glowing waterfall,
+huge glowing moon, floating islands, deep blue and purple starry sky, magical lights,
+calm reflective lake in the lower part, dark silhouetted trees framing the sides,
+painterly, highly detailed, vertical 9:16 composition,
+the upper left and the lower half kept calm and darker for UI overlay,
 no text, no letters, no characters, no UI
 ```
+
+## アイコン画像（assets/ui/icons/）
+同じファイル名の PNG（透過）を置くと差し替わります。無い場合は絵文字が表示されます。
+
+| ファイル名 | 用途 |
+|---|---|
+| `icon_study` `icon_cards` `icon_review` | ホームの3つのボタン（推奨 約 200x200） |
+| `icon_gacha` | ホームのガチャパネルのパック画像（推奨 約 500x430、縁は透明にぼかす） |
+| `icon_coin` | コイン（ヘッダー・価格表示） |
+| `icon_gear` | 設定ボタン |
+| `stat_words` `stat_ok` `stat_streak` | 統計（総単語数・覚えた・連続学習） |
+| `nav_home` `nav_study` `nav_gacha` `nav_cards` `nav_review` | 下のタブ（推奨 約 120x120） |
+
+現在入っているアイコンは、参考にしてくれたホーム画面の画像から切り出したものです。
+
+### AIでアイコンを作り直す（マゼンタ背景 → 自動で透過）
+- **個別ファイル**：マゼンタ(#FF00FF)背景の画像を、上の表と同じファイル名（`icon_study.png` など）で置けば、自動で透過して余白も詰めます。
+- **シート（おすすめ）**：1枚に格子状に並べた画像を置くと、自動で切り分けて全部に割り当てます。個別ファイルがあれば、そちらが優先です。
+
+| ファイル名 | 並び順（左→右、上→下） |
+|---|---|
+| `icons/sheet_main.png`（3列×2行） | 勉強(開いた本) / カード(トランプ) / 復習(頭と脳) / ガチャ(カードパック) / コイン / 設定(歯車) |
+| `icons/sheet_small.png`（4列×2行） | 総単語数(本) / 覚えた(チェック) / 連続学習(炎) / ホーム(家) / 勉強(本) / ガチャ(羅針盤) / カード(トランプ) / 復習(脳) |
+
+プロンプト例（sheet_main）:
+```
+a set of exactly 6 glowing fantasy game UI icons arranged in a grid of 3 columns and 2 rows,
+in this order: an open magic book, a fan of playing cards, a human head silhouette with a brain,
+a glowing card pack booklet with a compass star, a gold coin, a gear,
+gold and blue palette with soft glow, each icon separate with wide empty gaps between them,
+flat pure magenta #FF00FF background, no text, no labels, no numbers, no shadows on the background
+```
+sheet_small は「6」→「8」、「3 columns and 2 rows」→「4 columns and 2 rows」に変え、
+`a book with sparkles, a check mark in a circle, a flame, a house, an open book, a compass, playing cards, a brain`
+の順にして、「thin gold and blue line-art style, small simple icons」を足します。
+
+※ 数が合わないとコンソールに警告が出て、シートは使われません（間隔を広げて作り直してください）。
