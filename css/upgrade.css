@@ -366,3 +366,9 @@ nav button.on img.ico{filter:brightness(1.4) saturate(1.3) drop-shadow(0 0 6px #
 #bg img.scene{object-position:68% 0}
 .sp img.scene{object-position:68% 0}
 .sp>.sp-hint{position:absolute;bottom:40px;left:0;right:0;text-align:center}
+
+/* 起動時のちらつき防止：画像の有無が分かるまで本体を隠す */
+main,#bg,nav{transition:opacity .4s}
+.ui-wait main,.ui-wait #bg,.ui-wait nav{opacity:0}
+img.scene{animation:sceneIn .6s ease-out both}
+@keyframes sceneIn{from{opacity:0}to{opacity:1}}
