@@ -6,7 +6,7 @@ const NAV={home:["🏠","ホーム"],study:["📖","勉強"],gacha:["🎰","ガ�
 
 // 保存データ（従来と同じキー。xp は追加項目）
 let S=JSON.parse(localStorage.wordQuestDemo||"null")||{coins:100,owned:{},mastery:{}};
-S.xp=S.xp||0;
+S.xp=S.xp||0;S.streak=S.streak||0;S.last=S.last||"";
 const $=q=>document.querySelector(q);
 function save(){localStorage.wordQuestDemo=JSON.stringify(S);const e=$("#coins");if(e)e.textContent=S.coins}
 function stars(n){return "★".repeat(n)+"☆".repeat(5-n)}
@@ -34,28 +34,31 @@ function cardFace(w){
   <div class="cd3-rar" style="${P(...L.rar)}"><svg viewBox="0 0 24 24"><path d="M12 1l2.6 8.4L23 12l-8.4 2.6L12 23l-2.6-8.4L1 12l8.4-2.6z" fill="#f1d27a"/></svg><span>×${n}</span></div>
   </div></div>`}
 
+const ymd=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+function markStudied(){const t=new Date(),y=new Date(t.getTime()-864e5),T=ymd(t);if(S.last===T)return;S.streak=S.last===ymd(y)?(S.streak||0)+1:1;S.last=T}
+function streakNow(){const t=new Date(),y=new Date(t.getTime()-864e5);return S.last===ymd(t)||S.last===ymd(y)?S.streak||0:0}
 function lvInfo(){let xp=S.xp,lv=1,need=10;while(xp>=need){xp-=need;lv++;need=10+(lv-1)*5}return{lv,cur:xp,need}}
 function toast(t){const e=document.createElement("div");e.className="toast";e.textContent=t;document.body.appendChild(e);setTimeout(()=>e.remove(),1800)}
 function shuffleOpts(correct){const o=[correct];while(o.length<4){const x=WORDS[Math.floor(Math.random()*WORDS.length)].ja;if(!o.includes(x))o.push(x)}return o.sort(()=>Math.random()-.5)}
 
 /* ホーム */
 function home(){
-  const owned=WORDS.filter(w=>S.owned[w.id]).length,mastered=Object.values(S.mastery).filter(x=>x>=5).length,L=lvInfo();
-  const pulls=Math.floor(S.coins/100),pend=WORDS.filter(w=>S.owned[w.id]&&(S.mastery[w.id]||0)<5).length;
-  const spk=[[10,22],[24,64],[38,14],[62,18],[78,58],[90,26],[52,70],[16,82]].map(([x,y],k)=>`<i class="spk" style="left:${x}%;top:${y}%;animation-delay:${k*.45}s"></i>`).join("");
-  $("#main").innerHTML=`<section class="hm"><div class="hm-hero orn">${bgScene("home_bg")}<i class="hm-rays"></i>${spk}<div class="hm-emb">${EMB}</div><div class="hm-cap"><div class="hm-title">WORD QUEST</div><div class="hm-sub">英語を集め、覚える。</div></div></div>
-  <div class="hm-lv"><div class="hm-rank"><span>LV</span><b>${L.lv}</b></div><div class="hm-lvbody"><div class="hm-lvt"><span>冒険者ランク</span><span>${L.cur} / ${L.need} XP</span></div><div class="hm-bar"><i style="width:${Math.max(3,L.cur/L.need*100)}%"></i></div></div></div>
-  <div class="hm-stats"><div><i class="ic">🪙</i><b>${S.coins}</b>コイン</div><div><i class="ic">🃏</i><b>${owned}<small>/${WORDS.length}</small></b>コレクション</div><div><i class="ic">🧠</i><b>${mastered}</b>マスター</div></div>
-  <button class="hm-btn hm-main" onclick="showPage('study')"><i class="ic">📖</i><span>勉強<small>正解するたび +25コイン</small></span><em class="hm-go">›</em></button>
-  <div class="hm-row"><button class="hm-btn" onclick="showPage('gacha')"><i class="ic">🎰</i><span>ガチャ<small>カードを引く</small></span>${pulls?`<em class="hm-badge on">引ける！×${pulls}</em>`:`<em class="hm-badge">あと${100-S.coins}🪙</em>`}</button><button class="hm-btn" onclick="showPage('cards')"><i class="ic">🃏</i><span>カード<small>図鑑を見る</small></span><em class="hm-badge">${owned}/${WORDS.length}</em></button></div>
-  <button class="hm-btn" onclick="showPage('review')"><i class="ic">🧠</i><span>復習<small>集めたカードを覚える</small></span>${pend?`<em class="hm-badge">${pend}枚</em>`:""}<em class="hm-go">›</em></button></section>`;save()}
+  const owned=WORDS.filter(w=>S.owned[w.id]).length,mastered=Object.values(S.mastery).filter(x=>x>=5).length,L=lvInfo(),pulls=Math.floor(S.coins/100);
+  $("#main").innerHTML=`<section class="hm2"><div class="hm2-logo">${EMB}<div class="hm2-word"><span>WORD</span><span>QUEST</span></div></div>
+  <div class="hm2-tag">言葉を集めて、<br>世界を広げよう</div>
+  <div class="hm2-grid"><div class="hm2-left">
+    <div class="hm2-panel orn"><div class="hm2-ct"><span>コレクション Lv.${L.lv}</span><b>${owned}/${WORDS.length}</b></div><div class="hm2-cbar"><i style="width:${owned/WORDS.length*100}%"></i></div>
+      <div class="hm2-stats"><div>${ico("stat_words","📚")}<span>総単語数</span><b>${WORDS.length}</b></div><div>${ico("stat_ok","✅")}<span>覚えた</span><b>${mastered}</b></div><div>${ico("stat_streak","🔥")}<span>連続学習</span><b>${streakNow()}日</b></div></div></div>
+    <div class="hm2-btns"><button class="hm2-b orn" onclick="showPage('study')">${ico("icon_study","📖","big")}<span>勉強</span></button><button class="hm2-b orn" onclick="showPage('cards')">${ico("icon_cards","🃏","big")}<span>カード</span></button><button class="hm2-b orn" onclick="showPage('review')">${ico("icon_review","🧠","big")}<span>復習</span></button></div>
+  </div>
+  <button class="hm2-gacha orn" onclick="showPage('gacha')">${pulls?`<em class="hm2-new">引ける！×${pulls}</em>`:""}<div class="hm2-pack">${ico("icon_gacha","🎁","pack")}</div><div class="hm2-plate">ガチャ</div><div class="hm2-price">1回 ${ico("icon_coin","🪙","c")} 100コイン</div></button></div></section>`;save()}
 
 /* 勉強 */
 let studyWord;
 function study(){
   studyWord=WORDS[Math.floor(Math.random()*Math.min(55,WORDS.length))];const a=shuffleOpts(studyWord.ja);
   $("#main").innerHTML=`<div class="hero"><h1>📖 勉強</h1><div class="muted">正解すると +25コイン</div></div><div class="stat"><div><b>${S.coins}</b>コイン</div><div><b>${Object.keys(S.owned).length}</b>種類</div><div><b>${WORDS.length}</b>単語</div></div><div class="quiz"><div class="muted">この英単語の意味は？</div><div class="q">${studyWord.en}</div><div class="answers">${a.map(x=>`<button onclick="studyAns('${encodeURIComponent(x)}')">${x}</button>`).join("")}</div><div id="res" class="result"></div></div>`;save()}
-function studyAns(v){const ok=decodeURIComponent(v)===studyWord.ja;$("#res").innerHTML=ok?"🎉 正解！ +25コイン":"❌ 正解は「"+studyWord.ja+"」";if(ok){S.coins+=25;S.xp+=2}save();setTimeout(study,850)}
+function studyAns(v){markStudied();const ok=decodeURIComponent(v)===studyWord.ja;$("#res").innerHTML=ok?"🎉 正解！ +25コイン":"❌ 正解は「"+studyWord.ja+"」";if(ok){S.coins+=25;S.xp+=2}save();setTimeout(study,850)}
 
 /* ガチャ */
 let GM="one",GN=10;
@@ -134,16 +137,21 @@ function review(){
   if(!a.length){$("#main").innerHTML='<div class="hero"><h1>🧠 復習</h1><div class="muted">ガチャでカードを獲得すると復習できます</div></div>';return}
   const w=a[Math.floor(Math.random()*a.length)],o=shuffleOpts(w.ja);
   $("#main").innerHTML=`<div class="hero"><h1>🧠 復習</h1><div class="muted">覚えていたら熟練度アップ</div></div><div class="quiz center">${artHtml(w,"mc-img")}<div class="q">${w.en}</div><div class="answers">${o.map(x=>`<button onclick="reviewAns('${encodeURIComponent(x)}',${w.id})">${x}</button>`).join("")}</div><div id="res" class="result"></div></div>`}
-function reviewAns(v,id){
+function reviewAns(v,id){markStudied();
   const w=WORDS.find(x=>x.id===id),ok=decodeURIComponent(v)===w.ja;
   if(ok){S.mastery[id]=Math.min(5,(S.mastery[id]||0)+1);S.xp+=3}
   $("#res").innerHTML=ok?"🧠 正解！ 熟練度アップ":"❌ 正解は「"+w.ja+"」";save();setTimeout(review,850)}
 
 /* 画面切り替え・起動 */
 let CUR="home";
-function applyUI(){const ap=$(".app");if(UI.app_bg&&ap)ap.style.background=`linear-gradient(#0d1230cc,#060812ee),url('${UI.app_bg}') center top/cover fixed`;const sp=$(".sp .scene");if(sp&&UI.splash_bg)sp.outerHTML=bgScene("splash_bg")}
-function showPage(p){CUR=p;document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x.dataset.p===p));({home,study,gacha,cards,review})[p]();window.scrollTo(0,0)}
-document.querySelectorAll("nav button").forEach(b=>{const [i,t]=NAV[b.dataset.p];b.innerHTML=`<i>${i}</i>${t}`;b.addEventListener("click",()=>showPage(b.dataset.p))});
+function applyUI(){buildNav();const ci=$(".coins .ci");if(ci)ci.innerHTML=ico("icon_coin","🪙");const gi=$("#gear");if(gi&&UI_ICO.icon_gear)gi.innerHTML=ico("icon_gear","⚙");const ap=$(".app");if(UI.app_bg&&ap)ap.style.background=`linear-gradient(#0d1230cc,#060812ee),url('${UI.app_bg}') center top/cover fixed`;const sp=$(".sp .scene");if(sp&&UI.splash_bg)sp.outerHTML=bgScene("splash_bg")}
+function setBg(on){let b=$("#bg");if(!b){b=document.createElement("div");b.id="bg";$(".app").prepend(b)}b.innerHTML=on?bgScene("home_bg"):""}
+function buildNav(){document.querySelectorAll("nav button").forEach(b=>{const p=b.dataset.p,[e,t]=NAV[p];b.innerHTML=`<i>${ico("nav_"+p,e)}</i>${t}`})}
+function openSettings(){const d=document.createElement("div");d.className="sheet";d.onclick=e=>{if(e.target===d)d.remove()};
+  d.innerHTML=`<div class="sheet-in"><h3 style="margin:0 0 12px;color:#f4d477;font-family:Georgia,serif">設定</h3><div class="sd-ex">コイン ${S.coins}　／　カード ${Object.keys(S.owned).length}種類　／　連続学習 ${streakNow()}日</div><button class="gold-btn" style="margin-bottom:10px" onclick="this.closest('.sheet').remove()">閉じる</button><button class="hm2-reset" onclick="if(confirm('セーブデータをすべて消します。よろしいですか？')){localStorage.removeItem('wordQuestDemo');location.reload()}">セーブデータをリセット</button></div>`;document.body.appendChild(d)}
+function showPage(p){CUR=p;document.body.classList.toggle("is-home",p==="home");setBg(p==="home");document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x.dataset.p===p));({home,study,gacha,cards,review})[p]();window.scrollTo(0,0)}
+buildNav();document.querySelectorAll("nav button").forEach(b=>b.addEventListener("click",()=>showPage(b.dataset.p)));
+const gear=$("#gear");if(gear)gear.onclick=openSettings;
 showPage("home");
 uiInit().then(n=>{if(!n)return;applyUI();if(!$(".gx")&&!$(".sheet"))showPage(CUR)});
 (function splash(){

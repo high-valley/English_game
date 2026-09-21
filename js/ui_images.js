@@ -34,8 +34,51 @@ function uiKeyFrame(url){return new Promise(res=>{const im=new Image();im.onerro
   const art=comps[0],info=art&&comps.find(o=>o!==art&&o.y0>art.y1);
   c.toBlob(b=>res({url:URL.createObjectURL(b),art:art?u(art):null,info:info?u(info):null}),"image/png")
  }catch(e){console.warn("枠画像を処理できませんでした（ローカルfile://では不可。公開URLで使えます）",e);res(null)}}; im.src=url})}
+
+// マゼンタ背景の画像 → 透過（アイコン用）。マゼンタが無ければ何もしない
+function uiKeyCanvas(im,maxW,forcePeel){
+  const W=Math.min(maxW,im.naturalWidth),H=Math.round(W*im.naturalHeight/im.naturalWidth),c=document.createElement("canvas");c.width=W;c.height=H;
+  const x=c.getContext("2d");x.drawImage(im,0,0,W,H);const d=x.getImageData(0,0,W,H),p=d.data;let nk=0;
+  for(let i=0;i<p.length;i+=4){const r=p[i],g=p[i+1],b=p[i+2],e=Math.min(r,b)-g;
+    if(e>40&&Math.abs(r-b)<.4*Math.max(r,b)){nk++;const t=Math.min(1,(e-40)/70);p[i+3]*=1-t;const k=e*.85;p[i]=Math.max(0,r-k);p[i+2]=Math.max(0,b-k)}}
+  if(nk>W*H*.002||forcePeel){const pk=i=>{const r=p[i],g=p[i+1],b=p[i+2];return r>100&&g<.72*r&&b>.38*r&&b<1.35*r};
+    for(let it=0;it<16;it++){const kill=[];
+      for(let y=1;y<H-1;y++)for(let xx=1;xx<W-1;xx++){const i=(y*W+xx)*4;if(p[i+3]<40||!pk(i))continue;
+        if(p[i-1]<200||p[i+7]<200||p[i-W*4+3]<200||p[i+W*4+3]<200)kill.push(i)}
+      if(!kill.length)break;for(const i of kill)p[i+3]=0}}
+  x.putImageData(d,0,0);return{c,x,W,H,p,keyed:nk>W*H*.002}}
+const uiBlob=c=>new Promise(r=>c.toBlob(b=>r(URL.createObjectURL(b)),"image/png"));
+function uiImg(url){return new Promise(res=>{const im=new Image();im.onload=()=>res(im);im.onerror=()=>res(null);im.src=url})}
+async function uiIcon(url){try{const im=await uiImg(url);if(!im)return null;const k=uiKeyCanvas(im,600);if(!k.keyed)return null;   // 透過済みの画像はそのまま使う
+  let x0=k.W,y0=k.H,x1=0,y1=0;for(let y=0;y<k.H;y++)for(let x=0;x<k.W;x++)if(k.p[(y*k.W+x)*4+3]>16){x0=Math.min(x0,x);x1=Math.max(x1,x);y0=Math.min(y0,y);y1=Math.max(y1,y)}
+  if(x1<x0)return null;const pd=Math.round(Math.max(x1-x0,y1-y0)*.04),sx=Math.max(0,x0-pd),sy=Math.max(0,y0-pd),w=Math.min(k.W,x1+pd)-sx,h=Math.min(k.H,y1+pd)-sy,o=document.createElement("canvas");o.width=w;o.height=h;
+  o.getContext("2d").drawImage(k.c,sx,sy,w,h,0,0,w,h);return await uiBlob(o)}catch(e){console.warn("アイコンを処理できませんでした",e);return null}}
+// アイコンシート（マゼンタ背景に格子状に並べた1枚）を切り分ける。並び順は左→右、上→下
+async function uiSheet(url,names,cols){try{const im=await uiImg(url);if(!im)return{};const k=uiKeyCanvas(im,1600,true),s=4,gw=Math.ceil(k.W/s),gh=Math.ceil(k.H/s),mk=new Uint8Array(gw*gh),dl=new Uint8Array(gw*gh);
+  for(let j=0;j<gh;j++)for(let i=0;i<gw;i++)mk[j*gw+i]=k.p[((j*s)*k.W+i*s)*4+3]>=40?1:0;
+  for(let j=0;j<gh;j++)for(let i=0;i<gw;i++)if(mk[j*gw+i])for(let a=-3;a<=3;a++)for(let b=-3;b<=3;b++){const ii=i+a,jj=j+b;if(ii>=0&&jj>=0&&ii<gw&&jj<gh)dl[jj*gw+ii]=1}
+  const comps=[];for(let q0=0;q0<dl.length;q0++){if(dl[q0]!==1)continue;const st=[q0],o={a:0,x0:gw,y0:gh,x1:0,y1:0};dl[q0]=2;
+    while(st.length){const q=st.pop(),i=q%gw,j=(q/gw)|0;o.a++;o.x0=Math.min(o.x0,i);o.x1=Math.max(o.x1,i);o.y0=Math.min(o.y0,j);o.y1=Math.max(o.y1,j);
+      if(i>0&&dl[q-1]===1){dl[q-1]=2;st.push(q-1)}if(i<gw-1&&dl[q+1]===1){dl[q+1]=2;st.push(q+1)}if(j>0&&dl[q-gw]===1){dl[q-gw]=2;st.push(q-gw)}if(j<gh-1&&dl[q+gw]===1){dl[q+gw]=2;st.push(q+gw)}}
+    if(o.a>gw*gh*.0001)comps.push(o)}
+  const gap=(a,b)=>Math.hypot(Math.max(0,Math.max(a.x0,b.x0)-Math.min(a.x1,b.x1)),Math.max(0,Math.max(a.y0,b.y0)-Math.min(a.y1,b.y1)));   // 余分なかけらは、近いもの同士を結合
+  while(comps.length>names.length){let bi=0,bj=1,bd=1e9;for(let i=0;i<comps.length;i++)for(let j=i+1;j<comps.length;j++){const g=gap(comps[i],comps[j]);if(g<bd){bd=g;bi=i;bj=j}}
+    const a=comps[bi],b=comps[bj];a.x0=Math.min(a.x0,b.x0);a.x1=Math.max(a.x1,b.x1);a.y0=Math.min(a.y0,b.y0);a.y1=Math.max(a.y1,b.y1);a.a+=b.a;comps.splice(bj,1)}
+  if(comps.length!==names.length){console.warn(`アイコンシート: ${comps.length}個見つかりました（${names.length}個必要）。個別ファイルを使うか、間隔を広げて作り直してください`);return{}}
+  comps.sort((a,b)=>(a.y0+a.y1)-(b.y0+b.y1));const out={},rows=[];for(let r=0;r<comps.length;r+=cols)rows.push(comps.slice(r,r+cols).sort((a,b)=>(a.x0+a.x1)-(b.x0+b.x1)));
+  const flat=rows.flat();for(let n=0;n<names.length;n++){const o=flat[n],sx=Math.max(0,o.x0*s),sy=Math.max(0,o.y0*s),w=Math.min(k.W,(o.x1+1)*s)-sx,h=Math.min(k.H,(o.y1+1)*s)-sy,side=Math.round(Math.max(w,h)*1.06),cv=document.createElement("canvas");cv.width=cv.height=side;
+    cv.getContext("2d").drawImage(k.c,sx,sy,w,h,(side-w)/2,(side-h)/2,w,h);out[names[n]]=await uiBlob(cv)}
+  return out}catch(e){console.warn("アイコンシートを処理できませんでした",e);return{}}}
+const UI_SHEETS=[["icons/sheet_main",["icon_study","icon_cards","icon_review","icon_gacha","icon_coin","icon_gear"],3],["icons/sheet_small",["stat_words","stat_ok","stat_streak","nav_home","nav_study","nav_gacha","nav_cards","nav_review"],4]];
 async function uiInit(){
   const found=(await Promise.all(UI_SLOTS.map(async s=>[s,await uiProbe(s)]))).filter(f=>f[1]);
   for(const [s,u] of found){if(s.startsWith("card_frame")){const r=await uiKeyFrame(u);if(r)UI_FRAME[s]=r}else UI[s]=u}
+  for(const [s,names,cols] of UI_SHEETS){const u=await uiProbe(s);if(!u)continue;const m=await uiSheet(u,names,cols);for(const n in m){UI_ICO[n]=m[n];found.push([n,m[n]])}}   // アイコンシート（あれば）
+  (await Promise.all(UI_ICONS.map(async n=>[n,await uiProbe("icons/"+n)]))).forEach(([n,x])=>{if(x)UI_ICO[n]=x});   // 個別ファイル（シートより優先）
+  await Promise.all(Object.keys(UI_ICO).map(async n=>{if(UI_ICO[n].startsWith("blob:"))return;const r=await uiIcon(UI_ICO[n]);if(r)UI_ICO[n]=r;if(!found.some(f=>f[0]===n))found.push([n,UI_ICO[n]])}));
   return found.length}
-const bgScene=slot=>UI[slot]?`<img class="scene" src="${UI[slot]}" alt="">`:heroScene();
+const bgScene=slot=>UI[slot]?`<img class="scene" src="${UI[slot]}" alt="">`:nightScene();
+// アイコン画像（assets/ui/icons/名前.png）。無ければ絵文字
+const UI_ICONS=["icon_study","icon_cards","icon_review","icon_gacha","icon_coin","icon_gear","stat_words","stat_ok","stat_streak","nav_home","nav_study","nav_gacha","nav_cards","nav_review"];
+const UI_ICO={};
+const ico=(slot,emoji,cls="")=>UI_ICO[slot]?`<img class="ico ${cls}" src="${UI_ICO[slot]}" alt="">`:`<span class="ico-e ${cls}">${emoji}</span>`;

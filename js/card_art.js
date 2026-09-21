@@ -2,7 +2,7 @@
    ・CARD_IMG … 生成した画像を使う単語（assets/cards/○○.png を置いて追記）
    ・CARD_EXTRA … その単語を使った一文（s:英文 t:和訳）
    ・ART_SVG … コードで描いたイラスト（画像が無い単語に使われる） */
-const CARD_IMG={cat:"assets/cards/cat.png",apple:"assets/cards/apple.png"};
+const CARD_IMG={apple:"assets/apple_art.png",abandon:"assets/cards/abandon.jpg"};
 const CARD_EXTRA={
   apple:{s:"The knight ate a red apple and regained his strength.",t:"騎士は赤いりんごを食べ、力を取り戻した。"},
   cat:{s:"The cat guarded the castle gate all night.",t:"猫は一晩中、城門を守り抜いた。"},
@@ -89,3 +89,26 @@ function sceneSvg(r){const [a,b,c]=SCN_PAL[r]||SCN_PAL.COMMON;
   <g fill="#241d55" opacity=".9"><rect x="204" y="112" width="70" height="26"/><rect x="214" y="86" width="10" height="30"/><path d="M212 88l7-24 7 24z"/><rect x="234" y="98" width="14" height="20"/><path d="M232 100l9-18 9 18z"/><rect x="256" y="104" width="10" height="14"/><path d="M254 106l7-14 7 14z"/></g>
   <rect y="136" width="300" height="64" fill="url(#wt${r})"/><path d="M196 138h60l-16 62h-30z" fill="#fff4c0" opacity=".3"/>
   <path d="M0 200v-46q40-12 72 8 30 14 50 38z" fill="#1c2a30"/><path d="M0 154q40-12 72 8 6 3 12 8-40-14-84-4z" fill="#3f6b48"/></svg>`}
+
+/* 夜の城の全画面背景（home_bg / splash_bg の画像が無い時に使う） */
+function nightScene(){
+  let s=7;const r=()=>(s=s*16807%2147483647)/2147483647;let st="",win="";
+  for(let i=0;i<90;i++)st+=`<circle cx="${(r()*400).toFixed(1)}" cy="${(r()*300).toFixed(1)}" r="${(r()*1.3+.3).toFixed(2)}" opacity="${(r()*.6+.3).toFixed(2)}"/>`;
+  [[196,100],[204,124],[188,150],[212,160],[164,140],[228,132],[134,192],[262,182],[200,210],[178,222],[224,224],[150,214],[248,214],[286,232],[104,236]].forEach(([x,y])=>win+=`<rect x="${x}" y="${y}" width="3" height="5" rx="1.5"/>`);
+  let ref="";for(let i=0;i<14;i++)ref+=`<rect x="${(150+r()*100).toFixed(0)}" y="${(356+r()*90).toFixed(0)}" width="${(1+r()*3).toFixed(1)}" height="${(10+r()*40).toFixed(0)}"/>`;
+  return `<svg class="scene" viewBox="0 0 400 620" preserveAspectRatio="xMidYMin slice" xmlns="http://www.w3.org/2000/svg"><defs>
+  <linearGradient id="nsk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#050728"/><stop offset=".35" stop-color="#1b1a70"/><stop offset=".6" stop-color="#3a2a90"/><stop offset="1" stop-color="#0f1a55"/></linearGradient>
+  <radialGradient id="nmn"><stop offset="0" stop-color="#cfe0ff" stop-opacity=".9"/><stop offset="1" stop-color="#cfe0ff" stop-opacity="0"/></radialGradient>
+  <linearGradient id="nwf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfeaff"/><stop offset="1" stop-color="#4a7bff" stop-opacity=".25"/></linearGradient>
+  <linearGradient id="ncs" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a3696"/><stop offset=".6" stop-color="#0e1552"/><stop offset="1" stop-color="#070a2c"/></linearGradient><linearGradient id="nlk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2f40b0"/><stop offset="1" stop-color="#0a1040"/></linearGradient></defs>
+  <rect width="400" height="620" fill="url(#nsk)"/><g fill="#fff">${st}</g>
+  <circle cx="290" cy="105" r="84" fill="url(#nmn)"/><circle cx="290" cy="105" r="34" fill="#e4edff"/><circle cx="280" cy="98" r="6" fill="#c5d3f5" opacity=".6"/><circle cx="300" cy="116" r="8" fill="#c5d3f5" opacity=".5"/>
+  <g fill="#8a5ae0" opacity=".35"><ellipse cx="60" cy="150" rx="80" ry="16"/><ellipse cx="335" cy="196" rx="90" ry="14"/><ellipse cx="130" cy="236" rx="100" ry="14"/></g>
+  <g fill="#0b0f3a"><path d="M36 176h64l-10 24-22 20-22-20z"/><rect x="62" y="138" width="10" height="40"/><path d="M59 140l8-30 8 30z"/><path d="M318 146h60l-9 22-21 18-21-18z"/><rect x="343" y="118" width="9" height="30"/><path d="M340 120l7-26 7 26z"/></g>
+  <path d="M0 262L60 226l60 24 80-36 80 30 60-26 60 24v90H0z" fill="#141a5c" opacity=".85"/>
+  <rect y="346" width="400" height="274" fill="url(#nlk)"/><g fill="#9cc8ff" opacity=".28">${ref}</g>
+  <g fill="url(#ncs)" stroke="#6a80f0" stroke-opacity=".35" stroke-width=".8"><path d="M62 350L92 306 100 268 146 252H266L304 266 326 312 346 350z"/><rect x="192" y="74" width="16" height="180"/><path d="M188 76L200 18l12 58z"/><rect x="160" y="124" width="14" height="130"/><path d="M156 126l11-54 11 54z"/><rect x="226" y="112" width="14" height="140"/><path d="M222 114l11-52 11 52z"/><rect x="130" y="176" width="12" height="80"/><path d="M127 178l9-40 9 40z"/><rect x="258" y="166" width="12" height="90"/><path d="M255 168l9-40 9 40z"/><rect x="118" y="206" width="164" height="50"/></g>
+  <g fill="#ffd66a">${win}</g>
+  <path d="M206 262h28l8 92h-44z" fill="url(#nwf)"/><ellipse cx="220" cy="356" rx="28" ry="6" fill="#dff0ff" opacity=".5"/>
+  <g fill="#03051a"><path d="M0 250Q34 222 44 300Q24 350 0 430z"/><path d="M400 300Q366 280 352 340Q376 372 400 400z"/><path d="M0 440Q60 420 90 470V620H0z"/><path d="M400 420Q340 410 310 470V620H400z"/></g>
+  <circle cx="372" cy="318" r="14" fill="#ffb648" opacity=".45"/><circle cx="372" cy="318" r="3" fill="#ffe2a0"/></svg>`}
