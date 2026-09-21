@@ -18,6 +18,9 @@
 - cat
 
 
+
+
+
 ## Lv.1 COMMON（100語）
 
 共通のスタイル：simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration
@@ -1028,7 +1031,7 @@ fantasy illustration with a small magical touch, gentle glow, slightly richer de
 ```
 
 
-## Lv.3 RARE（20語）
+## Lv.3 RARE（100語）
 
 共通のスタイル：rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene
 
@@ -1132,8 +1135,408 @@ rich fantasy illustration, dramatic lighting, golden accents, floating light par
 rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The young hero accepted the challenge. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
 ```
 
+**261. treasure**（宝物）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The pirates buried a golden treasure on the island. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
 
-## Lv.4 EPIC（20語）
+**262. mystery**（謎）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Nobody could solve the mystery of the silent tower. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**263. secret**（秘密）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A secret door opened behind the old bookshelf. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**264. wisdom**（知恵）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The old wizard shared his wisdom with the young heroes. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**265. victory**（勝利）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The whole kingdom celebrated the victory with lanterns and songs. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**266. power**（力）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A strange power flowed through the ancient crystal. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**267. memory**（記憶）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A warm memory returned when she smelled the old flowers. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**268. journey**（旅路）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The long journey across the desert tested their courage. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**269. leader**（指導者）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The leader of the guild raised her sword and smiled. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**270. promise**（約束）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: He made a promise to return before the winter. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**271. danger**（危険）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Danger waited in the shadows of the ruined castle. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**272. energy**（エネルギー）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Blue energy gathered around the mage's hands. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**273. nature**（自然）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The elves live in harmony with nature. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**274. peace**（平和）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: After the war, peace finally returned to the valley. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**275. freedom**（自由）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The birds flew away with a sense of freedom. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**276. knowledge**（知識）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The library holds the knowledge of a thousand years. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**277. history**（歴史）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The history of the kingdom is carved into the wall. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**278. tradition**（伝統）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Every spring, the village keeps an old tradition. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**279. culture**（文化）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The festival showed the culture of the mountain people. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**280. science**（科学）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: In the tower, scholars studied science and magic together. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**281. speed**（速さ）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The dragon flew at incredible speed over the valley. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**282. evidence**（証拠）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The detective found evidence in the abandoned house. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**283. expert**（専門家）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: An expert in ancient runes read the strange message. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**284. ability**（能力）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: She has the ability to talk with animals. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**285. advantage**（利点）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The narrow bridge gave the defenders an advantage. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**286. damage**（損害）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The storm caused heavy damage to the harbor. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**287. community**（地域社会）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The whole community worked together to rebuild the town. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**288. effort**（努力）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: With great effort, the boy lifted the stone door. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**289. invention**（発明）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The inventor's newest invention floated above the workshop. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**290. truth**（真実）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The magic mirror in the hall always tells the truth. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**291. rule**（規則）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Every student must follow the rule of the academy. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**292. region**（地域）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Snow covers the northern region for half of the year. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**293. discover**（発見する）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Explorers discover a hidden city beneath the ice. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**294. destroy**（破壊する）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The dragon's fire destroyed the old wooden bridge. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**295. hide**（隠す）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The thief tries to hide the jewel in the garden. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**296. reveal**（明かす）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The map will reveal the way to the lost temple. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**297. survive**（生き残る）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Only a few travelers could survive the freezing night. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**298. create**（生み出す）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The artist can create living flowers from light. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**299. gather**（集まる）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Villagers gather around the fire to hear the story. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**300. imagine**（想像する）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Can you imagine a city floating in the sky? painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**301. explore**（探検する）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The young heroes explore the ruins of an ancient temple. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**302. defend**（防衛する）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The knights defend the castle against the dark army. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**303. attract**（引きつける）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The glowing flowers attract thousands of butterflies. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**304. avoid**（避ける）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: We must avoid the cursed swamp at all costs. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**305. belong**（属する）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: This golden sword belongs to the first king. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**306. cause**（引き起こす）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A single spark can cause a great fire. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**307. collect**（集める）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The children collect shining stones by the river. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**308. connect**（つなぐ）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A long bridge connects the two floating islands. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**309. contain**（含む）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The old chest may contain a magic map. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**310. control**（操る）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The wizard learns to control the wind. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**311. depend**（頼る）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The whole village depends on the river for water. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**312. exist**（存在する）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Some say dragons no longer exist in this world. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**313. expect**（期待する）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Nobody expected a small girl to win the contest. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**314. notice**（気づく）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: She noticed a faint light between the trees. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**315. offer**（差し出す）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The merchant offered a silver coin for the magic ring. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**316. prepare**（準備する）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The team prepares carefully for the trip to the mountain. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**317. prevent**（防ぐ）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A strong wall prevents the flood from reaching the town. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**318. recognize**（見分ける）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Even after ten years, he could recognize her voice. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**319. recover**（回復する）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: It took a week for the knight to recover from the wound. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**320. refuse**（断る）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The proud king refused to listen to any advice. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**321. release**（解き放つ）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The hero released the bird from the golden cage. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**322. solve**（解く）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Only a clever mind can solve this old riddle. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**323. ancient**（古代の）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Ancient symbols glow on the walls of the cave. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**324. mysterious**（神秘的な）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A mysterious traveler arrived in the village at midnight. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**325. powerful**（強力な）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The dragon is the most powerful creature in the land. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**326. valuable**（貴重な）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The pirates stole a valuable jewel from the royal vault. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**327. curious**（好奇心の強い）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The curious kitten followed the glowing light. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**328. enormous**（巨大な）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: An enormous tree grows in the center of the forest. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**329. familiar**（見慣れた）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The song was familiar, but she could not remember why. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**330. generous**（寛大な）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The generous king gave food to every hungry traveler. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**331. honest**（正直な）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The honest merchant returned the lost purse. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**332. ordinary**（ふつうの）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: It looked like an ordinary stone, but it glowed at night. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**333. rare**（まれな）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A rare flower blooms only once in a hundred years. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**334. serious**（真剣な）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The teacher gave the students a serious warning. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**335. useful**（役に立つ）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: This old compass is very useful in the fog. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**336. wise**（賢明な）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The wise owl gave the travelers good advice. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**337. actually**（実は）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: It was actually a friendly dragon, not a monster. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**338. especially**（特に）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The forest is especially beautiful in autumn. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**339. recently**（最近）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Strange lights have appeared in the sky recently. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**340. probably**（たぶん）
+```
+rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The storm will probably pass before the morning. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+
+## Lv.4 EPIC（100語）
 
 共通のスタイル：very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition
 
@@ -1237,8 +1640,408 @@ very luxurious epic fantasy illustration, strong magical effects, dramatic light
 very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Their plan was based on a false assumption. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
 ```
 
+**341. concept**（概念）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The scholar explained the concept of time magic to the council. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
 
-## Lv.5 LEGENDARY（20語）
+**342. context**（文脈）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Without the context, the ancient scroll made no sense at all. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**343. contract**（契約）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The mage signed a contract with the guild under the full moon. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**344. decade**（十年間）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The old wall stood unbroken for a decade of endless wars. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**345. dimension**（次元）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: A door to another dimension opened above the burning altar. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**346. economy**（経済）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The queen worked hard to rebuild the economy of the ruined kingdom. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**347. element**（要素）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Each mage in the academy masters one element, such as fire or ice. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**348. enterprise**（企業）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The merchants started a bold enterprise across the eastern sea. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**349. equipment**（設備）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The dwarves checked their mining equipment before entering the deep cave. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**350. expansion**（拡大）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The rapid expansion of the empire worried the border villages. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**351. factor**（要因）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Courage was the deciding factor in the final battle. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**352. feature**（特徴）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The most striking feature of the tower is its glowing crystal roof. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**353. foundation**（土台）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The ancient temple rests on a foundation of black stone. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**354. framework**（枠組み）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The wizards built a strong framework of rules for the new academy. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**355. function**（機能）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The crystal has a single function: it stores the light of the moon. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**356. hypothesis**（仮説）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The scholar tested her hypothesis with a dangerous experiment. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**357. identity**（正体）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The masked hero never revealed his true identity to anyone. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**358. impact**（衝撃）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The falling star made a huge impact on the desert floor. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**359. industry**（産業）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The new furnaces brought a golden age to the mining industry. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**360. initiative**（主導権）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The young captain took the initiative and led the rescue mission. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**361. institution**（機関）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The royal institution trains young mages from every land. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**362. investment**（投資）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The king's investment in new ships brought great riches. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**363. mechanism**（仕組み）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: A hidden mechanism opened the door of the ancient vault. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**364. objective**（目標）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The main objective of the mission is to protect the crystal. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**365. outcome**（結末）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Nobody could predict the outcome of the great tournament. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**366. principle**（原則）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The guild lives by one principle: never leave a friend behind. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**367. procedure**（手順）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The healer followed a careful procedure to remove the curse. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**368. proposal**（提案）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The council rejected the queen's proposal to open the gates. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**369. prospect**（見通し）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The prospect of a long winter made the villagers nervous. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**370. sector**（部門）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The trade sector of the kingdom grew rapidly after the war. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**371. standard**（標準）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The blacksmith's swords set a new standard for quality. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**372. theory**（理論）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The professor's theory explained how the floating islands stay in the air. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**373. adapt**（適応する）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The elves adapted quickly to life in the snowy mountains. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**374. adjust**（調整する）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The pilot adjusted the sails to catch the wind. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**375. allocate**（配分する）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The queen will allocate more gold to the border guards. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**376. anticipate**（予想する）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The general anticipated the enemy's attack from the north. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**377. apply**（適用する）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Mages must apply the same rule to every spell. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**378. assess**（査定する）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The healer assessed the wound before starting the treatment. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**379. assign**（任命する）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The captain assigned each knight to a different gate. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**380. attain**（到達する）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: After years of training, she attained the rank of archmage. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**381. conclude**（結論づける）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The judge concluded that the prisoner was innocent. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**382. conduct**（実施する）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The scholars conduct experiments in the tower every night. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**383. confirm**（確認する）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The scout confirmed that the bridge was still safe. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**384. consult**（相談する）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The king consulted the oracle before declaring war. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**385. convince**（納得させる）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: She could not convince the council to open the gates. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**386. deliver**（届ける）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The courier delivered the royal message before sunrise. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**387. distribute**（配る）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The monks distribute bread to the poor every morning. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**388. eliminate**（取り除く）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The mage wanted to eliminate every trace of the dark magic. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**389. emerge**（姿を現す）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: A giant serpent slowly emerged from the dark lake. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**390. emphasize**（強調する）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The teacher emphasized the importance of teamwork before the battle. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**391. encounter**（出会う）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The travelers encountered a dragon on the mountain pass. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**392. ensure**（確実にする）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Strong walls ensure the safety of every villager. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**393. estimate**（見積もる）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The engineers estimate that the bridge will take a year to build. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**394. exceed**（上回る）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The dragon's speed exceeded everything the knights had imagined. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**395. extend**（延ばす）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The king decided to extend the road to the northern coast. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**396. generate**（発生させる）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The crystal can generate enough energy to light the whole city. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**397. illustrate**（例で示す）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The teacher drew a map to illustrate the hero's long journey. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**398. indicate**（示す）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The glowing runes indicate the location of the hidden vault. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**399. interpret**（解釈する）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Only the oracle could interpret the meaning of the strange dream. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**400. investigate**（調査する）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The detective went to investigate the strange lights in the tower. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**401. justify**（正当化する）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: How can you justify such a dangerous plan? painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**402. modify**（修正する）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Can the smith modify this sword to fit a smaller hand? painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**403. adequate**（十分な）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The tent was adequate shelter against the mountain wind. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**404. appropriate**（適切な）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: It is not appropriate to draw a sword inside the temple. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**405. complex**（複雑な）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The wizard's spell was so complex that few could read it. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**406. consistent**（一貫した）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The archer was consistent, hitting the target every single time. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**407. crucial**（極めて重要な）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The next hour is crucial for the survival of the village. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**408. diverse**（多様な）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The market was crowded with diverse peoples from every land. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**409. essential**（不可欠な）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Clean water is essential for anyone crossing the desert. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**410. fundamental**（根本的な）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Trust is the fundamental rule of a good guild. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**411. innovative**（革新的な）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The innovative smith invented a sword that could sing. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**412. relevant**（関連のある）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Only the relevant pages of the ancient book were saved. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**413. sufficient**（足りる）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Three days of food is sufficient for the mountain trip. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**414. ultimate**（究極の）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The ultimate goal of the quest is to save the kingdom. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**415. valid**（有効な）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The ticket is valid only until the moon sets. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**416. vulnerable**（傷つきやすい）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The dragon's soft belly was its only vulnerable spot. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**417. consequently**（その結果）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The bridge collapsed; consequently, the army had to turn back. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**418. currently**（現在）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The dragon is currently sleeping beneath the northern mountain. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**419. gradually**（徐々に）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The sky gradually turned from gold to deep purple. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**420. essentially**（本質的に）
+```
+very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The two spells are essentially the same, but one is faster. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+
+## Lv.5 LEGENDARY（100語）
 
 共通のスタイル：masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic
 
@@ -1340,4 +2143,404 @@ masterpiece grand legendary fantasy illustration, epic scale, glowing magic circ
 **100. streamline**（効率化する）
 ```
 masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The guildmaster streamlined the process to save time. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**421. agenda**（議題）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The elder placed the dragon threat first on the agenda of the summit. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**422. alliance**（同盟）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The elves and dwarves formed an alliance to defend the northern border. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**423. asset**（資産）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The ancient library became the most valuable asset of the kingdom. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**424. audit**（監査）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Royal inspectors conducted a strict audit of the treasury accounts. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**425. brand**（ブランド）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The famous guild built a brand that every traveler could trust. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**426. budget**（予算）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The queen approved a large budget for repairing the great bridges. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**427. capital**（資本）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The merchants raised enough capital to build a fleet of sky ships. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**428. client**（顧客）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The wizard promised his client a spell that would never fail. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**429. competitor**（競合他社）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: A rival guild became a serious competitor in the crystal trade. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**430. consumer**（消費者）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Every consumer in the city wanted a lamp that never burned out. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**431. corporation**（大企業）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The mining corporation controlled every mountain from the coast to the desert. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**432. deadline**（締め切り）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The blacksmith worked all night to meet the royal deadline. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**433. demand**（需要）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Demand for dragon scales rose sharply after the great war. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**434. dividend**（配当）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Each shareholder received a golden dividend at the end of the year. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**435. entrepreneur**（起業家）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The young entrepreneur opened a tavern in the middle of the sky. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**436. headquarters**（本部）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The guild built its headquarters inside a giant hollow tree. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**437. inflation**（インフレ）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Inflation made a loaf of bread cost ten gold coins. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**438. inventory**（在庫）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The dwarf counted every item in the inventory before the caravan left. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**439. manufacturer**（製造業者）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The finest manufacturer of enchanted armor lived in the mountain city. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**440. merger**（合併）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The merger of the two guilds created the strongest force in the land. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**441. milestone**（節目）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Crossing the frozen sea was a milestone in the long expedition. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**442. partnership**（提携）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The partnership between mages and engineers changed the whole kingdom. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**443. portfolio**（ポートフォリオ）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The banker's portfolio held gold mines, ships, and even a small dragon. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**444. productivity**（生産性）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The new enchanted looms doubled the productivity of the weavers. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**445. profit**（利益）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The pirates split the profit equally among the whole crew. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**446. recession**（景気後退）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: During the long recession, many shops in the port city closed. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**447. reputation**（評判）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Her reputation as an honest healer spread across every kingdom. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**448. subsidiary**（子会社）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The great guild opened a subsidiary in the far eastern harbor. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**449. supplier**（供給業者）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The king's chief supplier delivered ten thousand arrows before winter. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**450. tariff**（関税）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The empire raised a heavy tariff on all goods from the south. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**451. transaction**（取引）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Every transaction in the market was recorded in a magic ledger. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**452. warehouse**（倉庫）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Thousands of glowing crystals were stored in the old warehouse. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**453. workforce**（労働力）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The city needed a larger workforce to rebuild the walls before winter. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**454. monopoly**（独占）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The wizard's guild held a monopoly on all flying carpets. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**455. accelerate**（加速させる）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The mages used a spell to accelerate the growth of the crops. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**456. accommodate**（収容する）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The grand hall could accommodate ten thousand guests at once. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**457. acquire**（手に入れる）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The prince tried to acquire the rare book before the rival guild did. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**458. align**（足並みをそろえる）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The two kingdoms agreed to align their plans against the coming storm. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**459. amend**（改正する）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The council voted to amend the ancient law of the harbor. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**460. approve**（承認する）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The king will approve the plan only if the council agrees. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**461. authorize**（認可する）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Only the queen can authorize the opening of the royal vault. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**462. commence**（開始する）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The great festival will commence at the first light of dawn. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**463. consolidate**（統合する）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The general moved to consolidate his scattered forces at the river. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**464. delegate**（委任する）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The wise queen chose to delegate the harvest to her trusted advisors. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**465. diversify**（多角化する）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The merchant decided to diversify and sell silk as well as spices. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**466. endorse**（支持する）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The famous hero agreed to endorse the new sword shop. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**467. execute**（遂行する）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The captain will execute the plan at midnight, exactly as agreed. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**468. expedite**（早める）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The king ordered the workers to expedite the repair of the road. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**469. finalize**（最終決定する）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The two rulers met in the tower to finalize the treaty. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**470. forecast**（予測する）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The astronomer can forecast a storm three days in advance. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**471. initiate**（着手する）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The queen wished to initiate a bold plan to reunite the realms. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**472. invest**（投資する）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The wealthy duke chose to invest his gold in a fleet of airships. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**473. oversee**（統括する）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: A trusted knight will oversee the building of the new fortress. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**474. prioritize**（優先する）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The captain had to prioritize saving the children over saving the cargo. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**475. procure**（調達する）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The alchemist struggled to procure the rare herbs needed for the potion. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**476. reimburse**（払い戻す）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The king promised to reimburse the farmers for the burned fields. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**477. renew**（更新する）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Every year, the villagers renew the old pact with the forest spirits. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**478. restructure**（再編する）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: After the war, the council had to restructure the entire army. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**479. revise**（改訂する）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The scholars revise the ancient map whenever a new island appears. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**480. supervise**（監督する）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The old master will supervise the young apprentices in the forge. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**481. terminate**（終了させる）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The queen decided to terminate the contract with the greedy merchants. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**482. undermine**（弱体化させる）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Rumors spread by the spy began to undermine the king's authority. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**483. ambitious**（野心的な）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The ambitious young mage dreamed of ruling the entire academy. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**484. competitive**（競争力のある）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Only the most competitive guilds survived in the crystal trade. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**485. confidential**（機密の）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The queen sent a confidential letter that only the general could read. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**486. flexible**（柔軟な）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: A flexible plan let the army change course when the storm arrived. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**487. lucrative**（もうかる）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Selling dragon eggs to collectors was a lucrative but dangerous business. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**488. mandatory**（義務の）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: It is mandatory for every knight to swear the oath before the battle. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**489. obsolete**（時代遅れの）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The old wooden ships became obsolete once the sky ships were built. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**490. overdue**（期限を過ぎた）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The debt of the merchant was already overdue by three long years. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**491. profitable**（利益の出る）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The northern trade route proved profitable for the whole guild. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**492. prominent**（著名な）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: A prominent scholar of the academy opened the great debate. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**493. viable**（実行可能な）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The wizards found no viable way to cross the burning desert. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**494. temporary**（一時的な）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The bridge is only a temporary fix until the stone one is ready. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**495. transparent**（透明な）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The queen promised a transparent trial, open to every citizen. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**496. volatile**（不安定な）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The volatile mixture of potions could explode at any moment. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**497. accordingly**（それに応じて）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The general saw the enemy's plan and prepared accordingly. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**498. approximately**（およそ）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The journey to the sky city takes approximately three days. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**499. simultaneously**（同時に）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The two dragons attacked the tower simultaneously from opposite sides. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+```
+
+**500. subsequently**（その後）
+```
+masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The king signed the treaty and subsequently disbanded his army. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
 ```

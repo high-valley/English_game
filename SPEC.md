@@ -85,7 +85,7 @@
 
 ---
 
-## 6. 単語データ（`js/words.js`、現在260語）
+## 6. 単語データ（`js/words.js`、現在500語。各レアリティ100語）
 形式：`{ id, en, ja, pronunciation, pos, rarity, stars, ic, ex, tr }`
 - `ex`：カードゲーム風の一文（英文）、`tr`：その日本語訳
 - `ic`：絵の代わりに使う絵文字
@@ -121,6 +121,12 @@
 - 選んだ基準：CEFR A1〜A2、英検5〜4級の身近な単語（名詞・動詞・形容詞）。ゲームの世界に合う単語（城、剣、王など）も入れた
 - **Lv.2 の追加80語（ID 181〜260）**：garden kitchen market village forest island desert cave tower gate ship station hospital library ticket map letter story dream question answer number color weather summer winter holiday bicycle brother sister mother father umbrella mirror candle ring crown shield wait ask bring carry catch choose climb cook cross dance draw enjoy explain find follow join leave meet protect save search send share show teach visit careful dangerous quiet brave clever empty famous heavy tired safe ready special always never suddenly finally
 - 選んだ基準（Lv.2）：CEFR A2〜B1、英検3級（中学卒業）の日常の単語。名詞38・動詞26・形容詞12・副詞4。例文には、小さな魔法の要素を入れた
+- **Lv.3 の追加80語（ID 261〜340）**：treasure mystery secret wisdom victory power memory journey leader promise danger energy nature peace freedom knowledge history tradition culture science speed evidence expert ability advantage damage community effort invention truth rule region discover destroy hide reveal survive create gather imagine explore defend attract avoid belong cause collect connect contain control depend exist expect notice offer prepare prevent recognize recover refuse release solve ancient mysterious powerful valuable curious enormous familiar generous honest ordinary rare serious useful wise actually especially recently probably
+- 選んだ基準（Lv.3）：CEFR B1〜B2、英検準2級、高校で学ぶ単語。名詞32・動詞30・形容詞14・副詞4。例文は、物語のワンシーン（8〜12語）
+- **Lv.4 の追加80語（ID 341〜420）**：concept context contract decade dimension economy element enterprise equipment expansion factor feature foundation framework function hypothesis identity impact industry initiative institution investment mechanism objective outcome principle procedure proposal prospect sector standard theory adapt adjust allocate anticipate apply assess assign attain conclude conduct confirm consult convince deliver distribute eliminate emerge emphasize encounter ensure estimate exceed extend generate illustrate indicate interpret investigate justify modify adequate appropriate complex consistent crucial diverse essential fundamental innovative relevant sufficient ultimate valid vulnerable consequently currently gradually essentially
+- 選んだ基準（Lv.4）：CEFR B2〜C1、大学・ビジネス、学術（NAWL）、TOEIC（TSL）の単語。名詞32・動詞30・形容詞14・副詞4。例文は、ドラマチックな場面（8〜13語）
+- **Lv.5 の追加80語（ID 421〜500）**：agenda alliance asset audit brand budget capital client competitor consumer corporation deadline demand dividend entrepreneur headquarters inflation inventory manufacturer merger milestone partnership portfolio productivity profit recession reputation subsidiary supplier tariff transaction warehouse workforce monopoly accelerate accommodate acquire align amend approve authorize commence consolidate delegate diversify endorse execute expedite finalize forecast initiate invest oversee prioritize procure reimburse renew restructure revise supervise terminate undermine ambitious competitive confidential flexible lucrative mandatory obsolete overdue profitable prominent viable temporary transparent volatile accordingly approximately simultaneously subsequently
+- 選んだ基準（Lv.5）：CEFR C1、実践ビジネス（BSL）の単語。名詞34・動詞28・形容詞14・副詞4。例文は、壮大な場面に、ビジネスの言い回しを乗せた一文（9〜13語）
 
 - 例文の難しさと絵の豪華さは、レアリティに合わせる（COMMON は簡素、LEGENDARY は壮大）
 
@@ -245,7 +251,7 @@ English_game/
 | 6 | ホームに学習レベルと進捗、ロック表示 | 完了 |
 | 7 | レア度別の枠、図鑑の整理、小カードの新デザイン | 未 |
 | 8 | レベルごとのコイン増（`LEVEL_COIN`） | 将来 |
-| 9 | 単語を増やす（各100語）：COMMON・UNCOMMON 完了（各100語）、RARE〜LEGENDARY は各20語 → 100語へ | 進行中 |
+| 9 | 単語を増やす（各100語）：各レアリティ100語（合計500語）を達成 | 完了 |
 
 
 ---
