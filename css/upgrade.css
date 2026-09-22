@@ -555,6 +555,7 @@ nav{grid-template-columns:repeat(4,1fr)}
 /* type="search" の既定の×ボタンを消す（自作の .cd-clear と重なるため） */
 .cd-search input::-webkit-search-cancel-button,.cd-search input::-webkit-search-decoration{-webkit-appearance:none;appearance:none}
 .cd-clear{position:absolute;right:8px;top:50%;transform:translateY(-50%);width:26px;height:26px;border:0;border-radius:50%;background:#20264a;color:#c9cde0;font-size:13px;cursor:pointer}
+.cd-clear.hide{display:none}
 .cd-count{font-size:11.5px;color:#8a91aa;margin:0 2px 8px;text-align:right}
 .cd-empty{grid-column:1/-1;padding:40px 10px;text-align:center;color:#6d7594;font-size:14px}
 .cd-g{grid-template-columns:repeat(2,1fr);gap:12px}

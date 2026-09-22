@@ -89,18 +89,33 @@ function matchPos(w,q){const x=SEARCH_IX[w.id]||{en:normQ(w.en),ja:normQ(w.ja)},
 function matchesQuery(w,q){return !q||matchPos(w,q)>=0}
 // 一致した位置が先頭に近い単語ほど先。同じ位置なら、アルファベット順（例: "ap" → apple, gap, map）
 function sortByQuery(list,q){if(!q)return list;return [...list].sort((a,b)=>matchPos(a,q)-matchPos(b,q)||a.en.localeCompare(b.en))}
-function cards(){
-  const found=ownedCount(),q=normQ(CF.q);
+/* 一覧・件数・クリアボタンだけを差し替える。検索欄（#cd-q）には触らない。
+   ★ iOS の日本語入力では、変換の確定前にも input イベントが飛ぶ。そのとき入力欄を
+     作り直すと、新しい欄に value が入ったうえで IME が未確定の文字を入れ直すため、
+     「り」と打つと「りり」になる。focus() や setSelectionRange() も変換を壊す。
+     そのため、絞り込みでも検索でも入力欄は作り直さない。 */
+function cardList(){
+  const q=normQ(CF.q);
   const list=sortByQuery(WORDS.filter(w=>(CF.r==="ALL"||w.rarity===CF.r)&&matchesQuery(w,q)),q);
-  $("#main").innerHTML=`<section class="cd"><div class="cd-top orn"><div class="cd-h">${ico("nav_cards","🃏")}<div><h2>カード図鑑</h2><small>${found}/${WORDS.length}種類を発見</small></div></div>
-  <div class="cd-search"><input id="cd-q" type="search" enterkeyhint="search" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="英単語・日本語で検索（例: ap / りんご）" value="${CF.q?CF.q.replace(/"/g,"&quot;"):""}" oninput="cardSearch(this.value)">${CF.q?`<button class="cd-clear" onclick="cardSearch('')" aria-label="クリア">✕</button>`:""}</div>
-  <div class="cd-f">${FIL.map(([k,t])=>`<button class="${CF.r===k?"on":""}" onclick="cardFilter('${k}')">${t}</button>`).join("")}</div></div>
-  <div class="cd-count">${list.length}件</div>
-  <div class="cd-g">${list.length?list.map(mini).join(""):`<div class="cd-empty">見つかりませんでした</div>`}</div></section>`;
-  const iq=$("#cd-q");if(iq&&document.activeElement!==iq){}
+  const c=$("#cd-count"),g=$("#cd-g"),cl=$(".cd-clear");
+  if(c)c.textContent=list.length+"件";
+  if(g)g.innerHTML=list.length?list.map(mini).join(""):`<div class="cd-empty">見つかりませんでした</div>`;
+  if(cl)cl.classList.toggle("hide",!CF.q);
 }
-function cardFilter(r){CF.r=r;cards();const iq=$("#cd-q");if(iq)iq.focus()}
-function cardSearch(v){CF.q=v;cards();const iq=$("#cd-q");if(iq){iq.focus();const n=iq.value.length;iq.setSelectionRange(n,n)}}
+function cards(){
+  const found=ownedCount();
+  $("#main").innerHTML=`<section class="cd"><div class="cd-top orn"><div class="cd-h">${ico("nav_cards","🃏")}<div><h2>カード図鑑</h2><small>${found}/${WORDS.length}種類を発見</small></div></div>
+  <div class="cd-search"><input id="cd-q" type="search" enterkeyhint="search" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="英単語・日本語で検索（例: ap / りんご）" value="${CF.q?CF.q.replace(/"/g,"&quot;"):""}" oninput="cardSearch(this.value)"><button class="cd-clear hide" onclick="cardClear()" aria-label="クリア">✕</button></div>
+  <div class="cd-f" id="cd-f">${FIL.map(([k,t])=>`<button class="${CF.r===k?"on":""}" onclick="cardFilter('${k}')">${t}</button>`).join("")}</div></div>
+  <div class="cd-count" id="cd-count"></div>
+  <div class="cd-g" id="cd-g"></div></section>`;
+  cardList();
+}
+// 絞り込みも、押したボタンの見た目を変えるだけにする（入力欄を作り直さない）
+function cardFilter(r){CF.r=r;document.querySelectorAll("#cd-f button").forEach((b,i)=>b.classList.toggle("on",FIL[i][0]===r));cardList()}
+function cardSearch(v){CF.q=v;cardList()}
+// クリアは、入力欄の中身を消す（要素は残す）
+function cardClear(){const i=$("#cd-q");if(i){i.value="";i.focus()}CF.q="";cardList()}
 
 function cardDetail(id){
   const w=WORDS.find(x=>x.id===id),n=S.owned[id]||0,m=S.mastery[id]||0,d=document.createElement("div");
