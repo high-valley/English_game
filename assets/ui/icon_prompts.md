@@ -19,8 +19,35 @@
 ## 進み具合
 | 状態 | アイコン |
 |---|---|
-| 差し替え済み（5個） | `nav_home` `nav_study` `nav_gacha` `nav_cards` `stat_streak` |
-| これから（7個） | `icon_study` `icon_cards` `icon_gacha` `icon_coin` `icon_gear` `stat_words` `stat_ok` |
+| 差し替え済み（8個） | `nav_home` `nav_study` `nav_gacha` `nav_cards` `stat_streak` `stat_ok` `stat_words` `icon_gacha` |
+| 作り直しが必要（2個） | `icon_coin` `icon_gear` … 発光に埋もれて小さく出ると潰れたため、旧版に戻してある |
+| これから（2個） | `icon_study` `icon_cards` |
+
+## 作り直しが必要な4個（小さく出るアイコン）
+
+`icon_gacha` は約129pxと大きいので周囲の発光が映えるが、**22〜49pxで出るアイコンに同じ発光を付けると本体が縮んで潰れる**。
+実際、渦を付けた `icon_coin`（22px）はほぼ黒い塊になり、`icon_gear`（38px）は歯車の形が読めなくなった。
+そのため、この4個は**発光・渦・粒子をすべて無し**にして、**本体が枠いっぱいに入る**よう指定する。
+
+**1. `icon_coin.png`**（ヘッダーのコイン／価格表示／表示 22px・16px・14px（最小））
+```
+glossy fantasy mobile game UI icon, deep navy blue and gold palette with sapphire blue accents, crisp clean outline, subtle metallic highlights, single object, front view, a round gold coin seen straight on, an eight-point compass star engraved in the center with a small sapphire gem, polished beveled rim with fine milled edge. flat pure magenta #FF00FF background, completely uniform, no gradient, no shadow on the background, no glow, no aura, no swirling effects, no floating particles around the object, square composition, the object fills the whole frame edge to edge, no text, no letters, no numbers, no border, no frame
+```
+
+**2. `icon_gear.png`**（設定ボタン／表示 38px）
+```
+glossy fantasy mobile game UI icon, deep navy blue and gold palette with sapphire blue accents, crisp clean outline, subtle metallic highlights, single object, front view, a silver and gold cog gear inside a gold-outlined diamond frame, a small sapphire gem at the center of the gear, thick clear shapes. flat pure magenta #FF00FF background, completely uniform, no gradient, no shadow on the background, no glow, no aura, no swirling effects, no floating particles around the object, square composition, the object fills the whole frame edge to edge, no text, no letters, no numbers, no border, no frame
+```
+
+**3. `icon_study.png`**（ホームの「勉強」ボタン／勉強画面のレベル欄／表示 約49px・22px）
+```
+glossy fantasy mobile game UI icon, deep navy blue and gold palette with sapphire blue accents, crisp clean outline, subtle metallic highlights, single object, front view, an open magic book with softly glowing pages and a gold-trimmed cover, seen from the front. flat pure magenta #FF00FF background, completely uniform, no gradient, no shadow on the background, no glow, no aura, no swirling effects, no floating particles around the object, square composition, the object fills the whole frame edge to edge, no text, no letters, no numbers, no border, no frame
+```
+
+**4. `icon_cards.png`**（ホームの「カード」ボタン／表示 約49px）
+```
+glossy fantasy mobile game UI icon, deep navy blue and gold palette with sapphire blue accents, crisp clean outline, subtle metallic highlights, single object, front view, a fan of three fantasy trading cards, gold edges, a blue sapphire diamond emblem on the front card. flat pure magenta #FF00FF background, completely uniform, no gradient, no shadow on the background, no glow, no aura, no swirling effects, no floating particles around the object, square composition, the object fills the whole frame edge to edge, no text, no letters, no numbers, no border, no frame
+```
 
 ## そのまま貼れる全文（12個）
 
@@ -122,6 +149,9 @@ flat pure magenta #FF00FF background, completely uniform, no gradient, no shadow
   こちらでPNGに変換して置く
 - **発光のにじみは削られる。** 青紫の発光はマゼンタと見分けがつかないため、透過処理で一緒に消える。
   線そのものは残るので、**線を主役にした絵**にしてもらうのがよい（発光を強くしても、その分は残らない）
+- **小さく出るアイコンに、周囲の発光や渦を付けてはいけない。** 発光も絵の一部として切り抜かれるので、
+  そのぶん本体が縮む。22pxの `icon_coin` はほぼ黒い塊に、38pxの `icon_gear` は歯車の形が潰れた。
+  **発光を許すのは `icon_gacha`（約129px）だけ**。他は「本体が枠いっぱい・発光なし」で作る
 - **ファイルはこちらで軽くする。** 1024px のまま置くと1枚あたり 100〜590KB になる。
   透過処理は内部で 600px に縮めてから行うので、**512px・128色**に落としても見た目は変わらない
   （5枚で 1575KB → 242KB）。そちらは元のサイズのまま送ってもらって構わない
