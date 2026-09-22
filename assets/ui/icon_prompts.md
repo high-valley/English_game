@@ -16,38 +16,14 @@
 | `icon_gear` | 平たい白灰色で、他のイラストアイコンより安っぽい。金と銀＋青い宝石にする |
 | 全体 | 余白の取り方がバラバラで、見た目の大きさが揃っていない → マゼンタ背景で作り直せば自動でそろう |
 
-## 進み具合
+## 進み具合 ― 完了
 | 状態 | アイコン |
 |---|---|
-| 差し替え済み（8個） | `nav_home` `nav_study` `nav_gacha` `nav_cards` `stat_streak` `stat_ok` `stat_words` `icon_gacha` |
-| 作り直しが必要（2個） | `icon_coin` `icon_gear` … 発光に埋もれて小さく出ると潰れたため、旧版に戻してある |
-| これから（2個） | `icon_study` `icon_cards` |
+| 差し替え済み（11個） | `nav_home` `nav_study` `nav_gacha` `nav_cards` `stat_words` `stat_ok` `stat_streak` `icon_study` `icon_cards` `icon_gear` `icon_gacha` |
+| 旧版のまま（1個） | `icon_coin` … 新版は中心が紺色で、14〜22px では暗い円にしか見えなかった。旧版の金一色の方が「金貨」と読める |
 
-## 作り直しが必要な4個（小さく出るアイコン）
-
-`icon_gacha` は約129pxと大きいので周囲の発光が映えるが、**22〜49pxで出るアイコンに同じ発光を付けると本体が縮んで潰れる**。
-実際、渦を付けた `icon_coin`（22px）はほぼ黒い塊になり、`icon_gear`（38px）は歯車の形が読めなくなった。
-そのため、この4個は**発光・渦・粒子をすべて無し**にして、**本体が枠いっぱいに入る**よう指定する。
-
-**1. `icon_coin.png`**（ヘッダーのコイン／価格表示／表示 22px・16px・14px（最小））
-```
-glossy fantasy mobile game UI icon, deep navy blue and gold palette with sapphire blue accents, crisp clean outline, subtle metallic highlights, single object, front view, a round gold coin seen straight on, an eight-point compass star engraved in the center with a small sapphire gem, polished beveled rim with fine milled edge. flat pure magenta #FF00FF background, completely uniform, no gradient, no shadow on the background, no glow, no aura, no swirling effects, no floating particles around the object, square composition, the object fills the whole frame edge to edge, no text, no letters, no numbers, no border, no frame
-```
-
-**2. `icon_gear.png`**（設定ボタン／表示 38px）
-```
-glossy fantasy mobile game UI icon, deep navy blue and gold palette with sapphire blue accents, crisp clean outline, subtle metallic highlights, single object, front view, a silver and gold cog gear inside a gold-outlined diamond frame, a small sapphire gem at the center of the gear, thick clear shapes. flat pure magenta #FF00FF background, completely uniform, no gradient, no shadow on the background, no glow, no aura, no swirling effects, no floating particles around the object, square composition, the object fills the whole frame edge to edge, no text, no letters, no numbers, no border, no frame
-```
-
-**3. `icon_study.png`**（ホームの「勉強」ボタン／勉強画面のレベル欄／表示 約49px・22px）
-```
-glossy fantasy mobile game UI icon, deep navy blue and gold palette with sapphire blue accents, crisp clean outline, subtle metallic highlights, single object, front view, an open magic book with softly glowing pages and a gold-trimmed cover, seen from the front. flat pure magenta #FF00FF background, completely uniform, no gradient, no shadow on the background, no glow, no aura, no swirling effects, no floating particles around the object, square composition, the object fills the whole frame edge to edge, no text, no letters, no numbers, no border, no frame
-```
-
-**4. `icon_cards.png`**（ホームの「カード」ボタン／表示 約49px）
-```
-glossy fantasy mobile game UI icon, deep navy blue and gold palette with sapphire blue accents, crisp clean outline, subtle metallic highlights, single object, front view, a fan of three fantasy trading cards, gold edges, a blue sapphire diamond emblem on the front card. flat pure magenta #FF00FF background, completely uniform, no gradient, no shadow on the background, no glow, no aura, no swirling effects, no floating particles around the object, square composition, the object fills the whole frame edge to edge, no text, no letters, no numbers, no border, no frame
-```
+作り直すときは、下の全文をそのまま使う。`icon_coin` だけは
+**「金色が主体で、暗い面を作らない」**を足すこと（14pxでも金貨と分かる必要がある）。
 
 ## そのまま貼れる全文（12個）
 
