@@ -342,7 +342,7 @@ main{padding-top:0}
 .is-study #bg img.scene,.is-cards #bg img.scene{object-position:50% 0}
 .hd-r{display:flex;align-items:center;gap:8px}
 .coins .ci img{width:22px;height:22px;vertical-align:middle;margin-top:-3px}
-#gear{width:38px;height:38px;padding:0;border:1.5px solid #b8902f;border-radius:10px;background:#0c1128cc;color:#c9cde0;font-size:19px;display:grid;place-items:center;cursor:pointer}
+#gear{width:38px;height:38px;padding:4px;border:1.5px solid #b8902f;border-radius:10px;background:#0c1128cc;color:#c9cde0;font-size:19px;display:grid;place-items:center;cursor:pointer}   /* 枠いっぱいのアイコンでも詰まらないよう余白を取る */
 #gear img{width:100%;height:100%;object-fit:contain}
 .ico{display:block;object-fit:contain}
 nav button i{height:26px;display:grid;place-items:center}
