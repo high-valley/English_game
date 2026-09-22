@@ -53,7 +53,13 @@ function uiKeyCanvas(im,maxW,forcePeel){
   x.putImageData(d,0,0);return{c,x,W,H,p,keyed:nk>W*H*.002}}
 const uiBlob=c=>new Promise(r=>c.toBlob(b=>r(URL.createObjectURL(b)),"image/png"));
 function uiImg(url){return new Promise(res=>{const im=new Image();im.onload=()=>res(im);im.onerror=()=>res(null);im.src=url})}
-async function uiIcon(url){try{const im=await uiImg(url);if(!im)return null;const k=uiKeyCanvas(im,600);if(!k.keyed)return null;   // 透過済みの画像はそのまま使う
+// 画像がすでに透過を持っているか（持っていれば、マゼンタの処理はしない）
+function uiHasAlpha(im,maxW){const W=Math.min(maxW,im.naturalWidth),H=Math.round(W*im.naturalHeight/im.naturalWidth),
+  c=document.createElement("canvas");c.width=W;c.height=H;const x=c.getContext("2d");x.drawImage(im,0,0,W,H);
+  const d=x.getImageData(0,0,W,H).data;for(let i=3;i<d.length;i+=4)if(d[i]<250)return true;return false}
+// マゼンタ背景のアイコン → 透過して余白を詰める。透過済みの画像には触らない
+// （紫や青の発光はマゼンタと見分けがつかないため、透過済みの絵を加工すると光の部分が削れる）
+async function uiIcon(url){try{const im=await uiImg(url);if(!im)return null;if(uiHasAlpha(im,600))return null;const k=uiKeyCanvas(im,600);if(!k.keyed)return null;
   let x0=k.W,y0=k.H,x1=0,y1=0;for(let y=0;y<k.H;y++)for(let x=0;x<k.W;x++)if(k.p[(y*k.W+x)*4+3]>16){x0=Math.min(x0,x);x1=Math.max(x1,x);y0=Math.min(y0,y);y1=Math.max(y1,y)}
   if(x1<x0)return null;const pd=Math.round(Math.max(x1-x0,y1-y0)*.04),sx=Math.max(0,x0-pd),sy=Math.max(0,y0-pd),w=Math.min(k.W,x1+pd)-sx,h=Math.min(k.H,y1+pd)-sy,o=document.createElement("canvas");o.width=w;o.height=h;
   o.getContext("2d").drawImage(k.c,sx,sy,w,h,0,0,w,h);return await uiBlob(o)}catch(e){console.warn("アイコンを処理できませんでした",e);return null}}
@@ -74,9 +80,19 @@ async function uiSheet(url,names,cols){try{const im=await uiImg(url);if(!im)retu
     cv.getContext("2d").drawImage(k.c,sx,sy,w,h,(side-w)/2,(side-h)/2,w,h);out[names[n]]=await uiBlob(cv)}
   return out}catch(e){console.warn("アイコンシートを処理できませんでした",e);return{}}}
 const UI_SHEETS=[["icons/sheet_main",["icon_study","icon_cards","icon_gacha","icon_coin","icon_gear"],3],["icons/sheet_small",["stat_words","stat_ok","stat_streak","nav_home","nav_study","nav_gacha","nav_cards"],4]];
+function uiProbeSheet(slot){return new Promise(res=>{const u=`assets/ui/${slot}.png`,im=new Image();im.onload=()=>res(u);im.onerror=()=>res(null);im.src=u})}
 async function uiInit(cb){   // 背景・アイコンを先に反映（cb）し、そのあと枠画像を処理する
   const found=(await Promise.all(UI_SLOTS.map(async s=>[s,await uiProbe(s)]))).filter(f=>f[1]);
-  (await Promise.all(UI_ICONS.map(async n=>[n,await uiProbeIcon(n)]))).forEach(([n,x])=>{if(x)UI_ICO[n]=x});
+  // アイコン（個別ファイル）。マゼンタ背景なら透過して余白を詰める。透過済みの画像はそのまま使う
+  (await Promise.all(UI_ICONS.map(async n=>{
+    const u=await uiProbeIcon(n);if(!u)return[n,null];
+    return[n,(await uiIcon(u))||u]}))).forEach(([n,x])=>{if(x)UI_ICO[n]=x});
+  // シート（格子状に並べた1枚）。個別ファイルがある名前は、そちらを優先する
+  for(const [slot,names,cols] of UI_SHEETS){
+    if(names.every(n=>UI_ICO[n]))continue;
+    const u=await uiProbeSheet(slot);if(!u)continue;
+    const got=await uiSheet(u,names,cols);
+    names.forEach(n=>{if(!UI_ICO[n]&&got[n])UI_ICO[n]=got[n]})}
   found.forEach(([s,x])=>{if(!s.startsWith("card_frame"))UI[s]=x});
   UI_READY=true;if(cb)cb();
   for(const [s,x] of found)if(s.startsWith("card_frame")){const r=await uiKeyFrame(x);if(r)UI_FRAME[s]=r}
