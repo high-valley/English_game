@@ -95,7 +95,7 @@ button.mc{cursor:pointer;box-shadow:0 0 10px color-mix(in srgb,var(--rc) 45%,tra
 .cd-p{display:flex;justify-content:center;align-items:center;gap:16px;margin-top:12px;color:#9aa1b8;font-size:13px}
 .cd-p button{width:34px;height:30px;border-radius:8px;border:1px solid #33395a;background:#131933;color:#e6c66a}.cd-p button:disabled{opacity:.3}
 .sheet{position:fixed;inset:0;z-index:55;display:flex;align-items:flex-end;justify-content:center;background:#000a}
-.sheet-in{width:100%;max-width:520px;padding:18px 18px 26px;border:1px solid #8a6d2c;border-radius:20px 20px 0 0;background:linear-gradient(#171d3a,#0b1023);animation:panelIn .3s ease-out both}
+.sheet-in{width:100%;max-width:560px;padding:18px 18px 26px;border:1px solid #8a6d2c;border-radius:20px 20px 0 0;background:linear-gradient(#171d3a,#0b1023);animation:panelIn .3s ease-out both}
 .sd-top{display:flex;gap:14px;align-items:center;margin-bottom:12px}
 .sd-art{flex:none;width:92px;height:92px;border-radius:12px;overflow:hidden;border:2px solid var(--rc);display:grid;place-items:center;font-size:48px}
 .sd-art .art{height:auto;background:none;font-size:48px}
@@ -150,7 +150,7 @@ nav button.on{border:2px solid #f1d27a;background:linear-gradient(#3a3163,#1a1d3
 .cf-flavor span{display:block;margin-top:2px;font:500 11px system-ui;color:#b9b5a0}
 .rv{width:min(84vw,310px)}.rv-panel{width:min(84vw,310px)}.gx .gold-btn{width:min(84vw,310px)}
 .rv-new{bottom:120px;right:-12px;z-index:6}
-.sd-card{max-width:310px;margin:0 auto 12px}
+.sd-card{margin:0 auto 12px}
 .sheet-in{max-height:92vh;overflow:auto}
 
 /* ホーム */
@@ -250,7 +250,7 @@ nav button.on{border:2px solid #f1d27a;background:linear-gradient(#3a3163,#1a1d3
 .cd3-rar{flex-direction:column;gap:.4cqw;color:#f4e4b0;font:800 3.6cqw Georgia,serif}.cd3-rar svg{width:6cqw;height:6cqw;filter:drop-shadow(0 0 1.5cqw #f1d27a)}
 .rv{width:min(86vw,340px)}.rv-panel,.gx .gold-btn{width:min(86vw,340px)}
 .rv-new{bottom:22%;right:-12px}
-.sd-card{max-width:320px}
+.sd-card{max-width:min(94vw,440px);width:100%}
 
 .cd3-star em{font-size:2.9cqw;letter-spacing:0}
 .cd3-info{gap:.8cqw;padding:2cqw 3cqw 0}
@@ -511,7 +511,6 @@ nav{grid-template-columns:repeat(4,1fr)}
 /* ===== カードの調整・小さいカード（枠画像版） ===== */
 .cd3-div:after{display:none}
 .cd3-word{letter-spacing:.6cqw}
-.cd-g{grid-template-columns:repeat(3,1fr);gap:10px}
 .gr-grid{grid-template-columns:repeat(3,1fr)}
 .mcard{display:block;width:100%;padding:0;border:0;background:none;position:relative;cursor:pointer;-webkit-tap-highlight-color:transparent}
 .mcard .cd3-in{box-shadow:none}
@@ -538,3 +537,14 @@ nav{grid-template-columns:repeat(4,1fr)}
 .gp2-lv-note{margin-top:6px;text-align:center;font-size:11.5px;color:#f1d27a;background:#20265aaa;border:1px solid #6b5a2c;border-radius:8px;padding:5px 8px}
 /* ガチャ画面の価格表示の通貨アイコン */
 .gp-price .ico{display:inline-block;width:18px;height:18px;vertical-align:-3px;margin:0 1px}
+
+/* ===== 図鑑：検索・無限スクロール・大きいカード ===== */
+.cd-search{position:relative;margin-bottom:10px}
+.cd-search input{width:100%;padding:11px 40px 11px 14px;border-radius:12px;border:1.5px solid #6b5a2c;background:#0a0f22;color:#f4efe0;font-size:15px;box-sizing:border-box}
+.cd-search input::placeholder{color:#6d7594}
+.cd-search input:focus{outline:none;border-color:#f1d27a;box-shadow:0 0 0 3px #f1d27a22}
+.cd-clear{position:absolute;right:8px;top:50%;transform:translateY(-50%);width:26px;height:26px;border:0;border-radius:50%;background:#20264a;color:#c9cde0;font-size:13px;cursor:pointer}
+.cd-count{font-size:11.5px;color:#8a91aa;margin:0 2px 8px;text-align:right}
+.cd-empty{grid-column:1/-1;padding:40px 10px;text-align:center;color:#6d7594;font-size:14px}
+.cd-g{grid-template-columns:repeat(2,1fr);gap:12px}
+.cd .orn{overflow:visible}
