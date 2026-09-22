@@ -56,4 +56,7 @@ Chromium は `/opt/pw-browsers/chromium` にある（Playwright から `executab
 
 ## 画像
 - **画像の生成は Claude ではできない**。プロンプトを用意し、生成は ChatGPT などに渡す
+- アイコンは**マゼンタ背景**で受け取る（生成AIは透過PNGを安定して出せない）。
+  `ui_images.js` が透過して余白を詰めるので、大きさがそろう。
+  透過済みの画像はそのまま使われる（紫の発光を削らないため）
 - 置き場と命名は SPEC.md §12 と `assets/ui/README.md` のとおり
