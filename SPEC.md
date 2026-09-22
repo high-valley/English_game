@@ -229,6 +229,10 @@
 ---
 
 ## 9. 画面
+- **4画面すべて同じ雰囲気**にそろえる：全画面背景＋半透明パネル（ぼかし）＋透過ヘッダー＋半透明の下タブ
+  - 背景は画面ごとに差し替えられる（`home_bg` / `study_bg` / `gacha_bg` / `cards_bg`）。
+    無い画面は `home_bg` を使う（`ui_images.js` の `BG_FALLBACK`）
+  - 勉強とカードは文字が多いので、背景を強めに暗くして読みやすさを優先する
 - **下のタブ：ホーム／勉強／ガチャ／カード**（復習は削除済み）
 - **ホーム**：ロゴ、キャッチ、現在の学習レベルと進捗、🔒表示、統計、勉強・カードのボタン、ガチャのパネル
 - **勉強**：レベルの切り替え、進捗バー、4択の問題
@@ -266,7 +270,7 @@ English_game/
     ├─ cards/              単語ごとのカード画像（今は apple.webp のみ）
     └─ ui/
         ├─ card_frame.webp / card_frame_common / _uncommon / _epic / _legendary .webp
-        ├─ home_bg.webp / splash_bg.webp / gacha_bg.webp
+        ├─ home_bg.webp / splash_bg.webp / gacha_bg.webp（study_bg / cards_bg は任意）
         ├─ gacha_pack.webp / card_back.webp / magic_circle.webp
         ├─ logo_title.webp / logo_emblem.webp / favicon.png
         ├─ icons/          アイコン（icon_*, stat_*, nav_*。復習のアイコンは削除済み）
@@ -295,6 +299,7 @@ English_game/
 
 ## 12. 画像（ChatGPT に任せる）
 - ガチャの演出用画像は適用済み：`assets/ui/gacha_pack.webp`（パック）、`card_back.webp`（カード裏面）、`magic_circle.webp`（魔法陣）、`gacha_bg.webp`（背景）
+- 勉強・図鑑の専用背景 `study_bg` / `cards_bg` は**任意**（無ければ `home_bg`）。プロンプトは `assets/ui/README.md`
 - カード画像：`card_image_prompts.md`（全500語）。**`tools/gen_card_prompts.py` が `words.js` から作る**ので、直接編集しない
 - 次に作る分は `card_image_next.md`（`tools/gen_next_batch.py` が、レアリティの高い順 → 敵役つきが先の順で切り出す）
 - 作成済み：apple（`card_art.js` の `CARD_IMG_NAMES` に登録済み）。

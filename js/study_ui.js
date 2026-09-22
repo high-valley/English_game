@@ -7,7 +7,7 @@ function study(){
   clearTimeout(STNEXT);S.studyLevel=Math.min(S.studyLevel||1,S.unlockedLevel);const lv=S.studyLevel,w=pickWord(lv,STQ&&STQ.id),pct=levelPercent(lv);
   STQ=w;STLOCK=false;
   $("#main").innerHTML=`<section class="st2"><div class="st2-tabs">${LEVELS.map((r,i)=>{const n=i+1,lock=n>S.unlockedLevel,done=levelPercent(n)>=100;return `<button class="${n===lv?"on":""}${lock?" lock":""}" ${lock?"disabled":`onclick="setStudyLevel(${n})"`}>${lock?"🔒":""}Lv.${n}${done?" ✓":""}</button>`}).join("")}</div>
-  <div class="st2-prog orn"><div class="st2-pt"><b>LEVEL ${lv}</b><span id="st-pct">${pct}%</span></div><div class="st2-bar"><i id="st-bar" style="width:${pct}%"></i></div><small id="st-sub">${progText(lv)}</small></div>
+  <div class="st2-prog orn"><div class="st2-pt"><b>${ico("icon_study","\u{1F4D6}")} LEVEL ${lv}</b><span id="st-pct">${pct}%</span></div><div class="st2-bar"><i id="st-bar" style="width:${pct}%"></i></div><small id="st-sub">${progText(lv)}</small></div>
   <div class="st2-card orn"><div class="st2-hint">この英単語の意味は？</div><div class="st2-q">${w.en}</div><div class="st2-ipa">/${w.pronunciation||""}/ <button onclick="speak('${w.en}')" aria-label="発音">🔊</button></div><div class="st2-m" id="st-m">熟練度 ${dots(w.id)}</div>
   <div class="st2-ans">${makeOptions(w).map(o=>`<button data-v="${encodeURIComponent(o)}" onclick="studyAns(this)">${o}</button>`).join("")}</div><div class="st2-res" id="st-res"></div></div></section>`;save()}
 function studyAns(btn){
