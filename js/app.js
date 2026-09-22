@@ -72,15 +72,28 @@ function miniLockHtml(r){
   const L=miniLayout(F);
   return `<div class="mcard lock r-${r||"COMMON"}"><div class="cd3"><div class="cd3-in imgf"><div class="cd3-art" style="${P(...L.art)}"><b class="mc3-q">?</b></div><img class="cd3-frame" src="${F.url}" alt=""><div class="cd3-plate" style="${P(...L.plate)}"><span style="font-size:8cqw">？？？</span></div></div></div></div>`}
 const mini=w=>S.owned[w.id]?miniHtml(w):miniLockHtml(w.rarity);
-// 検索：英単語に、入力した文字が含まれていれば hit（"ap" は apple にも grape にも hit）。将来、日本語訳も対象に加える
-function matchesQuery(w,q){if(!q)return true;return w.en.toLowerCase().includes(q)}
+/* 検索：英単語と日本語訳の、どちらの部分一致でも hit する
+   例）"ap" → apple / grape / map、"りんご" → apple、"テーブル"・"てーぶる" → table
+   入力はそろえてから比べる（normQ）：
+     ・NFKC で、全角の英数（ａｐ）と半角カタカナ（ｱ）をふつうの字に直す
+     ・カタカナ → ひらがな（「テーブル」でも「てーぶる」でも hit する）
+     ・英字は小文字に
+   ※ かな → 漢字の変換はしない（辞書が必要なため）。「ねこ」では「猫」に hit しない。
+     スマホの入力では、変換を確定した「猫」で検索できる */
+const normQ=s=>String(s||"").normalize("NFKC").replace(/[ァ-ヶ]/g,c=>String.fromCharCode(c.charCodeAt(0)-0x60)).toLowerCase().trim();
+// 検索用の索引。単語ごとに1回だけそろえておく（1文字打つごとに500語×2項目を変換しないため）
+const SEARCH_IX={};WORDS.forEach(w=>{SEARCH_IX[w.id]={en:normQ(w.en),ja:normQ(w.ja)}});
+// 一致した位置（英単語・日本語訳のうち、より前で一致したほう）。一致しなければ -1
+function matchPos(w,q){const x=SEARCH_IX[w.id]||{en:normQ(w.en),ja:normQ(w.ja)},a=x.en.indexOf(q),b=x.ja.indexOf(q);
+  if(a<0&&b<0)return -1;if(a<0)return b;if(b<0)return a;return Math.min(a,b)}
+function matchesQuery(w,q){return !q||matchPos(w,q)>=0}
 // 一致した位置が先頭に近い単語ほど先。同じ位置なら、アルファベット順（例: "ap" → apple, gap, map）
-function sortByQuery(list,q){if(!q)return list;return [...list].sort((a,b)=>{const d=a.en.toLowerCase().indexOf(q)-b.en.toLowerCase().indexOf(q);return d||a.en.localeCompare(b.en)})}
+function sortByQuery(list,q){if(!q)return list;return [...list].sort((a,b)=>matchPos(a,q)-matchPos(b,q)||a.en.localeCompare(b.en))}
 function cards(){
-  const found=ownedCount(),q=(CF.q||"").trim().toLowerCase();
+  const found=ownedCount(),q=normQ(CF.q);
   const list=sortByQuery(WORDS.filter(w=>(CF.r==="ALL"||w.rarity===CF.r)&&matchesQuery(w,q)),q);
   $("#main").innerHTML=`<section class="cd"><div class="cd-top orn"><div class="cd-h">${ico("nav_cards","🃏")}<div><h2>カード図鑑</h2><small>${found}/${WORDS.length}種類を発見</small></div></div>
-  <div class="cd-search"><input id="cd-q" type="text" inputmode="latin" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="英単語で検索（例: ap）" value="${CF.q?CF.q.replace(/"/g,"&quot;"):""}" oninput="cardSearch(this.value)">${CF.q?`<button class="cd-clear" onclick="cardSearch('')" aria-label="クリア">✕</button>`:""}</div>
+  <div class="cd-search"><input id="cd-q" type="search" enterkeyhint="search" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="英単語・日本語で検索（例: ap / りんご）" value="${CF.q?CF.q.replace(/"/g,"&quot;"):""}" oninput="cardSearch(this.value)">${CF.q?`<button class="cd-clear" onclick="cardSearch('')" aria-label="クリア">✕</button>`:""}</div>
   <div class="cd-f">${FIL.map(([k,t])=>`<button class="${CF.r===k?"on":""}" onclick="cardFilter('${k}')">${t}</button>`).join("")}</div></div>
   <div class="cd-count">${list.length}件</div>
   <div class="cd-g">${list.length?list.map(mini).join(""):`<div class="cd-empty">見つかりませんでした</div>`}</div></section>`;
