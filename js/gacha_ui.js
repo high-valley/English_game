@@ -13,14 +13,16 @@ function circleSvg(){
   return `<svg class="mcirc" viewBox="0 0 200 200"><g fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="100" cy="100" r="97"/><circle cx="100" cy="100" r="84" stroke-dasharray="1.5 4"/><circle cx="100" cy="100" r="70"/><circle cx="100" cy="100" r="46" stroke-opacity=".7"/>${t}${p}<path d="M100 40l8 52 52 8-52 8-8 52-8-52-52-8 52-8z" stroke-opacity=".8"/></g></svg>`}
 
 /* ---------- ガチャ画面 ---------- */
+function setGachaLevel(n){if(n>S.unlockedLevel)return;S.gachaLevel=n;save();gacha()}
 function gacha(){
-  GN=Math.min(GN,maxN());const multi=GM==="multi";
-  $("#main").innerHTML=`<section class="gp2"><div class="gp2-head"><h2>ガチャ</h2><p>勉強してコインを貯めてカードを引こう</p></div>
+  GN=Math.min(GN,maxN());const multi=GM==="multi",GL=Math.min(S.gachaLevel||S.unlockedLevel,S.unlockedLevel);
+  $("#main").innerHTML=`<section class="gp2"><div class="gp2-head"><h2>ガチャ</h2><p>排出率を選んでカードを引こう</p></div>
+  <div class="gp2-lv"><div class="gp2-lv-t">排出率のレベル</div><div class="gp2-lvtabs">${LEVELS.map((r,i)=>{const n=i+1,lock=n>S.unlockedLevel;return `<button class="${n===GL?"on":""}${lock?" lock":""}" ${lock?"disabled":`onclick="setGachaLevel(${n})"`}>${lock?"🔒":"Lv."+n}</button>`}).join("")}</div>${GL<S.unlockedLevel?`<div class="gp2-lv-note">Lv.${GL} の排出率を使用中（コモン狙いなどに）</div>`:""}</div>
   <div class="gp2-stage" onclick="pullBtn()"><div class="gx-circle on">${circleSvg()}</div><i class="gp2-glow"></i><img class="gp2-pack" src="${packSrc()}" alt="パック"></div>
   <div class="gp2-panel orn"><div class="gm-tabs"><button class="${multi?"":"on"}" onclick="setGM('one')">1回</button><button class="${multi?"on":""}" onclick="setGM('multi')">まとめて</button></div>
   ${multi?`<div class="gm-box"><div class="gm-step"><button onclick="gnSet(GN-10)">−10</button><button onclick="gnSet(GN-1)">−</button><input id="gn" type="number" inputmode="numeric" min="1" max="${maxN()}" value="${GN}" oninput="gnSet(this.value,1)"><button onclick="gnSet(GN+1)">＋</button><button onclick="gnSet(GN+10)">＋10</button></div><div class="gm-quick"><button onclick="gnSet(10)">10回</button><button onclick="gnSet(50)">50回</button><button onclick="gnSet(999)">最大 ${maxN()}回</button></div></div>`:""}
   <div class="gp-price" id="gp-price"></div>
-  <div class="gp2-rc">現在 Lv.${S.unlockedLevel} の排出率（勉強でレベルを上げると更新）</div><div class="rates-row">${currentRates().map(([r,p])=>`<div class="r-${r}${p?"":" z"}"><i class="gem"></i>${r}<b>${p}%</b></div>`).join("")}</div></div>
+  <div class="gp2-rc">Lv.${GL} の排出率</div><div class="rates-row">${currentRates().map(([r,p])=>`<div class="r-${r}${p?"":" z"}"><i class="gem"></i>${r}<b>${p}%</b></div>`).join("")}</div></div>
   <button class="gold-btn" id="gp-btn" onclick="pullBtn()"></button></section>`;gnLabel();save()}
 function gnLabel(){const n=GM==="multi"?GN:1;$("#gp-price").innerHTML=n===1?`1回 🪙 ${GACHA_COST}コイン`:`${n}回 🪙 ${n*GACHA_COST}コイン<small>　所持 🪙 ${S.coins}</small>`;$("#gp-btn").textContent=`🎁 ${n}回引く`}
 function setGM(m){GM=m;gacha()}

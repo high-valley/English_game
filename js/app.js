@@ -5,12 +5,12 @@ const NAV={home:["🏠","ホーム"],study:["📖","勉強"],gacha:["🎰","ガ�
 let S=JSON.parse(localStorage.wordQuestDemo||"null")||{coins:100,owned:{},mastery:{}};
 // 単語データを入れ替えた（v2）ので、テスト版のカードと熟練度をリセットする。コインと連続学習は引き継ぐ
 if(S.v!==2)S={coins:S.coins==null?100:S.coins,owned:{},mastery:{},streak:S.streak||0,last:S.last||"",v:2};
-S.streak=S.streak||0;S.last=S.last||"";S.unlockedLevel=S.unlockedLevel||1;S.studyLevel=S.studyLevel||1;delete S.xp;
+S.streak=S.streak||0;S.last=S.last||"";S.unlockedLevel=S.unlockedLevel||1;S.studyLevel=S.studyLevel||1;S.gachaLevel=S.gachaLevel||S.unlockedLevel;delete S.xp;
 syncLevels();   // 熟練度から、解放済みのレベルを合わせる
 const $=q=>document.querySelector(q);
 function save(){localStorage.wordQuestDemo=JSON.stringify(S);const e=$("#coins");if(e)e.textContent=S.coins}
 function stars(n){return "★".repeat(n)+"☆".repeat(5-n)}
-function rarity(){const R=GACHA_RATES[S.unlockedLevel]||GACHA_RATES[1];let x=Math.random()*100,s=0;for(const k of LEVELS){s+=R[k];if(x<s)return k}return "COMMON"}
+function rarity(){const R=GACHA_RATES[S.gachaLevel||S.unlockedLevel]||GACHA_RATES[1];let x=Math.random()*100,s=0;for(const k of LEVELS){s+=R[k];if(x<s)return k}return "COMMON"}
 function draw(){let r=rarity(),p=WORDS.filter(w=>w.rarity===r);return p.length?p[Math.floor(Math.random()*p.length)]:WORDS[Math.floor(Math.random()*WORDS.length)]}
 // 単語データにある単語だけを数える（データから消した単語のセーブが残っていても影響しない）
 const ownedCount=()=>WORDS.filter(w=>S.owned[w.id]).length;
