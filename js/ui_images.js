@@ -15,7 +15,7 @@ const LAYOUT={art:[24,22,252,168],star:[12,12,64,64],word:[204,18,78,28],plate:[
 const LAYOUT_IMG={star:[16,13,67,67],word:[214,19,60,24],plate:[58,188,184,33],rar:[204,344,80,44]};
 const LAYOUT_OVERRIDE={};   // 例: {plate:[40,184,220,34],info:[30,230,240,108]}
 function uiFrame(r){return UI_FRAME["card_frame_"+String(r).toLowerCase()]||UI_FRAME.card_frame||null}
-function uiProbe(slot){return new Promise(res=>{let i=0;const ex=["webp","png"],next=()=>{if(i>=ex.length)return res(null);const u=`assets/ui/${slot}.${ex[i++]}`,im=new Image();im.onload=()=>res(u);im.onerror=next;im.src=u};next()})}
+function uiProbe(slot){return new Promise(res=>{let i=0;const ex=["webp","png"],next=()=>{if(i>=ex.length)return res(null);const u=`assets/ui/${slot}.${ex[i++]}?v=${ASSET_V}`,im=new Image();im.onload=()=>res(u);im.onerror=next;im.src=u};next()})}
 function uiKeyFrame(url){return new Promise(res=>{const im=new Image();im.onerror=()=>res(null);im.onload=()=>{try{
   const W=Math.min(900,im.naturalWidth),H=Math.round(W*im.naturalHeight/im.naturalWidth),c=document.createElement("canvas");c.width=W;c.height=H;
   const x=c.getContext("2d");x.drawImage(im,0,0,W,H);const d=x.getImageData(0,0,W,H),p=d.data;
@@ -80,7 +80,7 @@ async function uiSheet(url,names,cols){try{const im=await uiImg(url);if(!im)retu
     cv.getContext("2d").drawImage(k.c,sx,sy,w,h,(side-w)/2,(side-h)/2,w,h);out[names[n]]=await uiBlob(cv)}
   return out}catch(e){console.warn("アイコンシートを処理できませんでした",e);return{}}}
 const UI_SHEETS=[["icons/sheet_main",["icon_study","icon_cards","icon_gacha","icon_coin","icon_gear"],3],["icons/sheet_small",["stat_words","stat_ok","stat_streak","nav_home","nav_study","nav_gacha","nav_cards"],4]];
-function uiProbeSheet(slot){return new Promise(res=>{const u=`assets/ui/${slot}.png`,im=new Image();im.onload=()=>res(u);im.onerror=()=>res(null);im.src=u})}
+function uiProbeSheet(slot){return new Promise(res=>{const u=`assets/ui/${slot}.png?v=${ASSET_V}`,im=new Image();im.onload=()=>res(u);im.onerror=()=>res(null);im.src=u})}
 async function uiInit(cb){   // 背景・アイコンを先に反映（cb）し、そのあと枠画像を処理する
   const found=(await Promise.all(UI_SLOTS.map(async s=>[s,await uiProbe(s)]))).filter(f=>f[1]);
   // アイコン（個別ファイル）。マゼンタ背景なら透過して余白を詰める。透過済みの画像はそのまま使う
@@ -101,5 +101,5 @@ const bgScene=slot=>{if(!UI_READY)return "";const x=UI[slot]||UI[BG_FALLBACK[slo
 // アイコン画像（assets/ui/icons/名前.png）。無ければ絵文字
 const UI_ICONS=["icon_study","icon_cards","icon_gacha","icon_coin","icon_gear","stat_words","stat_ok","stat_streak","nav_home","nav_study","nav_gacha","nav_cards"];
 const UI_ICO={};
-function uiProbeIcon(n){return new Promise(res=>{const u=`assets/ui/icons/${n}.png`,im=new Image();im.onload=()=>res(u);im.onerror=()=>res(null);im.src=u})}
+function uiProbeIcon(n){return new Promise(res=>{const u=`assets/ui/icons/${n}.png?v=${ASSET_V}`,im=new Image();im.onload=()=>res(u);im.onerror=()=>res(null);im.src=u})}
 const ico=(slot,emoji,cls="")=>UI_ICO[slot]?`<img class="ico ${cls}" src="${UI_ICO[slot]}" alt="">`:`<span class="ico-e ${cls}">${emoji}</span>`;
