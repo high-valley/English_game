@@ -19,9 +19,11 @@
 | `favicon.png` | ブラウザのタブのアイコン（`index.html` から読み込み） | 192x192 |
 
 ## カード枠の作り方
-1. `_layout_guide.png`（文字なし）を、画像生成AIに参考画像として渡す。`_layout_labeled.png` は人が見る用（AIには渡さない）。
+レイアウトのガイド画像（`_layout_guide.png` / `_layout_labeled.png`）は、枠が完成したので削除しました。作り直す時は、今の `card_frame.webp`（RARE の枠）を参考画像として渡してください。
+
+1. 今の `card_frame.webp` を、画像生成AIに参考画像として渡す。
 2. 「絵の窓」は**純マゼンタ #FF00FF のベタ塗り**にしてもらう。ゲームが自動で透明にして、窓の位置も検出します。
-3. 名前プレート・情報パネル・Lv バー・バッジの位置は、ガイドと同じ場所に「空の飾り枠」として作ってもらう。ずれる場合は `js/ui_images.js` の `LAYOUT_OVERRIDE` で微調整できます。
+3. 名前プレート・情報パネル・Lv バー・バッジの位置は、参考画像と同じ場所に「空の飾り枠」として作ってもらう。ずれる場合は `js/ui_images.js` の `LAYOUT_OVERRIDE` で微調整できます。
 
 プロンプト例:
 ```
@@ -37,7 +39,7 @@ symmetrical, highly detailed, front view
 - 枠はカードの縁ぎりぎりでトリミングしてください（外側に余白があるとずれます）。
 - 枠の処理は、公開URL（GitHub Pages など）で動きます。パソコン内の `file://` で開いた場合は、セキュリティ制限で枠画像が使われません。
 - 画像を差し替えたら、ブラウザを再読み込み（キャッシュ更新）してください。
-- `_layout_*.png` は不要になったら削除して構いません。
+- 枠を差し替える時は、今の `card_frame*.webp` を参考画像として渡すと、レア度別の5枚を揃えやすいです。
 
 ## home_bg（ホーム画面の全画面背景）
 - ホームの背景一面に使います。**縦長 9:16（例 1080x1920）** がおすすめです（端は少し切れます）。
@@ -58,12 +60,12 @@ no text, no letters, no characters, no UI
 
 | ファイル名 | 用途 |
 |---|---|
-| `icon_study` `icon_cards` `icon_review` | ホームの3つのボタン（推奨 約 200x200） |
+| `icon_study` `icon_cards` | ホームの2つのボタン（推奨 約 200x200） |
 | `icon_gacha` | ホームのガチャパネルのパック画像（推奨 約 500x430、縁は透明にぼかす） |
 | `icon_coin` | コイン（ヘッダー・価格表示） |
 | `icon_gear` | 設定ボタン |
 | `stat_words` `stat_ok` `stat_streak` | 統計（総単語数・覚えた・連続学習） |
-| `nav_home` `nav_study` `nav_gacha` `nav_cards` `nav_review` | 下のタブ（推奨 約 120x120） |
+| `nav_home` `nav_study` `nav_gacha` `nav_cards` | 下のタブ（4つ。推奨 約 120x120） |
 
 現在入っているアイコンは、参考にしてくれたホーム画面の画像から切り出したものです。
 
@@ -73,19 +75,19 @@ no text, no letters, no characters, no UI
 
 | ファイル名 | 並び順（左→右、上→下） |
 |---|---|
-| `icons/sheet_main.png`（3列×2行） | 勉強(開いた本) / カード(トランプ) / 復習(頭と脳) / ガチャ(カードパック) / コイン / 設定(歯車) |
-| `icons/sheet_small.png`（4列×2行） | 総単語数(本) / 覚えた(チェック) / 連続学習(炎) / ホーム(家) / 勉強(本) / ガチャ(羅針盤) / カード(トランプ) / 復習(脳) |
+| `icons/sheet_main.png`（3列×2行、5個） | 勉強(開いた本) / カード(トランプ) / ガチャ(カードパック) / コイン / 設定(歯車) |
+| `icons/sheet_small.png`（4列×2行、7個） | 総単語数(本) / 覚えた(チェック) / 連続学習(炎) / ホーム(家) / 勉強(本) / ガチャ(羅針盤) / カード(トランプ) |
 
 プロンプト例（sheet_main）:
 ```
-a set of exactly 6 glowing fantasy game UI icons arranged in a grid of 3 columns and 2 rows,
-in this order: an open magic book, a fan of playing cards, a human head silhouette with a brain,
+a set of exactly 5 glowing fantasy game UI icons arranged in a grid of 3 columns and 2 rows,
+in this order: an open magic book, a fan of playing cards,
 a glowing card pack booklet with a compass star, a gold coin, a gear,
 gold and blue palette with soft glow, each icon separate with wide empty gaps between them,
 flat pure magenta #FF00FF background, no text, no labels, no numbers, no shadows on the background
 ```
-sheet_small は「6」→「8」、「3 columns and 2 rows」→「4 columns and 2 rows」に変え、
-`a book with sparkles, a check mark in a circle, a flame, a house, an open book, a compass, playing cards, a brain`
+sheet_small は「5」→「7」、「3 columns and 2 rows」→「4 columns and 2 rows」に変え、
+`a book with sparkles, a check mark in a circle, a flame, a house, an open book, a compass, playing cards`
 の順にして、「thin gold and blue line-art style, small simple icons」を足します。
 
 ※ 数が合わないとコンソールに警告が出て、シートは使われません（間隔を広げて作り直してください）。

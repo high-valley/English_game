@@ -14,8 +14,12 @@
 - COMMON・UNCOMMON は数が多いので、まず数語だけ作り、絵柄を確認してから増やすのがおすすめです
 
 ## 作成済みの画像
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この4語は、絵文字ではなく画像で表示されます）。
+
 - apple（COMMON。青空の下で、りんごをかじる騎士）
-- cat
+- book（COMMON。大きな本を読む少女）
+- cat（COMMON。石壁の上で眠る黒猫）
+- water（COMMON。泉の冷たい水を飲む旅人）
 
 
 

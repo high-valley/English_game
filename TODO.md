@@ -1,21 +1,24 @@
 # WORD GRIMOIRE ― 次にやるタスク
 
 ## 次のタスク（優先順）
-2. **カード画像の作成**（`card_image_prompts.md`、500語ぶん）。まず高レア（EPIC・LEGENDARY）から
-3. アイコンの作り直し
-4. 将来：レベルごとのコイン増（`LEVEL_COIN`）、問題形式の追加
+1. **カード画像の作成**（`card_image_prompts.md`、500語ぶん）。まず高レア（EPIC・LEGENDARY）から
+2. アイコンの作り直し
+3. 将来：レベルごとのコイン増（`LEVEL_COIN`）、問題形式の追加
 
 ## 候補（今後）
-- 題名を「WORD GRIMOIRE」に変えたので、パック画像（`assets/pack.svg`）などに残っている「WORD QUEST」の文字を差し替える
-- ガチャ画面・開封演出・起動画面の背景画像（`gacha_bg` / `splash_bg`）
-- 勉強・復習・ガチャ画面を、ホームと同じ雰囲気（背景・パネル・アイコン）に揃える
-- 単語ごとの画像（`card_image_prompts.md` のプロンプトで作成、100語）
+- 勉強・ガチャ画面を、ホームと同じ雰囲気（背景・パネル・アイコン）に揃える
+- 日本語訳でも図鑑を検索できるようにする（今は英単語の部分一致のみ）
 
 ## 手元の作業（画像を用意する）
-- ホーム背景 `home_bg`（縦長 9:16。プロンプトは `assets/ui/README.md`）を生成して置く（今は簡易イラストの代わり）
-- アイコンをAIで作り直す場合は `assets/ui/icons/sheet_main.png` / `sheet_small.png`
+- カード画像を増やす（`card_image_prompts.md` のプロンプト。`assets/cards/単語.webp` に置き、`js/card_art.js` の `CARD_IMG_NAMES` に名前を追加）
+- アイコンをAIで作り直す場合は `assets/ui/icons/sheet_main.png`（3列×2行、5個）/ `sheet_small.png`（4列×2行、7個）
 
 ## 完了済み
+- リポジトリをSPEC.md（§10）に合わせて整理：復習のアイコン（`icon_review.png` / `nav_review.png`）と重複していた `js/gacha_prompts.md`、古い構成メモ `Directly.md` を削除。`assets/ui/README.md` と `icon_prompts.md` から復習の記載を削除
+- `assets/cards/` に入っていた book / water の画像を `CARD_IMG_NAMES` に登録（apple / book / cat / water の4語が画像表示に）
+- パック画像（`assets/pack.svg`）に残っていた「WORD QUEST」の文字を「WORD GRIMOIRE」に差し替え
+- ガチャ画面・開封演出・起動画面の背景画像（`gacha_bg` / `splash_bg`）を適用
+- ホーム背景 `home_bg`（縦長 9:16）を適用
 - 図鑑の改善：ページ送りを廃止して全件スクロールに、カードを大きく（2列）、英単語の部分一致検索を追加
 - ガチャの演出用画像を適用（パック、カード裏面、魔法陣、ガチャ画面の背景）
 - レアリティ別のカード枠（COMMON 銀、UNCOMMON 緑、RARE 青、EPIC 紫、LEGENDARY 赤×金）と、図鑑・結果一覧の小カードの新デザイン（枠つき。3列）

@@ -190,12 +190,12 @@
 
 ## 8. セーブデータ（localStorage、キー `wordQuestDemo` は継続）
 ```
-{ coins, owned:{id:枚数}, mastery:{id:0〜5}, unlockedLevel:1〜5, studyLevel, allClear, streak, last, v:2 }
+{ coins, owned:{id:枚数}, mastery:{id:0〜5}, unlockedLevel:1〜5, studyLevel, gachaLevel, allClear, streak, last, v:2 }
 ```
 - レベルの進捗率は、`mastery` から計算する（保存しない）
 - `unlockedLevel`：到達した最高レベル。増えるだけ。起動時にも、熟練度から合わせ直す
 - 「クリア済み」：進捗率が100%のレベル
-- `studyLevel`：最後に選んだ勉強のレベル、`allClear`：全レベルクリアの表示済みフラグ
+- `studyLevel`：最後に選んだ勉強のレベル、`gachaLevel`：最後に選んだガチャの排出率レベル（§5）、`allClear`：全レベルクリアの表示済みフラグ
 - IDの考え方は §6。単語を消してもセーブが壊れない
 - 単語を入れ替えたとき（v2）に、カードと熟練度をリセットした（テスト版のため）
 - 旧XPランクは廃止した（`xp` は削除）
@@ -217,12 +217,12 @@ English_game/
 ├─ index.html
 ├─ SPEC.md                 この仕様書
 ├─ TODO.md                 次のタスク
-├─ card_image_prompts.md   カード画像のプロンプト（100語）
+├─ card_image_prompts.md   カード画像のプロンプト（500語ぶん）
 ├─ css/
 │   ├─ style.css           元のスタイル（リポジトリ側にある）
 │   └─ upgrade.css         追加・上書きのスタイル
 ├─ js/
-│   ├─ words.js            単語データ（100語、IDのルールを先頭に記載）
+│   ├─ words.js            単語データ（500語、IDのルールを先頭に記載）
 │   ├─ config.js           設定（レベル、ガチャ確率、コイン、クリア条件）
 │   ├─ game.js             ゲームのルール（進捗、解放、出題）。画面に依存しない
 │   ├─ app.js              ホーム・カード図鑑・セーブ・画面切り替え
@@ -231,16 +231,18 @@ English_game/
 │   ├─ card_art.js         カード画像の対応、SVGイラスト、背景
 │   └─ ui_images.js        assets/ui の画像の自動読み込み
 └─ assets/
-    ├─ pack.svg / card_back.svg   （リポジトリ側にある。差し替え予定）
-    ├─ cards/              単語ごとのカード画像（apple.webp, cat.webp）
+    ├─ pack.svg / card_back.svg   （画像が無い時の予備。今は gacha_pack / card_back の画像を使う）
+    ├─ cards/              単語ごとのカード画像（apple / book / cat / water .webp）
     └─ ui/
-        ├─ card_frame.webp / home_bg.webp / logo_title.webp / logo_emblem.webp / favicon.png
-        ├─ icons/          アイコン（icon_*, stat_*, nav_*）
+        ├─ card_frame.webp / card_frame_common / _uncommon / _epic / _legendary .webp
+        ├─ home_bg.webp / splash_bg.webp / gacha_bg.webp
+        ├─ gacha_pack.webp / card_back.webp / magic_circle.webp
+        ├─ logo_title.webp / logo_emblem.webp / favicon.png
+        ├─ icons/          アイコン（icon_*, stat_*, nav_*。復習のアイコンは削除済み）
         ├─ README.md       画像の置き方
-        ├─ gacha_prompts.md / icon_prompts.md   画像のプロンプト
-        └─ _layout_guide.png / _layout_labeled.png   枠づくりのガイド
+        └─ gacha_prompts.md / icon_prompts.md   画像のプロンプト
 ```
-- リポジトリから消すファイル：`assets/cards/abandon.jpg`、`assets/ui/icons/icon_review.png`、`assets/ui/icons/nav_review.png`
+- 消したファイル（対応済み）：`assets/cards/abandon.jpg`、`assets/ui/icons/icon_review.png`、`assets/ui/icons/nav_review.png`、`js/gacha_prompts.md`（`assets/ui/` と重複）、`Directly.md`（この§10に統合）、`assets/ui/_layout_guide.png` / `_layout_labeled.png`（枠が完成したため）
 
 ---
 
@@ -262,7 +264,7 @@ English_game/
 
 ## 12. 画像（ChatGPT に任せる）
 - ガチャの演出用画像は適用済み：`assets/ui/gacha_pack.webp`（パック）、`card_back.webp`（カード裏面）、`magic_circle.webp`（魔法陣）、`gacha_bg.webp`（背景）
-- カード画像：`card_image_prompts.md`（100語）
+- カード画像：`card_image_prompts.md`（500語ぶん）。作成済み：apple / book / cat / water（`card_art.js` の `CARD_IMG_NAMES` に登録済み）
 - ガチャ・背景・パック・カード裏面：`assets/ui/gacha_prompts.md`
 - アイコン：`assets/ui/icon_prompts.md`
 - カード枠：`assets/ui/README.md`
