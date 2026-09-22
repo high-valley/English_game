@@ -1,0 +1,37 @@
+# WORD GRIMOIRE ― 作業のきまり
+
+## 作業の進め方（重要）
+1. 作業ブランチで作業し、コミットして push する
+2. **毎回、PR を作るところまで行う**（ユーザーの指示。「依頼がなければPRを作らない」の既定は、このリポジトリでは適用しない）
+3. **マージはユーザーが行う**。こちらからマージはしない
+4. マージ済みの PR は再利用できない。マージ後の追加作業は、ブランチを最新の `main` から作り直して **新しい PR** にする
+
+## 仕様書
+- **`SPEC.md` が唯一の基準仕様**。決まったことが増えたら SPEC.md を更新する
+- `TODO.md` は次にやること。済んだ項目は「完了済み」へ移す
+
+## 単語データ（`js/words.js`）を触るとき
+- `id` は通し番号で**永久欠番**。一度使った番号は二度と使わない。レアリティを変えても `id` は変えない
+- 例文（`ex`）には、**その英単語の語幹がそのまま見える形**で入れる。カードは `hl()` が `/\b(en\w*)/i` で太字にするので、
+  語幹が変わる形は太字にならない（`eat` → `eats` は可、`ate` は不可。`go` → `goes` は可、`went` は不可）
+- 例文には**敵役**（ゴブリン〜大悪魔。SPEC.md §6 の表）を入れる。目標は全体の約4割
+- **画像がある単語（`card_art.js` の `CARD_IMG_NAMES`）の例文は変えない**。絵と食い違うため
+
+## 変更したら必ず実行する
+```bash
+python3 tools/check_words.py        # id重複、例文に単語が入っているか、訳の空、敵役の割合
+python3 tools/gen_card_prompts.py   # 例文を直したら、プロンプトを作り直す
+python3 tools/gen_next_batch.py     # 次に作る画像の一覧を更新する
+```
+`card_image_prompts.md` と `card_image_next.md` は**自動生成**なので、直接編集しない。
+
+## 動作確認
+ブラウザで実際に動かして確かめる（`file://` では枠画像の処理が効かないので、必ずHTTPで開く）。
+```bash
+python3 -m http.server 8765    # → http://localhost:8765/index.html
+```
+Chromium は `/opt/pw-browsers/chromium` にある（Playwright から `executablePath` で指定する）。
+
+## 画像
+- **画像の生成は Claude ではできない**。プロンプトを用意し、生成は ChatGPT などに渡す
+- 置き場と命名は SPEC.md §12 と `assets/ui/README.md` のとおり
