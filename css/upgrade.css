@@ -83,7 +83,7 @@ main{padding:6px 12px 40px}
 .cd-h{display:flex;align-items:center;gap:10px;margin-bottom:10px;font-size:26px}
 .cd-h h2{margin:0;font-size:19px;color:#f4d477}.cd-h small{color:#9aa1b8;font-size:12px}
 .cd-f{display:flex;gap:6px;overflow-x:auto;padding-bottom:8px;margin-bottom:6px}
-.cd-f button{flex:none;padding:6px 12px;border-radius:8px;border:1px solid #33395a;background:#131933;color:#c7c9d4;font-size:12px}
+.cd-f button{flex:none;padding:6px 12px;border-radius:8px;border:1px solid #4a5480;background:rgba(19,25,51,.75);color:#c7c9d4;font-size:12px}
 .cd-f .on{border-color:#e0b850;color:#ffe08a;background:#241f3d}
 .cd-g{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
 .mc{aspect-ratio:3/4;padding:4px;border-radius:10px;border:2px solid var(--rc,#2a3048);background:linear-gradient(#171d38,#0a0e1c);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;font-size:11px;font-weight:800;overflow:hidden}
@@ -169,8 +169,12 @@ nav button.on{border:2px solid #f1d27a;background:linear-gradient(#3a3163,#1a1d3
 .hm-btn:active{transform:translateY(2px)}
 
 /* 図鑑 */
-.cd.orn{--pb:linear-gradient(#111834,#080b1a);border-radius:16px;padding:18px 14px}
+.cd{padding:0;border:0;border-radius:0;background:none}   /* 外枠は無くし、背景が見えるようにする */
+.cd-top.orn{--pb:rgba(5,9,30,.8);border-radius:16px;padding:14px 14px 8px;margin-bottom:10px;backdrop-filter:blur(3px)}
+.cd-top .cd-f{margin-bottom:0}
+.cd-count{text-shadow:0 1px 4px #000}
 .cd-h .ic{font-size:24px}
+.cd-h .ico{width:34px;height:34px;flex:none}.cd-h .ico-e{font-size:24px}
 .mc{border-width:2px;box-shadow:inset 0 0 12px #000a}
 .mc .cart{border-radius:5px}
 .mc-art .cart,.mc-art .mc-img{width:100%;height:100%;object-fit:cover}
@@ -313,13 +317,15 @@ img.scene{object-fit:cover}
 header,main,nav{position:relative;z-index:1}
 nav{order:3;position:sticky;bottom:8px;margin:8px 12px 10px;z-index:6;background:linear-gradient(#0d1330ee,#070a1eee)}
 main{flex:1}
-#bg{position:absolute;inset:0;z-index:0;display:none;pointer-events:none;overflow:hidden}
-.is-home #bg{display:block}
+#bg{position:absolute;inset:0;z-index:0;display:block;pointer-events:none;overflow:hidden}
 #bg:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#0000 32%,#050818aa 62%,#050818ee)}
-.is-home header{background:transparent;border-bottom:0;box-shadow:none}
-.is-home .logo{visibility:hidden}
-.is-home nav{background:rgba(6,10,32,.72);backdrop-filter:blur(6px)}
-.is-home main{padding-top:0}
+/* ここから下は全画面で共通（ホーム・勉強・ガチャ・カードを同じ雰囲気に揃える） */
+header{background:transparent;border-bottom:0;box-shadow:none}
+nav{background:rgba(6,10,32,.72);backdrop-filter:blur(6px)}
+main{padding-top:0}
+.is-home .logo{visibility:hidden}   /* ホームは中央に大きなロゴが出るので、ヘッダーのロゴは隠す */
+/* 勉強とカードは文字が多いので、背景を強めに暗くして読みやすさを優先する */
+.is-study #bg:after,.is-cards #bg:after{background:linear-gradient(180deg,#0508189e,#050818d9 55%,#050818ef)}
 .hd-r{display:flex;align-items:center;gap:8px}
 .coins .ci img{width:22px;height:22px;vertical-align:middle;margin-top:-3px}
 #gear{width:38px;height:38px;padding:0;border:1.5px solid #b8902f;border-radius:10px;background:#0c1128cc;color:#c9cde0;font-size:19px;display:grid;place-items:center;cursor:pointer}
@@ -382,11 +388,7 @@ img.scene{animation:sceneIn .6s ease-out both}
 .sp-title{font-size:38px}
 
 /* ===== ガチャ画面 v2 ===== */
-.is-home #bg,.is-gacha #bg{display:block}
 .is-gacha #bg:after{background:linear-gradient(180deg,#050818cc,#050818ee)}
-.is-gacha header{background:transparent;border-bottom:0;box-shadow:none}
-.is-gacha nav{background:rgba(6,10,32,.72);backdrop-filter:blur(6px)}
-.is-gacha main{padding-top:0}
 .gp2{display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center}
 .gp2-head h2{margin:0;font:900 30px Georgia,"Hiragino Mincho ProN",serif;letter-spacing:6px;background:linear-gradient(#fff6c8,#e5b84a 60%,#9a6c1a);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 2px 8px #000)}
 .gp2-head p{margin:4px 0 0;font-size:13px;color:#c8d0ec;text-shadow:0 1px 6px #000}
@@ -476,21 +478,23 @@ nav{grid-template-columns:repeat(4,1fr)}
 /* ===== 勉強（レベル制） ===== */
 .st2{display:flex;flex-direction:column;gap:12px}
 .st2-tabs{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
-.st2-tabs button{padding:9px 0;border-radius:10px;border:1px solid #33395a;background:#10162b;color:#c9cde0;font:800 12px Georgia,serif}
+.st2-tabs button{padding:9px 0;border-radius:10px;border:1px solid #4a5480;background:rgba(10,15,34,.72);color:#c9cde0;font:800 12px Georgia,serif;backdrop-filter:blur(3px)}
 .st2-tabs .on{border:2px solid #f1d27a;background:linear-gradient(#3a3163,#1a1d3d);color:#ffe08a;box-shadow:0 0 10px #f1d27a44}
 .st2-tabs .lock{opacity:.45}
-.st2-prog.orn{--pb:rgba(5,9,30,.85);border-radius:14px;padding:14px 16px}
-.st2-pt{display:flex;justify-content:space-between;align-items:baseline;font:900 17px Georgia,serif;color:#f4d477}
+.st2-prog.orn{--pb:rgba(5,9,30,.82);border-radius:14px;padding:14px 16px;backdrop-filter:blur(3px)}
+.st2-pt{display:flex;justify-content:space-between;align-items:center;font:900 17px Georgia,serif;color:#f4d477}
+.st2-pt b{display:flex;align-items:center;gap:7px}
+.st2-pt .ico{width:22px;height:22px}
 .st2-bar{height:10px;border-radius:99px;background:#1a2148;border:1px solid #6b5a2c;overflow:hidden;margin:8px 0 6px}
 .st2-bar i{display:block;height:100%;background:linear-gradient(90deg,#9b7730,#f2d47a);transition:width .5s}
 .st2-prog small{color:#9aa1b8;font-size:12px}
-.st2-card.orn{--pb:linear-gradient(#141a36,#0a0e22);border-radius:16px;padding:20px 14px 16px;text-align:center}
+.st2-card.orn{--pb:rgba(5,9,30,.82);border-radius:16px;padding:20px 14px 16px;text-align:center;backdrop-filter:blur(3px)}
 .st2-hint{color:#9aa1b8;font-size:13px}
 .st2-q{font:900 44px Georgia,serif;color:#fff;margin:6px 0 2px;text-shadow:0 0 18px #4a7bff66}
 .st2-ipa{color:#c9a24a;font-size:15px}.st2-ipa button{background:none;border:0;font-size:18px;padding:0 4px}
 .st2-m{margin:4px 0 14px;font-size:12px;color:#9aa1b8;letter-spacing:2px}
 .st2-ans{display:grid;gap:10px}
-.st2-ans button{padding:15px;border-radius:12px;border:1px solid #363d58;background:#1a2032;color:#fff;font-weight:800;font-size:17px}
+.st2-ans button{padding:15px;border-radius:12px;border:1px solid #5a6490;background:rgba(24,31,58,.8);color:#fff;font-weight:800;font-size:17px}
 .st2-ans button:disabled{opacity:1}
 .st2-ans button.ok{background:linear-gradient(#1f6b46,#12432c);border-color:#3ecf7a}
 .st2-ans button.ng{background:linear-gradient(#7a2b3a,#4a1520);border-color:#ff7a8a}
@@ -540,7 +544,7 @@ nav{grid-template-columns:repeat(4,1fr)}
 
 /* ===== 図鑑：検索・無限スクロール・大きいカード ===== */
 .cd-search{position:relative;margin-bottom:10px}
-.cd-search input{width:100%;padding:11px 40px 11px 14px;border-radius:12px;border:1.5px solid #6b5a2c;background:#0a0f22;color:#f4efe0;font-size:15px;box-sizing:border-box}
+.cd-search input{width:100%;padding:11px 40px 11px 14px;border-radius:12px;border:1.5px solid #6b5a2c;background:rgba(10,15,34,.8);color:#f4efe0;font-size:15px;box-sizing:border-box}
 .cd-search input::placeholder{color:#6d7594}
 .cd-search input:focus{outline:none;border-color:#f1d27a;box-shadow:0 0 0 3px #f1d27a22}
 .cd-clear{position:absolute;right:8px;top:50%;transform:translateY(-50%);width:26px;height:26px;border:0;border-radius:50%;background:#20264a;color:#c9cde0;font-size:13px;cursor:pointer}

@@ -10,6 +10,8 @@
 | `home_bg` | ホーム上部の大きな絵 | 1200x600 程度（横長） |
 | `splash_bg` | 起動画面の背景 | 900x1600（縦長） |
 | `gacha_bg` | ガチャ画面と開封演出の背景 | 900x1600（縦長） |
+| `study_bg` | 勉強画面の背景（省略可。無ければ `home_bg`） | 1080x1920（縦長 9:16） |
+| `cards_bg` | カード図鑑の背景（省略可。無ければ `home_bg`） | 1080x1920（縦長 9:16） |
 | `app_bg` | 全画面の背景 | 900x1600（縦長） |
 | `gacha_pack` | ガチャのパック（透過。詳細は `gacha_prompts.md`） | 縦長 2:3 |
 | `card_back` | カード裏面（透過） | 縦長 3:4 |
@@ -53,6 +55,32 @@ calm reflective lake in the lower part, dark silhouetted trees framing the sides
 painterly, highly detailed, vertical 9:16 composition,
 the upper left and the lower half kept calm and darker for UI overlay,
 no text, no letters, no characters, no UI
+```
+
+## study_bg / cards_bg（勉強・カード図鑑の背景）
+置かなくても動きます（`home_bg` が使われます）。専用の絵にすると、画面ごとの気分が変わります。
+
+- **縦長 9:16（1080x1920）**。`home_bg` と同じ世界・同じ色調にすると、画面を移動しても違和感がありません
+- どちらも**文字とパネルが重なる**ので、**中央から下は暗め・静か**にしてもらいます
+- 勉強は画面の上半分にレベルのパネル、中央に大きな問題パネルが載ります
+- 図鑑は上に検索パネル、その下いっぱいにカードが並びます
+
+`study_bg` のプロンプト例:
+```
+epic fantasy library interior at night, towering bookshelves of an ancient wizard academy,
+floating glowing books and runes drifting in the air, tall gothic windows with moonlight,
+deep blue and purple palette with warm gold candlelight, painterly, highly detailed,
+vertical 9:16 composition, the center and lower half kept dark, calm and simple for UI overlay,
+no text, no letters, no characters, no UI
+```
+
+`cards_bg` のプロンプト例:
+```
+epic fantasy treasury vault at night, a vast stone hall of an ancient grimoire archive,
+glowing crystals and gold ornaments on the walls, soft magical dust in the air,
+deep navy and purple palette with gold accents, painterly, highly detailed,
+vertical 9:16 composition, kept dark and uncluttered overall so cards placed on top stay readable,
+no text, no letters, no characters, no UI, no cards
 ```
 
 ## アイコン画像（assets/ui/icons/）

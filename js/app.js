@@ -79,9 +79,9 @@ function sortByQuery(list,q){if(!q)return list;return [...list].sort((a,b)=>{con
 function cards(){
   const found=ownedCount(),q=(CF.q||"").trim().toLowerCase();
   const list=sortByQuery(WORDS.filter(w=>(CF.r==="ALL"||w.rarity===CF.r)&&matchesQuery(w,q)),q);
-  $("#main").innerHTML=`<section class="cd orn"><div class="cd-h">🃏<div><h2>カード図鑑</h2><small>${found}/${WORDS.length}種類を発見</small></div></div>
+  $("#main").innerHTML=`<section class="cd"><div class="cd-top orn"><div class="cd-h">${ico("nav_cards","🃏")}<div><h2>カード図鑑</h2><small>${found}/${WORDS.length}種類を発見</small></div></div>
   <div class="cd-search"><input id="cd-q" type="text" inputmode="latin" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="英単語で検索（例: ap）" value="${CF.q?CF.q.replace(/"/g,"&quot;"):""}" oninput="cardSearch(this.value)">${CF.q?`<button class="cd-clear" onclick="cardSearch('')" aria-label="クリア">✕</button>`:""}</div>
-  <div class="cd-f">${FIL.map(([k,t])=>`<button class="${CF.r===k?"on":""}" onclick="cardFilter('${k}')">${t}</button>`).join("")}</div>
+  <div class="cd-f">${FIL.map(([k,t])=>`<button class="${CF.r===k?"on":""}" onclick="cardFilter('${k}')">${t}</button>`).join("")}</div></div>
   <div class="cd-count">${list.length}件</div>
   <div class="cd-g">${list.length?list.map(mini).join(""):`<div class="cd-empty">見つかりませんでした</div>`}</div></section>`;
   const iq=$("#cd-q");if(iq&&document.activeElement!==iq){}
@@ -99,11 +99,13 @@ function cardDetail(id){
 /* 画面切り替え・起動 */
 let CUR="home";
 function applyUI(){buildNav();const ci=$(".coins .ci");if(ci)ci.innerHTML=ico("icon_coin","🪙");const gi=$("#gear");if(gi&&UI_ICO.icon_gear)gi.innerHTML=ico("icon_gear","⚙");const hl=$("#hdLogo");if(hl&&UI.logo_title&&!hl.querySelector("img"))hl.innerHTML=`<img src="${UI.logo_title}" alt="WORD GRIMOIRE">`;const ap=$(".app");if(UI.app_bg&&ap)ap.style.background=`linear-gradient(#0d1230cc,#060812ee),url('${UI.app_bg}') center top/cover fixed`;const sp=$(".sp");if(sp)sp.innerHTML=splashInner()}
-function setBg(p){let b=$("#bg");if(!b){b=document.createElement("div");b.id="bg";$(".app").prepend(b)}const s=p==="home"?"home_bg":p==="gacha"?(UI.gacha_bg?"gacha_bg":"home_bg"):"";b.innerHTML=s?bgScene(s):""}
+const PAGE_BG={home:"home_bg",study:"study_bg",gacha:"gacha_bg",cards:"cards_bg"};   // 画面ごとの背景。無い分は home_bg に落ちる（ui_images.js の BG_FALLBACK）
+function setBg(p){let b=$("#bg");if(!b){b=document.createElement("div");b.id="bg";$(".app").prepend(b)}b.innerHTML=bgScene(PAGE_BG[p]||"home_bg")}
 function buildNav(){document.querySelectorAll("nav button").forEach(b=>{const p=b.dataset.p,[e,t]=NAV[p];b.innerHTML=`<i>${ico("nav_"+p,e)}</i>${t}`})}
 function openSettings(){const d=document.createElement("div");d.className="sheet";d.onclick=e=>{if(e.target===d)d.remove()};
   d.innerHTML=`<div class="sheet-in"><h3 style="margin:0 0 12px;color:#f4d477;font-family:Georgia,serif">設定</h3><div class="sd-ex">コイン ${S.coins}　／　カード ${ownedCount()}種類　／　連続学習 ${streakNow()}日</div><button class="gold-btn" style="margin-bottom:10px" onclick="this.closest('.sheet').remove()">閉じる</button><button class="hm2-reset" onclick="if(confirm('セーブデータをすべて消します。よろしいですか？')){localStorage.removeItem('wordQuestDemo');location.reload()}">セーブデータをリセット</button></div>`;document.body.appendChild(d)}
-function showPage(p){clearTimeout(STNEXT);CUR=p;document.body.classList.toggle("is-home",p==="home");document.body.classList.toggle("is-gacha",p==="gacha");setBg(p);document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x.dataset.p===p));({home,study,gacha,cards})[p]();window.scrollTo(0,0)}
+const PAGES=["home","study","gacha","cards"];
+function showPage(p){clearTimeout(STNEXT);CUR=p;PAGES.forEach(x=>document.body.classList.toggle("is-"+x,x===p));setBg(p);document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x.dataset.p===p));({home,study,gacha,cards})[p]();window.scrollTo(0,0)}
 buildNav();document.querySelectorAll("nav button").forEach(b=>b.addEventListener("click",()=>showPage(b.dataset.p)));
 const gear=$("#gear");if(gear)gear.onclick=openSettings;
 showPage("home");
