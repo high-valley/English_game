@@ -29,6 +29,7 @@
 - リポジトリをSPEC.md（§10）に合わせて整理：復習のアイコン（`icon_review.png` / `nav_review.png`）と重複していた `js/gacha_prompts.md`、古い構成メモ `Directly.md` を削除。`assets/ui/README.md` と `icon_prompts.md` から復習の記載を削除
 - `assets/cards/` に入っていた book / water の画像を `CARD_IMG_NAMES` に登録（apple / book / cat / water の4語が画像表示に）
 - パック画像（`assets/pack.svg`）に残っていた「WORD QUEST」の文字を「WORD GRIMOIRE」に差し替え
+- 勉強・カード図鑑の専用背景を適用（`study_bg`＝魔法学院の図書室、`cards_bg`＝魔導書の宝物庫）。あわせて背景を表示領域に固定し、縦に長い画面で背景が間延びする問題を直した
 - ガチャ画面・開封演出・起動画面の背景画像（`gacha_bg` / `splash_bg`）を適用
 - ホーム背景 `home_bg`（縦長 9:16）を適用
 - 図鑑の改善：ページ送りを廃止して全件スクロールに、カードを大きく（2列）、英単語の部分一致検索を追加

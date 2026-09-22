@@ -10,8 +10,8 @@
 | `home_bg` | ホーム上部の大きな絵 | 1200x600 程度（横長） |
 | `splash_bg` | 起動画面の背景 | 900x1600（縦長） |
 | `gacha_bg` | ガチャ画面と開封演出の背景 | 900x1600（縦長） |
-| `study_bg` | 勉強画面の背景（省略可。無ければ `home_bg`） | 1080x1920（縦長 9:16） |
-| `cards_bg` | カード図鑑の背景（省略可。無ければ `home_bg`） | 1080x1920（縦長 9:16） |
+| `study_bg` | 勉強画面の背景（適用済み。省略可。無ければ `home_bg`） | 縦長 9:16 |
+| `cards_bg` | カード図鑑の背景（適用済み。省略可。無ければ `home_bg`） | 縦長 9:16 |
 | `app_bg` | 全画面の背景 | 900x1600（縦長） |
 | `gacha_pack` | ガチャのパック（透過。詳細は `gacha_prompts.md`） | 縦長 2:3 |
 | `card_back` | カード裏面（透過） | 縦長 3:4 |
@@ -58,7 +58,8 @@ no text, no letters, no characters, no UI
 ```
 
 ## study_bg / cards_bg（勉強・カード図鑑の背景）
-置かなくても動きます（`home_bg` が使われます）。専用の絵にすると、画面ごとの気分が変わります。
+**適用済み**：勉強は「魔法学院の図書室（浮かぶ魔導書と月の窓）」、図鑑は「魔導書の宝物庫（宝箱と水晶の柱廊）」。
+差し替えるときは、下のプロンプトを参考にしてください。置かなくても動きます（`home_bg` が使われます）。
 
 - **縦長 9:16（1080x1920）**。`home_bg` と同じ世界・同じ色調にすると、画面を移動しても違和感がありません
 - どちらも**文字とパネルが重なる**ので、**中央から下は暗め・静か**にしてもらいます
@@ -73,6 +74,13 @@ deep blue and purple palette with warm gold candlelight, painterly, highly detai
 vertical 9:16 composition, the center and lower half kept dark, calm and simple for UI overlay,
 no text, no letters, no characters, no UI
 ```
+
+差し替えるときの注意（今回わかったこと）:
+- 背景は**表示領域に固定**して切り出します（`#bg` は `position:fixed`）。
+  絵の見せ場は**上半分**に置いてもらうと、パネルに隠れずに見えます
+- 勉強は中央に大きな問題パネル、図鑑は上の検索パネルの下いっぱいにカードが並びます
+- 図鑑はカードそのものが主役なので、背景は勉強より強く暗くしています（`.is-cards #bg:after`）。
+  明るい絵を入れてもカードの枠が負けないようになっています
 
 `cards_bg` のプロンプト例:
 ```
