@@ -19,7 +19,7 @@
 8. **復習システムは削除**
 9. 各単語の進捗（熟練度）は、勉強の結果だけを反映する
 10. **旧「XPランク」は廃止**。Lv は学習レベルに統一する
-11. カードの例文は、カードゲーム風の一文（1文に統一）
+11. カードの例文は、カードゲーム風の一文（1文に統一）。**味方だけでなく敵役（ゴブリン、ヴァンパイア、悪魔など）も登場させる**
 12. ガチャ確率は表のとおり。先取りで、上のレアが出ることがある（0%は出ない）
 
 ---
@@ -132,6 +132,26 @@
 
 - 例文の難しさと絵の豪華さは、レアリティに合わせる（COMMON は簡素、LEGENDARY は壮大）
 
+### 例文（`ex`）のルール
+1. **1文**にする。カードの情報欄に収まる長さ（COMMON 約6語 … LEGENDARY 約11語）
+2. **その英単語を、語幹がそのまま見える形で入れる**。カードは `hl()` が `/\b(en\w*)/i` で太字にするので、
+   語幹が変わる形は太字にならない（例：`eat` → `eats` / `eating` は可、`ate` は不可。`go` → `goes` は可、`went` は不可）
+3. `tr` は、その一文の日本語訳
+4. **敵役を入れる**（下の表）。目標は全体の約4割。騎士・王・勇者だけに偏らせない
+5. 例文を直したら、`python3 tools/gen_card_prompts.py` でプロンプトを作り直す
+
+### 敵役（レアリティが上がるほど、敵も強くなる）
+| レベル | 主な敵役 |
+|---|---|
+| Lv.1 COMMON | ゴブリン、スライム、コウモリ、ネズミ、蜘蛛、インプ、狼、コボルト、カラス |
+| Lv.2 UNCOMMON | オーク、スケルトン、幽霊、山賊、大蜘蛛、ガーゴイル、ハーピー、ゾンビ、魔女 |
+| Lv.3 RARE | ヴァンパイア、人狼、トロル、オーガ、レイス、ゴーレム、バジリスク、海賊 |
+| Lv.4 EPIC | リッチ、悪魔、死霊術師、カルティスト、魔人、ヴァンパイア卿、恐怖の騎士 |
+| Lv.5 LEGENDARY | 大悪魔、ヴァンパイア公、リッチ王、不死の軍団、巨神、悪魔の王 |
+
+- **画像が対応している単語（`CARD_IMG_NAMES`）の例文は、変えない**（絵と食い違うため）。
+  変えるときは、画像も作り直す
+
 ### 難易度の基準と、単語数の目安（調査）
 各レアリティの難易度は、次の既存の基準に対応させる。
 
@@ -217,7 +237,10 @@ English_game/
 ├─ index.html
 ├─ SPEC.md                 この仕様書
 ├─ TODO.md                 次のタスク
-├─ card_image_prompts.md   カード画像のプロンプト（500語ぶん）
+├─ card_image_prompts.md   カード画像のプロンプト（500語ぶん。tools が自動生成）
+├─ tools/
+│   ├─ gen_card_prompts.py  words.js から card_image_prompts.md を作り直す
+│   └─ check_words.py       単語データの検査（id重複、例文に単語が入っているか、敵役の割合）
 ├─ css/
 │   ├─ style.css           元のスタイル（リポジトリ側にある）
 │   └─ upgrade.css         追加・上書きのスタイル
@@ -264,7 +287,9 @@ English_game/
 
 ## 12. 画像（ChatGPT に任せる）
 - ガチャの演出用画像は適用済み：`assets/ui/gacha_pack.webp`（パック）、`card_back.webp`（カード裏面）、`magic_circle.webp`（魔法陣）、`gacha_bg.webp`（背景）
-- カード画像：`card_image_prompts.md`（500語ぶん）。作成済み：apple / book / cat / water（`card_art.js` の `CARD_IMG_NAMES` に登録済み）
+- カード画像：`card_image_prompts.md`（500語ぶん）。**`tools/gen_card_prompts.py` が `words.js` から作る**ので、直接編集しない
+- 作成済み：apple / book / cat / water（`card_art.js` の `CARD_IMG_NAMES` に登録済み）
+- **画像の生成は Claude ではできない**（画像生成の機能を持たないため）。プロンプトを Claude が作り、生成は ChatGPT などに渡す
 - ガチャ・背景・パック・カード裏面：`assets/ui/gacha_prompts.md`
 - アイコン：`assets/ui/icon_prompts.md`
 - カード枠：`assets/ui/README.md`

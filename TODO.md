@@ -1,7 +1,9 @@
 # WORD GRIMOIRE ― 次にやるタスク
 
 ## 次のタスク（優先順）
-1. **カード画像の作成**（`card_image_prompts.md`、500語ぶん）。まず高レア（EPIC・LEGENDARY）から
+1. **カード画像の作成**（`card_image_prompts.md`、500語ぶん）。まず高レア（EPIC・LEGENDARY）と、敵役が出てくる例文から
+   - 画像の生成は ChatGPT などに頼む（Claude は画像を作れない）
+   - 置いたら `js/card_art.js` の `CARD_IMG_NAMES` に名前を追加する
 2. アイコンの作り直し
 3. 将来：レベルごとのコイン増（`LEVEL_COIN`）、問題形式の追加
 
@@ -14,6 +16,9 @@
 - アイコンをAIで作り直す場合は `assets/ui/icons/sheet_main.png`（3列×2行、5個）/ `sheet_small.png`（4列×2行、7個）
 
 ## 完了済み
+- **例文に敵役を追加**（192語を書き換え、敵役の登場が 2% → 40% に）。ゴブリン・スライム（Lv.1）〜大悪魔・ヴァンパイア公（Lv.5）の40種類。騎士・王・勇者への偏りを解消
+- プロンプトを `tools/gen_card_prompts.py` で `words.js` から自動生成するようにした（例文を直せばプロンプトが必ず追従する）
+- 単語データの検査スクリプト `tools/check_words.py` を追加（id重複、例文に単語が語幹で入っているか、敵役の割合）
 - リポジトリをSPEC.md（§10）に合わせて整理：復習のアイコン（`icon_review.png` / `nav_review.png`）と重複していた `js/gacha_prompts.md`、古い構成メモ `Directly.md` を削除。`assets/ui/README.md` と `icon_prompts.md` から復習の記載を削除
 - `assets/cards/` に入っていた book / water の画像を `CARD_IMG_NAMES` に登録（apple / book / cat / water の4語が画像表示に）
 - パック画像（`assets/pack.svg`）に残っていた「WORD QUEST」の文字を「WORD GRIMOIRE」に差し替え
