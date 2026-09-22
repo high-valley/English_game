@@ -29,7 +29,7 @@ function cardFace(w){
   return `<div class="cd3 r-${w.rarity}"><div class="cd3-in${F?" imgf":""}">
   <div class="cd3-art" style="${P(...L.art)}">${cardArt(w)}</div>${F?`<img class="cd3-frame" src="${F.url}" alt="">`:CARD_FRAME}
   <div class="cd3-star" style="${P(...L.star)}"><span>${"★".repeat(w.stars)}</span><em>${w.rarity==="LEGENDARY"?"LEGEND":w.rarity==="UNCOMMON"?"UNCOMMON":w.rarity}</em></div>
-  <div class="cd3-word" style="${P(...L.word)}"><svg viewBox="0 0 24 24"><path d="M2 5c4-1.5 7-1 10 1v14c-3-2-6-2.5-10-1zM22 5c-4-1.5-7-1-10 1v14c3-2 6-2.5 10-1z" fill="#f4e4b0"/></svg>WORD</div>
+  <div class="cd3-word" style="${P(...L.word)}">WORD</div>
   <div class="cd3-plate" style="${P(...L.plate)}"><span>${w.en}</span><button onclick="event.stopPropagation();speak('${w.en}')" aria-label="発音">🔊</button></div>
   <div class="cd3-info${ex.length>68?" xlong":ex.length>46?" long":""}" style="${P(...L.info)}"><div class="cd3-pill">${w.pos}${w.pronunciation?`　/${w.pronunciation}/`:""}</div><div class="cd3-ja">${w.ja}</div><div class="cd3-div"></div><div class="cd3-ex">${hl(ex,w.en)}</div><div class="cd3-tr">${tr}</div></div>
   <div class="cd3-lv" style="${P(...L.lv)}"><b>Lv.${Math.max(1,n)}</b><i><u style="width:${m*20}%"></u></i><span>${m}/5</span></div>
@@ -58,7 +58,20 @@ function home(){
 /* カード図鑑 */
 const FIL=[["ALL","すべて"],["COMMON","コモン"],["UNCOMMON","アンコモン"],["RARE","レア"],["EPIC","エピック"],["LEGENDARY","レジェンド"]],PER=12;
 let CF={r:"ALL",p:0};
-function mini(w){return S.owned[w.id]?`<button class="mc r-${w.rarity}" onclick="cardDetail(${w.id})"><div class="mc-art">${artHtml(w,"mc-img")}</div><div>${w.en}</div><div class="mc-st">${"★".repeat(w.stars)}</div></button>`:`<div class="mc lock">?</div>`}
+// 図鑑・結果一覧の小さいカード。枠画像があれば、カードと同じ枠を縮小して使う（無ければ従来の表示）
+function miniLayout(F){return{...LAYOUT,...LAYOUT_IMG,...(F.art?{art:F.art}:{}),...(F.info?{info:F.info}:{}),...LAYOUT_OVERRIDE}}
+function miniHtml(w,isNew){
+  const F=uiFrame(w.rarity);
+  if(!F)return `<button class="mc r-${w.rarity}" onclick="cardDetail(${w.id})"><div class="mc-art">${artHtml(w,"mc-img")}</div><div>${w.en}</div><div class="mc-st">${"★".repeat(w.stars)}</div>${isNew?'<em class="gr-new">NEW</em>':""}</button>`;
+  const L=miniLayout(F),sz=Math.min(9.6,108/w.en.length).toFixed(1);
+  return `<button class="mcard r-${w.rarity}" onclick="cardDetail(${w.id})"><div class="cd3"><div class="cd3-in imgf"><div class="cd3-art" style="${P(...L.art)}">${cardArt(w)}</div><img class="cd3-frame" src="${F.url}" alt="">
+  <div class="cd3-plate" style="${P(...L.plate)}"><span style="font-size:${sz}cqw">${w.en}</span></div><div class="mc3-stars" style="${P(...L.info)}">${"★".repeat(w.stars)}</div>${isNew?'<em class="gr-new">NEW</em>':""}</div></div></button>`}
+function miniLockHtml(r){
+  const F=uiFrame(r||"COMMON");
+  if(!F)return `<div class="mc lock">?</div>`;
+  const L=miniLayout(F);
+  return `<div class="mcard lock r-${r||"COMMON"}"><div class="cd3"><div class="cd3-in imgf"><div class="cd3-art" style="${P(...L.art)}"><b class="mc3-q">?</b></div><img class="cd3-frame" src="${F.url}" alt=""><div class="cd3-plate" style="${P(...L.plate)}"><span style="font-size:8cqw">？？？</span></div></div></div></div>`}
+const mini=w=>S.owned[w.id]?miniHtml(w):miniLockHtml(w.rarity);
 function cards(){
   const found=WORDS.filter(w=>S.owned[w.id]).length,list=WORDS.filter(w=>CF.r==="ALL"||w.rarity===CF.r),pages=Math.max(1,Math.ceil(list.length/PER));
   CF.p=Math.min(CF.p,pages-1);

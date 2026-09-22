@@ -64,7 +64,7 @@ function showResults(g,res,n){
   const cnt={};res.forEach(r=>cnt[r.w.rarity]=(cnt[r.w.rarity]||0)+1);const nw=res.filter(r=>r.isNew).length;
   g.innerHTML=`<div class="gr"><div class="gr-title">✨ ${n}回ガチャ結果 ✨</div>
   <div class="gr-sum">${LEVELS.map(r=>cnt[r]?`<span class="r-${r}"><i class="gem"></i>${cnt[r]}</span>`:"").join("")}<b>NEW ${nw}</b></div>
-  <div class="gr-grid">${res.map(r=>`<button class="mc r-${r.w.rarity}" onclick="cardDetail(${r.w.id})"><div class="mc-art">${artHtml(r.w,"mc-img")}</div><div>${r.w.en}</div><div class="mc-st">${"★".repeat(r.w.stars)}</div>${r.isNew?'<em class="gr-new">NEW</em>':""}</button>`).join("")}</div>
+  <div class="gr-grid">${res.map(r=>miniHtml(r.w,r.isNew)).join("")}</div>
   <div class="gr-note">タップでカードを拡大</div><button class="gold-btn" onclick="closeGx()">OK</button></div>`}
 function reveal(g,st,w,before){
   st.onclick=null;st.classList.add("flip");const lv=RORD.indexOf(w.rarity);

@@ -19,11 +19,12 @@ function uiKeyFrame(url){return new Promise(res=>{const im=new Image();im.onerro
   const x=c.getContext("2d");x.drawImage(im,0,0,W,H);const d=x.getImageData(0,0,W,H),p=d.data;
   for(let i=0;i<p.length;i+=4){const r=p[i],g=p[i+1],b=p[i+2],e=Math.min(r,b)-g;   // マゼンタ（と、その混ざりかけ）→ 透明
     if(e>40&&Math.abs(r-b)<.4*Math.max(r,b)){const t=Math.min(1,(e-40)/70);p[i+3]*=1-t;const k=e*.85;p[i]=Math.max(0,r-k);p[i+2]=Math.max(0,b-k)}}
-  const pk=i=>{const r=p[i],g=p[i+1],b=p[i+2];return r>100&&g<.72*r&&b>.38*r&&b<1.35*r};   // 透明部分に接するピンク色の縁を、内側へ削る
-  for(let it=0;it<24;it++){const kill=[];
-    for(let y=1;y<H-1;y++)for(let xx=1;xx<W-1;xx++){const i=(y*W+xx)*4;if(p[i+3]<40||!pk(i))continue;
-      if(p[i-1]<200||p[i+7]<200||p[i-W*4+3]<200||p[i+W*4+3]<200)kill.push(i)}
-    if(!kill.length)break;for(const i of kill)p[i+3]=0}
+  const pk=i=>{const r=p[i],g=p[i+1],b=p[i+2];return r>100&&g<.72*r&&b>.38*r&&b<1.35*r};   // 透明部分に接するピンク色の縁を、内側へ削る（境界から広げる方式）
+  const q=[],dp=new Uint8Array(W*H),st=W*4;
+  for(let y=1;y<H-1;y++)for(let xx=1;xx<W-1;xx++){const i=(y*W+xx)*4;if(p[i+3]<40||!pk(i))continue;
+    if(p[i-1]<200||p[i+7]<200||p[i-st+3]<200||p[i+st+3]<200){p[i+3]=0;dp[y*W+xx]=1;q.push(i)}}
+  for(let h=0;h<q.length;h++){const i=q[h],k=i>>2,dd=dp[k];if(dd>=24)continue;
+    for(const t of [i-4,i+4,i-st,i+st]){if(t<0||t>=p.length)continue;const m=t>>2;if(p[t+3]<200||dp[m]||!pk(t))continue;p[t+3]=0;dp[m]=dd+1;q.push(t)}}
   x.putImageData(d,0,0);
   const s=4,gw=Math.ceil(W/s),gh=Math.ceil(H/s),mk=new Uint8Array(gw*gh),comps=[];   // 透明部分のかたまりを探す
   for(let j=0;j<gh;j++)for(let i=0;i<gw;i++)mk[j*gw+i]=p[((j*s)*W+i*s)*4+3]<40?1:0;
