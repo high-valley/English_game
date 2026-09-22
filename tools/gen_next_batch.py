@@ -1,16 +1,20 @@
 #!/usr/bin/env python3
-"""次に作るカード画像を、おすすめ順に切り出して card_image_next.md に書く。
+"""次に作るカード画像を切り出して card_image_next.md に書く。
 
-    python3 tools/gen_next_batch.py          # 40語
-    python3 tools/gen_next_batch.py 20       # 20語
+    python3 tools/gen_next_batch.py                 # おすすめ順に40語
+    python3 tools/gen_next_batch.py 20              # おすすめ順に20語
+    python3 tools/gen_next_batch.py 100 COMMON      # COMMON だけ、図鑑の並び順に100語
+    python3 tools/gen_next_batch.py all COMMON      # COMMON の残り全部
 
-ChatGPT などにそのまま貼れる形で出す。作り終えた単語は
+ChatGPT などにそのまま貼れる形（1語＝1本の全文）で出す。作り終えた単語は
 `js/card_art.js` の `CARD_IMG_NAMES` に足せば、次回から自動で外れる。
 
-おすすめ順の考え方（SPEC.md §6 / §12）
-  1. レアリティが高い順（ガチャの開封と図鑑で、いちばん目立つ）
-  2. 同じレアリティの中では、敵役が出てくる例文を先に（場面がはっきりしていて絵にしやすい）
-  3. すでに画像がある単語は除く
+並び順
+  ・レアリティを指定したとき … そのレアリティだけを id 順（＝図鑑の並び順）。
+    端から順に潰していく用。どこまで進んだかが分かりやすい
+  ・指定しないとき（おすすめ順） … レアリティが高い順 → 敵役が出てくる例文が先 → id 順。
+    高レアはガチャの開封で大きく映り、敵役の例文は場面がはっきりしていて絵にしやすい
+  ・どちらも、すでに画像がある単語は除く
 """
 import sys
 from pathlib import Path
@@ -29,21 +33,41 @@ def enemies_in(ex):
 
 
 def main():
-    n = int(sys.argv[1]) if len(sys.argv) > 1 else DEFAULT_N
+    args = sys.argv[1:]
+    rarity = None
+    for a in list(args):
+        if a.upper() in LEVELS:
+            rarity = a.upper()
+            args.remove(a)
+    n = None
+    if args:
+        n = None if args[0].lower() == "all" else int(args[0])
+
     words = load_words()
     done = set(load_done_images())
     todo = [w for w in words if w["en"] not in done]
-
-    # レアリティが高い順 → 敵役つきが先 → id順
-    todo.sort(key=lambda w: (-LEVEL_NO[w["rarity"]], not enemies_in(w["ex"]), w["id"]))
-    batch = todo[:n]
+    if rarity:
+        todo = [w for w in todo if w["rarity"] == rarity]
+        todo.sort(key=lambda w: w["id"])                 # 図鑑の並び順。端から順に潰す用
+    else:
+        # レアリティが高い順 → 敵役つきが先 → id順
+        todo.sort(key=lambda w: (-LEVEL_NO[w["rarity"]], not enemies_in(w["ex"]), w["id"]))
+    batch = todo if n is None else todo[:n]
 
     left = len(todo)
+    total_left = len([w for w in words if w["en"] not in done])
+    head = (f"# 次に作るカード画像（Lv.{LEVEL_NO[rarity]} {rarity}）" if rarity
+            else "# 次に作るカード画像（おすすめ順）")
+    scope = (f"※ **{rarity} だけ**を図鑑の並び順で出しています。"
+             f"{rarity} で画像がまだ無いのは **{left}語**、ここにはそのうち **{len(batch)}語**。"
+             f"（全レアリティ合わせての残りは {total_left}語）"
+             if rarity else
+             f"※ 全{len(words)}語のうち、画像がまだ無いのは **{left}語**。ここにはその先頭 **{len(batch)}語** を出しています。")
     lines = [
-        "# 次に作るカード画像（おすすめ順）",
+        head,
         "",
         "※ このファイルは `tools/gen_next_batch.py` が作ります。直接編集しないでください。",
-        f"※ 全{len(words)}語のうち、画像がまだ無いのは **{left}語**。ここにはその先頭 **{len(batch)}語** を出しています。",
+        scope,
         "",
         "## 使い方",
         "1. 下のプロンプトを画像生成AIに入れる（3:2の横長。目安 1800x1200）",
@@ -51,8 +75,10 @@ def main():
         "3. `js/card_art.js` の `CARD_IMG_NAMES` に単語を足す",
         "4. `python3 tools/gen_next_batch.py` をもう一度実行すると、作り終えた分が外れて次の分が出る",
         "",
-        "順番は「レアリティが高い順 → 敵役が出てくる例文が先」です。"
-        "高レアはガチャの開封で大きく映り、敵役の例文は場面がはっきりしていて絵にしやすいためです。",
+        ("順番は図鑑の並び順（id順）です。端から順に潰していけます。"
+         if rarity else
+         "順番は「レアリティが高い順 → 敵役が出てくる例文が先」です。"
+         "高レアはガチャの開封で大きく映り、敵役の例文は場面がはっきりしていて絵にしやすいためです。"),
         "",
     ]
 
@@ -72,9 +98,10 @@ def main():
         lines.append("")
 
     if left > len(batch):
+        cmd = f"python3 tools/gen_next_batch.py all {rarity}" if rarity else "python3 tools/gen_next_batch.py"
         lines += ["---", "",
                   f"残り {left - len(batch)}語。"
-                  "`CARD_IMG_NAMES` に足してから、もう一度このスクリプトを実行してください。"]
+                  f"`CARD_IMG_NAMES` に足してから `{cmd}` を実行してください。"]
 
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
