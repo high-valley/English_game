@@ -1,4 +1,4 @@
-# アイコン作り直し用プロンプト（全14点）
+# アイコン作り直し用プロンプト（全12点）
 
 保存先は `assets/ui/icons/` です。ファイル名は下の表のとおりにします。
 
@@ -12,7 +12,7 @@
 on a flat pure magenta #FF00FF background, no gradient, no shadow or glow spilling onto the background, crisp clean edges, no text, no letters
 ```
 
-## スタイルA：ボタン用のイラストアイコン（5点）
+## スタイルA：ボタン用のイラストアイコン（4点）
 先頭に付ける共通文:
 ```
 glossy fantasy mobile game UI icon, gold and sapphire blue palette, soft inner glow, crisp clean outline, subtle metallic highlights, single object, front view, centered with generous margin,
@@ -22,11 +22,10 @@ glossy fantasy mobile game UI icon, gold and sapphire blue palette, soft inner g
 |---|---|---|
 | `icon_study` | 勉強ボタン | `an open magic book with softly glowing pages, tiny rune symbols floating above it, gold-trimmed cover` |
 | `icon_cards` | カードボタン | `a fan of three fantasy trading cards, gold edges, a blue crystal diamond emblem on the front card` |
-| `icon_review` | 復習ボタン | `a side-profile head silhouette with a glowing brain inside, luminous sapphire blue outline` |
 | `icon_gacha` | ガチャのパック | `a magical card pack shaped like a small closed spellbook, gold compass-star emblem in the center, floating blue and purple crystals around it, magical glow (4:3 composition)` |
 | `icon_coin` | コイン（ヘッダー・価格表示など全画面で共通） | `a round gold coin, slightly tilted 3/4 view, an eight-point compass star engraved in the center with a small sapphire gem, polished beveled rim with fine milled edge, warm rim light and soft highlight, rich metallic shading, subtle drop shadow` |
 
-## スタイルB：ライン（線）アイコン（9点）
+## スタイルB：ライン（線）アイコン（7点）
 先頭に付ける共通文:
 ```
 minimal fantasy game UI line icon, thin uniform stroke, light ice-blue color (#BFD4FF) with a faint blue glow, rounded line caps, simple and readable at small size, centered with generous margin,
@@ -41,7 +40,6 @@ minimal fantasy game UI line icon, thin uniform stroke, light ice-blue color (#B
 | `nav_study` | 下タブ：勉強 | `an open book` |
 | `nav_gacha` | 下タブ：ガチャ | `a compass star inside a thin circle` |
 | `nav_cards` | 下タブ：カード | `two overlapping playing cards with a small diamond mark` |
-| `nav_review` | 下タブ：復習 | `a brain outline` |
 
 ## 設定ボタン
 | ファイル名 | 続きのプロンプト（共通文なしで、そのまま使う） |
