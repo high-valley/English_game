@@ -4,7 +4,7 @@
    ・ART_SVG … コードで描いたイラスト（画像が無い単語に使われる） */
 // カード画像を置いた単語の名前（assets/cards/名前.webp が使われる）。画像を足したら、名前をここに追加する
 const CARD_IMG_NAMES=["apple"];
-const CARD_IMG={};CARD_IMG_NAMES.forEach(n=>CARD_IMG[n]="assets/cards/"+n+".webp");
+const CARD_IMG={};CARD_IMG_NAMES.forEach(n=>CARD_IMG[n]="assets/cards/"+n+".webp?v="+ASSET_V);
 const CARD_EXTRA={};   // 廃止：カードの例文は words.js の ex（カードゲーム風の一文）を使う
 const _sp='<g fill="#fff"><circle cx="24" cy="26" r="1.4" opacity=".9"/><circle cx="172" cy="22" r="1.8" opacity=".8"/><circle cx="150" cy="58" r="1" opacity=".7"/><circle cx="38" cy="82" r="1.2" opacity=".6"/><circle cx="184" cy="112" r="1.3" opacity=".7"/><circle cx="14" cy="130" r="1" opacity=".6"/></g><path d="M60 40l2 6 6 2-6 2-2 6-2-6-6-2 6-2zM160 90l1.5 4 4 1.5-4 1.5-1.5 4-1.5-4-4-1.5 4-1.5z" fill="#ffe9a0"/>';
 const _bg=(id,a,b)=>`<defs><radialGradient id="${id}" cx="50%" cy="48%" r="75%"><stop offset="0" stop-color="${a}"/><stop offset="1" stop-color="${b}"/></radialGradient></defs><rect width="200" height="180" fill="url(#${id})"/>${_sp}`;

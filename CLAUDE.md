@@ -54,6 +54,18 @@ python3 -m http.server 8765    # → http://localhost:8765/index.html
 ```
 Chromium は `/opt/pw-browsers/chromium` にある（Playwright から `executablePath` で指定する）。
 
+## ファイルを差し替えたら、版を上げる（重要）
+`index.html` の `ASSET_V` を書き換える。CSS・JS・画像のURLすべてに `?v=ASSET_V` が付いており、
+**これを変えないと、一度読み込んだ端末は古いファイルを使い続ける**（アイコンを差し替えても反映されない、
+JSを直しても直らない、という形で出る）。日付（`20260922` など）にしておけばよい。
+
+```html
+<script>const ASSET_V="20260922";</script>   <!-- index.html -->
+```
+- 付いている先：`index.html` の CSS / JS / favicon、`ui_images.js` の背景・アイコン・シート、
+  `card_art.js` のカード画像、`app.js` のカード画像の予備
+- 新しく画像を読み込む処理を足すときは、URL に `?v=${ASSET_V}` を付ける
+
 ## 画像
 - **画像の生成は Claude ではできない**。プロンプトを用意し、生成は ChatGPT などに渡す
 - アイコンは**マゼンタ背景**で受け取る（生成AIは透過PNGを安定して出せない）。
