@@ -9,12 +9,12 @@
    ・カード画像は assets/cards/単語(en).webp（id ではなく en で対応）。
    次に使うID：501 */
 const WORDS=[{"id": 1, "en": "apple", "ja": "りんご", "pronunciation": "ˈæpəl", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "🍎", "ex": "The knight eats a red apple.", "tr": "騎士は赤いりんごを食べる。"},
-{"id": 2, "en": "book", "ja": "本", "pronunciation": "bʊk", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "📖", "ex": "She reads a big book.", "tr": "少女は大きな本を読んでいる。"},
-{"id": 3, "en": "cat", "ja": "猫", "pronunciation": "kæt", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "🐈", "ex": "The black cat sleeps on a stone wall.", "tr": "黒猫が石壁の上で眠っている。"},
+{"id": 2, "en": "book", "ja": "本", "pronunciation": "bʊk", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "📖", "ex": "A spider walks across the big open book.", "tr": "蜘蛛が、大きな開いた本の上を歩いていく。"},
+{"id": 3, "en": "cat", "ja": "猫", "pronunciation": "kæt", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "🐈", "ex": "The black cat watches a rat by the wall.", "tr": "黒猫が、壁のそばのネズミをじっと見ている。"},
 {"id": 4, "en": "dog", "ja": "犬", "pronunciation": "dɔːɡ", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "🐕", "ex": "The brave dog barks at the goblins.", "tr": "勇敢な犬が、ゴブリンたちに向かって吠える。"},
 {"id": 5, "en": "house", "ja": "家", "pronunciation": "haʊs", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "🏠", "ex": "A goblin runs out of the small house.", "tr": "ゴブリンが小さな家から走り出てくる。"},
 {"id": 6, "en": "school", "ja": "学校", "pronunciation": "skuːl", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "🏫", "ex": "The children walk to the old school.", "tr": "子どもたちは古い学校へ歩いていく。"},
-{"id": 7, "en": "water", "ja": "水", "pronunciation": "ˈwɔːtər", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "💧", "ex": "The traveler drinks cold water from a spring.", "tr": "旅人が泉の冷たい水を飲む。"},
+{"id": 7, "en": "water", "ja": "水", "pronunciation": "ˈwɔːtər", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "💧", "ex": "A green slime floats in the cold water.", "tr": "緑のスライムが、冷たい水に浮かんでいる。"},
 {"id": 8, "en": "food", "ja": "食べ物", "pronunciation": "fuːd", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "🍲", "ex": "A hungry slime eats the food on the floor.", "tr": "腹をすかせたスライムが、床の食べ物を食べる。"},
 {"id": 9, "en": "friend", "ja": "友達", "pronunciation": "frend", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "🤝", "ex": "My friend and I fight a goblin together.", "tr": "友達と私で、力を合わせてゴブリンと戦う。"},
 {"id": 10, "en": "family", "ja": "家族", "pronunciation": "ˈfæməli", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "👨‍👩‍👧", "ex": "The family sits around a warm fire.", "tr": "家族が暖かい火のまわりに座っている。"},

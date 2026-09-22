@@ -150,7 +150,7 @@
 | Lv.5 LEGENDARY | 大悪魔、ヴァンパイア公、リッチ王、不死の軍団、巨神、悪魔の王 |
 
 - **画像が対応している単語（`CARD_IMG_NAMES`）の例文は、変えない**（絵と食い違うため）。
-  変えるときは、画像も作り直す
+  変えるときは、画像も作り直す。逆に、画像を消した単語の例文は自由に変えてよい
 
 ### 難易度の基準と、単語数の目安（調査）
 各レアリティの難易度は、次の既存の基準に対応させる。
@@ -237,9 +237,11 @@ English_game/
 ├─ index.html
 ├─ SPEC.md                 この仕様書
 ├─ TODO.md                 次のタスク
-├─ card_image_prompts.md   カード画像のプロンプト（500語ぶん。tools が自動生成）
+├─ card_image_prompts.md   全500語のプロンプト（tools が自動生成）
+├─ card_image_next.md      次に作る画像のおすすめ順（tools が自動生成）
 ├─ tools/
 │   ├─ gen_card_prompts.py  words.js から card_image_prompts.md を作り直す
+│   ├─ gen_next_batch.py    次に作る画像を、おすすめ順に切り出す（既にある画像は外す）
 │   └─ check_words.py       単語データの検査（id重複、例文に単語が入っているか、敵役の割合）
 ├─ css/
 │   ├─ style.css           元のスタイル（リポジトリ側にある）
@@ -255,7 +257,7 @@ English_game/
 │   └─ ui_images.js        assets/ui の画像の自動読み込み
 └─ assets/
     ├─ pack.svg / card_back.svg   （画像が無い時の予備。今は gacha_pack / card_back の画像を使う）
-    ├─ cards/              単語ごとのカード画像（apple / book / cat / water .webp）
+    ├─ cards/              単語ごとのカード画像（今は apple.webp のみ）
     └─ ui/
         ├─ card_frame.webp / card_frame_common / _uncommon / _epic / _legendary .webp
         ├─ home_bg.webp / splash_bg.webp / gacha_bg.webp
@@ -287,8 +289,10 @@ English_game/
 
 ## 12. 画像（ChatGPT に任せる）
 - ガチャの演出用画像は適用済み：`assets/ui/gacha_pack.webp`（パック）、`card_back.webp`（カード裏面）、`magic_circle.webp`（魔法陣）、`gacha_bg.webp`（背景）
-- カード画像：`card_image_prompts.md`（500語ぶん）。**`tools/gen_card_prompts.py` が `words.js` から作る**ので、直接編集しない
-- 作成済み：apple / book / cat / water（`card_art.js` の `CARD_IMG_NAMES` に登録済み）
+- カード画像：`card_image_prompts.md`（全500語）。**`tools/gen_card_prompts.py` が `words.js` から作る**ので、直接編集しない
+- 次に作る分は `card_image_next.md`（`tools/gen_next_batch.py` が、レアリティの高い順 → 敵役つきが先の順で切り出す）
+- 作成済み：apple（`card_art.js` の `CARD_IMG_NAMES` に登録済み）。
+  レア度別の枠を入れる前の book / cat / water は削除した（`cat` / `book` / `water` は `card_art.js` の `ART_SVG` の絵に戻る）
 - **画像の生成は Claude ではできない**（画像生成の機能を持たないため）。プロンプトを Claude が作り、生成は ChatGPT などに渡す
 - ガチャ・背景・パック・カード裏面：`assets/ui/gacha_prompts.md`
 - アイコン：`assets/ui/icon_prompts.md`

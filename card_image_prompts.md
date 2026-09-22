@@ -27,12 +27,9 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この4語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この1語は、絵文字ではなく画像で表示されます）。
 
 - apple
-- book
-- cat
-- water
 
 全500語ぶんのプロンプトが下にあります。
 
@@ -48,12 +45,12 @@ simple fantasy illustration, one clear subject, calm simple background, minimal 
 
 **2. book**（本）
 ```
-simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: She reads a big book. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: A spider walks across the big open book. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
 ```
 
 **3. cat**（猫）
 ```
-simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The black cat sleeps on a stone wall. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The black cat watches a rat by the wall. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
 ```
 
 **4. dog**（犬）
@@ -73,7 +70,7 @@ simple fantasy illustration, one clear subject, calm simple background, minimal 
 
 **7. water**（水）
 ```
-simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The traveler drinks cold water from a spring. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: A green slime floats in the cold water. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
 ```
 
 **8. food**（食べ物）

@@ -1,9 +1,11 @@
 # WORD GRIMOIRE ― 次にやるタスク
 
 ## 次のタスク（優先順）
-1. **カード画像の作成**（`card_image_prompts.md`、500語ぶん）。まず高レア（EPIC・LEGENDARY）と、敵役が出てくる例文から
+1. **カード画像の作成**。`card_image_next.md` に、次に作る40語がおすすめ順（高レア＋敵役が先）で入っている
    - 画像の生成は ChatGPT などに頼む（Claude は画像を作れない）
    - 置いたら `js/card_art.js` の `CARD_IMG_NAMES` に名前を追加する
+   - `python3 tools/gen_next_batch.py` で次の40語を出す（作り終えた分は自動で外れる）
+   - 全500語のプロンプトは `card_image_prompts.md`
 2. アイコンの作り直し
 3. 将来：レベルごとのコイン増（`LEVEL_COIN`）、問題形式の追加
 
@@ -16,6 +18,8 @@
 - アイコンをAIで作り直す場合は `assets/ui/icons/sheet_main.png`（3列×2行、5個）/ `sheet_small.png`（4列×2行、7個）
 
 ## 完了済み
+- レア度別の枠を入れる前の画像 book / cat / water を削除（`CARD_IMG_NAMES` は apple のみに）。あわせて、この3語の例文も敵役つきに書き換えた
+- 次に作る画像を、おすすめ順（レアリティの高い順 → 敵役つきが先）で切り出す `tools/gen_next_batch.py` を追加（出力は `card_image_next.md`）
 - **例文に敵役を追加**（192語を書き換え、敵役の登場が 2% → 40% に）。ゴブリン・スライム（Lv.1）〜大悪魔・ヴァンパイア公（Lv.5）の40種類。騎士・王・勇者への偏りを解消
 - プロンプトを `tools/gen_card_prompts.py` で `words.js` から自動生成するようにした（例文を直せばプロンプトが必ず追従する）
 - 単語データの検査スクリプト `tools/check_words.py` を追加（id重複、例文に単語が語幹で入っているか、敵役の割合）
