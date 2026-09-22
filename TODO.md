@@ -6,7 +6,10 @@
    - 置いたら `js/card_art.js` の `CARD_IMG_NAMES` に名前を追加する
    - `python3 tools/gen_next_batch.py` で次の40語を出す（作り終えた分は自動で外れる）
    - 全500語のプロンプトは `card_image_prompts.md`
-2. アイコンの作り直し
+2. **アイコンの作り直し（全12個・個別ファイル）** ← 進行中
+   - プロンプトは `assets/ui/icon_prompts.md`（マゼンタ背景で作ってもらう）
+   - できた画像を `assets/ui/icons/` にファイル名どおり置く → こちらで配置・検証
+   - 直したい点：`stat_streak` が炎でなく照準／`stat_words` と `nav_study` が同じ絵／`icon_cards` の宝石が緑／大きさが不揃い
 3. 問題形式の追加（今は「英単語 → 日本語4択」のみ）
 
 ## 候補（今後）

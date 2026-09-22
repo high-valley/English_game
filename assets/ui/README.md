@@ -100,7 +100,7 @@ no text, no letters, no characters, no UI, no cards
 | `icon_gacha` | ホームのガチャパネルのパック画像（推奨 約 500x430、縁は透明にぼかす） |
 | `icon_coin` | コイン（ヘッダー・価格表示） |
 | `icon_gear` | 設定ボタン |
-| `stat_words` `stat_ok` `stat_streak` | 統計（総単語数・覚えた・連続学習） |
+| `stat_words` `stat_ok` `stat_streak` | ホームの統計（コレクション・覚えた・連続学習） |
 | `nav_home` `nav_study` `nav_gacha` `nav_cards` | 下のタブ（4つ。推奨 約 120x120） |
 
 現在入っているアイコンは、参考にしてくれたホーム画面の画像から切り出したものです。
@@ -121,7 +121,10 @@ no text, no letters, no characters, no UI, no cards
 | ファイル名 | 並び順（左→右、上→下） |
 |---|---|
 | `icons/sheet_main.png`（3列×2行、5個） | 勉強(開いた本) / カード(トランプ) / ガチャ(カードパック) / コイン / 設定(歯車) |
-| `icons/sheet_small.png`（4列×2行、7個） | 総単語数(本) / 覚えた(チェック) / 連続学習(炎) / ホーム(家) / 勉強(本) / ガチャ(羅針盤) / カード(トランプ) |
+| `icons/sheet_small.png`（4列×2行、7個） | コレクション(積んだ本) / 覚えた(チェック) / 連続学習(炎) / ホーム(家) / 勉強(開いた本) / ガチャ(羅針盤) / カード(トランプ) |
+
+※ シートは**個数が合わないと1個も使われません**（コンソールに警告が出ます）。
+　 確実なのは個別ファイルです。プロンプトは `icon_prompts.md` にあります。
 
 プロンプト例（sheet_main）:
 ```

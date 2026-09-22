@@ -1,61 +1,75 @@
 # アイコン作り直し用プロンプト（全12点）
 
-保存先は `assets/ui/icons/` です。ファイル名は下の表のとおりにします。
+## 渡し方
+- **背景は純マゼンタ #FF00FF のベタ塗り**にしてもらう。ゲーム側が自動で透過し、**余白も詰めて大きさをそろえる**
+  （`ui_images.js` の `uiIcon`）。透過PNGで渡すと、この「そろえる」処理が効かないので**マゼンタで渡す**
+- **1個ずつ個別ファイル**で、下の表のファイル名どおりに `assets/ui/icons/` に置く（例：`stat_streak.png`）
+- **正方形**、512x512 か 1024x1024 の PNG。余白は自動で詰まるので、多めに取って構わない
+- 文字・数字は入れない（ゲーム側で描く）
 
-## 共通の設定
-- 比率は **1:1（正方形）**、サイズは 1024x1024。中央に置き、まわりに余白を取る。
-- 背景は、透過PNGが出せるサービスなら **透過**。出せない場合は下の「背景の指定」を付けて、単色マゼンタで作る。
-- 1点ずつ作るほうがきれいに出ます。最初の1点が気に入ったら、それを参考画像にして「same style, same colors」と頼むと、そろいます。
+## 今のアイコンの直したい点
+| 対象 | 問題 |
+|---|---|
+| `stat_streak` | **連続学習（🔥）なのに照準マークになっている**。炎にする |
+| `stat_words` | `nav_study` と同じ「開いた本」で見分けがつかない。**積み重ねた本**にして分ける |
+| `icon_cards` | 宝石だけ緑で、紺・金・青の基調から浮いている。**青（サファイア）**にそろえる |
+| `icon_gear` | 平たい白灰色で、他のイラストアイコンより安っぽい。金と銀＋青い宝石にする |
+| 全体 | 余白の取り方がバラバラで、見た目の大きさが揃っていない → マゼンタ背景で作り直せば自動でそろう |
 
-**背景の指定（末尾に付ける）**
+## すべてに付ける共通の指定（末尾に足す）
 ```
-on a flat pure magenta #FF00FF background, no gradient, no shadow or glow spilling onto the background, crisp clean edges, no text, no letters
+flat pure magenta #FF00FF background, completely uniform, no gradient, no shadow on the background,
+square composition, subject centered, no text, no letters, no numbers, no border, no frame
 ```
 
-## スタイルA：ボタン用のイラストアイコン（4点）
+---
+
+## スタイルA：ボタン用のイラストアイコン（5点）
 先頭に付ける共通文:
 ```
-glossy fantasy mobile game UI icon, gold and sapphire blue palette, soft inner glow, crisp clean outline, subtle metallic highlights, single object, front view, centered with generous margin,
+glossy fantasy mobile game UI icon, deep navy blue and gold palette with sapphire blue accents,
+soft inner glow, crisp clean outline, subtle metallic highlights, single object, front view,
 ```
 
-| ファイル名 | 用途 | 続きのプロンプト |
-|---|---|---|
-| `icon_study` | 勉強ボタン | `an open magic book with softly glowing pages, tiny rune symbols floating above it, gold-trimmed cover` |
-| `icon_cards` | カードボタン | `a fan of three fantasy trading cards, gold edges, a blue crystal diamond emblem on the front card` |
-| `icon_gacha` | ガチャのパック | `a magical card pack shaped like a small closed spellbook, gold compass-star emblem in the center, floating blue and purple crystals around it, magical glow (4:3 composition)` |
-| `icon_coin` | コイン（ヘッダー・価格表示など全画面で共通） | `a round gold coin, slightly tilted 3/4 view, an eight-point compass star engraved in the center with a small sapphire gem, polished beveled rim with fine milled edge, warm rim light and soft highlight, rich metallic shading, subtle drop shadow` |
+| ファイル名 | 用途 | 表示サイズ | 続きのプロンプト |
+|---|---|---|---|
+| `icon_study` | ホームの「勉強」ボタン／勉強画面のレベル欄 | 約49px・22px | `an open magic book with softly glowing pages, tiny rune symbols floating above it, gold-trimmed cover` |
+| `icon_cards` | ホームの「カード」ボタン | 約49px | `a fan of three fantasy trading cards, gold edges, a blue sapphire diamond emblem on the front card` |
+| `icon_gacha` | ホームのガチャパネルのパック | **約129px（最大）** | `a magical card pack shaped like a closed spellbook, gold compass-star emblem in the center, floating blue and purple crystals around it, strong magical glow` |
+| `icon_coin` | ヘッダーのコイン／価格表示 | **22px・16px・14px（最小）** | `a round gold coin, slightly tilted 3/4 view, an eight-point compass star engraved in the center with a small sapphire gem, polished beveled rim with fine milled edge, warm rim light` |
+| `icon_gear` | 設定ボタン | 38px | `a silver and gold cog gear inside a thin gold-outlined diamond frame, a small sapphire gem at the center of the gear` |
+
+- `icon_gacha` は**いちばん大きく出る**ので、いちばん描き込んでよい
+- `icon_coin` は**14pxまで小さくなる**ので、文様を細かくしすぎない
+
+---
 
 ## スタイルB：ライン（線）アイコン（7点）
+**すべて 26px 前後の小ささで表示される。** 形が一目で分かることを最優先にする。
+
 先頭に付ける共通文:
 ```
-minimal fantasy game UI line icon, thin uniform stroke, light ice-blue color (#BFD4FF) with a faint blue glow, rounded line caps, simple and readable at small size, centered with generous margin,
+minimal fantasy game UI line icon, thin uniform stroke, light ice-blue color #BFD4FF with a faint blue glow,
+rounded line caps, very simple and readable at about 26 pixels, single object, centered,
 ```
 
 | ファイル名 | 用途 | 続きのプロンプト |
 |---|---|---|
-| `stat_words` | 総単語数 | `an open book with a small sparkle` |
-| `stat_ok` | 覚えた | `a circle with a check mark inside` |
-| `stat_streak` | 連続学習 | `a single flame` |
-| `nav_home` | 下タブ：ホーム | `a house` |
+| `stat_words` | ホームの統計：**コレクション** | `a stack of three closed books` |
+| `stat_ok` | ホームの統計：覚えた | `a circle with a check mark inside` |
+| `stat_streak` | ホームの統計：連続学習 | `a single flame` |
+| `nav_home` | 下タブ：ホーム | `a simple house` |
 | `nav_study` | 下タブ：勉強 | `an open book` |
-| `nav_gacha` | 下タブ：ガチャ | `a compass star inside a thin circle` |
+| `nav_gacha` | 下タブ：ガチャ | `an eight-point compass star inside a thin circle` |
 | `nav_cards` | 下タブ：カード | `two overlapping playing cards with a small diamond mark` |
 
-## 設定ボタン
-| ファイル名 | 続きのプロンプト（共通文なしで、そのまま使う） |
-|---|---|
-| `icon_gear` | `a white and silver cog gear icon centered inside a thin gold-outlined diamond (rhombus) frame, fantasy game UI style, soft glow, no text` に「背景の指定」を付ける |
+- `stat_words`（積み重ねた本）と `nav_study`（開いた本）は、**必ず別の形**にする
+- `nav_*` の4つは下タブに横並びになるので、線の太さと大きさをそろえる
 
-## まとめて作る場合（統一感を出しやすい）
-下のタブ用5点を、1枚にまとめる例です。できた画像を私に渡してもらえれば、切り分けます。
-```
-a set of 5 minimal fantasy game UI line icons in one horizontal row on one image, equal size, equal spacing:
-a house, an open book, a compass star inside a circle, two overlapping playing cards with a diamond mark, a brain outline.
-thin uniform stroke, light ice-blue (#BFD4FF) with a faint blue glow, consistent style,
-on a flat pure magenta #FF00FF background, no text, no letters
-```
-統計3点（本・チェック・炎）、ボタン3点（本・カード・脳）も、同じ形で作れます。
+---
 
-## 仕上げ
-- 生成した画像を私に渡してください。背景を透明にして、余白を切り、指定のファイル名の PNG にして返します（この変換は、渡してもらってから行います）。
-- 下タブのアイコンは、選択中は明るく光る処理をゲーム側で行うので、明るい水色のまま1種類だけで大丈夫です。
+## 置いたあとの確認
+1. `assets/ui/icons/` に、上のファイル名どおりに置く
+2. ブラウザを再読み込みする（HTTPで開く。`file://` では処理が効かない）
+3. マゼンタが残って見える場合は、背景が純マゼンタになっていない（グラデーションや影が掛かっている）。
+   背景を「完全に均一なベタ塗り」で作り直してもらう
