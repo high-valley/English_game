@@ -79,16 +79,30 @@ def main():
         if not ex.strip().endswith((".", "!", "?")):
             errs.append(f'id {w["id"]} {en}: 例文が句点で終わっていません → {ex}')
 
+    # 敵役の割合の目安。全部のカードに敵役を入れる必要はない（SPEC.md §6）。
+    # 風景・自然・道具のカードは敵役なしでよいので、上限を超えたら知らせる
+    RATIO_MAX = 55   # 各レアリティの上限（%）
+    TOTAL_MAX = 50   # 全体の上限（%）
+    warns = []
+
     print(f"単語数: {len(words)}")
     for r in LEVELS:
         g = [w for w in words if w["rarity"] == r]
         with_enemy = [w for w in g if any(has(w["ex"], e) for e in ENEMIES)]
         lens = [len(w["ex"].split()) for w in g]
+        pct = len(with_enemy) * 100 // max(1, len(g))
         print(f"  {r:10} {len(g):3}語  敵役が出る例文 {len(with_enemy):3}語 "
-              f"({len(with_enemy)*100//max(1,len(g)):2}%)  例文の長さ 平均{sum(lens)/len(lens):4.1f}語")
+              f"({pct:2}%)  例文の長さ 平均{sum(lens)/len(lens):4.1f}語")
+        if pct > RATIO_MAX:
+            warns.append(f"{r} の敵役が {pct}%（目安の上限 {RATIO_MAX}%）。"
+                         "風景・自然・道具のカードは敵役なしでよい")
 
     total_enemy = sum(1 for w in words if any(has(w["ex"], e) for e in ENEMIES))
-    print(f"敵役が出てくる例文：{total_enemy} / {len(words)} ({total_enemy*100//len(words)}%)")
+    total_pct = total_enemy * 100 // len(words)
+    print(f"敵役が出てくる例文：{total_enemy} / {len(words)} ({total_pct}%)"
+          f"　／　敵役なし：{len(words) - total_enemy}語 ({100 - total_pct}%)")
+    if total_pct > TOTAL_MAX:
+        warns.append(f"全体の敵役が {total_pct}%（目安の上限 {TOTAL_MAX}%）")
 
     cast = Counter()
     for w in words:
@@ -96,6 +110,11 @@ def main():
             if has(w["ex"], e):
                 cast[e] += 1
     print("敵役の内訳:", ", ".join(f"{k} {v}" for k, v in cast.most_common()))
+
+    if warns:
+        print(f"\n▲ 注意 {len(warns)} 件（不具合ではなく、配分の目安を外れているだけ）")
+        for w in warns:
+            print("  -", w)
 
     if errs:
         print(f"\n■ 問題 {len(errs)} 件")

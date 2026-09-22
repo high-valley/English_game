@@ -245,7 +245,7 @@ simple fantasy illustration, one clear subject, calm simple background, minimal 
 
 **122. table**（テーブル）
 ```
-simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: A big rat runs under the table. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: An old map lies open on the table. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
 ```
 
 **123. chair**（椅子）
@@ -335,12 +335,12 @@ simple fantasy illustration, one clear subject, calm simple background, minimal 
 
 **140. key**（鍵）
 ```
-simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: The goblin drops a gold key. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: A gold key opens the old iron gate. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
 ```
 
 **141. box**（箱）
 ```
-simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: A rat hides in the small box. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
+simple fantasy illustration, one clear subject, calm simple background, minimal effects, soft colors, little decoration. Scene: A small locked box sits in the cave. painterly anime style, 3:2 landscape composition, main subject centered with margin, no text, no letters, no border, no frame
 ```
 
 **142. bag**（かばん）
