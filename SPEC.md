@@ -259,6 +259,7 @@ English_game/
 ---
 
 ## 12. 画像（ChatGPT に任せる）
+- ガチャの演出用画像は適用済み：`assets/ui/gacha_pack.webp`（パック）、`card_back.webp`（カード裏面）、`magic_circle.webp`（魔法陣）、`gacha_bg.webp`（背景）
 - カード画像：`card_image_prompts.md`（100語）
 - ガチャ・背景・パック・カード裏面：`assets/ui/gacha_prompts.md`
 - アイコン：`assets/ui/icon_prompts.md`
