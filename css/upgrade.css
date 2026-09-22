@@ -83,7 +83,12 @@ main{padding:6px 12px 40px}
 .cd-h{display:flex;align-items:center;gap:10px;margin-bottom:10px;font-size:26px}
 .cd-h h2{margin:0;font-size:19px;color:#f4d477}.cd-h small{color:#9aa1b8;font-size:12px}
 .cd-f{display:flex;gap:6px;overflow-x:auto;padding-bottom:8px;margin-bottom:6px}
-.cd-f button{flex:none;padding:6px 12px;border-radius:8px;border:1px solid #4a5480;background:rgba(19,25,51,.75);color:#c7c9d4;font-size:12px}
+.cd-f button{flex:none;display:flex;align-items:center;gap:5px;padding:6px 10px;border-radius:8px;border:1px solid #4a5480;background:rgba(19,25,51,.75);color:#c7c9d4;font-size:12px}
+/* レア度ごとの解放数（所持 / 全体） */
+.cd-f button b{font:800 11px system-ui,sans-serif;color:#f0d98a;letter-spacing:.2px}
+.cd-f button .gem{width:9px;height:9px;flex:none;transform:rotate(45deg);border-radius:2px;background:var(--rc,#9fb4dc);box-shadow:0 0 5px var(--rc,#9fb4dc)}
+.cd-f .f-COMMON{--rc:#9fb4dc}.cd-f .f-UNCOMMON{--rc:#3ecf7a}.cd-f .f-RARE{--rc:#3aa0ff}.cd-f .f-EPIC{--rc:#b26bff}.cd-f .f-LEGENDARY{--rc:#ffb43a}
+.cd-f .on b{color:#ffe9a8}
 .cd-f .on{border-color:#e0b850;color:#ffe08a;background:#241f3d}
 .cd-g{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
 .mc{aspect-ratio:3/4;padding:4px;border-radius:10px;border:2px solid var(--rc,#2a3048);background:linear-gradient(#171d38,#0a0e1c);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;font-size:11px;font-weight:800;overflow:hidden}

@@ -26,6 +26,6 @@ function lvUp(r){
   const n=r.up,d=document.createElement("div");d.className="lvup";
   const rates=currentRates().map(([k,p])=>`<div class="r-${k}${p?"":" z"}"><i class="gem"></i>${k}<b>${p}%</b></div>`).join("");
   d.innerHTML=`<i class="lvup-rays"></i><div class="lvup-in">${r.up?`<div class="lvup-t">LEVEL UP!</div><div class="lvup-n">Lv.${n}</div><div class="lvup-s">Lv.${n-1} クリア！ Lv.${n} が解放されました</div><div class="lvup-s">ガチャの排出率が更新されました</div><div class="lvup-s">正解のコインが +${LEVEL_COIN[n]||25} に増えました</div><div class="rates-row">${rates}</div>`:`<div class="lvup-t">ALL CLEAR!</div><div class="lvup-n">全レベルクリア</div><div class="lvup-s">おめでとうございます！ これからも自由に勉強できます</div>`}
-  <button class="gold-btn" onclick="closeLvUp('gacha')">🎰 ガチャへ</button><button class="lvup-sub" onclick="closeLvUp('study')">勉強を続ける</button></div>`;
+  <button class="gold-btn" onclick="closeLvUp('gacha')">ガチャへ</button><button class="lvup-sub" onclick="closeLvUp('study')">勉強を続ける</button></div>`;
   document.body.appendChild(d)}
 function closeLvUp(p){const d=$(".lvup");if(d)d.remove();showPage(p)}
