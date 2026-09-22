@@ -3,7 +3,9 @@ const LEVELS=["COMMON","UNCOMMON","RARE","EPIC","LEGENDARY"];   // Lv.1〜Lv.5 �
 const MASTERY_MAX=5;      // 単語の熟練度の上限
 const CLEAR_POINTS=100;   // レベルのクリアに必要な熟練度ポイント（単語が増えても、これで固定）
 const GACHA_COST=100;     // ガチャ1回のコイン
-const LEVEL_COIN={1:25,2:25,3:25,4:25,5:25};   // 正解1回のコイン。将来：レベルが上がるほど増やす
+// 正解1回のコイン。レベルが上がるほど増える（Lv.5 は 100 = ガチャ1回ぶん）
+// 目安：ガチャ1回 100コインなので、1回引くのに必要な正解数は Lv.1 4.0問 → Lv.5 1.0問
+const LEVEL_COIN={1:25,2:35,3:50,4:70,5:100};
 // ガチャの排出率（%）。到達した最高レベルの行を使う
 const GACHA_RATES={
   1:{COMMON:90,UNCOMMON:9,RARE:1,EPIC:0,LEGENDARY:0},

@@ -489,6 +489,8 @@ nav{grid-template-columns:repeat(4,1fr)}
 .st2-prog.orn{--pb:rgba(5,9,30,.82);border-radius:14px;padding:14px 16px;backdrop-filter:blur(3px)}
 .st2-pt{display:flex;justify-content:space-between;align-items:center;font:900 17px Georgia,serif;color:#f4d477}
 .st2-pt b{display:flex;align-items:center;gap:7px}
+.st2-coin{display:flex;align-items:center;gap:4px;font:800 12.5px system-ui,sans-serif;color:#f0d98a;padding:3px 9px;border:1px solid #6b5a2c;border-radius:99px;background:rgba(10,15,34,.7)}
+.st2-coin .ico{width:14px;height:14px}.st2-coin .ico-e{font-size:12px}
 .st2-pt .ico{width:22px;height:22px}
 .st2-bar{height:10px;border-radius:99px;background:#1a2148;border:1px solid #6b5a2c;overflow:hidden;margin:8px 0 6px}
 .st2-bar i{display:block;height:100%;background:linear-gradient(90deg,#9b7730,#f2d47a);transition:width .5s}
