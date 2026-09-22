@@ -315,7 +315,16 @@ img.scene{object-fit:cover}
 /* ===== ホーム v2（全画面背景＋画像アイコン）＆ 下部ナビ ===== */
 .app{position:relative;display:flex;flex-direction:column}
 header,main,nav{position:relative;z-index:1}
-nav{order:3;position:sticky;bottom:8px;margin:8px 12px 10px;z-index:6;background:linear-gradient(#0d1330ee,#070a1eee)}
+/* 下のタブは表示領域に固定する。
+   sticky + backdrop-filter は iOS Safari で、カード詳細（position:fixed の .sheet）を
+   開いて閉じると合成レイヤーが作り直され、止まる位置がずれてバーが画面の下に隠れることがある
+   （ラベルが切れて見えなくなる）。fixed は表示領域そのものを基準にするので影響を受けない。 */
+nav{order:3;position:fixed;left:50%;transform:translateX(-50%);width:calc(100% - 24px);max-width:496px;bottom:calc(10px + env(safe-area-inset-bottom,0px));margin:0;z-index:6;background:linear-gradient(#0d1330ee,#070a1eee)}
+/* タブを流れから外したぶん、本文の下に場所を空ける */
+main{padding-bottom:calc(96px + env(safe-area-inset-bottom,0px))}
+/* 100vh は iOS ではアドレスバーを除いた「大きい方」の高さになり、実際の表示領域と食い違う。
+   dvh（表示領域に追従する単位）を使う。対応していないブラウザは style.css の 100vh のまま */
+.app{min-height:100dvh}
 main{flex:1}
 /* 画面に固定する。absolute だと、図鑑のように縦に長い画面で背景と暗幕がページ全体の高さに
    引き延ばされ、画像が間延びして暗さの効き方も変わってしまう */
