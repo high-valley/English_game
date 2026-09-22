@@ -56,8 +56,8 @@ function home(){
   <button class="hm2-gacha orn" onclick="showPage('gacha')">${pulls?`<em class="hm2-new">引ける！×${pulls}</em>`:""}<div class="hm2-pack">${ico("icon_gacha","🎁","pack")}</div><div class="hm2-plate">ガチャ</div><div class="hm2-price">1回 ${ico("icon_coin","🪙","c")} ${GACHA_COST}コイン</div></button></div></section>`;save()}
 
 /* カード図鑑 */
-const FIL=[["ALL","すべて"],["COMMON","コモン"],["UNCOMMON","アンコモン"],["RARE","レア"],["EPIC","エピック"],["LEGENDARY","レジェンド"]],PER=12;
-let CF={r:"ALL",p:0};
+const FIL=[["ALL","すべて"],["COMMON","コモン"],["UNCOMMON","アンコモン"],["RARE","レア"],["EPIC","エピック"],["LEGENDARY","レジェンド"]];
+let CF={r:"ALL",q:""};
 // 図鑑・結果一覧の小さいカード。枠画像があれば、カードと同じ枠を縮小して使う（無ければ従来の表示）
 function miniLayout(F){return{...LAYOUT,...LAYOUT_IMG,...(F.art?{art:F.art}:{}),...(F.info?{info:F.info}:{}),...LAYOUT_OVERRIDE}}
 function miniHtml(w,isNew){
@@ -72,15 +72,23 @@ function miniLockHtml(r){
   const L=miniLayout(F);
   return `<div class="mcard lock r-${r||"COMMON"}"><div class="cd3"><div class="cd3-in imgf"><div class="cd3-art" style="${P(...L.art)}"><b class="mc3-q">?</b></div><img class="cd3-frame" src="${F.url}" alt=""><div class="cd3-plate" style="${P(...L.plate)}"><span style="font-size:8cqw">？？？</span></div></div></div></div>`}
 const mini=w=>S.owned[w.id]?miniHtml(w):miniLockHtml(w.rarity);
+// 検索：英単語に、入力した文字が含まれていれば hit（"ap" は apple にも grape にも hit）。将来、日本語訳も対象に加える
+function matchesQuery(w,q){if(!q)return true;return w.en.toLowerCase().includes(q)}
+// 一致した位置が先頭に近い単語ほど先。同じ位置なら、アルファベット順（例: "ap" → apple, gap, map）
+function sortByQuery(list,q){if(!q)return list;return [...list].sort((a,b)=>{const d=a.en.toLowerCase().indexOf(q)-b.en.toLowerCase().indexOf(q);return d||a.en.localeCompare(b.en)})}
 function cards(){
-  const found=WORDS.filter(w=>S.owned[w.id]).length,list=WORDS.filter(w=>CF.r==="ALL"||w.rarity===CF.r),pages=Math.max(1,Math.ceil(list.length/PER));
-  CF.p=Math.min(CF.p,pages-1);
+  const found=ownedCount(),q=(CF.q||"").trim().toLowerCase();
+  const list=sortByQuery(WORDS.filter(w=>(CF.r==="ALL"||w.rarity===CF.r)&&matchesQuery(w,q)),q);
   $("#main").innerHTML=`<section class="cd orn"><div class="cd-h">🃏<div><h2>カード図鑑</h2><small>${found}/${WORDS.length}種類を発見</small></div></div>
+  <div class="cd-search"><input id="cd-q" type="text" inputmode="latin" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="英単語で検索（例: ap）" value="${CF.q?CF.q.replace(/"/g,"&quot;"):""}" oninput="cardSearch(this.value)">${CF.q?`<button class="cd-clear" onclick="cardSearch('')" aria-label="クリア">✕</button>`:""}</div>
   <div class="cd-f">${FIL.map(([k,t])=>`<button class="${CF.r===k?"on":""}" onclick="cardFilter('${k}')">${t}</button>`).join("")}</div>
-  <div class="cd-g">${list.slice(CF.p*PER,CF.p*PER+PER).map(mini).join("")}</div>
-  <div class="cd-p"><button onclick="cardPage(-1)" ${CF.p?"":"disabled"}>‹</button><span>${CF.p+1}/${pages}</span><button onclick="cardPage(1)" ${CF.p<pages-1?"":"disabled"}>›</button></div></section>`}
-function cardFilter(r){CF={r,p:0};cards()}
-function cardPage(d){CF.p+=d;cards()}
+  <div class="cd-count">${list.length}件</div>
+  <div class="cd-g">${list.length?list.map(mini).join(""):`<div class="cd-empty">見つかりませんでした</div>`}</div></section>`;
+  const iq=$("#cd-q");if(iq&&document.activeElement!==iq){}
+}
+function cardFilter(r){CF.r=r;cards();const iq=$("#cd-q");if(iq)iq.focus()}
+function cardSearch(v){CF.q=v;cards();const iq=$("#cd-q");if(iq){iq.focus();const n=iq.value.length;iq.setSelectionRange(n,n)}}
+
 function cardDetail(id){
   const w=WORDS.find(x=>x.id===id),n=S.owned[id]||0,m=S.mastery[id]||0,d=document.createElement("div");
   d.className="sheet";d.onclick=e=>{if(e.target===d)d.remove()};
