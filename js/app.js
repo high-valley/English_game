@@ -21,6 +21,18 @@ function artHtml(w,cls="card-art-image"){
   return `<div class="art">${icon(w)}</div>`}
 function cardImgFail(el,id){const w=WORDS.find(x=>x.id===id),wr=el.closest(".fitwrap")||el;if(!el.dataset.t){el.dataset.t=1;const u="assets/"+w.en+".svg?v="+ASSET_V;wr.querySelectorAll("img").forEach(i=>i.src=u);return}if(ART_SVG[w.en]){wr.outerHTML=ART_SVG[w.en];return}const d=document.createElement("div");d.className="art";d.textContent=icon(w);wr.replaceWith(d)}
 const P=(x,y,w,h)=>`left:${x/3}%;top:${y/4}%;width:${w/3}%;height:${h/4}%`;
+/* 名前プレートに収まる文字の大きさ（cqw）を返す。
+   単語は2〜14文字と幅が大きく違い、文字数だけでは幅が決まらない
+   （例：accommodate 11文字 の方が responsibility 14文字 より広い）。
+   そこで実際に測って決める。avail はプレートで文字に使える幅（cqw）、max は上限 */
+const PLATE_FONT='900 100px Georgia,"Times New Roman",serif';
+function plateFont(en,avail,max){
+  const c=plateFont._c||(plateFont._c=document.createElement("canvas").getContext("2d"));
+  c.font=PLATE_FONT;
+  const em=c.measureText(en).width/100;   // 文字の大きさ1あたりの幅
+  return Math.min(max, avail/em).toFixed(2)}
+// プレートの幅（cqw）から、文字に使える幅を出す。btn は発音ボタンのぶん
+const plateAvail=(L,btn)=>L.plate[2]/3-(btn?9.2:4.5);
 function hl(s,en){return s.replace(new RegExp("\\b("+en+"\\w*)","i"),"<b>$1</b>")}
 function speak(t){try{const u=new SpeechSynthesisUtterance(t);u.lang="en-US";speechSynthesis.cancel();speechSynthesis.speak(u)}catch(e){}}
 function cardArt(w){return CARD_IMG[w.en]||ART_SVG[w.en]?artHtml(w):`<div class="scn">${sceneSvg(w.rarity)}<i class="scn-pad"></i><div class="scn-ic">${icon(w)}</div></div>`}
@@ -30,7 +42,7 @@ function cardFace(w){
   <div class="cd3-art" style="${P(...L.art)}">${cardArt(w)}</div>${F?`<img class="cd3-frame" src="${F.url}" alt="">`:CARD_FRAME}
   <div class="cd3-star" style="${P(...L.star)}"><span>${"★".repeat(w.stars)}</span><em>${w.rarity==="LEGENDARY"?"LEGEND":w.rarity==="UNCOMMON"?"UNCOMMON":w.rarity}</em></div>
   <div class="cd3-word" style="${P(...L.word)}">WORD</div>
-  <div class="cd3-plate" style="${P(...L.plate)}"><span>${w.en}</span><button onclick="event.stopPropagation();speak('${w.en}')" aria-label="発音">🔊</button></div>
+  <div class="cd3-plate" style="${P(...L.plate)}"><span style="font-size:${plateFont(w.en,plateAvail(L,1),10.4)}cqw">${w.en}</span><button onclick="event.stopPropagation();speak('${w.en}')" aria-label="発音">🔊</button></div>
   <div class="cd3-info${ex.length>68?" xlong":ex.length>46?" long":""}" style="${P(...L.info)}"><div class="cd3-pill">${w.pos}${w.pronunciation?`　/${w.pronunciation}/`:""}</div><div class="cd3-ja">${w.ja}</div><div class="cd3-div"></div><div class="cd3-ex">${hl(ex,w.en)}</div><div class="cd3-tr">${tr}</div></div>
   <div class="cd3-lv" style="${P(...L.lv)}"><b>Lv.${Math.max(1,n)}</b><i><u style="width:${m*20}%"></u></i><span>${m}/5</span></div>
   <div class="cd3-rar" style="${P(...L.rar)}"><svg viewBox="0 0 24 24"><path d="M12 1l2.6 8.4L23 12l-8.4 2.6L12 23l-2.6-8.4L1 12l8.4-2.6z" fill="#f1d27a"/></svg><span>×${n}</span></div>
@@ -57,13 +69,16 @@ function home(){
 
 /* カード図鑑 */
 const FIL=[["ALL","すべて"],["COMMON","コモン"],["UNCOMMON","アンコモン"],["RARE","レア"],["EPIC","エピック"],["LEGENDARY","レジェンド"]];
+// レア度ごとの解放数（所持している種類 / そのレア度の全種類）。ALL は全体
+function rarityCount(k){const g=k==="ALL"?WORDS:WORDS.filter(w=>w.rarity===k);
+  return[g.filter(w=>S.owned[w.id]).length,g.length]}
 let CF={r:"ALL",q:""};
 // 図鑑・結果一覧の小さいカード。枠画像があれば、カードと同じ枠を縮小して使う（無ければ従来の表示）
 function miniLayout(F){return{...LAYOUT,...LAYOUT_IMG,...(F.art?{art:F.art}:{}),...(F.info?{info:F.info}:{}),...LAYOUT_OVERRIDE}}
 function miniHtml(w,isNew){
   const F=uiFrame(w.rarity);
   if(!F)return `<button class="mc r-${w.rarity}" onclick="cardDetail(${w.id})"><div class="mc-art">${artHtml(w,"mc-img")}</div><div>${w.en}</div><div class="mc-st">${"★".repeat(w.stars)}</div>${isNew?'<em class="gr-new">NEW</em>':""}</button>`;
-  const L=miniLayout(F),sz=Math.min(9.6,108/w.en.length).toFixed(1);
+  const L=miniLayout(F),sz=plateFont(w.en,plateAvail(L,0),9.6);
   return `<button class="mcard r-${w.rarity}" onclick="cardDetail(${w.id})"><div class="cd3"><div class="cd3-in imgf"><div class="cd3-art" style="${P(...L.art)}">${cardArt(w)}</div><img class="cd3-frame" src="${F.url}" alt="">
   <div class="cd3-plate" style="${P(...L.plate)}"><span style="font-size:${sz}cqw">${w.en}</span></div><div class="mc3-stars" style="${P(...L.info)}">${"★".repeat(w.stars)}</div>${isNew?'<em class="gr-new">NEW</em>':""}</div></div></button>`}
 function miniLockHtml(r){
@@ -106,7 +121,7 @@ function cards(){
   const found=ownedCount();
   $("#main").innerHTML=`<section class="cd"><div class="cd-top orn"><div class="cd-h">${ico("nav_cards","🃏")}<div><h2>カード図鑑</h2><small>${found}/${WORDS.length}種類を発見</small></div></div>
   <div class="cd-search"><input id="cd-q" type="search" enterkeyhint="search" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="英単語・日本語で検索（例: ap / りんご）" value="${CF.q?CF.q.replace(/"/g,"&quot;"):""}" oninput="cardSearch(this.value)"><button class="cd-clear hide" onclick="cardClear()" aria-label="クリア">✕</button></div>
-  <div class="cd-f" id="cd-f">${FIL.map(([k,t])=>`<button class="${CF.r===k?"on":""}" onclick="cardFilter('${k}')">${t}</button>`).join("")}</div></div>
+  <div class="cd-f" id="cd-f">${FIL.map(([k,t])=>{const[o,n]=rarityCount(k);return `<button class="${CF.r===k?"on":""} f-${k}" onclick="cardFilter('${k}')">${k==="ALL"?"":`<i class="gem"></i>`}${t}<b>${o}/${n}</b></button>`}).join("")}</div></div>
   <div class="cd-count" id="cd-count"></div>
   <div class="cd-g" id="cd-g"></div></section>`;
   cardList();

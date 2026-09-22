@@ -24,7 +24,7 @@ function gacha(){
   <div class="gp-price" id="gp-price"></div>
   <div class="gp2-rc">Lv.${GL} の排出率</div><div class="rates-row">${currentRates().map(([r,p])=>`<div class="r-${r}${p?"":" z"}"><i class="gem"></i>${r}<b>${p}%</b></div>`).join("")}</div></div>
   <button class="gold-btn" id="gp-btn" onclick="pullBtn()"></button></section>`;gnLabel();save()}
-function gnLabel(){const n=GM==="multi"?GN:1,c=ico("icon_coin","🪙","c");$("#gp-price").innerHTML=n===1?`1回 ${c} ${GACHA_COST}コイン`:`${n}回 ${c} ${n*GACHA_COST}コイン<small>　所持 ${c} ${S.coins}</small>`;$("#gp-btn").textContent=`🎁 ${n}回引く`}
+function gnLabel(){const n=GM==="multi"?GN:1,c=ico("icon_coin","🪙","c");$("#gp-price").innerHTML=n===1?`1回 ${c} ${GACHA_COST}コイン`:`${n}回 ${c} ${n*GACHA_COST}コイン<small>　所持 ${c} ${S.coins}</small>`;$("#gp-btn").textContent=`${n}回引く`}   // 絵文字は置かない（真上に大きなパック画像があり、小さい絵は潰れるだけ）
 function setGM(m){GM=m;gacha()}
 function gnSet(v,typing){GN=Math.max(1,Math.min(maxN(),parseInt(v)||1));const i=$("#gn");if(i&&!typing)i.value=GN;gnLabel()}
 function pullBtn(){GM==="multi"&&GN>1?pullMulti(GN):pull()}
