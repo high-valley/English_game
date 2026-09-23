@@ -23,6 +23,9 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from check_words import ENEMIES, has  # noqa: E402
+
 WORDS_JS = ROOT / "js" / "words.js"
 CARD_ART_JS = ROOT / "js" / "card_art.js"
 OUT_MD = ROOT / "card_image_prompts.md"
@@ -47,6 +50,43 @@ TAIL = ("painterly anime style, 3:2 wide landscape, the subject is large and cen
 
 LEVELS = ["COMMON", "UNCOMMON", "RARE", "EPIC", "LEGENDARY"]
 LEVEL_NO = {r: i + 1 for i, r in enumerate(LEVELS)}
+
+# 「この単語が主役」を、品詞に応じて英語で言い切る。
+# これを書かないと、例文の中の別の名詞が主役になる
+# （`sun` の "The sun rises over the castle." で、城が画面を占めて太陽が隅の点になった）
+SUBJECT = {
+    "名詞": 'The {en} itself is the main subject of the picture: large, centered and clearly visible.',
+    "動詞": "Make the sentence's action ({en}) the main subject: large, centered and clearly visible.",
+}
+SUBJECT_OTHER = ("Make the person or thing that the sentence is about the main subject: "
+                 "large, centered and clearly visible.")
+
+# 生きものが出てくるときは、顔と目を描いてもらう（目が無いと、ただの塊に見える）。
+# COMMON の敵（スライム・ゴブリン・コウモリ・ネズミ）は愛嬌のある見た目にし、
+# UNCOMMON 以上（オーク・スケルトン・幽霊〜大悪魔）は威厳のある見た目にする
+CREATURE_LOW = ("Any creature has big clear eyes looking toward the viewer "
+                "and a charming, readable face, like a game mascot.")
+CREATURE_HIGH = "Any creature has clear expressive eyes and a readable face."
+
+
+def subject_line(w):
+    return SUBJECT.get(w["pos"], SUBJECT_OTHER).format(en=w["en"])
+
+
+def creature_line(w):
+    """例文に敵役が出てくるなら、顔の指定を足す"""
+    if not any(has(w["ex"], e) for e in ENEMIES):
+        return ""
+    return CREATURE_LOW if w["rarity"] == "COMMON" else CREATURE_HIGH
+
+
+def prompt_for(w):
+    parts = [f'{STYLE[w["rarity"]]}. Scene: {w["ex"]}', subject_line(w)]
+    c = creature_line(w)
+    if c:
+        parts.append(c)
+    parts.append(TAIL)
+    return " ".join(parts)
 
 
 def load_words():
@@ -117,7 +157,7 @@ def main():
         for w in group:
             out.append(f"**{w['id']}. {w['en']}**（{w['ja']}）")
             out.append("```")
-            out.append(f"{STYLE[rarity]}. Scene: {w['ex']} {TAIL}")
+            out.append(prompt_for(w))
             out.append("```")
             out.append("")
 
