@@ -77,7 +77,7 @@ const WORDS=[{"id": 1, "en": "apple", "ja": "りんご", "pronunciation": "ˈæp
 {"id": 147, "en": "see", "ja": "見る", "pronunciation": "siː", "pos": "動詞", "rarity": "COMMON", "stars": 1, "ic": "👀", "ex": "I can see a goblin behind the tree.", "tr": "木の後ろにゴブリンが見える。"},
 {"id": 148, "en": "walk", "ja": "歩く", "pronunciation": "wɔːk", "pos": "動詞", "rarity": "COMMON", "stars": 1, "ic": "🥾", "ex": "We walk along the river.", "tr": "私たちは川ぞいを歩く。"},
 {"id": 149, "en": "run", "ja": "走る", "pronunciation": "rʌn", "pos": "動詞", "rarity": "COMMON", "stars": 1, "ic": "🏃", "ex": "The goblins run away from the village.", "tr": "ゴブリンたちが村から逃げていく。"},
-{"id": 150, "en": "jump", "ja": "跳ぶ", "pronunciation": "dʒʌmp", "pos": "動詞", "rarity": "COMMON", "stars": 1, "ic": "🤸", "ex": "The imp jumps onto the round table.", "tr": "インプが丸いテーブルの上に飛び乗る。"},
+{"id": 150, "en": "jump", "ja": "跳ぶ", "pronunciation": "dʒʌmp", "pos": "動詞", "rarity": "COMMON", "stars": 1, "ic": "🤸", "ex": "A little slime jumps over the stream.", "tr": "小さなスライムが小川をぴょんと跳びこえる。"},
 {"id": 151, "en": "swim", "ja": "泳ぐ", "pronunciation": "swɪm", "pos": "動詞", "rarity": "COMMON", "stars": 1, "ic": "🏊", "ex": "The children swim in the lake.", "tr": "子どもたちが湖で泳ぐ。"},
 {"id": 152, "en": "fly", "ja": "飛ぶ", "pronunciation": "flaɪ", "pos": "動詞", "rarity": "COMMON", "stars": 1, "ic": "🦅", "ex": "Bats fly around the dark tower.", "tr": "コウモリたちが暗い塔のまわりを飛ぶ。"},
 {"id": 153, "en": "sit", "ja": "座る", "pronunciation": "sɪt", "pos": "動詞", "rarity": "COMMON", "stars": 1, "ic": "💺", "ex": "Please sit by the fire.", "tr": "火のそばに座ってください。"},
