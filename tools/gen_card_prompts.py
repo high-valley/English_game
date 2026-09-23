@@ -30,21 +30,34 @@ WORDS_JS = ROOT / "js" / "words.js"
 CARD_ART_JS = ROOT / "js" / "card_art.js"
 OUT_MD = ROOT / "card_image_prompts.md"
 
-# レアリティ別の共通スタイル（COMMON は簡素、LEGENDARY は壮大。SPEC.md §6）
+# レアリティ別の画風（COMMON は簡素、LEGENDARY は壮大。SPEC.md §6）。
+# 画風の指定は、締め（TAIL）ではなく必ずここに書く。
+# 締めに "painterly anime style" と一言だけ置いていたときは、生成AIの既定の絵柄に押し負けて、
+# COMMON が 3DCG のようなつやつやした絵になった。レアリティごとに画風を言い切る
 STYLE = {
-    "COMMON": "clear fantasy illustration, one clear subject, a simple background that shows the place, "
-              "few magical effects, solid readable colors, clear directional light",
-    "UNCOMMON": "fantasy illustration with a small magical touch, gentle glow, "
-                "slightly richer details, clear subject",
-    "RARE": "rich fantasy illustration, dramatic lighting, golden accents, "
+    "COMMON": "soft hand-painted anime illustration, visible brush texture, matte finish, "
+              "gentle natural light, warm and clear colors, storybook feel, one clear subject, "
+              "a simple background that shows the place, few magical effects",
+    "UNCOMMON": "hand-painted anime fantasy illustration, visible brush texture, matte finish, "
+                "a small magical touch, gentle glow, slightly richer details, clear subject",
+    "RARE": "rich painted anime fantasy illustration, dramatic lighting, golden accents, "
             "floating light particles, detailed scene",
-    "EPIC": "very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, "
+    "EPIC": "very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, "
             "intricate details, jewels and golden ornaments, complex composition",
-    "LEGENDARY": "masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, "
+    "LEGENDARY": "masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, "
                  "golden particles, radiant light, extremely detailed, cinematic",
 }
-# すべてのプロンプトの締め（画風・構図の指定）
-TAIL = ("painterly anime style, 3:2 wide landscape, the subject is large and centered and fills "
+
+# 避けてほしい見た目（低レアだけ）。
+# COMMON・UNCOMMON は「絵の具で描いた感じ」を守りたいので、写実・3DCG・強い照り返しを外す。
+# RARE 以上は、豪華さのために光の効果を許す（そこを外すと壮大さが出ない）
+AVOID = {
+    "COMMON": "not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom",
+    "UNCOMMON": "not photorealistic, not a 3D render, no glossy plastic shine",
+}
+
+# すべてのプロンプトの締め（構図と、入れないもの）。画風はここに書かない
+TAIL = ("3:2 wide landscape, the subject is large and centered and fills "
         "most of the frame, important parts kept inside the middle horizontal band, "
         "no text, no letters, no logo, no border, no frame")
 
@@ -81,11 +94,13 @@ def creature_line(w):
 
 
 def prompt_for(w):
-    parts = [f'{STYLE[w["rarity"]]}. Scene: {w["ex"]}', subject_line(w)]
+    r = w["rarity"]
+    parts = [f'{STYLE[r]}. Scene: {w["ex"]}', subject_line(w)]
     c = creature_line(w)
     if c:
         parts.append(c)
-    parts.append(TAIL)
+    avoid = AVOID.get(r)
+    parts.append(f"{avoid}, {TAIL}" if avoid else TAIL)
     return " ".join(parts)
 
 

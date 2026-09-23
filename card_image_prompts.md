@@ -45,2524 +45,2524 @@
 
 ## Lv.1 COMMON（100語）
 
-共通のスタイル：clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light
+共通のスタイル：soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects
 
 **1. apple**（りんご）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The knight eats a red apple. The apple itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The knight eats a red apple. The apple itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **2. book**（本）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: A spider walks across the big open book. The book itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A spider walks across the big open book. The book itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **3. cat**（猫）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The black cat watches a rat by the wall. The cat itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The black cat watches a rat by the wall. The cat itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **4. dog**（犬）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The brave dog barks at the goblins. The dog itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The brave dog barks at the goblins. The dog itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **5. house**（家）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: A goblin runs out of the small house. The house itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A goblin runs out of the small house. The house itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **6. school**（学校）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The children walk to the old school. The school itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The children walk to the old school. The school itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **7. water**（水）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: A green slime floats in the cold water. The water itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A green slime floats in the cold water. The water itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **8. food**（食べ物）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: A hungry slime eats the food on the floor. The food itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A hungry slime eats the food on the floor. The food itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **9. friend**（友達）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: My friend and I fight a goblin together. The friend itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: My friend and I fight a goblin together. The friend itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **10. family**（家族）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The family sits around a warm fire. The family itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The family sits around a warm fire. The family itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **11. sun**（太陽）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The sun rises over the castle. The sun itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The sun rises over the castle. The sun itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **12. moon**（月）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: A gray wolf howls at the moon. The moon itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A gray wolf howls at the moon. The moon itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **13. car**（車）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The old car stops at the bridge. The car itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The old car stops at the bridge. The car itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **14. go**（行く）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: Do not go into the goblin cave alone. Make the sentence's action (go) the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: Do not go into the goblin cave alone. Make the sentence's action (go) the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **15. come**（来る）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The kobolds come from the dark forest. Make the sentence's action (come) the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The kobolds come from the dark forest. Make the sentence's action (come) the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **16. eat**（食べる）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: Slimes eat old bread in the cave. Make the sentence's action (eat) the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: Slimes eat old bread in the cave. Make the sentence's action (eat) the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **17. drink**（飲む）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: Drink this tea and rest. Make the sentence's action (drink) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: Drink this tea and rest. Make the sentence's action (drink) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **18. sleep**（眠る）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The kobold sleeps beside a small fire. Make the sentence's action (sleep) the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The kobold sleeps beside a small fire. Make the sentence's action (sleep) the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **19. happy**（幸せな）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The princess is happy today. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The princess is happy today. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **20. big**（大きい）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: A big spider hangs from the dead tree. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A big spider hangs from the dead tree. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **101. bird**（鳥）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: A bird sings on the castle wall. The bird itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A bird sings on the castle wall. The bird itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **102. fish**（魚）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The fish swims in the clear lake. The fish itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The fish swims in the clear lake. The fish itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **103. horse**（馬）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: A wolf chases the white horse. The horse itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A wolf chases the white horse. The horse itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **104. tree**（木）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: A tall tree stands by the river. The tree itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A tall tree stands by the river. The tree itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **105. flower**（花）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: She picks a flower in the garden. The flower itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: She picks a flower in the garden. The flower itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **106. river**（川）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The river runs through the forest. The river itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The river runs through the forest. The river itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **107. mountain**（山）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The dragon sleeps on the mountain. The mountain itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The dragon sleeps on the mountain. The mountain itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **108. sea**（海）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The ship sails across the sea. The sea itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The ship sails across the sea. The sea itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **109. star**（星）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: A star shines above the tower. The star itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A star shines above the tower. The star itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **110. rain**（雨）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The rain falls on the old town. The rain itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The rain falls on the old town. The rain itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **111. wind**（風）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: A cold wind blows from the north. The wind itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A cold wind blows from the north. The wind itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **112. snow**（雪）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: Snow covers the mountain path. The snow itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: Snow covers the mountain path. The snow itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **113. fire**（火）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: Goblins sit around a small fire. The fire itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: Goblins sit around a small fire. The fire itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **114. bread**（パン）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The baker makes fresh bread. The bread itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The baker makes fresh bread. The bread itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **115. milk**（牛乳）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The cat drinks warm milk. The milk itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The cat drinks warm milk. The milk itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **116. egg**（卵）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The dragon guards a golden egg. The egg itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The dragon guards a golden egg. The egg itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **117. rice**（米）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The farmer grows rice in the field. The rice itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The farmer grows rice in the field. The rice itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **118. tea**（お茶）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The old man drinks hot tea. The tea itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The old man drinks hot tea. The tea itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **119. cake**（ケーキ）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: We eat cake at the party. The cake itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: We eat cake at the party. The cake itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **120. door**（ドア）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: An imp knocks on the heavy door. The door itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: An imp knocks on the heavy door. The door itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **121. window**（窓）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: A bat flies in through the window. The window itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A bat flies in through the window. The window itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **122. table**（テーブル）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: An old map lies open on the table. The table itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: An old map lies open on the table. The table itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **123. chair**（椅子）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: A king sits on a golden chair. The chair itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A king sits on a golden chair. The chair itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **124. bed**（ベッド）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: A small slime hides under the bed. The bed itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A small slime hides under the bed. The bed itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **125. room**（部屋）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: A spider sits in the corner of the room. The room itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A spider sits in the corner of the room. The room itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **126. town**（町）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: Goblins attack the small town at night. The town itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: Goblins attack the small town at night. The town itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **127. road**（道）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: A kobold waits on the dark road. The road itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A kobold waits on the dark road. The road itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **128. bridge**（橋）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: Two kobolds guard the stone bridge. The bridge itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: Two kobolds guard the stone bridge. The bridge itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **129. castle**（城）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The castle stands on a hill. The castle itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The castle stands on a hill. The castle itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **130. king**（王）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The king speaks to the people. The king itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The king speaks to the people. The king itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **131. queen**（女王）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The queen wears a silver crown. The queen itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The queen wears a silver crown. The queen itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **132. boy**（少年）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The boy throws a stone at the imp. The boy itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The boy throws a stone at the imp. The boy itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **133. girl**（少女）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The girl feeds a baby dragon. The girl itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The girl feeds a baby dragon. The girl itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **134. man**（男の人）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: An old man walks on the road. The man itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: An old man walks on the road. The man itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **135. woman**（女の人）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: A woman sells fruit at the market. The woman itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A woman sells fruit at the market. The woman itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **136. baby**（赤ちゃん）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The baby sleeps in a small bed. The baby itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The baby sleeps in a small bed. The baby itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **137. teacher**（先生）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The teacher shows a map to the class. The teacher itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The teacher shows a map to the class. The teacher itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **138. doctor**（医者）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The doctor helps the hurt knight. The doctor itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The doctor helps the hurt knight. The doctor itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **139. sword**（剣）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: He cuts the slime with his sword. The sword itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: He cuts the slime with his sword. The sword itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **140. key**（鍵）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: A gold key opens the old iron gate. The key itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A gold key opens the old iron gate. The key itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **141. box**（箱）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: A small locked box sits in the cave. The box itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A small locked box sits in the cave. The box itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **142. bag**（かばん）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The traveler carries a heavy bag. The bag itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The traveler carries a heavy bag. The bag itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **143. hat**（帽子）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The wizard wears a tall hat. The hat itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The wizard wears a tall hat. The hat itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **144. night**（夜）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: Bats fly out of the cave at night. The night itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: Bats fly out of the cave at night. The night itself is the main subject of the picture: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **145. morning**（朝）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: We wake up early in the morning. The morning itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: We wake up early in the morning. The morning itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **146. hand**（手）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: She holds a lantern in her hand. The hand itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: She holds a lantern in her hand. The hand itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **147. see**（見る）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: I can see a goblin behind the tree. Make the sentence's action (see) the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: I can see a goblin behind the tree. Make the sentence's action (see) the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **148. walk**（歩く）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: We walk along the river. Make the sentence's action (walk) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: We walk along the river. Make the sentence's action (walk) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **149. run**（走る）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The goblins run away from the village. Make the sentence's action (run) the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The goblins run away from the village. Make the sentence's action (run) the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **150. jump**（跳ぶ）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The imp jumps onto the round table. Make the sentence's action (jump) the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The imp jumps onto the round table. Make the sentence's action (jump) the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **151. swim**（泳ぐ）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The children swim in the lake. Make the sentence's action (swim) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The children swim in the lake. Make the sentence's action (swim) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **152. fly**（飛ぶ）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: Bats fly around the dark tower. Make the sentence's action (fly) the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: Bats fly around the dark tower. Make the sentence's action (fly) the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **153. sit**（座る）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: Please sit by the fire. Make the sentence's action (sit) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: Please sit by the fire. Make the sentence's action (sit) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **154. open**（開ける）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: Do not open the goblin's old box. Make the sentence's action (open) the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: Do not open the goblin's old box. Make the sentence's action (open) the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **155. close**（閉める）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: Close the gate! The wolves are here. Make the sentence's action (close) the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: Close the gate! The wolves are here. Make the sentence's action (close) the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **156. read**（読む）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: I read a book every night. Make the sentence's action (read) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: I read a book every night. Make the sentence's action (read) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **157. write**（書く）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: She writes a letter to the king. Make the sentence's action (write) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: She writes a letter to the king. Make the sentence's action (write) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **158. sing**（歌う）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The bard sings a happy song. Make the sentence's action (sing) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The bard sings a happy song. Make the sentence's action (sing) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **159. play**（遊ぶ）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The children play in the garden. Make the sentence's action (play) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The children play in the garden. Make the sentence's action (play) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **160. help**（助ける）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: Help me! A slime is in my bag. Make the sentence's action (help) the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: Help me! A slime is in my bag. Make the sentence's action (help) the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **161. make**（作る）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: Let's make a small boat. Make the sentence's action (make) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: Let's make a small boat. Make the sentence's action (make) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **162. buy**（買う）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: I want to buy a new sword. Make the sentence's action (buy) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: I want to buy a new sword. Make the sentence's action (buy) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **163. give**（与える）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The king gives a gold ring to the hero. Make the sentence's action (give) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The king gives a gold ring to the hero. Make the sentence's action (give) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **164. love**（愛する）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The knight loves his home. Make the sentence's action (love) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The knight loves his home. Make the sentence's action (love) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **165. live**（住む）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: Goblins live in the dark cave. Make the sentence's action (live) the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: Goblins live in the dark cave. Make the sentence's action (live) the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **166. work**（働く）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The dwarves work in the mine. Make the sentence's action (work) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The dwarves work in the mine. Make the sentence's action (work) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **167. listen**（聞く）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: Listen! I hear a wolf outside. Make the sentence's action (listen) the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: Listen! I hear a wolf outside. Make the sentence's action (listen) the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **168. speak**（話す）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The wise owl can speak. Make the sentence's action (speak) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The wise owl can speak. Make the sentence's action (speak) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **169. small**（小さい）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: A small imp hides in the tall grass. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A small imp hides in the tall grass. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **170. new**（新しい）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The knight has a new shield. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The knight has a new shield. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **171. old**（古い）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The old tower is very tall. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The old tower is very tall. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **172. hot**（熱い）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The soup is too hot. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The soup is too hot. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **173. cold**（冷たい）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The lake is cold in winter. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The lake is cold in winter. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **174. fast**（速い）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The goblin is small but very fast. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The goblin is small but very fast. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **175. strong**（強い）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The strong knight lifts a big stone. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The strong knight lifts a big stone. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **176. good**（良い）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: This is a good day for a trip. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: This is a good day for a trip. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **177. red**（赤い）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: A red dragon flies over the town. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A red dragon flies over the town. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **178. blue**（青い）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The blue lake shines in the sun. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The blue lake shines in the sun. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **179. white**（白い）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: The snow is white and soft. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The snow is white and soft. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **180. black**（黒い）
 ```
-clear fantasy illustration, one clear subject, a simple background that shows the place, few magical effects, solid readable colors, clear directional light. Scene: A black crow sits on the roof. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A black crow sits on the roof. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has big clear eyes looking toward the viewer and a charming, readable face, like a game mascot. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 
 ## Lv.2 UNCOMMON（100語）
 
-共通のスタイル：fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject
+共通のスタイル：hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject
 
 **21. important**（重要な）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The stolen map of the orc camp is important. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The stolen map of the orc camp is important. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **22. different**（違う）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Each door leads to a different world. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Each door leads to a different world. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **23. usually**（たいてい）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Skeletons usually rise when the moon appears. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Skeletons usually rise when the moon appears. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **24. together**（一緒に）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: We fight the orcs together at the gate. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: We fight the orcs together at the gate. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **25. beautiful**（美しい）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The garden is beautiful in the moonlight. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The garden is beautiful in the moonlight. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **26. necessary**（必要な）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Silver is necessary to wound a ghost. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Silver is necessary to wound a ghost. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **27. remember**（覚えている）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: I remember the orc who broke this gate. Make the sentence's action (remember) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: I remember the orc who broke this gate. Make the sentence's action (remember) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **28. decide**（決める）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: He cannot decide which path to take. Make the sentence's action (decide) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: He cannot decide which path to take. Make the sentence's action (decide) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **29. continue**（続ける）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The skeletons continue to rise from the ground. Make the sentence's action (continue) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The skeletons continue to rise from the ground. Make the sentence's action (continue) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **30. arrive**（到着する）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The bandits arrive at the village before dawn. Make the sentence's action (arrive) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The bandits arrive at the village before dawn. Make the sentence's action (arrive) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **31. possible**（可能な）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Is it possible to cross the river? Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Is it possible to cross the river? Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **32. future**（未来）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The oracle sees the future in a crystal. The future itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The oracle sees the future in a crystal. The future itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **33. problem**（問題）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The orcs in the hills are a real problem. The problem itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The orcs in the hills are a real problem. The problem itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **34. reason**（理由）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: There is a reason for the strange light. The reason itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: There is a reason for the strange light. The reason itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **35. experience**（経験）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The hunter has experience fighting giant spiders. The experience itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The hunter has experience fighting giant spiders. The experience itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **36. learn**（学ぶ）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Young mages learn spells at the tower. Make the sentence's action (learn) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Young mages learn spells at the tower. Make the sentence's action (learn) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **37. difficult**（難しい）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The orc chief is difficult to defeat alone. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The orc chief is difficult to defeat alone. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **38. travel**（旅する）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Merchants travel across the desert. Make the sentence's action (travel) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Merchants travel across the desert. Make the sentence's action (travel) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **39. believe**（信じる）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: I believe in the power of words. Make the sentence's action (believe) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: I believe in the power of words. Make the sentence's action (believe) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **40. forget**（忘れる）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Do not forget the ghost in the east wing. Make the sentence's action (forget) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Do not forget the ghost in the east wing. Make the sentence's action (forget) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **181. garden**（庭）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Glowing flowers bloom in the secret garden. The garden itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Glowing flowers bloom in the secret garden. The garden itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **182. kitchen**（台所）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The witch cooks a magic soup in the kitchen. The kitchen itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The witch cooks a magic soup in the kitchen. The kitchen itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **183. market**（市場）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The village market is full of strange fruit. The market itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The village market is full of strange fruit. The market itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **184. village**（村）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Bandits watch the small village from the hill. The village itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Bandits watch the small village from the hill. The village itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **185. forest**（森）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Tiny lights dance in the dark forest. The forest itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Tiny lights dance in the dark forest. The forest itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **186. island**（島）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A floating island appears above the clouds. The island itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A floating island appears above the clouds. The island itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **187. desert**（砂漠）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The travelers cross the hot desert at night. The desert itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The travelers cross the hot desert at night. The desert itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **188. cave**（洞くつ）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Skeletons guard the treasure inside the cave. The cave itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Skeletons guard the treasure inside the cave. The cave itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **189. tower**（塔）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The wizard lives in the tallest tower. The tower itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The wizard lives in the tallest tower. The tower itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **190. gate**（門）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The orcs break the stone gate with a log. The gate itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The orcs break the stone gate with a log. The gate itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **191. ship**（船）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A silver ship sails through the night sky. The ship itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A silver ship sails through the night sky. The ship itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **192. station**（駅）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The old station is quiet at midnight. The station itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The old station is quiet at midnight. The station itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **193. hospital**（病院）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The healer works at the hospital on the hill. The hospital itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The healer works at the hospital on the hill. The hospital itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **194. library**（図書館）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Ancient books sleep in the silent library. The library itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Ancient books sleep in the silent library. The library itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **195. ticket**（切符）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: She shows her ticket to the guard. The ticket itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: She shows her ticket to the guard. The ticket itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **196. map**（地図）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The old map shows a hidden island. The map itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The old map shows a hidden island. The map itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **197. letter**（手紙）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A magic letter arrives at the window. The letter itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A magic letter arrives at the window. The letter itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **198. story**（物語）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Grandma tells a story about a dragon. The story itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Grandma tells a story about a dragon. The story itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **199. dream**（夢）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A ghost visits the boy in his dream. The dream itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A ghost visits the boy in his dream. The dream itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **200. question**（質問）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The sphinx asks a difficult question. The question itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The sphinx asks a difficult question. The question itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **201. answer**（答え）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Only the brave hero knows the answer. The answer itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Only the brave hero knows the answer. The answer itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **202. number**（数）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A large number of orcs march on the road. The number itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A large number of orcs march on the road. The number itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **203. color**（色）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The dragon changes color in the sun. The color itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The dragon changes color in the sun. The color itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **204. weather**（天気）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The weather is good for a journey. The weather itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The weather is good for a journey. The weather itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **205. summer**（夏）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Fireflies fill the air in summer. The summer itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Fireflies fill the air in summer. The summer itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **206. winter**（冬）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Snow falls softly in winter. The winter itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Snow falls softly in winter. The winter itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **207. holiday**（休日）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The whole town celebrates the holiday. The holiday itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The whole town celebrates the holiday. The holiday itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **208. bicycle**（自転車）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The boy rides a bicycle to school. The bicycle itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The boy rides a bicycle to school. The bicycle itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **209. brother**（兄弟）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: My brother is a brave knight. The brother itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: My brother is a brave knight. The brother itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **210. sister**（姉妹）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Her sister makes a magic potion. The sister itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Her sister makes a magic potion. The sister itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **211. mother**（母）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: His mother sings by the fire. The mother itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: His mother sings by the fire. The mother itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **212. father**（父）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The father teaches his son to swim. The father itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The father teaches his son to swim. The father itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **213. umbrella**（傘）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: She opens an umbrella in the rain. The umbrella itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: She opens an umbrella in the rain. The umbrella itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **214. mirror**（鏡）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A pale ghost appears in the old mirror. The mirror itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A pale ghost appears in the old mirror. The mirror itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **215. candle**（ろうそく）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A single candle keeps the ghosts away. The candle itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A single candle keeps the ghosts away. The candle itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **216. ring**（指輪）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The hero wears a ring of silver. The ring itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The hero wears a ring of silver. The ring itself is the main subject of the picture: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **217. crown**（王冠）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A skeleton king wears a broken crown. The crown itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A skeleton king wears a broken crown. The crown itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **218. shield**（盾）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: His shield stops the orc's heavy axe. The shield itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: His shield stops the orc's heavy axe. The shield itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **219. wait**（待つ）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The gargoyles wait on the roof at night. Make the sentence's action (wait) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The gargoyles wait on the roof at night. Make the sentence's action (wait) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **220. ask**（尋ねる）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The traveler asks the way to the castle. Make the sentence's action (ask) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The traveler asks the way to the castle. Make the sentence's action (ask) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **221. bring**（持ってくる）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Bring silver arrows to fight the ghosts. Make the sentence's action (bring) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Bring silver arrows to fight the ghosts. Make the sentence's action (bring) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **222. carry**（運ぶ）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The strong horse can carry two heavy bags. Make the sentence's action (carry) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The strong horse can carry two heavy bags. Make the sentence's action (carry) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **223. catch**（つかまえる）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: This net can catch even a giant spider. Make the sentence's action (catch) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: This net can catch even a giant spider. Make the sentence's action (catch) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **224. choose**（選ぶ）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: You must choose one path today. Make the sentence's action (choose) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: You must choose one path today. Make the sentence's action (choose) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **225. climb**（登る）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Giant spiders climb the tower walls at night. Make the sentence's action (climb) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Giant spiders climb the tower walls at night. Make the sentence's action (climb) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **226. cook**（料理する）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: He cooks a fresh fish over the fire. Make the sentence's action (cook) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: He cooks a fresh fish over the fire. Make the sentence's action (cook) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **227. cross**（渡る）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The orcs cross the river at the shallow point. Make the sentence's action (cross) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The orcs cross the river at the shallow point. Make the sentence's action (cross) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **228. dance**（踊る）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The fairies dance under the moon. Make the sentence's action (dance) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The fairies dance under the moon. Make the sentence's action (dance) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **229. draw**（描く）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: She draws a dragon on the wall. Make the sentence's action (draw) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: She draws a dragon on the wall. Make the sentence's action (draw) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **230. enjoy**（楽しむ）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: We enjoy a warm meal at the inn. Make the sentence's action (enjoy) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: We enjoy a warm meal at the inn. Make the sentence's action (enjoy) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **231. explain**（説明する）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The teacher explains the magic rules. Make the sentence's action (explain) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The teacher explains the magic rules. Make the sentence's action (explain) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **232. find**（見つける）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: We find skeleton bones in the old well. Make the sentence's action (find) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: We find skeleton bones in the old well. Make the sentence's action (find) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **233. follow**（ついていく）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Do not follow the harpy into the cliffs. Make the sentence's action (follow) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Do not follow the harpy into the cliffs. Make the sentence's action (follow) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **234. join**（加わる）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Many heroes join the guild every year. Make the sentence's action (join) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Many heroes join the guild every year. Make the sentence's action (join) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **235. leave**（去る）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The knight must leave the village at dawn. Make the sentence's action (leave) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The knight must leave the village at dawn. Make the sentence's action (leave) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **236. meet**（会う）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: We meet at the old bridge at noon. Make the sentence's action (meet) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: We meet at the old bridge at noon. Make the sentence's action (meet) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **237. protect**（守る）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The dragon protects the sleeping village. Make the sentence's action (protect) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The dragon protects the sleeping village. Make the sentence's action (protect) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **238. save**（救う）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The hero jumps in to save the child. Make the sentence's action (save) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The hero jumps in to save the child. Make the sentence's action (save) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **239. search**（探す）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: They search the forest for the lost key. Make the sentence's action (search) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: They search the forest for the lost key. Make the sentence's action (search) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **240. send**（送る）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The wizard sends a message by bird. Make the sentence's action (send) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The wizard sends a message by bird. Make the sentence's action (send) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **241. share**（分け合う）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The friends share bread and warm tea. Make the sentence's action (share) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The friends share bread and warm tea. Make the sentence's action (share) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **242. show**（見せる）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The guide shows us the secret path. Make the sentence's action (show) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The guide shows us the secret path. Make the sentence's action (show) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **243. teach**（教える）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The hunter teaches us how to stop zombies. Make the sentence's action (teach) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The hunter teaches us how to stop zombies. Make the sentence's action (teach) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **244. visit**（訪れる）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Many travelers visit the ancient temple. Make the sentence's action (visit) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Many travelers visit the ancient temple. Make the sentence's action (visit) the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **245. careful**（注意深い）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Be careful of the gargoyles above the door. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Be careful of the gargoyles above the door. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **246. dangerous**（危険な）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The orc camp at night is very dangerous. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The orc camp at night is very dangerous. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **247. quiet**（静かな）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The skeleton army waits in quiet rows. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The skeleton army waits in quiet rows. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **248. brave**（勇敢な）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The brave girl faces the orc alone. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The brave girl faces the orc alone. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **249. clever**（賢い）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A clever witch tricks the hungry troll. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A clever witch tricks the hungry troll. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **250. empty**（空の）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Only ghosts live in the empty castle. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Only ghosts live in the empty castle. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **251. famous**（有名な）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The famous bard sings in the town. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The famous bard sings in the town. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **252. heavy**（重い）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The orc swings a heavy iron club. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The orc swings a heavy iron club. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **253. tired**（疲れた）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The tired traveler falls asleep quickly. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The tired traveler falls asleep quickly. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **254. safe**（安全な）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: No road is safe while the bandits ride. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: No road is safe while the bandits ride. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **255. ready**（準備ができた）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The guards are ready for the orc attack. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The guards are ready for the orc attack. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **256. special**（特別な）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: This is a special day for the kingdom. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: This is a special day for the kingdom. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **257. always**（いつも）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Skeletons always rise again after sunset. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Skeletons always rise again after sunset. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **258. never**（決して〜ない）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Never enter the spider cave without fire. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Never enter the spider cave without fire. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **259. suddenly**（突然）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Suddenly, a ghost appears behind the door. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Suddenly, a ghost appears behind the door. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **260. finally**（ついに）
 ```
-fantasy illustration with a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Finally, the orc chief falls to the ground. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Finally, the orc chief falls to the ground. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 
 ## Lv.3 RARE（100語）
 
-共通のスタイル：rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene
+共通のスタイル：rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene
 
 **41. improve**（改善する）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: With daily practice, the young mage began to improve. Make the sentence's action (improve) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: With daily practice, the young mage began to improve. Make the sentence's action (improve) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **42. consider**（検討する）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The council must consider the vampire's strange offer. Make the sentence's action (consider) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The council must consider the vampire's strange offer. Make the sentence's action (consider) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **43. suggest**（提案する）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The guide suggested a route that avoids the werewolf woods. Make the sentence's action (suggest) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The guide suggested a route that avoids the werewolf woods. Make the sentence's action (suggest) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **44. require**（必要とする）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Killing a vampire requires a stake of white ash. Make the sentence's action (require) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Killing a vampire requires a stake of white ash. Make the sentence's action (require) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **45. develop**（発展する）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The small village developed into a great magical city. Make the sentence's action (develop) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The small village developed into a great magical city. Make the sentence's action (develop) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **46. increase**（増える）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The number of werewolves increases with every full moon. Make the sentence's action (increase) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The number of werewolves increases with every full moon. Make the sentence's action (increase) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **47. reduce**（減らす）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Silver armor reduces the damage from a werewolf's claws. Make the sentence's action (reduce) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Silver armor reduces the damage from a werewolf's claws. Make the sentence's action (reduce) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **48. environment**（環境）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The elves work hard to protect their forest environment. The environment itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The elves work hard to protect their forest environment. The environment itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **49. relationship**（関係）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The two kingdoms have a strong relationship. The relationship itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The two kingdoms have a strong relationship. The relationship itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **50. opportunity**（機会）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Dawn gave the hunters their only opportunity against the vampire. The opportunity itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Dawn gave the hunters their only opportunity against the vampire. The opportunity itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **51. responsibility**（責任）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A guardian carries a heavy responsibility. The responsibility itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A guardian carries a heavy responsibility. The responsibility itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **52. effective**（効果的な）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Holy water proved effective against the wandering wraiths. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Holy water proved effective against the wandering wraiths. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **53. available**（利用できる）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Two rooms are available at the inn. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Two rooms are available at the inn. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **54. achieve**（達成する）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: She worked for years to achieve her dream. Make the sentence's action (achieve) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: She worked for years to achieve her dream. Make the sentence's action (achieve) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **55. compare**（比べる）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The merchant compared the two swords carefully. Make the sentence's action (compare) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The merchant compared the two swords carefully. Make the sentence's action (compare) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **56. describe**（描写する）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The survivor described the troll that crushed the gate. Make the sentence's action (describe) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The survivor described the troll that crushed the gate. Make the sentence's action (describe) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **57. influence**（影響）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The full moon has a strong influence on werewolves. The influence itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The full moon has a strong influence on werewolves. The influence itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **58. purpose**（目的）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: What is the purpose of this ancient tower? The purpose itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: What is the purpose of this ancient tower? The purpose itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **59. popular**（人気のある）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The bard is popular in every town. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The bard is popular in every town. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **60. challenge**（挑戦）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The young hero accepted the vampire lord's challenge. The challenge itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The young hero accepted the vampire lord's challenge. The challenge itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **261. treasure**（宝物）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The pirates buried a golden treasure on the island. The treasure itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The pirates buried a golden treasure on the island. The treasure itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **262. mystery**（謎）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Nobody could solve the mystery of the silent tower. The mystery itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Nobody could solve the mystery of the silent tower. The mystery itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **263. secret**（秘密）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A secret door opened behind the old bookshelf. The secret itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A secret door opened behind the old bookshelf. The secret itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **264. wisdom**（知恵）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The old wizard shared his wisdom with the young heroes. The wisdom itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The old wizard shared his wisdom with the young heroes. The wisdom itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **265. victory**（勝利）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The victory over the troll army was celebrated for days. The victory itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The victory over the troll army was celebrated for days. The victory itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **266. power**（力）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A strange power flowed through the ancient crystal. The power itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A strange power flowed through the ancient crystal. The power itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **267. memory**（記憶）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A warm memory returned when she smelled the old flowers. The memory itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A warm memory returned when she smelled the old flowers. The memory itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **268. journey**（旅路）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The long journey across the desert tested their courage. The journey itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The long journey across the desert tested their courage. The journey itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **269. leader**（指導者）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The leader of the werewolf pack howled on the ridge. The leader itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The leader of the werewolf pack howled on the ridge. The leader itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **270. promise**（約束）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: He made a promise to return before the winter. The promise itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: He made a promise to return before the winter. The promise itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **271. danger**（危険）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Danger waited in the shadows of the ruined castle. The danger itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Danger waited in the shadows of the ruined castle. The danger itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **272. energy**（エネルギー）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Blue energy gathered around the mage's hands. The energy itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Blue energy gathered around the mage's hands. The energy itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **273. nature**（自然）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The elves live in harmony with nature. The nature itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The elves live in harmony with nature. The nature itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **274. peace**（平和）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: After the war, peace finally returned to the valley. The peace itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: After the war, peace finally returned to the valley. The peace itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **275. freedom**（自由）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The birds flew away with a sense of freedom. The freedom itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The birds flew away with a sense of freedom. The freedom itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **276. knowledge**（知識）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The library holds the knowledge of a thousand years. The knowledge itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The library holds the knowledge of a thousand years. The knowledge itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **277. history**（歴史）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The history of the kingdom is carved into the wall. The history itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The history of the kingdom is carved into the wall. The history itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **278. tradition**（伝統）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Every spring, the village keeps an old tradition. The tradition itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Every spring, the village keeps an old tradition. The tradition itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **279. culture**（文化）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The festival showed the culture of the mountain people. The culture itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The festival showed the culture of the mountain people. The culture itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **280. science**（科学）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: In the tower, scholars studied science and magic together. The science itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: In the tower, scholars studied science and magic together. The science itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **281. speed**（速さ）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The harpies dived at terrible speed over the cliffs. The speed itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The harpies dived at terrible speed over the cliffs. The speed itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **282. evidence**（証拠）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: They found evidence of a vampire in the empty crypt. The evidence itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: They found evidence of a vampire in the empty crypt. The evidence itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **283. expert**（専門家）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: An expert on werewolves examined the tracks by the river. The expert itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: An expert on werewolves examined the tracks by the river. The expert itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **284. ability**（能力）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A vampire has the ability to turn into a bat. The ability itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A vampire has the ability to turn into a bat. The ability itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **285. advantage**（利点）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Daylight gives every hunter an advantage over a vampire. The advantage itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Daylight gives every hunter an advantage over a vampire. The advantage itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **286. damage**（損害）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The troll's club caused heavy damage to the castle gate. The damage itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The troll's club caused heavy damage to the castle gate. The damage itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **287. community**（地域社会）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The whole community worked together to rebuild the town. The community itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The whole community worked together to rebuild the town. The community itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **288. effort**（努力）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: With great effort, the boy lifted the stone door. The effort itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: With great effort, the boy lifted the stone door. The effort itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **289. invention**（発明）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The inventor's newest invention floated above the workshop. The invention itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The inventor's newest invention floated above the workshop. The invention itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **290. truth**（真実）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The magic mirror in the hall always tells the truth. The truth itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The magic mirror in the hall always tells the truth. The truth itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **291. rule**（規則）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Every student must follow the rule of the academy. The rule itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Every student must follow the rule of the academy. The rule itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **292. region**（地域）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Harpies nest all across the northern region. The region itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Harpies nest all across the northern region. The region itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **293. discover**（発見する）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Explorers discover a hidden city beneath the ice. Make the sentence's action (discover) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Explorers discover a hidden city beneath the ice. Make the sentence's action (discover) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **294. destroy**（破壊する）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A stone golem destroyed the old wooden bridge. Make the sentence's action (destroy) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A stone golem destroyed the old wooden bridge. Make the sentence's action (destroy) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **295. hide**（隠す）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Vampires hide in the crypt while the sun is up. Make the sentence's action (hide) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Vampires hide in the crypt while the sun is up. Make the sentence's action (hide) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **296. reveal**（明かす）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The map will reveal the way to the lost temple. Make the sentence's action (reveal) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The map will reveal the way to the lost temple. Make the sentence's action (reveal) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **297. survive**（生き残る）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Only two hunters could survive the ogre's ambush. Make the sentence's action (survive) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Only two hunters could survive the ogre's ambush. Make the sentence's action (survive) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **298. create**（生み出す）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The artist can create living flowers from light. Make the sentence's action (create) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The artist can create living flowers from light. Make the sentence's action (create) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **299. gather**（集まる）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Wraiths gather around the old battlefield at midnight. Make the sentence's action (gather) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Wraiths gather around the old battlefield at midnight. Make the sentence's action (gather) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **300. imagine**（想像する）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Can you imagine a city floating in the sky? Make the sentence's action (imagine) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Can you imagine a city floating in the sky? Make the sentence's action (imagine) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **301. explore**（探検する）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The young heroes explore the ruins of an ancient temple. Make the sentence's action (explore) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The young heroes explore the ruins of an ancient temple. Make the sentence's action (explore) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **302. defend**（防衛する）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The knights defend the gate against the ogre warband. Make the sentence's action (defend) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The knights defend the gate against the ogre warband. Make the sentence's action (defend) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **303. attract**（引きつける）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Fresh blood will attract every vampire in the valley. Make the sentence's action (attract) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Fresh blood will attract every vampire in the valley. Make the sentence's action (attract) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **304. avoid**（避ける）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: We must avoid the cursed swamp at all costs. Make the sentence's action (avoid) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: We must avoid the cursed swamp at all costs. Make the sentence's action (avoid) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **305. belong**（属する）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: This golden sword belongs to the first king. Make the sentence's action (belong) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: This golden sword belongs to the first king. Make the sentence's action (belong) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **306. cause**（引き起こす）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A single spark can cause a great fire. Make the sentence's action (cause) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A single spark can cause a great fire. Make the sentence's action (cause) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **307. collect**（集める）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The children collect shining stones by the river. Make the sentence's action (collect) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The children collect shining stones by the river. Make the sentence's action (collect) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **308. connect**（つなぐ）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A long bridge connects the two floating islands. Make the sentence's action (connect) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A long bridge connects the two floating islands. Make the sentence's action (connect) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **309. contain**（含む）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The sealed coffin may contain a sleeping vampire. Make the sentence's action (contain) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The sealed coffin may contain a sleeping vampire. Make the sentence's action (contain) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **310. control**（操る）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A werewolf cannot control himself under a full moon. Make the sentence's action (control) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A werewolf cannot control himself under a full moon. Make the sentence's action (control) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **311. depend**（頼る）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The whole village depends on the river for water. Make the sentence's action (depend) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The whole village depends on the river for water. Make the sentence's action (depend) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **312. exist**（存在する）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Some say dragons no longer exist in this world. Make the sentence's action (exist) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Some say dragons no longer exist in this world. Make the sentence's action (exist) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **313. expect**（期待する）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Nobody expected a small girl to win the contest. Make the sentence's action (expect) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Nobody expected a small girl to win the contest. Make the sentence's action (expect) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **314. notice**（気づく）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: She noticed a basilisk's scales beside the dry well. Make the sentence's action (notice) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: She noticed a basilisk's scales beside the dry well. Make the sentence's action (notice) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **315. offer**（差し出す）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The merchant offered a silver coin for the magic ring. Make the sentence's action (offer) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The merchant offered a silver coin for the magic ring. Make the sentence's action (offer) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **316. prepare**（準備する）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The village prepares carefully for the night of the werewolf. Make the sentence's action (prepare) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The village prepares carefully for the night of the werewolf. Make the sentence's action (prepare) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **317. prevent**（防ぐ）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Garlic and silver prevent a vampire from entering a house. Make the sentence's action (prevent) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Garlic and silver prevent a vampire from entering a house. Make the sentence's action (prevent) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **318. recognize**（見分ける）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Even after ten years, he could recognize her voice. Make the sentence's action (recognize) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Even after ten years, he could recognize her voice. Make the sentence's action (recognize) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **319. recover**（回復する）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: It took a week to recover from the troll's heavy blow. Make the sentence's action (recover) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: It took a week to recover from the troll's heavy blow. Make the sentence's action (recover) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **320. refuse**（断る）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The proud king refused to listen to any advice. Make the sentence's action (refuse) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The proud king refused to listen to any advice. Make the sentence's action (refuse) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **321. release**（解き放つ）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The hero released the bird from the golden cage. Make the sentence's action (release) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The hero released the bird from the golden cage. Make the sentence's action (release) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **322. solve**（解く）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Only a clever mind can solve this old riddle. Make the sentence's action (solve) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Only a clever mind can solve this old riddle. Make the sentence's action (solve) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **323. ancient**（古代の）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Ancient symbols glow on the walls of the cave. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Ancient symbols glow on the walls of the cave. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **324. mysterious**（神秘的な）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A mysterious traveler arrived in the village at midnight. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A mysterious traveler arrived in the village at midnight. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **325. powerful**（強力な）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The vampire lord is the most powerful creature in this land. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The vampire lord is the most powerful creature in this land. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **326. valuable**（貴重な）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The pirates stole a valuable jewel from the royal vault. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The pirates stole a valuable jewel from the royal vault. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **327. curious**（好奇心の強い）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The curious kitten followed the glowing light. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The curious kitten followed the glowing light. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **328. enormous**（巨大な）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: An enormous troll blocks the narrow mountain pass. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: An enormous troll blocks the narrow mountain pass. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **329. familiar**（見慣れた）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The song was familiar, but she could not remember why. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The song was familiar, but she could not remember why. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **330. generous**（寛大な）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The generous king gave food to every hungry traveler. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The generous king gave food to every hungry traveler. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **331. honest**（正直な）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The honest merchant returned the lost purse. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The honest merchant returned the lost purse. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **332. ordinary**（ふつうの）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: It looked like an ordinary stone, but it glowed at night. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: It looked like an ordinary stone, but it glowed at night. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **333. rare**（まれな）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A rare flower blooms only once in a hundred years. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: A rare flower blooms only once in a hundred years. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **334. serious**（真剣な）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The hunters gave the village a serious warning about vampires. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The hunters gave the village a serious warning about vampires. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **335. useful**（役に立つ）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: This old compass is very useful in the fog. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: This old compass is very useful in the fog. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **336. wise**（賢明な）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The wise owl gave the travelers good advice. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The wise owl gave the travelers good advice. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **337. actually**（実は）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: It was actually a friendly dragon, not a monster. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: It was actually a friendly dragon, not a monster. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **338. especially**（特に）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The swamp is especially dangerous when the trolls wake. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The swamp is especially dangerous when the trolls wake. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **339. recently**（最近）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Werewolf tracks have appeared near the village recently. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Werewolf tracks have appeared near the village recently. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **340. probably**（たぶん）
 ```
-rich fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The vampire will probably return before dawn. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The vampire will probably return before dawn. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 
 ## Lv.4 EPIC（100語）
 
-共通のスタイル：very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition
+共通のスタイル：very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition
 
 **61. implement**（実行する）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The council will implement the plan against the lich tomorrow. Make the sentence's action (implement) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The council will implement the plan against the lich tomorrow. Make the sentence's action (implement) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **62. facilitate**（円滑にする）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: A magic bridge facilitates trade between the two kingdoms. Make the sentence's action (facilitate) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: A magic bridge facilitates trade between the two kingdoms. Make the sentence's action (facilitate) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **63. significant**（著しい）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The scholars noticed a significant rise in demon activity. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The scholars noticed a significant rise in demon activity. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **64. potential**（可能性）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The boy has great potential as a mage. The potential itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The boy has great potential as a mage. The potential itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **65. perspective**（視点）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: From the tower, she saw the city from a new perspective. The perspective itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: From the tower, she saw the city from a new perspective. The perspective itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **66. alternative**（代わりの）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: With the necromancer's army at the gate, they took an alternative route. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: With the necromancer's army at the gate, they took an alternative route. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **67. consequence**（結果）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Raising the dead brought a terrible consequence upon the necromancer. The consequence itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Raising the dead brought a terrible consequence upon the necromancer. The consequence itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **68. accurate**（正確な）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The old map is accurate down to the last river. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The old map is accurate down to the last river. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **69. efficient**（効率的な）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The dwarves built an efficient machine to mine the crystals. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The dwarves built an efficient machine to mine the crystals. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **70. strategy**（戦略）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The general planned a bold strategy against the demon horde. The strategy itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The general planned a bold strategy against the demon horde. The strategy itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **71. evaluate**（評価する）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The judges evaluate each mage's skill carefully. Make the sentence's action (evaluate) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The judges evaluate each mage's skill carefully. Make the sentence's action (evaluate) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **72. analyze**（分析する）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The mages analyzed the lich's ancient curse for many weeks. Make the sentence's action (analyze) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The mages analyzed the lich's ancient curse for many weeks. Make the sentence's action (analyze) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **73. establish**（設立する）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The heroes established a guild in the northern city. Make the sentence's action (establish) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The heroes established a guild in the northern city. Make the sentence's action (establish) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **74. maintain**（維持する）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The old wards maintain a barrier against the fiends outside. Make the sentence's action (maintain) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The old wards maintain a barrier against the fiends outside. Make the sentence's action (maintain) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **75. enhance**（高める）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: This gem can enhance the power of a spell. Make the sentence's action (enhance) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: This gem can enhance the power of a spell. Make the sentence's action (enhance) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **76. criteria**（基準）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The knight met all the criteria for the royal order. The criteria itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The knight met all the criteria for the royal order. The criteria itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **77. priority**（優先事項）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Destroying the lich's phylactery is our first priority. The priority itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Destroying the lich's phylactery is our first priority. The priority itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **78. comprehensive**（包括的な）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The order keeps a comprehensive record of every known demon. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The order keeps a comprehensive record of every known demon. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **79. demonstrate**（実演する）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The master will demonstrate the spell to the students. Make the sentence's action (demonstrate) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The master will demonstrate the spell to the students. Make the sentence's action (demonstrate) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **80. assumption**（前提）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Their attack failed on the false assumption that the lich was alone. The assumption itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Their attack failed on the false assumption that the lich was alone. The assumption itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **341. concept**（概念）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The scholar explained the concept of time magic to the council. The concept itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The scholar explained the concept of time magic to the council. The concept itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **342. context**（文脈）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Without the context, the ancient scroll made no sense at all. The context itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Without the context, the ancient scroll made no sense at all. The context itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **343. contract**（契約）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The warlock signed a contract with a demon under the blood moon. The contract itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The warlock signed a contract with a demon under the blood moon. The contract itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **344. decade**（十年間）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The old wall stood unbroken for a decade of endless wars. The decade itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The old wall stood unbroken for a decade of endless wars. The decade itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **345. dimension**（次元）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Demons poured from another dimension above the burning altar. The dimension itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Demons poured from another dimension above the burning altar. The dimension itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **346. economy**（経済）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The queen worked hard to rebuild the economy of the ruined kingdom. The economy itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The queen worked hard to rebuild the economy of the ruined kingdom. The economy itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **347. element**（要素）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Each mage in the academy masters one element, such as fire or ice. The element itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Each mage in the academy masters one element, such as fire or ice. The element itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **348. enterprise**（企業）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The merchants started a bold enterprise across the eastern sea. The enterprise itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The merchants started a bold enterprise across the eastern sea. The enterprise itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **349. equipment**（設備）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The dwarves checked their mining equipment before entering the deep cave. The equipment itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The dwarves checked their mining equipment before entering the deep cave. The equipment itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **350. expansion**（拡大）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The rapid expansion of the empire worried the border villages. The expansion itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The rapid expansion of the empire worried the border villages. The expansion itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **351. factor**（要因）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Holy fire was the deciding factor against the undead army. The factor itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Holy fire was the deciding factor against the undead army. The factor itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **352. feature**（特徴）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The most striking feature of the tower is its glowing crystal roof. The feature itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The most striking feature of the tower is its glowing crystal roof. The feature itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **353. foundation**（土台）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: A sleeping demon lies beneath the foundation of the black temple. The foundation itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: A sleeping demon lies beneath the foundation of the black temple. The foundation itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **354. framework**（枠組み）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The wizards built a strong framework of rules for the new academy. The framework itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The wizards built a strong framework of rules for the new academy. The framework itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **355. function**（機能）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The crystal has a single function: it stores the light of the moon. The function itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The crystal has a single function: it stores the light of the moon. The function itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **356. hypothesis**（仮説）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The scholar tested her hypothesis with a dangerous experiment. The hypothesis itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The scholar tested her hypothesis with a dangerous experiment. The hypothesis itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **357. identity**（正体）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The masked general hid his identity as a vampire lord. The identity itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The masked general hid his identity as a vampire lord. The identity itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **358. impact**（衝撃）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The falling star made a huge impact on the desert floor. The impact itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The falling star made a huge impact on the desert floor. The impact itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **359. industry**（産業）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The new furnaces brought a golden age to the mining industry. The industry itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The new furnaces brought a golden age to the mining industry. The industry itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **360. initiative**（主導権）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The young captain took the initiative and led the rescue mission. The initiative itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The young captain took the initiative and led the rescue mission. The initiative itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **361. institution**（機関）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The royal institution trains young mages from every land. The institution itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The royal institution trains young mages from every land. The institution itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **362. investment**（投資）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The king's investment in new ships brought great riches. The investment itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The king's investment in new ships brought great riches. The investment itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **363. mechanism**（仕組み）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: A hidden mechanism opened the door of the ancient vault. The mechanism itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: A hidden mechanism opened the door of the ancient vault. The mechanism itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **364. objective**（目標）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The objective is to burn the necromancer's book of names. The objective itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The objective is to burn the necromancer's book of names. The objective itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **365. outcome**（結末）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Nobody could predict the outcome of the war against the lich. The outcome itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Nobody could predict the outcome of the war against the lich. The outcome itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **366. principle**（原則）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The guild lives by one principle: never leave a friend behind. The principle itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The guild lives by one principle: never leave a friend behind. The principle itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **367. procedure**（手順）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The priest followed a careful procedure to banish the demon. The procedure itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The priest followed a careful procedure to banish the demon. The procedure itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **368. proposal**（提案）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The council rejected the queen's proposal to open the gates. The proposal itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The council rejected the queen's proposal to open the gates. The proposal itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **369. prospect**（見通し）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The prospect of a demon siege emptied the whole city. The prospect itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The prospect of a demon siege emptied the whole city. The prospect itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **370. sector**（部門）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The trade sector of the kingdom grew rapidly after the war. The sector itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The trade sector of the kingdom grew rapidly after the war. The sector itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **371. standard**（標準）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The blacksmith's swords set a new standard for quality. The standard itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The blacksmith's swords set a new standard for quality. The standard itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **372. theory**（理論）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The professor's theory explained how the floating islands stay in the air. The theory itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The professor's theory explained how the floating islands stay in the air. The theory itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **373. adapt**（適応する）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The elves adapted quickly to life in the snowy mountains. Make the sentence's action (adapt) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The elves adapted quickly to life in the snowy mountains. Make the sentence's action (adapt) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **374. adjust**（調整する）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The pilot adjusted the sails to catch the wind. Make the sentence's action (adjust) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The pilot adjusted the sails to catch the wind. Make the sentence's action (adjust) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **375. allocate**（配分する）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The queen will allocate more gold to the demon hunters. Make the sentence's action (allocate) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The queen will allocate more gold to the demon hunters. Make the sentence's action (allocate) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **376. anticipate**（予想する）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The general anticipated the dread knight's charge at dawn. Make the sentence's action (anticipate) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The general anticipated the dread knight's charge at dawn. Make the sentence's action (anticipate) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **377. apply**（適用する）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Mages must apply the same rule to every spell. Make the sentence's action (apply) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Mages must apply the same rule to every spell. Make the sentence's action (apply) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **378. assess**（査定する）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The knight assessed the fiend's wounds before striking again. Make the sentence's action (assess) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The knight assessed the fiend's wounds before striking again. Make the sentence's action (assess) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **379. assign**（任命する）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The captain assigned two knights to guard the demon seal. Make the sentence's action (assign) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The captain assigned two knights to guard the demon seal. Make the sentence's action (assign) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **380. attain**（到達する）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: After years of training, she attained the rank of archmage. Make the sentence's action (attain) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: After years of training, she attained the rank of archmage. Make the sentence's action (attain) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **381. conclude**（結論づける）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The council concluded that a lich ruled the frozen city. Make the sentence's action (conclude) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The council concluded that a lich ruled the frozen city. Make the sentence's action (conclude) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **382. conduct**（実施する）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The cultists conduct dark rites in the tower every night. Make the sentence's action (conduct) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The cultists conduct dark rites in the tower every night. Make the sentence's action (conduct) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **383. confirm**（確認する）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The scout confirmed that the necromancer's army had crossed the river. Make the sentence's action (confirm) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The scout confirmed that the necromancer's army had crossed the river. Make the sentence's action (confirm) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **384. consult**（相談する）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The king consulted the oracle before marching on the lich. Make the sentence's action (consult) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The king consulted the oracle before marching on the lich. Make the sentence's action (consult) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **385. convince**（納得させる）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: She could not convince the council to open the gates. Make the sentence's action (convince) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: She could not convince the council to open the gates. Make the sentence's action (convince) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **386. deliver**（届ける）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The courier delivered the royal message before sunrise. Make the sentence's action (deliver) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The courier delivered the royal message before sunrise. Make the sentence's action (deliver) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **387. distribute**（配る）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The monks distribute bread to the poor every morning. Make the sentence's action (distribute) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The monks distribute bread to the poor every morning. Make the sentence's action (distribute) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **388. eliminate**（取り除く）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The order will eliminate every cultist hiding in the capital. Make the sentence's action (eliminate) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The order will eliminate every cultist hiding in the capital. Make the sentence's action (eliminate) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **389. emerge**（姿を現す）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: A giant serpent slowly emerged from the dark lake. Make the sentence's action (emerge) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: A giant serpent slowly emerged from the dark lake. Make the sentence's action (emerge) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **390. emphasize**（強調する）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The teacher emphasized the importance of teamwork before the battle. Make the sentence's action (emphasize) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The teacher emphasized the importance of teamwork before the battle. Make the sentence's action (emphasize) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **391. encounter**（出会う）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The travelers encountered a wandering lich on the frozen pass. Make the sentence's action (encounter) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The travelers encountered a wandering lich on the frozen pass. Make the sentence's action (encounter) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **392. ensure**（確実にする）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Silver wards ensure that no demon enters the inner keep. Make the sentence's action (ensure) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Silver wards ensure that no demon enters the inner keep. Make the sentence's action (ensure) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **393. estimate**（見積もる）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The engineers estimate that the bridge will take a year to build. Make the sentence's action (estimate) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The engineers estimate that the bridge will take a year to build. Make the sentence's action (estimate) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **394. exceed**（上回る）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The demon's strength exceeded everything the knights had imagined. Make the sentence's action (exceed) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The demon's strength exceeded everything the knights had imagined. Make the sentence's action (exceed) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **395. extend**（延ばす）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The king decided to extend the road to the northern coast. Make the sentence's action (extend) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The king decided to extend the road to the northern coast. Make the sentence's action (extend) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **396. generate**（発生させる）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The crystal can generate enough energy to light the whole city. Make the sentence's action (generate) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The crystal can generate enough energy to light the whole city. Make the sentence's action (generate) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **397. illustrate**（例で示す）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The teacher drew a map to illustrate the hero's long journey. Make the sentence's action (illustrate) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The teacher drew a map to illustrate the hero's long journey. Make the sentence's action (illustrate) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **398. indicate**（示す）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The black runes indicate the place where the lich was buried. Make the sentence's action (indicate) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The black runes indicate the place where the lich was buried. Make the sentence's action (indicate) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **399. interpret**（解釈する）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Only the oracle could interpret the meaning of the strange dream. Make the sentence's action (interpret) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Only the oracle could interpret the meaning of the strange dream. Make the sentence's action (interpret) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **400. investigate**（調査する）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The hunters went to investigate the necromancer's silent tower. Make the sentence's action (investigate) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The hunters went to investigate the necromancer's silent tower. Make the sentence's action (investigate) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **401. justify**（正当化する）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: How can you justify such a dangerous plan? Make the sentence's action (justify) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: How can you justify such a dangerous plan? Make the sentence's action (justify) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **402. modify**（修正する）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Can the smith modify this sword to fit a smaller hand? Make the sentence's action (modify) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Can the smith modify this sword to fit a smaller hand? Make the sentence's action (modify) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **403. adequate**（十分な）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The tent was adequate shelter against the mountain wind. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The tent was adequate shelter against the mountain wind. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **404. appropriate**（適切な）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: It is not appropriate to draw a sword inside the temple. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: It is not appropriate to draw a sword inside the temple. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **405. complex**（複雑な）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The lich's curse was so complex that few mages could read it. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The lich's curse was so complex that few mages could read it. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **406. consistent**（一貫した）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The archer was consistent, hitting the target every single time. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The archer was consistent, hitting the target every single time. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **407. crucial**（極めて重要な）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The next hour is crucial before the demon gate opens. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The next hour is crucial before the demon gate opens. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **408. diverse**（多様な）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The market was crowded with diverse peoples from every land. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The market was crowded with diverse peoples from every land. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **409. essential**（不可欠な）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Clean water is essential for anyone crossing the desert. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Clean water is essential for anyone crossing the desert. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **410. fundamental**（根本的な）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Trust is the fundamental rule of a good guild. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Trust is the fundamental rule of a good guild. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **411. innovative**（革新的な）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The innovative smith invented a sword that could sing. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The innovative smith invented a sword that could sing. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **412. relevant**（関連のある）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Only the relevant pages of the ancient book were saved. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Only the relevant pages of the ancient book were saved. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **413. sufficient**（足りる）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Three days of food is sufficient for the mountain trip. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: Three days of food is sufficient for the mountain trip. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **414. ultimate**（究極の）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The ultimate goal is to end the lich king's long reign. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The ultimate goal is to end the lich king's long reign. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **415. valid**（有効な）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The ticket is valid only until the moon sets. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The ticket is valid only until the moon sets. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **416. vulnerable**（傷つきやすい）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The lich is vulnerable only when its phylactery breaks. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The lich is vulnerable only when its phylactery breaks. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **417. consequently**（その結果）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The bridge collapsed; consequently, the army had to turn back. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The bridge collapsed; consequently, the army had to turn back. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **418. currently**（現在）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: A demon lord is currently sealed beneath the northern mountain. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: A demon lord is currently sealed beneath the northern mountain. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **419. gradually**（徐々に）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The demon's shadow gradually covered the whole valley. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The demon's shadow gradually covered the whole valley. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **420. essentially**（本質的に）
 ```
-very luxurious epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The two spells are essentially the same, but one is faster. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, intricate details, jewels and golden ornaments, complex composition. Scene: The two spells are essentially the same, but one is faster. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 
 ## Lv.5 LEGENDARY（100語）
 
-共通のスタイル：masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic
+共通のスタイル：masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic
 
 **81. leverage**（活用する）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The vampire count leveraged his alliances to seize three human cities. Make the sentence's action (leverage) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The vampire count leveraged his alliances to seize three human cities. Make the sentence's action (leverage) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **82. mitigate**（和らげる）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The archmage raised a barrier to mitigate the archdemon's burning breath. Make the sentence's action (mitigate) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The archmage raised a barrier to mitigate the archdemon's burning breath. Make the sentence's action (mitigate) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **83. acquisition**（買収）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The acquisition of the cursed mines gave the vampire count new power. The acquisition itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The acquisition of the cursed mines gave the vampire count new power. The acquisition itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **84. stakeholder**（利害関係者）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Every stakeholder gathered to decide how to fight the archdemon. The stakeholder itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Every stakeholder gathered to decide how to fight the archdemon. The stakeholder itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **85. compliance**（順守）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The guild ensured full compliance with the royal safety rules. The compliance itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The guild ensured full compliance with the royal safety rules. The compliance itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **86. revenue**（収益）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The harbor's revenue fell sharply after the vampire raids began. The revenue itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The harbor's revenue fell sharply after the vampire raids began. The revenue itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **87. disruption**（混乱）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The archdemon's return caused serious disruption across every trade route. The disruption itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The archdemon's return caused serious disruption across every trade route. The disruption itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **88. sustainable**（持続可能な）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The elves designed a sustainable city that grows together with the forest. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The elves designed a sustainable city that grows together with the forest. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **89. negotiation**（交渉）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The negotiation with the demon lord ended in blood and fire. The negotiation itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The negotiation with the demon lord ended in blood and fire. The negotiation itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **90. collaboration**（協力）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The collaboration of mages and smiths produced a legendary sword. The collaboration itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The collaboration of mages and smiths produced a legendary sword. The collaboration itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **91. proactively**（先手を打って）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The captain proactively reinforced the walls before the demon siege. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The captain proactively reinforced the walls before the demon siege. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **92. substantial**（かなりの）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: A substantial part of the army was lost to the undead legion. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: A substantial part of the army was lost to the undead legion. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **93. constraint**（制約）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The mages worked within strict constraints of time and mana. The constraint itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The mages worked within strict constraints of time and mana. The constraint itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **94. incentive**（報奨）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The king offered a golden incentive to anyone who could break the curse. The incentive itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The king offered a golden incentive to anyone who could break the curse. The incentive itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **95. scalable**（拡張可能な）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The guild built a scalable system that could grow with the city. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The guild built a scalable system that could grow with the city. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **96. benchmark**（指標）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The old champion's record became the benchmark for every young knight. The benchmark itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The old champion's record became the benchmark for every young knight. The benchmark itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **97. liability**（負債）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: An unpaid debt became a heavy liability for the merchant. The liability itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: An unpaid debt became a heavy liability for the merchant. The liability itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **98. contingency**（不測の事態）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The general prepared a contingency plan in case the lich rose again. The contingency itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The general prepared a contingency plan in case the lich rose again. The contingency itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **99. deliverable**（成果物）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Each apprentice submitted the final deliverable before the deadline. The deliverable itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Each apprentice submitted the final deliverable before the deadline. The deliverable itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **100. streamline**（効率化する）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The guildmaster streamlined the process to save time. Make the sentence's action (streamline) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The guildmaster streamlined the process to save time. Make the sentence's action (streamline) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **421. agenda**（議題）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The elder placed the dragon threat first on the agenda of the summit. The agenda itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The elder placed the dragon threat first on the agenda of the summit. The agenda itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **422. alliance**（同盟）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The free cities formed an alliance against the archdemon's endless legions. The alliance itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The free cities formed an alliance against the archdemon's endless legions. The alliance itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **423. asset**（資産）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The ancient library became the most valuable asset of the kingdom. The asset itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The ancient library became the most valuable asset of the kingdom. The asset itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **424. audit**（監査）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Royal inspectors conducted a strict audit of the treasury accounts. The audit itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Royal inspectors conducted a strict audit of the treasury accounts. The audit itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **425. brand**（ブランド）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The famous guild built a brand that every traveler could trust. The brand itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The famous guild built a brand that every traveler could trust. The brand itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **426. budget**（予算）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The queen approved a large budget for the war against the archdemon. The budget itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The queen approved a large budget for the war against the archdemon. The budget itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **427. capital**（資本）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The merchants raised enough capital to build a fleet of sky ships. The capital itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The merchants raised enough capital to build a fleet of sky ships. The capital itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **428. client**（顧客）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The wizard promised his client a spell that would never fail. The client itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The wizard promised his client a spell that would never fail. The client itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **429. competitor**（競合他社）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: A rival guild became a serious competitor in the crystal trade. The competitor itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: A rival guild became a serious competitor in the crystal trade. The competitor itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **430. consumer**（消費者）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Every consumer in the city wanted a lamp that never burned out. The consumer itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Every consumer in the city wanted a lamp that never burned out. The consumer itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **431. corporation**（大企業）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The mining corporation controlled every mountain from the coast to the desert. The corporation itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The mining corporation controlled every mountain from the coast to the desert. The corporation itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **432. deadline**（締め切り）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The blacksmith worked all night to meet the royal deadline. The deadline itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The blacksmith worked all night to meet the royal deadline. The deadline itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **433. demand**（需要）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Demand for silver weapons rose sharply after the vampire count appeared. The demand itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Demand for silver weapons rose sharply after the vampire count appeared. The demand itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **434. dividend**（配当）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Each shareholder received a golden dividend at the end of the year. The dividend itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Each shareholder received a golden dividend at the end of the year. The dividend itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **435. entrepreneur**（起業家）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The young entrepreneur opened a tavern in the middle of the sky. The entrepreneur itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The young entrepreneur opened a tavern in the middle of the sky. The entrepreneur itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **436. headquarters**（本部）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The guild built its headquarters inside a giant hollow tree. The headquarters itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The guild built its headquarters inside a giant hollow tree. The headquarters itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **437. inflation**（インフレ）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Inflation made a loaf of bread cost ten gold coins. The inflation itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Inflation made a loaf of bread cost ten gold coins. The inflation itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **438. inventory**（在庫）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The dwarf counted every item in the inventory before the caravan left. The inventory itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The dwarf counted every item in the inventory before the caravan left. The inventory itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **439. manufacturer**（製造業者）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The finest manufacturer of enchanted armor lived in the mountain city. The manufacturer itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The finest manufacturer of enchanted armor lived in the mountain city. The manufacturer itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **440. merger**（合併）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The merger of the two guilds created the strongest force in the land. The merger itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The merger of the two guilds created the strongest force in the land. The merger itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **441. milestone**（節目）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Slaying the vampire count was a milestone in the long war. The milestone itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Slaying the vampire count was a milestone in the long war. The milestone itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **442. partnership**（提携）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The partnership between mages and engineers changed the whole kingdom. The partnership itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The partnership between mages and engineers changed the whole kingdom. The partnership itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **443. portfolio**（ポートフォリオ）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The banker's portfolio held gold mines, ships, and even a small dragon. The portfolio itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The banker's portfolio held gold mines, ships, and even a small dragon. The portfolio itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **444. productivity**（生産性）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The new enchanted looms doubled the productivity of the weavers. The productivity itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The new enchanted looms doubled the productivity of the weavers. The productivity itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **445. profit**（利益）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The pirates split the profit equally among the whole crew. The profit itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The pirates split the profit equally among the whole crew. The profit itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **446. recession**（景気後退）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: During the recession after the demon war, half the port city closed. The recession itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: During the recession after the demon war, half the port city closed. The recession itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **447. reputation**（評判）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Her reputation as an honest healer spread across every kingdom. The reputation itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Her reputation as an honest healer spread across every kingdom. The reputation itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **448. subsidiary**（子会社）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The great guild opened a subsidiary in the far eastern harbor. The subsidiary itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The great guild opened a subsidiary in the far eastern harbor. The subsidiary itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **449. supplier**（供給業者）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The king's chief supplier delivered ten thousand silver arrows before the undead came. The supplier itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The king's chief supplier delivered ten thousand silver arrows before the undead came. The supplier itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **450. tariff**（関税）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The empire raised a heavy tariff on all goods from the south. The tariff itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The empire raised a heavy tariff on all goods from the south. The tariff itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **451. transaction**（取引）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Every transaction in the market was recorded in a magic ledger. The transaction itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Every transaction in the market was recorded in a magic ledger. The transaction itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **452. warehouse**（倉庫）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The cultists hid a sealed archdemon relic inside the old warehouse. The warehouse itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The cultists hid a sealed archdemon relic inside the old warehouse. The warehouse itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **453. workforce**（労働力）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The city needed a larger workforce to rebuild the walls the titan broke. The workforce itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The city needed a larger workforce to rebuild the walls the titan broke. The workforce itself is the main subject of the picture: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **454. monopoly**（独占）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The wizard's guild held a monopoly on all flying carpets. The monopoly itself is the main subject of the picture: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The wizard's guild held a monopoly on all flying carpets. The monopoly itself is the main subject of the picture: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **455. accelerate**（加速させる）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The mages used a spell to accelerate the growth of the crops. Make the sentence's action (accelerate) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The mages used a spell to accelerate the growth of the crops. Make the sentence's action (accelerate) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **456. accommodate**（収容する）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The grand hall could accommodate ten thousand guests at once. Make the sentence's action (accommodate) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The grand hall could accommodate ten thousand guests at once. Make the sentence's action (accommodate) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **457. acquire**（手に入れる）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The lich tried to acquire the rare book before the order burned it. Make the sentence's action (acquire) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The lich tried to acquire the rare book before the order burned it. Make the sentence's action (acquire) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **458. align**（足並みをそろえる）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The two kingdoms agreed to align their armies against the archdemon. Make the sentence's action (align) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The two kingdoms agreed to align their armies against the archdemon. Make the sentence's action (align) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **459. amend**（改正する）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The council voted to amend the ancient law of the harbor. Make the sentence's action (amend) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The council voted to amend the ancient law of the harbor. Make the sentence's action (amend) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **460. approve**（承認する）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The king will approve the plan only if the council agrees. Make the sentence's action (approve) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The king will approve the plan only if the council agrees. Make the sentence's action (approve) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **461. authorize**（認可する）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Only the queen can authorize the opening of the sealed demon vault. Make the sentence's action (authorize) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Only the queen can authorize the opening of the sealed demon vault. Make the sentence's action (authorize) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **462. commence**（開始する）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The final assault on the lich's fortress will commence at dawn. Make the sentence's action (commence) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The final assault on the lich's fortress will commence at dawn. Make the sentence's action (commence) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **463. consolidate**（統合する）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The general moved to consolidate his forces before the demon legion arrived. Make the sentence's action (consolidate) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The general moved to consolidate his forces before the demon legion arrived. Make the sentence's action (consolidate) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **464. delegate**（委任する）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The wise queen chose to delegate the harvest to her trusted advisors. Make the sentence's action (delegate) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The wise queen chose to delegate the harvest to her trusted advisors. Make the sentence's action (delegate) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **465. diversify**（多角化する）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The merchant decided to diversify and sell silk as well as spices. Make the sentence's action (diversify) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The merchant decided to diversify and sell silk as well as spices. Make the sentence's action (diversify) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **466. endorse**（支持する）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The famous hero agreed to endorse the new sword shop. Make the sentence's action (endorse) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The famous hero agreed to endorse the new sword shop. Make the sentence's action (endorse) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **467. execute**（遂行する）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The hunters will execute the plan at midnight, when the vampire count sleeps. Make the sentence's action (execute) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The hunters will execute the plan at midnight, when the vampire count sleeps. Make the sentence's action (execute) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **468. expedite**（早める）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The king ordered the smiths to expedite the silver arrows for the undead war. Make the sentence's action (expedite) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The king ordered the smiths to expedite the silver arrows for the undead war. Make the sentence's action (expedite) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **469. finalize**（最終決定する）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The two rulers met in the tower to finalize the treaty. Make the sentence's action (finalize) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The two rulers met in the tower to finalize the treaty. Make the sentence's action (finalize) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **470. forecast**（予測する）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The oracle can forecast the archdemon's attack three days in advance. Make the sentence's action (forecast) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The oracle can forecast the archdemon's attack three days in advance. Make the sentence's action (forecast) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **471. initiate**（着手する）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The queen wished to initiate a bold plan to reunite the realms. Make the sentence's action (initiate) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The queen wished to initiate a bold plan to reunite the realms. Make the sentence's action (initiate) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **472. invest**（投資する）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The wealthy duke chose to invest his gold in a fleet of airships. Make the sentence's action (invest) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The wealthy duke chose to invest his gold in a fleet of airships. Make the sentence's action (invest) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **473. oversee**（統括する）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: A trusted knight will oversee the sealing of the demon gate. Make the sentence's action (oversee) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: A trusted knight will oversee the sealing of the demon gate. Make the sentence's action (oversee) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **474. prioritize**（優先する）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The captain had to prioritize saving the children over saving the cargo. Make the sentence's action (prioritize) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The captain had to prioritize saving the children over saving the cargo. Make the sentence's action (prioritize) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **475. procure**（調達する）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The alchemist struggled to procure the holy water needed against the lich. Make the sentence's action (procure) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The alchemist struggled to procure the holy water needed against the lich. Make the sentence's action (procure) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **476. reimburse**（払い戻す）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The king promised to reimburse the farmers for the fields the demons burned. Make the sentence's action (reimburse) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The king promised to reimburse the farmers for the fields the demons burned. Make the sentence's action (reimburse) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **477. renew**（更新する）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Every year, the villagers renew the old pact with the forest spirits. Make the sentence's action (renew) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Every year, the villagers renew the old pact with the forest spirits. Make the sentence's action (renew) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **478. restructure**（再編する）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: After the demon war, the council had to restructure the entire army. Make the sentence's action (restructure) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: After the demon war, the council had to restructure the entire army. Make the sentence's action (restructure) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **479. revise**（改訂する）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The scholars revise the ancient map whenever a new island appears. Make the sentence's action (revise) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The scholars revise the ancient map whenever a new island appears. Make the sentence's action (revise) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **480. supervise**（監督する）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The old master will supervise the young apprentices in the forge. Make the sentence's action (supervise) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The old master will supervise the young apprentices in the forge. Make the sentence's action (supervise) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **481. terminate**（終了させる）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The order decided to terminate the warlock's contract with the archdemon. Make the sentence's action (terminate) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The order decided to terminate the warlock's contract with the archdemon. Make the sentence's action (terminate) the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **482. undermine**（弱体化させる）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Rumors spread by the spy began to undermine the king's authority. Make the sentence's action (undermine) the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Rumors spread by the spy began to undermine the king's authority. Make the sentence's action (undermine) the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **483. ambitious**（野心的な）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The ambitious young mage dreamed of ruling the entire academy. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The ambitious young mage dreamed of ruling the entire academy. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **484. competitive**（競争力のある）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Only the most competitive guilds survived in the crystal trade. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Only the most competitive guilds survived in the crystal trade. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **485. confidential**（機密の）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The general received a confidential report on the archdemon's only weakness. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The general received a confidential report on the archdemon's only weakness. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **486. flexible**（柔軟な）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: A flexible plan let the army escape when the demons broke through. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: A flexible plan let the army escape when the demons broke through. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **487. lucrative**（もうかる）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Selling dragon eggs to collectors was a lucrative but dangerous business. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Selling dragon eggs to collectors was a lucrative but dangerous business. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **488. mandatory**（義務の）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: It is mandatory for every knight to swear the oath before the battle. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: It is mandatory for every knight to swear the oath before the battle. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **489. obsolete**（時代遅れの）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Iron weapons became obsolete once the demons reached the capital. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Iron weapons became obsolete once the demons reached the capital. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **490. overdue**（期限を過ぎた）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The debt of the merchant was already overdue by three long years. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The debt of the merchant was already overdue by three long years. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **491. profitable**（利益の出る）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The northern trade route proved profitable for the whole guild. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The northern trade route proved profitable for the whole guild. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **492. prominent**（著名な）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: A prominent scholar of the academy opened the great debate. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: A prominent scholar of the academy opened the great debate. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **493. viable**（実行可能な）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The wizards found no viable way to destroy the archdemon's crown. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The wizards found no viable way to destroy the archdemon's crown. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **494. temporary**（一時的な）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The seal on the demon gate is only a temporary fix. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The seal on the demon gate is only a temporary fix. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **495. transparent**（透明な）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The queen promised a transparent trial, open to every citizen. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The queen promised a transparent trial, open to every citizen. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **496. volatile**（不安定な）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The volatile mixture of potions could explode at any moment. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The volatile mixture of potions could explode at any moment. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **497. accordingly**（それに応じて）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The general saw the lich's plan and prepared accordingly. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The general saw the lich's plan and prepared accordingly. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **498. approximately**（およそ）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The journey to the sky city takes approximately three days. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The journey to the sky city takes approximately three days. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **499. simultaneously**（同時に）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Two archdemons struck the tower simultaneously from opposite sides. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: Two archdemons struck the tower simultaneously from opposite sides. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **500. subsequently**（その後）
 ```
-masterpiece grand legendary fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The hero slew the lich and subsequently sealed the black gate. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. painterly anime style, 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, golden particles, radiant light, extremely detailed, cinematic. Scene: The hero slew the lich and subsequently sealed the black gate. Make the person or thing that the sentence is about the main subject: large, centered and clearly visible. Any creature has clear expressive eyes and a readable face. 3:2 wide landscape, the subject is large and centered and fills most of the frame, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
