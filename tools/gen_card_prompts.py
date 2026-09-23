@@ -6,6 +6,16 @@
 
 プロンプトは「レアリティ別の共通スタイル」＋「例文（ex）」＋「共通の締め」でできている。
 例文の場面が、そのまま絵になる。
+
+書き方のきまり（実際に生成して分かったこと）:
+  ・**「簡素に」と書かない。** COMMON に "minimal effects, soft colors, little decoration" と
+    書いていたところ、生成AIによっては淡い水彩＋余白だらけになり、紺の枠に対して弱くなった
+    （同じ5語を2つのAIで出して比べた。彩度の平均が 43〜78 と 47〜101 で、前者は見劣りした）。
+    レアリティの差は「効果と描き込みの量」で付ける。色の濃さは全レアリティで落とさない
+  ・**主役は枠いっぱいに。** "main subject centered with margin" と書くと、余白を取りすぎて
+    小カード（図鑑）で主役が小さくなる
+  ・**上下は切られる前提で書く。** 小カードは 3:2 の上下を切って表示するので、
+    大事なものは中央の帯に収める
 """
 import json
 import re
@@ -19,8 +29,8 @@ OUT_MD = ROOT / "card_image_prompts.md"
 
 # レアリティ別の共通スタイル（COMMON は簡素、LEGENDARY は壮大。SPEC.md §6）
 STYLE = {
-    "COMMON": "simple fantasy illustration, one clear subject, calm simple background, "
-              "minimal effects, soft colors, little decoration",
+    "COMMON": "clear fantasy illustration, one clear subject, a simple background that shows the place, "
+              "few magical effects, solid readable colors, clear directional light",
     "UNCOMMON": "fantasy illustration with a small magical touch, gentle glow, "
                 "slightly richer details, clear subject",
     "RARE": "rich fantasy illustration, dramatic lighting, golden accents, "
@@ -31,8 +41,9 @@ STYLE = {
                  "golden particles, radiant light, extremely detailed, cinematic",
 }
 # すべてのプロンプトの締め（画風・構図の指定）
-TAIL = ("painterly anime style, 3:2 landscape composition, main subject centered with margin, "
-        "no text, no letters, no border, no frame")
+TAIL = ("painterly anime style, 3:2 wide landscape, the subject is large and centered and fills "
+        "most of the frame, important parts kept inside the middle horizontal band, "
+        "no text, no letters, no logo, no border, no frame")
 
 LEVELS = ["COMMON", "UNCOMMON", "RARE", "EPIC", "LEGENDARY"]
 LEVEL_NO = {r: i + 1 for i, r in enumerate(LEVELS)}
