@@ -1,8 +1,8 @@
 # WORD GRIMOIRE ― 次にやるタスク
 
 ## 次のタスク（優先順）
-1. **カード画像の作成（COMMON から）**。`card_image_next.md` に COMMON の残り37語が図鑑の並び順で入っている
-   （COMMON は 63/100。ほかに UNCOMMON / RARE / EPIC / LEGENDARY が各1枚＝全体 67/500）
+1. **カード画像の作成（COMMON から）**。`card_image_next.md` に COMMON の残り32語が図鑑の並び順で入っている
+   （COMMON は 68/100。ほかに UNCOMMON / RARE / EPIC / LEGENDARY が各1枚＝全体 72/500）
    - 画像の生成は画像生成AI（ChatGPT / Grok など）に頼む（Claude は画像を作れない）
    - **プロンプトを渡すときは、必ず `python3 tools/prompt_for.py <単語>` を通す。**
      例文を記憶で書くと、絵と例文が食い違う（`run` の例文を取り違え、`sad` は存在しない単語だった。2枚むだにした）
@@ -35,6 +35,7 @@
 - `icon_coin` を作り直す場合は `assets/ui/icon_prompts.md`（金色が主体で、暗い面を作らないこと）
 
 ## 完了済み
+- COMMON のカード画像を5枚追加（hat / night / morning / hand / see）。COMMON は 68/100、全体 72/500
 - COMMON のカード画像を5枚追加（doctor / sword / key / box / bag）。COMMON は 63/100、全体 67/500。`key` はユーザーが生成AI側で修正したもの
 - COMMON のカード画像を5枚追加（girl / man / woman / baby / teacher）。COMMON は 58/100、全体 62/500。`girl` の竜が `egg` の竜と同じ姿で出て、`EXTRA_LOOK` も効いていることを確かめた
 - COMMON のカード画像を5枚追加（bridge / castle / king / queen / boy）。COMMON は 53/100（半分を超えた）、全体 57/500
