@@ -43,7 +43,7 @@ STYLE = {
     "RARE": "rich painted anime fantasy illustration, dramatic lighting, golden accents, "
             "floating light particles, detailed scene",
     "EPIC": "very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, "
-            "intricate details, jewels and golden ornaments, complex composition",
+            "intricate details, jewels and golden ornaments in the setting, complex composition",
     "LEGENDARY": "masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, "
                  "golden particles, radiant light, extremely detailed, cinematic",
 }
@@ -81,6 +81,11 @@ CREATURE_LOW = ("Any creature has big clear eyes looking toward the viewer "
                 "and a charming, readable face, like a game mascot.")
 CREATURE_HIGH = "Any creature has clear expressive eyes and a readable face."
 
+# RARE 以上は「金・宝石」を画風に入れているため、例文に出てくる人まで王侯貴族の装いになる。
+# significant の "The scholars noticed ..." で、学者4人が宝石だらけの貴族に見えた。
+# 役割（学者・農夫・商人・衛兵…）が分かる服装にしてもらう
+ROLE = "The people are dressed so that their role in the sentence is obvious at a glance."
+
 
 def subject_line(w):
     return SUBJECT.get(w["pos"], SUBJECT_OTHER).format(en=w["en"])
@@ -99,6 +104,8 @@ def prompt_for(w):
     c = creature_line(w)
     if c:
         parts.append(c)
+    if LEVEL_NO[r] >= 3:
+        parts.append(ROLE)
     avoid = AVOID.get(r)
     parts.append(f"{avoid}, {TAIL}" if avoid else TAIL)
     return " ".join(parts)

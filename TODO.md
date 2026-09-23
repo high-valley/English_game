@@ -1,8 +1,8 @@
 # WORD GRIMOIRE ― 次にやるタスク
 
 ## 次のタスク（優先順）
-1. **カード画像の作成（COMMON から）**。`card_image_next.md` に COMMON の残り88語が図鑑の並び順で入っている
-   （100語中12語ぶん完成：apple / book / cat / dog / family / food / friend / house / moon / school / sun / water）
+1. **カード画像の作成（COMMON から）**。`card_image_next.md` に COMMON の残り87語が図鑑の並び順で入っている
+   （COMMON は 13/100。ほかに UNCOMMON / RARE / LEGENDARY が各1枚＝全体 16/500）
    - 画像の生成は ChatGPT などに頼む（Claude は画像を作れない）
    - 置いたら `js/card_art.js` の `CARD_IMG_NAMES` に名前を追加する
    - `python3 tools/gen_next_batch.py all COMMON` で残りを出し直す（作り終えた分は自動で外れる）
@@ -22,6 +22,7 @@
 - `icon_coin` を作り直す場合は `assets/ui/icon_prompts.md`（金色が主体で、暗い面を作らないこと）
 
 ## 完了済み
+- **全レアリティで1枚ずつ試した**（eat / necessary / require / significant / stakeholder）。レアリティの差は絵に出ており、`stakeholder` のような抽象語も絵になった。EPIC だけ、学者が宝石だらけの貴族に見えたので `ROLE`（役割の分かる服装）を追加した
 - COMMON のカード画像を2枚追加（sun / moon）し、`water` を新しい画風のものに差し替え。COMMON は 12/100
 - COMMON のカード画像を5枚追加（school / water / food / friend / family）。COMMON は 10/100
 - COMMON のカード画像を4枚追加（book / cat / dog / house）。あわせて版ずれを検査する `tools/check_assets.py` を追加
