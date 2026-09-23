@@ -27,7 +27,7 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この79語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この88語は、絵文字ではなく画像で表示されます）。
 
 - apple
 - baby
@@ -40,11 +40,13 @@
 - boy
 - bread
 - bridge
+- buy
 - cake
 - car
 - castle
 - cat
 - chair
+- close
 - come
 - doctor
 - dog
@@ -60,15 +62,19 @@
 - food
 - friend
 - girl
+- give
 - go
 - hand
 - happy
 - hat
+- help
 - horse
 - house
 - jump
 - key
 - king
+- love
+- make
 - man
 - milk
 - moon
@@ -76,6 +82,8 @@
 - mountain
 - necessary
 - night
+- open
+- play
 - queen
 - rain
 - read
@@ -89,6 +97,7 @@
 - sea
 - see
 - significant
+- sing
 - sit
 - sleep
 - snow
@@ -488,7 +497,7 @@ soft hand-painted anime illustration, visible brush texture, matte finish, gentl
 
 **155. close**（閉める）
 ```
-soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: He closes the door before the wolves come. Make the sentence's action (close) the main subject: large and clearly visible. Any creature has clear, expressive eyes and a readable face. wolves are lean and grey with thick fur, amber eyes and dark markings on the muzzle. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. If the sentence does not say where this happens, and it suits the scene, set it in a farm yard with barns and fences. When several people appear, each has a clearly different face, age and build. Composition: the subject set to one side of the frame, with the place opening up beside it. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The old wizard closes his spell book in his tower. Make the sentence's action (close) the main subject: large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: the subject set to one side of the frame, with the place opening up beside it. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **156. read**（読む）
@@ -518,12 +527,12 @@ soft hand-painted anime illustration, visible brush texture, matte finish, gentl
 
 **161. make**（作る）
 ```
-soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: Let's make a small boat. Make the sentence's action (make) the main subject: large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. If the sentence does not say where this happens, and it suits the scene, set it in a rocky mountain pass. When several people appear, each has a clearly different face, age and build. Composition: a low angle, looking up at the subject against the sky or the ceiling above it. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The old man makes a small boat by the lake. Make the sentence's action (make) the main subject: large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a low angle, looking up at the subject against the sky or the ceiling above it. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **162. buy**（買う）
 ```
-soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: I want to buy a new sword. Make the sentence's action (buy) the main subject: large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. If the sentence does not say where this happens, and it suits the scene, set it in a ruined watchtower overgrown with ivy. When several people appear, each has a clearly different face, age and build. Composition: seen from slightly above, looking down on the subject and the ground around it. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The young knight buys a new sword at the market. Make the sentence's action (buy) the main subject: large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: seen from slightly above, looking down on the subject and the ground around it. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **163. give**（与える）
@@ -533,7 +542,7 @@ soft hand-painted anime illustration, visible brush texture, matte finish, gentl
 
 **164. love**（愛する）
 ```
-soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The knight loves his home. Make the sentence's action (love) the main subject: large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. If the sentence does not say where this happens, and it suits the scene, set it in a blacksmith's workshop, open to the street. When several people appear, each has a clearly different face, age and build. Composition: framed through something in the foreground - an archway, a doorway or branches - with the subject beyond it. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The girl loves the little cat in her arms. Make the sentence's action (love) the main subject: large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: framed through something in the foreground - an archway, a doorway or branches - with the subject beyond it. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **165. live**（住む）
@@ -553,7 +562,7 @@ soft hand-painted anime illustration, visible brush texture, matte finish, gentl
 
 **168. speak**（話す）
 ```
-soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The wise owl can speak. Make the sentence's action (speak) the main subject: large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. If the sentence does not say where this happens, and it suits the scene, set it in a forest path under tall trees. When several people appear, each has a clearly different face, age and build. Composition: a close view at eye level, the subject filling the frame and cropped by the edges. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The wise owl speaks to a boy in the forest. Make the sentence's action (speak) the main subject: large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a close view at eye level, the subject filling the frame and cropped by the edges. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **169. small**（小さい）
@@ -593,7 +602,7 @@ soft hand-painted anime illustration, visible brush texture, matte finish, gentl
 
 **176. good**（良い）
 ```
-soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: This is a good day for a trip. Make the person or thing that the sentence is about the main subject: large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. If the sentence does not say where this happens, and it suits the scene, set it in a rocky mountain pass. When several people appear, each has a clearly different face, age and build. Composition: a close view at eye level, the subject filling the frame and cropped by the edges. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A good knight helps an old woman across the bridge. Make the person or thing that the sentence is about the main subject: large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a close view at eye level, the subject filling the frame and cropped by the edges. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **177. red**（赤い）

@@ -1,8 +1,8 @@
 # WORD GRIMOIRE ― 次にやるタスク
 
 ## 次のタスク（優先順）
-1. **カード画像の作成（COMMON から）**。`card_image_next.md` に COMMON の残り25語が図鑑の並び順で入っている
-   （COMMON は 75/100。ほかに UNCOMMON / RARE / EPIC / LEGENDARY が各1枚＝全体 79/500）
+1. **カード画像の作成（COMMON から）**。`card_image_next.md` に COMMON の残り16語が図鑑の並び順で入っている
+   （COMMON は 84/100。ほかに UNCOMMON / RARE / EPIC / LEGENDARY が各1枚＝全体 88/500）
    - 画像の生成は画像生成AI（ChatGPT / Grok など）に頼む（Claude は画像を作れない）
    - **プロンプトを渡すときは、必ず `python3 tools/prompt_for.py <単語>` を通す。**
      例文を記憶で書くと、絵と例文が食い違う（`run` の例文を取り違え、`sad` は存在しない単語だった。2枚むだにした）
@@ -35,6 +35,10 @@
 - `icon_coin` を作り直す場合は `assets/ui/icon_prompts.md`（金色が主体で、暗い面を作らないこと）
 
 ## 完了済み
+- COMMON のカード画像を5枚追加（close / make / buy / give / love）。書き換えた例文で出したもので、5枚とも動作が絵に出た。COMMON は 84/100、全体 88/500
+- 絵にしにくい例文を先回りして5つ書き換え（close / make / buy / love / good）。呼びかけ（Let's）・願望（want to）・抽象（loves his home / a good day）をやめ、場所も例文に入れて舞台と食い違わないようにした
+- COMMON のカード画像を4枚追加（open / sing / play / help）。COMMON は 79/100、全体 83/500
+- `close` の例文をもう一度書き換え（ドアを閉める → 魔法使いが魔導書を閉じる）。ドア版も、手がドアの端をつかむだけで木の棒を持っているように見えたため
 - COMMON のカード画像を3枚追加（jump / read / write）。COMMON は 75/100、全体 79/500
 - `open` / `close` の例文を書き換え。`open` は「開けてはいけない」という打ち消しで、何の絵か分からなかった。`close` は「門」が生成AIに難しく、門の形が崩れた（両開きの扉が不自然につながる）ので、単純なドアにした
 - COMMON のカード画像を4枚追加（walk / swim / fly / sit）。COMMON は 72/100、全体 76/500
