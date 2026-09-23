@@ -27,14 +27,16 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この62語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この67語は、絵文字ではなく画像で表示されます）。
 
 - apple
 - baby
+- bag
 - bed
 - big
 - bird
 - book
+- box
 - boy
 - bread
 - bridge
@@ -44,6 +46,7 @@
 - cat
 - chair
 - come
+- doctor
 - dog
 - door
 - drink
@@ -60,6 +63,7 @@
 - happy
 - horse
 - house
+- key
 - king
 - man
 - milk
@@ -82,6 +86,7 @@
 - stakeholder
 - star
 - sun
+- sword
 - table
 - tea
 - teacher
