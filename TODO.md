@@ -1,8 +1,8 @@
 # WORD GRIMOIRE ― 次にやるタスク
 
 ## 次のタスク（優先順）
-1. **カード画像の作成（COMMON から）**。`card_image_next.md` に COMMON の残り57語が図鑑の並び順で入っている
-   （COMMON は 43/100。ほかに UNCOMMON / RARE / EPIC / LEGENDARY が各1枚＝全体 47/500）
+1. **カード画像の作成（COMMON から）**。`card_image_next.md` に COMMON の残り52語が図鑑の並び順で入っている
+   （COMMON は 48/100。ほかに UNCOMMON / RARE / EPIC / LEGENDARY が各1枚＝全体 52/500）
    - 画像の生成は画像生成AI（ChatGPT / Grok など）に頼む（Claude は画像を作れない）
    - **プロンプトを渡すときは、必ず `python3 tools/prompt_for.py <単語>` を通す。**
      例文を記憶で書くと、絵と例文が食い違う（`run` の例文を取り違え、`sad` は存在しない単語だった。2枚むだにした）
@@ -19,7 +19,10 @@
   `moon` / `sun` / `sky` / `cloud` のような語に当たったときも同じことが起きる。
   直すなら、空にあるものには「引き」を割り当てない（`SHOT_SKIP` のような仕組み）。
   **ただし「見上げ」は問題なかった**：`fire`（洞窟）は洞窟の口から空を見せ、
-  `window`（窓）は窓枠ごしに空を見せて成立した。悪いのは「引き」だけの可能性が高い
+  `window`（窓）は窓枠ごしに空を見せて成立した。
+  **「引き」も、地上のものなら問題なかった**：`room`（部屋のすみの蜘蛛）は部屋全体が読めて成立した。
+  → 悪いのは「**空にあるもの × 引き**」の組み合わせだけ。直すなら `star` / `moon` / `sun` / `sky` / `cloud`
+  などに「引き」を当てない、で足りる
 - **先に作った6枚を、今の画風で作り直すか**（apple / book / cat / family / food / school）。
   この6枚はプロンプトを直す前の絵柄（濃いめのアニメ塗り）で、今の指定は柔らかい手描き。
   COMMON が100枚そろうころには、この6枚が少数派になる
@@ -32,6 +35,7 @@
 - `icon_coin` を作り直す場合は `assets/ui/icon_prompts.md`（金色が主体で、暗い面を作らないこと）
 
 ## 完了済み
+- COMMON のカード画像を5枚追加（bed / room / town / road / chair）。COMMON は 48/100、全体 52/500
 - COMMON のカード画像を5枚追加（tea / cake / door / window / table）。COMMON は 43/100、全体 47/500。インプ（`door`）とコウモリ（`window`）は、これが姿の基準になる
 - COMMON のカード画像を5枚追加（fire / bread / milk / egg / rice）。COMMON は 38/100、全体 42/500
 - **竜の見た目を `EXTRA_LOOK` に定義**。例文に竜が出る語は12あり、ゴブリン（11語）より多い。ただし味方側でも出るので `ENEMIES` には入れず、姿をそろえる仕組みだけを適用した（敵役の割合は 40% のまま）
