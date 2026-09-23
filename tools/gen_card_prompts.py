@@ -24,7 +24,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from check_words import ENEMIES, has  # noqa: E402
+from check_words import ENEMIES, enemy_pattern, has  # noqa: E402
 
 WORDS_JS = ROOT / "js" / "words.js"
 CARD_ART_JS = ROOT / "js" / "card_art.js"
@@ -75,16 +75,119 @@ SUBJECT_OTHER = ("Make the person or thing that the sentence is about the main s
                  "large, centered and clearly visible.")
 
 # 生きものが出てくるときは、顔と目を描いてもらう（目が無いと、ただの塊に見える）。
-# COMMON の敵（スライム・ゴブリン・コウモリ・ネズミ）は愛嬌のある見た目にし、
-# UNCOMMON 以上（オーク・スケルトン・幽霊〜大悪魔）は威厳のある見た目にする
-CREATURE_LOW = ("Any creature has big clear eyes looking toward the viewer "
-                "and a charming, readable face, like a game mascot.")
-CREATURE_HIGH = "Any creature has clear expressive eyes and a readable face."
+# 「愛嬌があるか、怖いか」はレアリティでは決まらない。同じ COMMON でも、
+# スライムは可愛く、ゴブリンは怖い。そこは FOE_LOOK 側に書く
+CREATURE = "Any creature has clear, expressive eyes and a readable face."
 
 # RARE 以上は「金・宝石」を画風に入れているため、例文に出てくる人まで王侯貴族の装いになる。
 # significant の "The scholars noticed ..." で、学者4人が宝石だらけの貴族に見えた。
 # 役割（学者・農夫・商人・衛兵…）が分かる服装にしてもらう
 ROLE = "The people are dressed so that their role in the sentence is obvious at a glance."
+
+# 世界観。これを書かないと、生成AIの好みで和風・中華風の絵が混ざる
+# （drink が日本の茶の間、significant の学者が中華風の道士になった）
+WORLD = ("The world is European high fantasy: stone castles, cobbled roads, "
+         "cloaks, swords and lanterns.")
+
+# 人が複数出てくると、同じ顔が並ぶ（significant の学者3人が同一人物に見えた）
+FACES = "When several people appear, each has a clearly different face, age and build."
+
+# 敵役の見た目。**カードをまたいで同じ姿にするための設定**。
+# これが無いと、ゴブリンが絵ごとに別の生きものになる
+# （dog では背の高い痩せた緑の男、go では膝丈の丸い小鬼）。
+# ENEMIES（check_words.py）の全項目にひとつずつ用意する（下の assert で漏れを止める）
+FOE_LOOK = {
+    # Lv.1 COMMON
+    # 基準は dog / house / friend のカード。可愛い小鬼ではなく、痩せて険しい緑の男
+    "goblin": "goblins are lean and wiry, a head shorter than a man, with sage-green skin, "
+              "long ears that stick out sideways, a large hooked nose, yellow eyes and sharp teeth, "
+              "in ragged brown cloth and scraps of leather, barefoot, menacing",
+    "slime": "slimes are smooth rounded domes of translucent green jelly, about the size of a melon, "
+             "with two big round eyes and a small simple mouth, charming",
+    "bat": "bats are small and fuzzy with dark violet fur, large round ears and big round eyes, charming",
+    "rat": "rats are plump and grey-brown with a long bare tail and small bright eyes, charming",
+    "spider": "spiders are round and dark grey with pale markings, eight thick legs "
+              "and a cluster of small shiny eyes",
+    "imp": "imps are tiny and red-skinned with small horns, bat wings and a thin barbed tail, mischievous",
+    "kobold": "kobolds are small lizard folk, knee-high, with scaled green, blue or orange skin, "
+              "big round eyes, a short snout and a ragged hooded cloak, charming",
+    "wolf": "wolves are lean and grey with thick fur, amber eyes and dark markings on the muzzle",
+    "crow": "crows are glossy black with a heavy beak and pale grey eyes",
+    # Lv.2 UNCOMMON
+    "orc": "orcs are tall and heavy with dark green skin, a broad jaw with lower tusks, black hair, "
+           "and crude iron and leather armour",
+    "skeleton": "skeletons are bare bone-white skeletons in a rusted iron helm and scraps of mail, "
+                "with small points of light in the eye sockets",
+    "ghost": "ghosts are pale blue-white and half transparent, the lower body fading into mist, "
+             "with hollow glowing eyes",
+    "witch": "witches are gaunt women in a dark green robe and a wide pointed hat, with a crooked staff",
+    "bandit": "bandits are rough men in worn leather with a dark cloth mask over the lower face",
+    "zombie": "zombies are grey-skinned and slack-jawed in torn clothing, with clouded white eyes",
+    "gargoyle": "gargoyles are grey stone beasts with folded bat wings, curved horns and blank carved eyes",
+    "harpy": "harpies are women from the waist up, with brown feathered wings for arms and clawed bird legs",
+    # Lv.3 RARE
+    "vampire": "vampires are pale and sharp-featured with red eyes, white hair, long fangs "
+               "and a high-collared crimson and black cloak",
+    "werewolf": "werewolves are huge upright wolves with grey-brown fur, long arms, yellow eyes "
+                "and torn human clothing",
+    "troll": "trolls are huge and hunched with warty grey-green skin, a long nose and small dull eyes",
+    "ogre": "ogres are massive and pot-bellied with tan skin, a heavy brow and a crude wooden club",
+    "pirate": "pirates are weathered sailors in a long coat, a tricorn hat and a wide sash",
+    "golem": "golems are broad figures built of cut stone blocks, with glowing runes in the seams",
+    "cursed": "cursed knights are empty suits of blackened plate armour with a cold blue light inside the helm",
+    "wraith": "wraiths are hooded shapes of black smoke with no face, only two pale burning eyes",
+    "basilisk": "basilisks are long scaled lizards with a crested head and bright yellow eyes",
+    # Lv.4 EPIC
+    "lich": "liches are crowned skeletal sorcerers in tattered dark robes, with green fire "
+            "in the eye sockets and a bone staff",
+    "demon": "demons are tall and red-skinned with curved black horns, leathery wings, hooves "
+             "and burning orange eyes",
+    "necromancer": "necromancers are hollow-cheeked men in deep purple robes with a skull-topped staff",
+    "warlock": "warlocks are robed spellcasters in black and violet, with glowing sigils around their hands",
+    "cultist": "cultists are faceless figures in identical dark red hooded robes",
+    "assassin": "assassins are slim figures in fitted black cloth with only the eyes showing",
+    "serpent": "giant serpents are thick-coiled snakes with dark green scales and cold yellow eyes",
+    "hydra": "hydras are many-headed green serpent-beasts on one heavy body",
+    "giant": "giants are three times a man's height, broad and bearded, in furs and rough iron",
+    # Lv.5 LEGENDARY
+    "archdemon": "the archdemon is colossal, deep red and black, with a crown of great curved horns, "
+                 "vast leathery wings and molten cracks across its body",
+    "fiend": "fiends are large demons with black-red hide, many horns and burning eyes",
+    "dark lord": "the dark lord is a towering figure in black plate armour with a horned helm "
+                 "and a red glow behind the visor",
+    "dread": "dread knights are towering figures in black plate armour with a horned helm "
+             "and a cold red glow behind the visor",
+    "titan": "titans are colossal armoured giants of weathered stone and bronze",
+    "shadow": "shadows are man-shaped patches of pure darkness with two pale eyes",
+    "undead": "the undead are grey and hollow-eyed, in rotted clothing and rusted mail",
+    "monster": "the monster is a heavy four-legged beast with dark scaled hide, horns and yellow eyes",
+    "beast": "the beast is a heavy four-legged predator with shaggy dark fur and yellow eyes",
+}
+_missing = [e for e in ENEMIES if e not in FOE_LOOK]
+assert not _missing, f"FOE_LOOK に見た目の設定が無い敵役: {_missing}"
+
+# 例文の中では「敵そのもの」ではないので、見た目を足さない語。
+# ENEMIES は敵役の割合を数えるための一覧なので、形容詞や比喩もひっかかる
+#   cursed  … "the cursed swamp" / "the cursed mines"（呪われた場所であって、騎士は出てこない）
+#   shadow  … "in the shadows of the ruined castle"（ただの影）
+#   monster … "a friendly dragon, not a monster"（打ち消し。描いてはいけない）
+#   beast   … 同様に、ほかの敵の言い換えとして出てくる
+FOE_SKIP = {"cursed", "shadow", "monster", "beast"}
+
+# 1枚に敵役が何種類も出ると、プロンプトが長くなりすぎる。例文に出てくる順で2種類まで
+FOE_MAX = 2
+
+
+def foe_lines(w):
+    found = []
+    for e in ENEMIES:
+        if e in FOE_SKIP:
+            continue
+        m = re.search(enemy_pattern(e), w["ex"], re.I)
+        if m:
+            found.append((m.start(), e))
+    found.sort()
+    return ". ".join(FOE_LOOK[e] for _, e in found[:FOE_MAX])
 
 
 def subject_line(w):
@@ -95,7 +198,7 @@ def creature_line(w):
     """例文に敵役が出てくるなら、顔の指定を足す"""
     if not any(has(w["ex"], e) for e in ENEMIES):
         return ""
-    return CREATURE_LOW if w["rarity"] == "COMMON" else CREATURE_HIGH
+    return CREATURE
 
 
 def prompt_for(w):
@@ -104,8 +207,13 @@ def prompt_for(w):
     c = creature_line(w)
     if c:
         parts.append(c)
+    foes = foe_lines(w)
+    if foes:
+        parts.append(foes + ".")
     if LEVEL_NO[r] >= 3:
         parts.append(ROLE)
+    parts.append(WORLD)
+    parts.append(FACES)
     avoid = AVOID.get(r)
     parts.append(f"{avoid}, {TAIL}" if avoid else TAIL)
     return " ".join(parts)
