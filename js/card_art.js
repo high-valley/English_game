@@ -4,7 +4,9 @@
    ・ART_SVG … コードで描いたイラスト（画像が無い単語に使われる） */
 // カード画像を置いた単語の名前（assets/cards/名前.webp が使われる）。画像を足したら、名前をここに追加する
 const CARD_IMG_NAMES=["apple","baby","bag","bed","big","bird","book","box","boy","bread","bridge","buy","cake","car","castle","cat","chair","close","come","doctor","dog","door","drink","eat","egg","family","fire","fish","flower","fly","food","friend","girl","give","go","hand","happy","hat","help","horse","house","jump","key","king","love","make","man","milk","moon","morning","mountain","necessary","night","open","play","queen","rain","read","require","rice","river","road","room","run","school","sea","see","significant","sing","sit","sleep","snow","stakeholder","star","sun","swim","sword","table","tea","teacher","town","tree","walk","water","wind","window","woman","write"];
-const CARD_IMG={};CARD_IMG_NAMES.forEach(n=>CARD_IMG[n]="assets/cards/"+n+".webp?v="+ASSET_V);
+// CARD_THUMB … 図鑑などの小さなカード用の縮小版（tools/bake_assets.py が作る）。無ければ大きな絵を使う
+const CARD_IMG={},CARD_THUMB={};CARD_IMG_NAMES.forEach(n=>{const m=typeof UI_MANIFEST!=="undefined"&&UI_MANIFEST.cards[n];
+  CARD_IMG[n]=m?m.full:"assets/cards/"+n+".webp?v="+ASSET_V;CARD_THUMB[n]=m?m.thumb:CARD_IMG[n]});
 const CARD_EXTRA={};   // 廃止：カードの例文は words.js の ex（カードゲーム風の一文）を使う
 const _sp='<g fill="#fff"><circle cx="24" cy="26" r="1.4" opacity=".9"/><circle cx="172" cy="22" r="1.8" opacity=".8"/><circle cx="150" cy="58" r="1" opacity=".7"/><circle cx="38" cy="82" r="1.2" opacity=".6"/><circle cx="184" cy="112" r="1.3" opacity=".7"/><circle cx="14" cy="130" r="1" opacity=".6"/></g><path d="M60 40l2 6 6 2-6 2-2 6-2-6-6-2 6-2zM160 90l1.5 4 4 1.5-4 1.5-1.5 4-1.5-4-4-1.5 4-1.5z" fill="#ffe9a0"/>';
 const _bg=(id,a,b)=>`<defs><radialGradient id="${id}" cx="50%" cy="48%" r="75%"><stop offset="0" stop-color="${a}"/><stop offset="1" stop-color="${b}"/></radialGradient></defs><rect width="200" height="180" fill="url(#${id})"/>${_sp}`;

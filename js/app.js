@@ -15,8 +15,10 @@ function draw(){let r=rarity(),p=WORDS.filter(w=>w.rarity===r);return p.length?p
 // 単語データにある単語だけを数える（データから消した単語のセーブが残っていても影響しない）
 const ownedCount=()=>WORDS.filter(w=>S.owned[w.id]).length;
 function icon(w){return w.ic||"✨"}
-function artHtml(w,cls="card-art-image"){
-  if(CARD_IMG[w.en])return `<div class="fitwrap"><img class="fitbg" src="${CARD_IMG[w.en]}" alt=""><img class="${cls}" src="${CARD_IMG[w.en]}" alt="${w.en}" onerror="cardImgFail(this,${w.id})"></div>`;
+// small … 図鑑などの小さなカード。縮小版を使い、画面に入るまで読み込まない（500枚を一度に並べるため）
+function artHtml(w,cls="card-art-image",small){
+  const u=small?CARD_THUMB[w.en]:CARD_IMG[w.en],lz=small?' loading="lazy" decoding="async"':'';
+  if(u)return `<div class="fitwrap"><img class="fitbg" src="${u}" alt=""${lz}><img class="${cls}" src="${u}" alt="${w.en}"${lz} onerror="cardImgFail(this,${w.id})"></div>`;
   if(ART_SVG[w.en])return ART_SVG[w.en];
   return `<div class="art">${icon(w)}</div>`}
 function cardImgFail(el,id){const w=WORDS.find(x=>x.id===id),wr=el.closest(".fitwrap")||el;if(!el.dataset.t){el.dataset.t=1;const u="assets/"+w.en+".svg?v="+ASSET_V;wr.querySelectorAll("img").forEach(i=>i.src=u);return}if(ART_SVG[w.en]){wr.outerHTML=ART_SVG[w.en];return}const d=document.createElement("div");d.className="art";d.textContent=icon(w);wr.replaceWith(d)}
@@ -35,7 +37,7 @@ function plateFont(en,avail,max){
 const plateAvail=(L,btn)=>L.plate[2]/3-(btn?9.2:4.5);
 function hl(s,en){return s.replace(new RegExp("\\b("+en+"\\w*)","i"),"<b>$1</b>")}
 function speak(t){try{const u=new SpeechSynthesisUtterance(t);u.lang="en-US";speechSynthesis.cancel();speechSynthesis.speak(u)}catch(e){}}
-function cardArt(w){return CARD_IMG[w.en]||ART_SVG[w.en]?artHtml(w):`<div class="scn">${sceneSvg(w.rarity)}<i class="scn-pad"></i><div class="scn-ic">${icon(w)}</div></div>`}
+function cardArt(w,small){return CARD_IMG[w.en]||ART_SVG[w.en]?artHtml(w,undefined,small):`<div class="scn">${sceneSvg(w.rarity)}<i class="scn-pad"></i><div class="scn-ic">${icon(w)}</div></div>`}
 function cardFace(w){
   const x=CARD_EXTRA[w.en],n=S.owned[w.id]||0,m=S.mastery[w.id]||0,ex=x?x.s:w.ex,tr=x?x.t:w.tr,F=uiFrame(w.rarity),L={...LAYOUT,...(F?LAYOUT_IMG:{}),...(F&&F.art?{art:F.art}:{}),...(F&&F.info?{info:F.info}:{}),...LAYOUT_OVERRIDE};
   return `<div class="cd3 r-${w.rarity}"><div class="cd3-in${F?" imgf":""}">
@@ -77,9 +79,9 @@ let CF={r:"ALL",q:""};
 function miniLayout(F){return{...LAYOUT,...LAYOUT_IMG,...(F.art?{art:F.art}:{}),...(F.info?{info:F.info}:{}),...LAYOUT_OVERRIDE}}
 function miniHtml(w,isNew){
   const F=uiFrame(w.rarity);
-  if(!F)return `<button class="mc r-${w.rarity}" onclick="cardDetail(${w.id})"><div class="mc-art">${artHtml(w,"mc-img")}</div><div>${w.en}</div><div class="mc-st">${"★".repeat(w.stars)}</div>${isNew?'<em class="gr-new">NEW</em>':""}</button>`;
+  if(!F)return `<button class="mc r-${w.rarity}" onclick="cardDetail(${w.id})"><div class="mc-art">${artHtml(w,"mc-img",1)}</div><div>${w.en}</div><div class="mc-st">${"★".repeat(w.stars)}</div>${isNew?'<em class="gr-new">NEW</em>':""}</button>`;
   const L=miniLayout(F),sz=plateFont(w.en,plateAvail(L,0),9.6);
-  return `<button class="mcard r-${w.rarity}" onclick="cardDetail(${w.id})"><div class="cd3"><div class="cd3-in imgf"><div class="cd3-art" style="${P(...L.art)}">${cardArt(w)}</div><img class="cd3-frame" src="${F.url}" alt="">
+  return `<button class="mcard r-${w.rarity}" onclick="cardDetail(${w.id})"><div class="cd3"><div class="cd3-in imgf"><div class="cd3-art" style="${P(...L.art)}">${cardArt(w,1)}</div><img class="cd3-frame" src="${F.mini||F.url}" alt="" loading="lazy" decoding="async">
   <div class="cd3-plate" style="${P(...L.plate)}"><span style="font-size:${sz}cqw">${w.en}</span></div><div class="mc3-stars" style="${P(...L.info)}">${"★".repeat(w.stars)}</div>${isNew?'<em class="gr-new">NEW</em>':""}</div></div></button>`}
 function miniLockHtml(r){
   const F=uiFrame(r||"COMMON");
@@ -162,4 +164,4 @@ function splashInner(){const r=UI_READY;return `${bgScene("splash_bg")}${r?(UI.l
   const s=document.createElement("div");s.className="sp";
   s.innerHTML=splashInner();
   const close=()=>{s.classList.add("out");setTimeout(()=>s.remove(),700)};
-  s.onclick=close;document.body.appendChild(s);setTimeout(close,2600)})();
+  s.onclick=close;document.body.appendChild(s)})();   // タップで閉じる（自動では閉じない）

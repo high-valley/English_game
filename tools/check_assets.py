@@ -18,6 +18,48 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 
 
+def check_manifest(named):
+    """js/ui_manifest.js（tools/bake_assets.py が作る）が、今のファイルと合っているか。
+    合っていないと、差し替えた画像が端末に届かない（古い版の URL のまま）か、枠やアイコンが古いまま出る"""
+    import hashlib
+    import json
+    fix = "→ python3 tools/bake_assets.py を実行する"
+    mp = ROOT / "js" / "ui_manifest.js"
+    if not mp.exists():
+        return [f"js/ui_manifest.js が無い {fix}"]
+    m = re.search(r"const UI_MANIFEST=(\{.*\});", mp.read_text(encoding="utf-8"), re.S)
+    man = json.loads(m.group(1))
+    h = lambda p: hashlib.sha1(p.read_bytes()).hexdigest()[:10]
+    errs = []
+    for src, v in man["src"].items():
+        p = ROOT / src
+        if not p.exists():
+            errs.append(f"{src} が無くなっている {fix}")
+        elif h(p) != v:
+            errs.append(f"{src} が差し替えられている {fix}")
+    urls = list(man["slots"].values()) + list(man["icons"].values()) + \
+        [f[k] for f in man["frames"].values() for k in ("url", "mini")] + \
+        [c[k] for c in man["cards"].values() for k in ("full", "thumb")]
+    for u in urls:
+        path, v = u.split("?v=")
+        p = ROOT / path
+        if not p.exists() or h(p) != v:
+            errs.append(f"{path} の版が合わない {fix}")
+    for n in sorted(named - set(man["cards"])):
+        errs.append(f"カード画像 {n} が一覧に入っていない（縮小版も無い） {fix}")
+    for n in sorted(set(man["cards"]) - named):
+        errs.append(f"一覧に {n} が残っている（CARD_IMG_NAMES から外した？） {fix}")
+    ui = ROOT / "assets" / "ui"
+    for p in list(ui.glob("*.webp")) + list(ui.glob("*.png")) + list((ui / "icons").glob("*.png")):
+        if p.name == "favicon.png":
+            continue
+        if p.relative_to(ROOT).as_posix() not in man["src"]:
+            errs.append(f"{p.relative_to(ROOT).as_posix()} が一覧に入っていない {fix}")
+    print(f"画像の一覧（ui_manifest.js）: 背景など {len(man['slots'])}・アイコン {len(man['icons'])}・"
+          f"枠 {len(man['frames'])}・カード {len(man['cards'])}")
+    return errs
+
+
 def main():
     errs = []
 
@@ -49,6 +91,8 @@ def main():
     ens = set(re.findall(r'"en":\s*"([^"]+)"', words))
     for n in sorted(named - ens):
         errs.append(f"CARD_IMG_NAMES の {n} は words.js に無い単語")
+
+    errs += check_manifest(named)
 
     if errs:
         print(f"\n■ 問題 {len(errs)} 件")

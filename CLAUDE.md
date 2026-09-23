@@ -32,7 +32,8 @@
 python3 tools/check_words.py        # id重複、例文に単語が入っているか、訳の空、敵役の割合
 python3 tools/gen_card_prompts.py   # 例文を直したら、プロンプトを作り直す
 python3 tools/gen_next_batch.py     # 次に作る画像の一覧を更新する
-python3 tools/check_assets.py       # ASSET_V のずれ、カード画像の登録漏れ
+python3 tools/bake_assets.py        # 画像を足した・差し替えたら。枠とアイコンの透過、図鑑用の縮小版、画像の一覧
+python3 tools/check_assets.py       # ASSET_V のずれ、カード画像の登録漏れ、画像の一覧の作り直し忘れ
 ```
 
 ## 画像生成のプロンプトを人に渡すとき（重要）
@@ -78,18 +79,31 @@ python3 -m http.server 8765    # → http://localhost:8765/index.html
 Chromium は `/opt/pw-browsers/chromium` にある（Playwright から `executablePath` で指定する）。
 
 ## ファイルを差し替えたら、版を上げる（重要）
-`index.html` の `ASSET_V` を書き換える。CSS・JS・画像のURLすべてに `?v=ASSET_V` が付いており、
-**これを変えないと、一度読み込んだ端末は古いファイルを使い続ける**（アイコンを差し替えても反映されない、
-JSを直しても直らない、という形で出る）。日付（`20260922` など）にしておけばよい。
+- **CSS・JS を変えたら** `index.html` の `ASSET_V` を書き換える。**これを変えないと、一度読み込んだ端末は古いファイルを
+  使い続ける**（JSを直しても直らない、という形で出る）。日付（`20260922` など）にしておけばよい
+- **画像を足した・変えたら** `python3 tools/bake_assets.py`。画像の版は `ASSET_V` ではなく、
+  `js/ui_manifest.js` に書かれたファイルごとのハッシュ。変わった画像だけが再ダウンロードされる
+  （以前は `ASSET_V` を上げるたびに全画像 25MB を再ダウンロードしていた。「1日空けて開くと遅い」の原因）。
+  一覧自体が変わるので、`ASSET_V` も上げる（`ui_manifest.js` の URL に付いているため）
 
 ```html
 <script>const ASSET_V="20260922";</script>   <!-- index.html -->
 ```
 **`index.html` の `?v=` は直接書いてある**（HTMLからは JS の定数を使えないため）ので、
 `ASSET_V` と一緒に置換する。片方だけ変えると版がずれる → `tools/check_assets.py` が検査する。
-- 付いている先：`index.html` の CSS / JS / favicon、`ui_images.js` の背景・アイコン・シート、
-  `card_art.js` のカード画像、`app.js` のカード画像の予備
-- 新しく画像を読み込む処理を足すときは、URL に `?v=${ASSET_V}` を付ける
+- `ASSET_V` が付いている先：`index.html` の CSS / JS / favicon。一覧が無いときの予備の読み込み（`ui_images.js` / `card_art.js`）
+- 新しく画像を読み込む処理を足すときは、`UI` / `UI_ICO` / `UI_FRAME` / `CARD_IMG` / `CARD_THUMB` を通す（一覧の URL が入っている）
+
+## 起動と読み込み（重要）
+- **起動時に画像を探したり、その場で加工したりしない。** 以前は、ファイルがあるかを確かめるために `assets/ui/` の
+  画像を全部ダウンロードし（8.8MB）、枠とアイコンをブラウザで透過していた（枠がそろうまで13秒）。
+  その間に2.2秒の待ちが切れると、**コードで描いた夜の城（旧背景）**を出してから本物に差し替えていた。
+  いまは `tools/bake_assets.py` が前もって済ませ、`js/ui_manifest.js` に一覧を書く
+- **図鑑の小さなカードには縮小版（`CARD_THUMB`）を使い、`loading="lazy"` にする。** 500枚を一度に並べるため。
+  大きな絵（1200x800）はカード詳細だけで使う
+- 直したら、キャッシュ無し・回線と CPU を遅くして測る（`Network.emulateNetworkConditions` と
+  `Emulation.setCPUThrottlingRate`）。速い回線・キャッシュありでは差が出ない
+- **起動画面はタップするまで閉じない**（「TAP TO START」と表示しているため）
 
 ## 画像
 - **画像の生成は Claude ではできない**。プロンプトを用意し、生成は ChatGPT / Grok などに渡す
