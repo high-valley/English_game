@@ -1,7 +1,8 @@
 # WORD GRIMOIRE ― 次にやるタスク
 
 ## 次のタスク（優先順）
-1. **カード画像の作成（COMMON から）**。`card_image_next.md` に COMMON の99語が図鑑の並び順で入っている
+1. **カード画像の作成（COMMON から）**。`card_image_next.md` に COMMON の残り95語が図鑑の並び順で入っている
+   （100語中5語ぶん完成：apple / book / cat / dog / house）
    - 画像の生成は ChatGPT などに頼む（Claude は画像を作れない）
    - 置いたら `js/card_art.js` の `CARD_IMG_NAMES` に名前を追加する
    - `python3 tools/gen_next_batch.py all COMMON` で残りを出し直す（作り終えた分は自動で外れる）
@@ -18,6 +19,7 @@
 - `icon_coin` を作り直す場合は `assets/ui/icon_prompts.md`（金色が主体で、暗い面を作らないこと）
 
 ## 完了済み
+- COMMON のカード画像を4枚追加（book / cat / dog / house）。あわせて版ずれを検査する `tools/check_assets.py` を追加
 - ガチャの「引く」ボタンとレベルアップ演出の「ガチャへ」ボタンに残っていた絵文字（🎁・🎰）を削除
 - カード図鑑の絞り込みに、**レア度ごとの解放数**（所持している種類 / そのレア度の全種類）を表示
 - カードの単語が長いと名前の枠からはみ出す不具合を修正（文字を実測して大きさを決めるようにした。500語中20語がはみ出していた）
