@@ -25,6 +25,7 @@
 python3 tools/check_words.py        # id重複、例文に単語が入っているか、訳の空、敵役の割合
 python3 tools/gen_card_prompts.py   # 例文を直したら、プロンプトを作り直す
 python3 tools/gen_next_batch.py     # 次に作る画像の一覧を更新する
+python3 tools/check_assets.py       # ASSET_V のずれ、カード画像の登録漏れ
 ```
 `card_image_prompts.md` と `card_image_next.md` は**自動生成**なので、直接編集しない。
 
@@ -67,6 +68,8 @@ JSを直しても直らない、という形で出る）。日付（`20260922` �
 ```html
 <script>const ASSET_V="20260922";</script>   <!-- index.html -->
 ```
+**`index.html` の `?v=` は直接書いてある**（HTMLからは JS の定数を使えないため）ので、
+`ASSET_V` と一緒に置換する。片方だけ変えると版がずれる → `tools/check_assets.py` が検査する。
 - 付いている先：`index.html` の CSS / JS / favicon、`ui_images.js` の背景・アイコン・シート、
   `card_art.js` のカード画像、`app.js` のカード画像の予備
 - 新しく画像を読み込む処理を足すときは、URL に `?v=${ASSET_V}` を付ける
