@@ -57,9 +57,36 @@ AVOID = {
 }
 
 # すべてのプロンプトの締め（構図と、入れないもの）。画風はここに書かない
-TAIL = ("3:2 wide landscape, the subject is large and centered and fills "
-        "most of the frame, important parts kept inside the middle horizontal band, "
+TAIL = ("3:2 wide landscape, the subject is unmistakably the main thing in the picture, "
+        "important parts kept inside the middle horizontal band, "
         "no text, no letters, no logo, no border, no frame")
+
+# 構図。全部に「主役を中央に大きく」と書いていたら、500枚が同じ絵面になってしまう
+# （どれも真ん中に一つ、同じ距離から、同じ高さ）。単語ごとに振り分けて散らす。
+#
+# 変えてよいのは「カメラの位置・距離・横の置き場所・前景」まで。
+# 次の2つは崩さないので、ここには書かない:
+#   ・その単語が主役だと分かること（SUBJECT と TAIL が受け持つ）
+#   ・大事なものを中央の帯に収めること（小カードが 3:2 の上下を切るため。
+#     横はそのまま出るので、左右に寄せるのは安全）
+# 明るさ・時刻・天気は入れない。例文と食い違うため
+#   （"The sun rises over the castle." に「夜」と書くわけにいかない）
+SHOT = [
+    "Composition: a close view at eye level, the subject filling the frame and cropped by the edges.",
+    "Composition: a low angle, looking up at the subject against the sky.",
+    "Composition: seen from slightly above, looking down on the subject and the ground around it.",
+    "Composition: the subject set to one side of the frame, with the place opening up beside it.",
+    "Composition: framed through something in the foreground - an archway, a doorway or branches - "
+    "with the subject beyond it.",
+    "Composition: a wide view of the place, the subject nearest the viewer and still the largest thing in it.",
+    "Composition: a three-quarter view, the subject turned partly away from the viewer.",
+    "Composition: the subject close and sharp, the background kept soft and simple behind it.",
+]
+
+
+def shot_line(w):
+    """id で振り分ける。図鑑は id 順に並ぶので、隣り合うカードは必ず別の構図になる"""
+    return SHOT[w["id"] % len(SHOT)]
 
 LEVELS = ["COMMON", "UNCOMMON", "RARE", "EPIC", "LEGENDARY"]
 LEVEL_NO = {r: i + 1 for i, r in enumerate(LEVELS)}
@@ -68,11 +95,11 @@ LEVEL_NO = {r: i + 1 for i, r in enumerate(LEVELS)}
 # これを書かないと、例文の中の別の名詞が主役になる
 # （`sun` の "The sun rises over the castle." で、城が画面を占めて太陽が隅の点になった）
 SUBJECT = {
-    "名詞": 'The {en} itself is the main subject of the picture: large, centered and clearly visible.',
-    "動詞": "Make the sentence's action ({en}) the main subject: large, centered and clearly visible.",
+    "名詞": 'The {en} itself is the main subject of the picture: large and clearly visible.',
+    "動詞": "Make the sentence's action ({en}) the main subject: large and clearly visible.",
 }
 SUBJECT_OTHER = ("Make the person or thing that the sentence is about the main subject: "
-                 "large, centered and clearly visible.")
+                 "large and clearly visible.")
 
 # 生きものが出てくるときは、顔と目を描いてもらう（目が無いと、ただの塊に見える）。
 # 「愛嬌があるか、怖いか」はレアリティでは決まらない。同じ COMMON でも、
@@ -214,6 +241,7 @@ def prompt_for(w):
         parts.append(ROLE)
     parts.append(WORLD)
     parts.append(FACES)
+    parts.append(shot_line(w))
     avoid = AVOID.get(r)
     parts.append(f"{avoid}, {TAIL}" if avoid else TAIL)
     return " ".join(parts)
