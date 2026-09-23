@@ -27,7 +27,7 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この32語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この37語は、絵文字ではなく画像で表示されます）。
 
 - apple
 - big
@@ -51,16 +51,21 @@
 - moon
 - mountain
 - necessary
+- rain
 - require
 - river
 - run
 - school
+- sea
 - significant
 - sleep
+- snow
 - stakeholder
+- star
 - sun
 - tree
 - water
+- wind
 
 全500語ぶんのプロンプトが下にあります。
 
