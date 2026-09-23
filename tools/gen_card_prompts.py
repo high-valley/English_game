@@ -241,6 +241,21 @@ FOE_LOOK = {
     "monster": "the monster is a heavy four-legged beast with dark scaled hide, horns and yellow eyes",
     "beast": "the beast is a heavy four-legged predator with shaggy dark fur and yellow eyes",
 }
+# 敵役ではないが、何枚にも出てくる生きもの。姿をそろえる目的は FOE_LOOK と同じ。
+# ENEMIES に入れてしまうと「敵役の割合」の数字が狂う
+# （竜は12語に出てくるが、"a friendly dragon" や "The dragon protects the sleeping village."
+#   のように味方側で出ることも多い）
+EXTRA_LOOK = {
+    # 色は例文に譲る。"A red dragon flies over the town." や
+    # "The dragon changes color in the sun." と食い違うため
+    "dragon": "dragons are long scaled reptiles with a horned crest, a slender neck, "
+              "folded leathery wings and amber eyes, in tan and bronze scales "
+              "unless the sentence gives them another colour",
+}
+
+# 見た目を足す対象。敵役 ＋ 上の生きもの
+LOOK = {**FOE_LOOK, **EXTRA_LOOK}
+
 _missing = [e for e in ENEMIES if e not in FOE_LOOK]
 assert not _missing, f"FOE_LOOK に見た目の設定が無い敵役: {_missing}"
 
@@ -258,14 +273,14 @@ FOE_MAX = 2
 
 def foe_lines(w):
     found = []
-    for e in ENEMIES:
+    for e in LOOK:
         if e in FOE_SKIP:
             continue
         m = re.search(enemy_pattern(e), w["ex"], re.I)
         if m:
             found.append((m.start(), e))
     found.sort()
-    return ". ".join(FOE_LOOK[e] for _, e in found[:FOE_MAX])
+    return ". ".join(LOOK[e] for _, e in found[:FOE_MAX])
 
 
 def subject_line(w):
@@ -273,8 +288,8 @@ def subject_line(w):
 
 
 def creature_line(w):
-    """例文に敵役が出てくるなら、顔の指定を足す"""
-    if not any(has(w["ex"], e) for e in ENEMIES):
+    """例文に生きものが出てくるなら、顔の指定を足す"""
+    if not any(has(w["ex"], e) for e in LOOK):
         return ""
     return CREATURE
 
