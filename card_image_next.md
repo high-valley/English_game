@@ -39,9 +39,9 @@ soft hand-painted anime illustration, visible brush texture, matte finish, gentl
 ```
 
 ### 5. help（助ける）　id 160　敵役: slime
-例文: Help me! A slime is in my bag.　／　助けて！ かばんの中にスライムがいる。
+例文: The boy helps a little slime out of the well.　／　少年が小さなスライムを井戸から助け出す。
 ```
-soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: Help me! A slime is in my bag. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The boy helps a little slime out of the well. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 ### 6. make（作る）　id 161
@@ -81,9 +81,9 @@ soft hand-painted anime illustration, visible brush texture, matte finish, gentl
 ```
 
 ### 12. listen（聞く）　id 167　敵役: wolf
-例文: Listen! I hear a wolf outside.　／　聞いて！ 外に狼の声がする。
+例文: The hunter listens for wolves in the dark wood.　／　狩人が暗い森で、狼の気配に耳をすます。
 ```
-soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: Listen! I hear a wolf outside. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The hunter listens for wolves in the dark wood. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 ### 13. speak（話す）　id 168
