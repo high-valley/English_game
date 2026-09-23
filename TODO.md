@@ -1,8 +1,8 @@
 # WORD GRIMOIRE ― 次にやるタスク
 
 ## 次のタスク（優先順）
-1. **カード画像の作成（COMMON から）**。`card_image_next.md` に COMMON の残り78語が図鑑の並び順で入っている
-   （COMMON は 22/100。ほかに UNCOMMON / RARE / EPIC / LEGENDARY が各1枚＝全体 26/500）
+1. **カード画像の作成（COMMON から）**。`card_image_next.md` に COMMON の残り77語が図鑑の並び順で入っている
+   （COMMON は 23/100。ほかに UNCOMMON / RARE / EPIC / LEGENDARY が各1枚＝全体 27/500）
    - 画像の生成は画像生成AI（ChatGPT / Grok など）に頼む（Claude は画像を作れない）
    - **プロンプトを渡すときは、必ず `python3 tools/prompt_for.py <単語>` を通す。**
      例文を記憶で書くと、絵と例文が食い違う（`run` の例文を取り違え、`sad` は存在しない単語だった。2枚むだにした）
@@ -26,6 +26,8 @@
 - `icon_coin` を作り直す場合は `assets/ui/icon_prompts.md`（金色が主体で、暗い面を作らないこと）
 
 ## 完了済み
+- **構図を単語ごとに散らすようにした**（`SHOT`、8種類）。全部が「主役を中央に大きく」で同じ絵面になっていたため。`id` で振り分けるので、図鑑で隣り合うカードは必ず別の構図になる
+- COMMON のカード画像 `fish` を追加。COMMON は 23/100、全体 27/500
 - **ゴブリンが出るカードの姿が全部そろった**（dog / go / run / friend / house の5枚）。`FOE_LOOK` の設定どおり、痩せて険しい緑の男で統一
 - COMMON のカード画像を2枚追加（big / bird）し、`house` をゴブリンの基準に合わせて差し替え。COMMON は 22/100、全体 26/500
 - COMMON のカード画像を2枚追加（run / happy）し、`friend` をゴブリンの基準に合わせて差し替え。COMMON は 20/100、全体 24/500
