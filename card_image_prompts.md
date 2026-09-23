@@ -27,7 +27,7 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この22語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この24語は、絵文字ではなく画像で表示されます）。
 
 - apple
 - book
@@ -41,10 +41,12 @@
 - food
 - friend
 - go
+- happy
 - house
 - moon
 - necessary
 - require
+- run
 - school
 - significant
 - sleep
