@@ -1,8 +1,8 @@
 # WORD GRIMOIRE ― 次にやるタスク
 
 ## 次のタスク（優先順）
-1. **カード画像の作成（COMMON から）**。`card_image_next.md` に COMMON の残り90語が図鑑の並び順で入っている
-   （100語中10語ぶん完成：apple / book / cat / dog / family / food / friend / house / school / water）
+1. **カード画像の作成（COMMON から）**。`card_image_next.md` に COMMON の残り88語が図鑑の並び順で入っている
+   （100語中12語ぶん完成：apple / book / cat / dog / family / food / friend / house / moon / school / sun / water）
    - 画像の生成は ChatGPT などに頼む（Claude は画像を作れない）
    - 置いたら `js/card_art.js` の `CARD_IMG_NAMES` に名前を追加する
    - `python3 tools/gen_next_batch.py all COMMON` で残りを出し直す（作り終えた分は自動で外れる）
@@ -12,6 +12,9 @@
    - 増やすときは、SPEC.md §1-5「問題の形式は、全レベルで同じ」の扱いを先に決める
 
 ## 候補（今後）
+- **先に作った9枚を、今の画風で作り直すか**（apple / book / cat / dog / family / food / friend / house / school）。
+  この9枚はプロンプトを直す前の絵柄（濃いめのアニメ塗り）で、今の指定は柔らかい手描き。
+  COMMON が100枚そろうころには、この9枚が少数派になる
 - 例文の訳（`tr`）も検索の対象にするか（「悪魔」で敵役のカードを一覧したい場合。今は意味 `ja` までが対象）
 
 ## 手元の作業（画像を用意する）
@@ -19,6 +22,7 @@
 - `icon_coin` を作り直す場合は `assets/ui/icon_prompts.md`（金色が主体で、暗い面を作らないこと）
 
 ## 完了済み
+- COMMON のカード画像を2枚追加（sun / moon）し、`water` を新しい画風のものに差し替え。COMMON は 12/100
 - COMMON のカード画像を5枚追加（school / water / food / friend / family）。COMMON は 10/100
 - COMMON のカード画像を4枚追加（book / cat / dog / house）。あわせて版ずれを検査する `tools/check_assets.py` を追加
 - ガチャの「引く」ボタンとレベルアップ演出の「ガチャへ」ボタンに残っていた絵文字（🎁・🎰）を削除
