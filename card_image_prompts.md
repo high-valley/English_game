@@ -27,7 +27,7 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この27語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この32語は、絵文字ではなく画像で表示されます）。
 
 - apple
 - big
@@ -41,20 +41,25 @@
 - eat
 - family
 - fish
+- flower
 - food
 - friend
 - go
 - happy
+- horse
 - house
 - moon
+- mountain
 - necessary
 - require
+- river
 - run
 - school
 - significant
 - sleep
 - stakeholder
 - sun
+- tree
 - water
 
 全500語ぶんのプロンプトが下にあります。
@@ -176,17 +181,17 @@ soft hand-painted anime illustration, visible brush texture, matte finish, gentl
 
 **103. horse**（馬）
 ```
-soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A wolf chases the white horse. The horse itself is the main subject of the picture: large and clearly visible. Any creature has clear, expressive eyes and a readable face. wolves are lean and grey with thick fur, amber eyes and dark markings on the muzzle. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. If the sentence does not say where this happens, and it suits the scene, set it in a study full of books and scrolls. When several people appear, each has a clearly different face, age and build. Composition: the subject close and sharp, the background kept soft and simple behind it. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A knight rides the white horse. The horse itself is the main subject of the picture: large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. If the sentence does not say where this happens, and it suits the scene, set it in a study full of books and scrolls. When several people appear, each has a clearly different face, age and build. Composition: the subject close and sharp, the background kept soft and simple behind it. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **104. tree**（木）
 ```
-soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A tall tree stands by the river. The tree itself is the main subject of the picture: large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a close view at eye level, the subject filling the frame and cropped by the edges. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: An old tree stands alone on the hill. The tree itself is the main subject of the picture: large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a close view at eye level, the subject filling the frame and cropped by the edges. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **105. flower**（花）
 ```
-soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: She picks a flower in the garden. The flower itself is the main subject of the picture: large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a low angle, looking up at the subject against the sky. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A blue flower grows near the water. The flower itself is the main subject of the picture: large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a low angle, looking up at the subject against the sky. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **106. river**（川）
@@ -196,7 +201,7 @@ soft hand-painted anime illustration, visible brush texture, matte finish, gentl
 
 **107. mountain**（山）
 ```
-soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The dragon sleeps on the mountain. The mountain itself is the main subject of the picture: large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: the subject set to one side of the frame, with the place opening up beside it. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: Snow covers the tall mountain. The mountain itself is the main subject of the picture: large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: the subject set to one side of the frame, with the place opening up beside it. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **108. sea**（海）
