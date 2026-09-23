@@ -82,6 +82,7 @@ async function uiSheet(url,names,cols){try{const im=await uiImg(url);if(!im)retu
 const UI_SHEETS=[["icons/sheet_main",["icon_study","icon_cards","icon_gacha","icon_coin","icon_gear"],3],["icons/sheet_small",["stat_words","stat_ok","stat_streak","nav_home","nav_study","nav_gacha","nav_cards"],4]];
 function uiProbeSheet(slot){return new Promise(res=>{const u=`assets/ui/${slot}.png?v=${ASSET_V}`,im=new Image();im.onload=()=>res(u);im.onerror=()=>res(null);im.src=u})}
 async function uiInit(cb){   // 背景・アイコンを先に反映（cb）し、そのあと枠画像を処理する
+  if(typeof UI_MANIFEST!=="undefined"){if(cb)cb();return}
   const found=(await Promise.all(UI_SLOTS.map(async s=>[s,await uiProbe(s)]))).filter(f=>f[1]);
   // アイコン（個別ファイル）。マゼンタ背景なら透過して余白を詰める。透過済みの画像はそのまま使う
   (await Promise.all(UI_ICONS.map(async n=>{
@@ -103,3 +104,11 @@ const UI_ICONS=["icon_study","icon_cards","icon_gacha","icon_coin","icon_gear","
 const UI_ICO={};
 function uiProbeIcon(n){return new Promise(res=>{const u=`assets/ui/icons/${n}.png?v=${ASSET_V}`,im=new Image();im.onload=()=>res(u);im.onerror=()=>res(null);im.src=u})}
 const ico=(slot,emoji,cls="")=>UI_ICO[slot]?`<img class="ico ${cls}" src="${UI_ICO[slot]}" alt="">`:`<span class="ico-e ${cls}">${emoji}</span>`;
+
+// ※ ファイルの最後に置く（UI_ICO などの宣言より前で動かすと、宣言前の参照でスクリプトごと止まる）
+// tools/bake_assets.py が作った一覧（js/ui_manifest.js）があれば、それをそのまま使う。
+// どの画像があるかを1枚ずつダウンロードして確かめる必要も、枠やアイコンをその場で透過する必要もなくなる。
+// （一覧が無いときだけ、uiInit で従来どおり探して透過する）
+if(typeof UI_MANIFEST!=="undefined"){
+  Object.assign(UI,UI_MANIFEST.slots);Object.assign(UI_ICO,UI_MANIFEST.icons);Object.assign(UI_FRAME,UI_MANIFEST.frames);
+  UI_READY=true}

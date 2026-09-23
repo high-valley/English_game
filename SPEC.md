@@ -111,7 +111,8 @@
 ### 単語を追加する手順
 1. `words.js` の「次のID」を使って、同じ形式で追加する（同じレアリティのまとまりの最後に）
 2. 「次のID」の数字を更新する
-3. 画像を作る場合は、`assets/cards/単語.webp` を置き、`card_art.js` の `CARD_IMG_NAMES` に名前を追加する
+3. 画像を作る場合は、`assets/cards/単語.webp` を置き、`card_art.js` の `CARD_IMG_NAMES` に名前を追加して、
+   `python3 tools/bake_assets.py` を実行する（図鑑用の縮小版と、画像の一覧 `js/ui_manifest.js` を作る）
 4. 既存のカードや熟練度には、影響しない
 
 ### 現在の単語
@@ -232,12 +233,20 @@
 
 ---
 
-## 8.5 ファイルの版（キャッシュ対策）
-- CSS・JS・画像のURLには `?v=` が付く。元は `index.html` の `ASSET_V` ひとつ
-- **中身を差し替えたら `ASSET_V` を上げる**。上げないと、一度読み込んだ端末が古いファイルを使い続ける
-  （アイコンを差し替えても反映されない、という形で出る）
+## 8.5 ファイルの版（キャッシュ対策）と画像の一覧
+- **CSS・JS** の URL には `index.html` の `ASSET_V` が `?v=` として付く。中身を変えたら `ASSET_V` を上げる。
+  上げないと、一度読み込んだ端末が古いファイルを使い続ける
+- **画像**の URL には、`js/ui_manifest.js` に書いた**ファイルごとの版（中身のハッシュ）**が付く。
+  中身が変わった画像だけが再ダウンロードされる。以前は画像も `ASSET_V` ひとつで、
+  カードを1枚足すたびに全部の画像（25MB）が再ダウンロードになっていた（1日空けて開くと遅い原因）
+- `js/ui_manifest.js` は `tools/bake_assets.py` が作る。**画像を足した・差し替えたら必ず実行する**。
+  同時に、カード枠・アイコンの透過（マゼンタ抜き）と、図鑑用のカードの縮小版（480x320）も作る。
+  実行し忘れは `tools/check_assets.py` が検出する
+- 一覧があるので、起動時に画像を探さない（以前は、ファイルがあるかを確かめるために全部の画像をダウンロードしていた）。
+  一覧が無いときだけ、従来どおりブラウザで探して透過する（`ui_images.js` の `uiInit`）
 
 ## 9. 画面
+- **起動画面は、タップするまで閉じない**（「TAP TO START」と表示している。1回の起動につき1度だけ出る）
 - **4画面すべて同じ雰囲気**にそろえる：全画面背景＋半透明パネル（ぼかし）＋透過ヘッダー＋半透明の下タブ
   - 背景は画面ごとに差し替えられる（`home_bg` / `study_bg` / `gacha_bg` / `cards_bg`）。
     無い画面は `home_bg` を使う（`ui_images.js` の `BG_FALLBACK`）
@@ -284,16 +293,19 @@ English_game/
 │   ├─ study_ui.js         勉強画面（レベル制）とレベルアップ演出
 │   ├─ gacha_ui.js         ガチャ画面と開封演出
 │   ├─ card_art.js         カード画像の対応、SVGイラスト、背景
-│   └─ ui_images.js        assets/ui の画像の自動読み込み
+│   ├─ ui_images.js        assets/ui の画像の読み込み（一覧があればそれを使う）
+│   └─ ui_manifest.js      画像の一覧とファイルごとの版（tools/bake_assets.py が作る。直接編集しない）
 └─ assets/
     ├─ pack.svg / card_back.svg   （画像が無い時の予備。今は gacha_pack / card_back の画像を使う）
-    ├─ cards/              単語ごとのカード画像（今は apple.webp のみ）
+    ├─ cards/              単語ごとのカード画像（1200x800）
+    │   └─ thumb/          図鑑用の縮小版（480x320。tools/bake_assets.py が作る）
     └─ ui/
         ├─ card_frame.webp / card_frame_common / _uncommon / _epic / _legendary .webp
         ├─ home_bg.webp / splash_bg.webp / gacha_bg.webp / study_bg.webp / cards_bg.webp
         ├─ gacha_pack.webp / card_back.webp / magic_circle.webp
         ├─ logo_title.webp / logo_emblem.webp / favicon.png
-        ├─ icons/          アイコン（icon_*, stat_*, nav_*。復習のアイコンは削除済み）
+        ├─ icons/          アイコン（icon_*, stat_*, nav_*。マゼンタ背景のまま置く）
+        ├─ baked/          透過済みの枠とアイコン（tools/bake_assets.py が作る。直接編集しない）
         ├─ README.md       画像の置き方
         └─ gacha_prompts.md / icon_prompts.md   画像のプロンプト
 ```
