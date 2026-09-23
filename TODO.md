@@ -1,8 +1,8 @@
 # WORD GRIMOIRE ― 次にやるタスク
 
 ## 次のタスク（優先順）
-1. **カード画像の作成（COMMON から）**。`card_image_next.md` に COMMON の残り67語が図鑑の並び順で入っている
-   （COMMON は 33/100。ほかに UNCOMMON / RARE / EPIC / LEGENDARY が各1枚＝全体 37/500）
+1. **カード画像の作成（COMMON から）**。`card_image_next.md` に COMMON の残り62語が図鑑の並び順で入っている
+   （COMMON は 38/100。ほかに UNCOMMON / RARE / EPIC / LEGENDARY が各1枚＝全体 42/500）
    - 画像の生成は画像生成AI（ChatGPT / Grok など）に頼む（Claude は画像を作れない）
    - **プロンプトを渡すときは、必ず `python3 tools/prompt_for.py <単語>` を通す。**
      例文を記憶で書くと、絵と例文が食い違う（`run` の例文を取り違え、`sad` は存在しない単語だった。2枚むだにした）
@@ -30,6 +30,8 @@
 - `icon_coin` を作り直す場合は `assets/ui/icon_prompts.md`（金色が主体で、暗い面を作らないこと）
 
 ## 完了済み
+- COMMON のカード画像を5枚追加（fire / bread / milk / egg / rice）。COMMON は 38/100、全体 42/500
+- **竜の見た目を `EXTRA_LOOK` に定義**。例文に竜が出る語は12あり、ゴブリン（11語）より多い。ただし味方側でも出るので `ENEMIES` には入れず、姿をそろえる仕組みだけを適用した（敵役の割合は 40% のまま）
 - COMMON のカード画像を5枚追加（sea / star / rain / wind / snow）。COMMON は 33/100、全体 37/500。
   舞台と構図を散らす変更（`PLACE` / `SHOT`）が効いた最初の5枚で、同じ城も同じ街灯も出ていない
 - COMMON のカード画像を4枚追加（horse / tree / flower / mountain）。絵に合わせて4語の例文を書き換えた（プロンプトを渡すときに例文を取り違えたため。ユーザー判断で絵を採った）。COMMON は 28/100、全体 32/500
