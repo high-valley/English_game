@@ -113,8 +113,59 @@ ROLE = "The people are dressed so that their role in the sentence is obvious at 
 
 # 世界観。これを書かないと、生成AIの好みで和風・中華風の絵が混ざる
 # （drink が日本の茶の間、significant の学者が中華風の道士になった）
-WORLD = ("The world is European high fantasy: stone castles, cobbled roads, "
-         "cloaks, swords and lanterns.")
+WORLD = ("Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. "
+         "Include only what the sentence and the place call for; do not add a castle, "
+         "a street lantern or a signpost unless the sentence or the place asks for one.")
+
+# 舞台。世界観だけ書いて場所を書かなかったら、どのカードにも同じ城と同じ街灯が立った。
+# （前の WORLD は "stone castles, cobbled roads, cloaks, swords and lanterns" という
+#   持ち物リストだったので、生成AIが毎回その5つを律儀に描いていた）
+#
+# **例文が場所を言っているときは、そちらが優先**。だから「例文が場所を言っていなければ」と条件を付ける
+#   （"Slimes eat old bread in the cave." に「市場で」と書くわけにいかない）
+# さらに「場面に合うなら」と付けて、押しつけにしない。屋内の舞台（小屋の中・酒場・書斎）が
+# 屋外の場面に割り当たることがあるため（"A wolf chases the white horse." に「書斎で」は合わない）
+PLACE = [
+    "a village street of timber and stone houses",
+    "a busy market with stalls and awnings",
+    "inside a cottage, by the hearth",
+    "a forest path under tall trees",
+    "a harbour with fishing boats and nets",
+    "a farm yard with barns and fences",
+    "a stone bridge over a stream",
+    "a quiet cloister with arches",
+    "a cellar or storeroom lined with barrels",
+    "a tavern room with long tables",
+    "a wheat field at the edge of a wood",
+    "a rocky mountain pass",
+    "a ruined watchtower overgrown with ivy",
+    "a study full of books and scrolls",
+    "a blacksmith's workshop, open to the street",
+]
+
+
+# その単語自体が場所なので、別の舞台を割り当ててはいけない語。
+# （`mountain` に「暖炉のある小屋の中」を割り当てたら、山の絵にならない）
+PLACE_SELF = {
+    "house", "school", "room", "town", "road", "bridge", "castle", "garden", "kitchen",
+    "market", "village", "forest", "island", "desert", "cave", "tower", "gate", "station",
+    "hospital", "library", "warehouse", "headquarters", "river", "mountain", "sea",
+}
+
+# 例文が場所を言っているかどうか（前置詞＋冠詞の形を見る）。
+# 言っているなら、こちらから舞台を足さない
+PLACE_CUE = re.compile(
+    r"\b(in|at|on|by|through|into|inside|outside|under|over|across|near|beside|above|"
+    r"behind|along|around|down|up)\s+(the|a|an|his|her|their|its|this|that)\b", re.I)
+
+
+def place_line(w):
+    """id で振り分ける。PLACE は15、SHOT は8で互いに素なので、
+    「構図×舞台」の組み合わせは120通りぶん回ってから繰り返す"""
+    if w["en"] in PLACE_SELF or PLACE_CUE.search(w["ex"]):
+        return ""
+    return (f"If the sentence does not say where this happens, and it suits the scene, "
+            f"set it in {PLACE[w['id'] % len(PLACE)]}.")
 
 # 人が複数出てくると、同じ顔が並ぶ（significant の学者3人が同一人物に見えた）
 FACES = "When several people appear, each has a clearly different face, age and build."
@@ -240,6 +291,9 @@ def prompt_for(w):
     if LEVEL_NO[r] >= 3:
         parts.append(ROLE)
     parts.append(WORLD)
+    place = place_line(w)
+    if place:
+        parts.append(place)
     parts.append(FACES)
     parts.append(shot_line(w))
     avoid = AVOID.get(r)
@@ -321,6 +375,11 @@ def main():
 
     OUT_MD.write_text("\n".join(out), encoding="utf-8")
     print(f"{OUT_MD.relative_to(ROOT)} を作り直しました（{len(words)}語）")
+
+
+# PLACE_SELF に綴り違いが紛れていても気づけないので、words.js と突き合わせる
+_no_word = sorted(PLACE_SELF - {w["en"] for w in load_words()})
+assert not _no_word, f"PLACE_SELF に words.js に無い単語: {_no_word}"
 
 
 if __name__ == "__main__":
