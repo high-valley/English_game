@@ -1,7 +1,7 @@
 # WORD GRIMOIRE 仕様書
 
 - **このファイルが、唯一の基準仕様です。** 管理は Claude が行います（ChatGPT の指示書は使いません）。
-- 画像の生成だけは ChatGPT に任せます。プロンプトは Claude が用意します。
+- 画像の生成だけは画像生成AI（ChatGPT / Grok など）に任せます。プロンプトは Claude が用意します。
 - 決まったことが増えたら、このファイルを更新します。
 
 ---
@@ -323,9 +323,11 @@ English_game/
   差し替え用のプロンプトは `assets/ui/README.md`（無くても `home_bg` で動く）
 - カード画像：`card_image_prompts.md`（全500語）。**`tools/gen_card_prompts.py` が `words.js` から作る**ので、直接編集しない
 - 次に作る分は `card_image_next.md`（`tools/gen_next_batch.py` が、レアリティの高い順 → 敵役つきが先の順で切り出す）
-- 作成済み：apple（`card_art.js` の `CARD_IMG_NAMES` に登録済み）。
-  レア度別の枠を入れる前の book / cat / water は削除した（`cat` / `book` / `water` は `card_art.js` の `ART_SVG` の絵に戻る）
-- **画像の生成は Claude ではできない**（画像生成の機能を持たないため）。プロンプトを Claude が作り、生成は ChatGPT などに渡す
+- 作成済み：COMMON の10語（apple / book / cat / dog / family / food / friend / house / school / water）。
+  `card_art.js` の `CARD_IMG_NAMES` に登録した語だけが画像表示になり、それ以外は `ART_SVG` か `sceneSvg()` の絵になる
+- **プロンプトの書き方は `tools/gen_card_prompts.py` の冒頭にまとめてある**
+  （「簡素に」と書かない・主役は枠いっぱい・上下は切られる前提。生成AIを変えても絵柄が揃うようにするため）
+- **画像の生成は Claude ではできない**（画像生成の機能を持たないため）。プロンプトを Claude が作り、生成は ChatGPT / Grok などに渡す
 - ガチャ・背景・パック・カード裏面：`assets/ui/gacha_prompts.md`
 - アイコン：`assets/ui/icon_prompts.md`
 - カード枠：`assets/ui/README.md`
