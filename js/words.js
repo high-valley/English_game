@@ -95,7 +95,7 @@ const WORDS=[{"id": 1, "en": "apple", "ja": "りんご", "pronunciation": "ˈæp
 {"id": 165, "en": "live", "ja": "住む", "pronunciation": "lɪv", "pos": "動詞", "rarity": "COMMON", "stars": 1, "ic": "🏡", "ex": "Goblins live in the dark cave.", "tr": "ゴブリンたちは暗い洞窟に住んでいる。"},
 {"id": 166, "en": "work", "ja": "働く", "pronunciation": "wɜːrk", "pos": "動詞", "rarity": "COMMON", "stars": 1, "ic": "💼", "ex": "The dwarves work in the mine.", "tr": "ドワーフたちが鉱山で働いている。"},
 {"id": 167, "en": "listen", "ja": "聞く", "pronunciation": "ˈlɪsən", "pos": "動詞", "rarity": "COMMON", "stars": 1, "ic": "👂", "ex": "The hunter listens for wolves in the dark wood.", "tr": "狩人が暗い森で、狼の気配に耳をすます。"},
-{"id": 168, "en": "speak", "ja": "話す", "pronunciation": "spiːk", "pos": "動詞", "rarity": "COMMON", "stars": 1, "ic": "🗣️", "ex": "The wise owl can speak.", "tr": "賢いフクロウは話すことができる。"},
+{"id": 168, "en": "speak", "ja": "話す", "pronunciation": "spiːk", "pos": "動詞", "rarity": "COMMON", "stars": 1, "ic": "🗣️", "ex": "The wise owl speaks to a boy in the forest.", "tr": "賢いフクロウが、森で少年に話しかける。"},
 {"id": 169, "en": "small", "ja": "小さい", "pronunciation": "smɔːl", "pos": "形容詞", "rarity": "COMMON", "stars": 1, "ic": "🐜", "ex": "A small imp hides in the tall grass.", "tr": "小さなインプが、高い草に隠れている。"},
 {"id": 170, "en": "new", "ja": "新しい", "pronunciation": "nuː", "pos": "形容詞", "rarity": "COMMON", "stars": 1, "ic": "🆕", "ex": "The knight has a new shield.", "tr": "騎士は新しい盾を持っている。"},
 {"id": 171, "en": "old", "ja": "古い", "pronunciation": "oʊld", "pos": "形容詞", "rarity": "COMMON", "stars": 1, "ic": "🏚️", "ex": "The old tower is very tall.", "tr": "古い塔はとても高い。"},

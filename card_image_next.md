@@ -33,9 +33,9 @@ soft hand-painted anime illustration, visible brush texture, matte finish, gentl
 ```
 
 ### 4. speak（話す）　id 168
-例文: The wise owl can speak.　／　賢いフクロウは話すことができる。
+例文: The wise owl speaks to a boy in the forest.　／　賢いフクロウが、森で少年に話しかける。
 ```
-soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The wise owl can speak. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The wise owl speaks to a boy in the forest. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 ### 5. small（小さい）　id 169　敵役: imp
