@@ -1,8 +1,8 @@
 # WORD GRIMOIRE ― 次にやるタスク
 
 ## 次のタスク（優先順）
-1. **カード画像の作成（COMMON から）**。`card_image_next.md` に COMMON の残り80語が図鑑の並び順で入っている
-   （COMMON は 20/100。ほかに UNCOMMON / RARE / EPIC / LEGENDARY が各1枚＝全体 24/500）
+1. **カード画像の作成（COMMON から）**。`card_image_next.md` に COMMON の残り78語が図鑑の並び順で入っている
+   （COMMON は 22/100。ほかに UNCOMMON / RARE / EPIC / LEGENDARY が各1枚＝全体 26/500）
    - 画像の生成は画像生成AI（ChatGPT / Grok など）に頼む（Claude は画像を作れない）
    - **プロンプトを渡すときは、必ず `python3 tools/prompt_for.py <単語>` を通す。**
      例文を記憶で書くと、絵と例文が食い違う（`run` の例文を取り違え、`sad` は存在しない単語だった。2枚むだにした）
@@ -17,9 +17,6 @@
 - **先に作った6枚を、今の画風で作り直すか**（apple / book / cat / family / food / school）。
   この6枚はプロンプトを直す前の絵柄（濃いめのアニメ塗り）で、今の指定は柔らかい手描き。
   COMMON が100枚そろうころには、この6枚が少数派になる
-- **`house` を作り直す**（上の6枚のうちの1枚）。ゴブリンが旧デザインのままで、
-  基準（`FOE_LOOK` の「痩せて険しい緑の男」＝いまの `dog` / `go` / `friend`）と揃っていない。
-  ゴブリンが出るカードで姿が食い違って見えるので、優先度が高い
 - `tools/check_words.py` の敵役の数え方（`ENEMIES`）は、"cursed swamp" の cursed や "in the shadows" の
   shadow も敵役として数えている。敵役の割合（目標4割）が少し多めに出ているはず
 - 例文の訳（`tr`）も検索の対象にするか（「悪魔」で敵役のカードを一覧したい場合。今は意味 `ja` までが対象）
@@ -29,6 +26,8 @@
 - `icon_coin` を作り直す場合は `assets/ui/icon_prompts.md`（金色が主体で、暗い面を作らないこと）
 
 ## 完了済み
+- **ゴブリンが出るカードの姿が全部そろった**（dog / go / run / friend / house の5枚）。`FOE_LOOK` の設定どおり、痩せて険しい緑の男で統一
+- COMMON のカード画像を2枚追加（big / bird）し、`house` をゴブリンの基準に合わせて差し替え。COMMON は 22/100、全体 26/500
 - COMMON のカード画像を2枚追加（run / happy）し、`friend` をゴブリンの基準に合わせて差し替え。COMMON は 20/100、全体 24/500
 - **`tools/prompt_for.py` を追加**。渡すプロンプトを単語名から丸ごと出す。例文を記憶で書いて2回むだにしたので、無い単語ならスクリプトが止まるようにした
 - COMMON のカード画像を2枚追加（drink / sleep）し、`go` と `dog` をゴブリンの基準に合わせて差し替え。COMMON は 18/100、全体 22/500
