@@ -27,6 +27,16 @@ python3 tools/gen_card_prompts.py   # 例文を直したら、プロンプトを
 python3 tools/gen_next_batch.py     # 次に作る画像の一覧を更新する
 python3 tools/check_assets.py       # ASSET_V のずれ、カード画像の登録漏れ
 ```
+
+## 画像生成のプロンプトを人に渡すとき（重要）
+**必ず `tools/prompt_for.py` を通す。例文を記憶で書かない。**
+```bash
+python3 tools/prompt_for.py run happy friend   # 単語名で
+python3 tools/prompt_for.py --next 5 COMMON    # まだ画像が無い語を、図鑑の並び順で
+```
+記憶で書いて2回やらかしている。`run` は "Run to the gate before it closes." と書いたが本当は
+"The goblins run away from the village."、`sad` はそもそも words.js に無い単語だった。
+どちらも絵が1枚むだになった。無い単語を渡すと `prompt_for.py` が止まる。
 `card_image_prompts.md` と `card_image_next.md` は**自動生成**なので、直接編集しない。
 
 ## 画面を組み立てるときの注意
@@ -80,8 +90,7 @@ JSを直しても直らない、という形で出る）。日付（`20260922` �
   **「簡素に」「余白を取って」と書かない**（生成AIによっては淡い水彩＋余白だらけになり、紺の枠に負ける）
 - **「この単語が主役」は英語で言い切る**（`SUBJECT`）。例文を渡すだけでは、文中の別の名詞が主役になる
   （`sun` の "The sun rises over the castle." で、城が画面を占めて太陽が隅の点になった）
-- **生きものには目と顔を描いてもらう**（`CREATURE_LOW` / `CREATURE_HIGH`）。目が無いスライムは塊に見える。
-  COMMON の敵は愛嬌のある見た目、UNCOMMON 以上は威厳のある見た目にする
+- **生きものには目と顔を描いてもらう**（`CREATURE`）。目が無いスライムは塊に見える
 - **画風は締め（`TAIL`）ではなく `STYLE` にレアリティごとに書く。** 締めに一言置いただけでは
   生成AIの既定の絵柄に押し負ける（COMMON が 3DCG のようなつやつやした絵になった）。
   COMMON・UNCOMMON には `AVOID`（写実・3DCG・照り返しを外す）も付ける
@@ -89,7 +98,7 @@ JSを直しても直らない、という形で出る）。日付（`20260922` �
   例文に出てくる人まで王侯貴族の装いになる（`significant` で学者4人が宝石だらけの貴族に見えた）
 - **敵役の見た目は `FOE_LOOK` に書いて、カードをまたいで揃える。** 書かないと、ゴブリンが絵ごとに
   別の生きものになる（`dog` は痩せて険しい緑の男、`go` は膝丈の丸い小鬼）。
-  **ゴブリンの基準は `dog` / `house` / `friend`**（ユーザー指定）。`go` は設定と違うので作り直し待ち。
+  **ゴブリンの基準は `dog`**（ユーザー指定。`friend` / `go` も同じ姿に作り直し済み。`house` だけ旧デザインが残っている）。
   「愛嬌があるか怖いか」はレアリティでは決まらない（同じ COMMON でもスライムは可愛く、ゴブリンは怖い）ので、
   そこも `FOE_LOOK` に書く。
   `ENEMIES` に敵役を足したら `FOE_LOOK` にも見た目を書く（`assert` で漏れを止めている）。
