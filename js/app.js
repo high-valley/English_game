@@ -67,7 +67,25 @@ function home(){
       <div class="hm2-stats"><div>${ico("stat_words","📚")}<span>コレクション</span><b>${owned}/${WORDS.length}</b></div><div>${ico("stat_ok","✅")}<span>覚えた</span><b>${mastered}</b></div><div>${ico("stat_streak","🔥")}<span>連続学習</span><b>${streakNow()}日</b></div></div></div>
     <div class="hm2-btns"><button class="hm2-b orn" onclick="showPage('study')">${ico("icon_study","📖","big")}<span>勉強</span></button><button class="hm2-b orn" onclick="showPage('cards')">${ico("icon_cards","🃏","big")}<span>カード</span></button></div>
   </div>
-  <button class="hm2-gacha orn" onclick="showPage('gacha')">${pulls?`<em class="hm2-new">引ける！×${pulls}</em>`:""}<div class="hm2-pack">${ico("icon_gacha","🎁","pack")}</div><div class="hm2-plate">ガチャ</div><div class="hm2-price">1回 ${ico("icon_coin","🪙","c")} ${GACHA_COST}コイン</div></button></div></section>`;save()}
+  <button class="hm2-gacha orn" onclick="showPage('gacha')">${pulls?`<em class="hm2-new">引ける！×${pulls}</em>`:""}<div class="hm2-pack">${ico("icon_gacha","🎁","pack")}</div><div class="hm2-plate">ガチャ</div><div class="hm2-price">1回 ${ico("icon_coin","🪙","c")} ${GACHA_COST}コイン</div></button></div>
+  <div class="hm2-ver" id="hm2-ver">${verHtml()}</div></section>`;save()}
+
+/* 版の表示と、新しい版の確認。
+   マージしても、すぐには新しい版にならないことがある:
+   ・GitHub Pages は index.html を最大10分キャッシュさせる（その間は古い index.html → 古い JS が動く）
+   ・iPhone の Safari は、アプリに戻ってきてもページを読み直さず、メモリに残った古いページをそのまま続ける
+   そこで、ホームの下に今動いている版（ASSET_V）を出し、サイトの index.html を（キャッシュを通さずに）
+   取りに行って、より新しい ASSET_V があれば「更新」ボタンを出す。
+   ※ ASSET_V は文字列として大きくなる順に付ける（20260924 → 20260924b → 20260925）。小さい版には更新させない */
+let NEW_V=null,UPD_AT=0;
+function verHtml(){return `ver ${ASSET_V}`+(NEW_V?` <button class="hm2-upd" onclick="applyUpdate()">新しい版 ${NEW_V} に更新</button>`:"")}
+async function checkUpdate(){
+  if(location.protocol==="file:"||Date.now()-UPD_AT<60000)return;UPD_AT=Date.now();
+  try{const r=await fetch(location.pathname+"?check="+Date.now(),{cache:"no-store"});if(!r.ok)return;
+    const m=(await r.text()).match(/const ASSET_V="([^"]+)"/);
+    if(m&&m[1]>ASSET_V){NEW_V=m[1];const e=$("#hm2-ver");if(e)e.innerHTML=verHtml()}}catch(e){}}
+// 版を URL に付けて開き直す。URL が変わるので、途中のキャッシュ（ブラウザ・GitHub Pages）を通らず新しい index.html が届く
+function applyUpdate(){location.replace(location.pathname+"?v="+encodeURIComponent(NEW_V))}
 
 /* カード図鑑 */
 const FIL=[["ALL","すべて"],["COMMON","コモン"],["UNCOMMON","アンコモン"],["RARE","レア"],["EPIC","エピック"],["LEGENDARY","レジェンド"]];
@@ -159,6 +177,9 @@ const uiRefresh=()=>{document.body.classList.remove("ui-wait");applyUI();if(!$("
 setTimeout(()=>{if(!UI_READY){UI_READY=true;uiRefresh()}},2200);
 uiInit(uiRefresh).then(()=>{if(Object.keys(UI_FRAME).length)uiRefresh()});
 function splashInner(){const r=UI_READY;return `${bgScene("splash_bg")}${r?(UI.logo_emblem?`<img class="sp-emb" src="${UI.logo_emblem}" alt="">`:EMB):""}${r?(UI.logo_title?`<img class="sp-tt" src="${UI.logo_title}" alt="WORD GRIMOIRE">`:`<div class="sp-title">WORD GRIMOIRE</div>`):""}<div class="sp-tag">もっと知る。もっと強くなる。</div><div class="sp-hint">TAP TO START</div>`}
+if(/[?&]v=/.test(location.search))history.replaceState(null,"",location.pathname);
+setTimeout(checkUpdate,3000);
+document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible")checkUpdate()});
 (function splash(){
   try{if(sessionStorage.wqSplash)return;sessionStorage.wqSplash=1}catch(e){}
   const s=document.createElement("div");s.className="sp";

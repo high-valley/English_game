@@ -576,3 +576,7 @@ nav{grid-template-columns:repeat(4,1fr)}
 .cd-empty{grid-column:1/-1;padding:40px 10px;text-align:center;color:#6d7594;font-size:14px}
 .cd-g{grid-template-columns:repeat(2,1fr);gap:12px}
 .cd .orn{overflow:visible}
+/* ホームの下の版の表示。マージが反映されたかを確かめるためのもの（目立たせない） */
+.hm2-ver{margin:14px 0 2px;text-align:center;font-size:11px;letter-spacing:1px;color:#aab4d8;opacity:.7}
+.hm2-upd{margin-left:6px;padding:4px 10px;border-radius:999px;border:1px solid #e5b84a;background:#1a2150;color:#f4d477;font-size:11px;font-weight:700;letter-spacing:0;opacity:1}
+.hm2-ver:has(.hm2-upd){opacity:1}
