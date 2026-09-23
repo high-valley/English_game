@@ -73,7 +73,8 @@ TAIL = ("3:2 wide landscape, the subject is unmistakably the main thing in the p
 #   （"The sun rises over the castle." に「夜」と書くわけにいかない）
 SHOT = [
     "Composition: a close view at eye level, the subject filling the frame and cropped by the edges.",
-    "Composition: a low angle, looking up at the subject against the sky.",
+    # 「空を背に」だけだと、屋内の舞台（小屋・酒場・書斎・地下倉）と食い違う。天井でもよいとする
+    "Composition: a low angle, looking up at the subject against the sky or the ceiling above it.",
     "Composition: seen from slightly above, looking down on the subject and the ground around it.",
     "Composition: the subject set to one side of the frame, with the place opening up beside it.",
     "Composition: framed through something in the foreground - an archway, a doorway or branches - "
@@ -128,7 +129,7 @@ WORLD = ("Set it in a European medieval fantasy world - not Japanese, not Chines
 PLACE = [
     "a village street of timber and stone houses",
     "a busy market with stalls and awnings",
-    "inside a cottage, by the hearth",
+    "a cottage room by the hearth",
     "a forest path under tall trees",
     "a harbour with fishing boats and nets",
     "a farm yard with barns and fences",

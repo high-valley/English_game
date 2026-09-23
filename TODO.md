@@ -1,8 +1,8 @@
 # WORD GRIMOIRE ― 次にやるタスク
 
 ## 次のタスク（優先順）
-1. **カード画像の作成（COMMON から）**。`card_image_next.md` に COMMON の残り52語が図鑑の並び順で入っている
-   （COMMON は 48/100。ほかに UNCOMMON / RARE / EPIC / LEGENDARY が各1枚＝全体 52/500）
+1. **カード画像の作成（COMMON から）**。`card_image_next.md` に COMMON の残り47語が図鑑の並び順で入っている
+   （COMMON は 53/100。ほかに UNCOMMON / RARE / EPIC / LEGENDARY が各1枚＝全体 57/500）
    - 画像の生成は画像生成AI（ChatGPT / Grok など）に頼む（Claude は画像を作れない）
    - **プロンプトを渡すときは、必ず `python3 tools/prompt_for.py <単語>` を通す。**
      例文を記憶で書くと、絵と例文が食い違う（`run` の例文を取り違え、`sad` は存在しない単語だった。2枚むだにした）
@@ -35,6 +35,7 @@
 - `icon_coin` を作り直す場合は `assets/ui/icon_prompts.md`（金色が主体で、暗い面を作らないこと）
 
 ## 完了済み
+- COMMON のカード画像を5枚追加（bridge / castle / king / queen / boy）。COMMON は 53/100（半分を超えた）、全体 57/500
 - COMMON のカード画像を5枚追加（bed / room / town / road / chair）。COMMON は 48/100、全体 52/500
 - COMMON のカード画像を5枚追加（tea / cake / door / window / table）。COMMON は 43/100、全体 47/500。インプ（`door`）とコウモリ（`window`）は、これが姿の基準になる
 - COMMON のカード画像を5枚追加（fire / bread / milk / egg / rice）。COMMON は 38/100、全体 42/500
