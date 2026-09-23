@@ -35,6 +35,7 @@
 - `icon_coin` を作り直す場合は `assets/ui/icon_prompts.md`（金色が主体で、暗い面を作らないこと）
 
 ## 完了済み
+- 絵にしにくい例文を先回りして5つ書き換え（close / make / buy / love / good）。呼びかけ（Let's）・願望（want to）・抽象（loves his home / a good day）をやめ、場所も例文に入れて舞台と食い違わないようにした
 - COMMON のカード画像を4枚追加（open / sing / play / help）。COMMON は 79/100、全体 83/500
 - `close` の例文をもう一度書き換え（ドアを閉める → 魔法使いが魔導書を閉じる）。ドア版も、手がドアの端をつかむだけで木の棒を持っているように見えたため
 - COMMON のカード画像を3枚追加（jump / read / write）。COMMON は 75/100、全体 79/500

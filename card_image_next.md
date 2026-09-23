@@ -15,21 +15,21 @@
 ## Lv.1 COMMON（この一覧に21語）
 
 ### 1. close（閉める）　id 155
-例文: The old wizard closes his big spell book.　／　年老いた魔法使いが、大きな魔導書を閉じる。
+例文: The old wizard closes his spell book in his tower.　／　年老いた魔法使いが、塔の部屋で魔導書を閉じる。
 ```
-soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The old wizard closes his big spell book. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The old wizard closes his spell book in his tower. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 ### 2. make（作る）　id 161
-例文: Let's make a small boat.　／　小さな舟を作ろう。
+例文: The old man makes a small boat by the lake.　／　老人が湖のそばで小さな舟を作る。
 ```
-soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: Let's make a small boat. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The old man makes a small boat by the lake. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 ### 3. buy（買う）　id 162
-例文: I want to buy a new sword.　／　新しい剣を買いたい。
+例文: The young knight buys a new sword at the market.　／　若い騎士が市場で新しい剣を買う。
 ```
-soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: I want to buy a new sword. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The young knight buys a new sword at the market. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 ### 4. give（与える）　id 163
@@ -39,9 +39,9 @@ soft hand-painted anime illustration, visible brush texture, matte finish, gentl
 ```
 
 ### 5. love（愛する）　id 164
-例文: The knight loves his home.　／　騎士は故郷を愛している。
+例文: The girl loves the little cat in her arms.　／　少女は、腕の中の小さな猫が大好きだ。
 ```
-soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The knight loves his home. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The girl loves the little cat in her arms. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 ### 6. live（住む）　id 165　敵役: goblin
@@ -111,9 +111,9 @@ soft hand-painted anime illustration, visible brush texture, matte finish, gentl
 ```
 
 ### 17. good（良い）　id 176
-例文: This is a good day for a trip.　／　旅に出るのにいい日だ。
+例文: A good knight helps an old woman across the bridge.　／　心やさしい騎士が、おばあさんが橋を渡るのを手伝う。
 ```
-soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: This is a good day for a trip. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A good knight helps an old woman across the bridge. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 ### 18. red（赤い）　id 177
