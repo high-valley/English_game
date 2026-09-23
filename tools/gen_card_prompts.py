@@ -75,11 +75,9 @@ SUBJECT_OTHER = ("Make the person or thing that the sentence is about the main s
                  "large, centered and clearly visible.")
 
 # 生きものが出てくるときは、顔と目を描いてもらう（目が無いと、ただの塊に見える）。
-# COMMON の敵（スライム・ゴブリン・コウモリ・ネズミ）は愛嬌のある見た目にし、
-# UNCOMMON 以上（オーク・スケルトン・幽霊〜大悪魔）は威厳のある見た目にする
-CREATURE_LOW = ("Any creature has big clear eyes looking toward the viewer "
-                "and a charming, readable face, like a game mascot.")
-CREATURE_HIGH = "Any creature has clear expressive eyes and a readable face."
+# 「愛嬌があるか、怖いか」はレアリティでは決まらない。同じ COMMON でも、
+# スライムは可愛く、ゴブリンは怖い。そこは FOE_LOOK 側に書く
+CREATURE = "Any creature has clear, expressive eyes and a readable face."
 
 # RARE 以上は「金・宝石」を画風に入れているため、例文に出てくる人まで王侯貴族の装いになる。
 # significant の "The scholars noticed ..." で、学者4人が宝石だらけの貴族に見えた。
@@ -100,17 +98,19 @@ FACES = "When several people appear, each has a clearly different face, age and 
 # ENEMIES（check_words.py）の全項目にひとつずつ用意する（下の assert で漏れを止める）
 FOE_LOOK = {
     # Lv.1 COMMON
-    "goblin": "goblins are small and round, knee-high, olive-green skin, long pointed ears, "
-              "big round eyes, a snub nose, and ragged brown cloth",
+    # 基準は dog / house / friend のカード。可愛い小鬼ではなく、痩せて険しい緑の男
+    "goblin": "goblins are lean and wiry, a head shorter than a man, with sage-green skin, "
+              "long ears that stick out sideways, a large hooked nose, yellow eyes and sharp teeth, "
+              "in ragged brown cloth and scraps of leather, barefoot, menacing",
     "slime": "slimes are smooth rounded domes of translucent green jelly, about the size of a melon, "
-             "with two big round eyes and a small simple mouth",
-    "bat": "bats are small and fuzzy with dark violet fur, large round ears and big round eyes",
-    "rat": "rats are plump and grey-brown with a long bare tail and small bright eyes",
+             "with two big round eyes and a small simple mouth, charming",
+    "bat": "bats are small and fuzzy with dark violet fur, large round ears and big round eyes, charming",
+    "rat": "rats are plump and grey-brown with a long bare tail and small bright eyes, charming",
     "spider": "spiders are round and dark grey with pale markings, eight thick legs "
               "and a cluster of small shiny eyes",
-    "imp": "imps are tiny and red-skinned with small horns, bat wings and a thin barbed tail",
+    "imp": "imps are tiny and red-skinned with small horns, bat wings and a thin barbed tail, mischievous",
     "kobold": "kobolds are small lizard folk, knee-high, with scaled green, blue or orange skin, "
-              "big round eyes, a short snout and a ragged hooded cloak",
+              "big round eyes, a short snout and a ragged hooded cloak, charming",
     "wolf": "wolves are lean and grey with thick fur, amber eyes and dark markings on the muzzle",
     "crow": "crows are glossy black with a heavy beak and pale grey eyes",
     # Lv.2 UNCOMMON
@@ -198,7 +198,7 @@ def creature_line(w):
     """例文に敵役が出てくるなら、顔の指定を足す"""
     if not any(has(w["ex"], e) for e in ENEMIES):
         return ""
-    return CREATURE_LOW if w["rarity"] == "COMMON" else CREATURE_HIGH
+    return CREATURE
 
 
 def prompt_for(w):

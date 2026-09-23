@@ -2,7 +2,7 @@
 
 ## 次のタスク（優先順）
 1. **カード画像の作成（COMMON から）**。`card_image_next.md` に COMMON の残り84語が図鑑の並び順で入っている
-   （COMMON は 16/100。ほかに UNCOMMON / RARE / LEGENDARY が各1枚＝全体 19/500）
+   （COMMON は 16/100。ほかに UNCOMMON / RARE / EPIC / LEGENDARY が各1枚＝全体 20/500）
    - 画像の生成は ChatGPT などに頼む（Claude は画像を作れない）
    - 置いたら `js/card_art.js` の `CARD_IMG_NAMES` に名前を追加する
    - `python3 tools/gen_next_batch.py all COMMON` で残りを出し直す（作り終えた分は自動で外れる）
@@ -15,8 +15,9 @@
 - **先に作った9枚を、今の画風で作り直すか**（apple / book / cat / dog / family / food / friend / house / school）。
   この9枚はプロンプトを直す前の絵柄（濃いめのアニメ塗り）で、今の指定は柔らかい手描き。
   COMMON が100枚そろうころには、この9枚が少数派になる。
-  **`dog` / `house` / `friend` はゴブリンの姿が `FOE_LOOK` の設定と違う**（背の高い痩せた緑の男）ので、
-  敵役をそろえる意味でも、この3枚は作り直す価値がある
+  ただし **`dog` / `house` / `friend` のゴブリンが基準**（ユーザー指定）なので、
+  作り直すときもゴブリンの姿は変えない
+- **`go` を作り直す**。ゴブリンが丸くて可愛い小鬼になっており、基準（`dog` の痩せて険しい緑の男）と違う
 - `tools/check_words.py` の敵役の数え方（`ENEMIES`）は、"cursed swamp" の cursed や "in the shadows" の
   shadow も敵役として数えている。敵役の割合（目標4割）が少し多めに出ているはず
 - 例文の訳（`tr`）も検索の対象にするか（「悪魔」で敵役のカードを一覧したい場合。今は意味 `ja` までが対象）
@@ -27,6 +28,7 @@
 
 ## 完了済み
 - **敵役の見た目を `FOE_LOOK` に定義**（44種）。カードをまたいでゴブリンやスライムの姿が揃うようにした。あわせて世界観（ヨーロッパ風の高ファンタジー）と、複数人の顔の描き分けもプロンプトに入れた
+- EPIC のカード画像 `significant` を追加（学者らしい服装・顔の描き分け・ヨーロッパ風になった）。全体 20/500
 - COMMON のカード画像を3枚追加（go / car / come）。COMMON は 16/100
 - **全レアリティで1枚ずつ試した**（eat / necessary / require / significant / stakeholder）。レアリティの差は絵に出ており、`stakeholder` のような抽象語も絵になった。EPIC だけ、学者が宝石だらけの貴族に見えたので `ROLE`（役割の分かる服装）を追加した
 - COMMON のカード画像を2枚追加（sun / moon）し、`water` を新しい画風のものに差し替え。COMMON は 12/100
