@@ -27,13 +27,18 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この5語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この10語は、絵文字ではなく画像で表示されます）。
 
 - apple
 - book
 - cat
 - dog
+- family
+- food
+- friend
 - house
+- school
+- water
 
 全500語ぶんのプロンプトが下にあります。
 
