@@ -27,7 +27,7 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この79語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この83語は、絵文字ではなく画像で表示されます）。
 
 - apple
 - baby
@@ -64,6 +64,7 @@
 - hand
 - happy
 - hat
+- help
 - horse
 - house
 - jump
@@ -76,6 +77,8 @@
 - mountain
 - necessary
 - night
+- open
+- play
 - queen
 - rain
 - read
@@ -89,6 +92,7 @@
 - sea
 - see
 - significant
+- sing
 - sit
 - sleep
 - snow
@@ -488,7 +492,7 @@ soft hand-painted anime illustration, visible brush texture, matte finish, gentl
 
 **155. close**（閉める）
 ```
-soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: He closes the door before the wolves come. Make the sentence's action (close) the main subject: large and clearly visible. Any creature has clear, expressive eyes and a readable face. wolves are lean and grey with thick fur, amber eyes and dark markings on the muzzle. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. If the sentence does not say where this happens, and it suits the scene, set it in a farm yard with barns and fences. When several people appear, each has a clearly different face, age and build. Composition: the subject set to one side of the frame, with the place opening up beside it. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The old wizard closes his big spell book. Make the sentence's action (close) the main subject: large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. If the sentence does not say where this happens, and it suits the scene, set it in a farm yard with barns and fences. When several people appear, each has a clearly different face, age and build. Composition: the subject set to one side of the frame, with the place opening up beside it. not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **156. read**（読む）

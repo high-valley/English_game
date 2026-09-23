@@ -82,7 +82,7 @@ const WORDS=[{"id": 1, "en": "apple", "ja": "りんご", "pronunciation": "ˈæp
 {"id": 152, "en": "fly", "ja": "飛ぶ", "pronunciation": "flaɪ", "pos": "動詞", "rarity": "COMMON", "stars": 1, "ic": "🦅", "ex": "Bats fly around the dark tower.", "tr": "コウモリたちが暗い塔のまわりを飛ぶ。"},
 {"id": 153, "en": "sit", "ja": "座る", "pronunciation": "sɪt", "pos": "動詞", "rarity": "COMMON", "stars": 1, "ic": "💺", "ex": "Please sit by the fire.", "tr": "火のそばに座ってください。"},
 {"id": 154, "en": "open", "ja": "開ける", "pronunciation": "ˈoʊpən", "pos": "動詞", "rarity": "COMMON", "stars": 1, "ic": "📂", "ex": "She opens the window to the morning sun.", "tr": "彼女は朝日に向かって窓を開ける。"},
-{"id": 155, "en": "close", "ja": "閉める", "pronunciation": "kloʊz", "pos": "動詞", "rarity": "COMMON", "stars": 1, "ic": "🔒", "ex": "He closes the door before the wolves come.", "tr": "狼が来る前に、彼はドアを閉める。"},
+{"id": 155, "en": "close", "ja": "閉める", "pronunciation": "kloʊz", "pos": "動詞", "rarity": "COMMON", "stars": 1, "ic": "🔒", "ex": "The old wizard closes his big spell book.", "tr": "年老いた魔法使いが、大きな魔導書を閉じる。"},
 {"id": 156, "en": "read", "ja": "読む", "pronunciation": "riːd", "pos": "動詞", "rarity": "COMMON", "stars": 1, "ic": "📚", "ex": "I read a book every night.", "tr": "私は毎晩本を読む。"},
 {"id": 157, "en": "write", "ja": "書く", "pronunciation": "raɪt", "pos": "動詞", "rarity": "COMMON", "stars": 1, "ic": "✍️", "ex": "She writes a letter to the king.", "tr": "少女は王に手紙を書く。"},
 {"id": 158, "en": "sing", "ja": "歌う", "pronunciation": "sɪŋ", "pos": "動詞", "rarity": "COMMON", "stars": 1, "ic": "🎶", "ex": "The bard sings a happy song.", "tr": "吟遊詩人が楽しい歌を歌う。"},
