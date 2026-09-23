@@ -27,17 +27,19 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この42語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この47語は、絵文字ではなく画像で表示されます）。
 
 - apple
 - big
 - bird
 - book
 - bread
+- cake
 - car
 - cat
 - come
 - dog
+- door
 - drink
 - eat
 - egg
@@ -68,9 +70,12 @@
 - stakeholder
 - star
 - sun
+- table
+- tea
 - tree
 - water
 - wind
+- window
 
 全500語ぶんのプロンプトが下にあります。
 
