@@ -326,6 +326,10 @@ const UI_MANIFEST={
    "full": "assets/cards/horse.webp?v=a93c4bfb25",
    "thumb": "assets/cards/thumb/horse.webp?v=30b85fde32"
   },
+  "hospital": {
+   "full": "assets/cards/hospital.webp?v=b9b427c800",
+   "thumb": "assets/cards/thumb/hospital.webp?v=263a54ec76"
+  },
   "hot": {
    "full": "assets/cards/hot.webp?v=b53b5afdc4",
    "thumb": "assets/cards/thumb/hot.webp?v=c5cf59045b"
@@ -362,6 +366,10 @@ const UI_MANIFEST={
    "full": "assets/cards/learn.webp?v=0c1e9d2f05",
    "thumb": "assets/cards/thumb/learn.webp?v=5bda0b275d"
   },
+  "library": {
+   "full": "assets/cards/library.webp?v=43346be8ee",
+   "thumb": "assets/cards/thumb/library.webp?v=888dc6cb88"
+  },
   "listen": {
    "full": "assets/cards/listen.webp?v=e67c80861f",
    "thumb": "assets/cards/thumb/listen.webp?v=dc94e3a36d"
@@ -381,6 +389,10 @@ const UI_MANIFEST={
   "man": {
    "full": "assets/cards/man.webp?v=d97610b405",
    "thumb": "assets/cards/thumb/man.webp?v=7af012f7dd"
+  },
+  "map": {
+   "full": "assets/cards/map.webp?v=a8bcb4aea1",
+   "thumb": "assets/cards/thumb/map.webp?v=75eaf79b69"
   },
   "market": {
    "full": "assets/cards/market.webp?v=7c694a6d47",
@@ -534,6 +546,10 @@ const UI_MANIFEST={
    "full": "assets/cards/star.webp?v=5768222dc5",
    "thumb": "assets/cards/thumb/star.webp?v=093d94bf8d"
   },
+  "station": {
+   "full": "assets/cards/station.webp?v=4a56f6579f",
+   "thumb": "assets/cards/thumb/station.webp?v=84d3e28cb2"
+  },
   "strong": {
    "full": "assets/cards/strong.webp?v=21868fa2d7",
    "thumb": "assets/cards/thumb/strong.webp?v=2effa4066a"
@@ -561,6 +577,10 @@ const UI_MANIFEST={
   "teacher": {
    "full": "assets/cards/teacher.webp?v=cadad720b7",
    "thumb": "assets/cards/thumb/teacher.webp?v=b5433298ef"
+  },
+  "ticket": {
+   "full": "assets/cards/ticket.webp?v=dc26c205f2",
+   "thumb": "assets/cards/thumb/ticket.webp?v=ea94877ea2"
   },
   "together": {
    "full": "assets/cards/together.webp?v=aea63cd346",
@@ -711,6 +731,7 @@ const UI_MANIFEST={
   "assets/cards/hat.webp": "634ad230a3",
   "assets/cards/help.webp": "15c4f6a2a4",
   "assets/cards/horse.webp": "a93c4bfb25",
+  "assets/cards/hospital.webp": "b9b427c800",
   "assets/cards/hot.webp": "b53b5afdc4",
   "assets/cards/house.webp": "9198475e5a",
   "assets/cards/important.webp": "03e76a23f9",
@@ -720,11 +741,13 @@ const UI_MANIFEST={
   "assets/cards/king.webp": "df22c9602d",
   "assets/cards/kitchen.webp": "627d1b1c00",
   "assets/cards/learn.webp": "0c1e9d2f05",
+  "assets/cards/library.webp": "43346be8ee",
   "assets/cards/listen.webp": "e67c80861f",
   "assets/cards/live.webp": "b251069482",
   "assets/cards/love.webp": "ec26ff3c58",
   "assets/cards/make.webp": "364c8b3d2b",
   "assets/cards/man.webp": "d97610b405",
+  "assets/cards/map.webp": "a8bcb4aea1",
   "assets/cards/market.webp": "7c694a6d47",
   "assets/cards/milk.webp": "767ebc34c8",
   "assets/cards/moon.webp": "11faa34c72",
@@ -763,6 +786,7 @@ const UI_MANIFEST={
   "assets/cards/speak.webp": "ae8cb2295e",
   "assets/cards/stakeholder.webp": "29b1e7a108",
   "assets/cards/star.webp": "5768222dc5",
+  "assets/cards/station.webp": "4a56f6579f",
   "assets/cards/strong.webp": "21868fa2d7",
   "assets/cards/sun.webp": "8cd9ca87ba",
   "assets/cards/swim.webp": "a56d31906b",
@@ -770,6 +794,7 @@ const UI_MANIFEST={
   "assets/cards/table.webp": "04a2aacb25",
   "assets/cards/tea.webp": "65d176cdc0",
   "assets/cards/teacher.webp": "cadad720b7",
+  "assets/cards/ticket.webp": "dc26c205f2",
   "assets/cards/together.webp": "aea63cd346",
   "assets/cards/tower.webp": "9349433f22",
   "assets/cards/town.webp": "90fa40b30e",
