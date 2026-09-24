@@ -110,6 +110,10 @@ const UI_MANIFEST={
    "full": "assets/cards/bed.webp?v=798c32c5b8",
    "thumb": "assets/cards/thumb/bed.webp?v=2f839222e2"
   },
+  "believe": {
+   "full": "assets/cards/believe.webp?v=15131914ee",
+   "thumb": "assets/cards/thumb/believe.webp?v=9d3102caeb"
+  },
   "big": {
    "full": "assets/cards/big.webp?v=b849accf3a",
    "thumb": "assets/cards/thumb/big.webp?v=8d6fef96b2"
@@ -194,6 +198,10 @@ const UI_MANIFEST={
    "full": "assets/cards/different.webp?v=757a34787e",
    "thumb": "assets/cards/thumb/different.webp?v=f18c1b336c"
   },
+  "difficult": {
+   "full": "assets/cards/difficult.webp?v=c50543922f",
+   "thumb": "assets/cards/thumb/difficult.webp?v=34ec71d921"
+  },
   "doctor": {
    "full": "assets/cards/doctor.webp?v=d0cd04441c",
    "thumb": "assets/cards/thumb/doctor.webp?v=0608b9eaf0"
@@ -250,6 +258,10 @@ const UI_MANIFEST={
    "full": "assets/cards/food.webp?v=d00bdc1a18",
    "thumb": "assets/cards/thumb/food.webp?v=390baa9292"
   },
+  "forget": {
+   "full": "assets/cards/forget.webp?v=630c62b957",
+   "thumb": "assets/cards/thumb/forget.webp?v=b3dd6fdda2"
+  },
   "friend": {
    "full": "assets/cards/friend.webp?v=645f46ebb3",
    "thumb": "assets/cards/thumb/friend.webp?v=37d69ac020"
@@ -257,6 +269,10 @@ const UI_MANIFEST={
   "future": {
    "full": "assets/cards/future.webp?v=ee4345d5e8",
    "thumb": "assets/cards/thumb/future.webp?v=28fd6c05f6"
+  },
+  "garden": {
+   "full": "assets/cards/garden.webp?v=f480951cb4",
+   "thumb": "assets/cards/thumb/garden.webp?v=3df16bc55b"
   },
   "girl": {
    "full": "assets/cards/girl.webp?v=852e7dfc9b",
@@ -522,6 +538,10 @@ const UI_MANIFEST={
    "full": "assets/cards/town.webp?v=90fa40b30e",
    "thumb": "assets/cards/thumb/town.webp?v=5f053f55eb"
   },
+  "travel": {
+   "full": "assets/cards/travel.webp?v=66476c35cb",
+   "thumb": "assets/cards/thumb/travel.webp?v=249ce58435"
+  },
   "tree": {
    "full": "assets/cards/tree.webp?v=f0040be9d7",
    "thumb": "assets/cards/thumb/tree.webp?v=a3f9d68718"
@@ -597,6 +617,7 @@ const UI_MANIFEST={
   "assets/cards/bag.webp": "9866dcc052",
   "assets/cards/beautiful.webp": "1bb7327884",
   "assets/cards/bed.webp": "798c32c5b8",
+  "assets/cards/believe.webp": "15131914ee",
   "assets/cards/big.webp": "b849accf3a",
   "assets/cards/bird.webp": "bf47b7c122",
   "assets/cards/black.webp": "6048c4f3a9",
@@ -618,6 +639,7 @@ const UI_MANIFEST={
   "assets/cards/continue.webp": "ddb6f0e162",
   "assets/cards/decide.webp": "717e762bfa",
   "assets/cards/different.webp": "757a34787e",
+  "assets/cards/difficult.webp": "c50543922f",
   "assets/cards/doctor.webp": "d0cd04441c",
   "assets/cards/dog.webp": "d77b2a7146",
   "assets/cards/door.webp": "6d4063ce36",
@@ -632,8 +654,10 @@ const UI_MANIFEST={
   "assets/cards/flower.webp": "ae0b33a52a",
   "assets/cards/fly.webp": "96bc694a73",
   "assets/cards/food.webp": "d00bdc1a18",
+  "assets/cards/forget.webp": "630c62b957",
   "assets/cards/friend.webp": "645f46ebb3",
   "assets/cards/future.webp": "ee4345d5e8",
+  "assets/cards/garden.webp": "f480951cb4",
   "assets/cards/girl.webp": "852e7dfc9b",
   "assets/cards/give.webp": "715dcbb75d",
   "assets/cards/go.webp": "1e479f7a7f",
@@ -700,6 +724,7 @@ const UI_MANIFEST={
   "assets/cards/teacher.webp": "cadad720b7",
   "assets/cards/together.webp": "aea63cd346",
   "assets/cards/town.webp": "90fa40b30e",
+  "assets/cards/travel.webp": "66476c35cb",
   "assets/cards/tree.webp": "f0040be9d7",
   "assets/cards/usually.webp": "81a9f56c9f",
   "assets/cards/walk.webp": "55655bb2f0",
