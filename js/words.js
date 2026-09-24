@@ -106,7 +106,7 @@ const WORDS=[{"id": 1, "en": "apple", "ja": "りんご", "pronunciation": "ˈæp
 {"id": 176, "en": "good", "ja": "良い", "pronunciation": "ɡʊd", "pos": "形容詞", "rarity": "COMMON", "stars": 1, "ic": "👍", "ex": "A good knight helps an old woman across the bridge.", "tr": "心やさしい騎士が、おばあさんが橋を渡るのを手伝う。"},
 {"id": 177, "en": "red", "ja": "赤い", "pronunciation": "red", "pos": "形容詞", "rarity": "COMMON", "stars": 1, "ic": "🔴", "ex": "A red dragon flies over the town.", "tr": "赤いドラゴンが町の上を飛ぶ。"},
 {"id": 178, "en": "blue", "ja": "青い", "pronunciation": "bluː", "pos": "形容詞", "rarity": "COMMON", "stars": 1, "ic": "🔵", "ex": "The blue lake shines in the sun.", "tr": "青い湖が太陽の下で輝く。"},
-{"id": 179, "en": "white", "ja": "白い", "pronunciation": "waɪt", "pos": "形容詞", "rarity": "COMMON", "stars": 1, "ic": "⚪", "ex": "The snow is white and soft.", "tr": "雪は白くてやわらかい。"},
+{"id": 179, "en": "white", "ja": "白い", "pronunciation": "waɪt", "pos": "形容詞", "rarity": "COMMON", "stars": 1, "ic": "⚪", "ex": "A white rabbit hops through the snow in the forest.", "tr": "白いウサギが、森の雪の中をぴょんぴょん跳ねていく。"},
 {"id": 180, "en": "black", "ja": "黒い", "pronunciation": "blæk", "pos": "形容詞", "rarity": "COMMON", "stars": 1, "ic": "⚫", "ex": "A black crow sits on the roof.", "tr": "黒いカラスが屋根にとまっている。"},
 {"id": 21, "en": "important", "ja": "重要な", "pronunciation": "ɪmˈpɔːrtənt", "pos": "形容詞", "rarity": "UNCOMMON", "stars": 2, "ic": "⭐", "ex": "The stolen map of the orc camp is important.", "tr": "盗まれたオークの野営地の地図は、重要だ。"},
 {"id": 22, "en": "different", "ja": "違う", "pronunciation": "ˈdɪfrənt", "pos": "形容詞", "rarity": "UNCOMMON", "stars": 2, "ic": "🔀", "ex": "Each door leads to a different world.", "tr": "どの扉も、違う世界につながっている。"},

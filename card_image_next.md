@@ -39,9 +39,9 @@ soft hand-painted anime illustration, visible brush texture, matte finish, gentl
 ```
 
 ### 5. white（白い）　id 179
-例文: The snow is white and soft.　／　雪は白くてやわらかい。
+例文: A white rabbit hops through the snow in the forest.　／　白いウサギが、森の雪の中をぴょんぴょん跳ねていく。
 ```
-soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The snow is white and soft. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A white rabbit hops through the snow in the forest. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 ### 6. black（黒い）　id 180　敵役: crow
