@@ -110,6 +110,10 @@ const UI_MANIFEST={
    "full": "assets/cards/bird.webp?v=bf47b7c122",
    "thumb": "assets/cards/thumb/bird.webp?v=d898dc54a3"
   },
+  "black": {
+   "full": "assets/cards/black.webp?v=6048c4f3a9",
+   "thumb": "assets/cards/thumb/black.webp?v=bf52784894"
+  },
   "blue": {
    "full": "assets/cards/blue.webp?v=a5d0ff5d6b",
    "thumb": "assets/cards/thumb/blue.webp?v=8dff69505c"
@@ -533,6 +537,7 @@ const UI_MANIFEST={
   "assets/cards/bed.webp": "798c32c5b8",
   "assets/cards/big.webp": "b849accf3a",
   "assets/cards/bird.webp": "bf47b7c122",
+  "assets/cards/black.webp": "6048c4f3a9",
   "assets/cards/blue.webp": "a5d0ff5d6b",
   "assets/cards/book.webp": "f09bca8570",
   "assets/cards/box.webp": "963c94a59c",

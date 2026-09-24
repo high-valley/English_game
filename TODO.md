@@ -1,13 +1,13 @@
 # WORD GRIMOIRE ― 次にやるタスク
 
 ## 次のタスク（優先順）
-1. **カード画像の作成（COMMON から）**。`card_image_next.md` に COMMON の残り1語（black）が入っている
-   （COMMON は 99/100。ほかに UNCOMMON / RARE / EPIC / LEGENDARY が各1枚＝全体 103/500）
+1. **カード画像の作成（UNCOMMON）**。**COMMON は 100/100 で完成**。`card_image_next.md` に UNCOMMON の残り99語が図鑑の並び順で入っている
+   （全体 104/500。`python3 tools/gen_next_batch.py all UNCOMMON` で出し直す）
    - 画像の生成は画像生成AI（ChatGPT / Grok など）に頼む（Claude は画像を作れない）
    - **プロンプトを渡すときは、必ず `python3 tools/prompt_for.py <単語>` を通す。**
      例文を記憶で書くと、絵と例文が食い違う（`run` の例文を取り違え、`sad` は存在しない単語だった。2枚むだにした）
    - 置いたら `js/card_art.js` の `CARD_IMG_NAMES` に名前を追加する
-   - `python3 tools/gen_next_batch.py all COMMON` で残りを出し直す（作り終えた分は自動で外れる）
+   - `python3 tools/gen_next_batch.py all UNCOMMON` で残りを出し直す（作り終えた分は自動で外れる）
    - レアリティを指定しなければ、おすすめ順（高レア＋敵役が先）で出る
    - 全500語のプロンプトは `card_image_prompts.md`
 2. 問題形式の追加（今は「英単語 → 日本語4択」のみ）※**当面は4択のままでよい**（ユーザー判断）
@@ -35,6 +35,8 @@
 - `icon_coin` を作り直す場合は `assets/ui/icon_prompts.md`（金色が主体で、暗い面を作らないこと）
 
 ## 完了済み
+- **COMMON のカード画像 100枚が完成**（最後は `black`）。全体 104/500
+- **UNCOMMON の例文を、生成の前にまとめて見直した**（100語中64語を書き換え）。打ち消し・疑問・命令・状態だけの文・抽象を、その語が絵に出る場面に変え、場所も例文に入れた。舞台が足されるのは画像がある `necessary` の1語だけになった。中世の世界に合わない `bicycle` / `station` / `hospital` も合わせた
 - COMMON のカード画像を5枚追加（strong / good / red / blue / white）。COMMON は 99/100、全体 103/500。`red` は竜の見た目の「例文が別の色を言っていればその色」が効いて赤い竜になった（姿は `egg` / `girl` と同じ）
 - COMMON のカード画像を5枚追加（new / old / hot / cold / fast）。書き換えた形容詞の例文で、4枚とも形容詞が絵に出た。COMMON は 94/100、全体 98/500
 - COMMON のカード画像を5枚追加（live / work / listen / speak / small）。COMMON は 89/100、全体 93/500。ドワーフの見た目を `EXTRA_LOOK` に追加（`work` の絵が基準。4語に出る）
