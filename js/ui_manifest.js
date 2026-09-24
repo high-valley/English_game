@@ -90,6 +90,10 @@ const UI_MANIFEST={
    "full": "assets/cards/apple.webp?v=f76931a6e4",
    "thumb": "assets/cards/thumb/apple.webp?v=03002e9e21"
   },
+  "arrive": {
+   "full": "assets/cards/arrive.webp?v=bc046d27a9",
+   "thumb": "assets/cards/thumb/arrive.webp?v=c349bdad5e"
+  },
   "baby": {
    "full": "assets/cards/baby.webp?v=73b28579c4",
    "thumb": "assets/cards/thumb/baby.webp?v=e23732d1f7"
@@ -177,6 +181,14 @@ const UI_MANIFEST={
   "come": {
    "full": "assets/cards/come.webp?v=26dabb6887",
    "thumb": "assets/cards/thumb/come.webp?v=0723564073"
+  },
+  "continue": {
+   "full": "assets/cards/continue.webp?v=ddb6f0e162",
+   "thumb": "assets/cards/thumb/continue.webp?v=6b33cf3b1b"
+  },
+  "decide": {
+   "full": "assets/cards/decide.webp?v=717e762bfa",
+   "thumb": "assets/cards/thumb/decide.webp?v=a64db15233"
   },
   "different": {
    "full": "assets/cards/different.webp?v=757a34787e",
@@ -358,6 +370,10 @@ const UI_MANIFEST={
    "full": "assets/cards/play.webp?v=4a6bdb79b8",
    "thumb": "assets/cards/thumb/play.webp?v=de0f5d0193"
   },
+  "possible": {
+   "full": "assets/cards/possible.webp?v=d0fa8e9ca3",
+   "thumb": "assets/cards/thumb/possible.webp?v=e2330eb831"
+  },
   "queen": {
    "full": "assets/cards/queen.webp?v=ff46af30e2",
    "thumb": "assets/cards/thumb/queen.webp?v=fdfc3d4255"
@@ -373,6 +389,10 @@ const UI_MANIFEST={
   "red": {
    "full": "assets/cards/red.webp?v=18a8e30fdb",
    "thumb": "assets/cards/thumb/red.webp?v=f806ff233d"
+  },
+  "remember": {
+   "full": "assets/cards/remember.webp?v=92e4fe3e6a",
+   "thumb": "assets/cards/thumb/remember.webp?v=138dd5a964"
   },
   "require": {
    "full": "assets/cards/require.webp?v=358b37cef4",
@@ -552,6 +572,7 @@ const UI_MANIFEST={
   "assets/ui/icons/nav_gacha.png": "120141d355",
   "assets/ui/icons/nav_cards.png": "a8bc5c1133",
   "assets/cards/apple.webp": "f76931a6e4",
+  "assets/cards/arrive.webp": "bc046d27a9",
   "assets/cards/baby.webp": "73b28579c4",
   "assets/cards/bag.webp": "9866dcc052",
   "assets/cards/beautiful.webp": "1bb7327884",
@@ -574,6 +595,8 @@ const UI_MANIFEST={
   "assets/cards/close.webp": "97136c9825",
   "assets/cards/cold.webp": "4c406bc8d2",
   "assets/cards/come.webp": "26dabb6887",
+  "assets/cards/continue.webp": "ddb6f0e162",
+  "assets/cards/decide.webp": "717e762bfa",
   "assets/cards/different.webp": "757a34787e",
   "assets/cards/doctor.webp": "d0cd04441c",
   "assets/cards/dog.webp": "d77b2a7146",
@@ -619,10 +642,12 @@ const UI_MANIFEST={
   "assets/cards/old.webp": "d36cb3415c",
   "assets/cards/open.webp": "81b64039ce",
   "assets/cards/play.webp": "4a6bdb79b8",
+  "assets/cards/possible.webp": "d0fa8e9ca3",
   "assets/cards/queen.webp": "ff46af30e2",
   "assets/cards/rain.webp": "01f995fee5",
   "assets/cards/read.webp": "de4a20bbfc",
   "assets/cards/red.webp": "18a8e30fdb",
+  "assets/cards/remember.webp": "92e4fe3e6a",
   "assets/cards/require.webp": "358b37cef4",
   "assets/cards/rice.webp": "a2a148216c",
   "assets/cards/river.webp": "be6a6cb563",

@@ -38,11 +38,20 @@ IRREGULAR = {
 }
 
 
+# 形容詞としても使う語。後ろにこの名詞が続くときは敵役ではない。
+# 「giant spider（大蜘蛛）」「giant serpent（大蛇）」「giant hollow tree（巨大な木）」の giant は巨人ではない。
+# 数えるだけなら害は小さいが、プロンプトでは巨人の見た目の説明が入り、大蜘蛛の絵に巨人が描かれてしまう
+NOT_FOE_AFTER = {
+    "giant": r"spiders?|serpents?|hollow|trees?",
+}
+
+
 def enemy_pattern(e):
     alts = [re.escape(e), re.escape(e) + r"(?:s|es)"]
     if e in IRREGULAR:
         alts.append(re.escape(IRREGULAR[e]))
-    return r"\b(?:" + "|".join(alts) + r")\b"
+    tail = rf"(?!\s+(?:{NOT_FOE_AFTER[e]})\b)" if e in NOT_FOE_AFTER else ""
+    return r"\b(?:" + "|".join(alts) + r")\b" + tail
 
 
 def has(ex, e):

@@ -95,8 +95,12 @@ LEVEL_NO = {r: i + 1 for i, r in enumerate(LEVELS)}
 # 「この単語が主役」を、品詞に応じて英語で言い切る。
 # これを書かないと、例文の中の別の名詞が主役になる
 # （`sun` の "The sun rises over the castle." で、城が画面を占めて太陽が隅の点になった）
+# 名詞には、目に見えない語（future / problem / strategy / revenue …）も多い。RARE から先はほとんどがそう。
+# 「問題そのものを大きく」と言われても描けないので、例文の人や物で表して、それを大きく描いてもらう
 SUBJECT = {
-    "名詞": 'The {en} itself is the main subject of the picture: large and clearly visible.',
+    "名詞": ('The {en} itself is the main subject of the picture: large and clearly visible. '
+             'If the {en} is not something that can be seen, show it through the people and things '
+             'in the sentence, and make them large and clearly visible.'),
     "動詞": "Make the sentence's action ({en}) the main subject: large and clearly visible.",
 }
 SUBJECT_OTHER = ("Make the person or thing that the sentence is about the main subject: "

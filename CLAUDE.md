@@ -51,6 +51,8 @@ python3 tools/prompt_for.py --next 5 COMMON    # まだ画像が無い語を、�
 "The goblins run away from the village."、`sad` はそもそも words.js に無い単語だった。
 どちらも絵が1枚むだになった。無い単語を渡すと `prompt_for.py` が止まる。
 `card_image_prompts.md` と `card_image_next.md` は**自動生成**なので、直接編集しない。
+`card_image_next.md` は `prompt_for.py --next` と同じプロンプトを同じ順番で並べる（先頭5件＝次に渡す5件）。
+ユーザーが画像生成AIのコネクタで GitHub から直接読ませることがあるので、ここだけ別のプロンプトにしない。
 **渡すときは「例文（日本語）」の行を省かない。** ユーザーは日本語の例文を読んで、届いた絵が例文どおりかを判断する
 （英語の例文とプロンプトだけを渡したら、日本語で教えてほしいと言われた）。
 
@@ -126,6 +128,8 @@ Chromium は `/opt/pw-browsers/chromium` にある（Playwright から `executab
   **「簡素に」「余白を取って」と書かない**（生成AIによっては淡い水彩＋余白だらけになり、紺の枠に負ける）
 - **「この単語が主役」は英語で言い切る**（`SUBJECT`）。例文を渡すだけでは、文中の別の名詞が主役になる
   （`sun` の "The sun rises over the castle." で、城が画面を占めて太陽が隅の点になった）
+  目に見えない名詞（future / problem / strategy / revenue …。RARE から先はほとんどがそう）には、
+  「見えないものなら、例文の人や物で表して大きく描く」と続けている
 - **生きものには目と顔を描いてもらう**（`CREATURE`）。目が無いスライムは塊に見える
 - **画風は締め（`TAIL`）ではなく `STYLE` にレアリティごとに書く。** 締めに一言置いただけでは
   生成AIの既定の絵柄に押し負ける（COMMON が 3DCG のようなつやつやした絵になった）。
@@ -139,6 +143,8 @@ Chromium は `/opt/pw-browsers/chromium` にある（Playwright から `executab
   そこも `FOE_LOOK` に書く。
   `ENEMIES` に敵役を足したら `FOE_LOOK` にも見た目を書く（`assert` で漏れを止めている）。
   例文で「敵そのもの」でない語（`cursed swamp` の cursed など）は `FOE_SKIP` に入れる。
+  形容詞としても使う語は `check_words.py` の `NOT_FOE_AFTER` に、後ろに続く名詞を書く
+  （`giant spider`（大蜘蛛）の giant を巨人と数え、大蜘蛛の絵に巨人の説明が入っていた。例文の giant は5つとも形容詞だった）。
   **敵役でない生きものは `EXTRA_LOOK` に書く**（竜など）。`ENEMIES` に入れると
   「敵役の割合」の数字が狂う（竜は12語に出るが、"a friendly dragon" のように味方側でも出る）。
   例文が色を言う語（"A red dragon"）があるものは、見た目の側を「例文が別の色を言っていなければ」と譲らせる
