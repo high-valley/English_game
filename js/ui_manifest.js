@@ -158,6 +158,10 @@ const UI_MANIFEST={
    "full": "assets/cards/close.webp?v=97136c9825",
    "thumb": "assets/cards/thumb/close.webp?v=6a9e1a242a"
   },
+  "cold": {
+   "full": "assets/cards/cold.webp?v=4c406bc8d2",
+   "thumb": "assets/cards/thumb/cold.webp?v=7607fb949f"
+  },
   "come": {
    "full": "assets/cards/come.webp?v=26dabb6887",
    "thumb": "assets/cards/thumb/come.webp?v=0723564073"
@@ -189,6 +193,10 @@ const UI_MANIFEST={
   "family": {
    "full": "assets/cards/family.webp?v=cc5657578d",
    "thumb": "assets/cards/thumb/family.webp?v=5c29358cc3"
+  },
+  "fast": {
+   "full": "assets/cards/fast.webp?v=66e3ae35f9",
+   "thumb": "assets/cards/thumb/fast.webp?v=74199821f5"
   },
   "fire": {
    "full": "assets/cards/fire.webp?v=ddc5338d50",
@@ -246,6 +254,10 @@ const UI_MANIFEST={
    "full": "assets/cards/horse.webp?v=a93c4bfb25",
    "thumb": "assets/cards/thumb/horse.webp?v=30b85fde32"
   },
+  "hot": {
+   "full": "assets/cards/hot.webp?v=b53b5afdc4",
+   "thumb": "assets/cards/thumb/hot.webp?v=c5cf59045b"
+  },
   "house": {
    "full": "assets/cards/house.webp?v=9198475e5a",
    "thumb": "assets/cards/thumb/house.webp?v=876a631530"
@@ -302,9 +314,17 @@ const UI_MANIFEST={
    "full": "assets/cards/necessary.webp?v=7b5dca03d8",
    "thumb": "assets/cards/thumb/necessary.webp?v=31d6fea049"
   },
+  "new": {
+   "full": "assets/cards/new.webp?v=cd7bdc58d4",
+   "thumb": "assets/cards/thumb/new.webp?v=638b5066eb"
+  },
   "night": {
    "full": "assets/cards/night.webp?v=e8aaa143c0",
    "thumb": "assets/cards/thumb/night.webp?v=b53aeac426"
+  },
+  "old": {
+   "full": "assets/cards/old.webp?v=d36cb3415c",
+   "thumb": "assets/cards/thumb/old.webp?v=f015a92bcd"
   },
   "open": {
    "full": "assets/cards/open.webp?v=81b64039ce",
@@ -505,6 +525,7 @@ const UI_MANIFEST={
   "assets/cards/cat.webp": "9bbe789cee",
   "assets/cards/chair.webp": "ea6e1554c5",
   "assets/cards/close.webp": "97136c9825",
+  "assets/cards/cold.webp": "4c406bc8d2",
   "assets/cards/come.webp": "26dabb6887",
   "assets/cards/doctor.webp": "d0cd04441c",
   "assets/cards/dog.webp": "d77b2a7146",
@@ -513,6 +534,7 @@ const UI_MANIFEST={
   "assets/cards/eat.webp": "81c58c7a23",
   "assets/cards/egg.webp": "4919f0529e",
   "assets/cards/family.webp": "cc5657578d",
+  "assets/cards/fast.webp": "66e3ae35f9",
   "assets/cards/fire.webp": "ddc5338d50",
   "assets/cards/fish.webp": "f553cf556e",
   "assets/cards/flower.webp": "ae0b33a52a",
@@ -527,6 +549,7 @@ const UI_MANIFEST={
   "assets/cards/hat.webp": "634ad230a3",
   "assets/cards/help.webp": "15c4f6a2a4",
   "assets/cards/horse.webp": "a93c4bfb25",
+  "assets/cards/hot.webp": "b53b5afdc4",
   "assets/cards/house.webp": "9198475e5a",
   "assets/cards/jump.webp": "897d6229c6",
   "assets/cards/key.webp": "d9e46c479e",
@@ -541,7 +564,9 @@ const UI_MANIFEST={
   "assets/cards/morning.webp": "ff393b91af",
   "assets/cards/mountain.webp": "33966baf23",
   "assets/cards/necessary.webp": "7b5dca03d8",
+  "assets/cards/new.webp": "cd7bdc58d4",
   "assets/cards/night.webp": "e8aaa143c0",
+  "assets/cards/old.webp": "d36cb3415c",
   "assets/cards/open.webp": "81b64039ce",
   "assets/cards/play.webp": "4a6bdb79b8",
   "assets/cards/queen.webp": "ff46af30e2",

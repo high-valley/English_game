@@ -27,7 +27,7 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この93語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この98語は、絵文字ではなく画像で表示されます）。
 
 - apple
 - baby
@@ -47,6 +47,7 @@
 - cat
 - chair
 - close
+- cold
 - come
 - doctor
 - dog
@@ -55,6 +56,7 @@
 - eat
 - egg
 - family
+- fast
 - fire
 - fish
 - flower
@@ -69,6 +71,7 @@
 - hat
 - help
 - horse
+- hot
 - house
 - jump
 - key
@@ -83,7 +86,9 @@
 - morning
 - mountain
 - necessary
+- new
 - night
+- old
 - open
 - play
 - queen
