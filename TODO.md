@@ -1,7 +1,7 @@
 # WORD GRIMOIRE ― 次にやるタスク
 
 ## 次のタスク（優先順）
-1. **カード画像の作成（UNCOMMON）**。**COMMON は 100/100 で完成**。UNCOMMON は 36/100（全体 139/500）。
+1. **カード画像の作成（UNCOMMON）**。**COMMON は 100/100 で完成**。UNCOMMON は 41/100（全体 144/500）。
    `card_image_next.md` の先頭が次に作る分（`python3 tools/gen_next_batch.py` で出し直す）
    - 画像の生成は画像生成AI（ChatGPT / Grok など）に頼む（Claude は画像を作れない）
    - **プロンプトを渡すときは、必ず `python3 tools/prompt_for.py <単語>` を通す。**
