@@ -255,6 +255,9 @@ EXTRA_LOOK = {
     "dragon": "dragons are long scaled reptiles with a horned crest, a slender neck, "
               "folded leathery wings and amber eyes, in tan and bronze scales "
               "unless the sentence gives them another colour",
+    # 基準は work のカード。4語に出る（work / efficient / equipment / inventory）
+    "dwarf": "dwarves are short, broad and sturdy, with long thick beards in red, grey or brown, "
+             "big hands, and plain wool and leather work clothes with an iron helmet or a cloth cap",
 }
 
 # 見た目を足す対象。敵役 ＋ 上の生きもの
