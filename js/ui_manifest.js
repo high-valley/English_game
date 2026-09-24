@@ -190,6 +190,10 @@ const UI_MANIFEST={
    "full": "assets/cards/cold.webp?v=4c406bc8d2",
    "thumb": "assets/cards/thumb/cold.webp?v=7607fb949f"
   },
+  "color": {
+   "full": "assets/cards/color.webp?v=913dd555aa",
+   "thumb": "assets/cards/thumb/color.webp?v=62365986d3"
+  },
   "come": {
    "full": "assets/cards/come.webp?v=26dabb6887",
    "thumb": "assets/cards/thumb/come.webp?v=0723564073"
@@ -438,6 +442,10 @@ const UI_MANIFEST={
    "full": "assets/cards/night.webp?v=e8aaa143c0",
    "thumb": "assets/cards/thumb/night.webp?v=b53aeac426"
   },
+  "number": {
+   "full": "assets/cards/number.webp?v=3f5c56be86",
+   "thumb": "assets/cards/thumb/number.webp?v=a58ec657e1"
+  },
   "old": {
    "full": "assets/cards/old.webp?v=d36cb3415c",
    "thumb": "assets/cards/thumb/old.webp?v=f015a92bcd"
@@ -574,6 +582,10 @@ const UI_MANIFEST={
    "full": "assets/cards/strong.webp?v=21868fa2d7",
    "thumb": "assets/cards/thumb/strong.webp?v=2effa4066a"
   },
+  "summer": {
+   "full": "assets/cards/summer.webp?v=5e55dcbc24",
+   "thumb": "assets/cards/thumb/summer.webp?v=8a5566f884"
+  },
   "sun": {
    "full": "assets/cards/sun.webp?v=8cd9ca87ba",
    "thumb": "assets/cards/thumb/sun.webp?v=59732d240a"
@@ -638,6 +650,10 @@ const UI_MANIFEST={
    "full": "assets/cards/water.webp?v=2ddedce037",
    "thumb": "assets/cards/thumb/water.webp?v=e4c26edc63"
   },
+  "weather": {
+   "full": "assets/cards/weather.webp?v=757f100dde",
+   "thumb": "assets/cards/thumb/weather.webp?v=a956b0b6df"
+  },
   "white": {
    "full": "assets/cards/white.webp?v=6f2a18ceef",
    "thumb": "assets/cards/thumb/white.webp?v=07233373b1"
@@ -649,6 +665,10 @@ const UI_MANIFEST={
   "window": {
    "full": "assets/cards/window.webp?v=bbf853e6ce",
    "thumb": "assets/cards/thumb/window.webp?v=8d6eade020"
+  },
+  "winter": {
+   "full": "assets/cards/winter.webp?v=df14fe452b",
+   "thumb": "assets/cards/thumb/winter.webp?v=117ea939fa"
   },
   "woman": {
    "full": "assets/cards/woman.webp?v=03cae6c604",
@@ -717,6 +737,7 @@ const UI_MANIFEST={
   "assets/cards/chair.webp": "ea6e1554c5",
   "assets/cards/close.webp": "97136c9825",
   "assets/cards/cold.webp": "4c406bc8d2",
+  "assets/cards/color.webp": "913dd555aa",
   "assets/cards/come.webp": "26dabb6887",
   "assets/cards/continue.webp": "ddb6f0e162",
   "assets/cards/decide.webp": "717e762bfa",
@@ -779,6 +800,7 @@ const UI_MANIFEST={
   "assets/cards/necessary.webp": "7b5dca03d8",
   "assets/cards/new.webp": "cd7bdc58d4",
   "assets/cards/night.webp": "e8aaa143c0",
+  "assets/cards/number.webp": "3f5c56be86",
   "assets/cards/old.webp": "d36cb3415c",
   "assets/cards/open.webp": "81b64039ce",
   "assets/cards/play.webp": "4a6bdb79b8",
@@ -813,6 +835,7 @@ const UI_MANIFEST={
   "assets/cards/station.webp": "4a56f6579f",
   "assets/cards/story.webp": "211addb42f",
   "assets/cards/strong.webp": "21868fa2d7",
+  "assets/cards/summer.webp": "5e55dcbc24",
   "assets/cards/sun.webp": "8cd9ca87ba",
   "assets/cards/swim.webp": "a56d31906b",
   "assets/cards/sword.webp": "15136582c5",
@@ -829,9 +852,11 @@ const UI_MANIFEST={
   "assets/cards/village.webp": "6784b90674",
   "assets/cards/walk.webp": "55655bb2f0",
   "assets/cards/water.webp": "2ddedce037",
+  "assets/cards/weather.webp": "757f100dde",
   "assets/cards/white.webp": "6f2a18ceef",
   "assets/cards/wind.webp": "d77dc1acac",
   "assets/cards/window.webp": "bbf853e6ce",
+  "assets/cards/winter.webp": "df14fe452b",
   "assets/cards/woman.webp": "03cae6c604",
   "assets/cards/work.webp": "56d3451b72",
   "assets/cards/write.webp": "8f893319c6"

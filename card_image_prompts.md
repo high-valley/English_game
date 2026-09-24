@@ -27,7 +27,7 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この144語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この149語は、絵文字ではなく画像で表示されます）。
 
 - answer
 - apple
@@ -55,6 +55,7 @@
 - chair
 - close
 - cold
+- color
 - come
 - continue
 - decide
@@ -117,6 +118,7 @@
 - necessary
 - new
 - night
+- number
 - old
 - open
 - play
@@ -151,6 +153,7 @@
 - station
 - story
 - strong
+- summer
 - sun
 - swim
 - sword
@@ -167,9 +170,11 @@
 - village
 - walk
 - water
+- weather
 - white
 - wind
 - window
+- winter
 - woman
 - work
 - write
@@ -928,17 +933,17 @@ hand-painted anime fantasy illustration, visible brush texture, matte finish, a 
 
 **209. brother**（兄弟）
 ```
-hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: My big brother practices with his sword in the yard. The brother itself is the main subject of the picture: large and clearly visible. If the brother is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a low angle, looking up at the subject against the sky or the ceiling above it. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A little boy watches his big brother practice with a sword in the yard. The brother itself is the main subject of the picture: large and clearly visible. If the brother is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a low angle, looking up at the subject against the sky or the ceiling above it. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **210. sister**（姉妹）
 ```
-hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Her little sister makes a magic potion in the kitchen. The sister itself is the main subject of the picture: large and clearly visible. If the sister is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: seen from slightly above, looking down on the subject and the ground around it. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Two sisters with the same red braids feed the ducks by the pond. The sister itself is the main subject of the picture: large and clearly visible. If the sister is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: seen from slightly above, looking down on the subject and the ground around it. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **211. mother**（母）
 ```
-hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: His mother sings by the fire. The mother itself is the main subject of the picture: large and clearly visible. If the mother is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: the subject set to one side of the frame, with the place opening up beside it. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A mother braids her daughter's hair by the cottage window. The mother itself is the main subject of the picture: large and clearly visible. If the mother is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: the subject set to one side of the frame, with the place opening up beside it. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **212. father**（父）
