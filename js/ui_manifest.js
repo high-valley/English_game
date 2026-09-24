@@ -86,6 +86,10 @@ const UI_MANIFEST={
   }
  },
  "cards": {
+  "answer": {
+   "full": "assets/cards/answer.webp?v=6866217dbc",
+   "thumb": "assets/cards/thumb/answer.webp?v=fa51479d59"
+  },
   "apple": {
    "full": "assets/cards/apple.webp?v=f76931a6e4",
    "thumb": "assets/cards/thumb/apple.webp?v=03002e9e21"
@@ -221,6 +225,10 @@ const UI_MANIFEST={
   "door": {
    "full": "assets/cards/door.webp?v=6d4063ce36",
    "thumb": "assets/cards/thumb/door.webp?v=50ae4587e5"
+  },
+  "dream": {
+   "full": "assets/cards/dream.webp?v=a7a6c098b7",
+   "thumb": "assets/cards/thumb/dream.webp?v=c34780849d"
   },
   "drink": {
    "full": "assets/cards/drink.webp?v=85c9cea52d",
@@ -366,6 +374,10 @@ const UI_MANIFEST={
    "full": "assets/cards/learn.webp?v=0c1e9d2f05",
    "thumb": "assets/cards/thumb/learn.webp?v=5bda0b275d"
   },
+  "letter": {
+   "full": "assets/cards/letter.webp?v=b3ab606f0f",
+   "thumb": "assets/cards/thumb/letter.webp?v=595324c160"
+  },
   "library": {
    "full": "assets/cards/library.webp?v=43346be8ee",
    "thumb": "assets/cards/thumb/library.webp?v=888dc6cb88"
@@ -449,6 +461,10 @@ const UI_MANIFEST={
   "queen": {
    "full": "assets/cards/queen.webp?v=ff46af30e2",
    "thumb": "assets/cards/thumb/queen.webp?v=fdfc3d4255"
+  },
+  "question": {
+   "full": "assets/cards/question.webp?v=3eb3669d27",
+   "thumb": "assets/cards/thumb/question.webp?v=d7d555f7b7"
   },
   "rain": {
    "full": "assets/cards/rain.webp?v=01f995fee5",
@@ -549,6 +565,10 @@ const UI_MANIFEST={
   "station": {
    "full": "assets/cards/station.webp?v=4a56f6579f",
    "thumb": "assets/cards/thumb/station.webp?v=84d3e28cb2"
+  },
+  "story": {
+   "full": "assets/cards/story.webp?v=211addb42f",
+   "thumb": "assets/cards/thumb/story.webp?v=0e49926e64"
   },
   "strong": {
    "full": "assets/cards/strong.webp?v=21868fa2d7",
@@ -671,6 +691,7 @@ const UI_MANIFEST={
   "assets/ui/icons/nav_study.png": "a001ce1e4b",
   "assets/ui/icons/nav_gacha.png": "120141d355",
   "assets/ui/icons/nav_cards.png": "a8bc5c1133",
+  "assets/cards/answer.webp": "6866217dbc",
   "assets/cards/apple.webp": "f76931a6e4",
   "assets/cards/arrive.webp": "bc046d27a9",
   "assets/cards/baby.webp": "73b28579c4",
@@ -705,6 +726,7 @@ const UI_MANIFEST={
   "assets/cards/doctor.webp": "d0cd04441c",
   "assets/cards/dog.webp": "d77b2a7146",
   "assets/cards/door.webp": "6d4063ce36",
+  "assets/cards/dream.webp": "a7a6c098b7",
   "assets/cards/drink.webp": "85c9cea52d",
   "assets/cards/eat.webp": "81c58c7a23",
   "assets/cards/egg.webp": "4919f0529e",
@@ -741,6 +763,7 @@ const UI_MANIFEST={
   "assets/cards/king.webp": "df22c9602d",
   "assets/cards/kitchen.webp": "627d1b1c00",
   "assets/cards/learn.webp": "0c1e9d2f05",
+  "assets/cards/letter.webp": "b3ab606f0f",
   "assets/cards/library.webp": "43346be8ee",
   "assets/cards/listen.webp": "e67c80861f",
   "assets/cards/live.webp": "b251069482",
@@ -762,6 +785,7 @@ const UI_MANIFEST={
   "assets/cards/possible.webp": "d0fa8e9ca3",
   "assets/cards/problem.webp": "dd1ad37f0b",
   "assets/cards/queen.webp": "ff46af30e2",
+  "assets/cards/question.webp": "3eb3669d27",
   "assets/cards/rain.webp": "01f995fee5",
   "assets/cards/read.webp": "de4a20bbfc",
   "assets/cards/reason.webp": "8d4fa1b16d",
@@ -787,6 +811,7 @@ const UI_MANIFEST={
   "assets/cards/stakeholder.webp": "29b1e7a108",
   "assets/cards/star.webp": "5768222dc5",
   "assets/cards/station.webp": "4a56f6579f",
+  "assets/cards/story.webp": "211addb42f",
   "assets/cards/strong.webp": "21868fa2d7",
   "assets/cards/sun.webp": "8cd9ca87ba",
   "assets/cards/swim.webp": "a56d31906b",
