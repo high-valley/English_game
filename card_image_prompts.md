@@ -27,7 +27,7 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この119語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この124語は、絵文字ではなく画像で表示されます）。
 
 - apple
 - arrive
@@ -35,6 +35,7 @@
 - bag
 - beautiful
 - bed
+- believe
 - big
 - bird
 - black
@@ -56,6 +57,7 @@
 - continue
 - decide
 - different
+- difficult
 - doctor
 - dog
 - door
@@ -70,8 +72,10 @@
 - flower
 - fly
 - food
+- forget
 - friend
 - future
+- garden
 - girl
 - give
 - go
@@ -138,6 +142,7 @@
 - teacher
 - together
 - town
+- travel
 - tree
 - usually
 - walk
