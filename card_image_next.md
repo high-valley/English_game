@@ -15,9 +15,9 @@
 ## Lv.1 COMMON（この一覧に11語）
 
 ### 1. new（新しい）　id 170
-例文: The knight has a new shield.　／　騎士は新しい盾を持っている。
+例文: The young knight holds up his shiny new shield.　／　若い騎士が、ぴかぴかの新しい盾をかかげる。
 ```
-soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The knight has a new shield. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The young knight holds up his shiny new shield. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 ### 2. old（古い）　id 171
@@ -27,9 +27,9 @@ soft hand-painted anime illustration, visible brush texture, matte finish, gentl
 ```
 
 ### 3. hot（熱い）　id 172
-例文: The soup is too hot.　／　スープは熱すぎる。
+例文: The girl blows on her hot soup by the fire.　／　少女が火のそばで、熱いスープをふうふう冷ます。
 ```
-soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The soup is too hot. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The girl blows on her hot soup by the fire. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 ### 4. cold（冷たい）　id 173
@@ -39,9 +39,9 @@ soft hand-painted anime illustration, visible brush texture, matte finish, gentl
 ```
 
 ### 5. fast（速い）　id 174　敵役: goblin
-例文: The goblin is small but very fast.　／　そのゴブリンは小さいが、とても速い。
+例文: A fast goblin runs off with a stolen pie.　／　すばしっこいゴブリンが、盗んだパイを持って走り去る。
 ```
-soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The goblin is small but very fast. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A fast goblin runs off with a stolen pie. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 ### 6. strong（強い）　id 175
