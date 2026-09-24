@@ -33,9 +33,9 @@ soft hand-painted anime illustration, visible brush texture, matte finish, gentl
 ```
 
 ### 4. cold（冷たい）　id 173
-例文: The lake is cold in winter.　／　湖は冬に冷たい。
+例文: A boy shivers in the cold wind by the frozen lake.　／　少年が、凍った湖のそばで冷たい風に震えている。
 ```
-soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: The lake is cold in winter. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+soft hand-painted anime illustration, visible brush texture, matte finish, gentle natural light, warm and clear colors, storybook feel, one clear subject, a simple background that shows the place, few magical effects. Scene: A boy shivers in the cold wind by the frozen lake. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 ### 5. fast（速い）　id 174　敵役: goblin

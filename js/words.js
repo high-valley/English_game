@@ -100,7 +100,7 @@ const WORDS=[{"id": 1, "en": "apple", "ja": "りんご", "pronunciation": "ˈæp
 {"id": 170, "en": "new", "ja": "新しい", "pronunciation": "nuː", "pos": "形容詞", "rarity": "COMMON", "stars": 1, "ic": "🆕", "ex": "The young knight holds up his shiny new shield.", "tr": "若い騎士が、ぴかぴかの新しい盾をかかげる。"},
 {"id": 171, "en": "old", "ja": "古い", "pronunciation": "oʊld", "pos": "形容詞", "rarity": "COMMON", "stars": 1, "ic": "🏚️", "ex": "The old tower is very tall.", "tr": "古い塔はとても高い。"},
 {"id": 172, "en": "hot", "ja": "熱い", "pronunciation": "hɑːt", "pos": "形容詞", "rarity": "COMMON", "stars": 1, "ic": "🥵", "ex": "The girl blows on her hot soup by the fire.", "tr": "少女が火のそばで、熱いスープをふうふう冷ます。"},
-{"id": 173, "en": "cold", "ja": "冷たい", "pronunciation": "koʊld", "pos": "形容詞", "rarity": "COMMON", "stars": 1, "ic": "🥶", "ex": "The lake is cold in winter.", "tr": "湖は冬に冷たい。"},
+{"id": 173, "en": "cold", "ja": "冷たい", "pronunciation": "koʊld", "pos": "形容詞", "rarity": "COMMON", "stars": 1, "ic": "🥶", "ex": "A boy shivers in the cold wind by the frozen lake.", "tr": "少年が、凍った湖のそばで冷たい風に震えている。"},
 {"id": 174, "en": "fast", "ja": "速い", "pronunciation": "fæst", "pos": "形容詞", "rarity": "COMMON", "stars": 1, "ic": "🐇", "ex": "A fast goblin runs off with a stolen pie.", "tr": "すばしっこいゴブリンが、盗んだパイを持って走り去る。"},
 {"id": 175, "en": "strong", "ja": "強い", "pronunciation": "strɔːŋ", "pos": "形容詞", "rarity": "COMMON", "stars": 1, "ic": "💪", "ex": "The strong knight lifts a big stone.", "tr": "強い騎士が大きな石を持ち上げる。"},
 {"id": 176, "en": "good", "ja": "良い", "pronunciation": "ɡʊd", "pos": "形容詞", "rarity": "COMMON", "stars": 1, "ic": "👍", "ex": "A good knight helps an old woman across the bridge.", "tr": "心やさしい騎士が、おばあさんが橋を渡るのを手伝う。"},
