@@ -162,6 +162,10 @@ const UI_MANIFEST={
    "full": "assets/cards/bridge.webp?v=2b0a1d2fb8",
    "thumb": "assets/cards/thumb/bridge.webp?v=e6709172a1"
   },
+  "bring": {
+   "full": "assets/cards/bring.webp?v=c95f7bfffb",
+   "thumb": "assets/cards/thumb/bring.webp?v=0a5c060246"
+  },
   "brother": {
    "full": "assets/cards/brother.webp?v=cce4f888f4",
    "thumb": "assets/cards/thumb/brother.webp?v=db35ffe99d"
@@ -182,6 +186,10 @@ const UI_MANIFEST={
    "full": "assets/cards/car.webp?v=2447d437a9",
    "thumb": "assets/cards/thumb/car.webp?v=57ea862aad"
   },
+  "carry": {
+   "full": "assets/cards/carry.webp?v=c8a156289f",
+   "thumb": "assets/cards/thumb/carry.webp?v=b1f02e1090"
+  },
   "castle": {
    "full": "assets/cards/castle.webp?v=0425f37b83",
    "thumb": "assets/cards/thumb/castle.webp?v=3c7dd758ab"
@@ -190,6 +198,10 @@ const UI_MANIFEST={
    "full": "assets/cards/cat.webp?v=9bbe789cee",
    "thumb": "assets/cards/thumb/cat.webp?v=e83d5d62dd"
   },
+  "catch": {
+   "full": "assets/cards/catch.webp?v=b0915a9a17",
+   "thumb": "assets/cards/thumb/catch.webp?v=2356f3a123"
+  },
   "cave": {
    "full": "assets/cards/cave.webp?v=3985501799",
    "thumb": "assets/cards/thumb/cave.webp?v=2db844ff05"
@@ -197,6 +209,14 @@ const UI_MANIFEST={
   "chair": {
    "full": "assets/cards/chair.webp?v=ea6e1554c5",
    "thumb": "assets/cards/thumb/chair.webp?v=352c6040a1"
+  },
+  "choose": {
+   "full": "assets/cards/choose.webp?v=dc60c534fa",
+   "thumb": "assets/cards/thumb/choose.webp?v=d3f8f9aad2"
+  },
+  "climb": {
+   "full": "assets/cards/climb.webp?v=cb37e2e486",
+   "thumb": "assets/cards/thumb/climb.webp?v=450567049c"
   },
   "close": {
    "full": "assets/cards/close.webp?v=97136c9825",
@@ -786,15 +806,20 @@ const UI_MANIFEST={
   "assets/cards/boy.webp": "9a61d8d13d",
   "assets/cards/bread.webp": "1adf7b9d8d",
   "assets/cards/bridge.webp": "2b0a1d2fb8",
+  "assets/cards/bring.webp": "c95f7bfffb",
   "assets/cards/brother.webp": "cce4f888f4",
   "assets/cards/buy.webp": "7db8ebc613",
   "assets/cards/cake.webp": "5bb32f3658",
   "assets/cards/candle.webp": "eeb4e42a68",
   "assets/cards/car.webp": "2447d437a9",
+  "assets/cards/carry.webp": "c8a156289f",
   "assets/cards/castle.webp": "0425f37b83",
   "assets/cards/cat.webp": "9bbe789cee",
+  "assets/cards/catch.webp": "b0915a9a17",
   "assets/cards/cave.webp": "3985501799",
   "assets/cards/chair.webp": "ea6e1554c5",
+  "assets/cards/choose.webp": "dc60c534fa",
+  "assets/cards/climb.webp": "cb37e2e486",
   "assets/cards/close.webp": "97136c9825",
   "assets/cards/cold.webp": "4c406bc8d2",
   "assets/cards/color.webp": "913dd555aa",
