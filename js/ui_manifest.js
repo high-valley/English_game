@@ -238,9 +238,17 @@ const UI_MANIFEST={
    "full": "assets/cards/continue.webp?v=ddb6f0e162",
    "thumb": "assets/cards/thumb/continue.webp?v=6b33cf3b1b"
   },
+  "cook": {
+   "full": "assets/cards/cook.webp?v=fa8c3bea05",
+   "thumb": "assets/cards/thumb/cook.webp?v=6763fdd53e"
+  },
   "crown": {
    "full": "assets/cards/crown.webp?v=6b439767a7",
    "thumb": "assets/cards/thumb/crown.webp?v=d2e3547752"
+  },
+  "dance": {
+   "full": "assets/cards/dance.webp?v=b6b9334488",
+   "thumb": "assets/cards/thumb/dance.webp?v=f9b71e23b4"
   },
   "decide": {
    "full": "assets/cards/decide.webp?v=717e762bfa",
@@ -270,6 +278,10 @@ const UI_MANIFEST={
    "full": "assets/cards/door.webp?v=6d4063ce36",
    "thumb": "assets/cards/thumb/door.webp?v=50ae4587e5"
   },
+  "draw": {
+   "full": "assets/cards/draw.webp?v=4b95d7da11",
+   "thumb": "assets/cards/thumb/draw.webp?v=8b04918a81"
+  },
   "dream": {
    "full": "assets/cards/dream.webp?v=a7a6c098b7",
    "thumb": "assets/cards/thumb/dream.webp?v=c34780849d"
@@ -285,6 +297,10 @@ const UI_MANIFEST={
   "egg": {
    "full": "assets/cards/egg.webp?v=4919f0529e",
    "thumb": "assets/cards/thumb/egg.webp?v=ec75adecf9"
+  },
+  "enjoy": {
+   "full": "assets/cards/enjoy.webp?v=e6c8ea1973",
+   "thumb": "assets/cards/thumb/enjoy.webp?v=d4124a03d9"
   },
   "experience": {
    "full": "assets/cards/experience.webp?v=6398f6842b",
@@ -825,7 +841,9 @@ const UI_MANIFEST={
   "assets/cards/color.webp": "913dd555aa",
   "assets/cards/come.webp": "26dabb6887",
   "assets/cards/continue.webp": "ddb6f0e162",
+  "assets/cards/cook.webp": "fa8c3bea05",
   "assets/cards/crown.webp": "6b439767a7",
+  "assets/cards/dance.webp": "b6b9334488",
   "assets/cards/decide.webp": "717e762bfa",
   "assets/cards/desert.webp": "a09a2f1d6d",
   "assets/cards/different.webp": "757a34787e",
@@ -833,10 +851,12 @@ const UI_MANIFEST={
   "assets/cards/doctor.webp": "d0cd04441c",
   "assets/cards/dog.webp": "d77b2a7146",
   "assets/cards/door.webp": "6d4063ce36",
+  "assets/cards/draw.webp": "4b95d7da11",
   "assets/cards/dream.webp": "a7a6c098b7",
   "assets/cards/drink.webp": "85c9cea52d",
   "assets/cards/eat.webp": "81c58c7a23",
   "assets/cards/egg.webp": "4919f0529e",
+  "assets/cards/enjoy.webp": "e6c8ea1973",
   "assets/cards/experience.webp": "6398f6842b",
   "assets/cards/family.webp": "cc5657578d",
   "assets/cards/fast.webp": "66e3ae35f9",
