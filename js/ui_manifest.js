@@ -671,8 +671,8 @@ const UI_MANIFEST={
    "thumb": "assets/cards/thumb/tree.webp?v=a3f9d68718"
   },
   "umbrella": {
-   "full": "assets/cards/umbrella.webp?v=e45004c23e",
-   "thumb": "assets/cards/thumb/umbrella.webp?v=3565b0acb2"
+   "full": "assets/cards/umbrella.webp?v=9b01e7cd69",
+   "thumb": "assets/cards/thumb/umbrella.webp?v=4735f11f7d"
   },
   "usually": {
    "full": "assets/cards/usually.webp?v=81a9f56c9f",
@@ -897,7 +897,7 @@ const UI_MANIFEST={
   "assets/cards/town.webp": "90fa40b30e",
   "assets/cards/travel.webp": "66476c35cb",
   "assets/cards/tree.webp": "f0040be9d7",
-  "assets/cards/umbrella.webp": "e45004c23e",
+  "assets/cards/umbrella.webp": "9b01e7cd69",
   "assets/cards/usually.webp": "81a9f56c9f",
   "assets/cards/village.webp": "6784b90674",
   "assets/cards/walk.webp": "55655bb2f0",
