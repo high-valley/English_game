@@ -11,6 +11,7 @@
            "The goblins run away from the village."（城門に走る絵が1枚むだになった）
   ・sad  … そんな単語は words.js に無かった（墓前の騎士の絵が1枚むだになった）
 無い単語を渡すと、このスクリプトが止まる。
+渡すときは「例文（日本語）」の行も必ず一緒に渡す（ユーザーは日本語で、絵が例文どおりかを確かめる）。
 """
 import re
 import sys
@@ -23,8 +24,9 @@ from gen_card_prompts import LEVELS, LEVEL_NO, load_words, load_done_images, pro
 def emit(w, done):
     mark = "（画像あり → 差し替えになります）" if w["en"] in done else ""
     print(f"### {w['en']}.webp（{w['ja']}／{w['rarity']}／id {w['id']}／{w['pos']}）{mark}")
-    print(f"例文: {w['ex']}")
-    print(f"訳:   {w['tr']}")
+    # 日本語の訳を必ず添える（ユーザーは日本語で読んで、届いた絵が例文どおりかを確かめる）
+    print(f"例文（日本語）: {w['tr']}")
+    print(f"例文（英語）:   {w['ex']}")
     print("```")
     print(prompt_for(w))
     print("```")
