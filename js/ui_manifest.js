@@ -218,6 +218,10 @@ const UI_MANIFEST={
    "full": "assets/cards/egg.webp?v=4919f0529e",
    "thumb": "assets/cards/thumb/egg.webp?v=ec75adecf9"
   },
+  "experience": {
+   "full": "assets/cards/experience.webp?v=6398f6842b",
+   "thumb": "assets/cards/thumb/experience.webp?v=040aaf7a10"
+  },
   "family": {
    "full": "assets/cards/family.webp?v=cc5657578d",
    "thumb": "assets/cards/thumb/family.webp?v=5c29358cc3"
@@ -249,6 +253,10 @@ const UI_MANIFEST={
   "friend": {
    "full": "assets/cards/friend.webp?v=645f46ebb3",
    "thumb": "assets/cards/thumb/friend.webp?v=37d69ac020"
+  },
+  "future": {
+   "full": "assets/cards/future.webp?v=ee4345d5e8",
+   "thumb": "assets/cards/thumb/future.webp?v=28fd6c05f6"
   },
   "girl": {
    "full": "assets/cards/girl.webp?v=852e7dfc9b",
@@ -309,6 +317,10 @@ const UI_MANIFEST={
   "king": {
    "full": "assets/cards/king.webp?v=df22c9602d",
    "thumb": "assets/cards/thumb/king.webp?v=234e1824f5"
+  },
+  "learn": {
+   "full": "assets/cards/learn.webp?v=0c1e9d2f05",
+   "thumb": "assets/cards/thumb/learn.webp?v=5bda0b275d"
   },
   "listen": {
    "full": "assets/cards/listen.webp?v=e67c80861f",
@@ -374,6 +386,10 @@ const UI_MANIFEST={
    "full": "assets/cards/possible.webp?v=d0fa8e9ca3",
    "thumb": "assets/cards/thumb/possible.webp?v=e2330eb831"
   },
+  "problem": {
+   "full": "assets/cards/problem.webp?v=dd1ad37f0b",
+   "thumb": "assets/cards/thumb/problem.webp?v=cf84ea7b9b"
+  },
   "queen": {
    "full": "assets/cards/queen.webp?v=ff46af30e2",
    "thumb": "assets/cards/thumb/queen.webp?v=fdfc3d4255"
@@ -385,6 +401,10 @@ const UI_MANIFEST={
   "read": {
    "full": "assets/cards/read.webp?v=de4a20bbfc",
    "thumb": "assets/cards/thumb/read.webp?v=0762156ad0"
+  },
+  "reason": {
+   "full": "assets/cards/reason.webp?v=8d4fa1b16d",
+   "thumb": "assets/cards/thumb/reason.webp?v=07d5833823"
   },
   "red": {
    "full": "assets/cards/red.webp?v=18a8e30fdb",
@@ -604,6 +624,7 @@ const UI_MANIFEST={
   "assets/cards/drink.webp": "85c9cea52d",
   "assets/cards/eat.webp": "81c58c7a23",
   "assets/cards/egg.webp": "4919f0529e",
+  "assets/cards/experience.webp": "6398f6842b",
   "assets/cards/family.webp": "cc5657578d",
   "assets/cards/fast.webp": "66e3ae35f9",
   "assets/cards/fire.webp": "ddc5338d50",
@@ -612,6 +633,7 @@ const UI_MANIFEST={
   "assets/cards/fly.webp": "96bc694a73",
   "assets/cards/food.webp": "d00bdc1a18",
   "assets/cards/friend.webp": "645f46ebb3",
+  "assets/cards/future.webp": "ee4345d5e8",
   "assets/cards/girl.webp": "852e7dfc9b",
   "assets/cards/give.webp": "715dcbb75d",
   "assets/cards/go.webp": "1e479f7a7f",
@@ -627,6 +649,7 @@ const UI_MANIFEST={
   "assets/cards/jump.webp": "897d6229c6",
   "assets/cards/key.webp": "d9e46c479e",
   "assets/cards/king.webp": "df22c9602d",
+  "assets/cards/learn.webp": "0c1e9d2f05",
   "assets/cards/listen.webp": "e67c80861f",
   "assets/cards/live.webp": "b251069482",
   "assets/cards/love.webp": "ec26ff3c58",
@@ -643,9 +666,11 @@ const UI_MANIFEST={
   "assets/cards/open.webp": "81b64039ce",
   "assets/cards/play.webp": "4a6bdb79b8",
   "assets/cards/possible.webp": "d0fa8e9ca3",
+  "assets/cards/problem.webp": "dd1ad37f0b",
   "assets/cards/queen.webp": "ff46af30e2",
   "assets/cards/rain.webp": "01f995fee5",
   "assets/cards/read.webp": "de4a20bbfc",
+  "assets/cards/reason.webp": "8d4fa1b16d",
   "assets/cards/red.webp": "18a8e30fdb",
   "assets/cards/remember.webp": "92e4fe3e6a",
   "assets/cards/require.webp": "358b37cef4",
