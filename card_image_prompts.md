@@ -27,7 +27,7 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この129語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この134語は、絵文字ではなく画像で表示されます）。
 
 - apple
 - arrive
@@ -50,12 +50,14 @@
 - car
 - castle
 - cat
+- cave
 - chair
 - close
 - cold
 - come
 - continue
 - decide
+- desert
 - different
 - difficult
 - doctor
@@ -77,6 +79,7 @@
 - friend
 - future
 - garden
+- gate
 - girl
 - give
 - go
@@ -128,6 +131,7 @@
 - school
 - sea
 - see
+- ship
 - significant
 - sing
 - sit
@@ -145,6 +149,7 @@
 - tea
 - teacher
 - together
+- tower
 - town
 - travel
 - tree
