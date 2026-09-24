@@ -98,6 +98,10 @@ const UI_MANIFEST={
    "full": "assets/cards/arrive.webp?v=bc046d27a9",
    "thumb": "assets/cards/thumb/arrive.webp?v=c349bdad5e"
   },
+  "ask": {
+   "full": "assets/cards/ask.webp?v=bd332a5ef4",
+   "thumb": "assets/cards/thumb/ask.webp?v=8f9447825b"
+  },
   "baby": {
    "full": "assets/cards/baby.webp?v=73b28579c4",
    "thumb": "assets/cards/thumb/baby.webp?v=e23732d1f7"
@@ -213,6 +217,10 @@ const UI_MANIFEST={
   "continue": {
    "full": "assets/cards/continue.webp?v=ddb6f0e162",
    "thumb": "assets/cards/thumb/continue.webp?v=6b33cf3b1b"
+  },
+  "crown": {
+   "full": "assets/cards/crown.webp?v=6b439767a7",
+   "thumb": "assets/cards/thumb/crown.webp?v=d2e3547752"
   },
   "decide": {
    "full": "assets/cards/decide.webp?v=717e762bfa",
@@ -562,6 +570,10 @@ const UI_MANIFEST={
    "full": "assets/cards/see.webp?v=eb6de95956",
    "thumb": "assets/cards/thumb/see.webp?v=31e8504727"
   },
+  "shield": {
+   "full": "assets/cards/shield.webp?v=5d06c6f36c",
+   "thumb": "assets/cards/thumb/shield.webp?v=57709ad1e3"
+  },
   "ship": {
    "full": "assets/cards/ship.webp?v=93993698d9",
    "thumb": "assets/cards/thumb/ship.webp?v=83711f7220"
@@ -671,8 +683,8 @@ const UI_MANIFEST={
    "thumb": "assets/cards/thumb/tree.webp?v=a3f9d68718"
   },
   "umbrella": {
-   "full": "assets/cards/umbrella.webp?v=e45004c23e",
-   "thumb": "assets/cards/thumb/umbrella.webp?v=3565b0acb2"
+   "full": "assets/cards/umbrella.webp?v=9b01e7cd69",
+   "thumb": "assets/cards/thumb/umbrella.webp?v=4735f11f7d"
   },
   "usually": {
    "full": "assets/cards/usually.webp?v=81a9f56c9f",
@@ -681,6 +693,10 @@ const UI_MANIFEST={
   "village": {
    "full": "assets/cards/village.webp?v=6784b90674",
    "thumb": "assets/cards/thumb/village.webp?v=e697ff2c05"
+  },
+  "wait": {
+   "full": "assets/cards/wait.webp?v=70f261f081",
+   "thumb": "assets/cards/thumb/wait.webp?v=3dd5a98988"
   },
   "walk": {
    "full": "assets/cards/walk.webp?v=55655bb2f0",
@@ -754,6 +770,7 @@ const UI_MANIFEST={
   "assets/cards/answer.webp": "6866217dbc",
   "assets/cards/apple.webp": "f76931a6e4",
   "assets/cards/arrive.webp": "bc046d27a9",
+  "assets/cards/ask.webp": "bd332a5ef4",
   "assets/cards/baby.webp": "73b28579c4",
   "assets/cards/bag.webp": "9866dcc052",
   "assets/cards/beautiful.webp": "1bb7327884",
@@ -783,6 +800,7 @@ const UI_MANIFEST={
   "assets/cards/color.webp": "913dd555aa",
   "assets/cards/come.webp": "26dabb6887",
   "assets/cards/continue.webp": "ddb6f0e162",
+  "assets/cards/crown.webp": "6b439767a7",
   "assets/cards/decide.webp": "717e762bfa",
   "assets/cards/desert.webp": "a09a2f1d6d",
   "assets/cards/different.webp": "757a34787e",
@@ -870,6 +888,7 @@ const UI_MANIFEST={
   "assets/cards/school.webp": "88771997e1",
   "assets/cards/sea.webp": "d71d92f129",
   "assets/cards/see.webp": "eb6de95956",
+  "assets/cards/shield.webp": "5d06c6f36c",
   "assets/cards/ship.webp": "93993698d9",
   "assets/cards/significant.webp": "646af509f6",
   "assets/cards/sing.webp": "2cef1d7d32",
@@ -897,9 +916,10 @@ const UI_MANIFEST={
   "assets/cards/town.webp": "90fa40b30e",
   "assets/cards/travel.webp": "66476c35cb",
   "assets/cards/tree.webp": "f0040be9d7",
-  "assets/cards/umbrella.webp": "e45004c23e",
+  "assets/cards/umbrella.webp": "9b01e7cd69",
   "assets/cards/usually.webp": "81a9f56c9f",
   "assets/cards/village.webp": "6784b90674",
+  "assets/cards/wait.webp": "70f261f081",
   "assets/cards/walk.webp": "55655bb2f0",
   "assets/cards/water.webp": "2ddedce037",
   "assets/cards/weather.webp": "757f100dde",
