@@ -109,8 +109,9 @@ SUBJECT_OTHER = ("Make the person or thing that the sentence is about the main s
 # 生きものが出てくるときは、顔と目を描いてもらう（目が無いと、ただの塊に見える）。
 # 「愛嬌があるか、怖いか」はレアリティでは決まらない。同じ COMMON でも、
 # スライムは可愛く、ゴブリンは怖い。そこは FOE_LOOK 側に書く
-# 顔が見えることまで言う。cross の「トロルが川を渡る」で、2匹とも背中を向けて顔の無い絵になった
-CREATURE = "Any creature has clear, expressive eyes and a readable face, turned so the viewer can see it."
+# 「顔が見える向き」までは書かない。後ろ姿の絵もあってよい（ユーザー判断）。
+# cross のトロルの後ろ姿がだめだったのは、服を着ていなかったため（FOE_LOOK に服を書いて直した）
+CREATURE = "Any creature has clear, expressive eyes and a readable face."
 
 # RARE 以上は「金・宝石」を画風に入れているため、例文に出てくる人まで王侯貴族の装いになる。
 # significant の "The scholars noticed ..." で、学者4人が宝石だらけの貴族に見えた。
