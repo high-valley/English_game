@@ -27,7 +27,7 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この124語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この129語は、絵文字ではなく画像で表示されます）。
 
 - apple
 - arrive
@@ -72,6 +72,7 @@
 - flower
 - fly
 - food
+- forest
 - forget
 - friend
 - future
@@ -88,15 +89,18 @@
 - hot
 - house
 - important
+- island
 - jump
 - key
 - king
+- kitchen
 - learn
 - listen
 - live
 - love
 - make
 - man
+- market
 - milk
 - moon
 - morning
@@ -145,6 +149,7 @@
 - travel
 - tree
 - usually
+- village
 - walk
 - water
 - white
@@ -798,7 +803,7 @@ hand-painted anime fantasy illustration, visible brush texture, matte finish, a 
 
 **187. desert**（砂漠）
 ```
-hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The travelers cross the hot desert at night. The desert itself is the main subject of the picture: large and clearly visible. If the desert is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: the subject set to one side of the frame, with the place opening up beside it. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Red dunes and old ruins fill the endless desert. The desert itself is the main subject of the picture: large and clearly visible. If the desert is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: the subject set to one side of the frame, with the place opening up beside it. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **188. cave**（洞くつ）
@@ -813,7 +818,7 @@ hand-painted anime fantasy illustration, visible brush texture, matte finish, a 
 
 **190. gate**（門）
 ```
-hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The orcs break the stone gate with a log. The gate itself is the main subject of the picture: large and clearly visible. If the gate is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Any creature has clear, expressive eyes and a readable face. orcs are tall and heavy with dark green skin, a broad jaw with lower tusks, black hair, and crude iron and leather armour. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a three-quarter view, the subject turned partly away from the viewer. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The orcs break the heavy wooden gate of the fort with a log. The gate itself is the main subject of the picture: large and clearly visible. If the gate is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Any creature has clear, expressive eyes and a readable face. orcs are tall and heavy with dark green skin, a broad jaw with lower tusks, black hair, and crude iron and leather armour. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a three-quarter view, the subject turned partly away from the viewer. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **191. ship**（船）
