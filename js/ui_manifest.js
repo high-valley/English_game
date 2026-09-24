@@ -258,6 +258,10 @@ const UI_MANIFEST={
    "full": "assets/cards/food.webp?v=d00bdc1a18",
    "thumb": "assets/cards/thumb/food.webp?v=390baa9292"
   },
+  "forest": {
+   "full": "assets/cards/forest.webp?v=1832d324f2",
+   "thumb": "assets/cards/thumb/forest.webp?v=be60f7e164"
+  },
   "forget": {
    "full": "assets/cards/forget.webp?v=630c62b957",
    "thumb": "assets/cards/thumb/forget.webp?v=b3dd6fdda2"
@@ -322,6 +326,10 @@ const UI_MANIFEST={
    "full": "assets/cards/important.webp?v=03e76a23f9",
    "thumb": "assets/cards/thumb/important.webp?v=23523fb023"
   },
+  "island": {
+   "full": "assets/cards/island.webp?v=cbc45cc2e1",
+   "thumb": "assets/cards/thumb/island.webp?v=18bef85556"
+  },
   "jump": {
    "full": "assets/cards/jump.webp?v=897d6229c6",
    "thumb": "assets/cards/thumb/jump.webp?v=a701bfc4a0"
@@ -333,6 +341,10 @@ const UI_MANIFEST={
   "king": {
    "full": "assets/cards/king.webp?v=df22c9602d",
    "thumb": "assets/cards/thumb/king.webp?v=234e1824f5"
+  },
+  "kitchen": {
+   "full": "assets/cards/kitchen.webp?v=627d1b1c00",
+   "thumb": "assets/cards/thumb/kitchen.webp?v=e26eb397d1"
   },
   "learn": {
    "full": "assets/cards/learn.webp?v=0c1e9d2f05",
@@ -357,6 +369,10 @@ const UI_MANIFEST={
   "man": {
    "full": "assets/cards/man.webp?v=d97610b405",
    "thumb": "assets/cards/thumb/man.webp?v=7af012f7dd"
+  },
+  "market": {
+   "full": "assets/cards/market.webp?v=7c694a6d47",
+   "thumb": "assets/cards/thumb/market.webp?v=8c85e2acda"
   },
   "milk": {
    "full": "assets/cards/milk.webp?v=767ebc34c8",
@@ -550,6 +566,10 @@ const UI_MANIFEST={
    "full": "assets/cards/usually.webp?v=81a9f56c9f",
    "thumb": "assets/cards/thumb/usually.webp?v=25df26fa89"
   },
+  "village": {
+   "full": "assets/cards/village.webp?v=6784b90674",
+   "thumb": "assets/cards/thumb/village.webp?v=e697ff2c05"
+  },
   "walk": {
    "full": "assets/cards/walk.webp?v=55655bb2f0",
    "thumb": "assets/cards/thumb/walk.webp?v=695f2a437a"
@@ -654,6 +674,7 @@ const UI_MANIFEST={
   "assets/cards/flower.webp": "ae0b33a52a",
   "assets/cards/fly.webp": "96bc694a73",
   "assets/cards/food.webp": "d00bdc1a18",
+  "assets/cards/forest.webp": "1832d324f2",
   "assets/cards/forget.webp": "630c62b957",
   "assets/cards/friend.webp": "645f46ebb3",
   "assets/cards/future.webp": "ee4345d5e8",
@@ -670,15 +691,18 @@ const UI_MANIFEST={
   "assets/cards/hot.webp": "b53b5afdc4",
   "assets/cards/house.webp": "9198475e5a",
   "assets/cards/important.webp": "03e76a23f9",
+  "assets/cards/island.webp": "cbc45cc2e1",
   "assets/cards/jump.webp": "897d6229c6",
   "assets/cards/key.webp": "d9e46c479e",
   "assets/cards/king.webp": "df22c9602d",
+  "assets/cards/kitchen.webp": "627d1b1c00",
   "assets/cards/learn.webp": "0c1e9d2f05",
   "assets/cards/listen.webp": "e67c80861f",
   "assets/cards/live.webp": "b251069482",
   "assets/cards/love.webp": "ec26ff3c58",
   "assets/cards/make.webp": "364c8b3d2b",
   "assets/cards/man.webp": "d97610b405",
+  "assets/cards/market.webp": "7c694a6d47",
   "assets/cards/milk.webp": "767ebc34c8",
   "assets/cards/moon.webp": "11faa34c72",
   "assets/cards/morning.webp": "ff393b91af",
@@ -727,6 +751,7 @@ const UI_MANIFEST={
   "assets/cards/travel.webp": "66476c35cb",
   "assets/cards/tree.webp": "f0040be9d7",
   "assets/cards/usually.webp": "81a9f56c9f",
+  "assets/cards/village.webp": "6784b90674",
   "assets/cards/walk.webp": "55655bb2f0",
   "assets/cards/water.webp": "2ddedce037",
   "assets/cards/white.webp": "6f2a18ceef",
