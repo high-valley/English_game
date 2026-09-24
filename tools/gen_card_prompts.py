@@ -267,6 +267,15 @@ EXTRA_LOOK = {
 # 見た目を足す対象。敵役 ＋ 上の生きもの
 LOOK = {**FOE_LOOK, **EXTRA_LOOK}
 
+# カードの単語そのものの形を決めておく語（キーは単語）。
+# 生成AIがその物を、ヨーロッパ中世ではない形で描いてしまうもの。WORLD の「和風でない」だけでは足りなかった
+#   umbrella … 骨の細い和傘の形になり、少女の顔立ちも和風に見えた（ユーザーが作り直しを希望）
+ITEM_LOOK = {
+    "umbrella": "The umbrella is a European one: a dome of red oiled cloth stretched over a few "
+                "sturdy wooden ribs, with a curved wooden handle - not a Japanese paper umbrella, "
+                "not a parasol with many thin bamboo ribs. The girl is a European village girl.",
+}
+
 _missing = [e for e in ENEMIES if e not in FOE_LOOK]
 assert not _missing, f"FOE_LOOK に見た目の設定が無い敵役: {_missing}"
 
@@ -308,6 +317,8 @@ def creature_line(w):
 def prompt_for(w):
     r = w["rarity"]
     parts = [f'{STYLE[r]}. Scene: {w["ex"]}', subject_line(w)]
+    if w["en"] in ITEM_LOOK:
+        parts.append(ITEM_LOOK[w["en"]])
     c = creature_line(w)
     if c:
         parts.append(c)
