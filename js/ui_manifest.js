@@ -262,6 +262,14 @@ const UI_MANIFEST={
    "full": "assets/cards/king.webp?v=df22c9602d",
    "thumb": "assets/cards/thumb/king.webp?v=234e1824f5"
   },
+  "listen": {
+   "full": "assets/cards/listen.webp?v=e67c80861f",
+   "thumb": "assets/cards/thumb/listen.webp?v=dc94e3a36d"
+  },
+  "live": {
+   "full": "assets/cards/live.webp?v=b251069482",
+   "thumb": "assets/cards/thumb/live.webp?v=a884a4e602"
+  },
   "love": {
    "full": "assets/cards/love.webp?v=ec26ff3c58",
    "thumb": "assets/cards/thumb/love.webp?v=862fb3ef81"
@@ -370,9 +378,17 @@ const UI_MANIFEST={
    "full": "assets/cards/sleep.webp?v=14d68ab584",
    "thumb": "assets/cards/thumb/sleep.webp?v=e3c5b0c635"
   },
+  "small": {
+   "full": "assets/cards/small.webp?v=537d8f387c",
+   "thumb": "assets/cards/thumb/small.webp?v=92bc60c262"
+  },
   "snow": {
    "full": "assets/cards/snow.webp?v=0998964581",
    "thumb": "assets/cards/thumb/snow.webp?v=04715fca61"
+  },
+  "speak": {
+   "full": "assets/cards/speak.webp?v=ae8cb2295e",
+   "thumb": "assets/cards/thumb/speak.webp?v=687549a9ad"
   },
   "stakeholder": {
    "full": "assets/cards/stakeholder.webp?v=29b1e7a108",
@@ -433,6 +449,10 @@ const UI_MANIFEST={
   "woman": {
    "full": "assets/cards/woman.webp?v=03cae6c604",
    "thumb": "assets/cards/thumb/woman.webp?v=96db7b1a6a"
+  },
+  "work": {
+   "full": "assets/cards/work.webp?v=56d3451b72",
+   "thumb": "assets/cards/thumb/work.webp?v=59985378a2"
   },
   "write": {
    "full": "assets/cards/write.webp?v=8f893319c6",
@@ -511,6 +531,8 @@ const UI_MANIFEST={
   "assets/cards/jump.webp": "897d6229c6",
   "assets/cards/key.webp": "d9e46c479e",
   "assets/cards/king.webp": "df22c9602d",
+  "assets/cards/listen.webp": "e67c80861f",
+  "assets/cards/live.webp": "b251069482",
   "assets/cards/love.webp": "ec26ff3c58",
   "assets/cards/make.webp": "364c8b3d2b",
   "assets/cards/man.webp": "d97610b405",
@@ -538,7 +560,9 @@ const UI_MANIFEST={
   "assets/cards/sing.webp": "2cef1d7d32",
   "assets/cards/sit.webp": "83274d9114",
   "assets/cards/sleep.webp": "14d68ab584",
+  "assets/cards/small.webp": "537d8f387c",
   "assets/cards/snow.webp": "0998964581",
+  "assets/cards/speak.webp": "ae8cb2295e",
   "assets/cards/stakeholder.webp": "29b1e7a108",
   "assets/cards/star.webp": "5768222dc5",
   "assets/cards/sun.webp": "8cd9ca87ba",
@@ -554,6 +578,7 @@ const UI_MANIFEST={
   "assets/cards/wind.webp": "d77dc1acac",
   "assets/cards/window.webp": "bbf853e6ce",
   "assets/cards/woman.webp": "03cae6c604",
+  "assets/cards/work.webp": "56d3451b72",
   "assets/cards/write.webp": "8f893319c6"
  }
 };

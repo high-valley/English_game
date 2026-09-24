@@ -34,7 +34,7 @@ ENEMIES = [
 # 不規則な複数形（wolf→wolves など）。数え落としを防ぐ
 IRREGULAR = {
     "wolf": "wolves", "werewolf": "werewolves", "harpy": "harpies",
-    "basilisk": "basilisks", "cultist": "cultists",
+    "basilisk": "basilisks", "cultist": "cultists", "dwarf": "dwarves",
 }
 
 
