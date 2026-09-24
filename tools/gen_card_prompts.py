@@ -109,6 +109,8 @@ SUBJECT_OTHER = ("Make the person or thing that the sentence is about the main s
 # 生きものが出てくるときは、顔と目を描いてもらう（目が無いと、ただの塊に見える）。
 # 「愛嬌があるか、怖いか」はレアリティでは決まらない。同じ COMMON でも、
 # スライムは可愛く、ゴブリンは怖い。そこは FOE_LOOK 側に書く
+# 「顔が見える向き」までは書かない。後ろ姿の絵もあってよい（ユーザー判断）。
+# cross のトロルの後ろ姿がだめだったのは、服を着ていなかったため（FOE_LOOK に服を書いて直した）
 CREATURE = "Any creature has clear, expressive eyes and a readable face."
 
 # RARE 以上は「金・宝石」を画風に入れているため、例文に出てくる人まで王侯貴族の装いになる。
@@ -216,8 +218,10 @@ FOE_LOOK = {
                "and a high-collared crimson and black cloak",
     "werewolf": "werewolves are huge upright wolves with grey-brown fur, long arms, yellow eyes "
                 "and torn human clothing",
-    "troll": "trolls are huge and hunched with warty grey-green skin, a long nose and small dull eyes",
-    "ogre": "ogres are massive and pot-bellied with tan skin, a heavy brow and a crude wooden club",
+    "troll": "trolls are huge and hunched with warty grey-green skin, a long nose and small dull eyes, "
+             "wearing a ragged fur loincloth",
+    "ogre": "ogres are massive and pot-bellied with tan skin, a heavy brow and a crude wooden club, "
+            "wearing rough hide clothes",
     "pirate": "pirates are weathered sailors in a long coat, a tricorn hat and a wide sash",
     "golem": "golems are broad figures built of cut stone blocks, with glowing runes in the seams",
     "cursed": "cursed knights are empty suits of blackened plate armour with a cold blue light inside the helm",
