@@ -51,6 +51,8 @@ python3 tools/prompt_for.py --next 5 COMMON    # まだ画像が無い語を、�
 "The goblins run away from the village."、`sad` はそもそも words.js に無い単語だった。
 どちらも絵が1枚むだになった。無い単語を渡すと `prompt_for.py` が止まる。
 `card_image_prompts.md` と `card_image_next.md` は**自動生成**なので、直接編集しない。
+`card_image_next.md` は `prompt_for.py --next` と同じプロンプトを同じ順番で並べる（先頭5件＝次に渡す5件）。
+ユーザーが画像生成AIのコネクタで GitHub から直接読ませることがあるので、ここだけ別のプロンプトにしない。
 **渡すときは「例文（日本語）」の行を省かない。** ユーザーは日本語の例文を読んで、届いた絵が例文どおりかを判断する
 （英語の例文とプロンプトだけを渡したら、日本語で教えてほしいと言われた）。
 

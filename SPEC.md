@@ -279,10 +279,10 @@ English_game/
 ├─ SPEC.md                 この仕様書
 ├─ TODO.md                 次のタスク
 ├─ card_image_prompts.md   全500語のプロンプト（tools が自動生成）
-├─ card_image_next.md      次に作る画像のおすすめ順（tools が自動生成）
+├─ card_image_next.md      次に作る画像の一覧（tools が自動生成。先頭5件＝次に渡す5件）
 ├─ tools/
 │   ├─ gen_card_prompts.py  words.js から card_image_prompts.md を作り直す
-│   ├─ gen_next_batch.py    次に作る画像を、おすすめ順に切り出す（既にある画像は外す）
+│   ├─ gen_next_batch.py    次に作る画像を、図鑑の並び順に切り出す（既にある画像は外す）
 │   └─ check_words.py       単語データの検査（id重複、例文に単語が入っているか、敵役の割合）
 ├─ css/
 │   ├─ style.css           元のスタイル（リポジトリ側にある）
@@ -336,7 +336,9 @@ English_game/
 - 勉強・図鑑の専用背景 `study_bg`（魔法学院の図書室）／ `cards_bg`（魔導書の宝物庫）を適用済み。
   差し替え用のプロンプトは `assets/ui/README.md`（無くても `home_bg` で動く）
 - カード画像：`card_image_prompts.md`（全500語）。**`tools/gen_card_prompts.py` が `words.js` から作る**ので、直接編集しない
-- 次に作る分は `card_image_next.md`（`tools/gen_next_batch.py` が、レアリティの高い順 → 敵役つきが先の順で切り出す）
+- 次に作る分は `card_image_next.md`（`tools/gen_next_batch.py` が、レアリティの低い順 → 図鑑の並び順で切り出す）。
+  中身は `tools/prompt_for.py` と同じプロンプト・同じ順番なので、先頭5件が次に渡す5件になる。
+  GitHub の main にあるこのファイルを、画像生成AI（Grok のコネクタなど）に直接読ませてもよい
 - 作成済み：COMMON の10語（apple / book / cat / dog / family / food / friend / house / school / water）。
   `card_art.js` の `CARD_IMG_NAMES` に登録した語だけが画像表示になり、それ以外は `ART_SVG` か `sceneSvg()` の絵になる
 - **プロンプトの書き方は `tools/gen_card_prompts.py` の冒頭にまとめてある**

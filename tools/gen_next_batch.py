@@ -1,26 +1,27 @@
 #!/usr/bin/env python3
 """次に作るカード画像を切り出して card_image_next.md に書く。
 
-    python3 tools/gen_next_batch.py                 # おすすめ順に40語
-    python3 tools/gen_next_batch.py 20              # おすすめ順に20語
-    python3 tools/gen_next_batch.py 100 COMMON      # COMMON だけ、図鑑の並び順に100語
-    python3 tools/gen_next_batch.py all COMMON      # COMMON の残り全部
+    python3 tools/gen_next_batch.py                 # 次の40語
+    python3 tools/gen_next_batch.py 20              # 次の20語
+    python3 tools/gen_next_batch.py all UNCOMMON    # UNCOMMON の残り全部
 
-ChatGPT などにそのまま貼れる形（1語＝1本の全文）で出す。作り終えた単語は
-`js/card_art.js` の `CARD_IMG_NAMES` に足せば、次回から自動で外れる。
+プロンプトは `prompt_for.py` と同じもの（gen_card_prompts.prompt_for）を、同じ順番で出す。
+つまり、このファイルの先頭5件 ＝ `python3 tools/prompt_for.py --next 5` で渡す5件。
 
-並び順
-  ・レアリティを指定したとき … そのレアリティだけを id 順（＝図鑑の並び順）。
-    端から順に潰していく用。どこまで進んだかが分かりやすい
-  ・指定しないとき（おすすめ順） … レアリティが高い順 → 敵役が出てくる例文が先 → id 順。
-    高レアはガチャの開封で大きく映り、敵役の例文は場面がはっきりしていて絵にしやすい
-  ・どちらも、すでに画像がある単語は除く
+なぜ同じにするか:
+  ・以前はここだけ古い短いプロンプト（画風＋例文＋締め）を書いていた。主役の指定・敵役の見た目・
+    舞台・構図が抜けていて、これを使うと絵柄も敵の姿もそろわない
+  ・並びも「LEGENDARY から・敵役つきが先」で、実際に作っている順（COMMON から図鑑の順）と違っていた
+  ・GitHub の main にあるこのファイルを、画像生成AI（Grok のコネクタなど）に直接読ませることがある。
+    そのときに、こちらが渡すものと食い違ってはいけない
+
+並び順は、レアリティの低い順 → 図鑑の並び順（id 順）。すでに画像がある単語は除く。
 """
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from gen_card_prompts import STYLE, TAIL, LEVELS, LEVEL_NO, load_words, load_done_images  # noqa: E402
+from gen_card_prompts import LEVELS, LEVEL_NO, load_words, load_done_images, prompt_for  # noqa: E402
 from check_words import ENEMIES, has  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -48,16 +49,13 @@ def main():
     todo = [w for w in words if w["en"] not in done]
     if rarity:
         todo = [w for w in todo if w["rarity"] == rarity]
-        todo.sort(key=lambda w: w["id"])                 # 図鑑の並び順。端から順に潰す用
-    else:
-        # レアリティが高い順 → 敵役つきが先 → id順
-        todo.sort(key=lambda w: (-LEVEL_NO[w["rarity"]], not enemies_in(w["ex"]), w["id"]))
+    todo.sort(key=lambda w: (LEVEL_NO[w["rarity"]], w["id"]))   # prompt_for.py --next と同じ順
     batch = todo if n is None else todo[:n]
 
     left = len(todo)
     total_left = len([w for w in words if w["en"] not in done])
     head = (f"# 次に作るカード画像（Lv.{LEVEL_NO[rarity]} {rarity}）" if rarity
-            else "# 次に作るカード画像（おすすめ順）")
+            else "# 次に作るカード画像")
     scope = (f"※ **{rarity} だけ**を図鑑の並び順で出しています。"
              f"{rarity} で画像がまだ無いのは **{left}語**、ここにはそのうち **{len(batch)}語**。"
              f"（全レアリティ合わせての残りは {total_left}語）"
@@ -70,15 +68,12 @@ def main():
         scope,
         "",
         "## 使い方",
-        "1. 下のプロンプトを画像生成AIに入れる（3:2の横長。目安 1800x1200）",
-        "2. `assets/cards/単語.webp` で保存する（1200x800 前後、100〜400KB）",
-        "3. `js/card_art.js` の `CARD_IMG_NAMES` に単語を足す",
-        "4. `python3 tools/gen_next_batch.py` をもう一度実行すると、作り終えた分が外れて次の分が出る",
+        "1. 上から順に、``` で囲まれたプロンプトを**そのまま**画像生成AIに入れる（1件＝1枚。3:2の横長）",
+        "2. できた絵が「例文（日本語）」のとおりかを確かめる",
+        "3. 絵を `assets/cards/単語.webp` にして、`js/card_art.js` の `CARD_IMG_NAMES` に単語を足す",
+        "4. `python3 tools/gen_next_batch.py` を実行し直すと、作り終えた分が外れて次の分が先頭に来る",
         "",
-        ("順番は図鑑の並び順（id順）です。端から順に潰していけます。"
-         if rarity else
-         "順番は「レアリティが高い順 → 敵役が出てくる例文が先」です。"
-         "高レアはガチャの開封で大きく映り、敵役の例文は場面がはっきりしていて絵にしやすいためです。"),
+        "順番はレアリティの低い順 → 図鑑の並び順（id順）。`python3 tools/prompt_for.py --next 5` が出す5件と同じです。",
         "",
     ]
 
@@ -91,9 +86,10 @@ def main():
         foes = enemies_in(w["ex"])
         tag = f"　敵役: {', '.join(foes)}" if foes else ""
         lines.append(f"### {i}. {w['en']}（{w['ja']}）　id {w['id']}{tag}")
-        lines.append(f"例文: {w['ex']}　／　{w['tr']}")
+        lines.append(f"例文（日本語）: {w['tr']}  ")
+        lines.append(f"例文（英語）: {w['ex']}")
         lines.append("```")
-        lines.append(f"{STYLE[cur]}. Scene: {w['ex']} {TAIL}")
+        lines.append(prompt_for(w))
         lines.append("```")
         lines.append("")
 

@@ -1,14 +1,14 @@
 # WORD GRIMOIRE ― 次にやるタスク
 
 ## 次のタスク（優先順）
-1. **カード画像の作成（UNCOMMON）**。**COMMON は 100/100 で完成**。`card_image_next.md` に UNCOMMON の残り99語が図鑑の並び順で入っている
-   （全体 104/500。`python3 tools/gen_next_batch.py all UNCOMMON` で出し直す）
+1. **カード画像の作成（UNCOMMON）**。**COMMON は 100/100 で完成**。UNCOMMON は 11/100（全体 114/500）。
+   `card_image_next.md` の先頭が次に作る分（`python3 tools/gen_next_batch.py` で出し直す）
    - 画像の生成は画像生成AI（ChatGPT / Grok など）に頼む（Claude は画像を作れない）
    - **プロンプトを渡すときは、必ず `python3 tools/prompt_for.py <単語>` を通す。**
      例文を記憶で書くと、絵と例文が食い違う（`run` の例文を取り違え、`sad` は存在しない単語だった。2枚むだにした）
    - 置いたら `js/card_art.js` の `CARD_IMG_NAMES` に名前を追加する
-   - `python3 tools/gen_next_batch.py all UNCOMMON` で残りを出し直す（作り終えた分は自動で外れる）
-   - レアリティを指定しなければ、おすすめ順（高レア＋敵役が先）で出る
+   - `python3 tools/gen_next_batch.py` で残りを出し直す（作り終えた分は自動で外れる）。
+     プロンプトも順番も `prompt_for.py --next` と同じ（以前はここだけ古い短いプロンプトで、LEGENDARY から並んでいた）
    - 全500語のプロンプトは `card_image_prompts.md`
 2. 問題形式の追加（今は「英単語 → 日本語4択」のみ）※**当面は4択のままでよい**（ユーザー判断）
    - 増やすときは、SPEC.md §1-5「問題の形式は、全レベルで同じ」の扱いを先に決める
