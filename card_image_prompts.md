@@ -27,7 +27,7 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この134語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この139語は、絵文字ではなく画像で表示されます）。
 
 - apple
 - arrive
@@ -89,6 +89,7 @@
 - hat
 - help
 - horse
+- hospital
 - hot
 - house
 - important
@@ -98,11 +99,13 @@
 - king
 - kitchen
 - learn
+- library
 - listen
 - live
 - love
 - make
 - man
+- map
 - market
 - milk
 - moon
@@ -141,6 +144,7 @@
 - speak
 - stakeholder
 - star
+- station
 - strong
 - sun
 - swim
@@ -148,6 +152,7 @@
 - table
 - tea
 - teacher
+- ticket
 - together
 - tower
 - town
@@ -878,7 +883,7 @@ hand-painted anime fantasy illustration, visible brush texture, matte finish, a 
 
 **201. answer**（答え）
 ```
-hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: In the temple, the hero gives the answer and the stone door opens. The answer itself is the main subject of the picture: large and clearly visible. If the answer is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a low angle, looking up at the subject against the sky or the ceiling above it. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: At the village school, a girl raises her hand to give the answer. The answer itself is the main subject of the picture: large and clearly visible. If the answer is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a low angle, looking up at the subject against the sky or the ceiling above it. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **202. number**（数）
