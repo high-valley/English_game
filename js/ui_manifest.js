@@ -118,6 +118,10 @@ const UI_MANIFEST={
    "full": "assets/cards/believe.webp?v=15131914ee",
    "thumb": "assets/cards/thumb/believe.webp?v=9d3102caeb"
   },
+  "bicycle": {
+   "full": "assets/cards/bicycle.webp?v=5f79005004",
+   "thumb": "assets/cards/thumb/bicycle.webp?v=df87c93980"
+  },
   "big": {
    "full": "assets/cards/big.webp?v=b849accf3a",
    "thumb": "assets/cards/thumb/big.webp?v=8d6fef96b2"
@@ -153,6 +157,10 @@ const UI_MANIFEST={
   "bridge": {
    "full": "assets/cards/bridge.webp?v=2b0a1d2fb8",
    "thumb": "assets/cards/thumb/bridge.webp?v=e6709172a1"
+  },
+  "brother": {
+   "full": "assets/cards/brother.webp?v=cce4f888f4",
+   "thumb": "assets/cards/thumb/brother.webp?v=db35ffe99d"
   },
   "buy": {
    "full": "assets/cards/buy.webp?v=7db8ebc613",
@@ -334,6 +342,10 @@ const UI_MANIFEST={
    "full": "assets/cards/help.webp?v=15c4f6a2a4",
    "thumb": "assets/cards/thumb/help.webp?v=d1247e70c5"
   },
+  "holiday": {
+   "full": "assets/cards/holiday.webp?v=5db13b3d95",
+   "thumb": "assets/cards/thumb/holiday.webp?v=8702ad856b"
+  },
   "horse": {
    "full": "assets/cards/horse.webp?v=a93c4bfb25",
    "thumb": "assets/cards/thumb/horse.webp?v=30b85fde32"
@@ -425,6 +437,10 @@ const UI_MANIFEST={
   "morning": {
    "full": "assets/cards/morning.webp?v=ff393b91af",
    "thumb": "assets/cards/thumb/morning.webp?v=a00305975e"
+  },
+  "mother": {
+   "full": "assets/cards/mother.webp?v=8f354facdb",
+   "thumb": "assets/cards/thumb/mother.webp?v=aa16a3fe16"
   },
   "mountain": {
    "full": "assets/cards/mountain.webp?v=33966baf23",
@@ -541,6 +557,10 @@ const UI_MANIFEST={
   "sing": {
    "full": "assets/cards/sing.webp?v=2cef1d7d32",
    "thumb": "assets/cards/thumb/sing.webp?v=a2f06bfb8d"
+  },
+  "sister": {
+   "full": "assets/cards/sister.webp?v=4c256b8794",
+   "thumb": "assets/cards/thumb/sister.webp?v=b98c897524"
   },
   "sit": {
    "full": "assets/cards/sit.webp?v=83274d9114",
@@ -719,6 +739,7 @@ const UI_MANIFEST={
   "assets/cards/beautiful.webp": "1bb7327884",
   "assets/cards/bed.webp": "798c32c5b8",
   "assets/cards/believe.webp": "15131914ee",
+  "assets/cards/bicycle.webp": "5f79005004",
   "assets/cards/big.webp": "b849accf3a",
   "assets/cards/bird.webp": "bf47b7c122",
   "assets/cards/black.webp": "6048c4f3a9",
@@ -728,6 +749,7 @@ const UI_MANIFEST={
   "assets/cards/boy.webp": "9a61d8d13d",
   "assets/cards/bread.webp": "1adf7b9d8d",
   "assets/cards/bridge.webp": "2b0a1d2fb8",
+  "assets/cards/brother.webp": "cce4f888f4",
   "assets/cards/buy.webp": "7db8ebc613",
   "assets/cards/cake.webp": "5bb32f3658",
   "assets/cards/car.webp": "2447d437a9",
@@ -773,6 +795,7 @@ const UI_MANIFEST={
   "assets/cards/happy.webp": "b10f1a4947",
   "assets/cards/hat.webp": "634ad230a3",
   "assets/cards/help.webp": "15c4f6a2a4",
+  "assets/cards/holiday.webp": "5db13b3d95",
   "assets/cards/horse.webp": "a93c4bfb25",
   "assets/cards/hospital.webp": "b9b427c800",
   "assets/cards/hot.webp": "b53b5afdc4",
@@ -796,6 +819,7 @@ const UI_MANIFEST={
   "assets/cards/milk.webp": "767ebc34c8",
   "assets/cards/moon.webp": "11faa34c72",
   "assets/cards/morning.webp": "ff393b91af",
+  "assets/cards/mother.webp": "8f354facdb",
   "assets/cards/mountain.webp": "33966baf23",
   "assets/cards/necessary.webp": "7b5dca03d8",
   "assets/cards/new.webp": "cd7bdc58d4",
@@ -825,6 +849,7 @@ const UI_MANIFEST={
   "assets/cards/ship.webp": "93993698d9",
   "assets/cards/significant.webp": "646af509f6",
   "assets/cards/sing.webp": "2cef1d7d32",
+  "assets/cards/sister.webp": "4c256b8794",
   "assets/cards/sit.webp": "83274d9114",
   "assets/cards/sleep.webp": "14d68ab584",
   "assets/cards/small.webp": "537d8f387c",

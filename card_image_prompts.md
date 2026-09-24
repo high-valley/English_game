@@ -27,7 +27,7 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この149語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この154語は、絵文字ではなく画像で表示されます）。
 
 - answer
 - apple
@@ -37,6 +37,7 @@
 - beautiful
 - bed
 - believe
+- bicycle
 - big
 - bird
 - black
@@ -46,6 +47,7 @@
 - boy
 - bread
 - bridge
+- brother
 - buy
 - cake
 - car
@@ -91,6 +93,7 @@
 - happy
 - hat
 - help
+- holiday
 - horse
 - hospital
 - hot
@@ -114,6 +117,7 @@
 - milk
 - moon
 - morning
+- mother
 - mountain
 - necessary
 - new
@@ -143,6 +147,7 @@
 - ship
 - significant
 - sing
+- sister
 - sit
 - sleep
 - small
@@ -948,12 +953,12 @@ hand-painted anime fantasy illustration, visible brush texture, matte finish, a 
 
 **212. father**（父）
 ```
-hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The father teaches his son to swim in the river. The father itself is the main subject of the picture: large and clearly visible. If the father is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: framed through something in the foreground - an archway, a doorway or branches - with the subject beyond it. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A father carries his little son on his shoulders at the village fair. The father itself is the main subject of the picture: large and clearly visible. If the father is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: framed through something in the foreground - an archway, a doorway or branches - with the subject beyond it. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **213. umbrella**（傘）
 ```
-hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: She opens an umbrella in the rain. The umbrella itself is the main subject of the picture: large and clearly visible. If the umbrella is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a wide view of the place, the subject nearest the viewer and still the largest thing in it. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A girl opens a red umbrella in the rain on the market street. The umbrella itself is the main subject of the picture: large and clearly visible. If the umbrella is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a wide view of the place, the subject nearest the viewer and still the largest thing in it. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **214. mirror**（鏡）
@@ -963,12 +968,12 @@ hand-painted anime fantasy illustration, visible brush texture, matte finish, a 
 
 **215. candle**（ろうそく）
 ```
-hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A single candle keeps the ghosts away in the dark hall. The candle itself is the main subject of the picture: large and clearly visible. If the candle is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Any creature has clear, expressive eyes and a readable face. ghosts are pale blue-white and half transparent, the lower body fading into mist, with hollow glowing eyes. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: the subject close and sharp, the background kept soft and simple behind it. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A single tall candle burns on the tavern table at night. The candle itself is the main subject of the picture: large and clearly visible. If the candle is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: the subject close and sharp, the background kept soft and simple behind it. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **216. ring**（指輪）
 ```
-hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The hero wears a silver ring on his hand. The ring itself is the main subject of the picture: large and clearly visible. If the ring is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a close view at eye level, the subject filling the frame and cropped by the edges. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A silver ring with a blue stone lies on a velvet cushion in the jeweller's shop. The ring itself is the main subject of the picture: large and clearly visible. If the ring is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a close view at eye level, the subject filling the frame and cropped by the edges. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **217. crown**（王冠）
