@@ -27,7 +27,7 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この154語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この159語は、絵文字ではなく画像で表示されます）。
 
 - answer
 - apple
@@ -50,6 +50,7 @@
 - brother
 - buy
 - cake
+- candle
 - car
 - castle
 - cat
@@ -74,6 +75,7 @@
 - experience
 - family
 - fast
+- father
 - fire
 - fish
 - flower
@@ -115,6 +117,7 @@
 - map
 - market
 - milk
+- mirror
 - moon
 - morning
 - mother
@@ -137,6 +140,7 @@
 - remember
 - require
 - rice
+- ring
 - river
 - road
 - room
@@ -171,6 +175,7 @@
 - town
 - travel
 - tree
+- umbrella
 - usually
 - village
 - walk
@@ -993,7 +998,7 @@ hand-painted anime fantasy illustration, visible brush texture, matte finish, a 
 
 **220. ask**（尋ねる）
 ```
-hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The traveler asks a farmer the way at the crossroads. Make the sentence's action (ask) the main subject: large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: framed through something in the foreground - an archway, a doorway or branches - with the subject beyond it. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: A lost boy asks a guard the way on the old stone bridge. Make the sentence's action (ask) the main subject: large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: framed through something in the foreground - an archway, a doorway or branches - with the subject beyond it. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **221. bring**（持ってくる）
