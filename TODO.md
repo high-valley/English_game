@@ -1,8 +1,8 @@
 # WORD GRIMOIRE ― 次にやるタスク
 
 ## 次のタスク（優先順）
-1. **カード画像の作成（COMMON から）**。`card_image_next.md` に COMMON の残り6語が図鑑の並び順で入っている
-   （COMMON は 94/100。ほかに UNCOMMON / RARE / EPIC / LEGENDARY が各1枚＝全体 98/500）
+1. **カード画像の作成（COMMON から）**。`card_image_next.md` に COMMON の残り1語（black）が入っている
+   （COMMON は 99/100。ほかに UNCOMMON / RARE / EPIC / LEGENDARY が各1枚＝全体 103/500）
    - 画像の生成は画像生成AI（ChatGPT / Grok など）に頼む（Claude は画像を作れない）
    - **プロンプトを渡すときは、必ず `python3 tools/prompt_for.py <単語>` を通す。**
      例文を記憶で書くと、絵と例文が食い違う（`run` の例文を取り違え、`sad` は存在しない単語だった。2枚むだにした）
@@ -35,6 +35,7 @@
 - `icon_coin` を作り直す場合は `assets/ui/icon_prompts.md`（金色が主体で、暗い面を作らないこと）
 
 ## 完了済み
+- COMMON のカード画像を5枚追加（strong / good / red / blue / white）。COMMON は 99/100、全体 103/500。`red` は竜の見た目の「例文が別の色を言っていればその色」が効いて赤い竜になった（姿は `egg` / `girl` と同じ）
 - COMMON のカード画像を5枚追加（new / old / hot / cold / fast）。書き換えた形容詞の例文で、4枚とも形容詞が絵に出た。COMMON は 94/100、全体 98/500
 - COMMON のカード画像を5枚追加（live / work / listen / speak / small）。COMMON は 89/100、全体 93/500。ドワーフの見た目を `EXTRA_LOOK` に追加（`work` の絵が基準。4語に出る）
 - ホームの下に版（ver 〜）を表示し、サイトに新しい版があれば更新ボタンを出すようにした。マージしても、GitHub Pages のキャッシュ（最大10分）と、戻ってきても読み直さない iPhone の Safari のせいで、古い版のまま動き続けることがあるため

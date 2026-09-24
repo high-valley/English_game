@@ -110,6 +110,10 @@ const UI_MANIFEST={
    "full": "assets/cards/bird.webp?v=bf47b7c122",
    "thumb": "assets/cards/thumb/bird.webp?v=d898dc54a3"
   },
+  "blue": {
+   "full": "assets/cards/blue.webp?v=a5d0ff5d6b",
+   "thumb": "assets/cards/thumb/blue.webp?v=8dff69505c"
+  },
   "book": {
    "full": "assets/cards/book.webp?v=f09bca8570",
    "thumb": "assets/cards/thumb/book.webp?v=ac3d0c2ee6"
@@ -234,6 +238,10 @@ const UI_MANIFEST={
    "full": "assets/cards/go.webp?v=1e479f7a7f",
    "thumb": "assets/cards/thumb/go.webp?v=094ee5e4be"
   },
+  "good": {
+   "full": "assets/cards/good.webp?v=0845d4ff9a",
+   "thumb": "assets/cards/thumb/good.webp?v=f5be8429d2"
+  },
   "hand": {
    "full": "assets/cards/hand.webp?v=1dce647004",
    "thumb": "assets/cards/thumb/hand.webp?v=de1867b3d0"
@@ -346,6 +354,10 @@ const UI_MANIFEST={
    "full": "assets/cards/read.webp?v=de4a20bbfc",
    "thumb": "assets/cards/thumb/read.webp?v=0762156ad0"
   },
+  "red": {
+   "full": "assets/cards/red.webp?v=18a8e30fdb",
+   "thumb": "assets/cards/thumb/red.webp?v=f806ff233d"
+  },
   "require": {
    "full": "assets/cards/require.webp?v=358b37cef4",
    "thumb": "assets/cards/thumb/require.webp?v=fc43aceab2"
@@ -418,6 +430,10 @@ const UI_MANIFEST={
    "full": "assets/cards/star.webp?v=5768222dc5",
    "thumb": "assets/cards/thumb/star.webp?v=093d94bf8d"
   },
+  "strong": {
+   "full": "assets/cards/strong.webp?v=21868fa2d7",
+   "thumb": "assets/cards/thumb/strong.webp?v=2effa4066a"
+  },
   "sun": {
    "full": "assets/cards/sun.webp?v=8cd9ca87ba",
    "thumb": "assets/cards/thumb/sun.webp?v=59732d240a"
@@ -457,6 +473,10 @@ const UI_MANIFEST={
   "water": {
    "full": "assets/cards/water.webp?v=2ddedce037",
    "thumb": "assets/cards/thumb/water.webp?v=e4c26edc63"
+  },
+  "white": {
+   "full": "assets/cards/white.webp?v=6f2a18ceef",
+   "thumb": "assets/cards/thumb/white.webp?v=07233373b1"
   },
   "wind": {
    "full": "assets/cards/wind.webp?v=d77dc1acac",
@@ -513,6 +533,7 @@ const UI_MANIFEST={
   "assets/cards/bed.webp": "798c32c5b8",
   "assets/cards/big.webp": "b849accf3a",
   "assets/cards/bird.webp": "bf47b7c122",
+  "assets/cards/blue.webp": "a5d0ff5d6b",
   "assets/cards/book.webp": "f09bca8570",
   "assets/cards/box.webp": "963c94a59c",
   "assets/cards/boy.webp": "9a61d8d13d",
@@ -544,6 +565,7 @@ const UI_MANIFEST={
   "assets/cards/girl.webp": "852e7dfc9b",
   "assets/cards/give.webp": "715dcbb75d",
   "assets/cards/go.webp": "1e479f7a7f",
+  "assets/cards/good.webp": "0845d4ff9a",
   "assets/cards/hand.webp": "1dce647004",
   "assets/cards/happy.webp": "b10f1a4947",
   "assets/cards/hat.webp": "634ad230a3",
@@ -572,6 +594,7 @@ const UI_MANIFEST={
   "assets/cards/queen.webp": "ff46af30e2",
   "assets/cards/rain.webp": "01f995fee5",
   "assets/cards/read.webp": "de4a20bbfc",
+  "assets/cards/red.webp": "18a8e30fdb",
   "assets/cards/require.webp": "358b37cef4",
   "assets/cards/rice.webp": "a2a148216c",
   "assets/cards/river.webp": "be6a6cb563",
@@ -590,6 +613,7 @@ const UI_MANIFEST={
   "assets/cards/speak.webp": "ae8cb2295e",
   "assets/cards/stakeholder.webp": "29b1e7a108",
   "assets/cards/star.webp": "5768222dc5",
+  "assets/cards/strong.webp": "21868fa2d7",
   "assets/cards/sun.webp": "8cd9ca87ba",
   "assets/cards/swim.webp": "a56d31906b",
   "assets/cards/sword.webp": "15136582c5",
@@ -600,6 +624,7 @@ const UI_MANIFEST={
   "assets/cards/tree.webp": "f0040be9d7",
   "assets/cards/walk.webp": "55655bb2f0",
   "assets/cards/water.webp": "2ddedce037",
+  "assets/cards/white.webp": "6f2a18ceef",
   "assets/cards/wind.webp": "d77dc1acac",
   "assets/cards/window.webp": "bbf853e6ce",
   "assets/cards/woman.webp": "03cae6c604",
