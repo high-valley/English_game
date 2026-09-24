@@ -58,6 +58,20 @@ def has(ex, e):
     return re.search(enemy_pattern(e), ex, re.I) is not None
 
 
+# 例文に出さないもの。ユーザーが蜘蛛が苦手（「今後、蜘蛛が出てくるプロンプトはやめて欲しい」）。
+# 例文はそのまま画像のプロンプトになるので、例文の段階で止める。
+# 画像がすでにある語（book / big / room）は絵と食い違うので、作り直すときに例文も変える
+BANNED = {
+    r"\b(?:spiders?|cobwebs?|webs?|tarantulas?|arachnids?)\b": "蜘蛛（ユーザーが苦手）",
+}
+
+
+def done_images():
+    src = (ROOT / "js" / "card_art.js").read_text(encoding="utf-8")
+    m = re.search(r"const\s+CARD_IMG_NAMES\s*=\s*\[(.*?)\];", src, re.S)
+    return set(re.findall(r'"([^"]+)"', m.group(1))) if m else set()
+
+
 def load(path):
     src = path.read_text(encoding="utf-8")
     m = re.search(r"const WORDS=(\[.*?\]);", src, re.S)
@@ -87,6 +101,16 @@ def main():
             errs.append(f'id {w["id"]} {en}: stars={w["stars"]} がレアリティ {w["rarity"]} と合いません')
         if not ex.strip().endswith((".", "!", "?")):
             errs.append(f'id {w["id"]} {en}: 例文が句点で終わっていません → {ex}')
+
+    done = done_images()
+    old_banned = []
+    for w in words:
+        for pat, why in BANNED.items():
+            if re.search(pat, w["ex"], re.I):
+                if w["en"] in done:
+                    old_banned.append(f'{w["en"]}（{why}）')
+                else:
+                    errs.append(f'id {w["id"]} {w["en"]}: 例文に{why}が出てきます → {w["ex"]}')
 
     # 敵役の割合の目安。全部のカードに敵役を入れる必要はない（SPEC.md §6）。
     # 風景・自然・道具のカードは敵役なしでよいので、上限を超えたら知らせる
@@ -120,8 +144,12 @@ def main():
                 cast[e] += 1
     print("敵役の内訳:", ", ".join(f"{k} {v}" for k, v in cast.most_common()))
 
+    if old_banned:
+        warns.append("画像がすでにある語の例文に、出さないものが残っています（作り直すときに例文も変える）: "
+                     + ", ".join(old_banned))
+
     if warns:
-        print(f"\n▲ 注意 {len(warns)} 件（不具合ではなく、配分の目安を外れているだけ）")
+        print(f"\n▲ 注意 {len(warns)} 件（不具合ではない。配分の目安や、作り直すときの注意）")
         for w in warns:
             print("  -", w)
 
