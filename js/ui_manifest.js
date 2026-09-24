@@ -170,6 +170,10 @@ const UI_MANIFEST={
    "full": "assets/cards/cake.webp?v=5bb32f3658",
    "thumb": "assets/cards/thumb/cake.webp?v=ec0aa8ae48"
   },
+  "candle": {
+   "full": "assets/cards/candle.webp?v=eeb4e42a68",
+   "thumb": "assets/cards/thumb/candle.webp?v=f578844418"
+  },
   "car": {
    "full": "assets/cards/car.webp?v=2447d437a9",
    "thumb": "assets/cards/thumb/car.webp?v=57ea862aad"
@@ -265,6 +269,10 @@ const UI_MANIFEST={
   "fast": {
    "full": "assets/cards/fast.webp?v=66e3ae35f9",
    "thumb": "assets/cards/thumb/fast.webp?v=74199821f5"
+  },
+  "father": {
+   "full": "assets/cards/father.webp?v=ae8cfe02cf",
+   "thumb": "assets/cards/thumb/father.webp?v=c9ea692ffc"
   },
   "fire": {
    "full": "assets/cards/fire.webp?v=ddc5338d50",
@@ -430,6 +438,10 @@ const UI_MANIFEST={
    "full": "assets/cards/milk.webp?v=767ebc34c8",
    "thumb": "assets/cards/thumb/milk.webp?v=21e74b4b81"
   },
+  "mirror": {
+   "full": "assets/cards/mirror.webp?v=18e79fc1ef",
+   "thumb": "assets/cards/thumb/mirror.webp?v=3e3020d193"
+  },
   "moon": {
    "full": "assets/cards/moon.webp?v=11faa34c72",
    "thumb": "assets/cards/thumb/moon.webp?v=5f49a92d60"
@@ -517,6 +529,10 @@ const UI_MANIFEST={
   "rice": {
    "full": "assets/cards/rice.webp?v=a2a148216c",
    "thumb": "assets/cards/thumb/rice.webp?v=57ad52b172"
+  },
+  "ring": {
+   "full": "assets/cards/ring.webp?v=6757370968",
+   "thumb": "assets/cards/thumb/ring.webp?v=cdcb95c090"
   },
   "river": {
    "full": "assets/cards/river.webp?v=be6a6cb563",
@@ -654,6 +670,10 @@ const UI_MANIFEST={
    "full": "assets/cards/tree.webp?v=f0040be9d7",
    "thumb": "assets/cards/thumb/tree.webp?v=a3f9d68718"
   },
+  "umbrella": {
+   "full": "assets/cards/umbrella.webp?v=e45004c23e",
+   "thumb": "assets/cards/thumb/umbrella.webp?v=3565b0acb2"
+  },
   "usually": {
    "full": "assets/cards/usually.webp?v=81a9f56c9f",
    "thumb": "assets/cards/thumb/usually.webp?v=25df26fa89"
@@ -752,6 +772,7 @@ const UI_MANIFEST={
   "assets/cards/brother.webp": "cce4f888f4",
   "assets/cards/buy.webp": "7db8ebc613",
   "assets/cards/cake.webp": "5bb32f3658",
+  "assets/cards/candle.webp": "eeb4e42a68",
   "assets/cards/car.webp": "2447d437a9",
   "assets/cards/castle.webp": "0425f37b83",
   "assets/cards/cat.webp": "9bbe789cee",
@@ -776,6 +797,7 @@ const UI_MANIFEST={
   "assets/cards/experience.webp": "6398f6842b",
   "assets/cards/family.webp": "cc5657578d",
   "assets/cards/fast.webp": "66e3ae35f9",
+  "assets/cards/father.webp": "ae8cfe02cf",
   "assets/cards/fire.webp": "ddc5338d50",
   "assets/cards/fish.webp": "f553cf556e",
   "assets/cards/flower.webp": "ae0b33a52a",
@@ -817,6 +839,7 @@ const UI_MANIFEST={
   "assets/cards/map.webp": "a8bcb4aea1",
   "assets/cards/market.webp": "7c694a6d47",
   "assets/cards/milk.webp": "767ebc34c8",
+  "assets/cards/mirror.webp": "18e79fc1ef",
   "assets/cards/moon.webp": "11faa34c72",
   "assets/cards/morning.webp": "ff393b91af",
   "assets/cards/mother.webp": "8f354facdb",
@@ -839,6 +862,7 @@ const UI_MANIFEST={
   "assets/cards/remember.webp": "92e4fe3e6a",
   "assets/cards/require.webp": "358b37cef4",
   "assets/cards/rice.webp": "a2a148216c",
+  "assets/cards/ring.webp": "6757370968",
   "assets/cards/river.webp": "be6a6cb563",
   "assets/cards/road.webp": "fa005857e0",
   "assets/cards/room.webp": "f7b60ae7b4",
@@ -873,6 +897,7 @@ const UI_MANIFEST={
   "assets/cards/town.webp": "90fa40b30e",
   "assets/cards/travel.webp": "66476c35cb",
   "assets/cards/tree.webp": "f0040be9d7",
+  "assets/cards/umbrella.webp": "e45004c23e",
   "assets/cards/usually.webp": "81a9f56c9f",
   "assets/cards/village.webp": "6784b90674",
   "assets/cards/walk.webp": "55655bb2f0",
