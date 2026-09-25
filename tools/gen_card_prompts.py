@@ -212,10 +212,9 @@ FOE_LOOK = {
     "bandit": "bandits are rough men in worn leather with a dark cloth mask over the lower face",
     "zombie": "zombies are grey-skinned and slack-jawed in torn clothing, with clouded white eyes",
     "gargoyle": "gargoyles are grey stone beasts with folded bat wings, curved horns and blank carved eyes",
-    # 「腰から上は女性」と書いていたら、肌の出た女性の姿になった（follow）。子どもも使うアプリなので、羽で全身を覆う
-    "harpy": "harpies are fierce bird-women with a wild dark mane and a sharp hooked face, "
-             "their whole body covered in thick brown feathers like a bird, "
-             "brown feathered wings for arms and clawed bird legs",
+    # 基準は follow のカード（羽で胸と腰を覆った女性の姿）。一度「全身を羽で覆う」に変えたが、
+    # ユーザーが follow の絵をそのままでよいとしたので、姿をそろえるために元に戻した
+    "harpy": "harpies are women from the waist up, with brown feathered wings for arms and clawed bird legs",
     # Lv.3 RARE
     "vampire": "vampires are pale and sharp-featured with red eyes, white hair, long fangs "
                "and a high-collared crimson and black cloak",
