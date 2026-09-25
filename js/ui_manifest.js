@@ -242,6 +242,10 @@ const UI_MANIFEST={
    "full": "assets/cards/cook.webp?v=fa8c3bea05",
    "thumb": "assets/cards/thumb/cook.webp?v=6763fdd53e"
   },
+  "cross": {
+   "full": "assets/cards/cross.webp?v=fdf23f8be9",
+   "thumb": "assets/cards/thumb/cross.webp?v=c3bb3c169b"
+  },
   "crown": {
    "full": "assets/cards/crown.webp?v=6b439767a7",
    "thumb": "assets/cards/thumb/crown.webp?v=d2e3547752"
@@ -306,6 +310,10 @@ const UI_MANIFEST={
    "full": "assets/cards/experience.webp?v=6398f6842b",
    "thumb": "assets/cards/thumb/experience.webp?v=040aaf7a10"
   },
+  "explain": {
+   "full": "assets/cards/explain.webp?v=c4be8b41bd",
+   "thumb": "assets/cards/thumb/explain.webp?v=384282f08d"
+  },
   "family": {
    "full": "assets/cards/family.webp?v=cc5657578d",
    "thumb": "assets/cards/thumb/family.webp?v=5c29358cc3"
@@ -317,6 +325,10 @@ const UI_MANIFEST={
   "father": {
    "full": "assets/cards/father.webp?v=ae8cfe02cf",
    "thumb": "assets/cards/thumb/father.webp?v=c9ea692ffc"
+  },
+  "find": {
+   "full": "assets/cards/find.webp?v=87eb497c19",
+   "thumb": "assets/cards/thumb/find.webp?v=a9d54acde8"
   },
   "fire": {
    "full": "assets/cards/fire.webp?v=ddc5338d50",
@@ -421,6 +433,10 @@ const UI_MANIFEST={
   "island": {
    "full": "assets/cards/island.webp?v=cbc45cc2e1",
    "thumb": "assets/cards/thumb/island.webp?v=18bef85556"
+  },
+  "join": {
+   "full": "assets/cards/join.webp?v=d921188b3d",
+   "thumb": "assets/cards/thumb/join.webp?v=0766ec712d"
   },
   "jump": {
    "full": "assets/cards/jump.webp?v=897d6229c6",
@@ -842,6 +858,7 @@ const UI_MANIFEST={
   "assets/cards/come.webp": "26dabb6887",
   "assets/cards/continue.webp": "ddb6f0e162",
   "assets/cards/cook.webp": "fa8c3bea05",
+  "assets/cards/cross.webp": "fdf23f8be9",
   "assets/cards/crown.webp": "6b439767a7",
   "assets/cards/dance.webp": "b6b9334488",
   "assets/cards/decide.webp": "717e762bfa",
@@ -858,9 +875,11 @@ const UI_MANIFEST={
   "assets/cards/egg.webp": "4919f0529e",
   "assets/cards/enjoy.webp": "e6c8ea1973",
   "assets/cards/experience.webp": "6398f6842b",
+  "assets/cards/explain.webp": "c4be8b41bd",
   "assets/cards/family.webp": "cc5657578d",
   "assets/cards/fast.webp": "66e3ae35f9",
   "assets/cards/father.webp": "ae8cfe02cf",
+  "assets/cards/find.webp": "87eb497c19",
   "assets/cards/fire.webp": "ddc5338d50",
   "assets/cards/fish.webp": "f553cf556e",
   "assets/cards/flower.webp": "ae0b33a52a",
@@ -887,6 +906,7 @@ const UI_MANIFEST={
   "assets/cards/house.webp": "9198475e5a",
   "assets/cards/important.webp": "03e76a23f9",
   "assets/cards/island.webp": "cbc45cc2e1",
+  "assets/cards/join.webp": "d921188b3d",
   "assets/cards/jump.webp": "897d6229c6",
   "assets/cards/key.webp": "d9e46c479e",
   "assets/cards/king.webp": "df22c9602d",
