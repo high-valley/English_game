@@ -346,6 +346,10 @@ const UI_MANIFEST={
    "full": "assets/cards/fly.webp?v=96bc694a73",
    "thumb": "assets/cards/thumb/fly.webp?v=1c81f5ff4d"
   },
+  "follow": {
+   "full": "assets/cards/follow.webp?v=e7c53b33ba",
+   "thumb": "assets/cards/thumb/follow.webp?v=1b45769e67"
+  },
   "food": {
    "full": "assets/cards/food.webp?v=d00bdc1a18",
    "thumb": "assets/cards/thumb/food.webp?v=390baa9292"
@@ -884,6 +888,7 @@ const UI_MANIFEST={
   "assets/cards/fish.webp": "f553cf556e",
   "assets/cards/flower.webp": "ae0b33a52a",
   "assets/cards/fly.webp": "96bc694a73",
+  "assets/cards/follow.webp": "e7c53b33ba",
   "assets/cards/food.webp": "d00bdc1a18",
   "assets/cards/forest.webp": "1832d324f2",
   "assets/cards/forget.webp": "630c62b957",
