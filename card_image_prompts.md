@@ -27,7 +27,7 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この172語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この176語は、絵文字ではなく画像で表示されます）。
 
 - answer
 - apple
@@ -68,6 +68,7 @@
 - come
 - continue
 - cook
+- cross
 - crown
 - dance
 - decide
@@ -84,9 +85,11 @@
 - egg
 - enjoy
 - experience
+- explain
 - family
 - fast
 - father
+- find
 - fire
 - fish
 - flower
@@ -113,6 +116,7 @@
 - house
 - important
 - island
+- join
 - jump
 - key
 - king
@@ -1076,7 +1080,7 @@ hand-painted anime fantasy illustration, visible brush texture, matte finish, a 
 
 **233. follow**（ついていく）
 ```
-hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The brave hunter follows the harpy into the cliffs. Make the sentence's action (follow) the main subject: large and clearly visible. Any creature has clear, expressive eyes and a readable face. harpies are women from the waist up, with brown feathered wings for arms and clawed bird legs. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a low angle, looking up at the subject against the sky or the ceiling above it. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: The brave hunter follows the harpy into the cliffs. Make the sentence's action (follow) the main subject: large and clearly visible. Any creature has clear, expressive eyes and a readable face. harpies are fierce bird-women with a wild dark mane and a sharp hooked face, their whole body covered in thick brown feathers like a bird, brown feathered wings for arms and clawed bird legs. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a low angle, looking up at the subject against the sky or the ceiling above it. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **234. join**（加わる）
@@ -1091,7 +1095,7 @@ hand-painted anime fantasy illustration, visible brush texture, matte finish, a 
 
 **236. meet**（会う）
 ```
-hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: We meet at the old bridge at noon. Make the sentence's action (meet) the main subject: large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: framed through something in the foreground - an archway, a doorway or branches - with the subject beyond it. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+hand-painted anime fantasy illustration, visible brush texture, matte finish, a small magical touch, gentle glow, slightly richer details, clear subject. Scene: Two old friends meet and hug at the busy harbour. Make the sentence's action (meet) the main subject: large and clearly visible. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: framed through something in the foreground - an archway, a doorway or branches - with the subject beyond it. not photorealistic, not a 3D render, no glossy plastic shine, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **237. protect**（守る）
@@ -1421,7 +1425,7 @@ rich painted anime fantasy illustration, dramatic lighting, golden accents, floa
 
 **281. speed**（速さ）
 ```
-rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The harpies dived at terrible speed over the cliffs. The speed itself is the main subject of the picture: large and clearly visible. If the speed is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Any creature has clear, expressive eyes and a readable face. harpies are women from the waist up, with brown feathered wings for arms and clawed bird legs. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a low angle, looking up at the subject against the sky or the ceiling above it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The harpies dived at terrible speed over the cliffs. The speed itself is the main subject of the picture: large and clearly visible. If the speed is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Any creature has clear, expressive eyes and a readable face. harpies are fierce bird-women with a wild dark mane and a sharp hooked face, their whole body covered in thick brown feathers like a bird, brown feathered wings for arms and clawed bird legs. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a low angle, looking up at the subject against the sky or the ceiling above it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **282. evidence**（証拠）
@@ -1476,7 +1480,7 @@ rich painted anime fantasy illustration, dramatic lighting, golden accents, floa
 
 **292. region**（地域）
 ```
-rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Harpies nest all across the northern region. The region itself is the main subject of the picture: large and clearly visible. If the region is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Any creature has clear, expressive eyes and a readable face. harpies are women from the waist up, with brown feathered wings for arms and clawed bird legs. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: framed through something in the foreground - an archway, a doorway or branches - with the subject beyond it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Harpies nest all across the northern region. The region itself is the main subject of the picture: large and clearly visible. If the region is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Any creature has clear, expressive eyes and a readable face. harpies are fierce bird-women with a wild dark mane and a sharp hooked face, their whole body covered in thick brown feathers like a bird, brown feathered wings for arms and clawed bird legs. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: framed through something in the foreground - an archway, a doorway or branches - with the subject beyond it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **293. discover**（発見する）
