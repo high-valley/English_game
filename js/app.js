@@ -94,9 +94,18 @@ async function checkUpdate(){
   if(location.protocol==="file:"||Date.now()-UPD_AT<60000)return;UPD_AT=Date.now();
   try{const r=await fetch(location.pathname+"?check="+Date.now(),{cache:"no-store"});if(!r.ok)return;
     const m=(await r.text()).match(/const ASSET_V="([^"]+)"/);
-    if(m&&m[1]>ASSET_V){NEW_V=m[1];const e=$("#hm2-ver");if(e)e.innerHTML=verHtml()}}catch(e){}}
+    if(m&&m[1]>ASSET_V){NEW_V=m[1];const e=$("#hm2-ver");if(e)e.innerHTML=verHtml();refreshStartCache()}}catch(e){}}
 // 版を URL に付けて開き直す。URL が変わるので、途中のキャッシュ（ブラウザ・GitHub Pages）を通らず新しい index.html が届く
 function applyUpdate(){location.replace(location.pathname+"?v="+encodeURIComponent(NEW_V))}
+/* 「?v=」を付けずに開いたときの index.html を、ブラウザのキャッシュごと新しくする。
+   更新ボタンで開くのは「index.html?v=新しい版」で、版の確認も「?check=…」と、どちらも別の URL。
+   ふだん開く「index.html」（ホーム画面のアイコンが開く URL）のキャッシュは古いまま残るので、
+   更新した直後にアプリを閉じて開き直すと、最大10分（GitHub Pages のキャッシュの期間）古い版に戻っていた。
+   cache:"reload" はキャッシュを使わずに取りに行き、届いたものでキャッシュを置き換える */
+function refreshStartCache(){
+  if(location.protocol==="file:")return;
+  const dir=location.pathname.replace(/[^/]*$/,"");
+  [dir,dir+"index.html"].forEach(u=>fetch(u,{cache:"reload"}).catch(()=>{}))}
 
 /* カード図鑑 */
 const FIL=[["ALL","すべて"],["COMMON","コモン"],["UNCOMMON","アンコモン"],["RARE","レア"],["EPIC","エピック"],["LEGENDARY","レジェンド"]];
@@ -234,7 +243,8 @@ const uiRefresh=()=>{document.body.classList.remove("ui-wait");applyUI();if(!$("
 setTimeout(()=>{if(!UI_READY){UI_READY=true;uiRefresh()}},2200);
 uiInit(uiRefresh).then(()=>{if(Object.keys(UI_FRAME).length)uiRefresh()});
 function splashInner(){const r=UI_READY;return `${bgScene("splash_bg")}${r?(UI.logo_emblem?`<img class="sp-emb" src="${UI.logo_emblem}" alt="">`:EMB):""}${r?(UI.logo_title?`<img class="sp-tt" src="${UI.logo_title}" alt="WORD GRIMOIRE">`:`<div class="sp-title">WORD GRIMOIRE</div>`):""}<div class="sp-tag">もっと知る。もっと強くなる。</div><div class="sp-hint">TAP TO START</div>`}
-if(/[?&]v=/.test(location.search))history.replaceState(null,"",location.pathname);
+// 更新ボタンで開いた直後。URL から ?v= を消し、ふだん開く URL のキャッシュも新しい版にしておく
+if(/[?&]v=/.test(location.search)){history.replaceState(null,"",location.pathname);refreshStartCache()}
 // 引き継ぎリンク（#import=…）で開いたとき。# を消してから、取り込むかどうかを聞く。
 // 開いているページにリンクを貼って開き直すと、ページは読み直されず # だけが変わるので、hashchange でも見る
 function importFromHash(){if(!location.hash.startsWith("#import="))return;const t=location.hash;history.replaceState(null,"",location.pathname+location.search);

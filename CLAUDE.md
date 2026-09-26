@@ -144,6 +144,9 @@ Chromium は `/opt/pw-browsers/chromium` にある（Playwright から `executab
   iPhone の Safari はアプリに戻ってきてもページを読み直さない。そこで、起動3秒後とアプリに戻ってきたときに
   サイトの `index.html` をキャッシュを通さずに取りに行き、新しい `ASSET_V` があればホームに更新ボタンを出す
   （`checkUpdate`）。押すと `?v=新しい版` を付けて開き直す（URL が変わるので、途中のキャッシュを通らない）
+- **更新したら、ふだん開く URL（`index.html`）のキャッシュも新しくする**（`refreshStartCache`。`cache:"reload"`）。
+  更新ボタンで開くのは `?v=…`、版の確認は `?check=…` と別の URL なので、ホーム画面のアイコンが開く `index.html` の
+  キャッシュは古いまま残る。更新した直後にアプリを閉じて開き直すと、最大10分、古い版に戻っていた（`d` に上げたのに `c` に戻った）
 
 ## 画像
 - **画像の生成は Claude ではできない**。プロンプトを用意し、生成は ChatGPT / Grok などに渡す
