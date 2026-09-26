@@ -580,3 +580,15 @@ nav{grid-template-columns:repeat(4,1fr)}
 .hm2-ver{margin:14px 0 2px;text-align:center;font-size:11px;letter-spacing:1px;color:#aab4d8;opacity:.7}
 .hm2-upd{margin-left:6px;padding:4px 10px;border-radius:999px;border:1px solid #e5b84a;background:#1a2150;color:#f4d477;font-size:11px;font-weight:700;letter-spacing:0;opacity:1}
 .hm2-ver:has(.hm2-upd){opacity:1}
+/* 設定：データの引き継ぎ */
+.xf{margin:0 0 14px;padding:12px;border:1px solid #33395a;border-radius:12px;background:#0c1124}
+.xf h4{margin:0 0 6px;color:#f4d477;font-size:15px}
+.xf h4:not(:first-child){margin-top:14px}
+.xf p{margin:0 0 10px;color:#aeb2c1;font-size:13px;line-height:1.6}
+.xf-row{display:flex;gap:8px;margin-bottom:8px}
+.xf-btn{flex:1;padding:11px 8px;border:1px solid #8a6d2c;border-radius:10px;background:#1b2140;color:#f4d477;font-weight:700;font-size:14px;cursor:pointer}
+.xf-btn:disabled{opacity:.45}
+.xf-wide{width:100%;margin-top:8px}
+.xf-code{box-sizing:border-box;width:100%;padding:8px;border:1px solid #33395a;border-radius:8px;background:#060916;color:#dfe3f2;font:12px/1.4 ui-monospace,Menlo,monospace;word-break:break-all;resize:vertical}
+.xf-msg{min-height:1em;margin-top:6px;color:#9fd9a8;font-size:13px;line-height:1.5}
+#xf-err{color:#ff9aa8}
