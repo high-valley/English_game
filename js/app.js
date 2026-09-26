@@ -22,6 +22,9 @@ function icon(w){return w.ic||"✨"}
 // small … 図鑑などの小さなカード。縮小版を使い、画面に入るまで読み込まない（500枚を一度に並べるため）
 function artHtml(w,cls="card-art-image",small){
   const u=small?CARD_THUMB[w.en]:CARD_IMG[w.en],lz=small?' loading="lazy" decoding="async"':'';
+  // 小さいカードは絵を1枚だけ置いて、枠に合わせて切り取る（上下が少し切れる。大事なものは中央の帯に描いてもらっている）。
+  // 大きいカードと同じ「ぼかした絵を後ろに敷く」やり方は、500枚並べると重く、iPhone で落ちた
+  if(u&&small)return `<img class="mini-art" src="${u}" alt="${w.en}"${lz} onerror="cardImgFail(this,${w.id})">`;
   if(u)return `<div class="fitwrap"><img class="fitbg" src="${u}" alt=""${lz}><img class="${cls}" src="${u}" alt="${w.en}"${lz} onerror="cardImgFail(this,${w.id})"></div>`;
   if(ART_SVG[w.en])return ART_SVG[w.en];
   return `<div class="art">${icon(w)}</div>`}
@@ -41,7 +44,11 @@ function plateFont(en,avail,max){
 const plateAvail=(L,btn)=>L.plate[2]/3-(btn?9.2:4.5);
 function hl(s,en){return s.replace(new RegExp("\\b("+en+"\\w*)","i"),"<b>$1</b>")}
 function speak(t){try{const u=new SpeechSynthesisUtterance(t);u.lang="en-US";speechSynthesis.cancel();speechSynthesis.speak(u)}catch(e){}}
-function cardArt(w,small){return CARD_IMG[w.en]||ART_SVG[w.en]?artHtml(w,undefined,small):`<div class="scn">${sceneSvg(w.rarity)}<i class="scn-pad"></i><div class="scn-ic">${icon(w)}</div></div>`}
+function cardArt(w,small){return CARD_IMG[w.en]||ART_SVG[w.en]?artHtml(w,undefined,small):`<div class="scn">${small?`<img class="cart" src="${sceneUrl(w.rarity)}" alt="">`:sceneSvg(w.rarity)}<i class="scn-pad"></i><div class="scn-ic">${icon(w)}</div></div>`}
+// 絵の無いカードの背景（レアリティごとの風景）。小さいカードでは、SVG をカードごとに埋め込まず、
+// レアリティごとに1つの画像にして使い回す（300枚ぶんの SVG を描くと重いため）
+const SCENE_URL={};
+function sceneUrl(r){return SCENE_URL[r]||(SCENE_URL[r]="data:image/svg+xml;charset=utf-8,"+encodeURIComponent(sceneSvg(r)))}
 function cardFace(w){
   const x=CARD_EXTRA[w.en],n=S.owned[w.id]||0,m=S.mastery[w.id]||0,ex=x?x.s:w.ex,tr=x?x.t:w.tr,F=uiFrame(w.rarity),L={...LAYOUT,...(F?LAYOUT_IMG:{}),...(F&&F.art?{art:F.art}:{}),...(F&&F.info?{info:F.info}:{}),...LAYOUT_OVERRIDE};
   return `<div class="cd3 r-${w.rarity}"><div class="cd3-in${F?" imgf":""}">
@@ -109,7 +116,7 @@ function miniLockHtml(r){
   const F=uiFrame(r||"COMMON");
   if(!F)return `<div class="mc lock">?</div>`;
   const L=miniLayout(F);
-  return `<div class="mcard lock r-${r||"COMMON"}"><div class="cd3"><div class="cd3-in imgf"><div class="cd3-art" style="${P(...L.art)}"><b class="mc3-q">?</b></div><img class="cd3-frame" src="${F.url}" alt=""><div class="cd3-plate" style="${P(...L.plate)}"><span style="font-size:8cqw">？？？</span></div></div></div></div>`}
+  return `<div class="mcard lock r-${r||"COMMON"}"><div class="cd3"><div class="cd3-in imgf"><div class="cd3-art" style="${P(...L.art)}"><b class="mc3-q">?</b></div><img class="cd3-frame" src="${F.mini||F.url}" alt="" loading="lazy" decoding="async"><div class="cd3-plate" style="${P(...L.plate)}"><span style="font-size:8cqw">？？？</span></div></div></div></div>`}
 const mini=w=>S.owned[w.id]?miniHtml(w):miniLockHtml(w.rarity);
 /* 検索：英単語と日本語訳の、どちらの部分一致でも hit する
    例）"ap" → apple / grape / map、"りんご" → apple、"テーブル"・"てーぶる" → table
@@ -138,9 +145,22 @@ function cardList(){
   const list=sortByQuery(WORDS.filter(w=>(CF.r==="ALL"||w.rarity===CF.r)&&matchesQuery(w,q)),q);
   const c=$("#cd-count"),g=$("#cd-g"),cl=$(".cd-clear");
   if(c)c.textContent=list.length+"件";
-  if(g)g.innerHTML=list.length?list.map(mini).join(""):`<div class="cd-empty">見つかりませんでした</div>`;
+  if(g){if(CL.io)CL.io.disconnect();CL={list,n:0,io:null};
+    g.innerHTML=list.length?"":`<div class="cd-empty">見つかりませんでした</div>`;cardMore()}
   if(cl)cl.classList.toggle("hide",!CF.q);
 }
+/* 図鑑は、はじめに CARD_CHUNK 枚だけ並べ、下の目印（.cd-more）が近づいたら続きを足す。
+   500枚を一度に作ると、カード画面を開くのが遅く（1.2秒。スマホ相当の CPU）、
+   全部持っているデータで一気にスクロールすると iPhone の Safari がページごと落ちた */
+const CARD_CHUNK=24;let CL={list:[],n:0,io:null};
+function cardMore(){
+  const g=$("#cd-g");if(!g)return;
+  const old=g.querySelector(".cd-more");if(old){if(CL.io)CL.io.unobserve(old);old.remove()}
+  const part=CL.list.slice(CL.n,CL.n+CARD_CHUNK);CL.n+=part.length;
+  g.insertAdjacentHTML("beforeend",part.map(mini).join("")+(CL.n<CL.list.length?'<i class="cd-more"></i>':""));
+  const m=g.querySelector(".cd-more");if(!m)return;
+  if(!CL.io)CL.io=new IntersectionObserver(es=>{if(es.some(e=>e.isIntersecting))cardMore()},{rootMargin:"0px 0px 1200px 0px"});
+  CL.io.observe(m)}
 function cards(){
   const found=ownedCount();
   $("#main").innerHTML=`<section class="cd"><div class="cd-top orn"><div class="cd-h">${ico("nav_cards","🃏")}<div><h2>カード図鑑</h2><small>${found}/${WORDS.length}種類を発見</small></div></div>

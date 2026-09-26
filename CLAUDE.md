@@ -130,6 +130,13 @@ Chromium は `/opt/pw-browsers/chromium` にある（Playwright から `executab
   いまは `tools/bake_assets.py` が前もって済ませ、`js/ui_manifest.js` に一覧を書く
 - **図鑑の小さなカードには縮小版（`CARD_THUMB`）を使い、`loading="lazy"` にする。** 500枚を一度に並べるため。
   大きな絵（1200x800）はカード詳細だけで使う
+- **図鑑は少しずつ並べる**（`cardMore`：はじめに24枚、下の目印が近づいたら24枚ずつ足す）。
+  全部持っているデータで、カード画面を開くと重く（スマホ相当の CPU で1.2秒）、一気にスクロールすると
+  **iPhone の Safari がページごと落ちた**。いまは開くまで0.08秒
+- **小さいカード（`.mcard`）に、1枚ずつの重い効果を付けない。** `filter`（drop-shadow・blur・grayscale）は
+  カードごとに描き直しの下地を作るので、500枚あるとメモリを使い切る。ぼかした絵を後ろに敷く `fitbg` も小さいカードでは使わない。
+  絵の無いカードの背景は、SVG を埋め込まずレアリティごとの画像（`sceneUrl`）を使い回す。
+  画面の外のカードは `content-visibility:auto` で描かない（仮の大きさは高さだけ。幅も付けると2列に収まらない）
 - 直したら、キャッシュ無し・回線と CPU を遅くして測る（`Network.emulateNetworkConditions` と
   `Emulation.setCPUThrottlingRate`）。速い回線・キャッシュありでは差が出ない
 - **起動画面はタップするまで閉じない**（「TAP TO START」と表示しているため）
