@@ -41,6 +41,7 @@ python3 tools/gen_card_prompts.py   # 例文を直したら、プロンプトを
 python3 tools/gen_next_batch.py     # 次に作る画像の一覧を更新する
 python3 tools/bake_assets.py        # 画像を足した・差し替えたら。枠とアイコンの透過、図鑑用の縮小版、画像の一覧
 python3 tools/check_assets.py       # ASSET_V のずれ、カード画像の登録漏れ、画像の一覧の作り直し忘れ
+python3 tools/dev_save.py           # 単語を足した・消した、セーブの形を変えたら。開発者用の全部カンストのコード（dev_save_code.md）
 ```
 
 ## 画像生成のプロンプトを人に渡すとき（重要）
