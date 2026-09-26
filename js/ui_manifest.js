@@ -21,7 +21,7 @@ const UI_MANIFEST={
   "gacha_pack_UNCOMMON": "assets/ui/baked/gacha_pack_uncommon.webp?v=257b326a0b",
   "gacha_pack_RARE": "assets/ui/baked/gacha_pack_rare.webp?v=9ead60e15b",
   "gacha_pack_EPIC": "assets/ui/baked/gacha_pack_epic.webp?v=310b11e913",
-  "gacha_pack_LEGENDARY": "assets/ui/baked/gacha_pack_legendary.webp?v=6403cfdcf4"
+  "gacha_pack_LEGENDARY": "assets/ui/baked/gacha_pack_legendary.webp?v=bddf115394"
  },
  "icons": {
   "icon_study": "assets/ui/baked/icons/icon_study.webp?v=1edff1c3e4",
