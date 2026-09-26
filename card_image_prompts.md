@@ -27,7 +27,7 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この187語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この192語は、絵文字ではなく画像で表示されます）。
 
 - answer
 - apple
@@ -46,6 +46,7 @@
 - book
 - box
 - boy
+- brave
 - bread
 - bridge
 - bring
@@ -54,6 +55,7 @@
 - cake
 - candle
 - car
+- careful
 - carry
 - castle
 - cat
@@ -61,6 +63,7 @@
 - cave
 - chair
 - choose
+- clever
 - climb
 - close
 - cold
@@ -71,6 +74,7 @@
 - cross
 - crown
 - dance
+- dangerous
 - decide
 - desert
 - different
@@ -152,6 +156,7 @@
 - protect
 - queen
 - question
+- quiet
 - rain
 - read
 - reason
