@@ -27,7 +27,7 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この202語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この207語は、絵文字ではなく画像で表示されます）。
 
 - always
 - answer
@@ -70,6 +70,7 @@
 - cold
 - color
 - come
+- consider
 - continue
 - cook
 - cross
@@ -78,6 +79,7 @@
 - dangerous
 - decide
 - desert
+- develop
 - different
 - difficult
 - doctor
@@ -96,6 +98,7 @@
 - famous
 - fast
 - father
+- finally
 - find
 - fire
 - fish
@@ -124,6 +127,7 @@
 - hot
 - house
 - important
+- improve
 - island
 - join
 - jump
@@ -201,6 +205,7 @@
 - story
 - strong
 - suddenly
+- suggest
 - summer
 - sun
 - swim
