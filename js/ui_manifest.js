@@ -250,6 +250,10 @@ const UI_MANIFEST={
    "full": "assets/cards/come.webp?v=26dabb6887",
    "thumb": "assets/cards/thumb/come.webp?v=0723564073"
   },
+  "consider": {
+   "full": "assets/cards/consider.webp?v=4e247de9f8",
+   "thumb": "assets/cards/thumb/consider.webp?v=5456ef7efa"
+  },
   "continue": {
    "full": "assets/cards/continue.webp?v=ddb6f0e162",
    "thumb": "assets/cards/thumb/continue.webp?v=6b33cf3b1b"
@@ -281,6 +285,10 @@ const UI_MANIFEST={
   "desert": {
    "full": "assets/cards/desert.webp?v=a09a2f1d6d",
    "thumb": "assets/cards/thumb/desert.webp?v=990a28d4f5"
+  },
+  "develop": {
+   "full": "assets/cards/develop.webp?v=a77dc75791",
+   "thumb": "assets/cards/thumb/develop.webp?v=f1a105ec18"
   },
   "different": {
    "full": "assets/cards/different.webp?v=757a34787e",
@@ -353,6 +361,10 @@ const UI_MANIFEST={
   "father": {
    "full": "assets/cards/father.webp?v=ae8cfe02cf",
    "thumb": "assets/cards/thumb/father.webp?v=c9ea692ffc"
+  },
+  "finally": {
+   "full": "assets/cards/finally.webp?v=603f47d619",
+   "thumb": "assets/cards/thumb/finally.webp?v=710fcbabbd"
   },
   "find": {
    "full": "assets/cards/find.webp?v=87eb497c19",
@@ -465,6 +477,10 @@ const UI_MANIFEST={
   "important": {
    "full": "assets/cards/important.webp?v=03e76a23f9",
    "thumb": "assets/cards/thumb/important.webp?v=23523fb023"
+  },
+  "improve": {
+   "full": "assets/cards/improve.webp?v=4f800a6f0a",
+   "thumb": "assets/cards/thumb/improve.webp?v=a094c3053d"
   },
   "island": {
    "full": "assets/cards/island.webp?v=cbc45cc2e1",
@@ -774,6 +790,10 @@ const UI_MANIFEST={
    "full": "assets/cards/suddenly.webp?v=066feb0a10",
    "thumb": "assets/cards/thumb/suddenly.webp?v=e09d290530"
   },
+  "suggest": {
+   "full": "assets/cards/suggest.webp?v=1f30103941",
+   "thumb": "assets/cards/thumb/suggest.webp?v=4ce03f1357"
+  },
   "summer": {
    "full": "assets/cards/summer.webp?v=5e55dcbc24",
    "thumb": "assets/cards/thumb/summer.webp?v=8a5566f884"
@@ -964,6 +984,7 @@ const UI_MANIFEST={
   "assets/cards/cold.webp": "4c406bc8d2",
   "assets/cards/color.webp": "913dd555aa",
   "assets/cards/come.webp": "26dabb6887",
+  "assets/cards/consider.webp": "4e247de9f8",
   "assets/cards/continue.webp": "ddb6f0e162",
   "assets/cards/cook.webp": "fa8c3bea05",
   "assets/cards/cross.webp": "fdf23f8be9",
@@ -972,6 +993,7 @@ const UI_MANIFEST={
   "assets/cards/dangerous.webp": "eb268334fa",
   "assets/cards/decide.webp": "717e762bfa",
   "assets/cards/desert.webp": "a09a2f1d6d",
+  "assets/cards/develop.webp": "a77dc75791",
   "assets/cards/different.webp": "757a34787e",
   "assets/cards/difficult.webp": "c50543922f",
   "assets/cards/doctor.webp": "d0cd04441c",
@@ -990,6 +1012,7 @@ const UI_MANIFEST={
   "assets/cards/famous.webp": "51aabd4df4",
   "assets/cards/fast.webp": "66e3ae35f9",
   "assets/cards/father.webp": "ae8cfe02cf",
+  "assets/cards/finally.webp": "603f47d619",
   "assets/cards/find.webp": "87eb497c19",
   "assets/cards/fire.webp": "ddc5338d50",
   "assets/cards/fish.webp": "f553cf556e",
@@ -1018,6 +1041,7 @@ const UI_MANIFEST={
   "assets/cards/hot.webp": "b53b5afdc4",
   "assets/cards/house.webp": "9198475e5a",
   "assets/cards/important.webp": "03e76a23f9",
+  "assets/cards/improve.webp": "4f800a6f0a",
   "assets/cards/island.webp": "cbc45cc2e1",
   "assets/cards/join.webp": "d921188b3d",
   "assets/cards/jump.webp": "897d6229c6",
@@ -1095,6 +1119,7 @@ const UI_MANIFEST={
   "assets/cards/story.webp": "211addb42f",
   "assets/cards/strong.webp": "21868fa2d7",
   "assets/cards/suddenly.webp": "066feb0a10",
+  "assets/cards/suggest.webp": "1f30103941",
   "assets/cards/summer.webp": "5e55dcbc24",
   "assets/cards/sun.webp": "8cd9ca87ba",
   "assets/cards/swim.webp": "a56d31906b",
