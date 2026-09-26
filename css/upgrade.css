@@ -539,12 +539,20 @@ nav{grid-template-columns:repeat(4,1fr)}
 .gr-grid{grid-template-columns:repeat(3,1fr)}
 .mcard{display:block;width:100%;padding:0;border:0;background:none;position:relative;cursor:pointer;-webkit-tap-highlight-color:transparent}
 .mcard .cd3-in{box-shadow:none}
-.mcard .cd3-in.imgf .cd3-frame{filter:drop-shadow(0 0 2cqw color-mix(in srgb,var(--rc) 55%,transparent))}
+/* 図鑑の小さいカードは500枚並ぶので、1枚ずつの重い効果を外す。
+   drop-shadow・blur はカードごとに描き直しの下地を作るため、全部持っているデータで一気にスクロールすると
+   iPhone の Safari がページごと落ちた。画面の外のカードは描かない（content-visibility） */
+.mcard{content-visibility:auto;contain-intrinsic-size:auto 0px auto 300px;min-width:0}   /* 仮の大きさは高さだけ。幅も付けると、2列に収まらず画面からはみ出す */
+.mcard .cd3-in.imgf .cd3-frame{filter:none}
+.mcard .scn-ic{filter:none;text-shadow:0 0 3cqw #ffe9a0}
+.mcard .cd3-art .mini-art{display:block;width:100%;height:100%;object-fit:cover}
+.mcard .scn .cart{width:100%;height:100%;object-fit:cover}
+.cd-more{grid-column:1/-1;height:1px}
 .mcard:active{transform:scale(.97)}
 .mcard .cd3-plate span{text-shadow:none;letter-spacing:-.1cqw}
 .mc3-stars{z-index:4;display:flex;align-items:center;justify-content:center;font-size:15cqw;line-height:1;color:#ffe08a;text-shadow:0 0 3cqw var(--rc),0 .5cqw 1cqw #000;letter-spacing:-.4cqw;white-space:nowrap}
 .mcard .gr-new{z-index:6;top:9cqw;right:6cqw;font-size:8cqw;padding:1cqw 3cqw;border-radius:3cqw}
-.mcard.lock .cd3-frame{filter:grayscale(.65) brightness(.5)!important}
+.mcard.lock .cd3-frame{filter:none!important;opacity:.4}   /* 持っていないカードは暗くする。filter（grayscale・brightness）は重いので、透明度で
 .mcard.lock .cd3-art{background:radial-gradient(circle,#1c2450,#0a0e22)}
 .mcard.lock .cd3-plate span{color:#6d7594}
 .mc3-q{display:grid;place-items:center;width:100%;height:100%;font:900 34cqw Georgia,serif;color:#3a4266}
