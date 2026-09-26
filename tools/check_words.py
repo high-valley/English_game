@@ -42,7 +42,7 @@ IRREGULAR = {
 # 「giant spider（大蜘蛛）」「giant serpent（大蛇）」「giant hollow tree（巨大な木）」の giant は巨人ではない。
 # 数えるだけなら害は小さいが、プロンプトでは巨人の見た目の説明が入り、大蜘蛛の絵に巨人が描かれてしまう
 NOT_FOE_AFTER = {
-    "giant": r"spiders?|serpents?|hollow|trees?",
+    "giant": r"spiders?|serpents?|sea|ogres?|hollow|trees?",
 }
 
 

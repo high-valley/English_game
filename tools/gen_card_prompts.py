@@ -165,7 +165,7 @@ PLACE_SELF = {
 # 通りの真ん中にテーブルがある絵になった。"out of the cave" も拾えていなかった
 PLACE_CUE = re.compile(
     r"\b(in|at|on|onto|by|through|into|inside|outside|under|beneath|over|across|near|beside|"
-    r"above|behind|along|around|down|up|of|from|off|past|among|between|within|beyond|"
+    r"above|below|behind|along|around|down|up|of|from|off|past|among|between|within|beyond|"
     r"toward|towards)\s+(the|a|an|his|her|their|its|this|that)\b", re.I)
 
 

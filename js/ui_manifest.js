@@ -86,6 +86,10 @@ const UI_MANIFEST={
   }
  },
  "cards": {
+  "always": {
+   "full": "assets/cards/always.webp?v=097c3454da",
+   "thumb": "assets/cards/thumb/always.webp?v=0b6d786944"
+  },
   "answer": {
    "full": "assets/cards/answer.webp?v=6866217dbc",
    "thumb": "assets/cards/thumb/answer.webp?v=fa51479d59"
@@ -562,6 +566,10 @@ const UI_MANIFEST={
    "full": "assets/cards/necessary.webp?v=7b5dca03d8",
    "thumb": "assets/cards/thumb/necessary.webp?v=31d6fea049"
   },
+  "never": {
+   "full": "assets/cards/never.webp?v=e631eeeb9f",
+   "thumb": "assets/cards/thumb/never.webp?v=7479a4973b"
+  },
   "new": {
    "full": "assets/cards/new.webp?v=cd7bdc58d4",
    "thumb": "assets/cards/thumb/new.webp?v=638b5066eb"
@@ -617,6 +625,10 @@ const UI_MANIFEST={
   "read": {
    "full": "assets/cards/read.webp?v=de4a20bbfc",
    "thumb": "assets/cards/thumb/read.webp?v=0762156ad0"
+  },
+  "ready": {
+   "full": "assets/cards/ready.webp?v=9459c40143",
+   "thumb": "assets/cards/thumb/ready.webp?v=f777c81e85"
   },
   "reason": {
    "full": "assets/cards/reason.webp?v=8d4fa1b16d",
@@ -734,6 +746,10 @@ const UI_MANIFEST={
    "full": "assets/cards/speak.webp?v=ae8cb2295e",
    "thumb": "assets/cards/thumb/speak.webp?v=687549a9ad"
   },
+  "special": {
+   "full": "assets/cards/special.webp?v=c9ec4a174d",
+   "thumb": "assets/cards/thumb/special.webp?v=b87861ea20"
+  },
   "stakeholder": {
    "full": "assets/cards/stakeholder.webp?v=29b1e7a108",
    "thumb": "assets/cards/thumb/stakeholder.webp?v=f1aa15ced3"
@@ -753,6 +769,10 @@ const UI_MANIFEST={
   "strong": {
    "full": "assets/cards/strong.webp?v=21868fa2d7",
    "thumb": "assets/cards/thumb/strong.webp?v=2effa4066a"
+  },
+  "suddenly": {
+   "full": "assets/cards/suddenly.webp?v=066feb0a10",
+   "thumb": "assets/cards/thumb/suddenly.webp?v=e09d290530"
   },
   "summer": {
    "full": "assets/cards/summer.webp?v=5e55dcbc24",
@@ -903,6 +923,7 @@ const UI_MANIFEST={
   "assets/ui/icons/nav_study.png": "a001ce1e4b",
   "assets/ui/icons/nav_gacha.png": "120141d355",
   "assets/ui/icons/nav_cards.png": "a8bc5c1133",
+  "assets/cards/always.webp": "097c3454da",
   "assets/cards/answer.webp": "6866217dbc",
   "assets/cards/apple.webp": "f76931a6e4",
   "assets/cards/arrive.webp": "bc046d27a9",
@@ -1022,6 +1043,7 @@ const UI_MANIFEST={
   "assets/cards/mother.webp": "8f354facdb",
   "assets/cards/mountain.webp": "33966baf23",
   "assets/cards/necessary.webp": "7b5dca03d8",
+  "assets/cards/never.webp": "e631eeeb9f",
   "assets/cards/new.webp": "cd7bdc58d4",
   "assets/cards/night.webp": "e8aaa143c0",
   "assets/cards/number.webp": "3f5c56be86",
@@ -1036,6 +1058,7 @@ const UI_MANIFEST={
   "assets/cards/quiet.webp": "9cdbe1064b",
   "assets/cards/rain.webp": "01f995fee5",
   "assets/cards/read.webp": "de4a20bbfc",
+  "assets/cards/ready.webp": "9459c40143",
   "assets/cards/reason.webp": "8d4fa1b16d",
   "assets/cards/red.webp": "18a8e30fdb",
   "assets/cards/remember.webp": "92e4fe3e6a",
@@ -1065,11 +1088,13 @@ const UI_MANIFEST={
   "assets/cards/small.webp": "537d8f387c",
   "assets/cards/snow.webp": "0998964581",
   "assets/cards/speak.webp": "ae8cb2295e",
+  "assets/cards/special.webp": "c9ec4a174d",
   "assets/cards/stakeholder.webp": "29b1e7a108",
   "assets/cards/star.webp": "5768222dc5",
   "assets/cards/station.webp": "4a56f6579f",
   "assets/cards/story.webp": "211addb42f",
   "assets/cards/strong.webp": "21868fa2d7",
+  "assets/cards/suddenly.webp": "066feb0a10",
   "assets/cards/summer.webp": "5e55dcbc24",
   "assets/cards/sun.webp": "8cd9ca87ba",
   "assets/cards/swim.webp": "a56d31906b",
