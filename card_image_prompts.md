@@ -27,7 +27,7 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この207語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この212語は、絵文字ではなく画像で表示されます）。
 
 - always
 - answer
@@ -92,6 +92,7 @@
 - egg
 - empty
 - enjoy
+- environment
 - experience
 - explain
 - family
@@ -128,6 +129,7 @@
 - house
 - important
 - improve
+- increase
 - island
 - join
 - jump
@@ -159,6 +161,7 @@
 - number
 - old
 - open
+- opportunity
 - play
 - possible
 - problem
@@ -171,6 +174,8 @@
 - ready
 - reason
 - red
+- reduce
+- relationship
 - remember
 - require
 - rice

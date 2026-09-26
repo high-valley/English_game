@@ -338,6 +338,10 @@ const UI_MANIFEST={
    "full": "assets/cards/enjoy.webp?v=e6c8ea1973",
    "thumb": "assets/cards/thumb/enjoy.webp?v=d4124a03d9"
   },
+  "environment": {
+   "full": "assets/cards/environment.webp?v=f57504e244",
+   "thumb": "assets/cards/thumb/environment.webp?v=d553c564bf"
+  },
   "experience": {
    "full": "assets/cards/experience.webp?v=6398f6842b",
    "thumb": "assets/cards/thumb/experience.webp?v=040aaf7a10"
@@ -482,6 +486,10 @@ const UI_MANIFEST={
    "full": "assets/cards/improve.webp?v=4f800a6f0a",
    "thumb": "assets/cards/thumb/improve.webp?v=a094c3053d"
   },
+  "increase": {
+   "full": "assets/cards/increase.webp?v=685be1d79f",
+   "thumb": "assets/cards/thumb/increase.webp?v=8a12710165"
+  },
   "island": {
    "full": "assets/cards/island.webp?v=cbc45cc2e1",
    "thumb": "assets/cards/thumb/island.webp?v=18bef85556"
@@ -606,6 +614,10 @@ const UI_MANIFEST={
    "full": "assets/cards/open.webp?v=81b64039ce",
    "thumb": "assets/cards/thumb/open.webp?v=ff606df3e2"
   },
+  "opportunity": {
+   "full": "assets/cards/opportunity.webp?v=4c93739424",
+   "thumb": "assets/cards/thumb/opportunity.webp?v=f032cf7a18"
+  },
   "play": {
    "full": "assets/cards/play.webp?v=4a6bdb79b8",
    "thumb": "assets/cards/thumb/play.webp?v=de0f5d0193"
@@ -653,6 +665,14 @@ const UI_MANIFEST={
   "red": {
    "full": "assets/cards/red.webp?v=18a8e30fdb",
    "thumb": "assets/cards/thumb/red.webp?v=f806ff233d"
+  },
+  "reduce": {
+   "full": "assets/cards/reduce.webp?v=85e5dc5548",
+   "thumb": "assets/cards/thumb/reduce.webp?v=ee71641ca8"
+  },
+  "relationship": {
+   "full": "assets/cards/relationship.webp?v=3100974b27",
+   "thumb": "assets/cards/thumb/relationship.webp?v=98aa9a572d"
   },
   "remember": {
    "full": "assets/cards/remember.webp?v=92e4fe3e6a",
@@ -1006,6 +1026,7 @@ const UI_MANIFEST={
   "assets/cards/egg.webp": "4919f0529e",
   "assets/cards/empty.webp": "f78cd23bfc",
   "assets/cards/enjoy.webp": "e6c8ea1973",
+  "assets/cards/environment.webp": "f57504e244",
   "assets/cards/experience.webp": "6398f6842b",
   "assets/cards/explain.webp": "c4be8b41bd",
   "assets/cards/family.webp": "cc5657578d",
@@ -1042,6 +1063,7 @@ const UI_MANIFEST={
   "assets/cards/house.webp": "9198475e5a",
   "assets/cards/important.webp": "03e76a23f9",
   "assets/cards/improve.webp": "4f800a6f0a",
+  "assets/cards/increase.webp": "685be1d79f",
   "assets/cards/island.webp": "cbc45cc2e1",
   "assets/cards/join.webp": "d921188b3d",
   "assets/cards/jump.webp": "897d6229c6",
@@ -1073,6 +1095,7 @@ const UI_MANIFEST={
   "assets/cards/number.webp": "3f5c56be86",
   "assets/cards/old.webp": "d36cb3415c",
   "assets/cards/open.webp": "81b64039ce",
+  "assets/cards/opportunity.webp": "4c93739424",
   "assets/cards/play.webp": "4a6bdb79b8",
   "assets/cards/possible.webp": "d0fa8e9ca3",
   "assets/cards/problem.webp": "dd1ad37f0b",
@@ -1085,6 +1108,8 @@ const UI_MANIFEST={
   "assets/cards/ready.webp": "9459c40143",
   "assets/cards/reason.webp": "8d4fa1b16d",
   "assets/cards/red.webp": "18a8e30fdb",
+  "assets/cards/reduce.webp": "85e5dc5548",
+  "assets/cards/relationship.webp": "3100974b27",
   "assets/cards/remember.webp": "92e4fe3e6a",
   "assets/cards/require.webp": "358b37cef4",
   "assets/cards/rice.webp": "a2a148216c",
