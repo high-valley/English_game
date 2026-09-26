@@ -144,6 +144,42 @@ def save_webp(im, p, q=88):
     im.save(p, "WEBP", quality=q, method=6)
 
 
+# パックの色。元の絵の青い部分（色相 170〜290度）だけを塗り替え、金の縁取りはそのまま残す。
+# 値は (色相の度, 彩度の倍率)。色相 None は元の色相のまま。RARE は元の青
+PACK_TINT = {
+    "COMMON": (None, 0.22),     # 銀（彩度を落とす）
+    "UNCOMMON": (145, 1.0),     # 緑
+    "RARE": (None, 1.0),        # 青（元の絵）
+    "EPIC": (275, 1.0),         # 紫
+    "LEGENDARY": (28, 1.05),    # 金・橙
+}
+PACK_W = 640   # ガチャ画面で幅 約200px、開封演出で 約190px。画素密度3倍で 600px
+
+
+def make_packs(src):
+    im = Image.open(src).convert("RGBA")
+    if im.width > PACK_W:
+        im = im.resize((PACK_W, round(PACK_W * im.height / im.width)), Image.LANCZOS)
+    alpha = im.getchannel("A")
+    h, s, v = im.convert("RGB").convert("HSV").split()
+    lo, hi = round(170 * 255 / 360), round(290 * 255 / 360)
+    blue = h.point(lambda x: 255 if lo <= x <= hi else 0)
+    out = {}
+    for r, (hue, sat) in PACK_TINT.items():
+        if hue is None:
+            h2 = h
+        else:
+            shift = round(hue * 255 / 360) - round(222 * 255 / 360)   # 元の青の中心 約222度から回す
+            h2 = Image.composite(h.point(lambda x: (x + shift) % 256), h, blue)
+        s2 = Image.composite(s.point(lambda x: min(255, round(x * sat))), s, blue) if sat != 1.0 else s
+        pic = Image.merge("HSV", (h2, s2, v)).convert("RGB")
+        pic.putalpha(alpha)
+        p = BAKED / f"gacha_pack_{r.lower()}.webp"
+        save_webp(pic, p, 86)
+        out[r] = url(p)
+    return out
+
+
 def main():
     ui_src, art_src = read(ROOT / "js" / "ui_images.js"), read(ROOT / "js" / "card_art.js")
     slots, icon_names = js_list(ui_src, "UI_SLOTS"), js_list(ui_src, "UI_ICONS")
@@ -189,6 +225,11 @@ def main():
         save_webp(im, out, 90)
         man["icons"][n] = url(out)
 
+    # 2.5 ガチャのパックを、排出率のレベル（レアリティ）ごとの色で作る
+    if "gacha_pack" in found:
+        for r, url_ in make_packs(found["gacha_pack"]).items():
+            man["slots"][f"gacha_pack_{r}"] = url_
+
     # 3. カードの縮小版
     missing = []
     for n in cards:
@@ -205,7 +246,8 @@ def main():
         sys.exit(f"CARD_IMG_NAMES にあるのに assets/cards/ に無い: {missing}")
 
     # 使われなくなった作りかけのファイルを消す（枠やアイコン、カードを消したとき）
-    keep = {ROOT / u["url"].split("?")[0] for u in man["frames"].values()} | \
+    keep = {ROOT / u.split("?")[0] for k, u in man["slots"].items() if k.startswith("gacha_pack_")} | \
+           {ROOT / u["url"].split("?")[0] for u in man["frames"].values()} | \
            {ROOT / u["mini"].split("?")[0] for u in man["frames"].values()} | \
            {ROOT / u.split("?")[0] for u in man["icons"].values()} | \
            {ROOT / c["thumb"].split("?")[0] for c in man["cards"].values()}

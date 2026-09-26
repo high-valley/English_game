@@ -16,7 +16,12 @@ const UI_MANIFEST={
   "logo_emblem": "assets/ui/logo_emblem.webp?v=12a99f0503",
   "gacha_pack": "assets/ui/gacha_pack.webp?v=6a9b13a848",
   "card_back": "assets/ui/card_back.webp?v=c428138656",
-  "magic_circle": "assets/ui/magic_circle.webp?v=8dee3162cf"
+  "magic_circle": "assets/ui/magic_circle.webp?v=8dee3162cf",
+  "gacha_pack_COMMON": "assets/ui/baked/gacha_pack_common.webp?v=607f7eccc3",
+  "gacha_pack_UNCOMMON": "assets/ui/baked/gacha_pack_uncommon.webp?v=257b326a0b",
+  "gacha_pack_RARE": "assets/ui/baked/gacha_pack_rare.webp?v=9ead60e15b",
+  "gacha_pack_EPIC": "assets/ui/baked/gacha_pack_epic.webp?v=310b11e913",
+  "gacha_pack_LEGENDARY": "assets/ui/baked/gacha_pack_legendary.webp?v=6403cfdcf4"
  },
  "icons": {
   "icon_study": "assets/ui/baked/icons/icon_study.webp?v=1edff1c3e4",

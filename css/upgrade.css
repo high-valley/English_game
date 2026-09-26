@@ -605,3 +605,24 @@ nav{grid-template-columns:repeat(4,1fr)}
 @keyframes bgSwap{from{opacity:0}to{opacity:1}}
 /* 昼の背景では空が明るいので、キャッチコピーの影を濃くして読みやすくする */
 .is-day .hm2-tag{text-shadow:0 0 2cqw #0a1030,0 0 4cqw #0a1030,0 .4cqw 1cqw #000}
+/* ===== ガチャ画面を1画面に収める（スクロールせずに「引く」ボタンまで見える） =====
+   パックの大きさは、画面の幅と高さの小さいほうに合わせる（高さの低い端末でも押せるように） */
+.gp2{gap:8px}
+.gp2-head h2{font-size:22px;letter-spacing:4px}
+.gp2-head p{margin-top:2px;font-size:12px}
+.gp2-lv-t{margin-bottom:4px}
+.gp2-lvtabs button{padding:6px 0}
+.gp2-stage{width:min(64vw,31dvh,260px);height:min(64vw,31dvh,260px);margin:0}
+.gp2-glow{background:radial-gradient(circle,color-mix(in srgb,var(--pc,#7f8fff) 55%,transparent),color-mix(in srgb,var(--pc,#4a5cff) 15%,transparent) 55%,transparent 72%)}
+.gp2-pack{filter:drop-shadow(0 0 16px color-mix(in srgb,var(--pc,#6a7dff) 80%,transparent))}
+.gp2-panel.orn{padding:10px 12px 8px}
+.gp2-panel .gm-tabs{margin:0 auto 6px}
+.gp2 .gp-price{margin-bottom:6px}
+.gp2-rc{margin:0 0 4px}
+.gp2 .gold-btn{padding:11px}
+@media(max-height:700px){.gp2-head p{display:none}.gp2-stage{width:min(52vw,20dvh);height:min(52vw,20dvh)}}
+/* 「まとめて」は回数を選ぶ欄のぶんパネルが高くなるので、パックをもう一回り小さくする */
+.gp2.multi .gp2-stage{width:min(48vw,21dvh,200px);height:min(48vw,21dvh,200px)}
+.gp2.multi .gm-box{margin-bottom:4px}
+.gp2.multi .gm-step,.gp2.multi .gm-quick{margin-bottom:6px}
+@media(max-height:700px){.gp2.multi .gp2-stage{width:min(40vw,15dvh);height:min(40vw,15dvh)}.gp2-lv-note{display:none}.gp2-panel.orn{padding-top:6px}.gp2.multi .gm-quick{margin-top:4px}}
