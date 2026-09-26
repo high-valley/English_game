@@ -567,7 +567,6 @@ nav{grid-template-columns:repeat(4,1fr)}
 .gp2-lvtabs button{padding:8px 0;border-radius:10px;border:1px solid #33395a;background:#10162b;color:#c9cde0;font:800 12px Georgia,serif}
 .gp2-lvtabs .on{border:2px solid #f1d27a;background:linear-gradient(#3a3163,#1a1d3d);color:#ffe08a;box-shadow:0 0 10px #f1d27a44}
 .gp2-lvtabs .lock{opacity:.4}
-.gp2-lv-note{margin-top:6px;text-align:center;font-size:11.5px;color:#f1d27a;background:#20265aaa;border:1px solid #6b5a2c;border-radius:8px;padding:5px 8px}
 /* ガチャ画面の価格表示の通貨アイコン */
 .gp-price .ico{display:inline-block;width:18px;height:18px;vertical-align:-3px;margin:0 1px}
 
@@ -625,4 +624,17 @@ nav{grid-template-columns:repeat(4,1fr)}
 .gp2.multi .gp2-stage{width:min(48vw,21dvh,200px);height:min(48vw,21dvh,200px)}
 .gp2.multi .gm-box{margin-bottom:4px}
 .gp2.multi .gm-step,.gp2.multi .gm-quick{margin-bottom:6px}
-@media(max-height:700px){.gp2.multi .gp2-stage{width:min(40vw,15dvh);height:min(40vw,15dvh)}.gp2-lv-note{display:none}.gp2-panel.orn{padding-top:6px}.gp2.multi .gm-quick{margin-top:4px}}
+@media(max-height:700px){.gp2.multi .gp2-stage{width:min(40vw,15dvh);height:min(40vw,15dvh)}.gp2-panel.orn{padding-top:6px}.gp2.multi .gm-quick{margin-top:4px}}
+/* パックを左右にスワイプして排出率のレベルを変える。縦のスクロールはそのまま使えるようにする */
+.gp2-stage{touch-action:pan-y;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}
+.gp2-pack{-webkit-user-drag:none}
+.gp2-pack.pk-in-r{animation:pkInR .28s ease-out both,packFloat 3.4s ease-in-out .28s infinite}
+.gp2-pack.pk-in-l{animation:pkInL .28s ease-out both,packFloat 3.4s ease-in-out .28s infinite}
+.gp2-pack.pk-bump{animation:pkBump .3s ease-out,packFloat 3.4s ease-in-out .3s infinite}
+@keyframes pkInR{from{opacity:0;transform:translateX(40%)}to{opacity:1;transform:none}}
+@keyframes pkInL{from{opacity:0;transform:translateX(-40%)}to{opacity:1;transform:none}}
+@keyframes pkBump{0%,100%{transform:none}30%{transform:translateX(-6%)}60%{transform:translateX(5%)}}
+/* 左右の矢印。スワイプできることを見せる（押してもレベルが変わる）。端では薄くする */
+.gp2-arr{position:relative;z-index:3;align-self:center;width:34px;height:34px;border:1px solid #6b5a2c;border-radius:50%;background:#0a0e22cc;color:#f1d27a;font:900 22px/1 Georgia,serif;padding:0 0 3px;cursor:pointer}
+.gp2-arr.l{justify-self:start}.gp2-arr.r{justify-self:end}
+.gp2-arr.off{opacity:.25}
