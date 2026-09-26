@@ -154,6 +154,10 @@ const UI_MANIFEST={
    "full": "assets/cards/boy.webp?v=9a61d8d13d",
    "thumb": "assets/cards/thumb/boy.webp?v=1a7ecf6aaf"
   },
+  "brave": {
+   "full": "assets/cards/brave.webp?v=5eceab2e13",
+   "thumb": "assets/cards/thumb/brave.webp?v=fab97bdd95"
+  },
   "bread": {
    "full": "assets/cards/bread.webp?v=1adf7b9d8d",
    "thumb": "assets/cards/thumb/bread.webp?v=5e83c2bbb1"
@@ -186,6 +190,10 @@ const UI_MANIFEST={
    "full": "assets/cards/car.webp?v=2447d437a9",
    "thumb": "assets/cards/thumb/car.webp?v=57ea862aad"
   },
+  "careful": {
+   "full": "assets/cards/careful.webp?v=936772d3a7",
+   "thumb": "assets/cards/thumb/careful.webp?v=bcaef0c149"
+  },
   "carry": {
    "full": "assets/cards/carry.webp?v=c8a156289f",
    "thumb": "assets/cards/thumb/carry.webp?v=b1f02e1090"
@@ -213,6 +221,10 @@ const UI_MANIFEST={
   "choose": {
    "full": "assets/cards/choose.webp?v=dc60c534fa",
    "thumb": "assets/cards/thumb/choose.webp?v=d3f8f9aad2"
+  },
+  "clever": {
+   "full": "assets/cards/clever.webp?v=18fe57816f",
+   "thumb": "assets/cards/thumb/clever.webp?v=da3f4e8380"
   },
   "climb": {
    "full": "assets/cards/climb.webp?v=cb37e2e486",
@@ -253,6 +265,10 @@ const UI_MANIFEST={
   "dance": {
    "full": "assets/cards/dance.webp?v=b6b9334488",
    "thumb": "assets/cards/thumb/dance.webp?v=f9b71e23b4"
+  },
+  "dangerous": {
+   "full": "assets/cards/dangerous.webp?v=eb268334fa",
+   "thumb": "assets/cards/thumb/dangerous.webp?v=174a651e40"
   },
   "decide": {
    "full": "assets/cards/decide.webp?v=717e762bfa",
@@ -578,6 +594,10 @@ const UI_MANIFEST={
    "full": "assets/cards/question.webp?v=3eb3669d27",
    "thumb": "assets/cards/thumb/question.webp?v=d7d555f7b7"
   },
+  "quiet": {
+   "full": "assets/cards/quiet.webp?v=9cdbe1064b",
+   "thumb": "assets/cards/thumb/quiet.webp?v=118ca08e35"
+  },
   "rain": {
    "full": "assets/cards/rain.webp?v=01f995fee5",
    "thumb": "assets/cards/thumb/rain.webp?v=f14d4df3d7"
@@ -880,6 +900,7 @@ const UI_MANIFEST={
   "assets/cards/book.webp": "f09bca8570",
   "assets/cards/box.webp": "963c94a59c",
   "assets/cards/boy.webp": "9a61d8d13d",
+  "assets/cards/brave.webp": "5eceab2e13",
   "assets/cards/bread.webp": "1adf7b9d8d",
   "assets/cards/bridge.webp": "2b0a1d2fb8",
   "assets/cards/bring.webp": "c95f7bfffb",
@@ -888,6 +909,7 @@ const UI_MANIFEST={
   "assets/cards/cake.webp": "5bb32f3658",
   "assets/cards/candle.webp": "eeb4e42a68",
   "assets/cards/car.webp": "2447d437a9",
+  "assets/cards/careful.webp": "936772d3a7",
   "assets/cards/carry.webp": "c8a156289f",
   "assets/cards/castle.webp": "0425f37b83",
   "assets/cards/cat.webp": "9bbe789cee",
@@ -895,6 +917,7 @@ const UI_MANIFEST={
   "assets/cards/cave.webp": "3985501799",
   "assets/cards/chair.webp": "ea6e1554c5",
   "assets/cards/choose.webp": "dc60c534fa",
+  "assets/cards/clever.webp": "18fe57816f",
   "assets/cards/climb.webp": "cb37e2e486",
   "assets/cards/close.webp": "97136c9825",
   "assets/cards/cold.webp": "4c406bc8d2",
@@ -905,6 +928,7 @@ const UI_MANIFEST={
   "assets/cards/cross.webp": "fdf23f8be9",
   "assets/cards/crown.webp": "6b439767a7",
   "assets/cards/dance.webp": "b6b9334488",
+  "assets/cards/dangerous.webp": "eb268334fa",
   "assets/cards/decide.webp": "717e762bfa",
   "assets/cards/desert.webp": "a09a2f1d6d",
   "assets/cards/different.webp": "757a34787e",
@@ -986,6 +1010,7 @@ const UI_MANIFEST={
   "assets/cards/protect.webp": "0a191fd5ad",
   "assets/cards/queen.webp": "ff46af30e2",
   "assets/cards/question.webp": "3eb3669d27",
+  "assets/cards/quiet.webp": "9cdbe1064b",
   "assets/cards/rain.webp": "01f995fee5",
   "assets/cards/read.webp": "de4a20bbfc",
   "assets/cards/reason.webp": "8d4fa1b16d",
