@@ -8,6 +8,7 @@
 | `card_frame` | カード枠（全レア度共通） | 900x1200（縦横 3:4） |
 | `card_frame_common` `_uncommon` `_rare` `_epic` `_legendary` | レア度別の枠（あれば共通より優先） | 同上 |
 | `home_bg` | ホーム上部の大きな絵 | 1200x600 程度（横長） |
+| `home_bg_day` | ホームの昼の背景（日本時間 6〜18時。省略可。無ければ昼も `home_bg`） | 縦長 9:16 |
 | `splash_bg` | 起動画面の背景 | 900x1600（縦長） |
 | `gacha_bg` | ガチャ画面と開封演出の背景 | 900x1600（縦長） |
 | `study_bg` | 勉強画面の背景（適用済み。省略可。無ければ `home_bg`） | 縦長 9:16 |
@@ -56,6 +57,24 @@ painterly, highly detailed, vertical 9:16 composition,
 the upper left and the lower half kept calm and darker for UI overlay,
 no text, no letters, no characters, no UI
 ```
+
+
+## home_bg_day（ホームの昼の背景）
+- ホームの背景は、**日本時間の 6〜18時は `home_bg_day`、18〜6時は `home_bg`**（夜）に切り替わります。
+  開いたまま6時・18時をまたいだときは、ホームにいれば1分以内にふわっと入れ替わります
+- **今の `home_bg`（夜の城）を参考画像として一緒に渡し、同じ城・同じ構図の昼の絵**にしてもらいます。
+  夜と昼で景色が変わらないので、同じ場所の時間が変わったように見えます
+- 置き方・注意は `home_bg` と同じ（縦長 9:16、左上にロゴ、中央左にキャッチコピー、下半分にパネル）。
+  **昼は空が明るいので、下半分を明るくしすぎない**（白い文字とパネルが読みにくくなる）
+```
+the same grand gothic castle city on a cliff with a waterfall as the reference image, but in bright daytime,
+warm morning sunlight, clear blue sky with soft white clouds, floating islands, calm lake reflecting the sky
+in the lower part, green trees framing the sides, keep the same composition and camera position as the reference,
+painterly epic fantasy, highly detailed, vertical 9:16 composition,
+the upper left kept calm for a logo, the lower half kept calm and slightly darker for UI overlay,
+no moon, no stars, no text, no letters, no characters, no UI
+```
+置いたら `python3 tools/bake_assets.py` を実行し、`ASSET_V` を上げる。
 
 ## study_bg / cards_bg（勉強・カード図鑑の背景）
 **適用済み**：勉強は「魔法学院の図書室（浮かぶ魔導書と月の窓）」、図鑑は「魔導書の宝物庫（宝箱と水晶の柱廊）」。

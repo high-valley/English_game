@@ -4,6 +4,7 @@
 const UI_MANIFEST={
  "slots": {
   "home_bg": "assets/ui/home_bg.webp?v=500c7707ed",
+  "home_bg_day": "assets/ui/home_bg_day.webp?v=ff7a1c4749",
   "splash_bg": "assets/ui/splash_bg.webp?v=b7ae5c82a3",
   "gacha_bg": "assets/ui/gacha_bg.webp?v=7fab543f35",
   "study_bg": "assets/ui/study_bg.webp?v=381a282193",
@@ -950,6 +951,7 @@ const UI_MANIFEST={
   "assets/ui/card_frame_epic.webp": "33ca7edcdb",
   "assets/ui/card_frame_legendary.webp": "723dbb5a73",
   "assets/ui/home_bg.webp": "500c7707ed",
+  "assets/ui/home_bg_day.webp": "ff7a1c4749",
   "assets/ui/splash_bg.webp": "b7ae5c82a3",
   "assets/ui/gacha_bg.webp": "7fab543f35",
   "assets/ui/study_bg.webp": "381a282193",
