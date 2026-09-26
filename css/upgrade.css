@@ -638,3 +638,27 @@ nav{grid-template-columns:repeat(4,1fr)}
 .gp2-arr{position:relative;z-index:3;align-self:center;width:34px;height:34px;border:1px solid #6b5a2c;border-radius:50%;background:#0a0e22cc;color:#f1d27a;font:900 22px/1 Georgia,serif;padding:0 0 3px;cursor:pointer}
 .gp2-arr.l{justify-self:start}.gp2-arr.r{justify-self:end}
 .gp2-arr.off{opacity:.25}
+/* ===== 勉強画面を1画面に収める（スクロールせずに、答えと結果まで見える） =====
+   答えの4つを 2×2 に並べる（縦に4つ並べると、iPhone SE では下のタブに隠れた）。
+   結果（正解・例文）の欄は高さを先に取っておき、答えたときに画面がずれないようにする */
+.st2{gap:8px}
+.st2-tabs button{padding:7px 0}
+.st2-prog.orn{padding:10px 14px}
+.st2-bar{margin:6px 0 4px}
+.st2-card.orn{padding:14px 12px 12px}
+.st2-q{font-size:40px;margin:4px 0 0}
+.st2-m{margin:2px 0 10px}
+.st2-ans{grid-template-columns:1fr 1fr;gap:8px}
+.st2-ans button{padding:10px 6px;min-height:60px;font-size:16px;line-height:1.3;word-break:keep-all;overflow-wrap:anywhere}
+.st2-res{min-height:96px;margin-top:10px}   /* いちばん長い例文（culture）でも、答えたときに下へ伸びない高さ */
+.st2-res small{margin-top:4px;font-size:11.5px;line-height:1.45}
+@media(max-height:700px){
+  .st2-hint{display:none}
+  .st2-q{font-size:34px}
+  .st2-prog small{display:none}
+  .st2-ans button{min-height:60px;padding:8px 6px}   /* 2行に折り返しても伸びない高さ（幅320の端末で「足並みをそろえる」が2行になる） */
+  .st2-res{min-height:92px;margin-top:8px}
+}
+/* 勉強とガチャは1画面に収めたので、スクロールで画面が上下しないようにする（iPhone の引っぱったときの揺れも止める）。
+   html に .noscroll を付けるのは showPage。揺れは touchmove を止めて防ぐ（CSS だけでは iPhone の Safari で揺れが残る） */
+html.noscroll,html.noscroll body{overflow:hidden;overscroll-behavior:none}

@@ -247,7 +247,9 @@ function confirmImport(o){const d=document.createElement("div");d.className="she
   d.querySelector("#xf-no").onclick=()=>d.remove();
   d.querySelector("#xf-ok").onclick=()=>{initSave(o);save();location.reload()}}
 const PAGES=["home","study","gacha","cards"];
-function showPage(p){clearTimeout(STNEXT);CUR=p;PAGES.forEach(x=>document.body.classList.toggle("is-"+x,x===p));setBg(p);document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x.dataset.p===p));({home,study,gacha,cards})[p]();window.scrollTo(0,0)}
+// 1画面に収まる画面。スクロールで上下に動かさない
+const NO_SCROLL=["study","gacha"];
+function showPage(p){clearTimeout(STNEXT);CUR=p;document.documentElement.classList.toggle("noscroll",NO_SCROLL.includes(p));PAGES.forEach(x=>document.body.classList.toggle("is-"+x,x===p));setBg(p);document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x.dataset.p===p));({home,study,gacha,cards})[p]();window.scrollTo(0,0)}
 buildNav();document.querySelectorAll("nav button").forEach(b=>b.addEventListener("click",()=>showPage(b.dataset.p)));
 const gear=$("#gear");if(gear)gear.onclick=openSettings;
 showPage("home");
@@ -264,6 +266,11 @@ function importFromHash(){if(!location.hash.startsWith("#import="))return;const 
   document.querySelectorAll(".sheet").forEach(x=>x.remove());readTransferCode(t).then(confirmImport,e=>alert(e.message))}
 importFromHash();window.addEventListener("hashchange",importFromHash);
 setTimeout(checkUpdate,3000);
+// 勉強・ガチャの画面では、指でなぞっても画面を動かさない（iPhone の Safari は overflow:hidden でも引っぱると揺れる）。
+// カード詳細・レベルアップ・開封演出などの重なり（main の外）は、中でスクロールできるように止めない
+document.addEventListener("touchmove",e=>{
+  if(!document.documentElement.classList.contains("noscroll"))return;
+  if(e.target.closest&&e.target.closest("main,header,nav"))e.preventDefault()},{passive:false});
 document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible"){checkUpdate();bgTick()}});
 (function splash(){
   try{if(sessionStorage.wqSplash)return;sessionStorage.wqSplash=1}catch(e){}
