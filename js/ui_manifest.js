@@ -131,8 +131,8 @@ const UI_MANIFEST={
    "thumb": "assets/cards/thumb/bicycle.webp?v=df87c93980"
   },
   "big": {
-   "full": "assets/cards/big.webp?v=b849accf3a",
-   "thumb": "assets/cards/thumb/big.webp?v=8d6fef96b2"
+   "full": "assets/cards/big.webp?v=edb5ed31e5",
+   "thumb": "assets/cards/thumb/big.webp?v=aaf2d11c55"
   },
   "bird": {
    "full": "assets/cards/bird.webp?v=bf47b7c122",
@@ -147,8 +147,8 @@ const UI_MANIFEST={
    "thumb": "assets/cards/thumb/blue.webp?v=8dff69505c"
   },
   "book": {
-   "full": "assets/cards/book.webp?v=f09bca8570",
-   "thumb": "assets/cards/thumb/book.webp?v=ac3d0c2ee6"
+   "full": "assets/cards/book.webp?v=a8a76bd286",
+   "thumb": "assets/cards/thumb/book.webp?v=352dca6d0b"
   },
   "box": {
    "full": "assets/cards/box.webp?v=963c94a59c",
@@ -325,6 +325,10 @@ const UI_MANIFEST={
   "eat": {
    "full": "assets/cards/eat.webp?v=81c58c7a23",
    "thumb": "assets/cards/thumb/eat.webp?v=8d4205ac28"
+  },
+  "effective": {
+   "full": "assets/cards/effective.webp?v=92d9541f0d",
+   "thumb": "assets/cards/thumb/effective.webp?v=46b4e0767b"
   },
   "egg": {
    "full": "assets/cards/egg.webp?v=4919f0529e",
@@ -682,6 +686,10 @@ const UI_MANIFEST={
    "full": "assets/cards/require.webp?v=358b37cef4",
    "thumb": "assets/cards/thumb/require.webp?v=fc43aceab2"
   },
+  "responsibility": {
+   "full": "assets/cards/responsibility.webp?v=8c01109329",
+   "thumb": "assets/cards/thumb/responsibility.webp?v=6e65b6d10d"
+  },
   "rice": {
    "full": "assets/cards/rice.webp?v=a2a148216c",
    "thumb": "assets/cards/thumb/rice.webp?v=57ad52b172"
@@ -699,8 +707,8 @@ const UI_MANIFEST={
    "thumb": "assets/cards/thumb/road.webp?v=60ff605152"
   },
   "room": {
-   "full": "assets/cards/room.webp?v=f7b60ae7b4",
-   "thumb": "assets/cards/thumb/room.webp?v=5017d31adb"
+   "full": "assets/cards/room.webp?v=4b6841832a",
+   "thumb": "assets/cards/thumb/room.webp?v=3ee5148e3a"
   },
   "run": {
    "full": "assets/cards/run.webp?v=78c18880c6",
@@ -974,11 +982,11 @@ const UI_MANIFEST={
   "assets/cards/bed.webp": "798c32c5b8",
   "assets/cards/believe.webp": "15131914ee",
   "assets/cards/bicycle.webp": "5f79005004",
-  "assets/cards/big.webp": "b849accf3a",
+  "assets/cards/big.webp": "edb5ed31e5",
   "assets/cards/bird.webp": "bf47b7c122",
   "assets/cards/black.webp": "6048c4f3a9",
   "assets/cards/blue.webp": "a5d0ff5d6b",
-  "assets/cards/book.webp": "f09bca8570",
+  "assets/cards/book.webp": "a8a76bd286",
   "assets/cards/box.webp": "963c94a59c",
   "assets/cards/boy.webp": "9a61d8d13d",
   "assets/cards/brave.webp": "5eceab2e13",
@@ -1023,6 +1031,7 @@ const UI_MANIFEST={
   "assets/cards/dream.webp": "a7a6c098b7",
   "assets/cards/drink.webp": "85c9cea52d",
   "assets/cards/eat.webp": "81c58c7a23",
+  "assets/cards/effective.webp": "92d9541f0d",
   "assets/cards/egg.webp": "4919f0529e",
   "assets/cards/empty.webp": "f78cd23bfc",
   "assets/cards/enjoy.webp": "e6c8ea1973",
@@ -1112,11 +1121,12 @@ const UI_MANIFEST={
   "assets/cards/relationship.webp": "3100974b27",
   "assets/cards/remember.webp": "92e4fe3e6a",
   "assets/cards/require.webp": "358b37cef4",
+  "assets/cards/responsibility.webp": "8c01109329",
   "assets/cards/rice.webp": "a2a148216c",
   "assets/cards/ring.webp": "6757370968",
   "assets/cards/river.webp": "be6a6cb563",
   "assets/cards/road.webp": "fa005857e0",
-  "assets/cards/room.webp": "f7b60ae7b4",
+  "assets/cards/room.webp": "4b6841832a",
   "assets/cards/run.webp": "78c18880c6",
   "assets/cards/safe.webp": "fa56798fb6",
   "assets/cards/save.webp": "6b4371c415",

@@ -1,7 +1,7 @@
 # WORD GRIMOIRE ― 次にやるタスク
 
 ## 次のタスク（優先順）
-1. **カード画像の作成（RARE）**。**COMMON・UNCOMMON は 100/100 で完成**。RARE は 10/100（全体 212/500）。
+1. **カード画像の作成（RARE）**。**COMMON・UNCOMMON は 100/100 で完成**。RARE は 12/100（全体 214/500）。
    RARE の例文は生成の前に100語を見直し済み。
    `card_image_next.md` の先頭が次に作る分（`python3 tools/gen_next_batch.py` で出し直す）
    - 画像の生成は画像生成AI（ChatGPT / Grok など）に頼む（Claude は画像を作れない）
@@ -17,9 +17,6 @@
 ## 候補（今後）
 - **App Store でのリリース**（SPEC.md §13）。Capacitor で包む、iCloud のキー値ストアで端末間を自動同期（`js/save.js` の `SAVE_STORE` を差し替え）、
   オフラインで遊べるようにする、連続学習の通知。年会費と Mac が必要になるので、始める時期はユーザーが決める
-- **蜘蛛が描かれている COMMON の3枚（`book` / `big` / `room`）を作り直す**（ユーザーが蜘蛛が苦手）。
-  例文は蜘蛛の出ないものに変え済み。`gen_card_prompts.py` の `REDO` に入れてあり、次に作る5件の先頭に来る。
-  作り直した絵を登録したら `REDO` から消す
 - **`SHOT` の「引き（主役が手前でいちばん大きい）」は、空にあるものと相性が悪い**。
   `star`（`A star shines above the tower.`）に当たった結果、星が小さな点になり、小カードでは暗い絵に見える。
   `moon` / `sun` / `sky` / `cloud` のような語に当たったときも同じことが起きる。
@@ -41,6 +38,7 @@
 - `icon_coin` を作り直す場合は `assets/ui/icon_prompts.md`（金色が主体で、暗い面を作らないこと）
 
 ## 完了済み
+- 蜘蛛が描かれていた COMMON の3枚（`book` / `big` / `room`）を、例文を変えて作り直した
 - **COMMON のカード画像 100枚が完成**（最後は `black`）。全体 104/500
 - **UNCOMMON の例文を、生成の前にまとめて見直した**（100語中64語を書き換え）。打ち消し・疑問・命令・状態だけの文・抽象を、その語が絵に出る場面に変え、場所も例文に入れた。舞台が足されるのは画像がある `necessary` の1語だけになった。中世の世界に合わない `bicycle` / `station` / `hospital` も合わせた
 - COMMON のカード画像を5枚追加（strong / good / red / blue / white）。COMMON は 99/100、全体 103/500。`red` は竜の見た目の「例文が別の色を言っていればその色」が効いて赤い竜になった（姿は `egg` / `girl` と同じ）

@@ -27,7 +27,7 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この212語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この214語は、絵文字ではなく画像で表示されます）。
 
 - always
 - answer
@@ -89,6 +89,7 @@
 - dream
 - drink
 - eat
+- effective
 - egg
 - empty
 - enjoy
@@ -178,6 +179,7 @@
 - relationship
 - remember
 - require
+- responsibility
 - rice
 - ring
 - river
