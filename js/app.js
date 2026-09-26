@@ -1,14 +1,18 @@
 const EMB=`<svg class="emb" viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" fill="#141a35" stroke="#d9b45a" stroke-width="3"/><circle cx="50" cy="50" r="36" fill="none" stroke="#d9b45a" stroke-opacity=".35"/><path d="M50 8L58 42L92 50L58 58L50 92L42 58L8 50L42 42Z" fill="#f3cf6a" stroke="#fff3bf"/></svg>`;
 const NAV={home:["🏠","ホーム"],study:["📖","勉強"],gacha:["🎰","ガチャ"],cards:["🃏","カード"]};
 
-// 保存データ（従来と同じキー。xp は追加項目）
-let S=JSON.parse(localStorage.wordQuestDemo||"null")||{coins:100,owned:{},mastery:{}};
-// 単語データを入れ替えた（v2）ので、テスト版のカードと熟練度をリセットする。コインと連続学習は引き継ぐ
-if(S.v!==2)S={coins:S.coins==null?100:S.coins,owned:{},mastery:{},streak:S.streak||0,last:S.last||"",v:2};
-S.streak=S.streak||0;S.last=S.last||"";S.unlockedLevel=S.unlockedLevel||1;S.studyLevel=S.studyLevel||1;S.gachaLevel=S.gachaLevel||S.unlockedLevel;delete S.xp;
-syncLevels();   // 熟練度から、解放済みのレベルを合わせる
+// 保存データ。保存先への読み書きは js/save.js（アプリ化したら、そちらだけを差し替える）
+let S;
+// 読み込んだデータ（引き継ぎコードで取り込んだデータも）を、今の形にそろえる
+function initSave(o){
+  S=o||{coins:100,owned:{},mastery:{}};
+  // 単語データを入れ替えた（v2）ので、テスト版のカードと熟練度をリセットする。コインと連続学習は引き継ぐ
+  if(S.v!==2)S={coins:S.coins==null?100:S.coins,owned:{},mastery:{},streak:S.streak||0,last:S.last||"",v:2};
+  S.streak=S.streak||0;S.last=S.last||"";S.unlockedLevel=S.unlockedLevel||1;S.studyLevel=S.studyLevel||1;S.gachaLevel=S.gachaLevel||S.unlockedLevel;delete S.xp;
+  syncLevels()}   // 熟練度から、解放済みのレベルを合わせる
+initSave(loadSave());
 const $=q=>document.querySelector(q);
-function save(){localStorage.wordQuestDemo=JSON.stringify(S);const e=$("#coins");if(e)e.textContent=S.coins}
+function save(){writeSave(S);const e=$("#coins");if(e)e.textContent=S.coins}
 function stars(n){return "★".repeat(n)+"☆".repeat(5-n)}
 function rarity(){const R=GACHA_RATES[S.gachaLevel||S.unlockedLevel]||GACHA_RATES[1];let x=Math.random()*100,s=0;for(const k of LEVELS){s+=R[k];if(x<s)return k}return "COMMON"}
 function draw(){let r=rarity(),p=WORDS.filter(w=>w.rarity===r);return p.length?p[Math.floor(Math.random()*p.length)]:WORDS[Math.floor(Math.random()*WORDS.length)]}
@@ -52,7 +56,7 @@ function cardFace(w){
 
 const ymd=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
 function markStudied(){const t=new Date(),y=new Date(t.getTime()-864e5),T=ymd(t);if(S.last===T)return;S.streak=S.last===ymd(y)?(S.streak||0)+1:1;S.last=T}
-function streakNow(){const t=new Date(),y=new Date(t.getTime()-864e5);return S.last===ymd(t)||S.last===ymd(y)?S.streak||0:0}
+function streakNow(o=S){const t=new Date(),y=new Date(t.getTime()-864e5);return o.last===ymd(t)||o.last===ymd(y)?o.streak||0:0}
 function toast(t){const e=document.createElement("div");e.className="toast";e.textContent=t;document.body.appendChild(e);setTimeout(()=>e.remove(),1800)}
 function shuffleOpts(correct,rar){const P=rar?WORDS.filter(w=>w.rarity===rar):WORDS,o=[correct];while(o.length<4){const x=P[Math.floor(Math.random()*P.length)].ja;if(!o.includes(x))o.push(x)}return o.sort(()=>Math.random()-.5)}
 
@@ -166,7 +170,40 @@ const PAGE_BG={home:"home_bg",study:"study_bg",gacha:"gacha_bg",cards:"cards_bg"
 function setBg(p){let b=$("#bg");if(!b){b=document.createElement("div");b.id="bg";$(".app").prepend(b)}b.innerHTML=bgScene(PAGE_BG[p]||"home_bg")}
 function buildNav(){document.querySelectorAll("nav button").forEach(b=>{const p=b.dataset.p,[e,t]=NAV[p];b.innerHTML=`<i>${ico("nav_"+p,e)}</i>${t}`})}
 function openSettings(){const d=document.createElement("div");d.className="sheet";d.onclick=e=>{if(e.target===d)d.remove()};
-  d.innerHTML=`<div class="sheet-in"><h3 style="margin:0 0 12px;color:#f4d477;font-family:Georgia,serif">設定</h3><div class="sd-ex">コイン ${S.coins}　／　カード ${ownedCount()}種類　／　連続学習 ${streakNow()}日</div><button class="gold-btn" style="margin-bottom:10px" onclick="this.closest('.sheet').remove()">閉じる</button><button class="hm2-reset" onclick="if(confirm('セーブデータをすべて消します。よろしいですか？')){localStorage.removeItem('wordQuestDemo');location.reload()}">セーブデータをリセット</button></div>`;document.body.appendChild(d)}
+  d.innerHTML=`<div class="sheet-in"><h3 style="margin:0 0 12px;color:#f4d477;font-family:Georgia,serif">設定</h3><div class="sd-ex">${saveSummary(S)}</div>
+  <div class="xf"><h4>データの引き継ぎ</h4>
+   <p>別の端末やブラウザで続きを遊ぶときや、データの控えを残すときに使います。リンクかコードを、LINE・AirDrop・メモなどで送ってください。</p>
+   <div class="xf-row"><button class="xf-btn" id="xf-link" disabled>リンクを送る</button><button class="xf-btn" id="xf-copy" disabled>コードをコピー</button></div>
+   <textarea class="xf-code" id="xf-out" readonly rows="2" placeholder="コードを作っています…"></textarea>
+   <div class="xf-msg" id="xf-msg"></div>
+   <h4>受け取ったデータを取り込む</h4>
+   <textarea class="xf-code" id="xf-in" rows="2" placeholder="引き継ぎコード（またはリンク）をここに貼り付け"></textarea>
+   <button class="xf-btn xf-wide" id="xf-read">取り込む</button>
+   <div class="xf-msg" id="xf-err"></div></div>
+  <button class="gold-btn" style="margin-bottom:10px" onclick="this.closest('.sheet').remove()">閉じる</button><button class="hm2-reset" onclick="if(confirm('セーブデータをすべて消します。よろしいですか？')){clearSave();location.reload()}">セーブデータをリセット</button></div>`;document.body.appendChild(d);
+  // コードは開いたときに作っておく。押してから作ると、iPhone の Safari では共有・コピーが「操作の直後ではない」として断られるため
+  const msg=t=>{d.querySelector("#xf-msg").textContent=t};
+  makeTransferCode(S).then(code=>{
+    const out=d.querySelector("#xf-out"),url=transferLink(code);out.value=code;out.placeholder="";
+    const copy=(t,ok)=>{const done=()=>msg(ok),fail=()=>{out.focus();out.select();msg("自動でコピーできませんでした。上の欄を長押ししてコピーしてください。")};
+      navigator.clipboard&&navigator.clipboard.writeText?navigator.clipboard.writeText(t).then(done,fail):fail()};
+    const L=d.querySelector("#xf-link"),C=d.querySelector("#xf-copy");L.disabled=C.disabled=false;
+    L.onclick=()=>{if(navigator.share)navigator.share({title:"WORD GRIMOIRE の引き継ぎ",url}).then(()=>msg("送りました。受け取った端末でリンクを開いてください。"),e=>{if(e&&e.name!=="AbortError")copy(url,"リンクをコピーしました。")});
+      else copy(url,"リンクをコピーしました。受け取る端末で開いてください。")};
+    C.onclick=()=>copy(code,"コードをコピーしました。受け取る端末の「設定」で貼り付けてください。")},
+    ()=>msg("引き継ぎコードを作れませんでした。"));
+  d.querySelector("#xf-read").onclick=()=>{const e=d.querySelector("#xf-err");e.textContent="";
+    readTransferCode(d.querySelector("#xf-in").value).then(o=>{d.remove();confirmImport(o)},x=>{e.textContent=x.message})}}
+// 「コイン〇／カード〇種類／連続〇日」。取り込む前に、今のデータと取り込むデータを並べて見せる
+function saveSummary(o){const own=WORDS.filter(w=>(o.owned||{})[w.id]).length;return `コイン ${o.coins}　／　カード ${own}種類　／　連続学習 ${streakNow(o)}日`}
+function confirmImport(o){const d=document.createElement("div");d.className="sheet";
+  d.innerHTML=`<div class="sheet-in"><h3 style="margin:0 0 12px;color:#f4d477;font-family:Georgia,serif">データを取り込みますか？</h3>
+   <div class="sd-ex"><span>取り込むデータ</span><br>${saveSummary(o)}</div>
+   <div class="sd-ex"><span>この端末の今のデータ（取り込むと消えます）</span><br>${saveSummary(S)}</div>
+   <button class="gold-btn" style="margin-bottom:10px" id="xf-ok">上書きして取り込む</button><button class="xf-btn xf-wide" id="xf-no">やめる</button></div>`;
+  document.body.appendChild(d);
+  d.querySelector("#xf-no").onclick=()=>d.remove();
+  d.querySelector("#xf-ok").onclick=()=>{initSave(o);save();location.reload()}}
 const PAGES=["home","study","gacha","cards"];
 function showPage(p){clearTimeout(STNEXT);CUR=p;PAGES.forEach(x=>document.body.classList.toggle("is-"+x,x===p));setBg(p);document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x.dataset.p===p));({home,study,gacha,cards})[p]();window.scrollTo(0,0)}
 buildNav();document.querySelectorAll("nav button").forEach(b=>b.addEventListener("click",()=>showPage(b.dataset.p)));
@@ -178,6 +215,11 @@ setTimeout(()=>{if(!UI_READY){UI_READY=true;uiRefresh()}},2200);
 uiInit(uiRefresh).then(()=>{if(Object.keys(UI_FRAME).length)uiRefresh()});
 function splashInner(){const r=UI_READY;return `${bgScene("splash_bg")}${r?(UI.logo_emblem?`<img class="sp-emb" src="${UI.logo_emblem}" alt="">`:EMB):""}${r?(UI.logo_title?`<img class="sp-tt" src="${UI.logo_title}" alt="WORD GRIMOIRE">`:`<div class="sp-title">WORD GRIMOIRE</div>`):""}<div class="sp-tag">もっと知る。もっと強くなる。</div><div class="sp-hint">TAP TO START</div>`}
 if(/[?&]v=/.test(location.search))history.replaceState(null,"",location.pathname);
+// 引き継ぎリンク（#import=…）で開いたとき。# を消してから、取り込むかどうかを聞く。
+// 開いているページにリンクを貼って開き直すと、ページは読み直されず # だけが変わるので、hashchange でも見る
+function importFromHash(){if(!location.hash.startsWith("#import="))return;const t=location.hash;history.replaceState(null,"",location.pathname+location.search);
+  document.querySelectorAll(".sheet").forEach(x=>x.remove());readTransferCode(t).then(confirmImport,e=>alert(e.message))}
+importFromHash();window.addEventListener("hashchange",importFromHash);
 setTimeout(checkUpdate,3000);
 document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible")checkUpdate()});
 (function splash(){
