@@ -27,8 +27,9 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この197語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この202語は、絵文字ではなく画像で表示されます）。
 
+- always
 - answer
 - apple
 - arrive
@@ -148,6 +149,7 @@
 - mother
 - mountain
 - necessary
+- never
 - new
 - night
 - number
@@ -162,6 +164,7 @@
 - quiet
 - rain
 - read
+- ready
 - reason
 - red
 - remember
@@ -191,11 +194,13 @@
 - small
 - snow
 - speak
+- special
 - stakeholder
 - star
 - station
 - story
 - strong
+- suddenly
 - summer
 - sun
 - swim
