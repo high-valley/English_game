@@ -3,12 +3,18 @@
      card_frame            … カード枠（全レア度共通）
      card_frame_common / _uncommon / _rare / _epic / _legendary … レア度別の枠（あれば優先）
      home_bg / splash_bg / gacha_bg / app_bg … 各画面の背景
-     home_bg_day … ホームの昼の背景（日本時間 6〜18時）。無ければ昼も home_bg
+     home_bg_day / study_bg_day / gacha_bg_day / cards_bg_day … 各画面の昼の背景（日本時間 6〜18時）。無ければ昼も夜の絵
    カード枠は「絵の窓」を純マゼンタ(#FF00FF)で塗っておくと、自動で透明にして窓の位置も検出します。 */
 const UI={},UI_FRAME={};
 let UI_READY=false;   // 画像の有無が分かるまでは、仮の背景を出さない（ちらつき防止）
-const UI_SLOTS=["card_frame","card_frame_common","card_frame_uncommon","card_frame_rare","card_frame_epic","card_frame_legendary","home_bg","home_bg_day","splash_bg","gacha_bg","study_bg","cards_bg","app_bg","logo_title","logo_emblem","gacha_pack","card_back","magic_circle"];
+const UI_SLOTS=["card_frame","card_frame_common","card_frame_uncommon","card_frame_rare","card_frame_epic","card_frame_legendary","home_bg","home_bg_day","splash_bg","gacha_bg","gacha_bg_day","study_bg","study_bg_day","cards_bg","cards_bg_day","app_bg","logo_title","logo_emblem","gacha_pack","card_back","magic_circle"];
 // 画面ごとの背景が無いときは、この背景を代わりに使う（全画面をホームと同じ雰囲気に保つため）
+/* 背景は、日本時間の 6〜18時は昼の絵（<置き場>_day）、18〜6時は夜の絵（今までの絵）。
+   端末の時計の地域に関係なく日本時間で決める。昼の絵が無い画面は、昼も夜の絵。起動画面（splash_bg）は夜のまま */
+const DAY_FROM=6,DAY_TO=18;
+const jstHour=()=>new Date(Date.now()+9*3600e3).getUTCHours();
+const isDayJST=()=>{const h=jstHour();return h>=DAY_FROM&&h<DAY_TO};
+function timeSlot(s){return isDayJST()&&UI[s+"_day"]?s+"_day":s}
 const BG_FALLBACK={splash_bg:"home_bg",gacha_bg:"home_bg",study_bg:"home_bg",cards_bg:"home_bg"};
 // カード内の各パーツ位置 [x,y,幅,高さ]（300x400 の座標）。枠画像に合わせて微調整したい時は LAYOUT_OVERRIDE に書く
 const LAYOUT={art:[24,22,252,168],star:[12,12,64,64],word:[204,18,78,28],plate:[40,182,220,36],info:[28,231,244,104],lv:[28,348,160,34],rar:[198,344,86,48]};

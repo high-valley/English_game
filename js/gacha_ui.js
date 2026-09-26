@@ -36,7 +36,7 @@ function sparks(n){let h="";for(let i=0;i<n;i++)h+=`<i class="gx-spark" style="l
 function packAnim(rar,done){
   const lv=Math.max(0,RORD.indexOf(rar)),g=document.createElement("div");g.className="gx";g.dataset.lv=lv;
   g.style.setProperty("--rc",RCOL[rar]);g.style.setProperty("--gl",(14+lv*12)+"px");
-  const bg=UI.gacha_bg||UI.home_bg;if(bg)g.style.background=`linear-gradient(#0a0e2277,#04050cdd),url('${bg}') center/cover`;
+  const bg=UI[timeSlot("gacha_bg")]||UI[timeSlot("home_bg")];   // 開封演出の背景も、昼は昼の絵if(bg)g.style.background=`linear-gradient(#0a0e2277,#04050cdd),url('${bg}') center/cover`;
   g.innerHTML=`<button class="gx-skip">SKIP ›</button><div class="gx-flash"></div><div class="gx-stage"><div class="gx-rays"></div><div class="gx-circle">${circleSvg()}</div><i class="gx-glow"></i>
   <div class="gx-pk"><img class="pk-body" src="${packSrc()}" alt=""><img class="pk-top" src="${packSrc()}" alt=""><i class="pk-seam"></i></div><img class="gx-cb" src="${backSrc()}" alt=""></div>`;
   document.body.appendChild(g);

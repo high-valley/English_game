@@ -196,21 +196,17 @@ function cardDetail(id){
 let CUR="home";
 function applyUI(){buildNav();const ci=$(".coins .ci");if(ci)ci.innerHTML=ico("icon_coin","🪙");const gi=$("#gear");if(gi&&UI_ICO.icon_gear)gi.innerHTML=ico("icon_gear","⚙");const hl=$("#hdLogo");if(hl&&UI.logo_title&&!hl.querySelector("img"))hl.innerHTML=`<img src="${UI.logo_title}" alt="WORD GRIMOIRE">`;const ap=$(".app");if(UI.app_bg&&ap)ap.style.background=`linear-gradient(#0d1230cc,#060812ee),url('${UI.app_bg}') center top/cover fixed`;const sp=$(".sp");if(sp)sp.innerHTML=splashInner()}
 const PAGE_BG={home:"home_bg",study:"study_bg",gacha:"gacha_bg",cards:"cards_bg"};   // 画面ごとの背景。無い分は home_bg に落ちる（ui_images.js の BG_FALLBACK）
-/* ホームの背景は、日本時間の 6〜18時は昼の絵（home_bg_day）、18〜6時は夜の絵（home_bg）。
-   端末の時計の地域に関係なく日本時間で決める。昼の絵が無ければ、いつも夜の絵 */
-const DAY_FROM=6,DAY_TO=18;
-const jstHour=()=>new Date(Date.now()+9*3600e3).getUTCHours();
-const isDayJST=()=>{const h=jstHour();return h>=DAY_FROM&&h<DAY_TO};
-function bgSlot(p){if(p==="home"&&UI.home_bg_day&&isDayJST())return "home_bg_day";return PAGE_BG[p]||"home_bg"}
+// 昼と夜の切り替え（timeSlot）は ui_images.js。ここでは、今の画面の背景の置き場を決める
+function bgSlot(p){return timeSlot(PAGE_BG[p]||"home_bg")}
 function setBg(p){let b=$("#bg");if(!b){b=document.createElement("div");b.id="bg";$(".app").prepend(b)}
-  const s=bgSlot(p);b.dataset.slot=s;document.body.classList.toggle("is-day",s==="home_bg_day");b.innerHTML=bgScene(s)}
-/* 開いたまま 6時・18時をまたいだら、ホームにいるときだけ背景を入れ替える（ふわっと重ねて、古い絵を消す）。
-   別の画面にいるときは何もしない（ホームに戻ったときに setBg が正しい絵を出す）。
+  const s=bgSlot(p);b.dataset.slot=s;document.body.classList.toggle("is-day",s.endsWith("_day"));b.innerHTML=bgScene(s)}
+/* 開いたまま 6時・18時をまたいだら、今の画面の背景を入れ替える（ふわっと重ねて、古い絵を消す）。
+   ほかの画面の背景は、その画面を開いたときに setBg が正しい絵を出す。
    1分ごとと、アプリに戻ってきたときに確かめる */
 function bgTick(){
-  const b=$("#bg");if(CUR!=="home"||!b||!UI_READY)return;
-  const s=bgSlot("home");if(b.dataset.slot===s)return;
-  const old=[...b.querySelectorAll("img.scene,svg")];b.dataset.slot=s;document.body.classList.toggle("is-day",s==="home_bg_day");
+  const b=$("#bg");if(!b||!UI_READY)return;
+  const s=bgSlot(CUR);if(b.dataset.slot===s)return;
+  const old=[...b.querySelectorAll("img.scene,svg")];b.dataset.slot=s;document.body.classList.toggle("is-day",s.endsWith("_day"));
   b.insertAdjacentHTML("beforeend",bgScene(s));const n=b.lastElementChild;
   if(n){n.classList.add("bg-swap");setTimeout(()=>old.forEach(x=>x.remove()),1300)}else old.forEach(x=>x.remove())}
 setInterval(bgTick,60000);
