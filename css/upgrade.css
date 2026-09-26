@@ -649,14 +649,14 @@ nav{grid-template-columns:repeat(4,1fr)}
 .st2-q{font-size:40px;margin:4px 0 0}
 .st2-m{margin:2px 0 10px}
 .st2-ans{grid-template-columns:1fr 1fr;gap:8px}
-.st2-ans button{padding:10px 6px;min-height:60px;font-size:16px;line-height:1.3}
+.st2-ans button{padding:10px 6px;min-height:60px;font-size:16px;line-height:1.3;word-break:keep-all;overflow-wrap:anywhere}
 .st2-res{min-height:96px;margin-top:10px}   /* いちばん長い例文（culture）でも、答えたときに下へ伸びない高さ */
 .st2-res small{margin-top:4px;font-size:11.5px;line-height:1.45}
 @media(max-height:700px){
   .st2-hint{display:none}
   .st2-q{font-size:34px}
   .st2-prog small{display:none}
-  .st2-ans button{min-height:48px;padding:8px 6px}
+  .st2-ans button{min-height:60px;padding:8px 6px}   /* 2行に折り返しても伸びない高さ（幅320の端末で「足並みをそろえる」が2行になる） */
   .st2-res{min-height:92px;margin-top:8px}
 }
 /* 勉強とガチャは1画面に収めたので、スクロールで画面が上下しないようにする（iPhone の引っぱったときの揺れも止める）。
