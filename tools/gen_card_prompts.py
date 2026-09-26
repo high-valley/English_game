@@ -352,6 +352,24 @@ def load_words():
     return json.loads(m.group(1))
 
 
+# 画像はあるが、作り直す単語（先頭から順に、次に作る分の最初に入る）。
+# 作り直した絵を登録したら、ここから消す。例文を変えたときは、絵と食い違うので必ずここに入れる
+#   book / big / room … 蜘蛛が描かれている（ユーザーが苦手）。例文を蜘蛛の出ないものに変えた
+REDO = ["book", "big", "room"]
+
+
+def next_order(words, done, rarity=None):
+    """次に作る順番。作り直し（REDO）が先、そのあとは画像の無い語をレアリティの低い順 → 図鑑の並び順"""
+    by_en = {w["en"]: w for w in words}
+    missing = [en for en in REDO if en not in by_en]
+    assert not missing, f"REDO に words.js に無い単語がある: {missing}"
+    redo = [by_en[en] for en in REDO if rarity is None or by_en[en]["rarity"] == rarity]
+    rest = [w for w in words if w["en"] not in done and w["en"] not in REDO
+            and (rarity is None or w["rarity"] == rarity)]
+    rest.sort(key=lambda w: (LEVEL_NO[w["rarity"]], w["id"]))
+    return redo + rest
+
+
 def load_done_images():
     """card_art.js の CARD_IMG_NAMES（画像を作り終えた単語）"""
     src = CARD_ART_JS.read_text(encoding="utf-8")
