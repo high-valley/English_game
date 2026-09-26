@@ -21,7 +21,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from gen_card_prompts import LEVELS, LEVEL_NO, load_words, load_done_images, prompt_for  # noqa: E402
+from gen_card_prompts import LEVELS, LEVEL_NO, REDO, load_words, load_done_images, next_order, prompt_for  # noqa: E402
 from check_words import ENEMIES, has  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -46,21 +46,18 @@ def main():
 
     words = load_words()
     done = set(load_done_images())
-    todo = [w for w in words if w["en"] not in done]
-    if rarity:
-        todo = [w for w in todo if w["rarity"] == rarity]
-    todo.sort(key=lambda w: (LEVEL_NO[w["rarity"]], w["id"]))   # prompt_for.py --next と同じ順
+    todo = next_order(words, done, rarity)   # prompt_for.py --next と同じ順。作り直し（REDO）が先
     batch = todo if n is None else todo[:n]
 
     left = len(todo)
-    total_left = len([w for w in words if w["en"] not in done])
+    total_left = len([w for w in words if w["en"] not in done or w["en"] in REDO])
     head = (f"# 次に作るカード画像（Lv.{LEVEL_NO[rarity]} {rarity}）" if rarity
             else "# 次に作るカード画像")
     scope = (f"※ **{rarity} だけ**を図鑑の並び順で出しています。"
              f"{rarity} で画像がまだ無いのは **{left}語**、ここにはそのうち **{len(batch)}語**。"
              f"（全レアリティ合わせての残りは {total_left}語）"
              if rarity else
-             f"※ 全{len(words)}語のうち、画像がまだ無いのは **{left}語**。ここにはその先頭 **{len(batch)}語** を出しています。")
+             f"※ 全{len(words)}語のうち、これから作るのは **{left}語**（画像がまだ無い語と、作り直しの語）。ここにはその先頭 **{len(batch)}語** を出しています。")
     lines = [
         head,
         "",
@@ -89,7 +86,8 @@ def main():
             lines += ["", f"## Lv.{LEVEL_NO[cur]} {cur}（この一覧に{cnt}語）", ""]
         foes = enemies_in(w["ex"])
         tag = f"　敵役: {', '.join(foes)}" if foes else ""
-        lines.append(f"### {i}. {w['en']}（{w['ja']}）　id {w['id']}{tag}")
+        redo = "　**（作り直し：今の絵と差し替える）**" if w["en"] in REDO else ""
+        lines.append(f"### {i}. {w['en']}（{w['ja']}）　id {w['id']}{tag}{redo}")
         lines.append(f"例文（日本語）: {w['tr']}  ")
         lines.append(f"例文（英語）: {w['ex']}")
         lines.append("```")

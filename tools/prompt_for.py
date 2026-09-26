@@ -18,11 +18,11 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from gen_card_prompts import LEVELS, LEVEL_NO, load_words, load_done_images, prompt_for  # noqa: E402
+from gen_card_prompts import LEVELS, LEVEL_NO, load_words, load_done_images, next_order, prompt_for, REDO  # noqa: E402
 
 
 def emit(w, done):
-    mark = "（画像あり → 差し替えになります）" if w["en"] in done else ""
+    mark = "（作り直し：今の絵と差し替える）" if w["en"] in REDO else "（画像あり → 差し替えになります）" if w["en"] in done else ""
     print(f"### {w['en']}.webp（{w['ja']}／{w['rarity']}／id {w['id']}／{w['pos']}）{mark}")
     # 日本語の訳を必ず添える（ユーザーは日本語で読んで、届いた絵が例文どおりかを確かめる）
     print(f"例文（日本語）: {w['tr']}")
@@ -43,9 +43,7 @@ def main(argv):
         rarity = argv[2].upper() if len(argv) > 2 else None
         if rarity and rarity not in LEVELS:
             sys.exit(f"レアリティが違います: {rarity}（{' / '.join(LEVELS)}）")
-        todo = [w for w in words if w["en"] not in done
-                and (rarity is None or w["rarity"] == rarity)]
-        todo.sort(key=lambda w: (LEVEL_NO[w["rarity"]], w["id"]))
+        todo = next_order(words, done, rarity)   # 作り直し（REDO）が先
         picked = todo[:n]
         if not picked:
             sys.exit("まだ画像が無い語がありません")

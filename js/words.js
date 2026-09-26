@@ -9,7 +9,7 @@
    ・カード画像は assets/cards/単語(en).webp（id ではなく en で対応）。
    次に使うID：501 */
 const WORDS=[{"id": 1, "en": "apple", "ja": "りんご", "pronunciation": "ˈæpəl", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "🍎", "ex": "The knight eats a red apple.", "tr": "騎士は赤いりんごを食べる。"},
-{"id": 2, "en": "book", "ja": "本", "pronunciation": "bʊk", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "📖", "ex": "A spider walks across the big open book.", "tr": "蜘蛛が、大きな開いた本の上を歩いていく。"},
+{"id": 2, "en": "book", "ja": "本", "pronunciation": "bʊk", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "📖", "ex": "A huge old book with golden corners lies on the table in the library.", "tr": "金の角飾りのついた大きな古い本が、図書館の机の上に置かれている。"},
 {"id": 3, "en": "cat", "ja": "猫", "pronunciation": "kæt", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "🐈", "ex": "The black cat watches a rat by the wall.", "tr": "黒猫が、壁のそばのネズミをじっと見ている。"},
 {"id": 4, "en": "dog", "ja": "犬", "pronunciation": "dɔːɡ", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "🐕", "ex": "The brave dog barks at the goblins.", "tr": "勇敢な犬が、ゴブリンたちに向かって吠える。"},
 {"id": 5, "en": "house", "ja": "家", "pronunciation": "haʊs", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "🏠", "ex": "A goblin runs out of the small house.", "tr": "ゴブリンが小さな家から走り出てくる。"},
@@ -27,7 +27,7 @@ const WORDS=[{"id": 1, "en": "apple", "ja": "りんご", "pronunciation": "ˈæp
 {"id": 17, "en": "drink", "ja": "飲む", "pronunciation": "drɪŋk", "pos": "動詞", "rarity": "COMMON", "stars": 1, "ic": "🥤", "ex": "Drink this tea and rest.", "tr": "このお茶を飲んで休みなさい。"},
 {"id": 18, "en": "sleep", "ja": "眠る", "pronunciation": "sliːp", "pos": "動詞", "rarity": "COMMON", "stars": 1, "ic": "😴", "ex": "The kobold sleeps beside a small fire.", "tr": "コボルトが小さな火のそばで眠っている。"},
 {"id": 19, "en": "happy", "ja": "幸せな", "pronunciation": "ˈhæpi", "pos": "形容詞", "rarity": "COMMON", "stars": 1, "ic": "😊", "ex": "The princess is happy today.", "tr": "姫は今日、幸せそうだ。"},
-{"id": 20, "en": "big", "ja": "大きい", "pronunciation": "bɪɡ", "pos": "形容詞", "rarity": "COMMON", "stars": 1, "ic": "🐘", "ex": "A big spider hangs from the dead tree.", "tr": "大きな蜘蛛が、枯れた木からぶら下がっている。"},
+{"id": 20, "en": "big", "ja": "大きい", "pronunciation": "bɪɡ", "pos": "形容詞", "rarity": "COMMON", "stars": 1, "ic": "🐘", "ex": "A big ogre sits next to a tiny goblin at the tavern table.", "tr": "酒場のテーブルで、大きなオーガが小さなゴブリンの隣に座っている。"},
 {"id": 101, "en": "bird", "ja": "鳥", "pronunciation": "bɜːrd", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "🐦", "ex": "A bird sings on the castle wall.", "tr": "鳥が城壁の上で歌っている。"},
 {"id": 102, "en": "fish", "ja": "魚", "pronunciation": "fɪʃ", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "🐟", "ex": "The fish swims in the clear lake.", "tr": "魚が澄んだ湖を泳いでいる。"},
 {"id": 103, "en": "horse", "ja": "馬", "pronunciation": "hɔːrs", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "🐎", "ex": "A knight rides the white horse.", "tr": "騎士が白い馬に乗っている。"},
@@ -52,7 +52,7 @@ const WORDS=[{"id": 1, "en": "apple", "ja": "りんご", "pronunciation": "ˈæp
 {"id": 122, "en": "table", "ja": "テーブル", "pronunciation": "ˈteɪbəl", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "🍽️", "ex": "An old map lies open on the table.", "tr": "古い地図が、テーブルの上に広げてある。"},
 {"id": 123, "en": "chair", "ja": "椅子", "pronunciation": "tʃer", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "🪑", "ex": "A king sits on a golden chair.", "tr": "王が金の椅子に座っている。"},
 {"id": 124, "en": "bed", "ja": "ベッド", "pronunciation": "bed", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "🛏️", "ex": "A small slime hides under the bed.", "tr": "小さなスライムがベッドの下に隠れている。"},
-{"id": 125, "en": "room", "ja": "部屋", "pronunciation": "ruːm", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "🛋️", "ex": "A spider sits in the corner of the room.", "tr": "蜘蛛が部屋のすみにいる。"},
+{"id": 125, "en": "room", "ja": "部屋", "pronunciation": "ruːm", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "🛋️", "ex": "Two kobolds sweep the dusty room at the inn.", "tr": "二匹のコボルトが、宿のほこりっぽい部屋を掃除している。"},
 {"id": 126, "en": "town", "ja": "町", "pronunciation": "taʊn", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "🏘️", "ex": "Goblins attack the small town at night.", "tr": "ゴブリンたちが、夜に小さな町を襲う。"},
 {"id": 127, "en": "road", "ja": "道", "pronunciation": "roʊd", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "🛣️", "ex": "A kobold waits on the dark road.", "tr": "コボルトが暗い道で待ちかまえている。"},
 {"id": 128, "en": "bridge", "ja": "橋", "pronunciation": "brɪdʒ", "pos": "名詞", "rarity": "COMMON", "stars": 1, "ic": "🌉", "ex": "Two kobolds guard the stone bridge.", "tr": "二匹のコボルトが石の橋を見張っている。"},
