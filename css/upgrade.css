@@ -621,7 +621,20 @@ nav{grid-template-columns:repeat(4,1fr)}
 .gp2 .gold-btn{padding:11px}
 @media(max-height:700px){.gp2-head p{display:none}.gp2-stage{width:min(52vw,20dvh);height:min(52vw,20dvh)}}
 /* 「まとめて」は回数を選ぶ欄のぶんパネルが高くなるので、パックをもう一回り小さくする */
-.gp2.multi .gp2-stage{width:min(56vw,26dvh,230px);height:min(56vw,26dvh,230px)}
+.gp2.multi .gp2-stage{width:min(48vw,21dvh,200px);height:min(48vw,21dvh,200px)}
 .gp2.multi .gm-box{margin-bottom:4px}
 .gp2.multi .gm-step,.gp2.multi .gm-quick{margin-bottom:6px}
 @media(max-height:700px){.gp2.multi .gp2-stage{width:min(40vw,15dvh);height:min(40vw,15dvh)}.gp2-panel.orn{padding-top:6px}.gp2.multi .gm-quick{margin-top:4px}}
+/* パックを左右にスワイプして排出率のレベルを変える。縦のスクロールはそのまま使えるようにする */
+.gp2-stage{touch-action:pan-y;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}
+.gp2-pack{-webkit-user-drag:none}
+.gp2-pack.pk-in-r{animation:pkInR .28s ease-out both,packFloat 3.4s ease-in-out .28s infinite}
+.gp2-pack.pk-in-l{animation:pkInL .28s ease-out both,packFloat 3.4s ease-in-out .28s infinite}
+.gp2-pack.pk-bump{animation:pkBump .3s ease-out,packFloat 3.4s ease-in-out .3s infinite}
+@keyframes pkInR{from{opacity:0;transform:translateX(40%)}to{opacity:1;transform:none}}
+@keyframes pkInL{from{opacity:0;transform:translateX(-40%)}to{opacity:1;transform:none}}
+@keyframes pkBump{0%,100%{transform:none}30%{transform:translateX(-6%)}60%{transform:translateX(5%)}}
+/* 左右の矢印。スワイプできることを見せる（押してもレベルが変わる）。端では薄くする */
+.gp2-arr{position:relative;z-index:3;align-self:center;width:34px;height:34px;border:1px solid #6b5a2c;border-radius:50%;background:#0a0e22cc;color:#f1d27a;font:900 22px/1 Georgia,serif;padding:0 0 3px;cursor:pointer}
+.gp2-arr.l{justify-self:start}.gp2-arr.r{justify-self:end}
+.gp2-arr.off{opacity:.25}

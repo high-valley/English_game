@@ -17,17 +17,33 @@ function circleSvg(){
 
 /* ---------- ガチャ画面 ---------- */
 function setGachaLevel(n){if(n>S.unlockedLevel)return;S.gachaLevel=n;save();gacha()}
+/* パックを左右にスワイプして、排出率のレベルを変える（左へ → 1つ上、右へ → 1つ下）。
+   パックはタップで「引く」なので、スワイプした直後のクリックは引かないように捨てる。
+   端（Lv.1 より下、解放したレベルより上）では、パックを小さく揺らして動けないことを見せる */
+let SWIPE_IN="",SWIPED_AT=0;
+function stepGachaLevel(d){
+  const n=gachaLv()+d,pk=$(".gp2-pack");
+  if(n<1||n>S.unlockedLevel){if(pk){pk.classList.remove("pk-bump","pk-in-r","pk-in-l");void pk.offsetWidth;pk.classList.add("pk-bump")}return}
+  SWIPE_IN=d>0?"pk-in-r":"pk-in-l";setGachaLevel(n)}
+function stageTap(){if(Date.now()-SWIPED_AT<400)return;pullBtn()}
+function bindSwipe(el){
+  let x0=null,y0=0,id=null;
+  el.addEventListener("pointerdown",e=>{x0=e.clientX;y0=e.clientY;id=e.pointerId});
+  el.addEventListener("pointerup",e=>{if(x0===null||e.pointerId!==id)return;const dx=e.clientX-x0,dy=e.clientY-y0;x0=null;
+    if(Math.abs(dx)>40&&Math.abs(dx)>Math.abs(dy)*1.3){SWIPED_AT=Date.now();stepGachaLevel(dx<0?1:-1)}});
+  el.addEventListener("pointercancel",()=>{x0=null})}
 const gachaLv=()=>Math.min(S.gachaLevel||S.unlockedLevel,S.unlockedLevel);
 function gacha(){
   GN=Math.min(GN,maxN());const multi=GM==="multi",GL=gachaLv();
   $("#main").innerHTML=`<section class="gp2${multi?" multi":""}"><div class="gp2-head"><h2>ガチャ</h2><p>排出率を選んでカードを引こう</p></div>
   <div class="gp2-lv"><div class="gp2-lv-t">排出率のレベル</div><div class="gp2-lvtabs">${LEVELS.map((r,i)=>{const n=i+1,lock=n>S.unlockedLevel;return `<button class="${n===GL?"on":""}${lock?" lock":""}" ${lock?"disabled":`onclick="setGachaLevel(${n})"`}>${lock?"🔒":"Lv."+n}</button>`}).join("")}</div></div>
-  <div class="gp2-stage" style="--pc:${PACK_COL[LEVELS[GL-1]]}" onclick="pullBtn()"><div class="gx-circle on">${circleSvg()}</div><i class="gp2-glow"></i><img class="gp2-pack" src="${packSrc()}" alt="パック"></div>
+  <div class="gp2-stage" style="--pc:${PACK_COL[LEVELS[GL-1]]}" onclick="stageTap()"><div class="gx-circle on">${circleSvg()}</div><i class="gp2-glow"></i><img class="gp2-pack${SWIPE_IN?" "+SWIPE_IN:""}" src="${packSrc()}" alt="パック" draggable="false">
+  <button class="gp2-arr l${GL<=1?" off":""}" aria-label="下のレベル" onclick="event.stopPropagation();stepGachaLevel(-1)">‹</button><button class="gp2-arr r${GL>=S.unlockedLevel?" off":""}" aria-label="上のレベル" onclick="event.stopPropagation();stepGachaLevel(1)">›</button></div>
   <div class="gp2-panel orn"><div class="gm-tabs"><button class="${multi?"":"on"}" onclick="setGM('one')">1回</button><button class="${multi?"on":""}" onclick="setGM('multi')">まとめて</button></div>
   ${multi?`<div class="gm-box"><div class="gm-step"><button onclick="gnSet(GN-10)">−10</button><button onclick="gnSet(GN-1)">−</button><input id="gn" type="number" inputmode="numeric" min="1" max="${maxN()}" value="${GN}" oninput="gnSet(this.value,1)"><button onclick="gnSet(GN+1)">＋</button><button onclick="gnSet(GN+10)">＋10</button></div><div class="gm-quick"><button onclick="gnSet(10)">10回</button><button onclick="gnSet(50)">50回</button><button onclick="gnSet(999)">最大 ${maxN()}回</button></div></div>`:""}
   <div class="gp-price" id="gp-price"></div>
   <div class="gp2-rc">Lv.${GL} の排出率</div><div class="rates-row">${currentRates().map(([r,p])=>`<div class="r-${r}${p?"":" z"}"><i class="gem"></i>${r}<b>${p}%</b></div>`).join("")}</div></div>
-  <button class="gold-btn" id="gp-btn" onclick="pullBtn()"></button></section>`;gnLabel();save()}
+  <button class="gold-btn" id="gp-btn" onclick="pullBtn()"></button></section>`;SWIPE_IN="";bindSwipe($(".gp2-stage"));gnLabel();save()}
 function gnLabel(){const n=GM==="multi"?GN:1,c=ico("icon_coin","🪙","c");$("#gp-price").innerHTML=n===1?`1回 ${c} ${GACHA_COST}コイン`:`${n}回 ${c} ${n*GACHA_COST}コイン<small>　所持 ${c} ${S.coins}</small>`;$("#gp-btn").textContent=`${n}回引く`}   // 絵文字は置かない（真上に大きなパック画像があり、小さい絵は潰れるだけ）
 function setGM(m){GM=m;gacha()}
 function gnSet(v,typing){GN=Math.max(1,Math.min(maxN(),parseInt(v)||1));const i=$("#gn");if(i&&!typing)i.value=GN;gnLabel()}
