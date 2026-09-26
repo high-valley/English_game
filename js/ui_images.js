@@ -3,10 +3,11 @@
      card_frame            … カード枠（全レア度共通）
      card_frame_common / _uncommon / _rare / _epic / _legendary … レア度別の枠（あれば優先）
      home_bg / splash_bg / gacha_bg / app_bg … 各画面の背景
+     home_bg_day … ホームの昼の背景（日本時間 6〜18時）。無ければ昼も home_bg
    カード枠は「絵の窓」を純マゼンタ(#FF00FF)で塗っておくと、自動で透明にして窓の位置も検出します。 */
 const UI={},UI_FRAME={};
 let UI_READY=false;   // 画像の有無が分かるまでは、仮の背景を出さない（ちらつき防止）
-const UI_SLOTS=["card_frame","card_frame_common","card_frame_uncommon","card_frame_rare","card_frame_epic","card_frame_legendary","home_bg","splash_bg","gacha_bg","study_bg","cards_bg","app_bg","logo_title","logo_emblem","gacha_pack","card_back","magic_circle"];
+const UI_SLOTS=["card_frame","card_frame_common","card_frame_uncommon","card_frame_rare","card_frame_epic","card_frame_legendary","home_bg","home_bg_day","splash_bg","gacha_bg","study_bg","cards_bg","app_bg","logo_title","logo_emblem","gacha_pack","card_back","magic_circle"];
 // 画面ごとの背景が無いときは、この背景を代わりに使う（全画面をホームと同じ雰囲気に保つため）
 const BG_FALLBACK={splash_bg:"home_bg",gacha_bg:"home_bg",study_bg:"home_bg",cards_bg:"home_bg"};
 // カード内の各パーツ位置 [x,y,幅,高さ]（300x400 の座標）。枠画像に合わせて微調整したい時は LAYOUT_OVERRIDE に書く

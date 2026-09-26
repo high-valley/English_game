@@ -600,3 +600,8 @@ nav{grid-template-columns:repeat(4,1fr)}
 .xf-code{box-sizing:border-box;width:100%;padding:8px;border:1px solid #33395a;border-radius:8px;background:#060916;color:#dfe3f2;font:12px/1.4 ui-monospace,Menlo,monospace;word-break:break-all;resize:vertical}
 .xf-msg{min-height:1em;margin-top:6px;color:#9fd9a8;font-size:13px;line-height:1.5}
 #xf-err{color:#ff9aa8}
+/* ホームの背景を、開いたまま昼↔夜に切り替えるとき。新しい絵を上に重ねて、ゆっくり出す */
+#bg img.scene.bg-swap{position:absolute;inset:0;animation:bgSwap 1.2s ease-in-out both}
+@keyframes bgSwap{from{opacity:0}to{opacity:1}}
+/* 昼の背景では空が明るいので、キャッチコピーの影を濃くして読みやすくする */
+.is-day .hm2-tag{text-shadow:0 0 2cqw #0a1030,0 0 4cqw #0a1030,0 .4cqw 1cqw #000}
