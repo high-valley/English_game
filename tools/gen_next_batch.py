@@ -21,7 +21,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from gen_card_prompts import LEVELS, LEVEL_NO, REDO, load_words, load_done_images, next_order, prompt_for  # noqa: E402
+from gen_card_prompts import GPT_WORD, LEVELS, LEVEL_NO, REDO, batch_message, load_words, load_done_images, next_order, prompt_for  # noqa: E402
 from check_words import ENEMIES, has  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -69,7 +69,8 @@ def main():
         "**次に作る5件：" + " / ".join(w["en"] for w in batch[:5]) + "**",
         "",
         "## 使い方",
-        "1. 上から順に、``` で囲まれたプロンプトを**そのまま**画像生成AIに入れる（1件＝1枚。3:2の横長）",
+        "1. 上から順に、``` で囲まれたプロンプトを**そのまま**画像生成AIに入れる（1件＝1枚。3:2の横長）。"
+        "ChatGPT なら、すぐ下の「まとめて渡す」の枠で5件を1回で渡せる",
         "2. できた絵が「例文（日本語）」のとおりかを確かめる",
         "3. 絵を `assets/cards/単語.webp` にして、`js/card_art.js` の `CARD_IMG_NAMES` に単語を足す",
         "4. `python3 tools/gen_next_batch.py` を実行し直すと、作り終えた分が外れて次の分が先頭に来る",
@@ -77,6 +78,18 @@ def main():
         "順番はレアリティの低い順 → 図鑑の並び順（id順）。`python3 tools/prompt_for.py --next 5` が出す5件と同じです。",
         "",
     ]
+
+    # ChatGPT に5件を1回で渡す文（中身は下の1件ずつのプロンプトと同じ。prompt_for.py --gpt 5 と同じ）
+    first = batch[:5]
+    if first:
+        lines += [
+            f"## ChatGPT にまとめて渡す（次の{len(first)}件）",
+            f"下の枠を丸ごとコピーして ChatGPT に送る。1枚描いて止まるので、確かめたら「{GPT_WORD}」と送る（{len(first)}枚目まで繰り返す）。",
+            "",
+        ]
+        for i, w in enumerate(first, 1):
+            lines.append(f"{i}. **{w['en']}**（{w['ja']}）… {w['tr']}  ")
+        lines += ["", "```", batch_message(first), "```", ""]
 
     cur = None
     for i, w in enumerate(batch, 1):

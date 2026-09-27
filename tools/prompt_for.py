@@ -4,6 +4,7 @@
     python3 tools/prompt_for.py run happy friend    # 単語名で
     python3 tools/prompt_for.py --next 5            # まだ画像が無い語を、図鑑の並び順で5語
     python3 tools/prompt_for.py --next 5 COMMON     # レアリティを絞る
+    python3 tools/prompt_for.py --gpt 5             # 次の5件を、ChatGPT に1回で渡せる1つの文にまとめる
 
 **プロンプトを人に渡すときは、必ずこれを通す。**
 例文を記憶で書くと、絵と例文が食い違う。実際に2回やらかしている:
@@ -18,7 +19,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from gen_card_prompts import LEVELS, LEVEL_NO, load_words, load_done_images, next_order, prompt_for, REDO  # noqa: E402
+from gen_card_prompts import GPT_WORD, LEVELS, LEVEL_NO, REDO, batch_message, load_words, load_done_images, next_order, prompt_for  # noqa: E402
 
 
 def emit(w, done):
@@ -37,6 +38,24 @@ def main(argv):
     words = load_words()
     done = set(load_done_images())
     by_en = {w["en"]: w for w in words}
+
+    if argv and argv[0] == "--gpt":
+        # ChatGPT に1回で渡す形。先に日本語の例文を並べる（ユーザーは日本語で、届いた絵が例文どおりかを確かめる）
+        n = int(argv[1]) if len(argv) > 1 else 5
+        rarity = argv[2].upper() if len(argv) > 2 else None
+        picked = next_order(words, done, rarity)[:n]
+        if not picked:
+            sys.exit("まだ画像が無い語がありません")
+        for i, w in enumerate(picked, 1):
+            mark = "（作り直し）" if w["en"] in REDO else ""
+            print(f"{i}. {w['en']}（{w['ja']}／{w['rarity']}）{mark}")
+            print(f"   例文（日本語）: {w['tr']}")
+        print()
+        print(f"ChatGPT に渡す文（1枚描くごとに「{GPT_WORD}」と送る）:")
+        print("```")
+        print(batch_message(picked))
+        print("```")
+        return
 
     if argv and argv[0] == "--next":
         n = int(argv[1]) if len(argv) > 1 else 5

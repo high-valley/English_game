@@ -6,12 +6,40 @@
 **次に作る5件：secret / wisdom / victory / power / memory**
 
 ## 使い方
-1. 上から順に、``` で囲まれたプロンプトを**そのまま**画像生成AIに入れる（1件＝1枚。3:2の横長）
+1. 上から順に、``` で囲まれたプロンプトを**そのまま**画像生成AIに入れる（1件＝1枚。3:2の横長）。ChatGPT なら、すぐ下の「まとめて渡す」の枠で5件を1回で渡せる
 2. できた絵が「例文（日本語）」のとおりかを確かめる
 3. 絵を `assets/cards/単語.webp` にして、`js/card_art.js` の `CARD_IMG_NAMES` に単語を足す
 4. `python3 tools/gen_next_batch.py` を実行し直すと、作り終えた分が外れて次の分が先頭に来る
 
 順番はレアリティの低い順 → 図鑑の並び順（id順）。`python3 tools/prompt_for.py --next 5` が出す5件と同じです。
+
+## ChatGPT にまとめて渡す（次の5件）
+下の枠を丸ごとコピーして ChatGPT に送る。1枚描いて止まるので、確かめたら「次」と送る（5枚目まで繰り返す）。
+
+1. **secret**（秘密）… 書庫で、古い本棚の裏の秘密の扉が開く。  
+2. **wisdom**（知恵）… 村人たちが、古い木の精の知恵を聞くために山を登る。  
+3. **victory**（勝利）… 戦場で、兵士たちが倒れたトロルの王を前に、勝利の旗を掲げる。  
+4. **power**（力）… 滝の力が、水車小屋の大きな車輪を回す。  
+5. **memory**（記憶）… 屋根裏部屋で、おばあさんが子どものころの人形を抱き、思い出にほほえむ。  
+
+```
+Please create 5 illustrations for a card game, one picture per card, in the order below. Draw ONLY ONE picture per reply: draw picture 1 now, then stop. Each time I reply "次", draw the next picture. Every picture is separate and independent: never put several cards into one image (no grid, no collage, no split panels, no side-by-side), and do not carry characters, creatures or places over from an earlier picture unless that card's own description asks for them. Every picture is a 3:2 wide landscape image (1536x1024).
+
+[1/5] secret
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: In the library, a secret door opens behind the old bookshelf. The secret itself is the main subject of the picture: large and clearly visible. If the secret is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: the subject close and sharp, the background kept soft and simple behind it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+
+[2/5] wisdom
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: Villagers climb the mountain to hear the wisdom of the ancient tree spirit. The wisdom itself is the main subject of the picture: large and clearly visible. If the wisdom is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a close view at eye level, the subject filling the frame and cropped by the edges. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+
+[3/5] victory
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: On the battlefield, the soldiers raise their banners in victory over the fallen troll king. The victory itself is the main subject of the picture: large and clearly visible. If the victory is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Any creature has clear, expressive eyes and a readable face. trolls are huge and hunched with warty grey-green skin, a long nose and small dull eyes, wearing a ragged fur loincloth. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a low angle, looking up at the subject against the sky or the ceiling above it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+
+[4/5] power
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: The power of the waterfall turns the great wheel of the mill. The power itself is the main subject of the picture: large and clearly visible. If the power is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: seen from slightly above, looking down on the subject and the ground around it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+
+[5/5] memory
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: In the attic, an old woman smiles at a memory as she holds her childhood doll. The memory itself is the main subject of the picture: large and clearly visible. If the memory is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: the subject set to one side of the frame, with the place opening up beside it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+```
 
 
 ## Lv.3 RARE（この一覧に78語）
