@@ -8,7 +8,7 @@ function initSave(o){
   S=o||{coins:100,owned:{},mastery:{}};
   // 単語データを入れ替えた（v2）ので、テスト版のカードと熟練度をリセットする。コインと連続学習は引き継ぐ
   if(S.v!==2)S={coins:S.coins==null?100:S.coins,owned:{},mastery:{},streak:S.streak||0,last:S.last||"",v:2};
-  S.streak=S.streak||0;S.last=S.last||"";S.unlockedLevel=S.unlockedLevel||1;S.studyLevel=S.studyLevel||1;S.gachaLevel=S.gachaLevel||S.unlockedLevel;delete S.xp;
+  S.streak=S.streak||0;S.last=S.last||"";S.unlockedLevel=S.unlockedLevel||1;S.studyLevel=S.studyLevel||1;S.gachaLevel=S.gachaLevel||S.unlockedLevel;S.bgm=S.bgm!==false;delete S.xp;
   syncLevels()}   // 熟練度から、解放済みのレベルを合わせる
 initSave(loadSave());
 const $=q=>document.querySelector(q);
@@ -43,7 +43,7 @@ function plateFont(en,avail,max){
 // プレートの幅（cqw）から、文字に使える幅を出す。btn は発音ボタンのぶん
 const plateAvail=(L,btn)=>L.plate[2]/3-(btn?9.2:4.5);
 function hl(s,en){return s.replace(new RegExp("\\b("+en+"\\w*)","i"),"<b>$1</b>")}
-function speak(t){try{const u=new SpeechSynthesisUtterance(t);u.lang="en-US";speechSynthesis.cancel();speechSynthesis.speak(u)}catch(e){}}
+function speak(t){try{const u=new SpeechSynthesisUtterance(t);u.lang="en-US";u.onend=u.onerror=()=>bgmDuck(false);speechSynthesis.cancel();bgmDuck(true);speechSynthesis.speak(u)}catch(e){}}   // 発音の間は BGM を下げる
 function cardArt(w,small){return CARD_IMG[w.en]||ART_SVG[w.en]?artHtml(w,undefined,small):`<div class="scn">${small?`<img class="cart" src="${sceneUrl(w.rarity)}" alt="">`:sceneSvg(w.rarity)}<i class="scn-pad"></i><div class="scn-ic">${icon(w)}</div></div>`}
 // 絵の無いカードの背景（レアリティごとの風景）。小さいカードでは、SVG をカードごとに埋め込まず、
 // レアリティごとに1つの画像にして使い回す（300枚ぶんの SVG を描くと重いため）
@@ -213,6 +213,7 @@ setInterval(bgTick,60000);
 function buildNav(){document.querySelectorAll("nav button").forEach(b=>{const p=b.dataset.p,[e,t]=NAV[p];b.innerHTML=`<i>${ico("nav_"+p,e)}</i>${t}`})}
 function openSettings(){const d=document.createElement("div");d.className="sheet";d.onclick=e=>{if(e.target===d)d.remove()};
   d.innerHTML=`<div class="sheet-in"><h3 style="margin:0 0 12px;color:#f4d477;font-family:Georgia,serif">設定</h3><div class="sd-ex">${saveSummary(S)}</div>
+  <div class="xf st-bgm"><h4>BGM</h4><button class="tg" id="st-bgm" role="switch"></button></div>
   <div class="xf"><h4>データの引き継ぎ</h4>
    <p>別の端末やブラウザで続きを遊ぶときや、データの控えを残すときに使います。リンクかコードを、LINE・AirDrop・メモなどで送ってください。</p>
    <div class="xf-row"><button class="xf-btn" id="xf-link" disabled>リンクを送る</button><button class="xf-btn" id="xf-copy" disabled>コードをコピー</button></div>
@@ -223,6 +224,8 @@ function openSettings(){const d=document.createElement("div");d.className="sheet
    <button class="xf-btn xf-wide" id="xf-read">取り込む</button>
    <div class="xf-msg" id="xf-err"></div></div>
   <button class="gold-btn" style="margin-bottom:10px" onclick="this.closest('.sheet').remove()">閉じる</button><button class="hm2-reset" onclick="if(confirm('セーブデータをすべて消します。よろしいですか？')){clearSave();location.reload()}">セーブデータをリセット</button></div>`;document.body.appendChild(d);
+  const tg=d.querySelector("#st-bgm"),tgShow=()=>{tg.classList.toggle("on",S.bgm);tg.setAttribute("aria-checked",S.bgm);tg.innerHTML=`<i></i>${S.bgm?"オン":"オフ"}`};
+  tgShow();tg.onclick=()=>{bgmSet(!S.bgm);tgShow()};
   // コードは開いたときに作っておく。押してから作ると、iPhone の Safari では共有・コピーが「操作の直後ではない」として断られるため
   const msg=t=>{d.querySelector("#xf-msg").textContent=t};
   makeTransferCode(S).then(code=>{
@@ -249,7 +252,7 @@ function confirmImport(o){const d=document.createElement("div");d.className="she
 const PAGES=["home","study","gacha","cards"];
 // 1画面に収まる画面。スクロールで上下に動かさない
 const NO_SCROLL=["study","gacha"];
-function showPage(p){clearTimeout(STNEXT);CUR=p;document.documentElement.classList.toggle("noscroll",NO_SCROLL.includes(p));PAGES.forEach(x=>document.body.classList.toggle("is-"+x,x===p));setBg(p);document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x.dataset.p===p));({home,study,gacha,cards})[p]();window.scrollTo(0,0)}
+function showPage(p){clearTimeout(STNEXT);CUR=p;document.documentElement.classList.toggle("noscroll",NO_SCROLL.includes(p));PAGES.forEach(x=>document.body.classList.toggle("is-"+x,x===p));setBg(p);document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x.dataset.p===p));bgmPage(p);({home,study,gacha,cards})[p]();window.scrollTo(0,0)}
 buildNav();document.querySelectorAll("nav button").forEach(b=>b.addEventListener("click",()=>showPage(b.dataset.p)));
 const gear=$("#gear");if(gear)gear.onclick=openSettings;
 showPage("home");
