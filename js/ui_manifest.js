@@ -384,6 +384,10 @@ const UI_MANIFEST={
    "full": "assets/cards/explain.webp?v=c4be8b41bd",
    "thumb": "assets/cards/thumb/explain.webp?v=384282f08d"
   },
+  "facilitate": {
+   "full": "assets/cards/facilitate.webp?v=9c29b6b153",
+   "thumb": "assets/cards/thumb/facilitate.webp?v=e1786b6ccc"
+  },
   "family": {
    "full": "assets/cards/family.webp?v=cc5657578d",
    "thumb": "assets/cards/thumb/family.webp?v=5c29358cc3"
@@ -535,6 +539,10 @@ const UI_MANIFEST={
   "join": {
    "full": "assets/cards/join.webp?v=d921188b3d",
    "thumb": "assets/cards/thumb/join.webp?v=0766ec712d"
+  },
+  "journey": {
+   "full": "assets/cards/journey.webp?v=a3a6b449ee",
+   "thumb": "assets/cards/thumb/journey.webp?v=64a1681bc2"
   },
   "jump": {
    "full": "assets/cards/jump.webp?v=897d6229c6",
@@ -1123,6 +1131,7 @@ const UI_MANIFEST={
   "assets/cards/environment.webp": "f57504e244",
   "assets/cards/experience.webp": "6398f6842b",
   "assets/cards/explain.webp": "c4be8b41bd",
+  "assets/cards/facilitate.webp": "9c29b6b153",
   "assets/cards/family.webp": "cc5657578d",
   "assets/cards/famous.webp": "51aabd4df4",
   "assets/cards/fast.webp": "66e3ae35f9",
@@ -1161,6 +1170,7 @@ const UI_MANIFEST={
   "assets/cards/influence.webp": "199a55b4d3",
   "assets/cards/island.webp": "cbc45cc2e1",
   "assets/cards/join.webp": "d921188b3d",
+  "assets/cards/journey.webp": "a3a6b449ee",
   "assets/cards/jump.webp": "897d6229c6",
   "assets/cards/key.webp": "d9e46c479e",
   "assets/cards/king.webp": "df22c9602d",
