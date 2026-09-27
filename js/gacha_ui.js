@@ -1,7 +1,8 @@
 /* ガチャ画面と開封演出（app.js から分離）
    使う画像（assets/ui/ に置くと自動で使われる。無ければ従来の表示）:
      gacha_bg … ガチャ画面と演出の背景 / gacha_pack … パック / card_back … カード裏面 / magic_circle … 魔法陣 */
-let GN=1;   // 引く回数。「1回」と「まとめて」の切り替えはやめ、回数の欄だけにした（はじめは1回。ガチャ画面を開くたびに1に戻す）
+let GN=1;   // 引く回数（画面に出ている数）。選んだ回数はセーブの S.gachaN に残し、次に開いたときもその回数にする。
+            // コインが足りないときは、持っているコインで引ける回数まで下げて出す（S.gachaN は変えない。コインが増えたら戻る）
 const maxN=()=>Math.max(1,Math.min(100,Math.floor(S.coins/GACHA_COST)));
 const RORD=LEVELS;
 const RCOL={COMMON:"#9fb4dc",UNCOMMON:"#3ecf7a",RARE:"#3aa0ff",EPIC:"#b26bff",LEGENDARY:"#ffb43a"};
@@ -34,12 +35,12 @@ function bindSwipe(el){
   el.addEventListener("pointercancel",()=>{x0=null})}
 const gachaLv=()=>Math.min(S.gachaLevel||S.unlockedLevel,S.unlockedLevel);
 function gacha(){
-  GN=Math.max(1,Math.min(GN,maxN()));const GL=gachaLv();
+  GN=Math.max(1,Math.min(S.gachaN||1,maxN()));const GL=gachaLv();
   $("#main").innerHTML=`<section class="gp2 multi"><div class="gp2-head"><h2>ガチャ</h2><p>排出率を選んでカードを引こう</p></div>
   <div class="gp2-lv"><div class="gp2-lv-t">排出率のレベル</div><div class="gp2-lvtabs">${LEVELS.map((r,i)=>{const n=i+1,lock=n>S.unlockedLevel;return `<button class="${n===GL?"on":""}${lock?" lock":""}" ${lock?"disabled":`onclick="setGachaLevel(${n})"`}>${lock?"🔒":"Lv."+n}</button>`}).join("")}</div></div>
   <div class="gp2-stage" style="--pc:${PACK_COL[LEVELS[GL-1]]}" onclick="stageTap()"><div class="gx-circle on">${circleSvg()}</div><i class="gp2-glow"></i><img class="gp2-pack${SWIPE_IN?" "+SWIPE_IN:""}" src="${packSrc()}" alt="パック" draggable="false">
   <button class="gp2-arr l${GL<=1?" off":""}" aria-label="下のレベル" onclick="event.stopPropagation();stepGachaLevel(-1)">‹</button><button class="gp2-arr r${GL>=S.unlockedLevel?" off":""}" aria-label="上のレベル" onclick="event.stopPropagation();stepGachaLevel(1)">›</button></div>
-  <div class="gp2-panel orn"><div class="gm-box"><div class="gm-step"><button onclick="gnSet(GN-10)">−10</button><button onclick="gnSet(GN-1)">−</button><input id="gn" type="number" inputmode="numeric" min="1" max="${maxN()}" value="${GN}" oninput="gnSet(this.value,1)"><button onclick="gnSet(GN+1)">＋</button><button onclick="gnSet(GN+10)">＋10</button></div><div class="gm-quick"><button onclick="gnSet(10)">10回</button><button onclick="gnSet(50)">50回</button><button onclick="gnSet(999)">最大 ${maxN()}回</button></div></div>
+  <div class="gp2-panel orn"><div class="gm-box"><div class="gm-step"><button onclick="gnSet(GN-10)">−10</button><button onclick="gnSet(GN-1)">−</button><input id="gn" type="number" inputmode="numeric" min="1" max="${maxN()}" value="${GN}" oninput="gnSet(this.value,1)"><button onclick="gnSet(GN+1)">＋</button><button onclick="gnSet(GN+10)">＋10</button></div><div class="gm-quick"><button onclick="gnSet(1)">1回</button><button onclick="gnSet(10)">10回</button><button onclick="gnSet(50)">50回</button><button onclick="gnSet(999)">最大 ${maxN()}回</button></div></div>
   <div class="gp-price" id="gp-price"></div>
   <div class="gp2-rc">Lv.${GL} の排出率</div><div class="rates-row">${currentRates().map(([r,p])=>`<div class="r-${r}${p?"":" z"}"><i class="gem"></i>${r}<b>${p}%</b></div>`).join("")}</div></div>
   <button class="gold-btn" id="gp-btn" onclick="pullBtn()"></button></section>`;SWIPE_IN="";bindSwipe($(".gp2-stage"));gnLabel();save()}
@@ -55,7 +56,7 @@ function fitGacha(){const g=$(".gp2"),st=$(".gp2-stage"),bt=$("#gp-btn"),nv=$("n
   g.classList.remove("tight");if(!fit()){g.classList.add("tight");fit()}}
 addEventListener("resize",()=>{if(typeof CUR!=="undefined"&&CUR==="gacha")fitGacha()});
 if(document.fonts)document.fonts.ready.then(()=>{if(typeof CUR!=="undefined"&&CUR==="gacha")fitGacha()});
-function gnSet(v,typing){GN=Math.max(1,Math.min(maxN(),parseInt(v)||1));const i=$("#gn");if(i&&!typing)i.value=GN;gnLabel()}
+function gnSet(v,typing){GN=Math.max(1,Math.min(maxN(),parseInt(v)||1));S.gachaN=GN;save();const i=$("#gn");if(i&&!typing)i.value=GN;gnLabel()}
 function pullBtn(){GN>1?pullMulti(GN):pull()}
 
 /* ---------- 開封演出 ----------
