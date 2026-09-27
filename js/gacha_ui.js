@@ -44,8 +44,19 @@ function gacha(){
   <div class="gp-price" id="gp-price"></div>
   <div class="gp2-rc">Lv.${GL} の排出率</div><div class="rates-row">${currentRates().map(([r,p])=>`<div class="r-${r}${p?"":" z"}"><i class="gem"></i>${r}<b>${p}%</b></div>`).join("")}</div></div>
   <button class="gold-btn" id="gp-btn" onclick="pullBtn()"></button></section>`;SWIPE_IN="";bindSwipe($(".gp2-stage"));gnLabel();save()}
-function gnLabel(){const n=GM==="multi"?GN:1,c=ico("icon_coin","🪙","c");$("#gp-price").innerHTML=n===1?`1回 ${c} ${GACHA_COST}コイン`:`${n}回 ${c} ${n*GACHA_COST}コイン<small>　所持 ${c} ${S.coins}</small>`;$("#gp-btn").textContent=`${n}回引く`}   // 絵文字は置かない（真上に大きなパック画像があり、小さい絵は潰れるだけ）
+function gnLabel(){const n=GM==="multi"?GN:1,c=ico("icon_coin","🪙","c");$("#gp-price").innerHTML=n===1?`1回 ${c} ${GACHA_COST}コイン`:`${n}回 ${c} ${n*GACHA_COST}コイン<small>　所持 ${c} ${S.coins}</small>`;$("#gp-btn").textContent=`${n}回引く`;fitGacha()}   // 絵文字は置かない（真上に大きなパック画像があり、小さい絵は潰れるだけ）
 function setGM(m){GM=m;gacha()}
+// ガチャ画面を1画面に収める。パックの大きさを、「引く」ボタンの下端が下のタブより上に来るように、実際に測って決める。
+// CSS の目安（画面の高さの何割）だけでは、Android の Chrome（幅360〜412・高さ640〜760）の「まとめて」でボタンが下のタブに隠れた。
+// 端末ごとに文字の高さ・アドレスバー・下のボタンの有無が違うので、測るのがいちばん確か。余裕があれば、上限まで大きくする
+// パックを最小にしても入らない低い画面（幅360・高さ640 など）では、見出しと「排出率のレベル」などの説明の行を隠す（.tight）
+function fitGacha(){const g=$(".gp2"),st=$(".gp2-stage"),bt=$("#gp-btn"),nv=$("nav");if(!g||!st||!bt||!nv)return;
+  const multi=GM==="multi",max=Math.min(innerWidth*(multi?.48:.64),multi?200:260),MIN=90;
+  const fit=()=>{const cur=st.getBoundingClientRect().height,room=nv.getBoundingClientRect().top-10-bt.getBoundingClientRect().bottom;
+    const s=Math.round(Math.max(MIN,Math.min(max,cur+room)));st.style.width=st.style.height=s+"px";return cur+room>=MIN};
+  g.classList.remove("tight");if(!fit()){g.classList.add("tight");fit()}}
+addEventListener("resize",()=>{if(typeof CUR!=="undefined"&&CUR==="gacha")fitGacha()});
+if(document.fonts)document.fonts.ready.then(()=>{if(typeof CUR!=="undefined"&&CUR==="gacha")fitGacha()});
 function gnSet(v,typing){GN=Math.max(1,Math.min(maxN(),parseInt(v)||1));const i=$("#gn");if(i&&!typing)i.value=GN;gnLabel()}
 function pullBtn(){GM==="multi"&&GN>1?pullMulti(GN):pull()}
 
