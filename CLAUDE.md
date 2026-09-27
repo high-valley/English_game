@@ -187,6 +187,11 @@ Chromium は `/opt/pw-browsers/chromium` にある（Playwright から `executab
 - **画風は締め（`TAIL`）ではなく `STYLE` にレアリティごとに書く。** 締めに一言置いただけでは
   生成AIの既定の絵柄に押し負ける（COMMON が 3DCG のようなつやつやした絵になった）。
   COMMON・UNCOMMON には `AVOID`（写実・3DCG・照り返しを外す）も付ける
+- **RARE 以上には `TIER`（5段階のどこか）を付け、上のレアリティの見せ場を `AVOID` で外す。**
+  画風の言葉だけだと、生成AI（特に ChatGPT）は RARE でも全力で豪華に描き、EPIC・LEGENDARY の上がなくなる
+  （`secret` / `wisdom` / `victory` がすでに EPIC に近かった）。量だけでなく中身で分ける：
+  RARE は光と金色のアクセントまで・人の身の丈、EPIC は魔法が場面を動かす（光の奔流・ルーン・宝石）、
+  LEGENDARY は神話の大きさ（巨大な魔法陣・空を割る光・星の粒）。魔法陣は LEGENDARY だけ
 - **RARE 以上には `ROLE`（役割の分かる服装）を付ける。** 画風に「金・宝石」が入っているため、
   例文に出てくる人まで王侯貴族の装いになる（`significant` で学者4人が宝石だらけの貴族に見えた）
 - **敵役の見た目は `FOE_LOOK` に書いて、カードをまたいで揃える。** 書かないと、ゴブリンが絵ごとに
