@@ -40,20 +40,42 @@ STYLE = {
               "a simple background that shows the place, few magical effects",
     "UNCOMMON": "hand-painted anime fantasy illustration, visible brush texture, matte finish, "
                 "a small magical touch, gentle glow, slightly richer details, clear subject",
-    "RARE": "rich painted anime fantasy illustration, dramatic lighting, golden accents, "
-            "floating light particles, detailed scene",
-    "EPIC": "very luxurious painted epic fantasy illustration, strong magical effects, dramatic lighting, "
-            "intricate details, jewels and golden ornaments in the setting, complex composition",
-    "LEGENDARY": "masterpiece grand legendary painted fantasy illustration, epic scale, glowing magic circle, "
-                 "golden particles, radiant light, extremely detailed, cinematic",
+    "RARE": "rich painted anime fantasy illustration, warm dramatic lighting, a few golden accents, "
+            "a light touch of floating light particles, detailed scene at a human scale",
+    "EPIC": "very luxurious painted epic fantasy illustration, powerful magic visibly at work - surging streams "
+            "of colored light, glowing runes, sparkling jewels and gold in the setting - deep saturated colors, "
+            "intricate details, dynamic complex composition",
+    "LEGENDARY": "masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, "
+                 "divine radiant light breaking through the sky, swirling golden and starry particles, "
+                 "extremely detailed, cinematic",
+}
+
+# 5段階のうちどこかを、はっきり言う（RARE 以上）。
+# 画風の言葉だけだと、生成AI（特に ChatGPT）は RARE でも全力で豪華に描き、EPIC・LEGENDARY の上がなくなる
+# （secret / wisdom / victory が、すでに EPIC に近い豪華さだった）。
+# 豪華さの量だけで差を付けると頭打ちになるので、中身も分ける:
+#   RARE … 光と金色のアクセントまで。場面は人の身の丈
+#   EPIC … 魔法が場面を動かしている（光の奔流・ルーン・宝石と金）
+#   LEGENDARY … 神話の大きさ（巨大な魔法陣・空を割る光・星の粒）
+TIER = {
+    "RARE": "This is a rare card, tier 3 of 5: richer than the common cards, but clearly calmer than "
+            "the epic and legendary tiers - the magic and glow stay moderate and the scene keeps a human scale.",
+    "EPIC": "This is an epic card, tier 4 of 5: clearly more spectacular than a rare card, with strong magic "
+            "shaping the whole scene, yet one step below the legendary tier.",
+    "LEGENDARY": "This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, "
+                 "grander in scale and light than any other tier.",
 }
 
 # 避けてほしい見た目（低レアだけ）。
 # COMMON・UNCOMMON は「絵の具で描いた感じ」を守りたいので、写実・3DCG・強い照り返しを外す。
-# RARE 以上は、豪華さのために光の効果を許す（そこを外すと壮大さが出ない）
+# RARE 以上は、豪華さのために光の効果を許す（そこを外すと壮大さが出ない）。
+# ただし RARE と EPIC には、上のレアリティの見せ場（魔法陣・まばゆい光・宝石・星空）を外す
 AVOID = {
     "COMMON": "not photorealistic, not a 3D render, no glossy plastic shine, no lens flare, no heavy bloom",
     "UNCOMMON": "not photorealistic, not a 3D render, no glossy plastic shine",
+    # RARE・EPIC は、上のレアリティの見せ場を先に使わない
+    "RARE": "no magic circles, no blinding radiant light, no jewel-encrusted ornaments, no world-shaking spectacle",
+    "EPIC": "no sky-filling magic circle, no starry cosmic sky unless the sentence asks for one",
 }
 
 # すべてのプロンプトの締め（構図と、入れないもの）。画風はここに書かない
@@ -322,7 +344,10 @@ def creature_line(w):
 
 def prompt_for(w):
     r = w["rarity"]
-    parts = [f'{STYLE[r]}. Scene: {w["ex"]}', subject_line(w)]
+    parts = [f'{STYLE[r]}.']
+    if r in TIER:
+        parts.append(TIER[r])
+    parts += [f'Scene: {w["ex"]}', subject_line(w)]
     if w["en"] in ITEM_LOOK:
         parts.append(ITEM_LOOK[w["en"]])
     c = creature_line(w)
