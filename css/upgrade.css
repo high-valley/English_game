@@ -672,14 +672,26 @@ html.noscroll,html.noscroll body{overflow:hidden;overscroll-behavior:none}
 .tg.on i{background:#f4d477;box-shadow:0 0 8px #f4d47788}
 
 /* レア以上のカードの箔（絵の前にかぶせる）。RARE は光の帯と少しのきらめき、EPIC は紫〜水色の偏光、LEGENDARY は虹。
-   大きなカード（詳細・ガチャの開封）だけ。図鑑の小カードには付けない（500枚に重ね合わせの効果は重い） */
-@property --fx{syntax:'<number>';inherits:true;initial-value:30}
-@property --fy{syntax:'<number>';inherits:true;initial-value:40}
+   大きなカード（詳細・ガチャの開封）だけ。図鑑の小カードには付けない（500枚に重ね合わせの効果は重い）。
+   帯は一定の間隔で右から左へ流れる。動かすのは transform だけ（iPhone でも確実に動き、描き直しも軽い）。
+   以前は帯の位置を @property の変数で動かしていたが、iPhone では触らないと動かなかった */
 .cd3-art .foil{position:absolute;inset:0;width:auto;height:auto;pointer-events:none;z-index:2;overflow:hidden;border-radius:inherit}
-.foil::before,.foil::after,.foil b,.foil b::before{content:"";position:absolute;inset:0}
-/* 光の帯が斜めに走る（右から左へ。走ったあとは少し休む） */
-.foil::before{z-index:3;background:linear-gradient(115deg,transparent 42%,rgba(255,248,220,.55) 50%,transparent 58%) no-repeat;background-size:260% 100%;mix-blend-mode:screen;animation:foilSweep 5s ease-in-out infinite}
-@keyframes foilSweep{0%{background-position:0 0}40%,100%{background-position:100% 0}}
+.foil::before,.foil::after{content:"";position:absolute;top:-25%;bottom:-25%;left:0}
+.foil b,.foil b::before{content:"";position:absolute;inset:0}
+/* 白い光の帯（全レア以上）。6秒ごとに、右の外から左の外へ2.4秒で流れる */
+.foil::before{z-index:3;width:26%;mix-blend-mode:screen;
+  background:linear-gradient(90deg,transparent,rgba(255,248,220,.6) 50%,transparent);
+  animation:foilFlowW 6s ease-in-out .5s infinite}
+@keyframes foilFlowW{0%{transform:translateX(520%) skewX(-18deg)}40%,100%{transform:translateX(-200%) skewX(-18deg)}}
+/* 偏光・虹の帯（EPIC・LEGENDARY）。白い帯の少し前を流れる */
+.foil::after{z-index:1;width:48%;
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 35%,#000 65%,transparent);mask-image:linear-gradient(90deg,transparent,#000 35%,#000 65%,transparent);
+  animation:foilFlowC 6s ease-in-out infinite}
+@keyframes foilFlowC{0%{transform:translateX(270%) skewX(-18deg)}40%,100%{transform:translateX(-150%) skewX(-18deg)}}
+/* 指でなぞっている間は、帯を指の位置に置く（--fx は カードの左端 0〜右端 100） */
+.foil.hold::before,.foil.hold::after{animation:none;transition:transform .12s}
+.foil.hold::after{transform:translateX(calc((var(--fx,50) - 24) * 2.083%)) skewX(-18deg)}
+.foil.hold::before{transform:translateX(calc((var(--fx,50) - 13) * 3.846%)) skewX(-18deg)}
 /* きらめき（小さな光の点が、ずれて明滅する） */
 .foil b{z-index:2;mix-blend-mode:screen;background:
   radial-gradient(circle at 18% 28%,#fff 0,rgba(255,255,255,.75) .8%,transparent 2.6%),
@@ -691,19 +703,11 @@ html.noscroll,html.noscroll body{overflow:hidden;overscroll-behavior:none}
   radial-gradient(circle at 10% 60%,#fff 0,rgba(255,255,255,.75) .8%,transparent 2.5%),
   radial-gradient(circle at 90% 35%,#fff 0,rgba(255,255,255,.75) .7%,transparent 2.2%);animation:foilTw 2.6s ease-in-out -1.3s infinite}
 @keyframes foilTw{0%,100%{opacity:0}50%{opacity:1}}
-/* 偏光・虹。斜めの帯の中だけに色を乗せ、その帯が --fx / --fy で動く（ふだんはゆっくり往復、指でなぞるとその位置）。
-   全面に乗せると絵が白っぽく流れて見えなくなるので、帯の外は素通しにする */
-.foil::after{z-index:1;background-size:100% 100%;
-  -webkit-mask-image:linear-gradient(115deg,transparent 40%,#000 48.5%,#000 51.5%,transparent 60%);mask-image:linear-gradient(115deg,transparent 40%,#000 48.5%,#000 51.5%,transparent 60%);
-  -webkit-mask-size:300% 300%;mask-size:300% 300%;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;
-  -webkit-mask-position:calc(var(--fx)*1%) calc(var(--fy)*1%);mask-position:calc(var(--fx)*1%) calc(var(--fy)*1%);
-  animation:foilHolo 7s ease-in-out infinite alternate}
-.foil.hold::after{animation:none}
-@keyframes foilHolo{0%{--fx:0;--fy:10}50%{--fx:55;--fy:60}100%{--fx:100;--fy:90}}
 .r-RARE .foil::after{display:none}
 .r-RARE .foil b::before{display:none}
-.r-EPIC .foil::after{mix-blend-mode:color-dodge;opacity:.5;background-image:linear-gradient(115deg,#9a5cff,#4fc8ff 50%,#ffc86e)}
-.r-LEGENDARY .foil::after{mix-blend-mode:color-dodge;opacity:.6;background-image:repeating-linear-gradient(115deg,#ff4d6d 0%,#ffa94d 4%,#ffe14d 8%,#5dff8f 12%,#4dd8ff 16%,#8f5dff 20%,#ff4dd2 24%,#ff4d6d 28%)}
+.r-EPIC .foil::after{mix-blend-mode:color-dodge;opacity:.55;background:linear-gradient(90deg,#9a5cff,#4fc8ff 50%,#ffc86e)}
+.r-LEGENDARY .foil::after{mix-blend-mode:color-dodge;opacity:.65;background:linear-gradient(90deg,#ff4d6d,#ffa94d 16%,#ffe14d 32%,#5dff8f 48%,#4dd8ff 64%,#8f5dff 80%,#ff4dd2)}
+/* LEGENDARY は間隔を短く、きらめきも速く */
+.r-LEGENDARY .foil::before,.r-LEGENDARY .foil::after{animation-duration:4.5s}
 .r-LEGENDARY .foil b{animation-duration:1.8s}
-.r-LEGENDARY .foil::before{animation-duration:3.8s}
 @media (prefers-reduced-motion:reduce){.foil::before,.foil::after,.foil b,.foil b::before{animation:none}}
