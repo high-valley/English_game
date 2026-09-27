@@ -22,6 +22,7 @@
   2. 図鑑の小さなカード用の縮小版を作る → assets/cards/thumb/
   3. どの画像があるかと、ファイルごとの版（中身のハッシュ）を js/ui_manifest.js に書く。
      起動時に画像を探す必要がなくなり、変わったファイルだけが再ダウンロードされる
+     BGM（assets/bgm/*.mp3。tools/make_bgm.py が作る）の版も、ここに一緒に書く
 """
 import base64
 import hashlib
@@ -40,6 +41,7 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parent.parent
 UI_DIR = ROOT / "assets" / "ui"
 BAKED = UI_DIR / "baked"
+BGM = ROOT / "assets" / "bgm"
 CARDS = ROOT / "assets" / "cards"
 THUMBS = CARDS / "thumb"
 OUT = ROOT / "js" / "ui_manifest.js"
@@ -199,7 +201,7 @@ def main():
     # 2. 枠とアイコンの透過（ブラウザと同じ処理）
     print(f"枠 {len(frames)}枚・アイコン {len(icons)}個を透過しています…")
     keyed = run_keyer(frames, icons)
-    man = {"slots": {}, "icons": {}, "frames": {}, "cards": {}, "src": {}}
+    man = {"slots": {}, "icons": {}, "frames": {}, "cards": {}, "bgm": {}, "src": {}}
     for s, p in found.items():
         man["src"][rel(p)] = fh(p)
         if not s.startswith("card_frame"):
@@ -245,6 +247,10 @@ def main():
     if missing:
         sys.exit(f"CARD_IMG_NAMES にあるのに assets/cards/ に無い: {missing}")
 
+    # 4. BGM。変わった曲だけが再ダウンロードされるように、曲ごとの版を付ける
+    for p in sorted(BGM.glob("*.mp3")):
+        man["bgm"][p.stem] = url(p)
+
     # 使われなくなった作りかけのファイルを消す（枠やアイコン、カードを消したとき）
     keep = {ROOT / u.split("?")[0] for k, u in man["slots"].items() if k.startswith("gacha_pack_")} | \
            {ROOT / u["url"].split("?")[0] for u in man["frames"].values()} | \
@@ -259,11 +265,12 @@ def main():
     OUT.write_text(
         "// 自動生成（tools/bake_assets.py）。直接編集しない。画像を足した・差し替えたら作り直す\n"
         "// slots: 背景など  icons: 透過済みアイコン  frames: 透過済みのカード枠と絵の窓の位置\n"
-        "// cards: カード画像（full: 大きな絵 / thumb: 図鑑の小さなカード用）  src: 元ファイルの中身（作り直し忘れの検出用）\n"
+        "// cards: カード画像（full: 大きな絵 / thumb: 図鑑の小さなカード用）  bgm: 画面ごとの曲\n"
+        "// src: 元ファイルの中身（作り直し忘れの検出用）\n"
         "const UI_MANIFEST=" + json.dumps(man, ensure_ascii=False, indent=1) + ";\n", encoding="utf-8")
 
     size = lambda ps: sum(p.stat().st_size for p in ps) / 1e6
-    print(f"枠: {len(man['frames'])}種類  アイコン: {len(man['icons'])}個  カード: {len(man['cards'])}枚")
+    print(f"枠: {len(man['frames'])}種類  アイコン: {len(man['icons'])}個  カード: {len(man['cards'])}枚  BGM: {len(man['bgm'])}曲")
     print(f"  枠 {size(BAKED.glob('card_frame*[!i].webp')):.2f}MB（小カード用 {size(BAKED.glob('*_mini.webp')):.2f}MB）"
           f"  アイコン {size((BAKED / 'icons').glob('*.webp')):.2f}MB"
           f"  カード縮小版 {size(THUMBS.glob('*.webp')):.2f}MB（元 {size(CARDS.glob('*.webp')):.2f}MB）")

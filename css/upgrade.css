@@ -662,3 +662,11 @@ nav{grid-template-columns:repeat(4,1fr)}
 /* 勉強とガチャは1画面に収めたので、スクロールで画面が上下しないようにする（iPhone の引っぱったときの揺れも止める）。
    html に .noscroll を付けるのは showPage。揺れは touchmove を止めて防ぐ（CSS だけでは iPhone の Safari で揺れが残る） */
 html.noscroll,html.noscroll body{overflow:hidden;overscroll-behavior:none}
+
+/* 設定の BGM オン・オフ（スイッチ） */
+.st-bgm{display:flex;align-items:center;justify-content:space-between}
+.st-bgm h4{margin:0}
+.tg{display:flex;align-items:center;gap:8px;min-width:96px;padding:6px 12px 6px 6px;border:1px solid #33395a;border-radius:999px;background:#1b2140;color:#aeb2c1;font-weight:700;font-size:14px;cursor:pointer;transition:background .2s,border-color .2s}
+.tg i{width:22px;height:22px;border-radius:50%;background:#5a6078;transition:transform .2s,background .2s}
+.tg.on{flex-direction:row-reverse;padding:6px 6px 6px 12px;border-color:#8a6d2c;background:#3a2f14;color:#f4d477}
+.tg.on i{background:#f4d477;box-shadow:0 0 8px #f4d47788}

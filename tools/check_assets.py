@@ -39,7 +39,7 @@ def check_manifest(named):
             errs.append(f"{src} が差し替えられている {fix}")
     urls = list(man["slots"].values()) + list(man["icons"].values()) + \
         [f[k] for f in man["frames"].values() for k in ("url", "mini")] + \
-        [c[k] for c in man["cards"].values() for k in ("full", "thumb")]
+        [c[k] for c in man["cards"].values() for k in ("full", "thumb")] + list(man.get("bgm", {}).values())
     for u in urls:
         path, v = u.split("?v=")
         p = ROOT / path
@@ -55,8 +55,11 @@ def check_manifest(named):
             continue
         if p.relative_to(ROOT).as_posix() not in man["src"]:
             errs.append(f"{p.relative_to(ROOT).as_posix()} が一覧に入っていない {fix}")
+    for p in sorted((ROOT / "assets" / "bgm").glob("*.mp3")):
+        if p.stem not in man.get("bgm", {}):
+            errs.append(f"BGM {p.relative_to(ROOT).as_posix()} が一覧に入っていない {fix}")
     print(f"画像の一覧（ui_manifest.js）: 背景など {len(man['slots'])}・アイコン {len(man['icons'])}・"
-          f"枠 {len(man['frames'])}・カード {len(man['cards'])}")
+          f"枠 {len(man['frames'])}・カード {len(man['cards'])}・BGM {len(man.get('bgm', {}))}")
     return errs
 
 

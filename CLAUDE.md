@@ -160,6 +160,14 @@ Chromium は `/opt/pw-browsers/chromium` にある（Playwright から `executab
   更新ボタンで開くのは `?v=…`、版の確認は `?check=…` と別の URL なので、ホーム画面のアイコンが開く `index.html` の
   キャッシュは古いまま残る。更新した直後にアプリを閉じて開き直すと、最大10分、古い版に戻っていた（`d` に上げたのに `c` に戻った）
 
+## BGM（`js/bgm.js`、SPEC.md §9.5）
+- **曲を足す・差し替えるときは `tools/make_bgm.py` を通す**（音の大きさを -16 LUFS にそろえ、96kbps の MP3 にする）。
+  もとの曲は -12〜-14.5 LUFS とばらばらで、そのままだと画面を切り替えるたびに音量が跳ねる。そのあと `bake_assets.py`
+- **`play()` はタップの処理の中で同期して呼ぶ**（iPhone は、それ以外の `play()` を断る）。画面の切り替えは `showPage` → `bgmPage` の中で鳴らしている。
+  `setTimeout` や `await` の後ろに回さない。断られたら、次のタップでやり直す（`bgmUnlock`）
+- **音量は `<audio>.volume` で変えない**（iPhone では変わらない）。`bgmFade`（GainNode）を使う
+- ヘッドレスの Chromium では音は聞こえない。`BGM.ch` の `paused`・`currentTime`・`gain` で確かめる。聞こえ方は iPhone の実機で確かめてもらう
+
 ## 画像
 - **画像の生成は Claude ではできない**。プロンプトを用意し、生成は ChatGPT / Grok などに渡す
 - カード画像のプロンプトの書き方は `tools/gen_card_prompts.py` の冒頭に理由つきで書いてある。

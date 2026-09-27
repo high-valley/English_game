@@ -1,6 +1,7 @@
 // 自動生成（tools/bake_assets.py）。直接編集しない。画像を足した・差し替えたら作り直す
 // slots: 背景など  icons: 透過済みアイコン  frames: 透過済みのカード枠と絵の窓の位置
-// cards: カード画像（full: 大きな絵 / thumb: 図鑑の小さなカード用）  src: 元ファイルの中身（作り直し忘れの検出用）
+// cards: カード画像（full: 大きな絵 / thumb: 図鑑の小さなカード用）  bgm: 画面ごとの曲
+// src: 元ファイルの中身（作り直し忘れの検出用）
 const UI_MANIFEST={
  "slots": {
   "home_bg": "assets/ui/home_bg.webp?v=500c7707ed",
@@ -951,6 +952,12 @@ const UI_MANIFEST={
    "full": "assets/cards/write.webp?v=8f893319c6",
    "thumb": "assets/cards/thumb/write.webp?v=db96f6e4f2"
   }
+ },
+ "bgm": {
+  "card": "assets/bgm/card.mp3?v=23a519186f",
+  "gacha": "assets/bgm/gacha.mp3?v=6140edeb72",
+  "home": "assets/bgm/home.mp3?v=d36c498ce1",
+  "study": "assets/bgm/study.mp3?v=9e9c2cbeb6"
  },
  "src": {
   "assets/ui/card_frame.webp": "a0151d9c7d",
