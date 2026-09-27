@@ -670,3 +670,40 @@ html.noscroll,html.noscroll body{overflow:hidden;overscroll-behavior:none}
 .tg i{width:22px;height:22px;border-radius:50%;background:#5a6078;transition:transform .2s,background .2s}
 .tg.on{flex-direction:row-reverse;padding:6px 6px 6px 12px;border-color:#8a6d2c;background:#3a2f14;color:#f4d477}
 .tg.on i{background:#f4d477;box-shadow:0 0 8px #f4d47788}
+
+/* レア以上のカードの箔（絵の前にかぶせる）。RARE は光の帯と少しのきらめき、EPIC は紫〜水色の偏光、LEGENDARY は虹。
+   大きなカード（詳細・ガチャの開封）だけ。図鑑の小カードには付けない（500枚に重ね合わせの効果は重い） */
+@property --fx{syntax:'<number>';inherits:true;initial-value:30}
+@property --fy{syntax:'<number>';inherits:true;initial-value:40}
+.cd3-art .foil{position:absolute;inset:0;width:auto;height:auto;pointer-events:none;z-index:2;overflow:hidden;border-radius:inherit}
+.foil::before,.foil::after,.foil b,.foil b::before{content:"";position:absolute;inset:0}
+/* 光の帯が斜めに走る（右から左へ。走ったあとは少し休む） */
+.foil::before{z-index:3;background:linear-gradient(115deg,transparent 42%,rgba(255,248,220,.55) 50%,transparent 58%) no-repeat;background-size:260% 100%;mix-blend-mode:screen;animation:foilSweep 5s ease-in-out infinite}
+@keyframes foilSweep{0%{background-position:0 0}40%,100%{background-position:100% 0}}
+/* きらめき（小さな光の点が、ずれて明滅する） */
+.foil b{z-index:2;mix-blend-mode:screen;background:
+  radial-gradient(circle at 18% 28%,#fff 0,rgba(255,255,255,.75) .8%,transparent 2.6%),
+  radial-gradient(circle at 72% 18%,#fff 0,rgba(255,255,255,.75) .7%,transparent 2.3%),
+  radial-gradient(circle at 84% 66%,#fff 0,rgba(255,255,255,.75) .8%,transparent 2.5%),
+  radial-gradient(circle at 36% 78%,#fff 0,rgba(255,255,255,.75) .7%,transparent 2.2%);animation:foilTw 2.6s ease-in-out infinite}
+.foil b::before{background:
+  radial-gradient(circle at 55% 40%,#fff 0,rgba(255,255,255,.75) .7%,transparent 2.3%),
+  radial-gradient(circle at 10% 60%,#fff 0,rgba(255,255,255,.75) .8%,transparent 2.5%),
+  radial-gradient(circle at 90% 35%,#fff 0,rgba(255,255,255,.75) .7%,transparent 2.2%);animation:foilTw 2.6s ease-in-out -1.3s infinite}
+@keyframes foilTw{0%,100%{opacity:0}50%{opacity:1}}
+/* 偏光・虹。斜めの帯の中だけに色を乗せ、その帯が --fx / --fy で動く（ふだんはゆっくり往復、指でなぞるとその位置）。
+   全面に乗せると絵が白っぽく流れて見えなくなるので、帯の外は素通しにする */
+.foil::after{z-index:1;background-size:100% 100%;
+  -webkit-mask-image:linear-gradient(115deg,transparent 40%,#000 48.5%,#000 51.5%,transparent 60%);mask-image:linear-gradient(115deg,transparent 40%,#000 48.5%,#000 51.5%,transparent 60%);
+  -webkit-mask-size:300% 300%;mask-size:300% 300%;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;
+  -webkit-mask-position:calc(var(--fx)*1%) calc(var(--fy)*1%);mask-position:calc(var(--fx)*1%) calc(var(--fy)*1%);
+  animation:foilHolo 7s ease-in-out infinite alternate}
+.foil.hold::after{animation:none}
+@keyframes foilHolo{0%{--fx:0;--fy:10}50%{--fx:55;--fy:60}100%{--fx:100;--fy:90}}
+.r-RARE .foil::after{display:none}
+.r-RARE .foil b::before{display:none}
+.r-EPIC .foil::after{mix-blend-mode:color-dodge;opacity:.5;background-image:linear-gradient(115deg,#9a5cff,#4fc8ff 50%,#ffc86e)}
+.r-LEGENDARY .foil::after{mix-blend-mode:color-dodge;opacity:.6;background-image:repeating-linear-gradient(115deg,#ff4d6d 0%,#ffa94d 4%,#ffe14d 8%,#5dff8f 12%,#4dd8ff 16%,#8f5dff 20%,#ff4dd2 24%,#ff4d6d 28%)}
+.r-LEGENDARY .foil b{animation-duration:1.8s}
+.r-LEGENDARY .foil::before{animation-duration:3.8s}
+@media (prefers-reduced-motion:reduce){.foil::before,.foil::after,.foil b,.foil b::before{animation:none}}

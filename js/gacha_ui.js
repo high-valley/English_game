@@ -93,5 +93,5 @@ function reveal(g,st,w,before){
   st.onclick=null;st.classList.add("flip");const lv=RORD.indexOf(w.rarity);
   setTimeout(()=>{g.innerHTML=`<div class="gx-flash on"></div><div class="gx-banner">${lv>=2?"✦ ":""}${w.rarity}${lv>=2?" ✦":""}</div><div class="rv r-${w.rarity}" data-lv="${lv}">${lv>=2?'<i class="rv-rays"></i>':""}${cardFace(w)}<div class="rv-new">${before===0?"NEW!":"GET!"}</div></div>
   <div class="rv-panel"><div><span>コレクション Lv.${S.owned[w.id]}</span><b>×${S.owned[w.id]}</b></div><div><span>熟練度</span><b>${S.mastery[w.id]||0}/5</b></div></div>
-  <button class="gold-btn" onclick="closeGx()">OK</button>${lv>=3?sparks(24):""}`},450)}
+  <button class="gold-btn" onclick="closeGx()">OK</button>${lv>=3?sparks(24):""}`;bindFoil(g)},450)}
 function closeGx(){const g=$(".gx");if(g)g.remove();gacha()}

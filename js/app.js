@@ -49,10 +49,18 @@ function cardArt(w,small){return CARD_IMG[w.en]||ART_SVG[w.en]?artHtml(w,undefin
 // レアリティごとに1つの画像にして使い回す（300枚ぶんの SVG を描くと重いため）
 const SCENE_URL={};
 function sceneUrl(r){return SCENE_URL[r]||(SCENE_URL[r]="data:image/svg+xml;charset=utf-8,"+encodeURIComponent(sceneSvg(r)))}
+// レア以上のカードの絵にかぶせる「箔」（光の帯・きらめき・虹）。大きなカード（詳細・ガチャの開封）だけに付ける。
+// 図鑑の小カード（.mcard）は別の組み立てで、ここを通らない（500枚に重ね合わせの効果を付けると重い）
+const FOIL=["RARE","EPIC","LEGENDARY"];
+// 指でなぞると、虹の向きが指の位置に合わせて動く（離すと、ゆっくり動く状態に戻る）
+function bindFoil(root){const f=root.querySelector(".foil"),c=root.querySelector(".cd3");if(!f||!c)return;let t=0;
+  const mv=(x,y)=>{const r=c.getBoundingClientRect();f.classList.add("hold");f.style.setProperty("--fx",Math.round((x-r.left)/r.width*100));f.style.setProperty("--fy",Math.round((y-r.top)/r.height*100));clearTimeout(t);t=setTimeout(()=>f.classList.remove("hold"),1500)};
+  c.addEventListener("pointermove",e=>mv(e.clientX,e.clientY));
+  c.addEventListener("touchmove",e=>{const p=e.touches[0];if(p)mv(p.clientX,p.clientY)},{passive:true})}
 function cardFace(w){
   const x=CARD_EXTRA[w.en],n=S.owned[w.id]||0,m=S.mastery[w.id]||0,ex=x?x.s:w.ex,tr=x?x.t:w.tr,F=uiFrame(w.rarity),L={...LAYOUT,...(F?LAYOUT_IMG:{}),...(F&&F.art?{art:F.art}:{}),...(F&&F.info?{info:F.info}:{}),...LAYOUT_OVERRIDE};
   return `<div class="cd3 r-${w.rarity}"><div class="cd3-in${F?" imgf":""}">
-  <div class="cd3-art" style="${P(...L.art)}">${cardArt(w)}</div>${F?`<img class="cd3-frame" src="${F.url}" alt="">`:CARD_FRAME}
+  <div class="cd3-art" style="${P(...L.art)}">${cardArt(w)}${FOIL.includes(w.rarity)?'<i class="foil"><b></b></i>':""}</div>${F?`<img class="cd3-frame" src="${F.url}" alt="">`:CARD_FRAME}
   <div class="cd3-star" style="${P(...L.star)}"><span>${"★".repeat(w.stars)}</span><em>${w.rarity==="LEGENDARY"?"LEGEND":w.rarity==="UNCOMMON"?"UNCOMMON":w.rarity}</em></div>
   <div class="cd3-word" style="${P(...L.word)}">WORD</div>
   <div class="cd3-plate" style="${P(...L.plate)}"><span style="font-size:${plateFont(w.en,plateAvail(L,1),10.4)}cqw">${w.en}</span><button onclick="event.stopPropagation();speak('${w.en}')" aria-label="発音">🔊</button></div>
@@ -190,7 +198,7 @@ function cardDetail(id){
   d.className="sheet";d.onclick=e=>{if(e.target===d)d.remove()};
   d.innerHTML=`<div class="sheet-in r-${w.rarity}"><div class="sd-card">${cardFace(w)}</div>
   <div class="rv-panel" style="width:100%;animation:none"><div><span>コレクション Lv.${n}</span><b>×${n}</b></div><div><span>熟練度</span><b>${m}/5</b></div></div></div>`;
-  document.body.appendChild(d)}
+  document.body.appendChild(d);bindFoil(d)}
 
 /* 画面切り替え・起動 */
 let CUR="home";
