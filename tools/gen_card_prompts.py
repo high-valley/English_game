@@ -254,8 +254,8 @@ FOE_LOOK = {
     # Lv.4 EPIC
     "lich": "liches are crowned skeletal sorcerers in tattered dark robes, with green fire "
             "in the eye sockets and a bone staff",
-    "demon": "demons are tall and red-skinned with curved black horns, leathery wings, hooves "
-             "and burning orange eyes",
+    "demon": "demons are tall, upright and humanoid (not dragons), red-skinned with curved black horns, "
+             "leathery wings, hooves and burning orange eyes",
     "necromancer": "necromancers are hollow-cheeked men in deep purple robes with a skull-topped staff",
     "warlock": "warlocks are robed spellcasters in black and violet, with glowing sigils around their hands",
     "cultist": "cultists are faceless figures in identical dark red hooded robes",
@@ -264,8 +264,10 @@ FOE_LOOK = {
     "hydra": "hydras are many-headed green serpent-beasts on one heavy body",
     "giant": "giants are three times a man's height, broad and bearded, in furs and rough iron",
     # Lv.5 LEGENDARY
-    "archdemon": "the archdemon is colossal, deep red and black, with a crown of great curved horns, "
-                 "vast leathery wings and molten cracks across its body",
+    # 竜に描かれやすい（mitigate の1枚目は、角のある赤い竜の頭になった）。人の形だと言い切る
+    "archdemon": "the archdemon is a colossal humanoid demon - not a dragon - standing upright on two legs, "
+                 "with muscular arms, clawed hands and a horned, human-like demonic face; deep red and black, "
+                 "with a crown of great curved horns, vast leathery wings and molten cracks across its body",
     "fiend": "fiends are large demons with black-red hide, many horns and burning eyes",
     "dark lord": "the dark lord is a towering figure in black plate armour with a horned helm "
                  "and a red glow behind the visor",
