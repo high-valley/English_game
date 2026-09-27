@@ -260,7 +260,7 @@ function confirmImport(o){const d=document.createElement("div");d.className="she
 const PAGES=["home","study","gacha","cards"];
 // 1画面に収まる画面。スクロールで上下に動かさない
 const NO_SCROLL=["study","gacha"];
-function showPage(p){clearTimeout(STNEXT);CUR=p;document.documentElement.classList.toggle("noscroll",NO_SCROLL.includes(p));PAGES.forEach(x=>document.body.classList.toggle("is-"+x,x===p));setBg(p);document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x.dataset.p===p));bgmPage(p);({home,study,gacha,cards})[p]();window.scrollTo(0,0)}
+function showPage(p){clearTimeout(STNEXT);if(p==="gacha"&&CUR!=="gacha")GN=1;CUR=p;document.documentElement.classList.toggle("noscroll",NO_SCROLL.includes(p));PAGES.forEach(x=>document.body.classList.toggle("is-"+x,x===p));setBg(p);document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x.dataset.p===p));bgmPage(p);({home,study,gacha,cards})[p]();window.scrollTo(0,0)}
 buildNav();document.querySelectorAll("nav button").forEach(b=>b.addEventListener("click",()=>showPage(b.dataset.p)));
 const gear=$("#gear");if(gear)gear.onclick=openSettings;
 showPage("home");
