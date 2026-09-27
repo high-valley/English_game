@@ -101,7 +101,8 @@ python3 tools/prompt_for.py --next 5 COMMON    # まだ画像が無い語を、�
   `icon_gacha` は129px向けなので、22pxのボタンに置くと塊にしか見えない
 - **ユーザーの iPhone は「視差効果を減らす」（`prefers-reduced-motion: reduce`）がオン。**
   これで止まるアニメーションは、ユーザーの画面では動かない（箔の帯が左に貼りついたまま止まっていた）。
-  動きを足したら、Playwright の `reducedMotion:'reduce'` でも見て、止まったときの形が崩れないかを確かめる
+  **この設定で動きを止めない**（`@media(prefers-reduced-motion:reduce)` を書かない。ユーザー判断で、ホーム・ガチャ・開封演出の分も外した）。
+  Playwright で確かめるときも `reducedMotion:'reduce'` にして、ユーザーの画面と同じ条件で見る
 - 高さは `100vh` ではなく **`100dvh`** を使う。iOS の `100vh` はアドレスバーを除いた「大きい方」の
   高さで、実際の表示領域と食い違う
 - **画面下や高さまわりの不具合も、デスクトップでは再現しないことが多い**（アドレスバーが伸縮しないため）。
