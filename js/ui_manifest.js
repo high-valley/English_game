@@ -240,6 +240,10 @@ const UI_MANIFEST={
    "full": "assets/cards/chair.webp?v=ea6e1554c5",
    "thumb": "assets/cards/thumb/chair.webp?v=352c6040a1"
   },
+  "challenge": {
+   "full": "assets/cards/challenge.webp?v=e2ba7ce172",
+   "thumb": "assets/cards/thumb/challenge.webp?v=287ec0f966"
+  },
   "choose": {
    "full": "assets/cards/choose.webp?v=dc60c534fa",
    "thumb": "assets/cards/thumb/choose.webp?v=d3f8f9aad2"
@@ -620,6 +624,10 @@ const UI_MANIFEST={
    "full": "assets/cards/mountain.webp?v=33966baf23",
    "thumb": "assets/cards/thumb/mountain.webp?v=074ae2a19d"
   },
+  "mystery": {
+   "full": "assets/cards/mystery.webp?v=ccb5007379",
+   "thumb": "assets/cards/thumb/mystery.webp?v=1bd5f9255f"
+  },
   "necessary": {
    "full": "assets/cards/necessary.webp?v=7b5dca03d8",
    "thumb": "assets/cards/thumb/necessary.webp?v=31d6fea049"
@@ -656,6 +664,10 @@ const UI_MANIFEST={
    "full": "assets/cards/play.webp?v=4a6bdb79b8",
    "thumb": "assets/cards/thumb/play.webp?v=de0f5d0193"
   },
+  "popular": {
+   "full": "assets/cards/popular.webp?v=689d35c45e",
+   "thumb": "assets/cards/thumb/popular.webp?v=c0f2813f99"
+  },
   "possible": {
    "full": "assets/cards/possible.webp?v=d0fa8e9ca3",
    "thumb": "assets/cards/thumb/possible.webp?v=e2330eb831"
@@ -667,6 +679,10 @@ const UI_MANIFEST={
   "protect": {
    "full": "assets/cards/protect.webp?v=0a191fd5ad",
    "thumb": "assets/cards/thumb/protect.webp?v=a738275675"
+  },
+  "purpose": {
+   "full": "assets/cards/purpose.webp?v=59a190f724",
+   "thumb": "assets/cards/thumb/purpose.webp?v=ec9b0cf1a3"
   },
   "queen": {
    "full": "assets/cards/queen.webp?v=ff46af30e2",
@@ -908,6 +924,10 @@ const UI_MANIFEST={
    "full": "assets/cards/travel.webp?v=66476c35cb",
    "thumb": "assets/cards/thumb/travel.webp?v=249ce58435"
   },
+  "treasure": {
+   "full": "assets/cards/treasure.webp?v=99f37c52f8",
+   "thumb": "assets/cards/thumb/treasure.webp?v=d9a4f4b378"
+  },
   "tree": {
    "full": "assets/cards/tree.webp?v=f0040be9d7",
    "thumb": "assets/cards/thumb/tree.webp?v=a3f9d68718"
@@ -1047,6 +1067,7 @@ const UI_MANIFEST={
   "assets/cards/catch.webp": "b0915a9a17",
   "assets/cards/cave.webp": "3985501799",
   "assets/cards/chair.webp": "ea6e1554c5",
+  "assets/cards/challenge.webp": "e2ba7ce172",
   "assets/cards/choose.webp": "dc60c534fa",
   "assets/cards/clever.webp": "18fe57816f",
   "assets/cards/climb.webp": "cb37e2e486",
@@ -1142,6 +1163,7 @@ const UI_MANIFEST={
   "assets/cards/morning.webp": "ff393b91af",
   "assets/cards/mother.webp": "8f354facdb",
   "assets/cards/mountain.webp": "33966baf23",
+  "assets/cards/mystery.webp": "ccb5007379",
   "assets/cards/necessary.webp": "7b5dca03d8",
   "assets/cards/never.webp": "e631eeeb9f",
   "assets/cards/new.webp": "cd7bdc58d4",
@@ -1151,9 +1173,11 @@ const UI_MANIFEST={
   "assets/cards/open.webp": "81b64039ce",
   "assets/cards/opportunity.webp": "4c93739424",
   "assets/cards/play.webp": "4a6bdb79b8",
+  "assets/cards/popular.webp": "689d35c45e",
   "assets/cards/possible.webp": "d0fa8e9ca3",
   "assets/cards/problem.webp": "dd1ad37f0b",
   "assets/cards/protect.webp": "0a191fd5ad",
+  "assets/cards/purpose.webp": "59a190f724",
   "assets/cards/queen.webp": "ff46af30e2",
   "assets/cards/question.webp": "3eb3669d27",
   "assets/cards/quiet.webp": "9cdbe1064b",
@@ -1214,6 +1238,7 @@ const UI_MANIFEST={
   "assets/cards/tower.webp": "9349433f22",
   "assets/cards/town.webp": "90fa40b30e",
   "assets/cards/travel.webp": "66476c35cb",
+  "assets/cards/treasure.webp": "99f37c52f8",
   "assets/cards/tree.webp": "f0040be9d7",
   "assets/cards/umbrella.webp": "9b01e7cd69",
   "assets/cards/usually.webp": "81a9f56c9f",
