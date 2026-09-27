@@ -27,13 +27,15 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この214語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この229語は、絵文字ではなく画像で表示されます）。
 
+- achieve
 - always
 - answer
 - apple
 - arrive
 - ask
+- available
 - baby
 - bag
 - beautiful
@@ -63,6 +65,7 @@
 - catch
 - cave
 - chair
+- challenge
 - choose
 - clever
 - climb
@@ -70,6 +73,7 @@
 - cold
 - color
 - come
+- compare
 - consider
 - continue
 - cook
@@ -78,6 +82,7 @@
 - dance
 - dangerous
 - decide
+- describe
 - desert
 - develop
 - different
@@ -131,6 +136,7 @@
 - important
 - improve
 - increase
+- influence
 - island
 - join
 - jump
@@ -149,12 +155,14 @@
 - map
 - market
 - meet
+- memory
 - milk
 - mirror
 - moon
 - morning
 - mother
 - mountain
+- mystery
 - necessary
 - never
 - new
@@ -164,9 +172,12 @@
 - open
 - opportunity
 - play
+- popular
 - possible
+- power
 - problem
 - protect
+- purpose
 - queen
 - question
 - quiet
@@ -191,6 +202,7 @@
 - school
 - sea
 - search
+- secret
 - see
 - send
 - share
@@ -227,9 +239,11 @@
 - tower
 - town
 - travel
+- treasure
 - tree
 - umbrella
 - usually
+- victory
 - village
 - visit
 - wait
@@ -240,6 +254,7 @@
 - wind
 - window
 - winter
+- wisdom
 - woman
 - work
 - write
@@ -1403,7 +1418,7 @@ rich painted anime fantasy illustration, dramatic lighting, golden accents, floa
 
 **269. leader**（指導者）
 ```
-rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: On the rocky ridge, the leader of the werewolf pack howls at the moon. The leader itself is the main subject of the picture: large and clearly visible. If the leader is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Any creature has clear, expressive eyes and a readable face. werewolves are huge upright wolves with grey-brown fur, long arms, yellow eyes and torn human clothing. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a wide view of the place, the subject nearest the viewer and still the largest thing in it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, dramatic lighting, golden accents, floating light particles, detailed scene. Scene: In the goblin camp, the leader in a crooked crown gives orders to his goblins. The leader itself is the main subject of the picture: large and clearly visible. If the leader is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Any creature has clear, expressive eyes and a readable face. goblins are lean and wiry, a head shorter than a man, with sage-green skin, long ears that stick out sideways, a large hooked nose, yellow eyes and sharp teeth, in ragged brown cloth and scraps of leather, barefoot, menacing. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a wide view of the place, the subject nearest the viewer and still the largest thing in it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **270. promise**（約束）

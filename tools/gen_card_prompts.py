@@ -344,6 +344,28 @@ def prompt_for(w):
     return " ".join(parts)
 
 
+
+# ChatGPT に何件かをまとめて1回で渡すための文（Grok の使用制限のため、ChatGPT でも作る）。
+# ChatGPT は1回の返事で1枚しか描かないので、「1枚描いたら止まり、『次』で次を描く」と頼む。
+# ・まとめて頼むと、1枚の中に全部を並べた絵（格子・コラージュ）にされやすいので、はっきり断る
+# ・会話が続くので、前の絵の人物や舞台を次の絵に持ち込みやすい（ゴブリンの絵の次に、関係ない絵にゴブリンが出る）。これも断る
+# ・中のプロンプトは prompt_for と同じ。1件ずつ渡すときと絵柄を変えない
+GPT_WORD = "次"
+
+
+def batch_message(ws):
+    n = len(ws)
+    head = (f"Please create {n} illustrations for a card game, one picture per card, in the order below. "
+            f"Draw ONLY ONE picture per reply: draw picture 1 now, then stop. "
+            f'Each time I reply "{GPT_WORD}", draw the next picture. '
+            "Every picture is separate and independent: never put several cards into one image "
+            "(no grid, no collage, no split panels, no side-by-side), and do not carry characters, creatures "
+            "or places over from an earlier picture unless that card's own description asks for them. "
+            "Every picture is a 3:2 wide landscape image (1536x1024).")
+    cards = [f"[{i}/{n}] {w['en']}\n{prompt_for(w)}" for i, w in enumerate(ws, 1)]
+    return "\n\n".join([head] + cards)
+
+
 def load_words():
     src = WORDS_JS.read_text(encoding="utf-8")
     m = re.search(r"const WORDS=(\[.*?\]);", src, re.S)
