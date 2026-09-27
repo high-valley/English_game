@@ -710,3 +710,5 @@ html.noscroll,html.noscroll body{overflow:hidden;overscroll-behavior:none}
 .r-LEGENDARY .foil b{animation-duration:1.8s}
 /* 「視差効果を減らす」がオンの端末でも止めない（ユーザーの iPhone がオンで、止めると帯が左に貼りついたままになった。
    画面の一部を細い光が横切るだけで、画面ごと動く効果ではないので流す） */
+/* ガチャ：パックを最小にしても入らない低い画面では、見出しと説明の行を隠す（fitGacha が付ける） */
+.gp2.tight .gp2-head,.gp2.tight .gp2-lv-t,.gp2.tight .gp2-rc{display:none}
