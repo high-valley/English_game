@@ -96,6 +96,10 @@ const UI_MANIFEST={
   }
  },
  "cards": {
+  "achieve": {
+   "full": "assets/cards/achieve.webp?v=c2d91a9ef5",
+   "thumb": "assets/cards/thumb/achieve.webp?v=1b3267795d"
+  },
   "always": {
    "full": "assets/cards/always.webp?v=097c3454da",
    "thumb": "assets/cards/thumb/always.webp?v=0b6d786944"
@@ -115,6 +119,10 @@ const UI_MANIFEST={
   "ask": {
    "full": "assets/cards/ask.webp?v=bd332a5ef4",
    "thumb": "assets/cards/thumb/ask.webp?v=8f9447825b"
+  },
+  "available": {
+   "full": "assets/cards/available.webp?v=35dfb1fdd3",
+   "thumb": "assets/cards/thumb/available.webp?v=78b02687ef"
   },
   "baby": {
    "full": "assets/cards/baby.webp?v=73b28579c4",
@@ -260,6 +268,10 @@ const UI_MANIFEST={
    "full": "assets/cards/come.webp?v=26dabb6887",
    "thumb": "assets/cards/thumb/come.webp?v=0723564073"
   },
+  "compare": {
+   "full": "assets/cards/compare.webp?v=e3aa14f835",
+   "thumb": "assets/cards/thumb/compare.webp?v=7161ebc4c0"
+  },
   "consider": {
    "full": "assets/cards/consider.webp?v=4e247de9f8",
    "thumb": "assets/cards/thumb/consider.webp?v=5456ef7efa"
@@ -291,6 +303,10 @@ const UI_MANIFEST={
   "decide": {
    "full": "assets/cards/decide.webp?v=717e762bfa",
    "thumb": "assets/cards/thumb/decide.webp?v=a64db15233"
+  },
+  "describe": {
+   "full": "assets/cards/describe.webp?v=365f379d98",
+   "thumb": "assets/cards/thumb/describe.webp?v=98992adfdc"
   },
   "desert": {
    "full": "assets/cards/desert.webp?v=a09a2f1d6d",
@@ -503,6 +519,10 @@ const UI_MANIFEST={
   "increase": {
    "full": "assets/cards/increase.webp?v=685be1d79f",
    "thumb": "assets/cards/thumb/increase.webp?v=8a12710165"
+  },
+  "influence": {
+   "full": "assets/cards/influence.webp?v=199a55b4d3",
+   "thumb": "assets/cards/thumb/influence.webp?v=7c0f9d4336"
   },
   "island": {
    "full": "assets/cards/island.webp?v=cbc45cc2e1",
@@ -991,11 +1011,13 @@ const UI_MANIFEST={
   "assets/ui/icons/nav_study.png": "a001ce1e4b",
   "assets/ui/icons/nav_gacha.png": "120141d355",
   "assets/ui/icons/nav_cards.png": "a8bc5c1133",
+  "assets/cards/achieve.webp": "c2d91a9ef5",
   "assets/cards/always.webp": "097c3454da",
   "assets/cards/answer.webp": "6866217dbc",
   "assets/cards/apple.webp": "f76931a6e4",
   "assets/cards/arrive.webp": "bc046d27a9",
   "assets/cards/ask.webp": "bd332a5ef4",
+  "assets/cards/available.webp": "35dfb1fdd3",
   "assets/cards/baby.webp": "73b28579c4",
   "assets/cards/bag.webp": "9866dcc052",
   "assets/cards/beautiful.webp": "1bb7327884",
@@ -1032,6 +1054,7 @@ const UI_MANIFEST={
   "assets/cards/cold.webp": "4c406bc8d2",
   "assets/cards/color.webp": "913dd555aa",
   "assets/cards/come.webp": "26dabb6887",
+  "assets/cards/compare.webp": "e3aa14f835",
   "assets/cards/consider.webp": "4e247de9f8",
   "assets/cards/continue.webp": "ddb6f0e162",
   "assets/cards/cook.webp": "fa8c3bea05",
@@ -1040,6 +1063,7 @@ const UI_MANIFEST={
   "assets/cards/dance.webp": "b6b9334488",
   "assets/cards/dangerous.webp": "eb268334fa",
   "assets/cards/decide.webp": "717e762bfa",
+  "assets/cards/describe.webp": "365f379d98",
   "assets/cards/desert.webp": "a09a2f1d6d",
   "assets/cards/develop.webp": "a77dc75791",
   "assets/cards/different.webp": "757a34787e",
@@ -1093,6 +1117,7 @@ const UI_MANIFEST={
   "assets/cards/important.webp": "03e76a23f9",
   "assets/cards/improve.webp": "4f800a6f0a",
   "assets/cards/increase.webp": "685be1d79f",
+  "assets/cards/influence.webp": "199a55b4d3",
   "assets/cards/island.webp": "cbc45cc2e1",
   "assets/cards/join.webp": "d921188b3d",
   "assets/cards/jump.webp": "897d6229c6",
