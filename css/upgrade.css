@@ -674,15 +674,17 @@ html.noscroll,html.noscroll body{overflow:hidden;overscroll-behavior:none}
 .cd3-art .foil{position:absolute;inset:0;width:auto;height:auto;pointer-events:none;z-index:2;overflow:hidden;border-radius:inherit}
 .foil::before,.foil::after{content:"";position:absolute;top:-25%;bottom:-25%;left:0}
 .foil b,.foil b::before{content:"";position:absolute;inset:0}
+/* 帯は、動き出す前もカードの右の外に置いておく（transform の初期値と animation の both）。
+   置いておかないと、開いた直後（白い帯は0.5秒遅れて動き出す）に、帯がカードの左端に縦筋で残って見えた */
 /* 白い光の帯（全レア以上）。6秒ごとに、右の外から左の外へ2.4秒で流れる */
 .foil::before{z-index:3;width:26%;mix-blend-mode:screen;
   background:linear-gradient(90deg,transparent,rgba(255,248,220,.6) 50%,transparent);
-  animation:foilFlowW 6s ease-in-out .5s infinite}
+  transform:translateX(520%) skewX(-18deg);animation:foilFlowW 6s ease-in-out .5s infinite both}
 @keyframes foilFlowW{0%{transform:translateX(520%) skewX(-18deg)}40%,100%{transform:translateX(-200%) skewX(-18deg)}}
 /* 偏光・虹の帯（EPIC・LEGENDARY）。白い帯の少し前を流れる */
 .foil::after{z-index:1;width:48%;
   -webkit-mask-image:linear-gradient(90deg,transparent,#000 35%,#000 65%,transparent);mask-image:linear-gradient(90deg,transparent,#000 35%,#000 65%,transparent);
-  animation:foilFlowC 6s ease-in-out infinite}
+  transform:translateX(270%) skewX(-18deg);animation:foilFlowC 6s ease-in-out infinite both}
 @keyframes foilFlowC{0%{transform:translateX(270%) skewX(-18deg)}40%,100%{transform:translateX(-150%) skewX(-18deg)}}
 /* 指でなぞっている間は、帯を指の位置に置く（--fx は カードの左端 0〜右端 100） */
 .foil.hold::before,.foil.hold::after{animation:none;transition:transform .12s}
