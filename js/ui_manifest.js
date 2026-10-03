@@ -296,6 +296,10 @@ const UI_MANIFEST={
    "full": "assets/cards/crown.webp?v=6b439767a7",
    "thumb": "assets/cards/thumb/crown.webp?v=d2e3547752"
   },
+  "culture": {
+   "full": "assets/cards/culture.webp?v=ec721fe065",
+   "thumb": "assets/cards/thumb/culture.webp?v=aad29dab39"
+  },
   "dance": {
    "full": "assets/cards/dance.webp?v=b6b9334488",
    "thumb": "assets/cards/thumb/dance.webp?v=f9b71e23b4"
@@ -508,6 +512,10 @@ const UI_MANIFEST={
    "full": "assets/cards/help.webp?v=15c4f6a2a4",
    "thumb": "assets/cards/thumb/help.webp?v=d1247e70c5"
   },
+  "history": {
+   "full": "assets/cards/history.webp?v=fc5ba31020",
+   "thumb": "assets/cards/thumb/history.webp?v=7eb217a328"
+  },
   "holiday": {
    "full": "assets/cards/holiday.webp?v=5db13b3d95",
    "thumb": "assets/cards/thumb/holiday.webp?v=8702ad856b"
@@ -571,6 +579,10 @@ const UI_MANIFEST={
   "kitchen": {
    "full": "assets/cards/kitchen.webp?v=627d1b1c00",
    "thumb": "assets/cards/thumb/kitchen.webp?v=e26eb397d1"
+  },
+  "knowledge": {
+   "full": "assets/cards/knowledge.webp?v=fcee1ec6bc",
+   "thumb": "assets/cards/thumb/knowledge.webp?v=3a53aa8041"
   },
   "leader": {
    "full": "assets/cards/leader.webp?v=8ae913c094",
@@ -816,6 +828,10 @@ const UI_MANIFEST={
    "full": "assets/cards/school.webp?v=88771997e1",
    "thumb": "assets/cards/thumb/school.webp?v=dc47f1fbdc"
   },
+  "science": {
+   "full": "assets/cards/science.webp?v=3f584e1c75",
+   "thumb": "assets/cards/thumb/science.webp?v=f40a631b9e"
+  },
   "sea": {
    "full": "assets/cards/sea.webp?v=d71d92f129",
    "thumb": "assets/cards/thumb/sea.webp?v=6b04a710cc"
@@ -967,6 +983,10 @@ const UI_MANIFEST={
   "town": {
    "full": "assets/cards/town.webp?v=90fa40b30e",
    "thumb": "assets/cards/thumb/town.webp?v=5f053f55eb"
+  },
+  "tradition": {
+   "full": "assets/cards/tradition.webp?v=8b5320c861",
+   "thumb": "assets/cards/thumb/tradition.webp?v=a393770f70"
   },
   "travel": {
    "full": "assets/cards/travel.webp?v=66476c35cb",
@@ -1137,6 +1157,7 @@ const UI_MANIFEST={
   "assets/cards/cook.webp": "fa8c3bea05",
   "assets/cards/cross.webp": "fdf23f8be9",
   "assets/cards/crown.webp": "6b439767a7",
+  "assets/cards/culture.webp": "ec721fe065",
   "assets/cards/dance.webp": "b6b9334488",
   "assets/cards/danger.webp": "e776e13b4b",
   "assets/cards/dangerous.webp": "eb268334fa",
@@ -1190,6 +1211,7 @@ const UI_MANIFEST={
   "assets/cards/hat.webp": "634ad230a3",
   "assets/cards/heavy.webp": "98259df225",
   "assets/cards/help.webp": "15c4f6a2a4",
+  "assets/cards/history.webp": "fc5ba31020",
   "assets/cards/holiday.webp": "5db13b3d95",
   "assets/cards/horse.webp": "a93c4bfb25",
   "assets/cards/hospital.webp": "b9b427c800",
@@ -1206,6 +1228,7 @@ const UI_MANIFEST={
   "assets/cards/key.webp": "d9e46c479e",
   "assets/cards/king.webp": "df22c9602d",
   "assets/cards/kitchen.webp": "627d1b1c00",
+  "assets/cards/knowledge.webp": "fcee1ec6bc",
   "assets/cards/leader.webp": "8ae913c094",
   "assets/cards/learn.webp": "0c1e9d2f05",
   "assets/cards/leave.webp": "ad8e3e5baa",
@@ -1267,6 +1290,7 @@ const UI_MANIFEST={
   "assets/cards/safe.webp": "fa56798fb6",
   "assets/cards/save.webp": "6b4371c415",
   "assets/cards/school.webp": "88771997e1",
+  "assets/cards/science.webp": "3f584e1c75",
   "assets/cards/sea.webp": "d71d92f129",
   "assets/cards/search.webp": "c6a71c7203",
   "assets/cards/secret.webp": "06bf438d52",
@@ -1305,6 +1329,7 @@ const UI_MANIFEST={
   "assets/cards/together.webp": "aea63cd346",
   "assets/cards/tower.webp": "9349433f22",
   "assets/cards/town.webp": "90fa40b30e",
+  "assets/cards/tradition.webp": "8b5320c861",
   "assets/cards/travel.webp": "66476c35cb",
   "assets/cards/treasure.webp": "99f37c52f8",
   "assets/cards/tree.webp": "f0040be9d7",
