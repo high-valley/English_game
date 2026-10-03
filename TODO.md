@@ -1,7 +1,7 @@
 # WORD GRIMOIRE ― 次にやるタスク
 
 ## 次のタスク（優先順）
-1. **カード画像の作成（EPIC）**。**COMMON・UNCOMMON・RARE は 100/100 で完成**。EPIC は 13/100（全体 314/500）。
+1. **カード画像の作成（EPIC）**。**COMMON・UNCOMMON・RARE は 100/100 で完成**。EPIC は 33/100（全体 334/500）。
    EPIC の例文は生成の前に見直し済み（98語を書き換えた）。
    `card_image_next.md` の先頭が次に作る分（`python3 tools/gen_next_batch.py` で出し直す）
    - 画像の生成は画像生成AI（ChatGPT / Grok など）に頼む（Claude は画像を作れない）
@@ -55,6 +55,7 @@
 - `icon_coin` を作り直す場合は `assets/ui/icon_prompts.md`（金色が主体で、暗い面を作らないこと）
 
 ## 完了済み
+- EPIC のカード画像を20枚追加（maintain / enhance / criteria / priority / comprehensive / demonstrate / assumption / concept / context / contract / decade / dimension / economy / element / enterprise / equipment / expansion / factor / feature / foundation）。EPIC は 33/100、全体 334/500
 - **RARE のカード画像 100枚が完成**（最後は ordinary / rare / serious / useful / wise / actually / especially / recently / probably）。EPIC も11枚追加（implement / potential / perspective / alternative / consequence / accurate / efficient / strategy / evaluate / analyze / establish）。全体 314/500
 - 背景を日本時間で昼（6〜18時、`〜_day`）と夜（18〜6時）に切り替えた（ホーム・勉強・ガチャ・図鑑）
 - 蜘蛛が描かれていた COMMON の3枚（`book` / `big` / `room`）を、例文を変えて作り直した

@@ -4,23 +4,23 @@
 
 | 順 | 単語 | 保存するファイル名（960x640 の WebP に小さくしてから） | プロンプトのファイル | 例文（日本語） |
 |---|---|---|---|---|
-| 1 | maintain（維持する） | incoming/maintain.webp | gpt_tasks/next/01_maintain.txt | 町の城壁の上で、魔法使いたちが外の魔物に対して輝く結界を保ち続ける。 |
-| 2 | enhance（高める） | incoming/enhance.webp | gpt_tasks/next/02_enhance.txt | 宝石店で、青い宝石が魔法の指輪の輝きを高める。 |
-| 3 | criteria（基準） | incoming/criteria.webp | gpt_tasks/next/03_criteria.txt | 訓練場で、若い騎士がすべての基準を満たし、王の紋章を受け取る。 |
-| 4 | priority（優先事項） | incoming/priority.webp | gpt_tasks/next/04_priority.txt | 燃える村で、騎士たちは子どもたちを救うことを最優先にする。 |
-| 5 | comprehensive（包括的な） | incoming/comprehensive.webp | gpt_tasks/next/05_comprehensive.txt | 大図書館で、修道士たちが世界中の怪物を網羅した本を守っている。 |
-| 6 | demonstrate（実演する） | incoming/demonstrate.webp | gpt_tasks/next/06_demonstrate.txt | 教室で、師匠が水を氷に変える呪文を実演してみせる。 |
-| 7 | assumption（前提） | incoming/assumption.webp | gpt_tasks/next/07_assumption.txt | 洞窟で、勇者たちはヒドラが眠っているという思い込みで進むが、首のひとつが目を開ける。 |
-| 8 | concept（概念） | incoming/concept.webp | gpt_tasks/next/08_concept.txt | 塔で、老魔法使いが宙に浮かぶ金の砂時計を使って、時間という概念を説明する。 |
-| 9 | context（文脈） | incoming/context.webp | gpt_tasks/next/09_context.txt | 遺跡で、探検家がひとつの奇妙なルーンの文脈を知るために、壁一面を読み解く。 |
-| 10 | contract（契約） | incoming/contract.webp | gpt_tasks/next/10_contract.txt | 血の月の下で、魔術師が悪魔と燃える契約書に署名する。 |
-| 11 | decade（十年間） | incoming/decade.webp | gpt_tasks/next/11_decade.txt | 城で、古い城壁が十年にわたる嵐と包囲に耐えて、今も立っている。 |
-| 12 | dimension（次元） | incoming/dimension.webp | gpt_tasks/next/12_dimension.txt | 祭壇の上に門が開き、別の次元から悪魔たちがあふれ出る。 |
-| 13 | economy（経済） | incoming/economy.webp | gpt_tasks/next/13_economy.txt | 都で、新しい橋とにぎわう商店が、王国の成長する経済を物語る。 |
-| 14 | element（要素） | incoming/element.webp | gpt_tasks/next/14_element.txt | 学院の中庭で、四人の生徒がそれぞれひとつの元素（火・水・土・風）を操る。 |
-| 15 | enterprise（企業） | incoming/enterprise.webp | gpt_tasks/next/15_enterprise.txt | 造船所で、商人たちが新しい事業である巨大な空飛ぶ船を進水させる。 |
-| 16 | equipment（設備） | incoming/equipment.webp | gpt_tasks/next/16_equipment.txt | 鉱山の入り口で、ドワーフたちが採掘の道具とランタンを点検する。 |
-| 17 | expansion（拡大） | incoming/expansion.webp | gpt_tasks/next/17_expansion.txt | 辺境で、帝国の拡大によって森の中へ新しい道と砦が延びていく。 |
-| 18 | factor（要因） | incoming/factor.webp | gpt_tasks/next/18_factor.txt | 戦場で、聖なる炎がアンデッドの軍勢に対する決め手となる。 |
-| 19 | feature（特徴） | incoming/feature.webp | gpt_tasks/next/19_feature.txt | 魔法使いの塔のいちばん目を引く特徴は、光る水晶の屋根だ。 |
-| 20 | foundation（土台） | incoming/foundation.webp | gpt_tasks/next/20_foundation.txt | 黒い神殿の下で、眠る悪魔が土台の中に横たわっている。 |
+| 1 | framework（枠組み） | incoming/framework.webp | gpt_tasks/next/01_framework.txt | 町の広場で、職人たちが新しい劇場の木の骨組みを組み上げる。 |
+| 2 | function（機能） | incoming/function.webp | gpt_tasks/next/02_function.txt | 塔で、その水晶にはひとつの働きがある。月の光をためて夜に光るのだ。 |
+| 3 | hypothesis（仮説） | incoming/hypothesis.webp | gpt_tasks/next/03_hypothesis.txt | 崖の上で、学者が大きさの違う二つの石を落として、自分の仮説を確かめる。 |
+| 4 | identity（正体） | incoming/identity.webp | gpt_tasks/next/04_identity.txt | 仮面舞踏会で、仮面の貴族がヴァンパイアという正体を明かす。 |
+| 5 | impact（衝撃） | incoming/impact.webp | gpt_tasks/next/05_impact.txt | 砂漠で、巨神のこぶしが大きな衝撃を起こし、砂の壁を巻き上げる。 |
+| 6 | industry（産業） | incoming/industry.webp | gpt_tasks/next/06_industry.txt | 谷で、新しい炉の煙が、成長する製鉄の産業を物語る。 |
+| 7 | initiative（主導権） | incoming/initiative.webp | gpt_tasks/next/07_initiative.txt | 沈みかけた船で、見習いの少年が自分から進んで、船乗りたちにロープを投げる。 |
+| 8 | institution（機関） | incoming/institution.webp | gpt_tasks/next/08_institution.txt | 丘の上に、各地から来た若い魔法使いたちが学ぶ王立の学院が建っている。 |
+| 9 | investment（投資） | incoming/investment.webp | gpt_tasks/next/09_investment.txt | 港で、王が新しい船に投じた資金が、金の詰まった箱となって戻ってくる。 |
+| 10 | mechanism（仕組み） | incoming/mechanism.webp | gpt_tasks/next/10_mechanism.txt | 宝物庫で、隠された歯車の仕掛けが丸い石の扉をゆっくり開く。 |
+| 11 | objective（目標） | incoming/objective.webp | gpt_tasks/next/11_objective.txt | 死霊使いの塔で、勇者たちの目的は名前の書を焼き払うことだ。 |
+| 12 | outcome（結末） | incoming/outcome.webp | gpt_tasks/next/12_outcome.txt | チェス盤の前で、宮廷の人々が、王と魔術師の勝負の結果を見守る。 |
+| 13 | principle（原則） | incoming/principle.webp | gpt_tasks/next/13_principle.txt | 吹雪の中で、騎士はひとつの信条に従い、傷ついた友を背負って帰る。 |
+| 14 | procedure（手順） | incoming/procedure.webp | gpt_tasks/next/14_procedure.txt | 神殿で、神官が慎重な手順に従い、光る円の中に悪魔を封じる。 |
+| 15 | proposal（提案） | incoming/proposal.webp | gpt_tasks/next/15_proposal.txt | 議会の広間で、女王が大きな巻物に描いた橋を見せ、自分の提案を示す。 |
+| 16 | prospect（見通し） | incoming/prospect.webp | gpt_tasks/next/16_prospect.txt | 丘から、農夫たちが黄金色の畑に豊かな実りの見込みを見る。 |
+| 17 | sector（部門） | incoming/sector.webp | gpt_tasks/next/17_sector.txt | 都市で、職人たちの区域はにぎやかな工房と燃える炉でいっぱいだ。 |
+| 18 | standard（標準） | incoming/standard.webp | gpt_tasks/next/18_standard.txt | 鍛冶場で、親方の新しい剣が品質の新しい基準となる。 |
+| 19 | theory（理論） | incoming/theory.webp | gpt_tasks/next/19_theory.txt | 浮島の上で、教授が光る石の模型を使って自分の理論を説明する。 |
+| 20 | adapt（適応する） | incoming/adapt.webp | gpt_tasks/next/20_adapt.txt | 凍える北の地で、子ギツネが白い毛を生やして冬に適応する。 |
