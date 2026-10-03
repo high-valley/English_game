@@ -280,6 +280,10 @@ const UI_MANIFEST={
    "full": "assets/cards/come.webp?v=26dabb6887",
    "thumb": "assets/cards/thumb/come.webp?v=0723564073"
   },
+  "community": {
+   "full": "assets/cards/community.webp?v=34dc9d06e7",
+   "thumb": "assets/cards/thumb/community.webp?v=4af503745d"
+  },
   "compare": {
    "full": "assets/cards/compare.webp?v=e3aa14f835",
    "thumb": "assets/cards/thumb/compare.webp?v=7161ebc4c0"
@@ -379,6 +383,10 @@ const UI_MANIFEST={
   "effective": {
    "full": "assets/cards/effective.webp?v=92d9541f0d",
    "thumb": "assets/cards/thumb/effective.webp?v=46b4e0767b"
+  },
+  "effort": {
+   "full": "assets/cards/effort.webp?v=224410e38e",
+   "thumb": "assets/cards/thumb/effort.webp?v=57788bd87d"
   },
   "egg": {
    "full": "assets/cards/egg.webp?v=4919f0529e",
@@ -571,6 +579,10 @@ const UI_MANIFEST={
   "influence": {
    "full": "assets/cards/influence.webp?v=199a55b4d3",
    "thumb": "assets/cards/thumb/influence.webp?v=7c0f9d4336"
+  },
+  "invention": {
+   "full": "assets/cards/invention.webp?v=ff1a1318d2",
+   "thumb": "assets/cards/thumb/invention.webp?v=dc410fb2ee"
   },
   "island": {
    "full": "assets/cards/island.webp?v=cbc45cc2e1",
@@ -832,6 +844,10 @@ const UI_MANIFEST={
    "full": "assets/cards/room.webp?v=4b6841832a",
    "thumb": "assets/cards/thumb/room.webp?v=3ee5148e3a"
   },
+  "rule": {
+   "full": "assets/cards/rule.webp?v=6068584297",
+   "thumb": "assets/cards/thumb/rule.webp?v=351ba6bb29"
+  },
   "run": {
    "full": "assets/cards/run.webp?v=78c18880c6",
    "thumb": "assets/cards/thumb/run.webp?v=bae49559d9"
@@ -1024,6 +1040,10 @@ const UI_MANIFEST={
    "full": "assets/cards/tree.webp?v=f0040be9d7",
    "thumb": "assets/cards/thumb/tree.webp?v=a3f9d68718"
   },
+  "truth": {
+   "full": "assets/cards/truth.webp?v=76c3bd7d14",
+   "thumb": "assets/cards/thumb/truth.webp?v=e83649aa2d"
+  },
   "umbrella": {
    "full": "assets/cards/umbrella.webp?v=9b01e7cd69",
    "thumb": "assets/cards/thumb/umbrella.webp?v=4735f11f7d"
@@ -1177,6 +1197,7 @@ const UI_MANIFEST={
   "assets/cards/cold.webp": "4c406bc8d2",
   "assets/cards/color.webp": "913dd555aa",
   "assets/cards/come.webp": "26dabb6887",
+  "assets/cards/community.webp": "34dc9d06e7",
   "assets/cards/compare.webp": "e3aa14f835",
   "assets/cards/consider.webp": "4e247de9f8",
   "assets/cards/continue.webp": "ddb6f0e162",
@@ -1202,6 +1223,7 @@ const UI_MANIFEST={
   "assets/cards/drink.webp": "85c9cea52d",
   "assets/cards/eat.webp": "81c58c7a23",
   "assets/cards/effective.webp": "92d9541f0d",
+  "assets/cards/effort.webp": "224410e38e",
   "assets/cards/egg.webp": "4919f0529e",
   "assets/cards/empty.webp": "f78cd23bfc",
   "assets/cards/energy.webp": "2a0bc806fa",
@@ -1250,6 +1272,7 @@ const UI_MANIFEST={
   "assets/cards/improve.webp": "4f800a6f0a",
   "assets/cards/increase.webp": "685be1d79f",
   "assets/cards/influence.webp": "199a55b4d3",
+  "assets/cards/invention.webp": "ff1a1318d2",
   "assets/cards/island.webp": "cbc45cc2e1",
   "assets/cards/join.webp": "d921188b3d",
   "assets/cards/journey.webp": "a3a6b449ee",
@@ -1315,6 +1338,7 @@ const UI_MANIFEST={
   "assets/cards/river.webp": "be6a6cb563",
   "assets/cards/road.webp": "fa005857e0",
   "assets/cards/room.webp": "4b6841832a",
+  "assets/cards/rule.webp": "6068584297",
   "assets/cards/run.webp": "78c18880c6",
   "assets/cards/safe.webp": "fa56798fb6",
   "assets/cards/save.webp": "6b4371c415",
@@ -1363,6 +1387,7 @@ const UI_MANIFEST={
   "assets/cards/travel.webp": "66476c35cb",
   "assets/cards/treasure.webp": "99f37c52f8",
   "assets/cards/tree.webp": "f0040be9d7",
+  "assets/cards/truth.webp": "76c3bd7d14",
   "assets/cards/umbrella.webp": "9b01e7cd69",
   "assets/cards/usually.webp": "81a9f56c9f",
   "assets/cards/victory.webp": "a3e77ca2ef",

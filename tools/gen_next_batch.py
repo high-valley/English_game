@@ -27,6 +27,9 @@ from check_words import ENEMIES, has  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 OUT_MD = ROOT / "card_image_next.md"
 DEFAULT_N = 40
+# ChatGPT に出す件数。5件ずつだと、取り込みの PR をマージするまで次を頼めない。
+# 20件出しておき、ChatGPT が gpt-images に無いものから描く（マージを待たずに続けられ、会話を分けて同時にも頼める）
+GPT_N = 20
 
 
 def enemies_in(ex):
@@ -34,7 +37,7 @@ def enemies_in(ex):
 
 
 def write_gpt_tasks(first):
-    """ChatGPT が GitHub から読んで描くための、次の5件（gpt_tasks/README.md の手順で使う）。
+    """ChatGPT が GitHub から読んで描くための、次の GPT_N 件（gpt_tasks/README.md の手順で使う）。
     1件ずつ別のファイルにして、中身はそのカードのプロンプトだけにする。
     長いファイルの中の5件を読ませたら、2枚目以降はプロンプトを読まずに単語のイメージだけで描かれたため
     （energy / nature / peace / freedom）"""
@@ -42,8 +45,9 @@ def write_gpt_tasks(first):
     d.mkdir(parents=True, exist_ok=True)
     for f in d.glob("*.txt"):
         f.unlink()
-    rows = ["# 次に描く5枚（自動生成：tools/gen_next_batch.py。直接編集しない）", "",
-            "| 順 | 単語 | 保存するファイル名（1200x800 の WebP に小さくしてから） | プロンプトのファイル | 例文（日本語） |", "|---|---|---|---|---|"]
+    rows = [f"# 次に描く{len(first)}枚（自動生成：tools/gen_next_batch.py。直接編集しない）", "",
+            "上から順に、`gpt-images` ブランチの `incoming/` に**まだ無いもの**だけを描く。", "",
+            "| 順 | 単語 | 保存するファイル名（960x640 の WebP に小さくしてから） | プロンプトのファイル | 例文（日本語） |", "|---|---|---|---|---|"]
     for i, w in enumerate(first, 1):
         name = f"{i:02d}_{w['en']}.txt"
         (d / name).write_text(prompt_for(w) + "\n", encoding="utf-8")
@@ -135,7 +139,7 @@ def main():
 
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
-    write_gpt_tasks(batch[:5])
+    write_gpt_tasks(batch[:GPT_N])
 
     by_r = {r: sum(1 for w in batch if w["rarity"] == r) for r in LEVELS}
     with_foe = sum(1 for w in batch if enemies_in(w["ex"]))
