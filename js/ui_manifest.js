@@ -100,17 +100,33 @@ const UI_MANIFEST={
    "full": "assets/cards/ability.webp?v=29f1fe4473",
    "thumb": "assets/cards/thumb/ability.webp?v=6a0412a2c0"
   },
+  "accurate": {
+   "full": "assets/cards/accurate.webp?v=306a65f0f9",
+   "thumb": "assets/cards/thumb/accurate.webp?v=f2c6e2811f"
+  },
   "achieve": {
    "full": "assets/cards/achieve.webp?v=c2d91a9ef5",
    "thumb": "assets/cards/thumb/achieve.webp?v=1b3267795d"
+  },
+  "actually": {
+   "full": "assets/cards/actually.webp?v=e8259d0b3e",
+   "thumb": "assets/cards/thumb/actually.webp?v=ad37da9294"
   },
   "advantage": {
    "full": "assets/cards/advantage.webp?v=798b822585",
    "thumb": "assets/cards/thumb/advantage.webp?v=50c71557c3"
   },
+  "alternative": {
+   "full": "assets/cards/alternative.webp?v=4ab4b75c46",
+   "thumb": "assets/cards/thumb/alternative.webp?v=f22ac54999"
+  },
   "always": {
    "full": "assets/cards/always.webp?v=097c3454da",
    "thumb": "assets/cards/thumb/always.webp?v=0b6d786944"
+  },
+  "analyze": {
+   "full": "assets/cards/analyze.webp?v=397063e277",
+   "thumb": "assets/cards/thumb/analyze.webp?v=84413f81f7"
   },
   "ancient": {
    "full": "assets/cards/ancient.webp?v=4e53d52a71",
@@ -316,6 +332,10 @@ const UI_MANIFEST={
    "full": "assets/cards/connect.webp?v=b44443af71",
    "thumb": "assets/cards/thumb/connect.webp?v=cd8fd296ae"
   },
+  "consequence": {
+   "full": "assets/cards/consequence.webp?v=0535746604",
+   "thumb": "assets/cards/thumb/consequence.webp?v=65521561b5"
+  },
   "consider": {
    "full": "assets/cards/consider.webp?v=4e247de9f8",
    "thumb": "assets/cards/thumb/consider.webp?v=5456ef7efa"
@@ -444,6 +464,10 @@ const UI_MANIFEST={
    "full": "assets/cards/effective.webp?v=92d9541f0d",
    "thumb": "assets/cards/thumb/effective.webp?v=46b4e0767b"
   },
+  "efficient": {
+   "full": "assets/cards/efficient.webp?v=b61715afe4",
+   "thumb": "assets/cards/thumb/efficient.webp?v=1f03be9a9c"
+  },
   "effort": {
    "full": "assets/cards/effort.webp?v=224410e38e",
    "thumb": "assets/cards/thumb/effort.webp?v=57788bd87d"
@@ -471,6 +495,18 @@ const UI_MANIFEST={
   "environment": {
    "full": "assets/cards/environment.webp?v=f57504e244",
    "thumb": "assets/cards/thumb/environment.webp?v=d553c564bf"
+  },
+  "especially": {
+   "full": "assets/cards/especially.webp?v=348fffad20",
+   "thumb": "assets/cards/thumb/especially.webp?v=a97f4afe66"
+  },
+  "establish": {
+   "full": "assets/cards/establish.webp?v=665d5df206",
+   "thumb": "assets/cards/thumb/establish.webp?v=a0e3354a04"
+  },
+  "evaluate": {
+   "full": "assets/cards/evaluate.webp?v=eab6ad9e61",
+   "thumb": "assets/cards/thumb/evaluate.webp?v=521a743669"
   },
   "evidence": {
    "full": "assets/cards/evidence.webp?v=8b37058108",
@@ -664,6 +700,10 @@ const UI_MANIFEST={
    "full": "assets/cards/imagine.webp?v=4aa04610fa",
    "thumb": "assets/cards/thumb/imagine.webp?v=340d8b50d8"
   },
+  "implement": {
+   "full": "assets/cards/implement.webp?v=7bacaea7d4",
+   "thumb": "assets/cards/thumb/implement.webp?v=3e17a30a79"
+  },
   "important": {
    "full": "assets/cards/important.webp?v=03e76a23f9",
    "thumb": "assets/cards/thumb/important.webp?v=23523fb023"
@@ -848,9 +888,17 @@ const UI_MANIFEST={
    "full": "assets/cards/opportunity.webp?v=4c93739424",
    "thumb": "assets/cards/thumb/opportunity.webp?v=f032cf7a18"
   },
+  "ordinary": {
+   "full": "assets/cards/ordinary.webp?v=4bf198f9d2",
+   "thumb": "assets/cards/thumb/ordinary.webp?v=8e09cc19ae"
+  },
   "peace": {
    "full": "assets/cards/peace.webp?v=36d626f589",
    "thumb": "assets/cards/thumb/peace.webp?v=620a4b9207"
+  },
+  "perspective": {
+   "full": "assets/cards/perspective.webp?v=0edb985cc9",
+   "thumb": "assets/cards/thumb/perspective.webp?v=e32e4b01fa"
   },
   "play": {
    "full": "assets/cards/play.webp?v=4a6bdb79b8",
@@ -863,6 +911,10 @@ const UI_MANIFEST={
   "possible": {
    "full": "assets/cards/possible.webp?v=d0fa8e9ca3",
    "thumb": "assets/cards/thumb/possible.webp?v=e2330eb831"
+  },
+  "potential": {
+   "full": "assets/cards/potential.webp?v=fc7edba210",
+   "thumb": "assets/cards/thumb/potential.webp?v=8004181e66"
   },
   "power": {
    "full": "assets/cards/power.webp?v=3847408455",
@@ -879,6 +931,10 @@ const UI_MANIFEST={
   "prevent": {
    "full": "assets/cards/prevent.webp?v=fc99736892",
    "thumb": "assets/cards/thumb/prevent.webp?v=47b7ac6ba7"
+  },
+  "probably": {
+   "full": "assets/cards/probably.webp?v=b1e7beb91a",
+   "thumb": "assets/cards/thumb/probably.webp?v=47b0830689"
   },
   "problem": {
    "full": "assets/cards/problem.webp?v=dd1ad37f0b",
@@ -912,6 +968,10 @@ const UI_MANIFEST={
    "full": "assets/cards/rain.webp?v=01f995fee5",
    "thumb": "assets/cards/thumb/rain.webp?v=f14d4df3d7"
   },
+  "rare": {
+   "full": "assets/cards/rare.webp?v=56c5100092",
+   "thumb": "assets/cards/thumb/rare.webp?v=3ef7bb8954"
+  },
   "read": {
    "full": "assets/cards/read.webp?v=de4a20bbfc",
    "thumb": "assets/cards/thumb/read.webp?v=0762156ad0"
@@ -923,6 +983,10 @@ const UI_MANIFEST={
   "reason": {
    "full": "assets/cards/reason.webp?v=8d4fa1b16d",
    "thumb": "assets/cards/thumb/reason.webp?v=07d5833823"
+  },
+  "recently": {
+   "full": "assets/cards/recently.webp?v=0f12f4fc51",
+   "thumb": "assets/cards/thumb/recently.webp?v=289810d683"
   },
   "recognize": {
    "full": "assets/cards/recognize.webp?v=10c9a1891e",
@@ -1036,6 +1100,10 @@ const UI_MANIFEST={
    "full": "assets/cards/send.webp?v=6bdb1f0407",
    "thumb": "assets/cards/thumb/send.webp?v=16f469f66d"
   },
+  "serious": {
+   "full": "assets/cards/serious.webp?v=21d6dd895e",
+   "thumb": "assets/cards/thumb/serious.webp?v=9c3e775a1d"
+  },
   "share": {
    "full": "assets/cards/share.webp?v=4b1f0283f9",
    "thumb": "assets/cards/thumb/share.webp?v=abb9c3f061"
@@ -1111,6 +1179,10 @@ const UI_MANIFEST={
   "story": {
    "full": "assets/cards/story.webp?v=211addb42f",
    "thumb": "assets/cards/thumb/story.webp?v=0e49926e64"
+  },
+  "strategy": {
+   "full": "assets/cards/strategy.webp?v=5b3a59b33d",
+   "thumb": "assets/cards/thumb/strategy.webp?v=12bca9bf80"
   },
   "strong": {
    "full": "assets/cards/strong.webp?v=21868fa2d7",
@@ -1204,6 +1276,10 @@ const UI_MANIFEST={
    "full": "assets/cards/umbrella.webp?v=9b01e7cd69",
    "thumb": "assets/cards/thumb/umbrella.webp?v=4735f11f7d"
   },
+  "useful": {
+   "full": "assets/cards/useful.webp?v=3aa6538cd4",
+   "thumb": "assets/cards/thumb/useful.webp?v=60de1abd6f"
+  },
   "usually": {
    "full": "assets/cards/usually.webp?v=81a9f56c9f",
    "thumb": "assets/cards/thumb/usually.webp?v=25df26fa89"
@@ -1260,6 +1336,10 @@ const UI_MANIFEST={
    "full": "assets/cards/wisdom.webp?v=2be4a3b6be",
    "thumb": "assets/cards/thumb/wisdom.webp?v=95f4351711"
   },
+  "wise": {
+   "full": "assets/cards/wise.webp?v=1b154edb90",
+   "thumb": "assets/cards/thumb/wise.webp?v=1380c52ae5"
+  },
   "woman": {
    "full": "assets/cards/woman.webp?v=03cae6c604",
    "thumb": "assets/cards/thumb/woman.webp?v=96db7b1a6a"
@@ -1312,9 +1392,13 @@ const UI_MANIFEST={
   "assets/ui/icons/nav_gacha.png": "120141d355",
   "assets/ui/icons/nav_cards.png": "a8bc5c1133",
   "assets/cards/ability.webp": "29f1fe4473",
+  "assets/cards/accurate.webp": "306a65f0f9",
   "assets/cards/achieve.webp": "c2d91a9ef5",
+  "assets/cards/actually.webp": "e8259d0b3e",
   "assets/cards/advantage.webp": "798b822585",
+  "assets/cards/alternative.webp": "4ab4b75c46",
   "assets/cards/always.webp": "097c3454da",
+  "assets/cards/analyze.webp": "397063e277",
   "assets/cards/ancient.webp": "4e53d52a71",
   "assets/cards/answer.webp": "6866217dbc",
   "assets/cards/apple.webp": "f76931a6e4",
@@ -1366,6 +1450,7 @@ const UI_MANIFEST={
   "assets/cards/community.webp": "34dc9d06e7",
   "assets/cards/compare.webp": "e3aa14f835",
   "assets/cards/connect.webp": "b44443af71",
+  "assets/cards/consequence.webp": "0535746604",
   "assets/cards/consider.webp": "4e247de9f8",
   "assets/cards/contain.webp": "bcc73d9877",
   "assets/cards/continue.webp": "ddb6f0e162",
@@ -1398,6 +1483,7 @@ const UI_MANIFEST={
   "assets/cards/drink.webp": "85c9cea52d",
   "assets/cards/eat.webp": "81c58c7a23",
   "assets/cards/effective.webp": "92d9541f0d",
+  "assets/cards/efficient.webp": "b61715afe4",
   "assets/cards/effort.webp": "224410e38e",
   "assets/cards/egg.webp": "4919f0529e",
   "assets/cards/empty.webp": "f78cd23bfc",
@@ -1405,6 +1491,9 @@ const UI_MANIFEST={
   "assets/cards/enjoy.webp": "e6c8ea1973",
   "assets/cards/enormous.webp": "1269edee4a",
   "assets/cards/environment.webp": "f57504e244",
+  "assets/cards/especially.webp": "348fffad20",
+  "assets/cards/establish.webp": "665d5df206",
+  "assets/cards/evaluate.webp": "eab6ad9e61",
   "assets/cards/evidence.webp": "8b37058108",
   "assets/cards/exist.webp": "43803759ed",
   "assets/cards/expect.webp": "26ff3753c2",
@@ -1453,6 +1542,7 @@ const UI_MANIFEST={
   "assets/cards/hot.webp": "b53b5afdc4",
   "assets/cards/house.webp": "9198475e5a",
   "assets/cards/imagine.webp": "4aa04610fa",
+  "assets/cards/implement.webp": "7bacaea7d4",
   "assets/cards/important.webp": "03e76a23f9",
   "assets/cards/improve.webp": "4f800a6f0a",
   "assets/cards/increase.webp": "685be1d79f",
@@ -1499,14 +1589,18 @@ const UI_MANIFEST={
   "assets/cards/old.webp": "d36cb3415c",
   "assets/cards/open.webp": "81b64039ce",
   "assets/cards/opportunity.webp": "4c93739424",
+  "assets/cards/ordinary.webp": "4bf198f9d2",
   "assets/cards/peace.webp": "36d626f589",
+  "assets/cards/perspective.webp": "0edb985cc9",
   "assets/cards/play.webp": "4a6bdb79b8",
   "assets/cards/popular.webp": "689d35c45e",
   "assets/cards/possible.webp": "d0fa8e9ca3",
+  "assets/cards/potential.webp": "fc7edba210",
   "assets/cards/power.webp": "3847408455",
   "assets/cards/powerful.webp": "948c988966",
   "assets/cards/prepare.webp": "60bc63ad11",
   "assets/cards/prevent.webp": "fc99736892",
+  "assets/cards/probably.webp": "b1e7beb91a",
   "assets/cards/problem.webp": "dd1ad37f0b",
   "assets/cards/promise.webp": "ac1b38ea65",
   "assets/cards/protect.webp": "0a191fd5ad",
@@ -1515,9 +1609,11 @@ const UI_MANIFEST={
   "assets/cards/question.webp": "3eb3669d27",
   "assets/cards/quiet.webp": "9cdbe1064b",
   "assets/cards/rain.webp": "01f995fee5",
+  "assets/cards/rare.webp": "56c5100092",
   "assets/cards/read.webp": "de4a20bbfc",
   "assets/cards/ready.webp": "9459c40143",
   "assets/cards/reason.webp": "8d4fa1b16d",
+  "assets/cards/recently.webp": "0f12f4fc51",
   "assets/cards/recognize.webp": "10c9a1891e",
   "assets/cards/recover.webp": "a00dd623d2",
   "assets/cards/red.webp": "18a8e30fdb",
@@ -1546,6 +1642,7 @@ const UI_MANIFEST={
   "assets/cards/secret.webp": "06bf438d52",
   "assets/cards/see.webp": "eb6de95956",
   "assets/cards/send.webp": "6bdb1f0407",
+  "assets/cards/serious.webp": "21d6dd895e",
   "assets/cards/share.webp": "4b1f0283f9",
   "assets/cards/shield.webp": "5d06c6f36c",
   "assets/cards/ship.webp": "93993698d9",
@@ -1565,6 +1662,7 @@ const UI_MANIFEST={
   "assets/cards/star.webp": "5768222dc5",
   "assets/cards/station.webp": "4a56f6579f",
   "assets/cards/story.webp": "211addb42f",
+  "assets/cards/strategy.webp": "5b3a59b33d",
   "assets/cards/strong.webp": "21868fa2d7",
   "assets/cards/suddenly.webp": "066feb0a10",
   "assets/cards/suggest.webp": "1f30103941",
@@ -1588,6 +1686,7 @@ const UI_MANIFEST={
   "assets/cards/tree.webp": "f0040be9d7",
   "assets/cards/truth.webp": "76c3bd7d14",
   "assets/cards/umbrella.webp": "9b01e7cd69",
+  "assets/cards/useful.webp": "3aa6538cd4",
   "assets/cards/usually.webp": "81a9f56c9f",
   "assets/cards/valuable.webp": "bd42bd3ffb",
   "assets/cards/victory.webp": "a3e77ca2ef",
@@ -1602,6 +1701,7 @@ const UI_MANIFEST={
   "assets/cards/window.webp": "bbf853e6ce",
   "assets/cards/winter.webp": "df14fe452b",
   "assets/cards/wisdom.webp": "2be4a3b6be",
+  "assets/cards/wise.webp": "1b154edb90",
   "assets/cards/woman.webp": "03cae6c604",
   "assets/cards/work.webp": "56d3451b72",
   "assets/cards/write.webp": "8f893319c6"
