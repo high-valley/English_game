@@ -560,6 +560,10 @@ const UI_MANIFEST={
    "full": "assets/cards/kitchen.webp?v=627d1b1c00",
    "thumb": "assets/cards/thumb/kitchen.webp?v=e26eb397d1"
   },
+  "leader": {
+   "full": "assets/cards/leader.webp?v=8ae913c094",
+   "thumb": "assets/cards/thumb/leader.webp?v=c67cfa4bbe"
+  },
   "learn": {
    "full": "assets/cards/learn.webp?v=0c1e9d2f05",
    "thumb": "assets/cards/thumb/learn.webp?v=5bda0b275d"
@@ -691,6 +695,10 @@ const UI_MANIFEST={
   "problem": {
    "full": "assets/cards/problem.webp?v=dd1ad37f0b",
    "thumb": "assets/cards/thumb/problem.webp?v=cf84ea7b9b"
+  },
+  "promise": {
+   "full": "assets/cards/promise.webp?v=ac1b38ea65",
+   "thumb": "assets/cards/thumb/promise.webp?v=caec858f55"
   },
   "protect": {
    "full": "assets/cards/protect.webp?v=0a191fd5ad",
@@ -1175,6 +1183,7 @@ const UI_MANIFEST={
   "assets/cards/key.webp": "d9e46c479e",
   "assets/cards/king.webp": "df22c9602d",
   "assets/cards/kitchen.webp": "627d1b1c00",
+  "assets/cards/leader.webp": "8ae913c094",
   "assets/cards/learn.webp": "0c1e9d2f05",
   "assets/cards/leave.webp": "ad8e3e5baa",
   "assets/cards/letter.webp": "b3ab606f0f",
@@ -1208,6 +1217,7 @@ const UI_MANIFEST={
   "assets/cards/possible.webp": "d0fa8e9ca3",
   "assets/cards/power.webp": "3847408455",
   "assets/cards/problem.webp": "dd1ad37f0b",
+  "assets/cards/promise.webp": "ac1b38ea65",
   "assets/cards/protect.webp": "0a191fd5ad",
   "assets/cards/purpose.webp": "59a190f724",
   "assets/cards/queen.webp": "ff46af30e2",
