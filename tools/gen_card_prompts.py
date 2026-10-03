@@ -377,7 +377,7 @@ def prompt_for(w):
 # ・まとめて頼むと、1枚の中に全部を並べた絵（格子・コラージュ）にされやすいので、はっきり断る
 # ・会話が続くので、前の絵の人物や舞台を次の絵に持ち込みやすい（ゴブリンの絵の次に、関係ない絵にゴブリンが出る）。これも断る
 # ・2枚目以降は、カードの説明を読まずに単語のイメージだけで描くことがある（GitHub から読ませた energy / nature / peace / freedom）。
-#   描く前に、そのカードの英文をそのまま書き出させる（書き出せば、その文を描く）
+#   描く前に、そのカードの Scene の1文だけを書き出させる（全文を書き出させたら返事が長すぎた。ユーザー判断）
 # ・後ろのカードから先に持ち込むこともある（promise の約束の絵に、5番目 nature のシカとウサギが出た）。前後どちらからも借りないと書く
 # ・中のプロンプトは prompt_for と同じ。1件ずつ渡すときと絵柄を変えない
 GPT_WORD = "次"
@@ -392,8 +392,9 @@ def batch_message(ws):
             "(no grid, no collage, no split panels, no side-by-side). Draw each picture only from its own card's "
             "description: never borrow characters, animals, creatures or places from any other card in this list, "
             "whether it comes earlier or later. "
-            "Before drawing each picture, first copy that card's full English description into your reply word for word, "
-            "then draw exactly that description - do not shorten it, summarize it or draw only from the card's word. "
+            "Before drawing each picture, write only that card's \"Scene:\" sentence in your reply (not the whole description), "
+            "then draw using the card's full description exactly as written - do not shorten it, summarize it "
+            "or draw only from the card's word. "
             "Every picture is a 3:2 wide landscape image (1536x1024).")
     cards = [f"[{i}/{n}] {w['en']}\n{prompt_for(w)}" for i, w in enumerate(ws, 1)]
     return "\n\n".join([head] + cards)
