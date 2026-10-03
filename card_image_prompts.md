@@ -27,9 +27,11 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この243語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この249語は、絵文字ではなく画像で表示されます）。
 
+- ability
 - achieve
+- advantage
 - always
 - answer
 - apple
@@ -80,6 +82,7 @@
 - cross
 - crown
 - culture
+- damage
 - dance
 - danger
 - dangerous
@@ -102,7 +105,9 @@
 - energy
 - enjoy
 - environment
+- evidence
 - experience
+- expert
 - explain
 - facilitate
 - family
@@ -231,6 +236,7 @@
 - snow
 - speak
 - special
+- speed
 - stakeholder
 - star
 - station
@@ -1597,7 +1603,7 @@ rich painted anime fantasy illustration, warm dramatic lighting, a few golden ac
 
 **302. defend**（防衛する）
 ```
-rich painted anime fantasy illustration, warm dramatic lighting, a few golden accents, a light touch of floating light particles, detailed scene at a human scale. This is a rare card, tier 3 of 5: richer than the common cards, but clearly calmer than the epic and legendary tiers - the magic and glow stay moderate and the scene keeps a human scale. Scene: At the river, the knights defend the bridge against the ogre warband. Make the sentence's action (defend) the main subject: large and clearly visible. Any creature has clear, expressive eyes and a readable face. ogres are massive and pot-bellied with tan skin, a heavy brow and a crude wooden club, wearing rough hide clothes. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a three-quarter view, the subject turned partly away from the viewer. no magic circles, no blinding radiant light, no jewel-encrusted ornaments, no world-shaking spectacle, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, warm dramatic lighting, a few golden accents, a light touch of floating light particles, detailed scene at a human scale. This is a rare card, tier 3 of 5: richer than the common cards, but clearly calmer than the epic and legendary tiers - the magic and glow stay moderate and the scene keeps a human scale. Scene: In the snowy mountain pass, the knights defend the narrow road against charging orcs. Make the sentence's action (defend) the main subject: large and clearly visible. Any creature has clear, expressive eyes and a readable face. orcs are tall and heavy with dark green skin, a broad jaw with lower tusks, black hair, and crude iron and leather armour. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a three-quarter view, the subject turned partly away from the viewer. no magic circles, no blinding radiant light, no jewel-encrusted ornaments, no world-shaking spectacle, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **303. attract**（引きつける）
@@ -1612,12 +1618,12 @@ rich painted anime fantasy illustration, warm dramatic lighting, a few golden ac
 
 **305. belong**（属する）
 ```
-rich painted anime fantasy illustration, warm dramatic lighting, a few golden accents, a light touch of floating light particles, detailed scene at a human scale. This is a rare card, tier 3 of 5: richer than the common cards, but clearly calmer than the epic and legendary tiers - the magic and glow stay moderate and the scene keeps a human scale. Scene: On the wall of the royal hall, this golden sword belongs to the first king. Make the sentence's action (belong) the main subject: large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a low angle, looking up at the subject against the sky or the ceiling above it. no magic circles, no blinding radiant light, no jewel-encrusted ornaments, no world-shaking spectacle, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, warm dramatic lighting, a few golden accents, a light touch of floating light particles, detailed scene at a human scale. This is a rare card, tier 3 of 5: richer than the common cards, but clearly calmer than the epic and legendary tiers - the magic and glow stay moderate and the scene keeps a human scale. Scene: On the hillside, the lost lamb belongs to the little shepherd girl, and it runs back to her arms. Make the sentence's action (belong) the main subject: large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a low angle, looking up at the subject against the sky or the ceiling above it. no magic circles, no blinding radiant light, no jewel-encrusted ornaments, no world-shaking spectacle, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **306. cause**（引き起こす）
 ```
-rich painted anime fantasy illustration, warm dramatic lighting, a few golden accents, a light touch of floating light particles, detailed scene at a human scale. This is a rare card, tier 3 of 5: richer than the common cards, but clearly calmer than the epic and legendary tiers - the magic and glow stay moderate and the scene keeps a human scale. Scene: In the dry barn, a single spark can cause a great fire. Make the sentence's action (cause) the main subject: large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: seen from slightly above, looking down on the subject and the ground around it. no magic circles, no blinding radiant light, no jewel-encrusted ornaments, no world-shaking spectacle, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, warm dramatic lighting, a few golden accents, a light touch of floating light particles, detailed scene at a human scale. This is a rare card, tier 3 of 5: richer than the common cards, but clearly calmer than the epic and legendary tiers - the magic and glow stay moderate and the scene keeps a human scale. Scene: On the high mountain, one falling stone causes a huge avalanche. Make the sentence's action (cause) the main subject: large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: seen from slightly above, looking down on the subject and the ground around it. no magic circles, no blinding radiant light, no jewel-encrusted ornaments, no world-shaking spectacle, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **307. collect**（集める）
