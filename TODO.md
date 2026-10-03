@@ -1,7 +1,7 @@
 # WORD GRIMOIRE ― 次にやるタスク
 
 ## 次のタスク（優先順）
-1. **カード画像の作成（RARE）**。**COMMON・UNCOMMON は 100/100 で完成**。RARE は 31/100（全体 234/500）。
+1. **カード画像の作成（RARE）**。**COMMON・UNCOMMON は 100/100 で完成**。RARE は 35/100（全体 238/500）。
    RARE の例文は生成の前に100語を見直し済み。
    `card_image_next.md` の先頭が次に作る分（`python3 tools/gen_next_batch.py` で出し直す）
    - 画像の生成は画像生成AI（ChatGPT / Grok など）に頼む（Claude は画像を作れない）

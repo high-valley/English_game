@@ -27,7 +27,7 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この234語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この238語は、絵文字ではなく画像で表示されます）。
 
 - achieve
 - always
@@ -98,6 +98,7 @@
 - effective
 - egg
 - empty
+- energy
 - enjoy
 - environment
 - experience
@@ -117,6 +118,7 @@
 - food
 - forest
 - forget
+- freedom
 - friend
 - future
 - garden
@@ -167,6 +169,7 @@
 - mother
 - mountain
 - mystery
+- nature
 - necessary
 - never
 - new
@@ -175,6 +178,7 @@
 - old
 - open
 - opportunity
+- peace
 - play
 - popular
 - possible
@@ -1458,7 +1462,7 @@ rich painted anime fantasy illustration, warm dramatic lighting, a few golden ac
 
 **276. knowledge**（知識）
 ```
-rich painted anime fantasy illustration, warm dramatic lighting, a few golden accents, a light touch of floating light particles, detailed scene at a human scale. This is a rare card, tier 3 of 5: richer than the common cards, but clearly calmer than the epic and legendary tiers - the magic and glow stay moderate and the scene keeps a human scale. Scene: In the study, a young apprentice gains knowledge from a talking book. The knowledge itself is the main subject of the picture: large and clearly visible. If the knowledge is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: framed through something in the foreground - an archway, a doorway or branches - with the subject beyond it. no magic circles, no blinding radiant light, no jewel-encrusted ornaments, no world-shaking spectacle, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, warm dramatic lighting, a few golden accents, a light touch of floating light particles, detailed scene at a human scale. This is a rare card, tier 3 of 5: richer than the common cards, but clearly calmer than the epic and legendary tiers - the magic and glow stay moderate and the scene keeps a human scale. Scene: Under an apple tree in the garden, a young apprentice gains knowledge from a talking book. The knowledge itself is the main subject of the picture: large and clearly visible. If the knowledge is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: framed through something in the foreground - an archway, a doorway or branches - with the subject beyond it. no magic circles, no blinding radiant light, no jewel-encrusted ornaments, no world-shaking spectacle, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **277. history**（歴史）
