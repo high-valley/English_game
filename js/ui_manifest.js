@@ -924,6 +924,10 @@ const UI_MANIFEST={
    "full": "assets/cards/special.webp?v=c9ec4a174d",
    "thumb": "assets/cards/thumb/special.webp?v=b87861ea20"
   },
+  "speed": {
+   "full": "assets/cards/speed.webp?v=d2173cf768",
+   "thumb": "assets/cards/thumb/speed.webp?v=e5ca4242e7"
+  },
   "stakeholder": {
    "full": "assets/cards/stakeholder.webp?v=29b1e7a108",
    "thumb": "assets/cards/thumb/stakeholder.webp?v=f1aa15ced3"
@@ -1334,6 +1338,7 @@ const UI_MANIFEST={
   "assets/cards/snow.webp": "0998964581",
   "assets/cards/speak.webp": "ae8cb2295e",
   "assets/cards/special.webp": "c9ec4a174d",
+  "assets/cards/speed.webp": "d2173cf768",
   "assets/cards/stakeholder.webp": "29b1e7a108",
   "assets/cards/star.webp": "5768222dc5",
   "assets/cards/station.webp": "4a56f6579f",
