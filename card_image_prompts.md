@@ -27,7 +27,7 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この249語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この254語は、絵文字ではなく画像で表示されます）。
 
 - ability
 - achieve
@@ -75,6 +75,7 @@
 - cold
 - color
 - come
+- community
 - compare
 - consider
 - continue
@@ -100,6 +101,7 @@
 - drink
 - eat
 - effective
+- effort
 - egg
 - empty
 - energy
@@ -148,6 +150,7 @@
 - improve
 - increase
 - influence
+- invention
 - island
 - join
 - journey
@@ -213,6 +216,7 @@
 - river
 - road
 - room
+- rule
 - run
 - safe
 - save
@@ -261,6 +265,7 @@
 - travel
 - treasure
 - tree
+- truth
 - umbrella
 - usually
 - victory
@@ -1633,7 +1638,7 @@ rich painted anime fantasy illustration, warm dramatic lighting, a few golden ac
 
 **308. connect**（つなぐ）
 ```
-rich painted anime fantasy illustration, warm dramatic lighting, a few golden accents, a light touch of floating light particles, detailed scene at a human scale. This is a rare card, tier 3 of 5: richer than the common cards, but clearly calmer than the epic and legendary tiers - the magic and glow stay moderate and the scene keeps a human scale. Scene: In the sky, a long bridge connects the two floating islands. Make the sentence's action (connect) the main subject: large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: framed through something in the foreground - an archway, a doorway or branches - with the subject beyond it. no magic circles, no blinding radiant light, no jewel-encrusted ornaments, no world-shaking spectacle, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, warm dramatic lighting, a few golden accents, a light touch of floating light particles, detailed scene at a human scale. This is a rare card, tier 3 of 5: richer than the common cards, but clearly calmer than the epic and legendary tiers - the magic and glow stay moderate and the scene keeps a human scale. Scene: In the forest, a swaying rope bridge connects the two tall tree houses. Make the sentence's action (connect) the main subject: large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: framed through something in the foreground - an archway, a doorway or branches - with the subject beyond it. no magic circles, no blinding radiant light, no jewel-encrusted ornaments, no world-shaking spectacle, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **309. contain**（含む）

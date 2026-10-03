@@ -20,7 +20,7 @@
 | 14 | belong（属する） | incoming/belong.webp | gpt_tasks/next/14_belong.txt | 丘の斜面で、迷子の子羊は小さな羊飼いの少女のもので、少女の腕の中へかけ戻る。 |
 | 15 | cause（引き起こす） | incoming/cause.webp | gpt_tasks/next/15_cause.txt | 高い山で、落ちてきた石ひとつが大きな雪崩を引き起こす。 |
 | 16 | collect（集める） | incoming/collect.webp | gpt_tasks/next/16_collect.txt | 子どもたちは、川辺で光る石を集める。 |
-| 17 | connect（つなぐ） | incoming/connect.webp | gpt_tasks/next/17_connect.txt | 空の上で、長い橋が二つの浮かぶ島をつないでいる。 |
+| 17 | connect（つなぐ） | incoming/connect.webp | gpt_tasks/next/17_connect.txt | 森の中で、ゆれる吊り橋が、背の高い二つのツリーハウスをつないでいる。 |
 | 18 | contain（含む） | incoming/contain.webp | gpt_tasks/next/18_contain.txt | 魔女の店で、ガラスの瓶に不思議な光る植物が入っている。 |
 | 19 | control（操る） | incoming/control.webp | gpt_tasks/next/19_control.txt | 噴水のそばで、若い魔法使いが水を操り、踊らせることを覚える。 |
 | 20 | depend（頼る） | incoming/depend.webp | gpt_tasks/next/20_depend.txt | 日照りの夏、村人たちは水を古い井戸に頼っている。 |
