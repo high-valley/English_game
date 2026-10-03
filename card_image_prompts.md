@@ -27,7 +27,7 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この231語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この234語は、絵文字ではなく画像で表示されます）。
 
 - achieve
 - always
@@ -80,6 +80,7 @@
 - cross
 - crown
 - dance
+- danger
 - dangerous
 - decide
 - describe
@@ -145,6 +146,7 @@
 - key
 - king
 - kitchen
+- leader
 - learn
 - leave
 - letter
@@ -178,6 +180,7 @@
 - possible
 - power
 - problem
+- promise
 - protect
 - purpose
 - queen
