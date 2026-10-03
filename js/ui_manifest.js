@@ -112,6 +112,10 @@ const UI_MANIFEST={
    "full": "assets/cards/always.webp?v=097c3454da",
    "thumb": "assets/cards/thumb/always.webp?v=0b6d786944"
   },
+  "ancient": {
+   "full": "assets/cards/ancient.webp?v=4e53d52a71",
+   "thumb": "assets/cards/thumb/ancient.webp?v=4822e15ce5"
+  },
   "answer": {
    "full": "assets/cards/answer.webp?v=6866217dbc",
    "thumb": "assets/cards/thumb/answer.webp?v=fa51479d59"
@@ -348,6 +352,10 @@ const UI_MANIFEST={
    "full": "assets/cards/culture.webp?v=ec721fe065",
    "thumb": "assets/cards/thumb/culture.webp?v=aad29dab39"
   },
+  "curious": {
+   "full": "assets/cards/curious.webp?v=edbeb5df16",
+   "thumb": "assets/cards/thumb/curious.webp?v=a7bbfaacdc"
+  },
   "damage": {
    "full": "assets/cards/damage.webp?v=334b71cb70",
    "thumb": "assets/cards/thumb/damage.webp?v=10894664bb"
@@ -456,6 +464,10 @@ const UI_MANIFEST={
    "full": "assets/cards/enjoy.webp?v=e6c8ea1973",
    "thumb": "assets/cards/thumb/enjoy.webp?v=d4124a03d9"
   },
+  "enormous": {
+   "full": "assets/cards/enormous.webp?v=1269edee4a",
+   "thumb": "assets/cards/thumb/enormous.webp?v=01e6f320c0"
+  },
   "environment": {
    "full": "assets/cards/environment.webp?v=f57504e244",
    "thumb": "assets/cards/thumb/environment.webp?v=d553c564bf"
@@ -463,6 +475,14 @@ const UI_MANIFEST={
   "evidence": {
    "full": "assets/cards/evidence.webp?v=8b37058108",
    "thumb": "assets/cards/thumb/evidence.webp?v=2a7312a677"
+  },
+  "exist": {
+   "full": "assets/cards/exist.webp?v=43803759ed",
+   "thumb": "assets/cards/thumb/exist.webp?v=ad3703ed60"
+  },
+  "expect": {
+   "full": "assets/cards/expect.webp?v=26ff3753c2",
+   "thumb": "assets/cards/thumb/expect.webp?v=37ab3166bc"
   },
   "experience": {
    "full": "assets/cards/experience.webp?v=6398f6842b",
@@ -483,6 +503,10 @@ const UI_MANIFEST={
   "facilitate": {
    "full": "assets/cards/facilitate.webp?v=9c29b6b153",
    "thumb": "assets/cards/thumb/facilitate.webp?v=e1786b6ccc"
+  },
+  "familiar": {
+   "full": "assets/cards/familiar.webp?v=08669fe1bd",
+   "thumb": "assets/cards/thumb/familiar.webp?v=b7c452f370"
   },
   "family": {
    "full": "assets/cards/family.webp?v=cc5657578d",
@@ -564,6 +588,10 @@ const UI_MANIFEST={
    "full": "assets/cards/gather.webp?v=0976618569",
    "thumb": "assets/cards/thumb/gather.webp?v=2c9ca94762"
   },
+  "generous": {
+   "full": "assets/cards/generous.webp?v=9bbd804838",
+   "thumb": "assets/cards/thumb/generous.webp?v=794d10ba5c"
+  },
   "girl": {
    "full": "assets/cards/girl.webp?v=852e7dfc9b",
    "thumb": "assets/cards/thumb/girl.webp?v=d6223e028f"
@@ -611,6 +639,10 @@ const UI_MANIFEST={
   "holiday": {
    "full": "assets/cards/holiday.webp?v=5db13b3d95",
    "thumb": "assets/cards/thumb/holiday.webp?v=8702ad856b"
+  },
+  "honest": {
+   "full": "assets/cards/honest.webp?v=775d647298",
+   "thumb": "assets/cards/thumb/honest.webp?v=a403eab276"
   },
   "horse": {
    "full": "assets/cards/horse.webp?v=a93c4bfb25",
@@ -764,6 +796,10 @@ const UI_MANIFEST={
    "full": "assets/cards/mountain.webp?v=33966baf23",
    "thumb": "assets/cards/thumb/mountain.webp?v=074ae2a19d"
   },
+  "mysterious": {
+   "full": "assets/cards/mysterious.webp?v=f01e6e9814",
+   "thumb": "assets/cards/thumb/mysterious.webp?v=9f7a058446"
+  },
   "mystery": {
    "full": "assets/cards/mystery.webp?v=ccb5007379",
    "thumb": "assets/cards/thumb/mystery.webp?v=1bd5f9255f"
@@ -788,9 +824,17 @@ const UI_MANIFEST={
    "full": "assets/cards/night.webp?v=e8aaa143c0",
    "thumb": "assets/cards/thumb/night.webp?v=b53aeac426"
   },
+  "notice": {
+   "full": "assets/cards/notice.webp?v=3716acbd98",
+   "thumb": "assets/cards/thumb/notice.webp?v=03ab6098ad"
+  },
   "number": {
    "full": "assets/cards/number.webp?v=3f5c56be86",
    "thumb": "assets/cards/thumb/number.webp?v=a58ec657e1"
+  },
+  "offer": {
+   "full": "assets/cards/offer.webp?v=739cb4db4b",
+   "thumb": "assets/cards/thumb/offer.webp?v=19f6f03dc5"
   },
   "old": {
    "full": "assets/cards/old.webp?v=d36cb3415c",
@@ -823,6 +867,18 @@ const UI_MANIFEST={
   "power": {
    "full": "assets/cards/power.webp?v=3847408455",
    "thumb": "assets/cards/thumb/power.webp?v=343fdc7018"
+  },
+  "powerful": {
+   "full": "assets/cards/powerful.webp?v=948c988966",
+   "thumb": "assets/cards/thumb/powerful.webp?v=cd7702c8e5"
+  },
+  "prepare": {
+   "full": "assets/cards/prepare.webp?v=60bc63ad11",
+   "thumb": "assets/cards/thumb/prepare.webp?v=c5125e616a"
+  },
+  "prevent": {
+   "full": "assets/cards/prevent.webp?v=fc99736892",
+   "thumb": "assets/cards/thumb/prevent.webp?v=47b7ac6ba7"
   },
   "problem": {
    "full": "assets/cards/problem.webp?v=dd1ad37f0b",
@@ -868,6 +924,14 @@ const UI_MANIFEST={
    "full": "assets/cards/reason.webp?v=8d4fa1b16d",
    "thumb": "assets/cards/thumb/reason.webp?v=07d5833823"
   },
+  "recognize": {
+   "full": "assets/cards/recognize.webp?v=10c9a1891e",
+   "thumb": "assets/cards/thumb/recognize.webp?v=26efed724a"
+  },
+  "recover": {
+   "full": "assets/cards/recover.webp?v=a00dd623d2",
+   "thumb": "assets/cards/thumb/recover.webp?v=0200cdbcb5"
+  },
   "red": {
    "full": "assets/cards/red.webp?v=18a8e30fdb",
    "thumb": "assets/cards/thumb/red.webp?v=f806ff233d"
@@ -876,6 +940,10 @@ const UI_MANIFEST={
    "full": "assets/cards/reduce.webp?v=85e5dc5548",
    "thumb": "assets/cards/thumb/reduce.webp?v=ee71641ca8"
   },
+  "refuse": {
+   "full": "assets/cards/refuse.webp?v=b450cb95c3",
+   "thumb": "assets/cards/thumb/refuse.webp?v=ddee3ba0de"
+  },
   "region": {
    "full": "assets/cards/region.webp?v=bc95ec9fe9",
    "thumb": "assets/cards/thumb/region.webp?v=4d00f00a19"
@@ -883,6 +951,10 @@ const UI_MANIFEST={
   "relationship": {
    "full": "assets/cards/relationship.webp?v=3100974b27",
    "thumb": "assets/cards/thumb/relationship.webp?v=98aa9a572d"
+  },
+  "release": {
+   "full": "assets/cards/release.webp?v=500aa89107",
+   "thumb": "assets/cards/thumb/release.webp?v=453845f934"
   },
   "remember": {
    "full": "assets/cards/remember.webp?v=92e4fe3e6a",
@@ -1008,6 +1080,10 @@ const UI_MANIFEST={
    "full": "assets/cards/snow.webp?v=0998964581",
    "thumb": "assets/cards/thumb/snow.webp?v=04715fca61"
   },
+  "solve": {
+   "full": "assets/cards/solve.webp?v=caf8e2a712",
+   "thumb": "assets/cards/thumb/solve.webp?v=8662fd198d"
+  },
   "speak": {
    "full": "assets/cards/speak.webp?v=ae8cb2295e",
    "thumb": "assets/cards/thumb/speak.webp?v=687549a9ad"
@@ -1132,6 +1208,10 @@ const UI_MANIFEST={
    "full": "assets/cards/usually.webp?v=81a9f56c9f",
    "thumb": "assets/cards/thumb/usually.webp?v=25df26fa89"
   },
+  "valuable": {
+   "full": "assets/cards/valuable.webp?v=bd42bd3ffb",
+   "thumb": "assets/cards/thumb/valuable.webp?v=cb55fda826"
+  },
   "victory": {
    "full": "assets/cards/victory.webp?v=a3e77ca2ef",
    "thumb": "assets/cards/thumb/victory.webp?v=eb5af87671"
@@ -1235,6 +1315,7 @@ const UI_MANIFEST={
   "assets/cards/achieve.webp": "c2d91a9ef5",
   "assets/cards/advantage.webp": "798b822585",
   "assets/cards/always.webp": "097c3454da",
+  "assets/cards/ancient.webp": "4e53d52a71",
   "assets/cards/answer.webp": "6866217dbc",
   "assets/cards/apple.webp": "f76931a6e4",
   "assets/cards/arrive.webp": "bc046d27a9",
@@ -1294,6 +1375,7 @@ const UI_MANIFEST={
   "assets/cards/cross.webp": "fdf23f8be9",
   "assets/cards/crown.webp": "6b439767a7",
   "assets/cards/culture.webp": "ec721fe065",
+  "assets/cards/curious.webp": "edbeb5df16",
   "assets/cards/damage.webp": "334b71cb70",
   "assets/cards/dance.webp": "b6b9334488",
   "assets/cards/danger.webp": "e776e13b4b",
@@ -1321,13 +1403,17 @@ const UI_MANIFEST={
   "assets/cards/empty.webp": "f78cd23bfc",
   "assets/cards/energy.webp": "2a0bc806fa",
   "assets/cards/enjoy.webp": "e6c8ea1973",
+  "assets/cards/enormous.webp": "1269edee4a",
   "assets/cards/environment.webp": "f57504e244",
   "assets/cards/evidence.webp": "8b37058108",
+  "assets/cards/exist.webp": "43803759ed",
+  "assets/cards/expect.webp": "26ff3753c2",
   "assets/cards/experience.webp": "6398f6842b",
   "assets/cards/expert.webp": "bf2b01c523",
   "assets/cards/explain.webp": "c4be8b41bd",
   "assets/cards/explore.webp": "83c8a05a85",
   "assets/cards/facilitate.webp": "9c29b6b153",
+  "assets/cards/familiar.webp": "08669fe1bd",
   "assets/cards/family.webp": "cc5657578d",
   "assets/cards/famous.webp": "51aabd4df4",
   "assets/cards/fast.webp": "66e3ae35f9",
@@ -1348,6 +1434,7 @@ const UI_MANIFEST={
   "assets/cards/garden.webp": "f480951cb4",
   "assets/cards/gate.webp": "e15127f9b5",
   "assets/cards/gather.webp": "0976618569",
+  "assets/cards/generous.webp": "9bbd804838",
   "assets/cards/girl.webp": "852e7dfc9b",
   "assets/cards/give.webp": "715dcbb75d",
   "assets/cards/go.webp": "1e479f7a7f",
@@ -1360,6 +1447,7 @@ const UI_MANIFEST={
   "assets/cards/hide.webp": "d1977a4b78",
   "assets/cards/history.webp": "fc5ba31020",
   "assets/cards/holiday.webp": "5db13b3d95",
+  "assets/cards/honest.webp": "775d647298",
   "assets/cards/horse.webp": "a93c4bfb25",
   "assets/cards/hospital.webp": "b9b427c800",
   "assets/cards/hot.webp": "b53b5afdc4",
@@ -1398,13 +1486,16 @@ const UI_MANIFEST={
   "assets/cards/morning.webp": "ff393b91af",
   "assets/cards/mother.webp": "8f354facdb",
   "assets/cards/mountain.webp": "33966baf23",
+  "assets/cards/mysterious.webp": "f01e6e9814",
   "assets/cards/mystery.webp": "ccb5007379",
   "assets/cards/nature.webp": "8820ecaf74",
   "assets/cards/necessary.webp": "7b5dca03d8",
   "assets/cards/never.webp": "e631eeeb9f",
   "assets/cards/new.webp": "cd7bdc58d4",
   "assets/cards/night.webp": "e8aaa143c0",
+  "assets/cards/notice.webp": "3716acbd98",
   "assets/cards/number.webp": "3f5c56be86",
+  "assets/cards/offer.webp": "739cb4db4b",
   "assets/cards/old.webp": "d36cb3415c",
   "assets/cards/open.webp": "81b64039ce",
   "assets/cards/opportunity.webp": "4c93739424",
@@ -1413,6 +1504,9 @@ const UI_MANIFEST={
   "assets/cards/popular.webp": "689d35c45e",
   "assets/cards/possible.webp": "d0fa8e9ca3",
   "assets/cards/power.webp": "3847408455",
+  "assets/cards/powerful.webp": "948c988966",
+  "assets/cards/prepare.webp": "60bc63ad11",
+  "assets/cards/prevent.webp": "fc99736892",
   "assets/cards/problem.webp": "dd1ad37f0b",
   "assets/cards/promise.webp": "ac1b38ea65",
   "assets/cards/protect.webp": "0a191fd5ad",
@@ -1424,10 +1518,14 @@ const UI_MANIFEST={
   "assets/cards/read.webp": "de4a20bbfc",
   "assets/cards/ready.webp": "9459c40143",
   "assets/cards/reason.webp": "8d4fa1b16d",
+  "assets/cards/recognize.webp": "10c9a1891e",
+  "assets/cards/recover.webp": "a00dd623d2",
   "assets/cards/red.webp": "18a8e30fdb",
   "assets/cards/reduce.webp": "85e5dc5548",
+  "assets/cards/refuse.webp": "b450cb95c3",
   "assets/cards/region.webp": "bc95ec9fe9",
   "assets/cards/relationship.webp": "3100974b27",
+  "assets/cards/release.webp": "500aa89107",
   "assets/cards/remember.webp": "92e4fe3e6a",
   "assets/cards/require.webp": "358b37cef4",
   "assets/cards/responsibility.webp": "8c01109329",
@@ -1459,6 +1557,7 @@ const UI_MANIFEST={
   "assets/cards/sleep.webp": "14d68ab584",
   "assets/cards/small.webp": "537d8f387c",
   "assets/cards/snow.webp": "0998964581",
+  "assets/cards/solve.webp": "caf8e2a712",
   "assets/cards/speak.webp": "ae8cb2295e",
   "assets/cards/special.webp": "c9ec4a174d",
   "assets/cards/speed.webp": "d2173cf768",
@@ -1490,6 +1589,7 @@ const UI_MANIFEST={
   "assets/cards/truth.webp": "76c3bd7d14",
   "assets/cards/umbrella.webp": "9b01e7cd69",
   "assets/cards/usually.webp": "81a9f56c9f",
+  "assets/cards/valuable.webp": "bd42bd3ffb",
   "assets/cards/victory.webp": "a3e77ca2ef",
   "assets/cards/village.webp": "6784b90674",
   "assets/cards/visit.webp": "3e6478f9b0",
