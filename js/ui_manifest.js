@@ -372,6 +372,10 @@ const UI_MANIFEST={
    "full": "assets/cards/empty.webp?v=f78cd23bfc",
    "thumb": "assets/cards/thumb/empty.webp?v=6f19b3cc4c"
   },
+  "energy": {
+   "full": "assets/cards/energy.webp?v=2a0bc806fa",
+   "thumb": "assets/cards/thumb/energy.webp?v=7ff59a3073"
+  },
   "enjoy": {
    "full": "assets/cards/enjoy.webp?v=e6c8ea1973",
    "thumb": "assets/cards/thumb/enjoy.webp?v=d4124a03d9"
@@ -447,6 +451,10 @@ const UI_MANIFEST={
   "forget": {
    "full": "assets/cards/forget.webp?v=630c62b957",
    "thumb": "assets/cards/thumb/forget.webp?v=b3dd6fdda2"
+  },
+  "freedom": {
+   "full": "assets/cards/freedom.webp?v=5412c4ec0c",
+   "thumb": "assets/cards/thumb/freedom.webp?v=8467c3a8d6"
   },
   "friend": {
    "full": "assets/cards/friend.webp?v=645f46ebb3",
@@ -648,6 +656,10 @@ const UI_MANIFEST={
    "full": "assets/cards/mystery.webp?v=ccb5007379",
    "thumb": "assets/cards/thumb/mystery.webp?v=1bd5f9255f"
   },
+  "nature": {
+   "full": "assets/cards/nature.webp?v=8820ecaf74",
+   "thumb": "assets/cards/thumb/nature.webp?v=f10fc3b124"
+  },
   "necessary": {
    "full": "assets/cards/necessary.webp?v=7b5dca03d8",
    "thumb": "assets/cards/thumb/necessary.webp?v=31d6fea049"
@@ -679,6 +691,10 @@ const UI_MANIFEST={
   "opportunity": {
    "full": "assets/cards/opportunity.webp?v=4c93739424",
    "thumb": "assets/cards/thumb/opportunity.webp?v=f032cf7a18"
+  },
+  "peace": {
+   "full": "assets/cards/peace.webp?v=36d626f589",
+   "thumb": "assets/cards/thumb/peace.webp?v=620a4b9207"
   },
   "play": {
    "full": "assets/cards/play.webp?v=4a6bdb79b8",
@@ -1140,6 +1156,7 @@ const UI_MANIFEST={
   "assets/cards/effective.webp": "92d9541f0d",
   "assets/cards/egg.webp": "4919f0529e",
   "assets/cards/empty.webp": "f78cd23bfc",
+  "assets/cards/energy.webp": "2a0bc806fa",
   "assets/cards/enjoy.webp": "e6c8ea1973",
   "assets/cards/environment.webp": "f57504e244",
   "assets/cards/experience.webp": "6398f6842b",
@@ -1159,6 +1176,7 @@ const UI_MANIFEST={
   "assets/cards/food.webp": "d00bdc1a18",
   "assets/cards/forest.webp": "1832d324f2",
   "assets/cards/forget.webp": "630c62b957",
+  "assets/cards/freedom.webp": "5412c4ec0c",
   "assets/cards/friend.webp": "645f46ebb3",
   "assets/cards/future.webp": "ee4345d5e8",
   "assets/cards/garden.webp": "f480951cb4",
@@ -1209,6 +1227,7 @@ const UI_MANIFEST={
   "assets/cards/mother.webp": "8f354facdb",
   "assets/cards/mountain.webp": "33966baf23",
   "assets/cards/mystery.webp": "ccb5007379",
+  "assets/cards/nature.webp": "8820ecaf74",
   "assets/cards/necessary.webp": "7b5dca03d8",
   "assets/cards/never.webp": "e631eeeb9f",
   "assets/cards/new.webp": "cd7bdc58d4",
@@ -1217,6 +1236,7 @@ const UI_MANIFEST={
   "assets/cards/old.webp": "d36cb3415c",
   "assets/cards/open.webp": "81b64039ce",
   "assets/cards/opportunity.webp": "4c93739424",
+  "assets/cards/peace.webp": "36d626f589",
   "assets/cards/play.webp": "4a6bdb79b8",
   "assets/cards/popular.webp": "689d35c45e",
   "assets/cards/possible.webp": "d0fa8e9ca3",
