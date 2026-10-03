@@ -43,12 +43,12 @@ def write_gpt_tasks(first):
     for f in d.glob("*.txt"):
         f.unlink()
     rows = ["# 次に描く5枚（自動生成：tools/gen_next_batch.py。直接編集しない）", "",
-            "| 順 | 単語 | 保存するファイル名 | プロンプトのファイル | 例文（日本語） |", "|---|---|---|---|---|"]
+            "| 順 | 単語 | 保存するファイル名（1200x800 の WebP に小さくしてから） | プロンプトのファイル | 例文（日本語） |", "|---|---|---|---|---|"]
     for i, w in enumerate(first, 1):
         name = f"{i:02d}_{w['en']}.txt"
         (d / name).write_text(prompt_for(w) + "\n", encoding="utf-8")
         redo = "（作り直し）" if w["en"] in REDO else ""
-        rows.append(f"| {i} | {w['en']}（{w['ja']}）{redo} | incoming/{w['en']}.png | gpt_tasks/next/{name} | {w['tr']} |")
+        rows.append(f"| {i} | {w['en']}（{w['ja']}）{redo} | incoming/{w['en']}.webp | gpt_tasks/next/{name} | {w['tr']} |")
     (d / "LIST.md").write_text("\n".join(rows) + "\n", encoding="utf-8")
 
 
