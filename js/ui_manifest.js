@@ -300,6 +300,10 @@ const UI_MANIFEST={
    "full": "assets/cards/dance.webp?v=b6b9334488",
    "thumb": "assets/cards/thumb/dance.webp?v=f9b71e23b4"
   },
+  "danger": {
+   "full": "assets/cards/danger.webp?v=e776e13b4b",
+   "thumb": "assets/cards/thumb/danger.webp?v=e25e071162"
+  },
   "dangerous": {
    "full": "assets/cards/dangerous.webp?v=eb268334fa",
    "thumb": "assets/cards/thumb/dangerous.webp?v=174a651e40"
@@ -1118,6 +1122,7 @@ const UI_MANIFEST={
   "assets/cards/cross.webp": "fdf23f8be9",
   "assets/cards/crown.webp": "6b439767a7",
   "assets/cards/dance.webp": "b6b9334488",
+  "assets/cards/danger.webp": "e776e13b4b",
   "assets/cards/dangerous.webp": "eb268334fa",
   "assets/cards/decide.webp": "717e762bfa",
   "assets/cards/describe.webp": "365f379d98",
