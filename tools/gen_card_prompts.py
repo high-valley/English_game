@@ -376,6 +376,7 @@ def prompt_for(w):
 # ChatGPT は1回の返事で1枚しか描かないので、「1枚描いたら止まり、『次』で次を描く」と頼む。
 # ・まとめて頼むと、1枚の中に全部を並べた絵（格子・コラージュ）にされやすいので、はっきり断る
 # ・会話が続くので、前の絵の人物や舞台を次の絵に持ち込みやすい（ゴブリンの絵の次に、関係ない絵にゴブリンが出る）。これも断る
+# ・後ろのカードから先に持ち込むこともある（promise の約束の絵に、5番目 nature のシカとウサギが出た）。前後どちらからも借りないと書く
 # ・中のプロンプトは prompt_for と同じ。1件ずつ渡すときと絵柄を変えない
 GPT_WORD = "次"
 
@@ -386,8 +387,9 @@ def batch_message(ws):
             f"Draw ONLY ONE picture per reply: draw picture 1 now, then stop. "
             f'Each time I reply "{GPT_WORD}", draw the next picture. '
             "Every picture is separate and independent: never put several cards into one image "
-            "(no grid, no collage, no split panels, no side-by-side), and do not carry characters, creatures "
-            "or places over from an earlier picture unless that card's own description asks for them. "
+            "(no grid, no collage, no split panels, no side-by-side). Draw each picture only from its own card's "
+            "description: never borrow characters, animals, creatures or places from any other card in this list, "
+            "whether it comes earlier or later. "
             "Every picture is a 3:2 wide landscape image (1536x1024).")
     cards = [f"[{i}/{n}] {w['en']}\n{prompt_for(w)}" for i, w in enumerate(ws, 1)]
     return "\n\n".join([head] + cards)
