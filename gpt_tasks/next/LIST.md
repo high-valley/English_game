@@ -4,23 +4,23 @@
 
 | 順 | 単語 | 保存するファイル名（960x640 の WebP に小さくしてから） | プロンプトのファイル | 例文（日本語） |
 |---|---|---|---|---|
-| 1 | ordinary（ふつうの） | incoming/ordinary.webp | gpt_tasks/next/01_ordinary.txt | テーブルの上で、ふつうに見える石が夜になると明るく光る。 |
-| 2 | rare（まれな） | incoming/rare.webp | gpt_tasks/next/02_rare.txt | 深い海の洞窟で、大きな貝の中に珍しい金色の真珠が光っている。 |
-| 3 | serious（真剣な） | incoming/serious.webp | gpt_tasks/next/03_serious.txt | 戦いの前、野営地で隊長が若い兵士たちに真剣な警告をする。 |
-| 4 | useful（役に立つ） | incoming/useful.webp | gpt_tasks/next/04_useful.txt | 霧の中で、この古いコンパスは船の水夫たちにとても役に立つ。 |
-| 5 | wise（賢明な） | incoming/wise.webp | gpt_tasks/next/05_wise.txt | 森で、賢いフクロウが旅人たちによい助言をする。 |
-| 6 | actually（実は） | incoming/actually.webp | gpt_tasks/next/06_actually.txt | 壁の怖い影は、実はろうそくのそばの小さなネズミだった。 |
-| 7 | especially（特に） | incoming/especially.webp | gpt_tasks/next/07_especially.txt | 夏の祭りで、子どもたちは特に竜の乗り物が大好きだ。 |
-| 8 | recently（最近） | incoming/recently.webp | gpt_tasks/next/08_recently.txt | 草原で、最近生まれた子馬が、ふらつく足で立っている。 |
-| 9 | probably（たぶん） | incoming/probably.webp | gpt_tasks/next/09_probably.txt | 港の上に黒い雲が集まっている。たぶんもうすぐ雨が降る。 |
-| 10 | implement（実行する） | incoming/implement.webp | gpt_tasks/next/10_implement.txt | 谷で、農民たちが計画を実行し、畑まで長い水路を掘る。 |
-| 11 | potential（可能性） | incoming/potential.webp | gpt_tasks/next/11_potential.txt | 訓練場で、少女が魔法で大岩を持ち上げ、その素質を見せる。 |
-| 12 | perspective（視点） | incoming/perspective.webp | gpt_tasks/next/12_perspective.txt | 竜の背中から、若い騎士が新しい視点で王国を見下ろす。 |
-| 13 | alternative（代わりの） | incoming/alternative.webp | gpt_tasks/next/13_alternative.txt | ヒドラが守る橋の前で、旅人たちは丘を越える別の道を選ぶ。 |
-| 14 | consequence（結果） | incoming/consequence.webp | gpt_tasks/next/14_consequence.txt | 呪われた村では、死霊使いの呪文の結果として、すべての草木が石に変わっている。 |
-| 15 | accurate（正確な） | incoming/accurate.webp | gpt_tasks/next/15_accurate.txt | 地図の部屋で、地図職人が金の羽ペンで島の正確な地図を描く。 |
-| 16 | efficient（効率的な） | incoming/efficient.webp | gpt_tasks/next/16_efficient.txt | 水晶の鉱山で、ドワーフたちが宝石を色ごとに分ける効率的な機械を動かす。 |
-| 17 | strategy（戦略） | incoming/strategy.webp | gpt_tasks/next/17_strategy.txt | 作戦テントで、将軍が地図の上の小さな駒で、巨人たちに対する戦略を説明する。 |
-| 18 | evaluate（評価する） | incoming/evaluate.webp | gpt_tasks/next/18_evaluate.txt | 魔法の大会で、三人の審査員が若い魔法使いの炎の呪文を評価する。 |
-| 19 | analyze（分析する） | incoming/analyze.webp | gpt_tasks/next/19_analyze.txt | 実験室で、錬金術師が光る緑の薬を分析する。 |
-| 20 | establish（設立する） | incoming/establish.webp | gpt_tasks/next/20_establish.txt | 誰もいない島に、開拓者たちが木の壁で囲んだ新しい町を築く。 |
+| 1 | maintain（維持する） | incoming/maintain.webp | gpt_tasks/next/01_maintain.txt | 町の城壁の上で、魔法使いたちが外の魔物に対して輝く結界を保ち続ける。 |
+| 2 | enhance（高める） | incoming/enhance.webp | gpt_tasks/next/02_enhance.txt | 宝石店で、青い宝石が魔法の指輪の輝きを高める。 |
+| 3 | criteria（基準） | incoming/criteria.webp | gpt_tasks/next/03_criteria.txt | 訓練場で、若い騎士がすべての基準を満たし、王の紋章を受け取る。 |
+| 4 | priority（優先事項） | incoming/priority.webp | gpt_tasks/next/04_priority.txt | 燃える村で、騎士たちは子どもたちを救うことを最優先にする。 |
+| 5 | comprehensive（包括的な） | incoming/comprehensive.webp | gpt_tasks/next/05_comprehensive.txt | 大図書館で、修道士たちが世界中の怪物を網羅した本を守っている。 |
+| 6 | demonstrate（実演する） | incoming/demonstrate.webp | gpt_tasks/next/06_demonstrate.txt | 教室で、師匠が水を氷に変える呪文を実演してみせる。 |
+| 7 | assumption（前提） | incoming/assumption.webp | gpt_tasks/next/07_assumption.txt | 洞窟で、勇者たちはヒドラが眠っているという思い込みで進むが、首のひとつが目を開ける。 |
+| 8 | concept（概念） | incoming/concept.webp | gpt_tasks/next/08_concept.txt | 塔で、老魔法使いが宙に浮かぶ金の砂時計を使って、時間という概念を説明する。 |
+| 9 | context（文脈） | incoming/context.webp | gpt_tasks/next/09_context.txt | 遺跡で、探検家がひとつの奇妙なルーンの文脈を知るために、壁一面を読み解く。 |
+| 10 | contract（契約） | incoming/contract.webp | gpt_tasks/next/10_contract.txt | 血の月の下で、魔術師が悪魔と燃える契約書に署名する。 |
+| 11 | decade（十年間） | incoming/decade.webp | gpt_tasks/next/11_decade.txt | 城で、古い城壁が十年にわたる嵐と包囲に耐えて、今も立っている。 |
+| 12 | dimension（次元） | incoming/dimension.webp | gpt_tasks/next/12_dimension.txt | 祭壇の上に門が開き、別の次元から悪魔たちがあふれ出る。 |
+| 13 | economy（経済） | incoming/economy.webp | gpt_tasks/next/13_economy.txt | 都で、新しい橋とにぎわう商店が、王国の成長する経済を物語る。 |
+| 14 | element（要素） | incoming/element.webp | gpt_tasks/next/14_element.txt | 学院の中庭で、四人の生徒がそれぞれひとつの元素（火・水・土・風）を操る。 |
+| 15 | enterprise（企業） | incoming/enterprise.webp | gpt_tasks/next/15_enterprise.txt | 造船所で、商人たちが新しい事業である巨大な空飛ぶ船を進水させる。 |
+| 16 | equipment（設備） | incoming/equipment.webp | gpt_tasks/next/16_equipment.txt | 鉱山の入り口で、ドワーフたちが採掘の道具とランタンを点検する。 |
+| 17 | expansion（拡大） | incoming/expansion.webp | gpt_tasks/next/17_expansion.txt | 辺境で、帝国の拡大によって森の中へ新しい道と砦が延びていく。 |
+| 18 | factor（要因） | incoming/factor.webp | gpt_tasks/next/18_factor.txt | 戦場で、聖なる炎がアンデッドの軍勢に対する決め手となる。 |
+| 19 | feature（特徴） | incoming/feature.webp | gpt_tasks/next/19_feature.txt | 魔法使いの塔のいちばん目を引く特徴は、光る水晶の屋根だ。 |
+| 20 | foundation（土台） | incoming/foundation.webp | gpt_tasks/next/20_foundation.txt | 黒い神殿の下で、眠る悪魔が土台の中に横たわっている。 |
