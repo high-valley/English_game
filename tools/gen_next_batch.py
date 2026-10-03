@@ -33,6 +33,25 @@ def enemies_in(ex):
     return [e for e in ENEMIES if has(ex, e)]
 
 
+def write_gpt_tasks(first):
+    """ChatGPT が GitHub から読んで描くための、次の5件（gpt_tasks/README.md の手順で使う）。
+    1件ずつ別のファイルにして、中身はそのカードのプロンプトだけにする。
+    長いファイルの中の5件を読ませたら、2枚目以降はプロンプトを読まずに単語のイメージだけで描かれたため
+    （energy / nature / peace / freedom）"""
+    d = ROOT / "gpt_tasks" / "next"
+    d.mkdir(parents=True, exist_ok=True)
+    for f in d.glob("*.txt"):
+        f.unlink()
+    rows = ["# 次に描く5枚（自動生成：tools/gen_next_batch.py。直接編集しない）", "",
+            "| 順 | 単語 | 保存するファイル名 | プロンプトのファイル | 例文（日本語） |", "|---|---|---|---|---|"]
+    for i, w in enumerate(first, 1):
+        name = f"{i:02d}_{w['en']}.txt"
+        (d / name).write_text(prompt_for(w) + "\n", encoding="utf-8")
+        redo = "（作り直し）" if w["en"] in REDO else ""
+        rows.append(f"| {i} | {w['en']}（{w['ja']}）{redo} | incoming/{w['en']}.png | gpt_tasks/next/{name} | {w['tr']} |")
+    (d / "LIST.md").write_text("\n".join(rows) + "\n", encoding="utf-8")
+
+
 def main():
     args = sys.argv[1:]
     rarity = None
@@ -115,6 +134,8 @@ def main():
                   f"`CARD_IMG_NAMES` に足してから `{cmd}` を実行してください。"]
 
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+    write_gpt_tasks(batch[:5])
 
     by_r = {r: sum(1 for w in batch if w["rarity"] == r) for r in LEVELS}
     with_foe = sum(1 for w in batch if enemies_in(w["ex"]))
