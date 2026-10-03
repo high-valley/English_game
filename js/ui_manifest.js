@@ -388,6 +388,10 @@ const UI_MANIFEST={
    "full": "assets/cards/environment.webp?v=f57504e244",
    "thumb": "assets/cards/thumb/environment.webp?v=d553c564bf"
   },
+  "evidence": {
+   "full": "assets/cards/evidence.webp?v=8b37058108",
+   "thumb": "assets/cards/thumb/evidence.webp?v=2a7312a677"
+  },
   "experience": {
    "full": "assets/cards/experience.webp?v=6398f6842b",
    "thumb": "assets/cards/thumb/experience.webp?v=040aaf7a10"
@@ -1180,6 +1184,7 @@ const UI_MANIFEST={
   "assets/cards/energy.webp": "2a0bc806fa",
   "assets/cards/enjoy.webp": "e6c8ea1973",
   "assets/cards/environment.webp": "f57504e244",
+  "assets/cards/evidence.webp": "8b37058108",
   "assets/cards/experience.webp": "6398f6842b",
   "assets/cards/explain.webp": "c4be8b41bd",
   "assets/cards/facilitate.webp": "9c29b6b153",

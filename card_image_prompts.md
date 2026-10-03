@@ -27,7 +27,7 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この238語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この243語は、絵文字ではなく画像で表示されます）。
 
 - achieve
 - always
@@ -79,6 +79,7 @@
 - cook
 - cross
 - crown
+- culture
 - dance
 - danger
 - dangerous
@@ -132,6 +133,7 @@
 - hat
 - heavy
 - help
+- history
 - holiday
 - horse
 - hospital
@@ -148,6 +150,7 @@
 - key
 - king
 - kitchen
+- knowledge
 - leader
 - learn
 - leave
@@ -209,6 +212,7 @@
 - safe
 - save
 - school
+- science
 - sea
 - search
 - secret
@@ -247,6 +251,7 @@
 - together
 - tower
 - town
+- tradition
 - travel
 - treasure
 - tree
