@@ -27,7 +27,7 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この254語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この274語は、絵文字ではなく画像で表示されます）。
 
 - ability
 - achieve
@@ -37,12 +37,15 @@
 - apple
 - arrive
 - ask
+- attract
 - available
+- avoid
 - baby
 - bag
 - beautiful
 - bed
 - believe
+- belong
 - bicycle
 - big
 - bird
@@ -65,6 +68,7 @@
 - castle
 - cat
 - catch
+- cause
 - cave
 - chair
 - challenge
@@ -73,13 +77,18 @@
 - climb
 - close
 - cold
+- collect
 - color
 - come
 - community
 - compare
+- connect
 - consider
+- contain
 - continue
+- control
 - cook
+- create
 - cross
 - crown
 - culture
@@ -88,11 +97,15 @@
 - danger
 - dangerous
 - decide
+- defend
+- depend
 - describe
 - desert
+- destroy
 - develop
 - different
 - difficult
+- discover
 - doctor
 - dog
 - door
@@ -111,6 +124,7 @@
 - experience
 - expert
 - explain
+- explore
 - facilitate
 - family
 - famous
@@ -131,6 +145,7 @@
 - future
 - garden
 - gate
+- gather
 - girl
 - give
 - go
@@ -140,12 +155,14 @@
 - hat
 - heavy
 - help
+- hide
 - history
 - holiday
 - horse
 - hospital
 - hot
 - house
+- imagine
 - important
 - improve
 - increase
@@ -207,10 +224,12 @@
 - reason
 - red
 - reduce
+- region
 - relationship
 - remember
 - require
 - responsibility
+- reveal
 - rice
 - ring
 - river
@@ -250,6 +269,7 @@
 - suggest
 - summer
 - sun
+- survive
 - swim
 - sword
 - table
@@ -1658,7 +1678,7 @@ rich painted anime fantasy illustration, warm dramatic lighting, a few golden ac
 
 **312. exist**（存在する）
 ```
-rich painted anime fantasy illustration, warm dramatic lighting, a few golden accents, a light touch of floating light particles, detailed scene at a human scale. This is a rare card, tier 3 of 5: richer than the common cards, but clearly calmer than the epic and legendary tiers - the magic and glow stay moderate and the scene keeps a human scale. Scene: Some say unicorns still exist deep in the silver forest. Make the sentence's action (exist) the main subject: large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a close view at eye level, the subject filling the frame and cropped by the edges. no magic circles, no blinding radiant light, no jewel-encrusted ornaments, no world-shaking spectacle, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, warm dramatic lighting, a few golden accents, a light touch of floating light particles, detailed scene at a human scale. This is a rare card, tier 3 of 5: richer than the common cards, but clearly calmer than the epic and legendary tiers - the magic and glow stay moderate and the scene keeps a human scale. Scene: Deep in the silver forest, unicorns still exist. Make the sentence's action (exist) the main subject: large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a close view at eye level, the subject filling the frame and cropped by the edges. no magic circles, no blinding radiant light, no jewel-encrusted ornaments, no world-shaking spectacle, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **313. expect**（期待する）
@@ -1723,7 +1743,7 @@ rich painted anime fantasy illustration, warm dramatic lighting, a few golden ac
 
 **325. powerful**（強力な）
 ```
-rich painted anime fantasy illustration, warm dramatic lighting, a few golden accents, a light touch of floating light particles, detailed scene at a human scale. This is a rare card, tier 3 of 5: richer than the common cards, but clearly calmer than the epic and legendary tiers - the magic and glow stay moderate and the scene keeps a human scale. Scene: In his dark castle, the vampire lord is the most powerful creature in this land. Make the person or thing that the sentence is about the main subject: large and clearly visible. Any creature has clear, expressive eyes and a readable face. vampires are pale and sharp-featured with red eyes, white hair, long fangs and a high-collared crimson and black cloak. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a wide view of the place, the subject nearest the viewer and still the largest thing in it. no magic circles, no blinding radiant light, no jewel-encrusted ornaments, no world-shaking spectacle, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, warm dramatic lighting, a few golden accents, a light touch of floating light particles, detailed scene at a human scale. This is a rare card, tier 3 of 5: richer than the common cards, but clearly calmer than the epic and legendary tiers - the magic and glow stay moderate and the scene keeps a human scale. Scene: In the arena, a powerful giant lifts a huge boulder over his head. Make the person or thing that the sentence is about the main subject: large and clearly visible. Any creature has clear, expressive eyes and a readable face. giants are three times a man's height, broad and bearded, in furs and rough iron. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a wide view of the place, the subject nearest the viewer and still the largest thing in it. no magic circles, no blinding radiant light, no jewel-encrusted ornaments, no world-shaking spectacle, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **326. valuable**（貴重な）
@@ -1738,7 +1758,7 @@ rich painted anime fantasy illustration, warm dramatic lighting, a few golden ac
 
 **328. enormous**（巨大な）
 ```
-rich painted anime fantasy illustration, warm dramatic lighting, a few golden accents, a light touch of floating light particles, detailed scene at a human scale. This is a rare card, tier 3 of 5: richer than the common cards, but clearly calmer than the epic and legendary tiers - the magic and glow stay moderate and the scene keeps a human scale. Scene: In the mountains, an enormous troll blocks the narrow pass. Make the person or thing that the sentence is about the main subject: large and clearly visible. Any creature has clear, expressive eyes and a readable face. trolls are huge and hunched with warty grey-green skin, a long nose and small dull eyes, wearing a ragged fur loincloth. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a close view at eye level, the subject filling the frame and cropped by the edges. no magic circles, no blinding radiant light, no jewel-encrusted ornaments, no world-shaking spectacle, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, warm dramatic lighting, a few golden accents, a light touch of floating light particles, detailed scene at a human scale. This is a rare card, tier 3 of 5: richer than the common cards, but clearly calmer than the epic and legendary tiers - the magic and glow stay moderate and the scene keeps a human scale. Scene: In the swamp, an enormous troll rises out of the dark water. Make the person or thing that the sentence is about the main subject: large and clearly visible. Any creature has clear, expressive eyes and a readable face. trolls are huge and hunched with warty grey-green skin, a long nose and small dull eyes, wearing a ragged fur loincloth. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a close view at eye level, the subject filling the frame and cropped by the edges. no magic circles, no blinding radiant light, no jewel-encrusted ornaments, no world-shaking spectacle, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **329. familiar**（見慣れた）
@@ -1748,7 +1768,7 @@ rich painted anime fantasy illustration, warm dramatic lighting, a few golden ac
 
 **330. generous**（寛大な）
 ```
-rich painted anime fantasy illustration, warm dramatic lighting, a few golden accents, a light touch of floating light particles, detailed scene at a human scale. This is a rare card, tier 3 of 5: richer than the common cards, but clearly calmer than the epic and legendary tiers - the magic and glow stay moderate and the scene keeps a human scale. Scene: At the palace gate, the generous king gives food to every hungry traveler. Make the person or thing that the sentence is about the main subject: large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: seen from slightly above, looking down on the subject and the ground around it. no magic circles, no blinding radiant light, no jewel-encrusted ornaments, no world-shaking spectacle, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+rich painted anime fantasy illustration, warm dramatic lighting, a few golden accents, a light touch of floating light particles, detailed scene at a human scale. This is a rare card, tier 3 of 5: richer than the common cards, but clearly calmer than the epic and legendary tiers - the magic and glow stay moderate and the scene keeps a human scale. Scene: In the great hall, the generous king gives bread to every hungry traveler. Make the person or thing that the sentence is about the main subject: large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: seen from slightly above, looking down on the subject and the ground around it. no magic circles, no blinding radiant light, no jewel-encrusted ornaments, no world-shaking spectacle, 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **331. honest**（正直な）
