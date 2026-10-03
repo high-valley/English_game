@@ -92,6 +92,16 @@ def main():
     if not files:
         sys.exit(f"{branch} の incoming/ に画像がありません")
 
+    # 同じ単語のファイルが複数あるとき（作り直し・PNG と WebP の両方など）は、いちばん新しく push されたものだけを使う
+    def pushed_at(f):
+        return int(git("log", "-1", "--format=%ct", ref, "--", f).strip() or 0)
+    newest = {}
+    for f in files:
+        k = Path(f).stem.lower()
+        if k not in newest or pushed_at(f) >= pushed_at(newest[k]):
+            newest[k] = f
+    files = list(newest.values())
+
     words = {w["en"]: w for w in load_words()}
     done = set(load_done_images())
     got, skipped, bad = [], [], []

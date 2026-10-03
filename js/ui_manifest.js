@@ -96,9 +96,17 @@ const UI_MANIFEST={
   }
  },
  "cards": {
+  "ability": {
+   "full": "assets/cards/ability.webp?v=29f1fe4473",
+   "thumb": "assets/cards/thumb/ability.webp?v=6a0412a2c0"
+  },
   "achieve": {
    "full": "assets/cards/achieve.webp?v=c2d91a9ef5",
    "thumb": "assets/cards/thumb/achieve.webp?v=1b3267795d"
+  },
+  "advantage": {
+   "full": "assets/cards/advantage.webp?v=798b822585",
+   "thumb": "assets/cards/thumb/advantage.webp?v=50c71557c3"
   },
   "always": {
    "full": "assets/cards/always.webp?v=097c3454da",
@@ -300,6 +308,10 @@ const UI_MANIFEST={
    "full": "assets/cards/culture.webp?v=ec721fe065",
    "thumb": "assets/cards/thumb/culture.webp?v=aad29dab39"
   },
+  "damage": {
+   "full": "assets/cards/damage.webp?v=334b71cb70",
+   "thumb": "assets/cards/thumb/damage.webp?v=10894664bb"
+  },
   "dance": {
    "full": "assets/cards/dance.webp?v=b6b9334488",
    "thumb": "assets/cards/thumb/dance.webp?v=f9b71e23b4"
@@ -395,6 +407,10 @@ const UI_MANIFEST={
   "experience": {
    "full": "assets/cards/experience.webp?v=6398f6842b",
    "thumb": "assets/cards/thumb/experience.webp?v=040aaf7a10"
+  },
+  "expert": {
+   "full": "assets/cards/expert.webp?v=bf2b01c523",
+   "thumb": "assets/cards/thumb/expert.webp?v=8b25d92eb8"
   },
   "explain": {
    "full": "assets/cards/explain.webp?v=c4be8b41bd",
@@ -908,6 +924,10 @@ const UI_MANIFEST={
    "full": "assets/cards/special.webp?v=c9ec4a174d",
    "thumb": "assets/cards/thumb/special.webp?v=b87861ea20"
   },
+  "speed": {
+   "full": "assets/cards/speed.webp?v=d2173cf768",
+   "thumb": "assets/cards/thumb/speed.webp?v=e5ca4242e7"
+  },
   "stakeholder": {
    "full": "assets/cards/stakeholder.webp?v=29b1e7a108",
    "thumb": "assets/cards/thumb/stakeholder.webp?v=f1aa15ced3"
@@ -1111,7 +1131,9 @@ const UI_MANIFEST={
   "assets/ui/icons/nav_study.png": "a001ce1e4b",
   "assets/ui/icons/nav_gacha.png": "120141d355",
   "assets/ui/icons/nav_cards.png": "a8bc5c1133",
+  "assets/cards/ability.webp": "29f1fe4473",
   "assets/cards/achieve.webp": "c2d91a9ef5",
+  "assets/cards/advantage.webp": "798b822585",
   "assets/cards/always.webp": "097c3454da",
   "assets/cards/answer.webp": "6866217dbc",
   "assets/cards/apple.webp": "f76931a6e4",
@@ -1162,6 +1184,7 @@ const UI_MANIFEST={
   "assets/cards/cross.webp": "fdf23f8be9",
   "assets/cards/crown.webp": "6b439767a7",
   "assets/cards/culture.webp": "ec721fe065",
+  "assets/cards/damage.webp": "334b71cb70",
   "assets/cards/dance.webp": "b6b9334488",
   "assets/cards/danger.webp": "e776e13b4b",
   "assets/cards/dangerous.webp": "eb268334fa",
@@ -1186,6 +1209,7 @@ const UI_MANIFEST={
   "assets/cards/environment.webp": "f57504e244",
   "assets/cards/evidence.webp": "8b37058108",
   "assets/cards/experience.webp": "6398f6842b",
+  "assets/cards/expert.webp": "bf2b01c523",
   "assets/cards/explain.webp": "c4be8b41bd",
   "assets/cards/facilitate.webp": "9c29b6b153",
   "assets/cards/family.webp": "cc5657578d",
@@ -1314,6 +1338,7 @@ const UI_MANIFEST={
   "assets/cards/snow.webp": "0998964581",
   "assets/cards/speak.webp": "ae8cb2295e",
   "assets/cards/special.webp": "c9ec4a174d",
+  "assets/cards/speed.webp": "d2173cf768",
   "assets/cards/stakeholder.webp": "29b1e7a108",
   "assets/cards/star.webp": "5768222dc5",
   "assets/cards/station.webp": "4a56f6579f",
