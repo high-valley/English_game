@@ -27,11 +27,12 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この394語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この414語は、絵文字ではなく画像で表示されます）。
 
 - ability
 - accurate
 - achieve
+- acquisition
 - actually
 - adapt
 - adequate
@@ -93,12 +94,14 @@
 - climb
 - close
 - cold
+- collaboration
 - collect
 - color
 - come
 - community
 - compare
 - complex
+- compliance
 - comprehensive
 - concept
 - conclude
@@ -106,8 +109,10 @@
 - confirm
 - connect
 - consequence
+- consequently
 - consider
 - consistent
+- constraint
 - consult
 - contain
 - context
@@ -123,6 +128,7 @@
 - crucial
 - culture
 - curious
+- currently
 - damage
 - dance
 - danger
@@ -141,6 +147,7 @@
 - difficult
 - dimension
 - discover
+- disruption
 - distribute
 - diverse
 - doctor
@@ -171,6 +178,7 @@
 - equipment
 - especially
 - essential
+- essentially
 - establish
 - estimate
 - evaluate
@@ -218,6 +226,7 @@
 - give
 - go
 - good
+- gradually
 - hand
 - happy
 - hat
@@ -239,6 +248,7 @@
 - implement
 - important
 - improve
+- incentive
 - increase
 - indicate
 - industry
@@ -263,6 +273,7 @@
 - learn
 - leave
 - letter
+- leverage
 - library
 - listen
 - live
@@ -277,6 +288,7 @@
 - memory
 - milk
 - mirror
+- mitigate
 - modify
 - moon
 - morning
@@ -286,6 +298,7 @@
 - mystery
 - nature
 - necessary
+- negotiation
 - never
 - new
 - night
@@ -310,6 +323,7 @@
 - prevent
 - principle
 - priority
+- proactively
 - probably
 - problem
 - procedure
@@ -340,6 +354,7 @@
 - require
 - responsibility
 - reveal
+- revenue
 - rice
 - ring
 - river
@@ -380,12 +395,14 @@
 - story
 - strategy
 - strong
+- substantial
 - suddenly
 - sufficient
 - suggest
 - summer
 - sun
 - survive
+- sustainable
 - swim
 - sword
 - table
@@ -403,13 +420,16 @@
 - treasure
 - tree
 - truth
+- ultimate
 - umbrella
 - useful
 - usually
+- valid
 - valuable
 - victory
 - village
 - visit
+- vulnerable
 - wait
 - walk
 - water
@@ -2458,7 +2478,7 @@ masterpiece grand legendary painted fantasy illustration, mythic scale, a huge g
 
 **82. mitigate**（和らげる）
 ```
-masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: On the city wall, the archmage raises a shining shield to mitigate the archdemon's fire. Make the sentence's action (mitigate) the main subject: large and clearly visible. Any creature has clear, expressive eyes and a readable face. the archdemon is a colossal humanoid demon - not a dragon - standing upright on two legs, with muscular arms, clawed hands and a horned, human-like demonic face; deep red and black, with a crown of great curved horns, vast leathery wings and molten cracks across its body. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: seen from slightly above, looking down on the subject and the ground around it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: Below the volcano, the frost mages freeze the lava flow to mitigate the danger to the village. Make the sentence's action (mitigate) the main subject: large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: seen from slightly above, looking down on the subject and the ground around it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **83. acquisition**（買収）
@@ -2568,7 +2588,7 @@ masterpiece grand legendary painted fantasy illustration, mythic scale, a huge g
 
 **424. audit**（監査）
 ```
-masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: In the treasury, the royal inspectors audit the gold and count every coin by candlelight. The audit itself is the main subject of the picture: large and clearly visible. If the audit is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a close view at eye level, the subject filling the frame and cropped by the edges. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: In the granary, the royal inspectors audit the sacks of grain with long tally sticks. The audit itself is the main subject of the picture: large and clearly visible. If the audit is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a close view at eye level, the subject filling the frame and cropped by the edges. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **425. brand**（ブランド）
@@ -2578,12 +2598,12 @@ masterpiece grand legendary painted fantasy illustration, mythic scale, a huge g
 
 **426. budget**（予算）
 ```
-masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: In the war room, the queen divides the budget into piles of gold for soldiers and ships. The budget itself is the main subject of the picture: large and clearly visible. If the budget is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: seen from slightly above, looking down on the subject and the ground around it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: In the castle kitchen, the cook plans the royal feast on a tiny budget of three copper coins. The budget itself is the main subject of the picture: large and clearly visible. If the budget is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: seen from slightly above, looking down on the subject and the ground around it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **427. capital**（資本）
 ```
-masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: In the bank hall, the merchants pour their capital into a chest to build a sky ship. The capital itself is the main subject of the picture: large and clearly visible. If the capital is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: the subject set to one side of the frame, with the place opening up beside it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: In the merchant's courtyard, wagons of silk and spices arrive as capital for a new trading house. The capital itself is the main subject of the picture: large and clearly visible. If the capital is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: the subject set to one side of the frame, with the place opening up beside it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **428. client**（顧客）
@@ -2608,7 +2628,7 @@ masterpiece grand legendary painted fantasy illustration, mythic scale, a huge g
 
 **432. deadline**（締め切り）
 ```
-masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: In the forge at midnight, the blacksmith races the royal deadline as the hourglass runs out. The deadline itself is the main subject of the picture: large and clearly visible. If the deadline is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a close view at eye level, the subject filling the frame and cropped by the edges. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: In the tailor's shop at midnight, the seamstresses race the royal deadline to finish the gown. The deadline itself is the main subject of the picture: large and clearly visible. If the deadline is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a close view at eye level, the subject filling the frame and cropped by the edges. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **433. demand**（需要）
@@ -2618,7 +2638,7 @@ masterpiece grand legendary painted fantasy illustration, mythic scale, a huge g
 
 **434. dividend**（配当）
 ```
-masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: In the guild hall, each partner receives a golden dividend from the year's treasure chest. The dividend itself is the main subject of the picture: large and clearly visible. If the dividend is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: seen from slightly above, looking down on the subject and the ground around it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: At the orchard, each villager receives a dividend: a full basket of golden apples. The dividend itself is the main subject of the picture: large and clearly visible. If the dividend is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: seen from slightly above, looking down on the subject and the ground around it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **435. entrepreneur**（起業家）
@@ -2628,7 +2648,7 @@ masterpiece grand legendary painted fantasy illustration, mythic scale, a huge g
 
 **436. headquarters**（本部）
 ```
-masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: In the ancient forest, the rangers' headquarters stands inside a giant hollow tree. The headquarters itself is the main subject of the picture: large and clearly visible. If the headquarters is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: framed through something in the foreground - an archway, a doorway or branches - with the subject beyond it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: On the beach, the pirates' headquarters is a huge wrecked ship covered with flags. The headquarters itself is the main subject of the picture: large and clearly visible. If the headquarters is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Any creature has clear, expressive eyes and a readable face. pirates are weathered sailors in a long coat, a tricorn hat and a wide sash. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: framed through something in the foreground - an archway, a doorway or branches - with the subject beyond it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **437. inflation**（インフレ）
@@ -2643,12 +2663,12 @@ masterpiece grand legendary painted fantasy illustration, mythic scale, a huge g
 
 **439. manufacturer**（製造業者）
 ```
-masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: In the mountain city, the finest manufacturer of magic armor hammers a glowing breastplate. The manufacturer itself is the main subject of the picture: large and clearly visible. If the manufacturer is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: the subject close and sharp, the background kept soft and simple behind it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: In the mountain city, the finest manufacturer of magic armor displays glowing suits in his shop. The manufacturer itself is the main subject of the picture: large and clearly visible. If the manufacturer is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: the subject close and sharp, the background kept soft and simple behind it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **440. merger**（合併）
 ```
-masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: In the great hall, two guild masters join their banners to celebrate the merger of their guilds. The merger itself is the main subject of the picture: large and clearly visible. If the merger is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a close view at eye level, the subject filling the frame and cropped by the edges. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: At the harbor, after the merger, two merchant fleets with different flags sail out as one. The merger itself is the main subject of the picture: large and clearly visible. If the merger is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a close view at eye level, the subject filling the frame and cropped by the edges. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **441. milestone**（節目）
@@ -2663,7 +2683,7 @@ masterpiece grand legendary painted fantasy illustration, mythic scale, a huge g
 
 **443. portfolio**（ポートフォリオ）
 ```
-masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: In the banker's office, a leather portfolio holds maps of gold mines, ships and a dragon farm. The portfolio itself is the main subject of the picture: large and clearly visible. If the portfolio is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. Any creature has clear, expressive eyes and a readable face. dragons are long scaled reptiles with a horned crest, a slender neck, folded leathery wings and amber eyes, in tan and bronze scales unless the sentence gives them another colour. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: the subject set to one side of the frame, with the place opening up beside it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: In the banker's office, a leather portfolio holds deeds to mines, ships and a castle. The portfolio itself is the main subject of the picture: large and clearly visible. If the portfolio is not something that can be seen, show it through the people and things in the sentence, and make them large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: the subject set to one side of the frame, with the place opening up beside it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **444. productivity**（生産性）
@@ -2728,7 +2748,7 @@ masterpiece grand legendary painted fantasy illustration, mythic scale, a huge g
 
 **456. accommodate**（収容する）
 ```
-masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: Inside the mountain, the dwarven hall accommodates ten thousand guests at one feast. Make the sentence's action (accommodate) the main subject: large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a close view at eye level, the subject filling the frame and cropped by the edges. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: At the harbor, the giant ship accommodates a thousand travelers and their horses. Make the sentence's action (accommodate) the main subject: large and clearly visible. Any creature has clear, expressive eyes and a readable face. giants are three times a man's height, broad and bearded, in furs and rough iron. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a close view at eye level, the subject filling the frame and cropped by the edges. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **457. acquire**（手に入れる）
@@ -2743,12 +2763,12 @@ masterpiece grand legendary painted fantasy illustration, mythic scale, a huge g
 
 **459. amend**（改正する）
 ```
-masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: In the council hall, the scribe amends the ancient law with a golden quill. Make the sentence's action (amend) the main subject: large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: the subject set to one side of the frame, with the place opening up beside it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: In the council hall, the elders amend the old law carved in stone by adding a new line. Make the sentence's action (amend) the main subject: large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: the subject set to one side of the frame, with the place opening up beside it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **460. approve**（承認する）
 ```
-masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: In the throne room, the king approves the plan for a new bridge with his royal seal. Make the sentence's action (approve) the main subject: large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: framed through something in the foreground - an archway, a doorway or branches - with the subject beyond it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: At the harvest fair, the judge approves the giant pumpkin with a golden ribbon. Make the sentence's action (approve) the main subject: large and clearly visible. Any creature has clear, expressive eyes and a readable face. giants are three times a man's height, broad and bearded, in furs and rough iron. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: framed through something in the foreground - an archway, a doorway or branches - with the subject beyond it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **461. authorize**（認可する）
@@ -2773,7 +2793,7 @@ masterpiece grand legendary painted fantasy illustration, mythic scale, a huge g
 
 **465. diversify**（多角化する）
 ```
-masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: At the market stall, the spice merchants diversify and sell silk, gems and maps too. Make the sentence's action (diversify) the main subject: large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a low angle, looking up at the subject against the sky or the ceiling above it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: At the farm, the farmers diversify and grow lavender, apples and wheat side by side. Make the sentence's action (diversify) the main subject: large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a low angle, looking up at the subject against the sky or the ceiling above it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **466. endorse**（支持する）
@@ -2788,7 +2808,7 @@ masterpiece grand legendary painted fantasy illustration, mythic scale, a huge g
 
 **468. expedite**（早める）
 ```
-masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: At the royal forge, extra smiths expedite the silver arrows for the war against the wraiths. Make the sentence's action (expedite) the main subject: large and clearly visible. Any creature has clear, expressive eyes and a readable face. wraiths are hooded shapes of black smoke with no face, only two pale burning eyes. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: framed through something in the foreground - an archway, a doorway or branches - with the subject beyond it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: At the harbor, the sea witch's wind spell expedites the ships home before the storm. Make the sentence's action (expedite) the main subject: large and clearly visible. Any creature has clear, expressive eyes and a readable face. witches are gaunt women in a dark green robe and a wide pointed hat, with a crooked staff. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: framed through something in the foreground - an archway, a doorway or branches - with the subject beyond it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **469. finalize**（最終決定する）
@@ -2808,12 +2828,12 @@ masterpiece grand legendary painted fantasy illustration, mythic scale, a huge g
 
 **472. invest**（投資する）
 ```
-masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: In the shipyard, the wealthy duke invests chests of gold in a fleet of airships. Make the sentence's action (invest) the main subject: large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a close view at eye level, the subject filling the frame and cropped by the edges. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: At the vineyard, the wealthy duke invests his gold in a whole hillside of young grapevines. Make the sentence's action (invest) the main subject: large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a close view at eye level, the subject filling the frame and cropped by the edges. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **473. oversee**（統括する）
 ```
-masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: On the cliff, a trusted knight oversees twelve priests as they seal the demon gate. Make the sentence's action (oversee) the main subject: large and clearly visible. Any creature has clear, expressive eyes and a readable face. demons are tall, upright and humanoid (not dragons), red-skinned with curved black horns, leathery wings, hooves and burning orange eyes. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a low angle, looking up at the subject against the sky or the ceiling above it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: On the high scaffold, a trusted knight oversees the raising of the king's giant statue. Make the sentence's action (oversee) the main subject: large and clearly visible. Any creature has clear, expressive eyes and a readable face. giants are three times a man's height, broad and bearded, in furs and rough iron. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a low angle, looking up at the subject against the sky or the ceiling above it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **474. prioritize**（優先する）
@@ -2883,7 +2903,7 @@ masterpiece grand legendary painted fantasy illustration, mythic scale, a huge g
 
 **487. lucrative**（もうかる）
 ```
-masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: In the hidden cave, the dragon egg trade is lucrative, and the bandits count piles of gold. Make the person or thing that the sentence is about the main subject: large and clearly visible. Any creature has clear, expressive eyes and a readable face. dragons are long scaled reptiles with a horned crest, a slender neck, folded leathery wings and amber eyes, in tan and bronze scales unless the sentence gives them another colour. bandits are rough men in worn leather with a dark cloth mask over the lower face. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: the subject close and sharp, the background kept soft and simple behind it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: In the hidden cave, the bandits' silk smuggling is lucrative, and they count piles of gold. Make the person or thing that the sentence is about the main subject: large and clearly visible. Any creature has clear, expressive eyes and a readable face. bandits are rough men in worn leather with a dark cloth mask over the lower face. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: the subject close and sharp, the background kept soft and simple behind it. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **488. mandatory**（義務の）
@@ -2918,7 +2938,7 @@ masterpiece grand legendary painted fantasy illustration, mythic scale, a huge g
 
 **494. temporary**（一時的な）
 ```
-masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: At the demon gate, a temporary seal of light holds back the claws reaching through. Make the person or thing that the sentence is about the main subject: large and clearly visible. Any creature has clear, expressive eyes and a readable face. demons are tall, upright and humanoid (not dragons), red-skinned with curved black horns, leathery wings, hooves and burning orange eyes. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a three-quarter view, the subject turned partly away from the viewer. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: At the flooded road, a temporary bridge of ropes and planks carries the travelers across. Make the person or thing that the sentence is about the main subject: large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a three-quarter view, the subject turned partly away from the viewer. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **495. transparent**（透明な）
@@ -2928,7 +2948,7 @@ masterpiece grand legendary painted fantasy illustration, mythic scale, a huge g
 
 **496. volatile**（不安定な）
 ```
-masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: In the alchemist's lab, the volatile red potion bubbles and sends sparks across the table. Make the person or thing that the sentence is about the main subject: large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a close view at eye level, the subject filling the frame and cropped by the edges. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
+masterpiece grand legendary painted fantasy illustration, mythic scale, a huge glowing magic circle, divine radiant light breaking through the sky, swirling golden and starry particles, extremely detailed, cinematic. This is a legendary card, the highest tier, 5 of 5: the most awe-inspiring picture of the whole set, grander in scale and light than any other tier. Scene: In the storm, the volatile sea throws the small ship between huge waves. Make the person or thing that the sentence is about the main subject: large and clearly visible. The people are dressed so that their role in the sentence is obvious at a glance. Set it in a European medieval fantasy world - not Japanese, not Chinese, not modern. Include only what the sentence and the place call for; do not add a castle, a street lantern or a signpost unless the sentence or the place asks for one. When several people appear, each has a clearly different face, age and build. Composition: a close view at eye level, the subject filling the frame and cropped by the edges. 3:2 wide landscape, the subject is unmistakably the main thing in the picture, important parts kept inside the middle horizontal band, no text, no letters, no logo, no border, no frame
 ```
 
 **497. accordingly**（それに応じて）

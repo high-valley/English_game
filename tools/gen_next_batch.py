@@ -21,7 +21,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from gen_card_prompts import GPT_WORD, LEVELS, LEVEL_NO, REDO, batch_message, load_words, load_done_images, next_order, prompt_for  # noqa: E402
+from gen_card_prompts import GPT_WORD, LEVELS, LEVEL_NO, REDO, batch_message, incoming_stem, load_words, load_done_images, next_order, prompt_for  # noqa: E402
 from check_words import ENEMIES, has  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -46,13 +46,14 @@ def write_gpt_tasks(first):
     for f in d.glob("*.txt"):
         f.unlink()
     rows = [f"# 次に描く{len(first)}枚（自動生成：tools/gen_next_batch.py。直接編集しない）", "",
-            "上から順に、`gpt-images` ブランチの `incoming/` に**まだ無いもの**だけを描く。", "",
+            "上から順に、「保存するファイル名」が `gpt-images` ブランチの `incoming/` に**まだ無いもの**だけを描く。",
+            "（作り直しの行は `単語_v2.webp` のような別の名前にしてある。元の絵が `incoming/` にあっても描く）", "",
             "| 順 | 単語 | 保存するファイル名（960x640 の WebP に小さくしてから） | プロンプトのファイル | 例文（日本語） |", "|---|---|---|---|---|"]
     for i, w in enumerate(first, 1):
         name = f"{i:02d}_{w['en']}.txt"
         (d / name).write_text(prompt_for(w) + "\n", encoding="utf-8")
         redo = "（作り直し）" if w["en"] in REDO else ""
-        rows.append(f"| {i} | {w['en']}（{w['ja']}）{redo} | incoming/{w['en']}.webp | gpt_tasks/next/{name} | {w['tr']} |")
+        rows.append(f"| {i} | {w['en']}（{w['ja']}）{redo} | incoming/{incoming_stem(w['en'])}.webp | gpt_tasks/next/{name} | {w['tr']} |")
     (d / "LIST.md").write_text("\n".join(rows) + "\n", encoding="utf-8")
 
 
