@@ -5,23 +5,23 @@
 
 | 順 | 単語 | 保存するファイル名（960x640 の WebP に小さくしてから） | プロンプトのファイル | 例文（日本語） |
 |---|---|---|---|---|
-| 1 | dividend（配当） | incoming/dividend.webp | gpt_tasks/next/01_dividend.txt | 果樹園で、村人たちがそれぞれ配当として、金色のりんごでいっぱいのかごを受け取る。 |
-| 2 | entrepreneur（起業家） | incoming/entrepreneur.webp | gpt_tasks/next/02_entrepreneur.txt | 浮島で、若い起業家が空の旅人とグリフォンのための酒場を開く。 |
-| 3 | headquarters（本部） | incoming/headquarters.webp | gpt_tasks/next/03_headquarters.txt | 浜辺で、海賊たちの本部は、旗で飾られた巨大な難破船だ。 |
-| 4 | inflation（インフレ） | incoming/inflation.webp | gpt_tasks/next/04_inflation.txt | 市場で、インフレのせいで、小さなパン一つが金貨の山ほどの値段になる。 |
-| 5 | inventory（在庫） | incoming/inventory.webp | gpt_tasks/next/05_inventory.txt | 隊商の野営地で、ドワーフが樽や木箱や武器の在庫を確かめる。 |
-| 6 | manufacturer（製造業者） | incoming/manufacturer.webp | gpt_tasks/next/06_manufacturer.txt | 山の都で、魔法の鎧を作る最高の製造業者が、店に光る鎧をずらりと並べている。 |
-| 7 | merger（合併） | incoming/merger.webp | gpt_tasks/next/07_merger.txt | 港で、合併した二つの商船隊が、違う旗を並べてひとつの船団として出航する。 |
-| 8 | milestone（節目） | incoming/milestone.webp | gpt_tasks/next/08_milestone.txt | 平原で、闇の王の黒い塔が崩れ、長い戦争の節目となる。 |
-| 9 | partnership（提携） | incoming/partnership.webp | gpt_tasks/next/09_partnership.txt | 港で、エルフとドワーフが共同の船を出す。新しい提携の始まりだ。 |
-| 10 | portfolio（ポートフォリオ） | incoming/portfolio.webp | gpt_tasks/next/10_portfolio.txt | 銀行家の部屋で、革のポートフォリオに鉱山・船・城の権利書が入っている。 |
-| 11 | productivity（生産性） | incoming/productivity.webp | gpt_tasks/next/11_productivity.txt | 機織りの館で、魔法の織機が織り手たちの生産性を倍にする。 |
-| 12 | profit（利益） | incoming/profit.webp | gpt_tasks/next/12_profit.txt | 海賊船で、船長が金貨の利益を、歓声を上げる仲間たちに分ける。 |
-| 13 | recession（景気後退） | incoming/recession.webp | gpt_tasks/next/13_recession.txt | 港町で、閉じた店と動かない船が、戦争後の深い景気後退を物語る。 |
-| 14 | reputation（評判） | incoming/reputation.webp | gpt_tasks/next/14_reputation.txt | 村の療養所に、癒し手の評判を聞いた遠い国々の病人たちがやって来る。 |
-| 15 | subsidiary（子会社） | incoming/subsidiary.webp | gpt_tasks/next/15_subsidiary.txt | 遠い東の港で、大ギルドが小さな旗を掲げた子会社を開く。 |
-| 16 | supplier（供給業者） | incoming/supplier.webp | gpt_tasks/next/16_supplier.txt | 砦で、王の供給業者が、不死の軍が来る前に銀の矢を荷車で届ける。 |
-| 17 | tariff（関税） | incoming/tariff.webp | gpt_tasks/next/17_tariff.txt | 石の橋で、トロルたちが商人の荷車ごとに金貨の関税を取り立てる。 |
-| 18 | transaction（取引） | incoming/transaction.webp | gpt_tasks/next/18_transaction.txt | コボルトの市場で、すべての取引が光る魔法の帳簿に書き込まれる。 |
-| 19 | warehouse（倉庫） | incoming/warehouse.webp | gpt_tasks/next/19_warehouse.txt | 古い倉庫で、カルトの信者たちが封じた悪魔の遺物を木箱の間に隠す。 |
-| 20 | workforce（労働力） | incoming/workforce.webp | gpt_tasks/next/20_workforce.txt | 崩れた城壁で、ドワーフの大きな労働力が、巨神が砕いた石を積み直す。 |
+| 1 | monopoly（独占） | incoming/monopoly.webp | gpt_tasks/next/01_monopoly.txt | 市場で、魔法使いのギルドが、売り物の空飛ぶじゅうたんをすべて独占している。 |
+| 2 | accelerate（加速させる） | incoming/accelerate.webp | gpt_tasks/next/02_accelerate.txt | 麦畑で、ドルイドたちが作物の成長を加速させる呪文を唱える。 |
+| 3 | accommodate（収容する） | incoming/accommodate.webp | gpt_tasks/next/03_accommodate.txt | 港で、巨大な船が千人の旅人とその馬を収容する。 |
+| 4 | acquire（手に入れる） | incoming/acquire.webp | gpt_tasks/next/04_acquire.txt | 競売の広間で、リッチが呪われた金貨の袋で、珍しい黒い書を手に入れる。 |
+| 5 | align（足並みをそろえる） | incoming/align.webp | gpt_tasks/next/05_align.txt | 神殿の上で三つの月が一直線に並び、祭壇に光が降りる。 |
+| 6 | amend（改正する） | incoming/amend.webp | gpt_tasks/next/06_amend.txt | 評議会の広間で、長老たちが石に刻まれた古い法に一行を彫り足して改正する。 |
+| 7 | approve（承認する） | incoming/approve.webp | gpt_tasks/next/07_approve.txt | 収穫祭で、審査員が巨大なかぼちゃに金のリボンを付けて承認する。 |
+| 8 | authorize（認可する） | incoming/authorize.webp | gpt_tasks/next/08_authorize.txt | 深い地下室で、女王の印が、封じられた竜の扉を開くことを認可する。 |
+| 9 | commence（開始する） | incoming/commence.webp | gpt_tasks/next/09_commence.txt | リッチの砦の外で、燃える矢の雨とともに最後の攻撃が始まる。 |
+| 10 | consolidate（統合する） | incoming/consolidate.webp | gpt_tasks/next/10_consolidate.txt | 丘の上で、将軍が三つの小さな軍を、オーガの一族に対する一つの軍に統合する。 |
+| 11 | delegate（委任する） | incoming/delegate.webp | gpt_tasks/next/11_delegate.txt | 城の中庭で、女王が助言者たちに三本の鍵を渡し、都の管理を委任する。 |
+| 12 | diversify（多角化する） | incoming/diversify.webp | gpt_tasks/next/12_diversify.txt | 農場で、農民たちが作物を多角化し、ラベンダーとりんごと麦を並べて育てる。 |
+| 13 | endorse（支持する） | incoming/endorse.webp | gpt_tasks/next/13_endorse.txt | 剣の店で、有名な勇者が大きな旗に名前を書き、新しい剣を支持する。 |
+| 14 | execute（遂行する） | incoming/execute.webp | gpt_tasks/next/14_execute.txt | 城の広間で、狩人たちが計画を遂行し、眠るヴァンパイアの棺を開ける。 |
+| 15 | expedite（早める） | incoming/expedite.webp | gpt_tasks/next/15_expedite.txt | 港で、海の魔女の風の呪文が、嵐の前に船の帰りを早める。 |
+| 16 | finalize（最終決定する） | incoming/finalize.webp | gpt_tasks/next/16_finalize.txt | 塔の上で、二人の支配者が蝋と金の印で条約を最終決定する。 |
+| 17 | forecast（予測する） | incoming/forecast.webp | gpt_tasks/next/17_forecast.txt | 天文台で、巫女が燃える星を読み、炎の嵐を予測する。 |
+| 18 | initiate（着手する） | incoming/initiate.webp | gpt_tasks/next/18_initiate.txt | 神殿で、大神官が最初の聖なる炎をともし、儀式に着手する。 |
+| 19 | invest（投資する） | incoming/invest.webp | gpt_tasks/next/19_invest.txt | ぶどう畑で、裕福な公爵が丘一面の若いぶどうの木に金貨を投資する。 |
+| 20 | oversee（統括する） | incoming/oversee.webp | gpt_tasks/next/20_oversee.txt | 高い足場の上で、信頼された騎士が、王の巨大な像を立てる作業を統括する。 |

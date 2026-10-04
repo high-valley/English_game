@@ -1,7 +1,7 @@
 # WORD GRIMOIRE ― 次にやるタスク
 
 ## 次のタスク（優先順）
-1. **カード画像の作成（LEGENDARY）**。**COMMON・UNCOMMON・RARE・EPIC は 100/100 で完成**。LEGENDARY は 33/100（全体 433/500）。
+1. **カード画像の作成（LEGENDARY）**。**COMMON・UNCOMMON・RARE・EPIC は 100/100 で完成**。LEGENDARY は 53/100（全体 453/500）。
    EPIC・LEGENDARY の例文は生成の前に見直し済み（EPIC は98語、LEGENDARY は99語を書き換えた）。
    `card_image_next.md` の先頭が次に作る分（`python3 tools/gen_next_batch.py` で出し直す）
    - 画像の生成は画像生成AI（ChatGPT / Grok など）に頼む（Claude は画像を作れない）
@@ -55,6 +55,7 @@
 - `icon_coin` を作り直す場合は `assets/ui/icon_prompts.md`（金色が主体で、暗い面を作らないこと）
 
 ## 完了済み
+- LEGENDARY のカード画像を20枚追加（dividend / entrepreneur / headquarters / inflation / inventory / manufacturer / merger / milestone / partnership / portfolio / productivity / profit / recession / reputation / subsidiary / supplier / tariff / transaction / warehouse / workforce）。LEGENDARY は 53/100、全体 453/500
 - LEGENDARY のカード画像を19枚追加（scalable / benchmark / liability / contingency / deliverable / streamline / agenda / alliance / asset / audit / brand / budget / capital / client / competitor / consumer / corporation / deadline / demand）。`mitigate` を火山の溶岩を凍らせる絵に作り直した（EPIC の `maintain` と同じ絵だったため。`incoming/mitigate_v2.webp` で受け取った）。LEGENDARY は 33/100、全体 433/500
 - **EPIC のカード画像 100枚が完成**（最後は ultimate / valid / vulnerable / consequently / currently / gradually / essentially）。LEGENDARY も13枚追加（leverage / mitigate / acquisition / compliance / revenue / disruption / sustainable / negotiation / collaboration / proactively / substantial / constraint / incentive）。mitigate は人型の大悪魔で作り直した。全体 414/500
 - EPIC のカード画像を20枚追加（exceed / extend / generate / illustrate / indicate / interpret / investigate / justify / modify / adequate / appropriate / complex / consistent / crucial / diverse / essential / fundamental / innovative / relevant / sufficient）。EPIC は 93/100、全体 394/500
