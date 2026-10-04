@@ -116,6 +116,10 @@ const UI_MANIFEST={
    "full": "assets/cards/adapt.webp?v=75660f139a",
    "thumb": "assets/cards/thumb/adapt.webp?v=fcbbe01a21"
   },
+  "adequate": {
+   "full": "assets/cards/adequate.webp?v=fedc208673",
+   "thumb": "assets/cards/thumb/adequate.webp?v=cbead5b370"
+  },
   "adjust": {
    "full": "assets/cards/adjust.webp?v=5eb4cab2ed",
    "thumb": "assets/cards/thumb/adjust.webp?v=1b6c5dd36b"
@@ -159,6 +163,10 @@ const UI_MANIFEST={
   "apply": {
    "full": "assets/cards/apply.webp?v=4029504ffe",
    "thumb": "assets/cards/thumb/apply.webp?v=a996a47ef4"
+  },
+  "appropriate": {
+   "full": "assets/cards/appropriate.webp?v=1cd2c1175c",
+   "thumb": "assets/cards/thumb/appropriate.webp?v=ca189f87e1"
   },
   "arrive": {
    "full": "assets/cards/arrive.webp?v=bc046d27a9",
@@ -364,6 +372,10 @@ const UI_MANIFEST={
    "full": "assets/cards/compare.webp?v=e3aa14f835",
    "thumb": "assets/cards/thumb/compare.webp?v=7161ebc4c0"
   },
+  "complex": {
+   "full": "assets/cards/complex.webp?v=1d3be605d2",
+   "thumb": "assets/cards/thumb/complex.webp?v=f307c47987"
+  },
   "comprehensive": {
    "full": "assets/cards/comprehensive.webp?v=c53a743de0",
    "thumb": "assets/cards/thumb/comprehensive.webp?v=9abb5a9982"
@@ -395,6 +407,10 @@ const UI_MANIFEST={
   "consider": {
    "full": "assets/cards/consider.webp?v=4e247de9f8",
    "thumb": "assets/cards/thumb/consider.webp?v=5456ef7efa"
+  },
+  "consistent": {
+   "full": "assets/cards/consistent.webp?v=fb7d740e3b",
+   "thumb": "assets/cards/thumb/consistent.webp?v=ccbad7702b"
   },
   "consult": {
    "full": "assets/cards/consult.webp?v=1f3c9434f8",
@@ -443,6 +459,10 @@ const UI_MANIFEST={
   "crown": {
    "full": "assets/cards/crown.webp?v=6b439767a7",
    "thumb": "assets/cards/thumb/crown.webp?v=d2e3547752"
+  },
+  "crucial": {
+   "full": "assets/cards/crucial.webp?v=790f287168",
+   "thumb": "assets/cards/thumb/crucial.webp?v=df8d027d52"
   },
   "culture": {
    "full": "assets/cards/culture.webp?v=ec721fe065",
@@ -527,6 +547,10 @@ const UI_MANIFEST={
   "distribute": {
    "full": "assets/cards/distribute.webp?v=92b49bcbd6",
    "thumb": "assets/cards/thumb/distribute.webp?v=bb3c55eb25"
+  },
+  "diverse": {
+   "full": "assets/cards/diverse.webp?v=93c61734f6",
+   "thumb": "assets/cards/thumb/diverse.webp?v=b2ed32a9ee"
   },
   "doctor": {
    "full": "assets/cards/doctor.webp?v=d0cd04441c",
@@ -636,6 +660,10 @@ const UI_MANIFEST={
    "full": "assets/cards/especially.webp?v=348fffad20",
    "thumb": "assets/cards/thumb/especially.webp?v=a97f4afe66"
   },
+  "essential": {
+   "full": "assets/cards/essential.webp?v=e1baea851e",
+   "thumb": "assets/cards/thumb/essential.webp?v=c55cf896ed"
+  },
   "establish": {
    "full": "assets/cards/establish.webp?v=665d5df206",
    "thumb": "assets/cards/thumb/establish.webp?v=a0e3354a04"
@@ -651,6 +679,10 @@ const UI_MANIFEST={
   "evidence": {
    "full": "assets/cards/evidence.webp?v=8b37058108",
    "thumb": "assets/cards/thumb/evidence.webp?v=2a7312a677"
+  },
+  "exceed": {
+   "full": "assets/cards/exceed.webp?v=52f7569d47",
+   "thumb": "assets/cards/thumb/exceed.webp?v=b0b195eab2"
   },
   "exist": {
    "full": "assets/cards/exist.webp?v=43803759ed",
@@ -679,6 +711,10 @@ const UI_MANIFEST={
   "explore": {
    "full": "assets/cards/explore.webp?v=83c8a05a85",
    "thumb": "assets/cards/thumb/explore.webp?v=6d3302bbd1"
+  },
+  "extend": {
+   "full": "assets/cards/extend.webp?v=356d0193d5",
+   "thumb": "assets/cards/thumb/extend.webp?v=c9f82b835a"
   },
   "facilitate": {
    "full": "assets/cards/facilitate.webp?v=9c29b6b153",
@@ -772,6 +808,10 @@ const UI_MANIFEST={
    "full": "assets/cards/function.webp?v=dcbd148b0e",
    "thumb": "assets/cards/thumb/function.webp?v=43fee909df"
   },
+  "fundamental": {
+   "full": "assets/cards/fundamental.webp?v=8897f58b4b",
+   "thumb": "assets/cards/thumb/fundamental.webp?v=ee219e87bc"
+  },
   "future": {
    "full": "assets/cards/future.webp?v=ee4345d5e8",
    "thumb": "assets/cards/thumb/future.webp?v=28fd6c05f6"
@@ -787,6 +827,10 @@ const UI_MANIFEST={
   "gather": {
    "full": "assets/cards/gather.webp?v=0976618569",
    "thumb": "assets/cards/thumb/gather.webp?v=2c9ca94762"
+  },
+  "generate": {
+   "full": "assets/cards/generate.webp?v=c089e8e743",
+   "thumb": "assets/cards/thumb/generate.webp?v=4237d1e131"
   },
   "generous": {
    "full": "assets/cards/generous.webp?v=9bbd804838",
@@ -868,6 +912,10 @@ const UI_MANIFEST={
    "full": "assets/cards/identity.webp?v=6d970e979d",
    "thumb": "assets/cards/thumb/identity.webp?v=47b68024ca"
   },
+  "illustrate": {
+   "full": "assets/cards/illustrate.webp?v=070c56a2d8",
+   "thumb": "assets/cards/thumb/illustrate.webp?v=9a01c5e502"
+  },
   "imagine": {
    "full": "assets/cards/imagine.webp?v=4aa04610fa",
    "thumb": "assets/cards/thumb/imagine.webp?v=340d8b50d8"
@@ -892,6 +940,10 @@ const UI_MANIFEST={
    "full": "assets/cards/increase.webp?v=685be1d79f",
    "thumb": "assets/cards/thumb/increase.webp?v=8a12710165"
   },
+  "indicate": {
+   "full": "assets/cards/indicate.webp?v=98bb5f3177",
+   "thumb": "assets/cards/thumb/indicate.webp?v=aa552d280e"
+  },
   "industry": {
    "full": "assets/cards/industry.webp?v=bcfee06bae",
    "thumb": "assets/cards/thumb/industry.webp?v=eb88e4d5e7"
@@ -904,13 +956,25 @@ const UI_MANIFEST={
    "full": "assets/cards/initiative.webp?v=dcdd5f84a5",
    "thumb": "assets/cards/thumb/initiative.webp?v=c6c2c501b6"
   },
+  "innovative": {
+   "full": "assets/cards/innovative.webp?v=ef710a8739",
+   "thumb": "assets/cards/thumb/innovative.webp?v=f876a72386"
+  },
   "institution": {
    "full": "assets/cards/institution.webp?v=1ad6f9121c",
    "thumb": "assets/cards/thumb/institution.webp?v=1511537f62"
   },
+  "interpret": {
+   "full": "assets/cards/interpret.webp?v=bfe4f31ded",
+   "thumb": "assets/cards/thumb/interpret.webp?v=9bf4ef4554"
+  },
   "invention": {
    "full": "assets/cards/invention.webp?v=ff1a1318d2",
    "thumb": "assets/cards/thumb/invention.webp?v=dc410fb2ee"
+  },
+  "investigate": {
+   "full": "assets/cards/investigate.webp?v=d51ce52cd3",
+   "thumb": "assets/cards/thumb/investigate.webp?v=e7ef5b3820"
   },
   "investment": {
    "full": "assets/cards/investment.webp?v=99cca5ab3b",
@@ -931,6 +995,10 @@ const UI_MANIFEST={
   "jump": {
    "full": "assets/cards/jump.webp?v=897d6229c6",
    "thumb": "assets/cards/thumb/jump.webp?v=a701bfc4a0"
+  },
+  "justify": {
+   "full": "assets/cards/justify.webp?v=f5cf586cf1",
+   "thumb": "assets/cards/thumb/justify.webp?v=0bf6ed9eb6"
   },
   "key": {
    "full": "assets/cards/key.webp?v=d9e46c479e",
@@ -1019,6 +1087,10 @@ const UI_MANIFEST={
   "mirror": {
    "full": "assets/cards/mirror.webp?v=18e79fc1ef",
    "thumb": "assets/cards/thumb/mirror.webp?v=3e3020d193"
+  },
+  "modify": {
+   "full": "assets/cards/modify.webp?v=8a3eedbcff",
+   "thumb": "assets/cards/thumb/modify.webp?v=d44ce0f92d"
   },
   "moon": {
    "full": "assets/cards/moon.webp?v=11faa34c72",
@@ -1248,6 +1320,10 @@ const UI_MANIFEST={
    "full": "assets/cards/release.webp?v=500aa89107",
    "thumb": "assets/cards/thumb/release.webp?v=453845f934"
   },
+  "relevant": {
+   "full": "assets/cards/relevant.webp?v=ac83183eac",
+   "thumb": "assets/cards/thumb/relevant.webp?v=d1ef2dbe86"
+  },
   "remember": {
    "full": "assets/cards/remember.webp?v=92e4fe3e6a",
    "thumb": "assets/cards/thumb/remember.webp?v=138dd5a964"
@@ -1427,6 +1503,10 @@ const UI_MANIFEST={
   "suddenly": {
    "full": "assets/cards/suddenly.webp?v=066feb0a10",
    "thumb": "assets/cards/thumb/suddenly.webp?v=e09d290530"
+  },
+  "sufficient": {
+   "full": "assets/cards/sufficient.webp?v=cb805b412a",
+   "thumb": "assets/cards/thumb/sufficient.webp?v=18ea8276ee"
   },
   "suggest": {
    "full": "assets/cards/suggest.webp?v=1f30103941",
@@ -1636,6 +1716,7 @@ const UI_MANIFEST={
   "assets/cards/achieve.webp": "c2d91a9ef5",
   "assets/cards/actually.webp": "e8259d0b3e",
   "assets/cards/adapt.webp": "75660f139a",
+  "assets/cards/adequate.webp": "fedc208673",
   "assets/cards/adjust.webp": "5eb4cab2ed",
   "assets/cards/advantage.webp": "798b822585",
   "assets/cards/allocate.webp": "ec793cc39f",
@@ -1647,6 +1728,7 @@ const UI_MANIFEST={
   "assets/cards/anticipate.webp": "7fcce07888",
   "assets/cards/apple.webp": "f76931a6e4",
   "assets/cards/apply.webp": "4029504ffe",
+  "assets/cards/appropriate.webp": "1cd2c1175c",
   "assets/cards/arrive.webp": "bc046d27a9",
   "assets/cards/ask.webp": "bd332a5ef4",
   "assets/cards/assess.webp": "c002fc9baa",
@@ -1698,6 +1780,7 @@ const UI_MANIFEST={
   "assets/cards/come.webp": "26dabb6887",
   "assets/cards/community.webp": "34dc9d06e7",
   "assets/cards/compare.webp": "e3aa14f835",
+  "assets/cards/complex.webp": "1d3be605d2",
   "assets/cards/comprehensive.webp": "c53a743de0",
   "assets/cards/concept.webp": "d49e7a7b28",
   "assets/cards/conclude.webp": "9c480501ae",
@@ -1706,6 +1789,7 @@ const UI_MANIFEST={
   "assets/cards/connect.webp": "b44443af71",
   "assets/cards/consequence.webp": "0535746604",
   "assets/cards/consider.webp": "4e247de9f8",
+  "assets/cards/consistent.webp": "fb7d740e3b",
   "assets/cards/consult.webp": "1f3c9434f8",
   "assets/cards/contain.webp": "bcc73d9877",
   "assets/cards/context.webp": "6eb157b1c1",
@@ -1718,6 +1802,7 @@ const UI_MANIFEST={
   "assets/cards/criteria.webp": "f549187dc1",
   "assets/cards/cross.webp": "fdf23f8be9",
   "assets/cards/crown.webp": "6b439767a7",
+  "assets/cards/crucial.webp": "790f287168",
   "assets/cards/culture.webp": "ec721fe065",
   "assets/cards/curious.webp": "edbeb5df16",
   "assets/cards/damage.webp": "334b71cb70",
@@ -1739,6 +1824,7 @@ const UI_MANIFEST={
   "assets/cards/dimension.webp": "79f3909b81",
   "assets/cards/discover.webp": "1f3a6094f1",
   "assets/cards/distribute.webp": "92b49bcbd6",
+  "assets/cards/diverse.webp": "93c61734f6",
   "assets/cards/doctor.webp": "d0cd04441c",
   "assets/cards/dog.webp": "d77b2a7146",
   "assets/cards/door.webp": "6d4063ce36",
@@ -1766,10 +1852,12 @@ const UI_MANIFEST={
   "assets/cards/environment.webp": "f57504e244",
   "assets/cards/equipment.webp": "10007841d8",
   "assets/cards/especially.webp": "348fffad20",
+  "assets/cards/essential.webp": "e1baea851e",
   "assets/cards/establish.webp": "665d5df206",
   "assets/cards/estimate.webp": "fc7fac3833",
   "assets/cards/evaluate.webp": "eab6ad9e61",
   "assets/cards/evidence.webp": "8b37058108",
+  "assets/cards/exceed.webp": "52f7569d47",
   "assets/cards/exist.webp": "43803759ed",
   "assets/cards/expansion.webp": "1ef517797e",
   "assets/cards/expect.webp": "26ff3753c2",
@@ -1777,6 +1865,7 @@ const UI_MANIFEST={
   "assets/cards/expert.webp": "bf2b01c523",
   "assets/cards/explain.webp": "c4be8b41bd",
   "assets/cards/explore.webp": "83c8a05a85",
+  "assets/cards/extend.webp": "356d0193d5",
   "assets/cards/facilitate.webp": "9c29b6b153",
   "assets/cards/factor.webp": "84c365b191",
   "assets/cards/familiar.webp": "08669fe1bd",
@@ -1800,10 +1889,12 @@ const UI_MANIFEST={
   "assets/cards/freedom.webp": "5412c4ec0c",
   "assets/cards/friend.webp": "645f46ebb3",
   "assets/cards/function.webp": "dcbd148b0e",
+  "assets/cards/fundamental.webp": "8897f58b4b",
   "assets/cards/future.webp": "ee4345d5e8",
   "assets/cards/garden.webp": "f480951cb4",
   "assets/cards/gate.webp": "e15127f9b5",
   "assets/cards/gather.webp": "0976618569",
+  "assets/cards/generate.webp": "c089e8e743",
   "assets/cards/generous.webp": "9bbd804838",
   "assets/cards/girl.webp": "852e7dfc9b",
   "assets/cards/give.webp": "715dcbb75d",
@@ -1824,22 +1915,28 @@ const UI_MANIFEST={
   "assets/cards/house.webp": "9198475e5a",
   "assets/cards/hypothesis.webp": "326aeb24ee",
   "assets/cards/identity.webp": "6d970e979d",
+  "assets/cards/illustrate.webp": "070c56a2d8",
   "assets/cards/imagine.webp": "4aa04610fa",
   "assets/cards/impact.webp": "28a164e624",
   "assets/cards/implement.webp": "7bacaea7d4",
   "assets/cards/important.webp": "03e76a23f9",
   "assets/cards/improve.webp": "4f800a6f0a",
   "assets/cards/increase.webp": "685be1d79f",
+  "assets/cards/indicate.webp": "98bb5f3177",
   "assets/cards/industry.webp": "bcfee06bae",
   "assets/cards/influence.webp": "199a55b4d3",
   "assets/cards/initiative.webp": "dcdd5f84a5",
+  "assets/cards/innovative.webp": "ef710a8739",
   "assets/cards/institution.webp": "1ad6f9121c",
+  "assets/cards/interpret.webp": "bfe4f31ded",
   "assets/cards/invention.webp": "ff1a1318d2",
+  "assets/cards/investigate.webp": "d51ce52cd3",
   "assets/cards/investment.webp": "99cca5ab3b",
   "assets/cards/island.webp": "cbc45cc2e1",
   "assets/cards/join.webp": "d921188b3d",
   "assets/cards/journey.webp": "a3a6b449ee",
   "assets/cards/jump.webp": "897d6229c6",
+  "assets/cards/justify.webp": "f5cf586cf1",
   "assets/cards/key.webp": "d9e46c479e",
   "assets/cards/king.webp": "df22c9602d",
   "assets/cards/kitchen.webp": "627d1b1c00",
@@ -1862,6 +1959,7 @@ const UI_MANIFEST={
   "assets/cards/memory.webp": "2413b33978",
   "assets/cards/milk.webp": "767ebc34c8",
   "assets/cards/mirror.webp": "18e79fc1ef",
+  "assets/cards/modify.webp": "8a3eedbcff",
   "assets/cards/moon.webp": "11faa34c72",
   "assets/cards/morning.webp": "ff393b91af",
   "assets/cards/mother.webp": "8f354facdb",
@@ -1919,6 +2017,7 @@ const UI_MANIFEST={
   "assets/cards/region.webp": "bc95ec9fe9",
   "assets/cards/relationship.webp": "3100974b27",
   "assets/cards/release.webp": "500aa89107",
+  "assets/cards/relevant.webp": "ac83183eac",
   "assets/cards/remember.webp": "92e4fe3e6a",
   "assets/cards/require.webp": "358b37cef4",
   "assets/cards/responsibility.webp": "8c01109329",
@@ -1964,6 +2063,7 @@ const UI_MANIFEST={
   "assets/cards/strategy.webp": "5b3a59b33d",
   "assets/cards/strong.webp": "21868fa2d7",
   "assets/cards/suddenly.webp": "066feb0a10",
+  "assets/cards/sufficient.webp": "cb805b412a",
   "assets/cards/suggest.webp": "1f30103941",
   "assets/cards/summer.webp": "5e55dcbc24",
   "assets/cards/sun.webp": "8cd9ca87ba",

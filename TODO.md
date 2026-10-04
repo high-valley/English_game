@@ -1,8 +1,8 @@
 # WORD GRIMOIRE ― 次にやるタスク
 
 ## 次のタスク（優先順）
-1. **カード画像の作成（EPIC）**。**COMMON・UNCOMMON・RARE は 100/100 で完成**。EPIC は 73/100（全体 374/500）。
-   EPIC の例文は生成の前に見直し済み（98語を書き換えた）。
+1. **カード画像の作成（EPIC）**。**COMMON・UNCOMMON・RARE は 100/100 で完成**。EPIC は 93/100（全体 394/500）。
+   EPIC・LEGENDARY の例文は生成の前に見直し済み（EPIC は98語、LEGENDARY は99語を書き換えた）。
    `card_image_next.md` の先頭が次に作る分（`python3 tools/gen_next_batch.py` で出し直す）
    - 画像の生成は画像生成AI（ChatGPT / Grok など）に頼む（Claude は画像を作れない）
    - **プロンプトを渡すときは、必ず `python3 tools/prompt_for.py <単語>` を通す。**
@@ -55,6 +55,7 @@
 - `icon_coin` を作り直す場合は `assets/ui/icon_prompts.md`（金色が主体で、暗い面を作らないこと）
 
 ## 完了済み
+- EPIC のカード画像を20枚追加（exceed / extend / generate / illustrate / indicate / interpret / investigate / justify / modify / adequate / appropriate / complex / consistent / crucial / diverse / essential / fundamental / innovative / relevant / sufficient）。EPIC は 93/100、全体 394/500
 - EPIC のカード画像を20枚追加（adjust / allocate / anticipate / apply / assess / assign / attain / conclude / conduct / confirm / consult / convince / deliver / distribute / eliminate / emerge / emphasize / encounter / ensure / estimate）。EPIC は 73/100、全体 374/500
 - EPIC のカード画像を20枚追加（framework / function / hypothesis / identity / impact / industry / initiative / institution / investment / mechanism / objective / outcome / principle / procedure / proposal / prospect / sector / standard / theory / adapt）。EPIC は 53/100、全体 354/500
 - EPIC のカード画像を20枚追加（maintain / enhance / criteria / priority / comprehensive / demonstrate / assumption / concept / context / contract / decade / dimension / economy / element / enterprise / equipment / expansion / factor / feature / foundation）。EPIC は 33/100、全体 334/500
