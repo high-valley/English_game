@@ -4,23 +4,23 @@
 
 | 順 | 単語 | 保存するファイル名（960x640 の WebP に小さくしてから） | プロンプトのファイル | 例文（日本語） |
 |---|---|---|---|---|
-| 1 | exceed（上回る） | incoming/exceed.webp | gpt_tasks/next/01_exceed.txt | 村の競技会で、少女の跳躍が柱の古い記録の印を超える。 |
-| 2 | extend（延ばす） | incoming/extend.webp | gpt_tasks/next/02_extend.txt | 海岸で、作業員たちが石の道を灯台まで延ばす。 |
-| 3 | generate（発生させる） | incoming/generate.webp | gpt_tasks/next/03_generate.txt | 都市の中心で、大きな水晶がすべての通りを照らす光を生み出す。 |
-| 4 | illustrate（例で示す） | incoming/illustrate.webp | gpt_tasks/next/04_illustrate.txt | 修道院で、年老いた修道士が長い巻物に勇者の旅を絵で描く。 |
-| 5 | indicate（示す） | incoming/indicate.webp | gpt_tasks/next/05_indicate.txt | 砂漠で、光る矢印が埋もれた神殿への道を示す。 |
-| 6 | interpret（解釈する） | incoming/interpret.webp | gpt_tasks/next/06_interpret.txt | 書庫で、学者が若い王子のために古い星図を読み解く。 |
-| 7 | investigate（調査する） | incoming/investigate.webp | gpt_tasks/next/07_investigate.txt | 静まり返った塔の中で、狩人たちが死霊使いの空っぽの書斎を調べる。 |
-| 8 | justify（正当化する） | incoming/justify.webp | gpt_tasks/next/08_justify.txt | 村の長老たちの前で、若い盗人たちが飢えた子どもたちを指さして罪を正当化する。 |
-| 9 | modify（修正する） | incoming/modify.webp | gpt_tasks/next/09_modify.txt | 鍛冶場で、鍛冶屋たちが大きな剣を少女の小さな手に合うように作り変える。 |
-| 10 | adequate（十分な） | incoming/adequate.webp | gpt_tasks/next/10_adequate.txt | 森で、小さなテントでも雨をしのぐには十分だ。 |
-| 11 | appropriate（適切な） | incoming/appropriate.webp | gpt_tasks/next/11_appropriate.txt | 王家の結婚式で、招待客たちは絹とビロードのふさわしい服を着ている。 |
-| 12 | complex（複雑な） | incoming/complex.webp | gpt_tasks/next/12_complex.txt | 時計塔の中で、複雑な歯車が時計の大きな針を回している。 |
-| 13 | consistent（一貫した） | incoming/consistent.webp | gpt_tasks/next/13_consistent.txt | パン屋で、パン職人の腕は安定していて、どのパンも同じ金色の形に焼き上がる。 |
-| 14 | crucial（極めて重要な） | incoming/crucial.webp | gpt_tasks/next/14_crucial.txt | 競馬で、二頭の馬がゴールに着く瞬間が勝負の決め手だ。 |
-| 15 | diverse（多様な） | incoming/diverse.webp | gpt_tasks/next/15_diverse.txt | 港の市場で、各地から来たさまざまな人々が品物を取り引きする。 |
-| 16 | essential（不可欠な） | incoming/essential.webp | gpt_tasks/next/16_essential.txt | 砂漠では水が欠かせない。ラクダが大きな壺で水を運ぶ。 |
-| 17 | fundamental（根本的な） | incoming/fundamental.webp | gpt_tasks/next/17_fundamental.txt | ギルドの広間では信頼が基本の決まりで、仲間はみな握手を交わす。 |
-| 18 | innovative（革新的な） | incoming/innovative.webp | gpt_tasks/next/18_innovative.txt | 音楽堂で、革新的な吟遊詩人が光でできた竪琴を奏でる。 |
-| 19 | relevant（関連のある） | incoming/relevant.webp | gpt_tasks/next/19_relevant.txt | 水につかった資料庫で、学者が竜に関係のある巻物だけを救い出す。 |
-| 20 | sufficient（足りる） | incoming/sufficient.webp | gpt_tasks/next/20_sufficient.txt | 野営地で、大きなたき火は一晩じゅう狼を寄せつけないのに十分だ。 |
+| 1 | ultimate（究極の） | incoming/ultimate.webp | gpt_tasks/next/01_ultimate.txt | 暗黒の塔の頂上で、勇者たちは最終目標であるリッチ王の玉座にたどり着く。 |
+| 2 | valid（有効な） | incoming/valid.webp | gpt_tasks/next/02_valid.txt | 関所で、衛兵が旅人たちの通行証が有効かを確かめる。 |
+| 3 | vulnerable（傷つきやすい） | incoming/vulnerable.webp | gpt_tasks/next/03_vulnerable.txt | 地下墓所で、光る魂の器にひびが入り、リッチは無防備になる。 |
+| 4 | consequently（その結果） | incoming/consequently.webp | gpt_tasks/next/04_consequently.txt | 川で、橋が落ちている。そのため軍は引き返す。 |
+| 5 | currently（現在） | incoming/currently.webp | gpt_tasks/next/05_currently.txt | 北の山の下で、魔王は今、氷の中に封じられている。 |
+| 6 | gradually（徐々に） | incoming/gradually.webp | gpt_tasks/next/06_gradually.txt | 谷の上で、暗い嵐の雲が日の当たる畑を少しずつ覆っていく。 |
+| 7 | essentially（本質的に） | incoming/essentially.webp | gpt_tasks/next/07_essentially.txt | 台所で、二つのケーキは本質的に同じだが、一方は倍の大きさだ。 |
+| 8 | leverage（活用する） | incoming/leverage.webp | gpt_tasks/next/08_leverage.txt | 石切り場で、ドワーフたちが長い鉄の棒を活用し、巨大な石の塊を持ち上げる。 |
+| 9 | mitigate（和らげる） | incoming/mitigate.webp | gpt_tasks/next/09_mitigate.txt | 城壁の上で、大魔道士が輝く盾を張り、大悪魔の炎を和らげる。 |
+| 10 | acquisition（買収） | incoming/acquisition.webp | gpt_tasks/next/10_acquisition.txt | 王の広間で、王が新しく手に入れた品、金のかごの中の生きた不死鳥を見せる。 |
+| 11 | compliance（順守） | incoming/compliance.webp | gpt_tasks/next/11_compliance.txt | 鉱山の入り口で、ギルドの安全規則を守り、ドワーフは全員かぶとをかぶっている。 |
+| 12 | revenue（収益） | incoming/revenue.webp | gpt_tasks/next/12_revenue.txt | 帳場で、港の長が一日の収益を金貨の塔にして積み上げる。 |
+| 13 | disruption（混乱） | incoming/disruption.webp | gpt_tasks/next/13_disruption.txt | 川で、巨大な大蛇が橋に巻きつき、隊商に混乱を引き起こす。 |
+| 14 | sustainable（持続可能な） | incoming/sustainable.webp | gpt_tasks/next/14_sustainable.txt | 古い森で、エルフたちが生きた木と橋でできた持続可能な都市に暮らす。 |
+| 15 | negotiation（交渉） | incoming/negotiation.webp | gpt_tasks/next/15_negotiation.txt | 炎の広間で、女王が長い机をはさんで魔王と向かい合い、張りつめた交渉に臨む。 |
+| 16 | collaboration（協力） | incoming/collaboration.webp | gpt_tasks/next/16_collaboration.txt | 大きな鍛冶場で、魔法使いと鍛冶師が協力して、光る剣を生み出す。 |
+| 17 | proactively（先手を打って） | incoming/proactively.webp | gpt_tasks/next/17_proactively.txt | 国境の砦で、隊長はオークの軍が来る前に、先手を打って高い城壁を築く。 |
+| 18 | substantial（かなりの） | incoming/substantial.webp | gpt_tasks/next/18_substantial.txt | 竜の巣で、勇者たちがかなりの量の金と宝石と王冠の山を見つける。 |
+| 19 | constraint（制約） | incoming/constraint.webp | gpt_tasks/next/19_constraint.txt | 地下牢で、光る重い鎖が、捕らえた人狼を縛る制約となっている。 |
+| 20 | incentive（報奨） | incoming/incentive.webp | gpt_tasks/next/20_incentive.txt | 町の広場で、王がヒドラ退治の報奨として金の箱を掲げる。 |
