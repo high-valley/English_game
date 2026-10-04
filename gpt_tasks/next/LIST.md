@@ -4,23 +4,23 @@
 
 | 順 | 単語 | 保存するファイル名（960x640 の WebP に小さくしてから） | プロンプトのファイル | 例文（日本語） |
 |---|---|---|---|---|
-| 1 | framework（枠組み） | incoming/framework.webp | gpt_tasks/next/01_framework.txt | 町の広場で、職人たちが新しい劇場の木の骨組みを組み上げる。 |
-| 2 | function（機能） | incoming/function.webp | gpt_tasks/next/02_function.txt | 塔で、その水晶にはひとつの働きがある。月の光をためて夜に光るのだ。 |
-| 3 | hypothesis（仮説） | incoming/hypothesis.webp | gpt_tasks/next/03_hypothesis.txt | 崖の上で、学者が大きさの違う二つの石を落として、自分の仮説を確かめる。 |
-| 4 | identity（正体） | incoming/identity.webp | gpt_tasks/next/04_identity.txt | 仮面舞踏会で、仮面の貴族がヴァンパイアという正体を明かす。 |
-| 5 | impact（衝撃） | incoming/impact.webp | gpt_tasks/next/05_impact.txt | 砂漠で、巨神のこぶしが大きな衝撃を起こし、砂の壁を巻き上げる。 |
-| 6 | industry（産業） | incoming/industry.webp | gpt_tasks/next/06_industry.txt | 谷で、新しい炉の煙が、成長する製鉄の産業を物語る。 |
-| 7 | initiative（主導権） | incoming/initiative.webp | gpt_tasks/next/07_initiative.txt | 沈みかけた船で、見習いの少年が自分から進んで、船乗りたちにロープを投げる。 |
-| 8 | institution（機関） | incoming/institution.webp | gpt_tasks/next/08_institution.txt | 丘の上に、各地から来た若い魔法使いたちが学ぶ王立の学院が建っている。 |
-| 9 | investment（投資） | incoming/investment.webp | gpt_tasks/next/09_investment.txt | 港で、王が新しい船に投じた資金が、金の詰まった箱となって戻ってくる。 |
-| 10 | mechanism（仕組み） | incoming/mechanism.webp | gpt_tasks/next/10_mechanism.txt | 宝物庫で、隠された歯車の仕掛けが丸い石の扉をゆっくり開く。 |
-| 11 | objective（目標） | incoming/objective.webp | gpt_tasks/next/11_objective.txt | 死霊使いの塔で、勇者たちの目的は名前の書を焼き払うことだ。 |
-| 12 | outcome（結末） | incoming/outcome.webp | gpt_tasks/next/12_outcome.txt | チェス盤の前で、宮廷の人々が、王と魔術師の勝負の結果を見守る。 |
-| 13 | principle（原則） | incoming/principle.webp | gpt_tasks/next/13_principle.txt | 吹雪の中で、騎士はひとつの信条に従い、傷ついた友を背負って帰る。 |
-| 14 | procedure（手順） | incoming/procedure.webp | gpt_tasks/next/14_procedure.txt | 神殿で、神官が慎重な手順に従い、光る円の中に悪魔を封じる。 |
-| 15 | proposal（提案） | incoming/proposal.webp | gpt_tasks/next/15_proposal.txt | 議会の広間で、女王が大きな巻物に描いた橋を見せ、自分の提案を示す。 |
-| 16 | prospect（見通し） | incoming/prospect.webp | gpt_tasks/next/16_prospect.txt | 丘から、農夫たちが黄金色の畑に豊かな実りの見込みを見る。 |
-| 17 | sector（部門） | incoming/sector.webp | gpt_tasks/next/17_sector.txt | 都市で、職人たちの区域はにぎやかな工房と燃える炉でいっぱいだ。 |
-| 18 | standard（標準） | incoming/standard.webp | gpt_tasks/next/18_standard.txt | 鍛冶場で、親方の新しい剣が品質の新しい基準となる。 |
-| 19 | theory（理論） | incoming/theory.webp | gpt_tasks/next/19_theory.txt | 浮島の上で、教授が光る石の模型を使って自分の理論を説明する。 |
-| 20 | adapt（適応する） | incoming/adapt.webp | gpt_tasks/next/20_adapt.txt | 凍える北の地で、子ギツネが白い毛を生やして冬に適応する。 |
+| 1 | adjust（調整する） | incoming/adjust.webp | gpt_tasks/next/01_adjust.txt | 飛行船の上で、船長が風をとらえるために帆を調整する。 |
+| 2 | allocate（配分する） | incoming/allocate.webp | gpt_tasks/next/02_allocate.txt | 宝物庫で、女王が兵士・農民・学校のための三つの箱に金貨を割り当てる。 |
+| 3 | anticipate（予想する） | incoming/anticipate.webp | gpt_tasks/next/03_anticipate.txt | 夜明けに、将軍は暗黒騎士の突撃を予測し、盾を構えさせる。 |
+| 4 | apply（適用する） | incoming/apply.webp | gpt_tasks/next/04_apply.txt | 古い橋で、魔法使いたちが石を強くするために光るルーンを施す。 |
+| 5 | assess（査定する） | incoming/assess.webp | gpt_tasks/next/05_assess.txt | 崩れた礼拝堂で、騎士が攻撃する前に魔物の弱点を見極める。 |
+| 6 | assign（任命する） | incoming/assign.webp | gpt_tasks/next/06_assign.txt | 城の中庭で、隊長が二人の騎士に宝物庫の見張りを割り当てる。 |
+| 7 | attain（到達する） | incoming/attain.webp | gpt_tasks/next/07_attain.txt | 山頂で、長年の修行の末、彼女は大魔導士の位を得る。 |
+| 8 | conclude（結論づける） | incoming/conclude.webp | gpt_tasks/next/08_conclude.txt | 宴の終わりに、王が杯を掲げてスピーチを締めくくる。 |
+| 9 | conduct（実施する） | incoming/conduct.webp | gpt_tasks/next/09_conduct.txt | 塔で、カルトの信者たちが赤い炎のまわりで闇の儀式を行う。 |
+| 10 | confirm（確認する） | incoming/confirm.webp | gpt_tasks/next/10_confirm.txt | 丘の上で、斥候が死霊使いの軍が川を渡ったことを確かめる。 |
+| 11 | consult（相談する） | incoming/consult.webp | gpt_tasks/next/11_consult.txt | 霧の森で、王が来たる戦について巫女に相談する。 |
+| 12 | convince（納得させる） | incoming/convince.webp | gpt_tasks/next/12_convince.txt | 町の広場で、若い騎士がおびえる村人たちを説得し、巨人と戦う気にさせる。 |
+| 13 | deliver（届ける） | incoming/deliver.webp | gpt_tasks/next/13_deliver.txt | 嵐の中、伝令が白馬に乗って王の手紙を届ける。 |
+| 14 | distribute（配る） | incoming/distribute.webp | gpt_tasks/next/14_distribute.txt | 水びたしの村で、魔法使いたちが舟から暖かい毛布を配る。 |
+| 15 | eliminate（取り除く） | incoming/eliminate.webp | gpt_tasks/next/15_eliminate.txt | 地下倉で、狩人たちが聖水で最後に残った亡霊を退治する。 |
+| 16 | emerge（姿を現す） | incoming/emerge.webp | gpt_tasks/next/16_emerge.txt | 暗い湖から、巨大な大蛇が月の下でゆっくりと姿を現す。 |
+| 17 | emphasize（強調する） | incoming/emphasize.webp | gpt_tasks/next/17_emphasize.txt | 浜辺で、隊長が兵士たちに盾を組ませ、チームワークの大切さを強調する。 |
+| 18 | encounter（出会う） | incoming/encounter.webp | gpt_tasks/next/18_encounter.txt | 暗い森で、旅人たちがさまよえるリッチに出くわす。 |
+| 19 | ensure（確実にする） | incoming/ensure.webp | gpt_tasks/next/19_ensure.txt | 内城で、衛兵たちが銀のランプをともし、王子を暗殺者から守る。 |
+| 20 | estimate（見積もる） | incoming/estimate.webp | gpt_tasks/next/20_estimate.txt | 川で、技師たちが縄と杭を使って新しい橋の長さを見積もる。 |
