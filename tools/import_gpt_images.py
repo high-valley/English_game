@@ -31,7 +31,7 @@ from pathlib import Path
 from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from gen_card_prompts import REDO, load_done_images, load_words  # noqa: E402
+from gen_card_prompts import REDO, incoming_stem, load_done_images, load_words  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 CARDS = ROOT / "assets" / "cards"
@@ -92,12 +92,18 @@ def main():
     if not files:
         sys.exit(f"{branch} の incoming/ に画像がありません")
 
-    # 同じ単語のファイルが複数あるとき（作り直し・PNG と WebP の両方など）は、いちばん新しく push されたものだけを使う
+    # 作り直し（REDO）の語は「単語_v2」の名前のファイルだけを読む（gen_card_prompts.incoming_stem）。
+    # 元の絵（incoming/単語.webp）も gpt-images に残っているので、名前で分けないと古い絵をもう一度取り込んでしまう
+    def word_of(f):
+        return re.sub(r"_v\d+$", "", Path(f).stem.lower())
+    files = [f for f in files if word_of(f) not in REDO or Path(f).stem.lower() == incoming_stem(word_of(f))]
+
+    # 同じ単語のファイルが複数あるとき（PNG と WebP の両方など）は、いちばん新しく push されたものだけを使う
     def pushed_at(f):
         return int(git("log", "-1", "--format=%ct", ref, "--", f).strip() or 0)
     newest = {}
     for f in files:
-        k = Path(f).stem.lower()
+        k = word_of(f)
         if k not in newest or pushed_at(f) >= pushed_at(newest[k]):
             newest[k] = f
     files = list(newest.values())
@@ -106,7 +112,7 @@ def main():
     done = set(load_done_images())
     got, skipped, bad = [], [], []
     for f in sorted(files):
-        name = Path(f).stem.lower()
+        name = word_of(f)
         if name not in words:
             bad.append(f"{f}: words.js に無い単語")
             continue

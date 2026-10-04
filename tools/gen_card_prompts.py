@@ -411,7 +411,19 @@ def load_words():
 # 画像はあるが、作り直す単語（先頭から順に、次に作る分の最初に入る）。
 # 作り直した絵を登録したら、ここから消す。例文を変えたときは、絵と食い違うので必ずここに入れる
 #   （済み）book / big / room … 蜘蛛が描かれていた（ユーザーが苦手）。例文を変えて作り直した
-REDO = []
+#   mitigate … EPIC の maintain と同じ「城壁の上で魔法使いが光の盾を張り、赤い悪魔を防ぐ」絵になった。火山の溶岩を凍らせる場面に変えた
+REDO = ["mitigate"]
+
+# 作り直しの絵を ChatGPT が gpt-images に保存するときの名前（incoming/〜.webp）。
+# 元の絵（incoming/単語.webp）が gpt-images に残っていて、ChatGPT は「incoming/ にある名前は飛ばす」ので、
+# 同じ名前のままだと作り直しが描かれない。そこで「単語_v2」にする。取り込み（import_gpt_images.py）は、
+# 作り直しの語はこの名前のファイルだけを読む（元の絵をもう一度取り込まないように）。
+# 同じ語を2回目に作り直すときは、REDO_VER に {"単語": 3} のように書く
+REDO_VER = {}
+
+
+def incoming_stem(en):
+    return f"{en}_v{REDO_VER.get(en, 2)}" if en in REDO else en
 
 
 def next_order(words, done, rarity=None):
