@@ -5,23 +5,23 @@
 
 | 順 | 単語 | 保存するファイル名（960x640 の WebP に小さくしてから） | プロンプトのファイル | 例文（日本語） |
 |---|---|---|---|---|
-| 1 | monopoly（独占） | incoming/monopoly.webp | gpt_tasks/next/01_monopoly.txt | 市場で、魔法使いのギルドが、売り物の空飛ぶじゅうたんをすべて独占している。 |
-| 2 | accelerate（加速させる） | incoming/accelerate.webp | gpt_tasks/next/02_accelerate.txt | 麦畑で、ドルイドたちが作物の成長を加速させる呪文を唱える。 |
-| 3 | accommodate（収容する） | incoming/accommodate.webp | gpt_tasks/next/03_accommodate.txt | 港で、巨大な船が千人の旅人とその馬を収容する。 |
-| 4 | acquire（手に入れる） | incoming/acquire.webp | gpt_tasks/next/04_acquire.txt | 競売の広間で、リッチが呪われた金貨の袋で、珍しい黒い書を手に入れる。 |
-| 5 | align（足並みをそろえる） | incoming/align.webp | gpt_tasks/next/05_align.txt | 神殿の上で三つの月が一直線に並び、祭壇に光が降りる。 |
-| 6 | amend（改正する） | incoming/amend.webp | gpt_tasks/next/06_amend.txt | 評議会の広間で、長老たちが石に刻まれた古い法に一行を彫り足して改正する。 |
-| 7 | approve（承認する） | incoming/approve.webp | gpt_tasks/next/07_approve.txt | 収穫祭で、審査員が巨大なかぼちゃに金のリボンを付けて承認する。 |
-| 8 | authorize（認可する） | incoming/authorize.webp | gpt_tasks/next/08_authorize.txt | 深い地下室で、女王の印が、封じられた竜の扉を開くことを認可する。 |
-| 9 | commence（開始する） | incoming/commence.webp | gpt_tasks/next/09_commence.txt | リッチの砦の外で、燃える矢の雨とともに最後の攻撃が始まる。 |
-| 10 | consolidate（統合する） | incoming/consolidate.webp | gpt_tasks/next/10_consolidate.txt | 丘の上で、将軍が三つの小さな軍を、オーガの一族に対する一つの軍に統合する。 |
-| 11 | delegate（委任する） | incoming/delegate.webp | gpt_tasks/next/11_delegate.txt | 城の中庭で、女王が助言者たちに三本の鍵を渡し、都の管理を委任する。 |
-| 12 | diversify（多角化する） | incoming/diversify.webp | gpt_tasks/next/12_diversify.txt | 農場で、農民たちが作物を多角化し、ラベンダーとりんごと麦を並べて育てる。 |
-| 13 | endorse（支持する） | incoming/endorse.webp | gpt_tasks/next/13_endorse.txt | 剣の店で、有名な勇者が大きな旗に名前を書き、新しい剣を支持する。 |
-| 14 | execute（遂行する） | incoming/execute.webp | gpt_tasks/next/14_execute.txt | 城の広間で、狩人たちが計画を遂行し、眠るヴァンパイアの棺を開ける。 |
-| 15 | expedite（早める） | incoming/expedite.webp | gpt_tasks/next/15_expedite.txt | 港で、海の魔女の風の呪文が、嵐の前に船の帰りを早める。 |
-| 16 | finalize（最終決定する） | incoming/finalize.webp | gpt_tasks/next/16_finalize.txt | 塔の上で、二人の支配者が蝋と金の印で条約を最終決定する。 |
-| 17 | forecast（予測する） | incoming/forecast.webp | gpt_tasks/next/17_forecast.txt | 天文台で、巫女が燃える星を読み、炎の嵐を予測する。 |
-| 18 | initiate（着手する） | incoming/initiate.webp | gpt_tasks/next/18_initiate.txt | 神殿で、大神官が最初の聖なる炎をともし、儀式に着手する。 |
-| 19 | invest（投資する） | incoming/invest.webp | gpt_tasks/next/19_invest.txt | ぶどう畑で、裕福な公爵が丘一面の若いぶどうの木に金貨を投資する。 |
-| 20 | oversee（統括する） | incoming/oversee.webp | gpt_tasks/next/20_oversee.txt | 高い足場の上で、信頼された騎士が、王の巨大な像を立てる作業を統括する。 |
+| 1 | prioritize（優先する） | incoming/prioritize.webp | gpt_tasks/next/01_prioritize.txt | 野営地で、癒し手が最も重い傷の騎士たちを優先し、先に手当てする。 |
+| 2 | procure（調達する） | incoming/procure.webp | gpt_tasks/next/02_procure.txt | 聖なる泉で、錬金術師がヴァンパイアに対抗する聖水を調達する。 |
+| 3 | reimburse（払い戻す） | incoming/reimburse.webp | gpt_tasks/next/03_reimburse.txt | 村の広場で、執事がトロルに踏み荒らされた畑の分を農民たちに払い戻す。 |
+| 4 | renew（更新する） | incoming/renew.webp | gpt_tasks/next/04_renew.txt | 聖なる森で、村人たちが光る森の精霊たちとの古い誓いを更新する。 |
+| 5 | restructure（再編する） | incoming/restructure.webp | gpt_tasks/next/05_restructure.txt | 戦の野営地で、将軍が軍を弓兵と槍兵の新しい隊列に再編する。 |
+| 6 | revise（改訂する） | incoming/revise.webp | gpt_tasks/next/06_revise.txt | 書庫で、学者が赤いインクで線を消しながら、古い呪文書を改訂する。 |
+| 7 | supervise（監督する） | incoming/supervise.webp | gpt_tasks/next/07_supervise.txt | 竜の厩舎で、老いた親方が、竜に餌をやる若い乗り手たちを監督する。 |
+| 8 | terminate（終了させる） | incoming/terminate.webp | gpt_tasks/next/08_terminate.txt | 戦場で、聖騎士が胸のルーンを砕き、ゴーレムの魔法を終了させる。 |
+| 9 | undermine（弱体化させる） | incoming/undermine.webp | gpt_tasks/next/09_undermine.txt | 城の下で、ゴブリンたちがトンネルを掘り、大きな石の城壁を弱体化させる。 |
+| 10 | ambitious（野心的な） | incoming/ambitious.webp | gpt_tasks/next/10_ambitious.txt | 学院の屋根の上で、野心的な若い魔法使いが空から流れ星を引き寄せる。 |
+| 11 | competitive（競争力のある） | incoming/competitive.webp | gpt_tasks/next/11_competitive.txt | 馬上槍試合の場で、競争心の強い騎士たちが金の槍で突進し合う。 |
+| 12 | confidential（機密の） | incoming/confidential.webp | gpt_tasks/next/12_confidential.txt | 暗いテントで、幽霊が黒い蝋で封をした機密の手紙を将軍に渡す。 |
+| 13 | flexible（柔軟な） | incoming/flexible.webp | gpt_tasks/next/13_flexible.txt | 修練場で、体の柔らかい若い修道僧が後ろに反って、オーガのこん棒をかわす。 |
+| 14 | lucrative（もうかる） | incoming/lucrative.webp | gpt_tasks/next/14_lucrative.txt | 隠れた洞窟で、盗賊たちの絹の密輸はもうかり、金貨の山を数えている。 |
+| 15 | mandatory（義務の） | incoming/mandatory.webp | gpt_tasks/next/15_mandatory.txt | 礼拝堂で、戦いの前の誓いは義務で、騎士は皆、剣を手にひざまずく。 |
+| 16 | obsolete（時代遅れの） | incoming/obsolete.webp | gpt_tasks/next/16_obsolete.txt | 武器庫で、古い鉄の剣が、輝くミスリルの新しい剣の横で時代遅れになっている。 |
+| 17 | overdue（期限を過ぎた） | incoming/overdue.webp | gpt_tasks/next/17_overdue.txt | 酒場で、宿の主人が、期限を過ぎた長い勘定書をおびえたインプに突きつける。 |
+| 18 | profitable（利益の出る） | incoming/profitable.webp | gpt_tasks/next/18_profitable.txt | 北の交易路で、利益の出る馬の隊商が毛皮と琥珀を運ぶ。 |
+| 19 | prominent（著名な） | incoming/prominent.webp | gpt_tasks/next/19_prominent.txt | 学院の大広間で、著名な学者が何百人もの学生の前で演台に立つ。 |
+| 20 | viable（実行可能な） | incoming/viable.webp | gpt_tasks/next/20_viable.txt | 天空の神殿で、魔法使いたちが呪われた王冠を壊す実行可能な方法、雷を見つける。 |
