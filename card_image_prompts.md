@@ -27,7 +27,7 @@
 - 敵役が出てくる例文は絵になりやすいので、そこから作るのもおすすめです
 
 ## 作成済みの画像
-`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この414語は、絵文字ではなく画像で表示されます）。
+`js/card_art.js` の `CARD_IMG_NAMES` に登録済み（この433語は、絵文字ではなく画像で表示されます）。
 
 - ability
 - accurate
@@ -38,6 +38,8 @@
 - adequate
 - adjust
 - advantage
+- agenda
+- alliance
 - allocate
 - alternative
 - always
@@ -51,10 +53,12 @@
 - arrive
 - ask
 - assess
+- asset
 - assign
 - assumption
 - attain
 - attract
+- audit
 - available
 - avoid
 - baby
@@ -63,6 +67,7 @@
 - bed
 - believe
 - belong
+- benchmark
 - bicycle
 - big
 - bird
@@ -71,14 +76,17 @@
 - book
 - box
 - boy
+- brand
 - brave
 - bread
 - bridge
 - bring
 - brother
+- budget
 - buy
 - cake
 - candle
+- capital
 - car
 - careful
 - carry
@@ -91,6 +99,7 @@
 - challenge
 - choose
 - clever
+- client
 - climb
 - close
 - cold
@@ -100,6 +109,7 @@
 - come
 - community
 - compare
+- competitor
 - complex
 - compliance
 - comprehensive
@@ -114,13 +124,16 @@
 - consistent
 - constraint
 - consult
+- consumer
 - contain
 - context
+- contingency
 - continue
 - contract
 - control
 - convince
 - cook
+- corporation
 - create
 - criteria
 - cross
@@ -133,10 +146,13 @@
 - dance
 - danger
 - dangerous
+- deadline
 - decade
 - decide
 - defend
 - deliver
+- deliverable
+- demand
 - demonstrate
 - depend
 - describe
@@ -274,6 +290,7 @@
 - leave
 - letter
 - leverage
+- liability
 - library
 - listen
 - live
@@ -364,6 +381,7 @@
 - run
 - safe
 - save
+- scalable
 - school
 - science
 - sea
@@ -394,6 +412,7 @@
 - station
 - story
 - strategy
+- streamline
 - strong
 - substantial
 - suddenly

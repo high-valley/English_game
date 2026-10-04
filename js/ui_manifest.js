@@ -132,6 +132,14 @@ const UI_MANIFEST={
    "full": "assets/cards/advantage.webp?v=798b822585",
    "thumb": "assets/cards/thumb/advantage.webp?v=50c71557c3"
   },
+  "agenda": {
+   "full": "assets/cards/agenda.webp?v=4fc1bc307d",
+   "thumb": "assets/cards/thumb/agenda.webp?v=852fd79d2c"
+  },
+  "alliance": {
+   "full": "assets/cards/alliance.webp?v=4380943087",
+   "thumb": "assets/cards/thumb/alliance.webp?v=8a18687bbc"
+  },
   "allocate": {
    "full": "assets/cards/allocate.webp?v=ec793cc39f",
    "thumb": "assets/cards/thumb/allocate.webp?v=2ee4bd61e5"
@@ -184,6 +192,10 @@ const UI_MANIFEST={
    "full": "assets/cards/assess.webp?v=c002fc9baa",
    "thumb": "assets/cards/thumb/assess.webp?v=d94d7ae852"
   },
+  "asset": {
+   "full": "assets/cards/asset.webp?v=4e087afc88",
+   "thumb": "assets/cards/thumb/asset.webp?v=63590dbf8d"
+  },
   "assign": {
    "full": "assets/cards/assign.webp?v=1de2d0a087",
    "thumb": "assets/cards/thumb/assign.webp?v=54a52d3338"
@@ -199,6 +211,10 @@ const UI_MANIFEST={
   "attract": {
    "full": "assets/cards/attract.webp?v=f992516710",
    "thumb": "assets/cards/thumb/attract.webp?v=65a8972c08"
+  },
+  "audit": {
+   "full": "assets/cards/audit.webp?v=f307e446a7",
+   "thumb": "assets/cards/thumb/audit.webp?v=bcb3bb966f"
   },
   "available": {
    "full": "assets/cards/available.webp?v=35dfb1fdd3",
@@ -232,6 +248,10 @@ const UI_MANIFEST={
    "full": "assets/cards/belong.webp?v=145b16384e",
    "thumb": "assets/cards/thumb/belong.webp?v=0b9b73f74b"
   },
+  "benchmark": {
+   "full": "assets/cards/benchmark.webp?v=0928c38961",
+   "thumb": "assets/cards/thumb/benchmark.webp?v=2a4b624cc2"
+  },
   "bicycle": {
    "full": "assets/cards/bicycle.webp?v=5f79005004",
    "thumb": "assets/cards/thumb/bicycle.webp?v=df87c93980"
@@ -264,6 +284,10 @@ const UI_MANIFEST={
    "full": "assets/cards/boy.webp?v=9a61d8d13d",
    "thumb": "assets/cards/thumb/boy.webp?v=1a7ecf6aaf"
   },
+  "brand": {
+   "full": "assets/cards/brand.webp?v=4862f30227",
+   "thumb": "assets/cards/thumb/brand.webp?v=aada0d9ecd"
+  },
   "brave": {
    "full": "assets/cards/brave.webp?v=5eceab2e13",
    "thumb": "assets/cards/thumb/brave.webp?v=fab97bdd95"
@@ -284,6 +308,10 @@ const UI_MANIFEST={
    "full": "assets/cards/brother.webp?v=cce4f888f4",
    "thumb": "assets/cards/thumb/brother.webp?v=db35ffe99d"
   },
+  "budget": {
+   "full": "assets/cards/budget.webp?v=c0ce4dd805",
+   "thumb": "assets/cards/thumb/budget.webp?v=4190638621"
+  },
   "buy": {
    "full": "assets/cards/buy.webp?v=7db8ebc613",
    "thumb": "assets/cards/thumb/buy.webp?v=a5a726819f"
@@ -295,6 +323,10 @@ const UI_MANIFEST={
   "candle": {
    "full": "assets/cards/candle.webp?v=eeb4e42a68",
    "thumb": "assets/cards/thumb/candle.webp?v=f578844418"
+  },
+  "capital": {
+   "full": "assets/cards/capital.webp?v=4dd4e83b93",
+   "thumb": "assets/cards/thumb/capital.webp?v=fc25ec64b6"
   },
   "car": {
    "full": "assets/cards/car.webp?v=2447d437a9",
@@ -344,6 +376,10 @@ const UI_MANIFEST={
    "full": "assets/cards/clever.webp?v=18fe57816f",
    "thumb": "assets/cards/thumb/clever.webp?v=da3f4e8380"
   },
+  "client": {
+   "full": "assets/cards/client.webp?v=c95601f2ec",
+   "thumb": "assets/cards/thumb/client.webp?v=ffa520c95e"
+  },
   "climb": {
    "full": "assets/cards/climb.webp?v=cb37e2e486",
    "thumb": "assets/cards/thumb/climb.webp?v=450567049c"
@@ -379,6 +415,10 @@ const UI_MANIFEST={
   "compare": {
    "full": "assets/cards/compare.webp?v=e3aa14f835",
    "thumb": "assets/cards/thumb/compare.webp?v=7161ebc4c0"
+  },
+  "competitor": {
+   "full": "assets/cards/competitor.webp?v=08697144d8",
+   "thumb": "assets/cards/thumb/competitor.webp?v=3b88f17ee3"
   },
   "complex": {
    "full": "assets/cards/complex.webp?v=1d3be605d2",
@@ -436,6 +476,10 @@ const UI_MANIFEST={
    "full": "assets/cards/consult.webp?v=1f3c9434f8",
    "thumb": "assets/cards/thumb/consult.webp?v=0a5a58082d"
   },
+  "consumer": {
+   "full": "assets/cards/consumer.webp?v=162e627c6a",
+   "thumb": "assets/cards/thumb/consumer.webp?v=23fa9f4b32"
+  },
   "contain": {
    "full": "assets/cards/contain.webp?v=bcc73d9877",
    "thumb": "assets/cards/thumb/contain.webp?v=8bc4e2c82c"
@@ -443,6 +487,10 @@ const UI_MANIFEST={
   "context": {
    "full": "assets/cards/context.webp?v=6eb157b1c1",
    "thumb": "assets/cards/thumb/context.webp?v=3e98362f3c"
+  },
+  "contingency": {
+   "full": "assets/cards/contingency.webp?v=b2765ce660",
+   "thumb": "assets/cards/thumb/contingency.webp?v=aac691c1f4"
   },
   "continue": {
    "full": "assets/cards/continue.webp?v=ddb6f0e162",
@@ -463,6 +511,10 @@ const UI_MANIFEST={
   "cook": {
    "full": "assets/cards/cook.webp?v=fa8c3bea05",
    "thumb": "assets/cards/thumb/cook.webp?v=6763fdd53e"
+  },
+  "corporation": {
+   "full": "assets/cards/corporation.webp?v=cec1492233",
+   "thumb": "assets/cards/thumb/corporation.webp?v=1e315bbd35"
   },
   "create": {
    "full": "assets/cards/create.webp?v=5ac9853d62",
@@ -512,6 +564,10 @@ const UI_MANIFEST={
    "full": "assets/cards/dangerous.webp?v=eb268334fa",
    "thumb": "assets/cards/thumb/dangerous.webp?v=174a651e40"
   },
+  "deadline": {
+   "full": "assets/cards/deadline.webp?v=c5cde6b134",
+   "thumb": "assets/cards/thumb/deadline.webp?v=f80de495e4"
+  },
   "decade": {
    "full": "assets/cards/decade.webp?v=0042bb4987",
    "thumb": "assets/cards/thumb/decade.webp?v=6c09ed5e96"
@@ -527,6 +583,14 @@ const UI_MANIFEST={
   "deliver": {
    "full": "assets/cards/deliver.webp?v=78d536d481",
    "thumb": "assets/cards/thumb/deliver.webp?v=d812f9b5e8"
+  },
+  "deliverable": {
+   "full": "assets/cards/deliverable.webp?v=57008cfed5",
+   "thumb": "assets/cards/thumb/deliverable.webp?v=4979ac4e02"
+  },
+  "demand": {
+   "full": "assets/cards/demand.webp?v=f61fae872c",
+   "thumb": "assets/cards/thumb/demand.webp?v=6b5fd2c66a"
   },
   "demonstrate": {
    "full": "assets/cards/demonstrate.webp?v=51aea932bd",
@@ -1076,6 +1140,10 @@ const UI_MANIFEST={
    "full": "assets/cards/leverage.webp?v=55931da6b8",
    "thumb": "assets/cards/thumb/leverage.webp?v=7a1c40d716"
   },
+  "liability": {
+   "full": "assets/cards/liability.webp?v=52bc5a9c65",
+   "thumb": "assets/cards/thumb/liability.webp?v=a72f64546e"
+  },
   "library": {
    "full": "assets/cards/library.webp?v=43346be8ee",
    "thumb": "assets/cards/thumb/library.webp?v=888dc6cb88"
@@ -1133,8 +1201,8 @@ const UI_MANIFEST={
    "thumb": "assets/cards/thumb/mirror.webp?v=3e3020d193"
   },
   "mitigate": {
-   "full": "assets/cards/mitigate.webp?v=17cfb52c4e",
-   "thumb": "assets/cards/thumb/mitigate.webp?v=a012e70128"
+   "full": "assets/cards/mitigate.webp?v=cc69be4399",
+   "thumb": "assets/cards/thumb/mitigate.webp?v=9f100bd9f6"
   },
   "modify": {
    "full": "assets/cards/modify.webp?v=8a3eedbcff",
@@ -1436,6 +1504,10 @@ const UI_MANIFEST={
    "full": "assets/cards/save.webp?v=6b4371c415",
    "thumb": "assets/cards/thumb/save.webp?v=98de4470b7"
   },
+  "scalable": {
+   "full": "assets/cards/scalable.webp?v=4e1a216681",
+   "thumb": "assets/cards/thumb/scalable.webp?v=016e87660a"
+  },
   "school": {
    "full": "assets/cards/school.webp?v=88771997e1",
    "thumb": "assets/cards/thumb/school.webp?v=dc47f1fbdc"
@@ -1555,6 +1627,10 @@ const UI_MANIFEST={
   "strategy": {
    "full": "assets/cards/strategy.webp?v=5b3a59b33d",
    "thumb": "assets/cards/thumb/strategy.webp?v=12bca9bf80"
+  },
+  "streamline": {
+   "full": "assets/cards/streamline.webp?v=b296d57552",
+   "thumb": "assets/cards/thumb/streamline.webp?v=dd5af2a0c1"
   },
   "strong": {
    "full": "assets/cards/strong.webp?v=21868fa2d7",
@@ -1800,6 +1876,8 @@ const UI_MANIFEST={
   "assets/cards/adequate.webp": "fedc208673",
   "assets/cards/adjust.webp": "5eb4cab2ed",
   "assets/cards/advantage.webp": "798b822585",
+  "assets/cards/agenda.webp": "4fc1bc307d",
+  "assets/cards/alliance.webp": "4380943087",
   "assets/cards/allocate.webp": "ec793cc39f",
   "assets/cards/alternative.webp": "4ab4b75c46",
   "assets/cards/always.webp": "097c3454da",
@@ -1813,10 +1891,12 @@ const UI_MANIFEST={
   "assets/cards/arrive.webp": "bc046d27a9",
   "assets/cards/ask.webp": "bd332a5ef4",
   "assets/cards/assess.webp": "c002fc9baa",
+  "assets/cards/asset.webp": "4e087afc88",
   "assets/cards/assign.webp": "1de2d0a087",
   "assets/cards/assumption.webp": "ee28867260",
   "assets/cards/attain.webp": "b18c64db6a",
   "assets/cards/attract.webp": "f992516710",
+  "assets/cards/audit.webp": "f307e446a7",
   "assets/cards/available.webp": "35dfb1fdd3",
   "assets/cards/avoid.webp": "a05ad7b5a8",
   "assets/cards/baby.webp": "73b28579c4",
@@ -1825,6 +1905,7 @@ const UI_MANIFEST={
   "assets/cards/bed.webp": "798c32c5b8",
   "assets/cards/believe.webp": "15131914ee",
   "assets/cards/belong.webp": "145b16384e",
+  "assets/cards/benchmark.webp": "0928c38961",
   "assets/cards/bicycle.webp": "5f79005004",
   "assets/cards/big.webp": "edb5ed31e5",
   "assets/cards/bird.webp": "bf47b7c122",
@@ -1833,14 +1914,17 @@ const UI_MANIFEST={
   "assets/cards/book.webp": "a8a76bd286",
   "assets/cards/box.webp": "963c94a59c",
   "assets/cards/boy.webp": "9a61d8d13d",
+  "assets/cards/brand.webp": "4862f30227",
   "assets/cards/brave.webp": "5eceab2e13",
   "assets/cards/bread.webp": "1adf7b9d8d",
   "assets/cards/bridge.webp": "2b0a1d2fb8",
   "assets/cards/bring.webp": "c95f7bfffb",
   "assets/cards/brother.webp": "cce4f888f4",
+  "assets/cards/budget.webp": "c0ce4dd805",
   "assets/cards/buy.webp": "7db8ebc613",
   "assets/cards/cake.webp": "5bb32f3658",
   "assets/cards/candle.webp": "eeb4e42a68",
+  "assets/cards/capital.webp": "4dd4e83b93",
   "assets/cards/car.webp": "2447d437a9",
   "assets/cards/careful.webp": "936772d3a7",
   "assets/cards/carry.webp": "c8a156289f",
@@ -1853,6 +1937,7 @@ const UI_MANIFEST={
   "assets/cards/challenge.webp": "e2ba7ce172",
   "assets/cards/choose.webp": "dc60c534fa",
   "assets/cards/clever.webp": "18fe57816f",
+  "assets/cards/client.webp": "c95601f2ec",
   "assets/cards/climb.webp": "cb37e2e486",
   "assets/cards/close.webp": "97136c9825",
   "assets/cards/cold.webp": "4c406bc8d2",
@@ -1862,6 +1947,7 @@ const UI_MANIFEST={
   "assets/cards/come.webp": "26dabb6887",
   "assets/cards/community.webp": "34dc9d06e7",
   "assets/cards/compare.webp": "e3aa14f835",
+  "assets/cards/competitor.webp": "08697144d8",
   "assets/cards/complex.webp": "1d3be605d2",
   "assets/cards/compliance.webp": "d9b9fd964e",
   "assets/cards/comprehensive.webp": "c53a743de0",
@@ -1876,13 +1962,16 @@ const UI_MANIFEST={
   "assets/cards/consistent.webp": "fb7d740e3b",
   "assets/cards/constraint.webp": "a96886e51a",
   "assets/cards/consult.webp": "1f3c9434f8",
+  "assets/cards/consumer.webp": "162e627c6a",
   "assets/cards/contain.webp": "bcc73d9877",
   "assets/cards/context.webp": "6eb157b1c1",
+  "assets/cards/contingency.webp": "b2765ce660",
   "assets/cards/continue.webp": "ddb6f0e162",
   "assets/cards/contract.webp": "600c954422",
   "assets/cards/control.webp": "29cec6028d",
   "assets/cards/convince.webp": "47d0db0622",
   "assets/cards/cook.webp": "fa8c3bea05",
+  "assets/cards/corporation.webp": "cec1492233",
   "assets/cards/create.webp": "5ac9853d62",
   "assets/cards/criteria.webp": "f549187dc1",
   "assets/cards/cross.webp": "fdf23f8be9",
@@ -1895,10 +1984,13 @@ const UI_MANIFEST={
   "assets/cards/dance.webp": "b6b9334488",
   "assets/cards/danger.webp": "e776e13b4b",
   "assets/cards/dangerous.webp": "eb268334fa",
+  "assets/cards/deadline.webp": "c5cde6b134",
   "assets/cards/decade.webp": "0042bb4987",
   "assets/cards/decide.webp": "717e762bfa",
   "assets/cards/defend.webp": "77741b225e",
   "assets/cards/deliver.webp": "78d536d481",
+  "assets/cards/deliverable.webp": "57008cfed5",
+  "assets/cards/demand.webp": "f61fae872c",
   "assets/cards/demonstrate.webp": "51aea932bd",
   "assets/cards/depend.webp": "c9146547c9",
   "assets/cards/describe.webp": "365f379d98",
@@ -2036,6 +2128,7 @@ const UI_MANIFEST={
   "assets/cards/leave.webp": "ad8e3e5baa",
   "assets/cards/letter.webp": "b3ab606f0f",
   "assets/cards/leverage.webp": "55931da6b8",
+  "assets/cards/liability.webp": "52bc5a9c65",
   "assets/cards/library.webp": "43346be8ee",
   "assets/cards/listen.webp": "e67c80861f",
   "assets/cards/live.webp": "b251069482",
@@ -2050,7 +2143,7 @@ const UI_MANIFEST={
   "assets/cards/memory.webp": "2413b33978",
   "assets/cards/milk.webp": "767ebc34c8",
   "assets/cards/mirror.webp": "18e79fc1ef",
-  "assets/cards/mitigate.webp": "17cfb52c4e",
+  "assets/cards/mitigate.webp": "cc69be4399",
   "assets/cards/modify.webp": "8a3eedbcff",
   "assets/cards/moon.webp": "11faa34c72",
   "assets/cards/morning.webp": "ff393b91af",
@@ -2126,6 +2219,7 @@ const UI_MANIFEST={
   "assets/cards/run.webp": "78c18880c6",
   "assets/cards/safe.webp": "fa56798fb6",
   "assets/cards/save.webp": "6b4371c415",
+  "assets/cards/scalable.webp": "4e1a216681",
   "assets/cards/school.webp": "88771997e1",
   "assets/cards/science.webp": "3f584e1c75",
   "assets/cards/sea.webp": "d71d92f129",
@@ -2156,6 +2250,7 @@ const UI_MANIFEST={
   "assets/cards/station.webp": "4a56f6579f",
   "assets/cards/story.webp": "211addb42f",
   "assets/cards/strategy.webp": "5b3a59b33d",
+  "assets/cards/streamline.webp": "b296d57552",
   "assets/cards/strong.webp": "21868fa2d7",
   "assets/cards/substantial.webp": "d82e2a2a17",
   "assets/cards/suddenly.webp": "066feb0a10",

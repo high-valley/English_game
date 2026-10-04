@@ -5,23 +5,23 @@
 
 | 順 | 単語 | 保存するファイル名（960x640 の WebP に小さくしてから） | プロンプトのファイル | 例文（日本語） |
 |---|---|---|---|---|
-| 1 | mitigate（和らげる）（作り直し） | incoming/mitigate_v2.webp | gpt_tasks/next/01_mitigate.txt | 火山のふもとで、氷の魔法使いたちが溶岩の流れを凍らせ、村への危険を和らげる。 |
-| 2 | scalable（拡張可能な） | incoming/scalable.webp | gpt_tasks/next/02_scalable.txt | ギルドの工房で、技師たちが、つなげるほど長くなる拡張可能な橋を組み立てる。 |
-| 3 | benchmark（指標） | incoming/benchmark.webp | gpt_tasks/next/03_benchmark.txt | 弓の大会で、王者の完璧な一射が、すべての射手の指標になる。 |
-| 4 | liability（負債） | incoming/liability.webp | gpt_tasks/next/04_liability.txt | 城の地下室で眠る竜は、貧しい王にとって大きな負債になっている。 |
-| 5 | contingency（不測の事態） | incoming/contingency.webp | gpt_tasks/next/05_contingency.txt | 城の下で、将軍が包囲の不測の事態に備えた秘密の抜け道を見せる。 |
-| 6 | deliverable（成果物） | incoming/deliverable.webp | gpt_tasks/next/06_deliverable.txt | 魔法使いの塔で、弟子たちがそれぞれ成果物である光る薬を師匠に手渡す。 |
-| 7 | streamline（効率化する） | incoming/streamline.webp | gpt_tasks/next/07_streamline.txt | 粉ひき小屋で、粉屋がすべての石臼を回す水車で作業を効率化する。 |
-| 8 | agenda（議題） | incoming/agenda.webp | gpt_tasks/next/08_agenda.txt | 評議会の広間で、長老が議題の巻物のいちばん上に「竜」と書く。 |
-| 9 | alliance（同盟） | incoming/alliance.webp | gpt_tasks/next/09_alliance.txt | 戦場で、エルフ・ドワーフ・人間が、オークに対する同盟を結んで並び立つ。 |
-| 10 | asset（資産） | incoming/asset.webp | gpt_tasks/next/10_asset.txt | 王の宝物庫で、王国最大の資産は、ビロードの枕の上で光る竜の卵だ。 |
-| 11 | audit（監査） | incoming/audit.webp | gpt_tasks/next/11_audit.txt | 穀物倉で、王の検査官たちが長い割り符を使って麦の袋を監査する。 |
-| 12 | brand（ブランド） | incoming/brand.webp | gpt_tasks/next/12_brand.txt | 市場で、名高い醸造所の樽には、どれも金のグリフォンのブランドの印がある。 |
-| 13 | budget（予算） | incoming/budget.webp | gpt_tasks/next/13_budget.txt | 城の台所で、料理人が銅貨三枚というわずかな予算で王の宴の献立を考える。 |
-| 14 | capital（資本） | incoming/capital.webp | gpt_tasks/next/14_capital.txt | 商人の中庭に、新しい商会の資本として、絹と香辛料を積んだ荷車が届く。 |
-| 15 | client（顧客） | incoming/client.webp | gpt_tasks/next/15_client.txt | 薬屋で、魔女が顧客に光る緑の薬の瓶を手渡す。 |
-| 16 | competitor（競合他社） | incoming/competitor.webp | gpt_tasks/next/16_competitor.txt | 川で、商人の荷舟が競合相手を追い抜き、にぎわう市場へ向かう。 |
-| 17 | consumer（消費者） | incoming/consumer.webp | gpt_tasks/next/17_consumer.txt | 夜市で、消費者たちが宙に浮かぶ魔法のランプの屋台に群がる。 |
-| 18 | corporation（大企業） | incoming/corporation.webp | gpt_tasks/next/18_corporation.txt | 山の都で、大きな鉱山会社の旗が、すべての鉱山に掲げられている。 |
-| 19 | deadline（締め切り） | incoming/deadline.webp | gpt_tasks/next/19_deadline.txt | 真夜中の仕立て屋で、お針子たちが王の締め切りに追われ、ドレスを仕上げる。 |
-| 20 | demand（需要） | incoming/demand.webp | gpt_tasks/next/20_demand.txt | 鍛冶屋で、村人たちの長い列が、人狼に対抗する銀の刃の需要を物語る。 |
+| 1 | dividend（配当） | incoming/dividend.webp | gpt_tasks/next/01_dividend.txt | 果樹園で、村人たちがそれぞれ配当として、金色のりんごでいっぱいのかごを受け取る。 |
+| 2 | entrepreneur（起業家） | incoming/entrepreneur.webp | gpt_tasks/next/02_entrepreneur.txt | 浮島で、若い起業家が空の旅人とグリフォンのための酒場を開く。 |
+| 3 | headquarters（本部） | incoming/headquarters.webp | gpt_tasks/next/03_headquarters.txt | 浜辺で、海賊たちの本部は、旗で飾られた巨大な難破船だ。 |
+| 4 | inflation（インフレ） | incoming/inflation.webp | gpt_tasks/next/04_inflation.txt | 市場で、インフレのせいで、小さなパン一つが金貨の山ほどの値段になる。 |
+| 5 | inventory（在庫） | incoming/inventory.webp | gpt_tasks/next/05_inventory.txt | 隊商の野営地で、ドワーフが樽や木箱や武器の在庫を確かめる。 |
+| 6 | manufacturer（製造業者） | incoming/manufacturer.webp | gpt_tasks/next/06_manufacturer.txt | 山の都で、魔法の鎧を作る最高の製造業者が、店に光る鎧をずらりと並べている。 |
+| 7 | merger（合併） | incoming/merger.webp | gpt_tasks/next/07_merger.txt | 港で、合併した二つの商船隊が、違う旗を並べてひとつの船団として出航する。 |
+| 8 | milestone（節目） | incoming/milestone.webp | gpt_tasks/next/08_milestone.txt | 平原で、闇の王の黒い塔が崩れ、長い戦争の節目となる。 |
+| 9 | partnership（提携） | incoming/partnership.webp | gpt_tasks/next/09_partnership.txt | 港で、エルフとドワーフが共同の船を出す。新しい提携の始まりだ。 |
+| 10 | portfolio（ポートフォリオ） | incoming/portfolio.webp | gpt_tasks/next/10_portfolio.txt | 銀行家の部屋で、革のポートフォリオに鉱山・船・城の権利書が入っている。 |
+| 11 | productivity（生産性） | incoming/productivity.webp | gpt_tasks/next/11_productivity.txt | 機織りの館で、魔法の織機が織り手たちの生産性を倍にする。 |
+| 12 | profit（利益） | incoming/profit.webp | gpt_tasks/next/12_profit.txt | 海賊船で、船長が金貨の利益を、歓声を上げる仲間たちに分ける。 |
+| 13 | recession（景気後退） | incoming/recession.webp | gpt_tasks/next/13_recession.txt | 港町で、閉じた店と動かない船が、戦争後の深い景気後退を物語る。 |
+| 14 | reputation（評判） | incoming/reputation.webp | gpt_tasks/next/14_reputation.txt | 村の療養所に、癒し手の評判を聞いた遠い国々の病人たちがやって来る。 |
+| 15 | subsidiary（子会社） | incoming/subsidiary.webp | gpt_tasks/next/15_subsidiary.txt | 遠い東の港で、大ギルドが小さな旗を掲げた子会社を開く。 |
+| 16 | supplier（供給業者） | incoming/supplier.webp | gpt_tasks/next/16_supplier.txt | 砦で、王の供給業者が、不死の軍が来る前に銀の矢を荷車で届ける。 |
+| 17 | tariff（関税） | incoming/tariff.webp | gpt_tasks/next/17_tariff.txt | 石の橋で、トロルたちが商人の荷車ごとに金貨の関税を取り立てる。 |
+| 18 | transaction（取引） | incoming/transaction.webp | gpt_tasks/next/18_transaction.txt | コボルトの市場で、すべての取引が光る魔法の帳簿に書き込まれる。 |
+| 19 | warehouse（倉庫） | incoming/warehouse.webp | gpt_tasks/next/19_warehouse.txt | 古い倉庫で、カルトの信者たちが封じた悪魔の遺物を木箱の間に隠す。 |
+| 20 | workforce（労働力） | incoming/workforce.webp | gpt_tasks/next/20_workforce.txt | 崩れた城壁で、ドワーフの大きな労働力が、巨神が砕いた石を積み直す。 |

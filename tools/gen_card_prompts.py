@@ -412,7 +412,7 @@ def load_words():
 # 作り直した絵を登録したら、ここから消す。例文を変えたときは、絵と食い違うので必ずここに入れる
 #   （済み）book / big / room … 蜘蛛が描かれていた（ユーザーが苦手）。例文を変えて作り直した
 #   mitigate … EPIC の maintain と同じ「城壁の上で魔法使いが光の盾を張り、赤い悪魔を防ぐ」絵になった。火山の溶岩を凍らせる場面に変えた
-REDO = ["mitigate"]
+REDO = []
 
 # 作り直しの絵を ChatGPT が gpt-images に保存するときの名前（incoming/〜.webp）。
 # 元の絵（incoming/単語.webp）が gpt-images に残っていて、ChatGPT は「incoming/ にある名前は飛ばす」ので、
