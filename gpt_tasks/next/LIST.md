@@ -4,23 +4,23 @@
 
 | 順 | 単語 | 保存するファイル名（960x640 の WebP に小さくしてから） | プロンプトのファイル | 例文（日本語） |
 |---|---|---|---|---|
-| 1 | adjust（調整する） | incoming/adjust.webp | gpt_tasks/next/01_adjust.txt | 飛行船の上で、船長が風をとらえるために帆を調整する。 |
-| 2 | allocate（配分する） | incoming/allocate.webp | gpt_tasks/next/02_allocate.txt | 宝物庫で、女王が兵士・農民・学校のための三つの箱に金貨を割り当てる。 |
-| 3 | anticipate（予想する） | incoming/anticipate.webp | gpt_tasks/next/03_anticipate.txt | 夜明けに、将軍は暗黒騎士の突撃を予測し、盾を構えさせる。 |
-| 4 | apply（適用する） | incoming/apply.webp | gpt_tasks/next/04_apply.txt | 古い橋で、魔法使いたちが石を強くするために光るルーンを施す。 |
-| 5 | assess（査定する） | incoming/assess.webp | gpt_tasks/next/05_assess.txt | 崩れた礼拝堂で、騎士が攻撃する前に魔物の弱点を見極める。 |
-| 6 | assign（任命する） | incoming/assign.webp | gpt_tasks/next/06_assign.txt | 城の中庭で、隊長が二人の騎士に宝物庫の見張りを割り当てる。 |
-| 7 | attain（到達する） | incoming/attain.webp | gpt_tasks/next/07_attain.txt | 山頂で、長年の修行の末、彼女は大魔導士の位を得る。 |
-| 8 | conclude（結論づける） | incoming/conclude.webp | gpt_tasks/next/08_conclude.txt | 宴の終わりに、王が杯を掲げてスピーチを締めくくる。 |
-| 9 | conduct（実施する） | incoming/conduct.webp | gpt_tasks/next/09_conduct.txt | 塔で、カルトの信者たちが赤い炎のまわりで闇の儀式を行う。 |
-| 10 | confirm（確認する） | incoming/confirm.webp | gpt_tasks/next/10_confirm.txt | 丘の上で、斥候が死霊使いの軍が川を渡ったことを確かめる。 |
-| 11 | consult（相談する） | incoming/consult.webp | gpt_tasks/next/11_consult.txt | 霧の森で、王が来たる戦について巫女に相談する。 |
-| 12 | convince（納得させる） | incoming/convince.webp | gpt_tasks/next/12_convince.txt | 町の広場で、若い騎士がおびえる村人たちを説得し、巨人と戦う気にさせる。 |
-| 13 | deliver（届ける） | incoming/deliver.webp | gpt_tasks/next/13_deliver.txt | 嵐の中、伝令が白馬に乗って王の手紙を届ける。 |
-| 14 | distribute（配る） | incoming/distribute.webp | gpt_tasks/next/14_distribute.txt | 水びたしの村で、魔法使いたちが舟から暖かい毛布を配る。 |
-| 15 | eliminate（取り除く） | incoming/eliminate.webp | gpt_tasks/next/15_eliminate.txt | 地下倉で、狩人たちが聖水で最後に残った亡霊を退治する。 |
-| 16 | emerge（姿を現す） | incoming/emerge.webp | gpt_tasks/next/16_emerge.txt | 暗い湖から、巨大な大蛇が月の下でゆっくりと姿を現す。 |
-| 17 | emphasize（強調する） | incoming/emphasize.webp | gpt_tasks/next/17_emphasize.txt | 浜辺で、隊長が兵士たちに盾を組ませ、チームワークの大切さを強調する。 |
-| 18 | encounter（出会う） | incoming/encounter.webp | gpt_tasks/next/18_encounter.txt | 暗い森で、旅人たちがさまよえるリッチに出くわす。 |
-| 19 | ensure（確実にする） | incoming/ensure.webp | gpt_tasks/next/19_ensure.txt | 内城で、衛兵たちが銀のランプをともし、王子を暗殺者から守る。 |
-| 20 | estimate（見積もる） | incoming/estimate.webp | gpt_tasks/next/20_estimate.txt | 川で、技師たちが縄と杭を使って新しい橋の長さを見積もる。 |
+| 1 | exceed（上回る） | incoming/exceed.webp | gpt_tasks/next/01_exceed.txt | 村の競技会で、少女の跳躍が柱の古い記録の印を超える。 |
+| 2 | extend（延ばす） | incoming/extend.webp | gpt_tasks/next/02_extend.txt | 海岸で、作業員たちが石の道を灯台まで延ばす。 |
+| 3 | generate（発生させる） | incoming/generate.webp | gpt_tasks/next/03_generate.txt | 都市の中心で、大きな水晶がすべての通りを照らす光を生み出す。 |
+| 4 | illustrate（例で示す） | incoming/illustrate.webp | gpt_tasks/next/04_illustrate.txt | 修道院で、年老いた修道士が長い巻物に勇者の旅を絵で描く。 |
+| 5 | indicate（示す） | incoming/indicate.webp | gpt_tasks/next/05_indicate.txt | 砂漠で、光る矢印が埋もれた神殿への道を示す。 |
+| 6 | interpret（解釈する） | incoming/interpret.webp | gpt_tasks/next/06_interpret.txt | 書庫で、学者が若い王子のために古い星図を読み解く。 |
+| 7 | investigate（調査する） | incoming/investigate.webp | gpt_tasks/next/07_investigate.txt | 静まり返った塔の中で、狩人たちが死霊使いの空っぽの書斎を調べる。 |
+| 8 | justify（正当化する） | incoming/justify.webp | gpt_tasks/next/08_justify.txt | 村の長老たちの前で、若い盗人たちが飢えた子どもたちを指さして罪を正当化する。 |
+| 9 | modify（修正する） | incoming/modify.webp | gpt_tasks/next/09_modify.txt | 鍛冶場で、鍛冶屋たちが大きな剣を少女の小さな手に合うように作り変える。 |
+| 10 | adequate（十分な） | incoming/adequate.webp | gpt_tasks/next/10_adequate.txt | 森で、小さなテントでも雨をしのぐには十分だ。 |
+| 11 | appropriate（適切な） | incoming/appropriate.webp | gpt_tasks/next/11_appropriate.txt | 王家の結婚式で、招待客たちは絹とビロードのふさわしい服を着ている。 |
+| 12 | complex（複雑な） | incoming/complex.webp | gpt_tasks/next/12_complex.txt | 時計塔の中で、複雑な歯車が時計の大きな針を回している。 |
+| 13 | consistent（一貫した） | incoming/consistent.webp | gpt_tasks/next/13_consistent.txt | パン屋で、パン職人の腕は安定していて、どのパンも同じ金色の形に焼き上がる。 |
+| 14 | crucial（極めて重要な） | incoming/crucial.webp | gpt_tasks/next/14_crucial.txt | 競馬で、二頭の馬がゴールに着く瞬間が勝負の決め手だ。 |
+| 15 | diverse（多様な） | incoming/diverse.webp | gpt_tasks/next/15_diverse.txt | 港の市場で、各地から来たさまざまな人々が品物を取り引きする。 |
+| 16 | essential（不可欠な） | incoming/essential.webp | gpt_tasks/next/16_essential.txt | 砂漠では水が欠かせない。ラクダが大きな壺で水を運ぶ。 |
+| 17 | fundamental（根本的な） | incoming/fundamental.webp | gpt_tasks/next/17_fundamental.txt | ギルドの広間では信頼が基本の決まりで、仲間はみな握手を交わす。 |
+| 18 | innovative（革新的な） | incoming/innovative.webp | gpt_tasks/next/18_innovative.txt | 音楽堂で、革新的な吟遊詩人が光でできた竪琴を奏でる。 |
+| 19 | relevant（関連のある） | incoming/relevant.webp | gpt_tasks/next/19_relevant.txt | 水につかった資料庫で、学者が竜に関係のある巻物だけを救い出す。 |
+| 20 | sufficient（足りる） | incoming/sufficient.webp | gpt_tasks/next/20_sufficient.txt | 野営地で、大きなたき火は一晩じゅう狼を寄せつけないのに十分だ。 |
