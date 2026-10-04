@@ -112,6 +112,10 @@ const UI_MANIFEST={
    "full": "assets/cards/actually.webp?v=e8259d0b3e",
    "thumb": "assets/cards/thumb/actually.webp?v=ad37da9294"
   },
+  "adapt": {
+   "full": "assets/cards/adapt.webp?v=75660f139a",
+   "thumb": "assets/cards/thumb/adapt.webp?v=fcbbe01a21"
+  },
   "advantage": {
    "full": "assets/cards/advantage.webp?v=798b822585",
    "thumb": "assets/cards/thumb/advantage.webp?v=50c71557c3"
@@ -672,6 +676,10 @@ const UI_MANIFEST={
    "full": "assets/cards/foundation.webp?v=0bb598ccf3",
    "thumb": "assets/cards/thumb/foundation.webp?v=ea9685a3bc"
   },
+  "framework": {
+   "full": "assets/cards/framework.webp?v=3cb6125c2b",
+   "thumb": "assets/cards/thumb/framework.webp?v=6e81a6707a"
+  },
   "freedom": {
    "full": "assets/cards/freedom.webp?v=5412c4ec0c",
    "thumb": "assets/cards/thumb/freedom.webp?v=8467c3a8d6"
@@ -679,6 +687,10 @@ const UI_MANIFEST={
   "friend": {
    "full": "assets/cards/friend.webp?v=645f46ebb3",
    "thumb": "assets/cards/thumb/friend.webp?v=37d69ac020"
+  },
+  "function": {
+   "full": "assets/cards/function.webp?v=dcbd148b0e",
+   "thumb": "assets/cards/thumb/function.webp?v=43fee909df"
   },
   "future": {
    "full": "assets/cards/future.webp?v=ee4345d5e8",
@@ -768,9 +780,21 @@ const UI_MANIFEST={
    "full": "assets/cards/house.webp?v=9198475e5a",
    "thumb": "assets/cards/thumb/house.webp?v=876a631530"
   },
+  "hypothesis": {
+   "full": "assets/cards/hypothesis.webp?v=326aeb24ee",
+   "thumb": "assets/cards/thumb/hypothesis.webp?v=68068821b7"
+  },
+  "identity": {
+   "full": "assets/cards/identity.webp?v=6d970e979d",
+   "thumb": "assets/cards/thumb/identity.webp?v=47b68024ca"
+  },
   "imagine": {
    "full": "assets/cards/imagine.webp?v=4aa04610fa",
    "thumb": "assets/cards/thumb/imagine.webp?v=340d8b50d8"
+  },
+  "impact": {
+   "full": "assets/cards/impact.webp?v=28a164e624",
+   "thumb": "assets/cards/thumb/impact.webp?v=7c63301249"
   },
   "implement": {
    "full": "assets/cards/implement.webp?v=7bacaea7d4",
@@ -788,13 +812,29 @@ const UI_MANIFEST={
    "full": "assets/cards/increase.webp?v=685be1d79f",
    "thumb": "assets/cards/thumb/increase.webp?v=8a12710165"
   },
+  "industry": {
+   "full": "assets/cards/industry.webp?v=bcfee06bae",
+   "thumb": "assets/cards/thumb/industry.webp?v=eb88e4d5e7"
+  },
   "influence": {
    "full": "assets/cards/influence.webp?v=199a55b4d3",
    "thumb": "assets/cards/thumb/influence.webp?v=7c0f9d4336"
   },
+  "initiative": {
+   "full": "assets/cards/initiative.webp?v=dcdd5f84a5",
+   "thumb": "assets/cards/thumb/initiative.webp?v=c6c2c501b6"
+  },
+  "institution": {
+   "full": "assets/cards/institution.webp?v=1ad6f9121c",
+   "thumb": "assets/cards/thumb/institution.webp?v=1511537f62"
+  },
   "invention": {
    "full": "assets/cards/invention.webp?v=ff1a1318d2",
    "thumb": "assets/cards/thumb/invention.webp?v=dc410fb2ee"
+  },
+  "investment": {
+   "full": "assets/cards/investment.webp?v=99cca5ab3b",
+   "thumb": "assets/cards/thumb/investment.webp?v=3e229b1294"
   },
   "island": {
    "full": "assets/cards/island.webp?v=cbc45cc2e1",
@@ -880,6 +920,10 @@ const UI_MANIFEST={
    "full": "assets/cards/market.webp?v=7c694a6d47",
    "thumb": "assets/cards/thumb/market.webp?v=8c85e2acda"
   },
+  "mechanism": {
+   "full": "assets/cards/mechanism.webp?v=57225fe1c5",
+   "thumb": "assets/cards/thumb/mechanism.webp?v=34e43f70b7"
+  },
   "meet": {
    "full": "assets/cards/meet.webp?v=1c1015ce11",
    "thumb": "assets/cards/thumb/meet.webp?v=72b074af2c"
@@ -948,6 +992,10 @@ const UI_MANIFEST={
    "full": "assets/cards/number.webp?v=3f5c56be86",
    "thumb": "assets/cards/thumb/number.webp?v=a58ec657e1"
   },
+  "objective": {
+   "full": "assets/cards/objective.webp?v=accfd525a0",
+   "thumb": "assets/cards/thumb/objective.webp?v=2b02f27b3a"
+  },
   "offer": {
    "full": "assets/cards/offer.webp?v=739cb4db4b",
    "thumb": "assets/cards/thumb/offer.webp?v=19f6f03dc5"
@@ -967,6 +1015,10 @@ const UI_MANIFEST={
   "ordinary": {
    "full": "assets/cards/ordinary.webp?v=4bf198f9d2",
    "thumb": "assets/cards/thumb/ordinary.webp?v=8e09cc19ae"
+  },
+  "outcome": {
+   "full": "assets/cards/outcome.webp?v=fb94913571",
+   "thumb": "assets/cards/thumb/outcome.webp?v=42b5ac3339"
   },
   "peace": {
    "full": "assets/cards/peace.webp?v=36d626f589",
@@ -1008,6 +1060,10 @@ const UI_MANIFEST={
    "full": "assets/cards/prevent.webp?v=fc99736892",
    "thumb": "assets/cards/thumb/prevent.webp?v=47b7ac6ba7"
   },
+  "principle": {
+   "full": "assets/cards/principle.webp?v=8f8b744dd0",
+   "thumb": "assets/cards/thumb/principle.webp?v=ccbbf88ea2"
+  },
   "priority": {
    "full": "assets/cards/priority.webp?v=1f36f699f7",
    "thumb": "assets/cards/thumb/priority.webp?v=0151a465c1"
@@ -1020,9 +1076,21 @@ const UI_MANIFEST={
    "full": "assets/cards/problem.webp?v=dd1ad37f0b",
    "thumb": "assets/cards/thumb/problem.webp?v=cf84ea7b9b"
   },
+  "procedure": {
+   "full": "assets/cards/procedure.webp?v=9b0aab33df",
+   "thumb": "assets/cards/thumb/procedure.webp?v=fe32dfd3e6"
+  },
   "promise": {
    "full": "assets/cards/promise.webp?v=ac1b38ea65",
    "thumb": "assets/cards/thumb/promise.webp?v=caec858f55"
+  },
+  "proposal": {
+   "full": "assets/cards/proposal.webp?v=2a861f7834",
+   "thumb": "assets/cards/thumb/proposal.webp?v=5921ed4ff6"
+  },
+  "prospect": {
+   "full": "assets/cards/prospect.webp?v=5095ff6ec5",
+   "thumb": "assets/cards/thumb/prospect.webp?v=814ab98180"
   },
   "protect": {
    "full": "assets/cards/protect.webp?v=0a191fd5ad",
@@ -1172,6 +1240,10 @@ const UI_MANIFEST={
    "full": "assets/cards/secret.webp?v=06bf438d52",
    "thumb": "assets/cards/thumb/secret.webp?v=350f5ebd0e"
   },
+  "sector": {
+   "full": "assets/cards/sector.webp?v=1aa0fcf414",
+   "thumb": "assets/cards/thumb/sector.webp?v=0a116f6e4d"
+  },
   "see": {
    "full": "assets/cards/see.webp?v=eb6de95956",
    "thumb": "assets/cards/thumb/see.webp?v=31e8504727"
@@ -1248,6 +1320,10 @@ const UI_MANIFEST={
    "full": "assets/cards/stakeholder.webp?v=29b1e7a108",
    "thumb": "assets/cards/thumb/stakeholder.webp?v=f1aa15ced3"
   },
+  "standard": {
+   "full": "assets/cards/standard.webp?v=2892b2ecc9",
+   "thumb": "assets/cards/thumb/standard.webp?v=8156f81f89"
+  },
   "star": {
    "full": "assets/cards/star.webp?v=5768222dc5",
    "thumb": "assets/cards/thumb/star.webp?v=093d94bf8d"
@@ -1311,6 +1387,10 @@ const UI_MANIFEST={
   "teacher": {
    "full": "assets/cards/teacher.webp?v=cadad720b7",
    "thumb": "assets/cards/thumb/teacher.webp?v=b5433298ef"
+  },
+  "theory": {
+   "full": "assets/cards/theory.webp?v=9a680d27f8",
+   "thumb": "assets/cards/thumb/theory.webp?v=3317a3a835"
   },
   "ticket": {
    "full": "assets/cards/ticket.webp?v=dc26c205f2",
@@ -1475,6 +1555,7 @@ const UI_MANIFEST={
   "assets/cards/accurate.webp": "306a65f0f9",
   "assets/cards/achieve.webp": "c2d91a9ef5",
   "assets/cards/actually.webp": "e8259d0b3e",
+  "assets/cards/adapt.webp": "75660f139a",
   "assets/cards/advantage.webp": "798b822585",
   "assets/cards/alternative.webp": "4ab4b75c46",
   "assets/cards/always.webp": "097c3454da",
@@ -1615,8 +1696,10 @@ const UI_MANIFEST={
   "assets/cards/forest.webp": "1832d324f2",
   "assets/cards/forget.webp": "630c62b957",
   "assets/cards/foundation.webp": "0bb598ccf3",
+  "assets/cards/framework.webp": "3cb6125c2b",
   "assets/cards/freedom.webp": "5412c4ec0c",
   "assets/cards/friend.webp": "645f46ebb3",
+  "assets/cards/function.webp": "dcbd148b0e",
   "assets/cards/future.webp": "ee4345d5e8",
   "assets/cards/garden.webp": "f480951cb4",
   "assets/cards/gate.webp": "e15127f9b5",
@@ -1639,13 +1722,20 @@ const UI_MANIFEST={
   "assets/cards/hospital.webp": "b9b427c800",
   "assets/cards/hot.webp": "b53b5afdc4",
   "assets/cards/house.webp": "9198475e5a",
+  "assets/cards/hypothesis.webp": "326aeb24ee",
+  "assets/cards/identity.webp": "6d970e979d",
   "assets/cards/imagine.webp": "4aa04610fa",
+  "assets/cards/impact.webp": "28a164e624",
   "assets/cards/implement.webp": "7bacaea7d4",
   "assets/cards/important.webp": "03e76a23f9",
   "assets/cards/improve.webp": "4f800a6f0a",
   "assets/cards/increase.webp": "685be1d79f",
+  "assets/cards/industry.webp": "bcfee06bae",
   "assets/cards/influence.webp": "199a55b4d3",
+  "assets/cards/initiative.webp": "dcdd5f84a5",
+  "assets/cards/institution.webp": "1ad6f9121c",
   "assets/cards/invention.webp": "ff1a1318d2",
+  "assets/cards/investment.webp": "99cca5ab3b",
   "assets/cards/island.webp": "cbc45cc2e1",
   "assets/cards/join.webp": "d921188b3d",
   "assets/cards/journey.webp": "a3a6b449ee",
@@ -1667,6 +1757,7 @@ const UI_MANIFEST={
   "assets/cards/man.webp": "d97610b405",
   "assets/cards/map.webp": "a8bcb4aea1",
   "assets/cards/market.webp": "7c694a6d47",
+  "assets/cards/mechanism.webp": "57225fe1c5",
   "assets/cards/meet.webp": "1c1015ce11",
   "assets/cards/memory.webp": "2413b33978",
   "assets/cards/milk.webp": "767ebc34c8",
@@ -1684,11 +1775,13 @@ const UI_MANIFEST={
   "assets/cards/night.webp": "e8aaa143c0",
   "assets/cards/notice.webp": "3716acbd98",
   "assets/cards/number.webp": "3f5c56be86",
+  "assets/cards/objective.webp": "accfd525a0",
   "assets/cards/offer.webp": "739cb4db4b",
   "assets/cards/old.webp": "d36cb3415c",
   "assets/cards/open.webp": "81b64039ce",
   "assets/cards/opportunity.webp": "4c93739424",
   "assets/cards/ordinary.webp": "4bf198f9d2",
+  "assets/cards/outcome.webp": "fb94913571",
   "assets/cards/peace.webp": "36d626f589",
   "assets/cards/perspective.webp": "0edb985cc9",
   "assets/cards/play.webp": "4a6bdb79b8",
@@ -1699,10 +1792,14 @@ const UI_MANIFEST={
   "assets/cards/powerful.webp": "948c988966",
   "assets/cards/prepare.webp": "60bc63ad11",
   "assets/cards/prevent.webp": "fc99736892",
+  "assets/cards/principle.webp": "8f8b744dd0",
   "assets/cards/priority.webp": "1f36f699f7",
   "assets/cards/probably.webp": "b1e7beb91a",
   "assets/cards/problem.webp": "dd1ad37f0b",
+  "assets/cards/procedure.webp": "9b0aab33df",
   "assets/cards/promise.webp": "ac1b38ea65",
+  "assets/cards/proposal.webp": "2a861f7834",
+  "assets/cards/prospect.webp": "5095ff6ec5",
   "assets/cards/protect.webp": "0a191fd5ad",
   "assets/cards/purpose.webp": "59a190f724",
   "assets/cards/queen.webp": "ff46af30e2",
@@ -1740,6 +1837,7 @@ const UI_MANIFEST={
   "assets/cards/sea.webp": "d71d92f129",
   "assets/cards/search.webp": "c6a71c7203",
   "assets/cards/secret.webp": "06bf438d52",
+  "assets/cards/sector.webp": "1aa0fcf414",
   "assets/cards/see.webp": "eb6de95956",
   "assets/cards/send.webp": "6bdb1f0407",
   "assets/cards/serious.webp": "21d6dd895e",
@@ -1759,6 +1857,7 @@ const UI_MANIFEST={
   "assets/cards/special.webp": "c9ec4a174d",
   "assets/cards/speed.webp": "d2173cf768",
   "assets/cards/stakeholder.webp": "29b1e7a108",
+  "assets/cards/standard.webp": "2892b2ecc9",
   "assets/cards/star.webp": "5768222dc5",
   "assets/cards/station.webp": "4a56f6579f",
   "assets/cards/story.webp": "211addb42f",
@@ -1775,6 +1874,7 @@ const UI_MANIFEST={
   "assets/cards/tea.webp": "65d176cdc0",
   "assets/cards/teach.webp": "144ccd9a92",
   "assets/cards/teacher.webp": "cadad720b7",
+  "assets/cards/theory.webp": "9a680d27f8",
   "assets/cards/ticket.webp": "dc26c205f2",
   "assets/cards/tired.webp": "779ad3eae1",
   "assets/cards/together.webp": "aea63cd346",
