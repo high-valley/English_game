@@ -1,7 +1,7 @@
 # WORD GRIMOIRE ― 次にやるタスク
 
 ## 次のタスク（優先順）
-1. **カード画像の作成（LEGENDARY）**。**COMMON・UNCOMMON・RARE・EPIC は 100/100 で完成**。LEGENDARY は 73/100（全体 473/500）。
+1. **カード画像の作成（LEGENDARY）**。**COMMON・UNCOMMON・RARE・EPIC は 100/100 で完成**。LEGENDARY は 93/100（全体 493/500）。
    EPIC・LEGENDARY の例文は生成の前に見直し済み（EPIC は98語、LEGENDARY は99語を書き換えた）。
    `card_image_next.md` の先頭が次に作る分（`python3 tools/gen_next_batch.py` で出し直す）
    - 画像の生成は画像生成AI（ChatGPT / Grok など）に頼む（Claude は画像を作れない）
@@ -55,6 +55,7 @@
 - `icon_coin` を作り直す場合は `assets/ui/icon_prompts.md`（金色が主体で、暗い面を作らないこと）
 
 ## 完了済み
+- LEGENDARY のカード画像を20枚追加（prioritize / procure / reimburse / renew / restructure / revise / supervise / terminate / undermine / ambitious / competitive / confidential / flexible / lucrative / mandatory / obsolete / overdue / profitable / prominent / viable）。LEGENDARY は 93/100、全体 493/500
 - LEGENDARY のカード画像を20枚追加（monopoly / accelerate / accommodate / acquire / align / amend / approve / authorize / commence / consolidate / delegate / diversify / endorse / execute / expedite / finalize / forecast / initiate / invest / oversee）。LEGENDARY は 73/100、全体 473/500
 - LEGENDARY のカード画像を20枚追加（dividend / entrepreneur / headquarters / inflation / inventory / manufacturer / merger / milestone / partnership / portfolio / productivity / profit / recession / reputation / subsidiary / supplier / tariff / transaction / warehouse / workforce）。LEGENDARY は 53/100、全体 453/500
 - LEGENDARY のカード画像を19枚追加（scalable / benchmark / liability / contingency / deliverable / streamline / agenda / alliance / asset / audit / brand / budget / capital / client / competitor / consumer / corporation / deadline / demand）。`mitigate` を火山の溶岩を凍らせる絵に作り直した（EPIC の `maintain` と同じ絵だったため。`incoming/mitigate_v2.webp` で受け取った）。LEGENDARY は 33/100、全体 433/500
