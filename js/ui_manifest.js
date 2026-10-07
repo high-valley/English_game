@@ -108,6 +108,10 @@ const UI_MANIFEST={
    "full": "assets/cards/accommodate.webp?v=0563e2c360",
    "thumb": "assets/cards/thumb/accommodate.webp?v=843cd55a9c"
   },
+  "accordingly": {
+   "full": "assets/cards/accordingly.webp?v=024a857e4b",
+   "thumb": "assets/cards/thumb/accordingly.webp?v=aa52609154"
+  },
   "accurate": {
    "full": "assets/cards/accurate.webp?v=306a65f0f9",
    "thumb": "assets/cards/thumb/accurate.webp?v=f2c6e2811f"
@@ -207,6 +211,10 @@ const UI_MANIFEST={
   "approve": {
    "full": "assets/cards/approve.webp?v=d4635f1feb",
    "thumb": "assets/cards/thumb/approve.webp?v=97ba5eeb03"
+  },
+  "approximately": {
+   "full": "assets/cards/approximately.webp?v=e3332ed912",
+   "thumb": "assets/cards/thumb/approximately.webp?v=a5158b9f28"
   },
   "arrive": {
    "full": "assets/cards/arrive.webp?v=bc046d27a9",
@@ -1764,6 +1772,10 @@ const UI_MANIFEST={
    "full": "assets/cards/significant.webp?v=646af509f6",
    "thumb": "assets/cards/thumb/significant.webp?v=181749ec7a"
   },
+  "simultaneously": {
+   "full": "assets/cards/simultaneously.webp?v=29f8663a77",
+   "thumb": "assets/cards/thumb/simultaneously.webp?v=f51602afc9"
+  },
   "sing": {
    "full": "assets/cards/sing.webp?v=2cef1d7d32",
    "thumb": "assets/cards/thumb/sing.webp?v=a2f06bfb8d"
@@ -1835,6 +1847,10 @@ const UI_MANIFEST={
   "strong": {
    "full": "assets/cards/strong.webp?v=21868fa2d7",
    "thumb": "assets/cards/thumb/strong.webp?v=2effa4066a"
+  },
+  "subsequently": {
+   "full": "assets/cards/subsequently.webp?v=11b8ad884f",
+   "thumb": "assets/cards/thumb/subsequently.webp?v=9500f9092a"
   },
   "subsidiary": {
    "full": "assets/cards/subsidiary.webp?v=cc22eb1613",
@@ -1908,6 +1924,10 @@ const UI_MANIFEST={
    "full": "assets/cards/teacher.webp?v=cadad720b7",
    "thumb": "assets/cards/thumb/teacher.webp?v=b5433298ef"
   },
+  "temporary": {
+   "full": "assets/cards/temporary.webp?v=a6548c6cc2",
+   "thumb": "assets/cards/thumb/temporary.webp?v=a7e0c6e890"
+  },
   "terminate": {
    "full": "assets/cards/terminate.webp?v=37248b5d99",
    "thumb": "assets/cards/thumb/terminate.webp?v=76b3bdf99c"
@@ -1943,6 +1963,10 @@ const UI_MANIFEST={
   "transaction": {
    "full": "assets/cards/transaction.webp?v=2fa63356a2",
    "thumb": "assets/cards/thumb/transaction.webp?v=2008d080e2"
+  },
+  "transparent": {
+   "full": "assets/cards/transparent.webp?v=062b684e3c",
+   "thumb": "assets/cards/thumb/transparent.webp?v=996b258405"
   },
   "travel": {
    "full": "assets/cards/travel.webp?v=66476c35cb",
@@ -2003,6 +2027,10 @@ const UI_MANIFEST={
   "visit": {
    "full": "assets/cards/visit.webp?v=3e6478f9b0",
    "thumb": "assets/cards/thumb/visit.webp?v=c5940c6571"
+  },
+  "volatile": {
+   "full": "assets/cards/volatile.webp?v=6bfa5ccfca",
+   "thumb": "assets/cards/thumb/volatile.webp?v=86e23a1f99"
   },
   "vulnerable": {
    "full": "assets/cards/vulnerable.webp?v=12700a9b76",
@@ -2110,6 +2138,7 @@ const UI_MANIFEST={
   "assets/cards/ability.webp": "29f1fe4473",
   "assets/cards/accelerate.webp": "6f90d408af",
   "assets/cards/accommodate.webp": "0563e2c360",
+  "assets/cards/accordingly.webp": "024a857e4b",
   "assets/cards/accurate.webp": "306a65f0f9",
   "assets/cards/achieve.webp": "c2d91a9ef5",
   "assets/cards/acquire.webp": "98be8b5f79",
@@ -2135,6 +2164,7 @@ const UI_MANIFEST={
   "assets/cards/apply.webp": "4029504ffe",
   "assets/cards/appropriate.webp": "1cd2c1175c",
   "assets/cards/approve.webp": "d4635f1feb",
+  "assets/cards/approximately.webp": "e3332ed912",
   "assets/cards/arrive.webp": "bc046d27a9",
   "assets/cards/ask.webp": "bd332a5ef4",
   "assets/cards/assess.webp": "c002fc9baa",
@@ -2524,6 +2554,7 @@ const UI_MANIFEST={
   "assets/cards/ship.webp": "93993698d9",
   "assets/cards/show.webp": "021e7b3aaf",
   "assets/cards/significant.webp": "646af509f6",
+  "assets/cards/simultaneously.webp": "29f8663a77",
   "assets/cards/sing.webp": "2cef1d7d32",
   "assets/cards/sister.webp": "4c256b8794",
   "assets/cards/sit.webp": "83274d9114",
@@ -2542,6 +2573,7 @@ const UI_MANIFEST={
   "assets/cards/strategy.webp": "5b3a59b33d",
   "assets/cards/streamline.webp": "b296d57552",
   "assets/cards/strong.webp": "21868fa2d7",
+  "assets/cards/subsequently.webp": "11b8ad884f",
   "assets/cards/subsidiary.webp": "cc22eb1613",
   "assets/cards/substantial.webp": "d82e2a2a17",
   "assets/cards/suddenly.webp": "066feb0a10",
@@ -2560,6 +2592,7 @@ const UI_MANIFEST={
   "assets/cards/tea.webp": "65d176cdc0",
   "assets/cards/teach.webp": "144ccd9a92",
   "assets/cards/teacher.webp": "cadad720b7",
+  "assets/cards/temporary.webp": "a6548c6cc2",
   "assets/cards/terminate.webp": "37248b5d99",
   "assets/cards/theory.webp": "9a680d27f8",
   "assets/cards/ticket.webp": "dc26c205f2",
@@ -2569,6 +2602,7 @@ const UI_MANIFEST={
   "assets/cards/town.webp": "90fa40b30e",
   "assets/cards/tradition.webp": "8b5320c861",
   "assets/cards/transaction.webp": "2fa63356a2",
+  "assets/cards/transparent.webp": "062b684e3c",
   "assets/cards/travel.webp": "66476c35cb",
   "assets/cards/treasure.webp": "99f37c52f8",
   "assets/cards/tree.webp": "f0040be9d7",
@@ -2584,6 +2618,7 @@ const UI_MANIFEST={
   "assets/cards/victory.webp": "a3e77ca2ef",
   "assets/cards/village.webp": "6784b90674",
   "assets/cards/visit.webp": "3e6478f9b0",
+  "assets/cards/volatile.webp": "6bfa5ccfca",
   "assets/cards/vulnerable.webp": "12700a9b76",
   "assets/cards/wait.webp": "70f261f081",
   "assets/cards/walk.webp": "55655bb2f0",

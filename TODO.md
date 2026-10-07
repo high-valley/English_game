@@ -1,19 +1,9 @@
 # WORD GRIMOIRE ― 次にやるタスク
 
 ## 次のタスク（優先順）
-1. **カード画像の作成（LEGENDARY）**。**COMMON・UNCOMMON・RARE・EPIC は 100/100 で完成**。LEGENDARY は 93/100（全体 493/500）。
-   EPIC・LEGENDARY の例文は生成の前に見直し済み（EPIC は98語、LEGENDARY は99語を書き換えた）。
-   `card_image_next.md` の先頭が次に作る分（`python3 tools/gen_next_batch.py` で出し直す）
-   - 画像の生成は画像生成AI（ChatGPT / Grok など）に頼む（Claude は画像を作れない）
-   - **プロンプトを渡すときは、必ず `python3 tools/prompt_for.py <単語>` を通す。**
-     例文を記憶で書くと、絵と例文が食い違う（`run` の例文を取り違え、`sad` は存在しない単語だった。2枚むだにした）
-   - 置いたら `js/card_art.js` の `CARD_IMG_NAMES` に名前を追加する
-   - `python3 tools/gen_next_batch.py` で残りを出し直す（作り終えた分は自動で外れる）。
-     プロンプトも順番も `prompt_for.py --next` と同じ（以前はここだけ古い短いプロンプトで、LEGENDARY から並んでいた）
-   - 全500語のプロンプトは `card_image_prompts.md`
-2. 問題形式の追加（今は「英単語 → 日本語4択」のみ）※**当面は4択のままでよい**（ユーザー判断）
+1. 問題形式の追加（今は「英単語 → 日本語4択」のみ）※**当面は4択のままでよい**（ユーザー判断）
    - 増やすときは、SPEC.md §1-5「問題の形式は、全レベルで同じ」の扱いを先に決める
-3. **勉強データを確認できる画面**（ユーザーの希望）
+2. **勉強データを確認できる画面**（ユーザーの希望）
    - 今のセーブに残っているのは、単語ごとの熟練度（0〜5）・持っているカードの枚数・コイン・連続学習の日数・解放したレベルだけ。
      これだけで出せるもの：レベルごとの進み具合、覚えた語の数（熟練度5）、熟練度ごとの語数、品詞ごとの覚えた数
    - **正答率・苦手な単語・日ごとの学習量**を出すには、セーブに新しい記録が要る
@@ -21,7 +11,7 @@
    - セーブの形を変えるときは CLAUDE.md の「セーブデータ」のとおり：`initSave()` で無い項目を補う。
      引き継ぎコード（`WG1`）は JSON をそのまま運ぶので形式は変えなくてよいが、往復して同じ中身になるかは確かめる
    - 置き場所を決める：下のタブに足す（今は4つ）か、ホームや設定から開くか。勉強画面は1画面に収めているので、そこには足さない
-4. **品詞（名詞・動詞・形容詞・副詞）で分けて勉強できる仕組み**（ユーザーの希望）
+3. **品詞（名詞・動詞・形容詞・副詞）で分けて勉強できる仕組み**（ユーザーの希望）
    - 品詞は `words.js` の `pos` に入っている。全500語で 名詞 226・動詞 170・形容詞 85・副詞 19
    - **副詞がとても少ない**：COMMON 0語・UNCOMMON 6語・RARE 4語・EPIC 4語・LEGENDARY 5語。
      「レベル × 品詞」で絞ると副詞は出せないか、同じ語ばかり出る。
@@ -55,6 +45,8 @@
 - `icon_coin` を作り直す場合は `assets/ui/icon_prompts.md`（金色が主体で、暗い面を作らないこと）
 
 ## 完了済み
+- **カード画像 500枚が完成**（最後は LEGENDARY の temporary / transparent / volatile / accordingly / approximately / simultaneously / subsequently）。
+  作り直すときは、例文を書き換えて `tools/gen_card_prompts.py` の `REDO` に入れる（ChatGPT は `incoming/単語_v2.webp` に保存する）
 - LEGENDARY のカード画像を20枚追加（prioritize / procure / reimburse / renew / restructure / revise / supervise / terminate / undermine / ambitious / competitive / confidential / flexible / lucrative / mandatory / obsolete / overdue / profitable / prominent / viable）。LEGENDARY は 93/100、全体 493/500
 - LEGENDARY のカード画像を20枚追加（monopoly / accelerate / accommodate / acquire / align / amend / approve / authorize / commence / consolidate / delegate / diversify / endorse / execute / expedite / finalize / forecast / initiate / invest / oversee）。LEGENDARY は 73/100、全体 473/500
 - LEGENDARY のカード画像を20枚追加（dividend / entrepreneur / headquarters / inflation / inventory / manufacturer / merger / milestone / partnership / portfolio / productivity / profit / recession / reputation / subsidiary / supplier / tariff / transaction / warehouse / workforce）。LEGENDARY は 53/100、全体 453/500

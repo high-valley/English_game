@@ -54,6 +54,10 @@ def write_gpt_tasks(first):
         (d / name).write_text(prompt_for(w) + "\n", encoding="utf-8")
         redo = "（作り直し）" if w["en"] in REDO else ""
         rows.append(f"| {i} | {w['en']}（{w['ja']}）{redo} | incoming/{incoming_stem(w['en'])}.webp | gpt_tasks/next/{name} | {w['tr']} |")
+    if not first:
+        # 全部の絵がそろったとき。ChatGPT が空の表を見て、勝手に描き始めないように
+        rows = [rows[0], "", "**いま描くカードはありません**（全500枚がそろっています）。何も描かず、push もしないでください。",
+                "作り直しが決まったら、ここに「（作り直し）」の行が出ます。"]
     (d / "LIST.md").write_text("\n".join(rows) + "\n", encoding="utf-8")
 
 
