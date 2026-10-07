@@ -3,16 +3,7 @@
 ## 次のタスク（優先順）
 1. 問題形式の追加（今は「英単語 → 日本語4択」のみ）※**当面は4択のままでよい**（ユーザー判断）
    - 増やすときは、SPEC.md §1-5「問題の形式は、全レベルで同じ」の扱いを先に決める
-2. **勉強データを確認できる画面**（ユーザーの希望）
-   - 今のセーブに残っているのは、単語ごとの熟練度（0〜5）・持っているカードの枚数・コイン・連続学習の日数・解放したレベルだけ。
-     これだけで出せるもの：レベルごとの進み具合、覚えた語の数（熟練度5）、熟練度ごとの語数、品詞ごとの覚えた数
-   - **正答率・苦手な単語・日ごとの学習量**のための記録は入れた（`stat` / `days` / `statFrom`。SPEC.md §8）。記録は入れた日から数える
-   - **置き場所はホームの「コレクション／覚えた／連続学習」の欄をタップで開く重ね画面**（ユーザーと決めた）。下のタブは増やさない
-   - 出すもの：レベルごとの進み具合（覚えた語数・熟練度0〜5の語数）、品詞ごとの覚えた数、正答率（全体・レベルごと）、
-     苦手な単語（2回以上間違えた語を正答率の低い順。タップでカード詳細）、直近30日の学習量の棒グラフ
-   - セーブの形を変えるときは CLAUDE.md の「セーブデータ」のとおり：`initSave()` で無い項目を補う。
-     引き継ぎコード（`WG1`）は JSON をそのまま運ぶので形式は変えなくてよいが、往復して同じ中身になるかは確かめる
-3. **品詞（名詞・動詞・形容詞・副詞）で分けて勉強できる仕組み**（ユーザーの希望）
+2. **品詞（名詞・動詞・形容詞・副詞）で分けて勉強できる仕組み**（ユーザーの希望）
    - 品詞は `words.js` の `pos` に入っている。全500語で 名詞 226・動詞 170・形容詞 85・副詞 19
    - **副詞がとても少ない**：COMMON 0語・UNCOMMON 6語・RARE 4語・EPIC 4語・LEGENDARY 5語。
      「レベル × 品詞」で絞ると副詞は出せないか、同じ語ばかり出る。
@@ -46,6 +37,7 @@
 - `icon_coin` を作り直す場合は `assets/ui/icon_prompts.md`（金色が主体で、暗い面を作らないこと）
 
 ## 完了済み
+- **勉強データの画面**を作った（ホームの統計をタップで開く。`js/stats_ui.js`、SPEC.md §9）。その前に、正答率・苦手な単語・日ごとの学習量のための記録をセーブに足した（`stat` / `days` / `statFrom`、SPEC.md §8）
 - **カード画像 500枚が完成**（最後は LEGENDARY の temporary / transparent / volatile / accordingly / approximately / simultaneously / subsequently）。
   作り直すときは、例文を書き換えて `tools/gen_card_prompts.py` の `REDO` に入れる（ChatGPT は `incoming/単語_v2.webp` に保存する）
 - LEGENDARY のカード画像を20枚追加（prioritize / procure / reimburse / renew / restructure / revise / supervise / terminate / undermine / ambitious / competitive / confidential / flexible / lucrative / mandatory / obsolete / overdue / profitable / prominent / viable）。LEGENDARY は 93/100、全体 493/500
