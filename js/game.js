@@ -25,5 +25,15 @@ function makeOptions(w){
   const same=WORDS.filter(x=>x.rarity===w.rarity&&x.ja!==w.ja),P=same.length>=3?same:WORDS.filter(x=>x.ja!==w.ja),o=[w.ja];
   while(o.length<4){const x=P[Math.floor(Math.random()*P.length)].ja;if(!o.includes(x))o.push(x)}
   return o.sort(()=>Math.random()-.5)}
-function answerCorrect(w,lv){S.mastery[w.id]=Math.min(MASTERY_MAX,(S.mastery[w.id]||0)+1);S.coins+=LEVEL_COIN[lv]||25;delete WRONG[w.id]}
-function answerWrong(w){WRONG[w.id]=1}
+function answerCorrect(w,lv){S.mastery[w.id]=Math.min(MASTERY_MAX,(S.mastery[w.id]||0)+1);S.coins+=LEVEL_COIN[lv]||25;delete WRONG[w.id];recordAnswer(w,true)}
+function answerWrong(w){WRONG[w.id]=1;recordAnswer(w,false)}
+/* 勉強の記録（勉強データの画面で使う。SPEC.md §8）。答えるたびに数える
+   stat：単語ごとの [正解した回数, 間違えた回数]。正答率と苦手な単語を出す
+   days：日ごとの [答えた問題数, 正解数]（端末の日付）。日ごとの学習量を出す。DAYS_KEEP 日より古い日は消す
+   statFrom：記録を始めた日。この日より前の分は数えていない（画面に「〜から記録」と出すため） */
+const DAYS_KEEP=365;
+function recordAnswer(w,ok){
+  const d=ymd(new Date());if(!S.statFrom)S.statFrom=d;
+  const s=S.stat[w.id]||(S.stat[w.id]=[0,0]);s[ok?0:1]++;
+  const t=S.days[d]||(S.days[d]=[0,0]);t[0]++;if(ok)t[1]++;
+  const ks=Object.keys(S.days);if(ks.length>DAYS_KEEP)ks.sort().slice(0,ks.length-DAYS_KEEP).forEach(k=>delete S.days[k])}
