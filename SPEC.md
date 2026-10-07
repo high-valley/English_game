@@ -244,7 +244,8 @@
 
 ## 8. セーブデータ（localStorage、キー `wordQuestDemo` は継続）
 ```
-{ coins, owned:{id:枚数}, mastery:{id:0〜5}, unlockedLevel:1〜5, studyLevel, gachaLevel, allClear, streak, last, bgm, gachaN, v:2 }
+{ coins, owned:{id:枚数}, mastery:{id:0〜5}, unlockedLevel:1〜5, studyLevel, gachaLevel, allClear, streak, last, bgm, gachaN,
+  stat:{id:[正解, 不正解]}, days:{"YYYY-MM-DD":[問題数, 正解数]}, statFrom, v:2 }
 ```
 - レベルの進捗率は、`mastery` から計算する（保存しない）
 - `unlockedLevel`：到達した最高レベル。増えるだけ。起動時にも、熟練度から合わせ直す
@@ -252,6 +253,11 @@
 - `studyLevel`：最後に選んだ勉強のレベル、`gachaLevel`：最後に選んだガチャの排出率レベル（§5）、`allClear`：全レベルクリアの表示済みフラグ
 - `bgm`：BGM のオン・オフ（§9.5）。無ければオン
 - `gachaN`：ガチャで最後に選んだ回数（§5）。無ければ1
+- **勉強の記録**（勉強データの画面で使う。`js/game.js` の `recordAnswer`。`answerCorrect` / `answerWrong` から、答えるたびに数える）
+  - `stat`：単語ごとの `[正解した回数, 間違えた回数]`。正答率と苦手な単語を出す。500語ぶん埋まっても約6KB
+  - `days`：日ごとの `[答えた問題数, 正解数]`（端末の日付）。日ごとの学習量を出す。**365日より古い日は消す**（約8KBまで）
+  - `statFrom`：記録を始めた日。これより前の学習は数えていない（記録は 2026-10-07 の版から）
+  - 無いセーブ・古い引き継ぎコードを読んだときは、空から始める（`initSave`）。引き継ぎコード（`WG1`）の形式は変えない
 - IDの考え方は §6。単語を消してもセーブが壊れない
 - 単語を入れ替えたとき（v2）に、カードと熟練度をリセットした（テスト版のため）
 - 旧XPランクは廃止した（`xp` は削除）

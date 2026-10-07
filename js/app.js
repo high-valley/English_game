@@ -9,6 +9,10 @@ function initSave(o){
   // 単語データを入れ替えた（v2）ので、テスト版のカードと熟練度をリセットする。コインと連続学習は引き継ぐ
   if(S.v!==2)S={coins:S.coins==null?100:S.coins,owned:{},mastery:{},streak:S.streak||0,last:S.last||"",v:2};
   S.streak=S.streak||0;S.last=S.last||"";S.unlockedLevel=S.unlockedLevel||1;S.studyLevel=S.studyLevel||1;S.gachaLevel=S.gachaLevel||S.unlockedLevel;S.bgm=S.bgm!==false;S.gachaN=Math.max(1,parseInt(S.gachaN)||1);delete S.xp;
+  // 勉強の記録（無ければ空から始める。壊れた値は0にそろえる）。ymd はこの後で定義されるので、ここでは使わない
+  const two=v=>Array.isArray(v)?[Math.max(0,parseInt(v[0])||0),Math.max(0,parseInt(v[1])||0)]:[0,0];
+  const map2=m=>{const r={};if(m&&typeof m==="object"&&!Array.isArray(m))for(const k in m)r[k]=two(m[k]);return r};
+  S.stat=map2(S.stat);S.days=map2(S.days);if(typeof S.statFrom!=="string")delete S.statFrom;
   syncLevels()}   // 熟練度から、解放済みのレベルを合わせる
 initSave(loadSave());
 const $=q=>document.querySelector(q);
