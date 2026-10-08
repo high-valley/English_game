@@ -8,9 +8,14 @@
    ・アプリを裏に回したら止め、戻ってきたら続きから流す（Safari は裏でも <audio> を鳴らし続けるため）
    ・マナーモード（消音スイッチ）のときは鳴らさない。ほかのアプリの音楽も止めない（audioSession "ambient"）
    ・発音（speak）の間は、BGM を下げて英語を聞き取りやすくする
-   ・オン・オフは設定。セーブの S.bgm（無ければオン） */
+   ・オン・オフと音量は設定。セーブの S.bgm（無ければオン）と S.bgmVol（0〜100、無ければ BGM_VOL_DEF） */
 const BGM_TRACKS={home:"home",study:"study",gacha:"gacha",cards:"card"};
-const BGM_VOL=0.7;       // 全体の音量。曲そのものは -16 LUFS にそろえてある
+// 音量。設定のつまみ（0〜100）を2乗して GainNode の値にする（耳は音の大きさを対数で感じるので、まっすぐ比例させると
+// つまみの下半分でほとんど聞こえず、上半分で変化がない）。はじめの 80 は 0.64 で、つまみを付ける前の 0.7 とほぼ同じ。
+// 100 で 1.0（曲そのものの大きさ。曲は -16 LUFS・ピーク -1.5dB にそろえてあるので、これ以上は上げない）
+const BGM_VOL_DEF=80;
+const bgmVolPct=()=>S&&Number.isFinite(S.bgmVol)?S.bgmVol:BGM_VOL_DEF;
+const bgmVol=()=>(bgmVolPct()/100)**2;
 const BGM_DUCK=0.3;      // 発音の間は、この割合まで下げる
 const BGM_OUT=0.8,BGM_IN=1.6,BGM_GAP=0.3;   // 切り替え: 前の曲を0.8秒で下げ、0.3秒おいて次の曲を1.6秒で上げる
 const BGM={ctx:null,ch:{},cur:null,page:null,started:false,blocked:false,duck:false,duckT:0};
@@ -33,7 +38,7 @@ function bgmFade(c,v,dur,delay=0){
   // Web Audio が無いときは volume を少しずつ変える（iPhone 以外）
   const a=c.a,from=a.volume,t0=performance.now()+delay*1000;
   c.fadeT=setInterval(()=>{const k=Math.min(1,Math.max(0,(performance.now()-t0)/(dur*1000||1)));a.volume=from+(v-from)*k;if(k>=1)clearInterval(c.fadeT)},40)}
-const bgmTarget=()=>BGM_VOL*(BGM.duck?BGM_DUCK:1);
+const bgmTarget=()=>bgmVol()*(BGM.duck?BGM_DUCK:1);
 function bgmPlay(c){if(!c.a.paused)return;c.a.play().catch(()=>{BGM.blocked=true})}
 // 今の画面・設定・アプリが見えているかに合わせて、流す曲を決める
 function bgmSync(){
@@ -48,6 +53,9 @@ function bgmSync(){
   if(want){const c=bgmCh(want);clearTimeout(c.stopT);bgmPlay(c);bgmFade(c,bgmTarget(),BGM_IN,prev&&vis?BGM_GAP:0)}}
 function bgmPage(p){BGM.page=p;bgmSync()}
 function bgmSet(on){S.bgm=!!on;save();bgmSync()}
+// 音量のつまみ。動かしている間は今の曲にすぐ反映し（keep=false）、指を離したときにセーブする（keep=true）
+function bgmSetVol(v,keep){S.bgmVol=Math.max(0,Math.min(100,Math.round(+v||0)));
+  const c=BGM.cur&&BGM.ch[BGM.cur];if(c)bgmFade(c,bgmTarget(),.08);if(keep)save()}
 // 発音の間だけ下げる。終わりの知らせが来ない端末があるので、最長でも ms で戻す
 function bgmDuck(on,ms=4000){
   clearTimeout(BGM.duckT);BGM.duck=on;if(on)BGM.duckT=setTimeout(()=>bgmDuck(false),ms);

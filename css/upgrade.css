@@ -664,6 +664,17 @@ html.noscroll,html.noscroll body{overflow:hidden;overscroll-behavior:none}
 
 /* 設定の BGM オン・オフ（スイッチ） */
 .st-bgm{display:flex;align-items:center;justify-content:space-between}
+/* BGM の音量のつまみ（設定）。指で動かしやすいように、つまみを大きく、行の高さを取る */
+.st-vol{display:flex;align-items:center;gap:10px;margin-top:12px;transition:opacity .2s}
+.st-vol.off{opacity:.45}
+.st-vol span{font-size:18px}
+.st-vol b{min-width:2.4em;text-align:right;color:#f4d477;font-size:15px}
+.st-vol input{flex:1;height:32px;margin:0;-webkit-appearance:none;appearance:none;background:transparent;cursor:pointer}
+.st-vol input::-webkit-slider-runnable-track{height:6px;border-radius:3px;background:linear-gradient(90deg,#d9a834,#f4d477) 0/var(--p,80%) 100% no-repeat,#2a3150}
+.st-vol input::-moz-range-track{height:6px;border-radius:3px;background:#2a3150}
+.st-vol input::-moz-range-progress{height:6px;border-radius:3px;background:#e8b94a}
+.st-vol input::-webkit-slider-thumb{-webkit-appearance:none;width:26px;height:26px;margin-top:-10px;border:2px solid #f1d27a;border-radius:50%;background:#1b2140;box-shadow:0 2px 6px #000a}
+.st-vol input::-moz-range-thumb{width:22px;height:22px;border:2px solid #f1d27a;border-radius:50%;background:#1b2140}
 .st-bgm h4{margin:0}
 .tg{display:flex;align-items:center;gap:8px;min-width:96px;padding:6px 12px 6px 6px;border:1px solid #33395a;border-radius:999px;background:#1b2140;color:#aeb2c1;font-weight:700;font-size:14px;cursor:pointer;transition:background .2s,border-color .2s}
 .tg i{width:22px;height:22px;border-radius:50%;background:#5a6078;transition:transform .2s,background .2s}

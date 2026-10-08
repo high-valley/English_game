@@ -8,7 +8,7 @@ function initSave(o){
   S=o||{coins:100,owned:{},mastery:{}};
   // 単語データを入れ替えた（v2）ので、テスト版のカードと熟練度をリセットする。コインと連続学習は引き継ぐ
   if(S.v!==2)S={coins:S.coins==null?100:S.coins,owned:{},mastery:{},streak:S.streak||0,last:S.last||"",v:2};
-  S.streak=S.streak||0;S.last=S.last||"";S.unlockedLevel=S.unlockedLevel||1;S.studyLevel=S.studyLevel||1;S.gachaLevel=S.gachaLevel||S.unlockedLevel;S.bgm=S.bgm!==false;S.gachaN=Math.max(1,parseInt(S.gachaN)||1);delete S.xp;
+  S.streak=S.streak||0;S.last=S.last||"";S.unlockedLevel=S.unlockedLevel||1;S.studyLevel=S.studyLevel||1;S.gachaLevel=S.gachaLevel||S.unlockedLevel;S.bgm=S.bgm!==false;S.bgmVol=typeof S.bgmVol==="number"&&isFinite(S.bgmVol)?Math.max(0,Math.min(100,Math.round(S.bgmVol))):BGM_VOL_DEF;S.gachaN=Math.max(1,parseInt(S.gachaN)||1);delete S.xp;
   // 勉強の記録（無ければ空から始める。壊れた値は0にそろえる）。ymd はこの後で定義されるので、ここでは使わない
   const two=v=>Array.isArray(v)?[Math.max(0,parseInt(v[0])||0),Math.max(0,parseInt(v[1])||0)]:[0,0];
   const map2=m=>{const r={};if(m&&typeof m==="object"&&!Array.isArray(m))for(const k in m)r[k]=two(m[k]);return r};
@@ -225,7 +225,8 @@ setInterval(bgTick,60000);
 function buildNav(){document.querySelectorAll("nav button").forEach(b=>{const p=b.dataset.p,[e,t]=NAV[p];b.innerHTML=`<i>${ico("nav_"+p,e)}</i>${t}`})}
 function openSettings(){const d=document.createElement("div");d.className="sheet";d.onclick=e=>{if(e.target===d)d.remove()};
   d.innerHTML=`<div class="sheet-in"><h3 style="margin:0 0 12px;color:#f4d477;font-family:Georgia,serif">設定</h3><div class="sd-ex">${saveSummary(S)}</div>
-  <div class="xf st-bgm"><h4>BGM</h4><button class="tg" id="st-bgm" role="switch"></button></div>
+  <div class="xf"><div class="st-bgm"><h4>BGM</h4><button class="tg" id="st-bgm" role="switch"></button></div>
+   <div class="st-vol"><span aria-hidden="true">🔈</span><input type="range" id="st-vol" min="0" max="100" step="5" aria-label="BGM の音量"><span aria-hidden="true">🔊</span><b id="st-volv"></b></div></div>
   <div class="xf"><h4>データの引き継ぎ</h4>
    <p>別の端末やブラウザで続きを遊ぶときや、データの控えを残すときに使います。リンクかコードを、LINE・AirDrop・メモなどで送ってください。</p>
    <div class="xf-row"><button class="xf-btn" id="xf-link" disabled>リンクを送る</button><button class="xf-btn" id="xf-copy" disabled>コードをコピー</button></div>
@@ -238,6 +239,10 @@ function openSettings(){const d=document.createElement("div");d.className="sheet
   <button class="gold-btn" style="margin-bottom:10px" onclick="this.closest('.sheet').remove()">閉じる</button><button class="hm2-reset" onclick="if(confirm('セーブデータをすべて消します。よろしいですか？')){clearSave();location.reload()}">セーブデータをリセット</button></div>`;document.body.appendChild(d);
   const tg=d.querySelector("#st-bgm"),tgShow=()=>{tg.classList.toggle("on",S.bgm);tg.setAttribute("aria-checked",S.bgm);tg.innerHTML=`<i></i>${S.bgm?"オン":"オフ"}`};
   tgShow();tg.onclick=()=>{bgmSet(!S.bgm);tgShow()};
+  // 音量のつまみ。入力欄は作り直さない（数字の表示だけ書き換える）。オフのときは薄くするが、動かせる（次にオンにしたときの音量）
+  const vol=d.querySelector("#st-vol"),volv=d.querySelector("#st-volv"),volShow=()=>{volv.textContent=S.bgmVol;vol.style.setProperty("--p",S.bgmVol+"%");vol.closest(".st-vol").classList.toggle("off",!S.bgm)};
+  vol.value=S.bgmVol;volShow();vol.oninput=()=>{bgmSetVol(vol.value,false);volShow()};vol.onchange=()=>{bgmSetVol(vol.value,true);volShow()};
+  const tgClick=tg.onclick;tg.onclick=()=>{tgClick();volShow()};
   // コードは開いたときに作っておく。押してから作ると、iPhone の Safari では共有・コピーが「操作の直後ではない」として断られるため
   const msg=t=>{d.querySelector("#xf-msg").textContent=t};
   makeTransferCode(S).then(code=>{
