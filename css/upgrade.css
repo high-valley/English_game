@@ -364,8 +364,12 @@ nav button.on img.ico{filter:brightness(1.4) saturate(1.3) drop-shadow(0 0 6px #
 .hm2-ct b{font-weight:600}
 .hm2-cbar{height:2.4cqw;margin:1.6cqw 0 2cqw;border:1.5px solid #c9a24a;border-radius:99px;overflow:hidden;background:#0a1030}
 .hm2-cbar i{display:block;height:100%;background:linear-gradient(90deg,#9b7730,#f2d47a)}
-.hm2-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1.6cqw;width:100%;padding:0;border:0;background:none;font:inherit;color:inherit;cursor:pointer;-webkit-tap-highlight-color:transparent}
-.hm2-stats:active div{background:rgba(40,52,110,.8)}
+.hm2-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1.6cqw}
+/* 学習レベルのパネル全体が「勉強データ」を開くボタン（js/stats_ui.js）。統計の3つの欄だけだと小さく、押しにくかった */
+/* 押したときは、ほかのホームのボタン（勉強・カード・ガチャ）と同じく 2px 沈める。パネルはぼかし（backdrop-filter）を使うので filter は重ねない */
+.hm2-panel[role=button]{cursor:pointer;-webkit-tap-highlight-color:transparent}
+.hm2-panel[role=button]:active{transform:translateY(2px)}
+.hm2-panel[role=button]:active .hm2-stats div{background:rgba(40,52,110,.8)}
 /* 「タップで勉強データ」の案内は、パネルの下の余白に重ねる（行を足すと 360x640 でホームがはみ出した） */
 .hm2-panel{position:relative}
 .hm2-hint{position:absolute;left:50%;transform:translateX(-50%);white-space:nowrap;bottom:.2cqw;line-height:1;font-size:max(8.5px,2.2cqw);color:#c9b27a;pointer-events:none}

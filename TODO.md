@@ -37,7 +37,7 @@
 - `icon_coin` を作り直す場合は `assets/ui/icon_prompts.md`（金色が主体で、暗い面を作らないこと）
 
 ## 完了済み
-- **勉強データの画面**を作った（ホームの統計をタップで開く。`js/stats_ui.js`、SPEC.md §9）。その前に、正答率・苦手な単語・日ごとの学習量のための記録をセーブに足した（`stat` / `days` / `statFrom`、SPEC.md §8）
+- **勉強データの画面**を作った（ホームの学習レベルのパネル全体をタップで開く。はじめは統計の3つの欄だけだったが、押す場所を広げた。`js/stats_ui.js`、SPEC.md §9）。その前に、正答率・苦手な単語・日ごとの学習量のための記録をセーブに足した（`stat` / `days` / `statFrom`、SPEC.md §8）
 - **カード画像 500枚が完成**（最後は LEGENDARY の temporary / transparent / volatile / accordingly / approximately / simultaneously / subsequently）。
   作り直すときは、例文を書き換えて `tools/gen_card_prompts.py` の `REDO` に入れる（ChatGPT は `incoming/単語_v2.webp` に保存する）
 - LEGENDARY のカード画像を20枚追加（prioritize / procure / reimburse / renew / restructure / revise / supervise / terminate / undermine / ambitious / competitive / confidential / flexible / lucrative / mandatory / obsolete / overdue / profitable / prominent / viable）。LEGENDARY は 93/100、全体 493/500

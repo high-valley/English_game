@@ -86,8 +86,8 @@ function home(){
   $("#main").innerHTML=`<section class="hm2"><div class="hm2-logo">${UI.logo_title?`<img class="hm2-logoimg" src="${UI.logo_title}" alt="WORD GRIMOIRE">`:`${EMB}<div class="hm2-word"><span>WORD</span><span>GRIMOIRE</span></div>`}</div>
   <div class="hm2-tag">言葉を集めて、<br>世界を広げよう</div>
   <div class="hm2-grid"><div class="hm2-left">
-    <div class="hm2-panel orn"><div class="hm2-ct"><span>学習レベル Lv.${U}</span><b>${pct}%</b></div><div class="hm2-cbar"><i style="width:${pct}%"></i></div><div class="hm2-lv">${chips}</div>
-      <button class="hm2-stats" onclick="openStats()" aria-label="勉強データを見る"><div>${ico("stat_words","📚")}<span>コレクション</span><b>${owned}/${WORDS.length}</b></div><div>${ico("stat_ok","✅")}<span>覚えた</span><b>${mastered}</b></div><div>${ico("stat_streak","🔥")}<span>連続学習</span><b>${streakNow()}日</b></div></button><div class="hm2-hint">タップで勉強データ ›</div></div>
+    <div class="hm2-panel orn" role="button" tabindex="0" aria-label="勉強データを見る" onclick="openStats()" onkeydown="if(event.key==='Enter')openStats()"><div class="hm2-ct"><span>学習レベル Lv.${U}</span><b>${pct}%</b></div><div class="hm2-cbar"><i style="width:${pct}%"></i></div><div class="hm2-lv">${chips}</div>
+      <div class="hm2-stats"><div>${ico("stat_words","📚")}<span>コレクション</span><b>${owned}/${WORDS.length}</b></div><div>${ico("stat_ok","✅")}<span>覚えた</span><b>${mastered}</b></div><div>${ico("stat_streak","🔥")}<span>連続学習</span><b>${streakNow()}日</b></div></div><div class="hm2-hint">タップで勉強データ ›</div></div>
     <div class="hm2-btns"><button class="hm2-b orn" onclick="showPage('study')">${ico("icon_study","📖","big")}<span>勉強</span></button><button class="hm2-b orn" onclick="showPage('cards')">${ico("icon_cards","🃏","big")}<span>カード</span></button></div>
   </div>
   <button class="hm2-gacha orn" onclick="showPage('gacha')">${pulls?`<em class="hm2-new">引ける！×${pulls}</em>`:""}<div class="hm2-pack">${ico("icon_gacha","🎁","pack")}</div><div class="hm2-plate">ガチャ</div><div class="hm2-price">1回 ${ico("icon_coin","🪙","c")} ${GACHA_COST}コイン</div></button></div>
