@@ -753,3 +753,31 @@ html.noscroll,html.noscroll body{overflow:hidden;overscroll-behavior:none}
 .sx-wp{display:flex;flex-direction:column;align-items:flex-end}.sx-wp b{color:#f4d477;font-size:14px}.sx-wp small{color:#aeb2c1;font-size:11px}
 .sx-none{margin:0!important}
 .sx .gold-btn{margin-top:4px}
+
+/* ===== ホームの下半分を大きくする（ユーザーの希望：学習レベルのパネルをもう少し広く、全体のバランスもそろえる） =====
+   ・パネルを横に広げる（ガチャの列 33% → 31%）。中の文字・アイコン・欄も、パネルに合わせて一回り大きくする
+   ・「タップで勉強データ」の案内は、パネルの下の余白を広げてその中に収める（枠の線や角飾りに重ねない）
+   ・勉強・カードのボタンとガチャも同じ割合で大きくし、上下・左右の間隔もそろえる
+   ・大きくした分の高さは、キャッチコピーの上の余白から取る。背の低い画面（高さ700px以下）では余白を詰め、
+     高さ780px以下・700px以下の2段階。iPhone 375x667・Android 360x640〜412x760 でもホームがはみ出さないようにした */
+.hm2-grid{grid-template-columns:1fr 31%;gap:2.4cqw}
+.hm2-left{gap:2.4cqw}
+.hm2-panel{padding:3cqw 3.6cqw 5.4cqw}
+.hm2-ct{font-size:4.3cqw}
+.hm2-cbar{height:2.8cqw;margin:2cqw 0 2.6cqw}
+.hm2-lv{gap:1.4cqw;margin:0 0 2.6cqw}
+.hm2-lv span{font-size:max(10px,3cqw);padding:1cqw 0}
+.hm2-stats{gap:2cqw}
+.hm2-stats div{gap:.6cqw;padding:2cqw 0 1.8cqw;font-size:max(9.5px,2.75cqw);white-space:nowrap;letter-spacing:-.02em}
+.hm2-stats .ico{width:7.2cqw;height:7.2cqw}.hm2-stats .ico-e{font-size:5.6cqw}
+.hm2-stats b{font-size:max(15px,4.8cqw)}
+.hm2-hint{bottom:1.4cqw;font-size:max(9.5px,2.7cqw)}
+.hm2-btns{gap:2.4cqw}
+.hm2-b{gap:.8cqw;padding:2.6cqw 0 2.8cqw;font-size:max(13px,4.3cqw)}
+.hm2-b .ico.big{width:13cqw;height:13cqw}.hm2-b .ico-e.big{font-size:10cqw}
+.hm2 .hm2-gacha.orn{padding:3cqw 2cqw}
+.hm2-pack .ico.pack{max-width:30cqw}
+.hm2-plate{font-size:5.8cqw;padding:1cqw 0}
+.hm2-price{font-size:max(9.5px,2.6cqw);padding:1cqw 0}
+@media(max-height:780px){.hm2-tag{margin-top:9cqw}}
+@media(max-height:700px){.hm2-tag{margin-top:4cqw}.hm2-grid{padding-top:3cqw}}
